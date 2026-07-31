@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+
+# The large dataset and generated outputs are mounted at runtime, not baked in.
+data/
+results/
+
+# Model/tokenizer caches
+.cache/
+
+# VCS and local tooling
+.git/
+.gitignore
+
+# Editor / OS cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Project documents
+*.docx
+todo.md
+~$*.docx
+
+# Docker files themselves
+Dockerfile
+.dockerignore
+docker-compose.yml

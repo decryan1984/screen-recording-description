@@ -1,0 +1,69 @@
+# Sandboxed run of the pipeline: isolates untrusted-video decoding, nothing exposed inbound.
+
+services:
+  pipeline:
+    build:
+      context: .
+    image: screen-recording-description:latest
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      OLLAMA_BASE_URL: "http://host.docker.internal:11434"
+      # BERTScore reads roberta-large from the host cache; never contacts HuggingFace.
+      HF_HOME: /opt/hf-cache
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+    volumes:
+      - ./data:/app/data:ro
+      - ./results:/app/results
+      - model-cache:/home/appuser/.cache
+      - ${HOME}/.cache/huggingface:/opt/hf-cache:ro
+    read_only: true
+    tmpfs:
+      - /tmp:size=512m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 8g
+    pids_limit: 512
+    # No ports: run on demand, e.g. `docker compose run --rm pipeline --videos 457`
+
+  # Dashboard, reachable only from the host at http://127.0.0.1:8501
+  dashboard:
+    build:
+      context: .
+    image: screen-recording-description:latest
+    entrypoint:
+      - streamlit
+      - run
+      - src/screen_recording_description/results.py
+      - --server.address=0.0.0.0
+      - --server.port=8501
+      - --server.headless=true
+      - --browser.gatherUsageStats=false
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - ./results:/app/results:ro
+      - model-cache:/home/appuser/.cache
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+      - /home/appuser/.streamlit:size=16m,uid=10001,gid=10001
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 2g
+    pids_limit: 256
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8501/_stcore/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    profiles:
+      - dashboard
+
+volumes:
+  model-cache:

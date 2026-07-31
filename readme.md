@@ -42,14 +42,55 @@ source .venv/bin/activate
 pip install -e .                 # core pipeline
 pip install -e ".[dashboard]"    # add Streamlit dashboard deps
 ```
-4. **(Optional) Gemini** — to include the parallel cloud run, export an API key:
-```bash
-export GEMINI_API_KEY=your_key_here
-```
-Gemini is off by default. To include it, set `GEMINI_API_KEY` (**required**) and pass `--run-online-inference`.
-Without the API key set, the online run is automatically skipped.
+4. **(Optional) Gemini** — to include the parallel cloud inference, set `GEMINI_API_KEY` in `src/screen_recording_description/config.py` (keep it empty in version control and fill it in locally only).
+Gemini is off by default. To include it, set `GEMINI_API_KEY` and pass `--run-online-inference`.
+Without a key set, the online run is automatically skipped.
 
-Ollama handles quantization and Apple Silicon (Metal) GPU acceleration automatically.
+## Running in Docker (sandboxed)
+
+Runs the pipeline in a locked-down container. Ollama stays on the host (for GPU) and the container connects to it.
+
+Start Ollama on the host, bound to all interfaces so the container can reach it:
+
+```bash
+OLLAMA_HOST=0.0.0.0 ollama serve
+ollama pull qwen3.5:4b && ollama pull gemma3:4b && ollama pull phi4:14b
+```
+
+Build the image:
+
+```bash
+docker compose build
+```
+
+Process a video:
+
+```bash
+docker compose run --rm pipeline --videos 457
+docker compose run --rm pipeline --videos 457 --full-param-run
+docker compose run --rm pipeline --model all --videos all-eligible-videos --full-param-run
+```
+
+The dataset is mounted read-only from `./data`; results are written to `./results`.
+
+The evaluation step (BERTScore) uses `roberta-large`. The container reads it from your
+host HuggingFace cache (`~/.cache/huggingface`, mounted read-only) and runs offline, so it
+never downloads models itself. Make sure the model is cached on the host first — e.g. from a
+host (non-Docker) run, or `huggingface-cli download roberta-large`.
+
+To use Gemini, set `GEMINI_API_KEY` in `src/screen_recording_description/config.py`, then:
+
+```bash
+docker compose run --rm pipeline --videos 457 --run-online-inference
+```
+
+Explore results in the dashboard at http://127.0.0.1:8501:
+
+```bash
+docker compose --profile dashboard up dashboard
+```
+
+On Linux, if you hit permission errors writing to `./results`, run `sudo chown 10001:10001 results`.
 
 ## Video Dataset
 
