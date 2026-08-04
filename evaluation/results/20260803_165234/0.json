@@ -1,0 +1,130 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/0.mp4",
+  "total_frames": 138,
+  "fps": 24.0,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 138,
+  "frames_processed": 2,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "summary": "INTENT: The user is editing a photograph of a person in Adobe Photoshop 2020, likely adjusting layers or applying filters to modify the image appearance.\n\nTIMELINE:\n[Frame 1] [0.04s] The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The interface shows various tools and panels typical of Photoshop, including the Layers panel, Color panel, and Properties panel. There is no visible text being actively typed or entered by the user in the current screenshot.\n[Frame 138] [5.75s] The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The current action involves selecting or adjusting the image using tools from the toolbar on the left side of the screen. Visible text includes:\n\n- \"Photoshop\"\n- \"File Edit Image Layer Type Select Filter 3D View Help\"\n- \"Adobe Photoshop 2020\"\n- \"Insta picture @ 110% (Layer 2, RGB/8) *\"\n- \"Mode: Normal Opacity: 100% Reverse Dither Transparency\"\n- \"Color Swatche\"",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.04,
+        "latency_sec": 4.74,
+        "frame_description": "The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The interface shows various tools and panels typical of Photoshop, including the Layers panel, Color panel, and Properties panel. There is no visible text being actively typed or entered by the user in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 138,
+        "timestamp_sec": 5.75,
+        "latency_sec": 8.63,
+        "frame_description": "The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The current action involves selecting or adjusting the image using tools from the toolbar on the left side of the screen. Visible text includes:\n\n- \"Photoshop\"\n- \"File Edit Image Layer Type Select Filter 3D View Help\"\n- \"Adobe Photoshop 2020\"\n- \"Insta picture @ 110% (Layer 2, RGB/8) *\"\n- \"Mode: Normal Opacity: 100% Reverse Dither Transparency\"\n- \"Color Swatches Gradients Patterns\"\n- \"Properties Adjustments\"\n- \"Add an adjustment\"\n- \"Layer 2 Layer 1 DSC00984 Background\"\n- \"1080 px x 1350 px (300 ppi)\"\n\nThe user appears to be focused on refining the image's appearance, possibly through color adjustments or layer manipulations.",
+        "prompt_tokens": 993,
+        "completion_tokens": 219
+      }
+    ],
+    "intent": "The user is editing a photograph of a person in Adobe Photoshop 2020, likely adjusting layers or applying filters to modify the image appearance.",
+    "filtered_timeline": "[Frame 1] [0.04s] The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The interface shows various tools and panels typical of Photoshop, including the Layers panel, Color panel, and Properties panel. There is no visible text being actively typed or entered by the user in the current screenshot.\n[Frame 138] [5.75s] The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The current action involves selecting or adjusting the image using tools from the toolbar on the left side of the screen. Visible text includes:\n- \"Photoshop\"\n- \"File Edit Image Layer Type Select Filter 3D View Help\"\n- \"Adobe Photoshop 2020\"\n- \"Insta picture @ 110% (Layer 2, RGB/8) *\"\n- \"Mode: Normal Opacity: 100% Reverse Dither Transparency\"\n- \"Color Swatche\"",
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Create a new blank layer",
+      "reference_caption": "Adding a New Layer in Adobe Photoshop 2020 on macOS",
+      "reference_apps": [
+        "PS"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 85,
+          "sub_goal": "New layer",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 135,
+          "sub_goal": "Layer created successfully",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective of editing a photograph in Adobe Photoshop, specifically focusing on layer manipulation and adjustments. The timeline details such as 'Layer 2' and actions related to adjusting layers align with the goal of creating a new blank layer and making non-destructive edits. There are no contradictions in the named details."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes and ground truth information. Frame 1 correctly identifies the user working in Adobe Photoshop 2020 without any fabricated actions, aligning with the initial setup of the video. Frame 138 describes the interface elements and potential actions related to layer manipulation, which is consistent with creating a new layer as described in the keyframes. There are no contradictions or invented interactions present."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 2,
+          "total": 3,
+          "covered_actions": [
+            1
+          ],
+          "covered_apps": [
+            "PS"
+          ],
+          "reasoning": "The AI timeline describes actions related to image editing in Photoshop, including tool selection and layer adjustments, which align with the creation of a new layer as described in the keyframes. However, it does not explicitly mention the successful creation of a layer."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline consists of only two frames, both providing similar information about the user editing an image in Adobe Photoshop. The second frame adds some details about visible text and potential actions but largely repeats the context established in the first frame."
+        }
+      },
+      "composite_score": 15.67,
+      "max_score": 20,
+      "latency_sec": 48.77
+    },
+    "bertscore": {
+      "precision": 0.8133,
+      "recall": 0.8545,
+      "f1": 0.8334,
+      "num_references": 3,
+      "latency_sec": 15.71
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2701,
+        "recall": 0.5341,
+        "f1": 0.3588
+      },
+      "rouge2": {
+        "precision": 0.0694,
+        "recall": 0.1379,
+        "f1": 0.0923
+      },
+      "rougeL": {
+        "precision": 0.1494,
+        "recall": 0.2955,
+        "f1": 0.1985
+      },
+      "num_references": 3,
+      "latency_sec": 0.0192
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 86.3,
+      "total_vlm_inference_sec": 13.37,
+      "summary_latency_sec": 8.41,
+      "frames_processed": 2,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.69,
+      "median_frame_latency_sec": 6.69,
+      "min_frame_latency_sec": 4.74,
+      "max_frame_latency_sec": 8.63,
+      "avg_description_length_chars": 566,
+      "total_prompt_tokens": 2438,
+      "total_completion_tokens": 570,
+      "avg_completion_tokens_per_sec": 21.8
+    }
+  }
+}

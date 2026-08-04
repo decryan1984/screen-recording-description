@@ -1,5 +1,5 @@
 """Streamlit dashboard for viewing description and evaluation results.
-    Launch with: streamlit run src/screen_recording_description/results.py
+    Launch with: streamlit run src/screen_recording_description/results_dashboard.py
 """
 
 import glob
@@ -103,7 +103,8 @@ def get_formatted_number(value, decimals=4):
 
 
 def get_bar_height(n_groups, n_series=1, px_per_bar=18):
-    return int(max(120, n_groups * (n_series * px_per_bar + 10) + 40))
+    # Floor keeps single/low-variant charts from collapsing to a thin strip.
+    return int(max(220, n_groups * (n_series * px_per_bar + 10) + 40))
 
 
 def get_horizontal_bar_chart(df, value_cols, order, height, x_title="", color_field=None, color_domain=None):
@@ -117,22 +118,41 @@ def get_horizontal_bar_chart(df, value_cols, order, height, x_title="", color_fi
     if color_field and color_field != "Variant":
         tooltip.append(f"{color_field}:N")
     tooltip += ["Metric:N", alt.Tooltip("Value:Q", format=".2f")]
+    n_variants = long_df["Variant"].nunique()
+    multi = len(value_cols) > 1
     encoding = {
-        "y": alt.Y("Variant:N", sort=list(order), title=None, axis=alt.Axis(labelLimit=0)),
         "x": alt.X("Value:Q", title=x_title or None),
         "tooltip": tooltip,
     }
-    if len(value_cols) > 1:
-        encoding["yOffset"] = alt.YOffset("Metric:N")
-        encoding["color"] = alt.Color("Metric:N", title=None,
-                                      scale=alt.Scale(scheme=COLOR_SCHEME),
-                                      legend=alt.Legend(orient="bottom"))
-    elif color_field:
-        encoding["color"] = alt.Color(f"{color_field}:N", title=color_field,
-                                      scale=alt.Scale(domain=color_domain, scheme=COLOR_SCHEME)
-                                      if color_domain else alt.Scale(scheme=COLOR_SCHEME),
-                                      legend=alt.Legend(orient="bottom"))
-    return alt.Chart(long_df).mark_bar().encode(**encoding).properties(height=height)
+    if multi and n_variants == 1:
+        # A lone variant collapses the yOffset sub-bands (bars overlap), so put
+        # each metric on its own row instead — that fills the height cleanly.
+        metric_order = [c.replace("Avg ", "") for c in value_cols]
+        encoding["y"] = alt.Y("Metric:N", sort=metric_order, title=None,
+                              axis=alt.Axis(labelLimit=0))
+        encoding["color"] = alt.Color("Metric:N", sort=metric_order, title=None,
+                                      scale=alt.Scale(scheme=COLOR_SCHEME), legend=None)
+        mark = alt.Chart(long_df).mark_bar()
+    else:
+        encoding["y"] = alt.Y("Variant:N", sort=list(order), title=None,
+                              axis=alt.Axis(labelLimit=0))
+        if multi:
+            encoding["yOffset"] = alt.YOffset("Metric:N")
+            encoding["color"] = alt.Color("Metric:N", title=None,
+                                          scale=alt.Scale(scheme=COLOR_SCHEME),
+                                          legend=alt.Legend(orient="bottom"))
+        elif color_field:
+            encoding["color"] = alt.Color(f"{color_field}:N", title=color_field,
+                                          scale=alt.Scale(domain=color_domain, scheme=COLOR_SCHEME)
+                                          if color_domain else alt.Scale(scheme=COLOR_SCHEME),
+                                          legend=alt.Legend(orient="bottom"))
+        # A single-series lone/low-variant bar would stretch to fill the whole
+        # band; cap its thickness so the taller chart shows a normal bar.
+        if not multi and n_variants <= 2:
+            mark = alt.Chart(long_df).mark_bar(size=40)
+        else:
+            mark = alt.Chart(long_df).mark_bar()
+    return mark.encode(**encoding).properties(height=height)
 
 
 def get_all_runs():

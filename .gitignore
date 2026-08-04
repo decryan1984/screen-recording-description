@@ -14,15 +14,15 @@ __pycache__/
 build/
 dist/
 
-# Data (ignore everything except the readme)
-data/*
-!data/readme.md
+# Evaluation dataset (ignore everything except the readme)
+evaluation/data/*
+!evaluation/data/readme.md
+
+# Service runtime outputs
+output/
 
 # macOS
 .DS_Store
 
-# Project documents (TODO, proposal, technical report)
-todo.md
-Declan Ryan Capstone Proposal.docx
-technical_report.docx
-~$*.docx
+# Docs (proposal, technical report, todo)
+docs/

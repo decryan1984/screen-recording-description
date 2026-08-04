@@ -1,6 +1,53 @@
-# Sandboxed run of the pipeline: isolates untrusted-video decoding, nothing exposed inbound.
+# Sandboxed services. `docker compose up` starts the processing service.
+#
+# INPUT_DIR: host directory videos are read from, mounted at the same path in the
+# container so absolute paths match. Defaults to the repo root (run compose from
+# there); override with `INPUT_DIR=/data docker compose up`.
+
+# Stable project name so container names don't depend on the folder.
+name: screen-recording-description
 
 services:
+  # Processing service (submission API + in-process worker) on http://127.0.0.1:8000.
+  api:
+    build:
+      context: .
+    image: screen-recording-description:latest
+    entrypoint: ["uvicorn", "screen_recording_description.service:app",
+                 "--host", "0.0.0.0", "--port", "8000"]
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      OLLAMA_BASE_URL: "http://host.docker.internal:11434"
+      # BERTScore reads roberta-large from the host cache; never contacts HuggingFace.
+      HF_HOME: /opt/hf-cache
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ${INPUT_DIR:-${PWD}}:${INPUT_DIR:-${PWD}}:ro
+      - ./output:/app/output
+      - model-cache:/home/appuser/.cache
+      - ${HOME}/.cache/huggingface:/opt/hf-cache:ro
+    read_only: true
+    tmpfs:
+      - /tmp:size=512m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 8g
+    pids_limit: 512
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  # On-demand batch run over the GUI-World dataset (the original CLI).
+  # `docker compose run --rm pipeline --videos 457`
   pipeline:
     build:
       context: .
@@ -14,8 +61,8 @@ services:
       HF_HUB_OFFLINE: "1"
       TRANSFORMERS_OFFLINE: "1"
     volumes:
-      - ./data:/app/data:ro
-      - ./results:/app/results
+      - ./evaluation/data:/app/evaluation/data:ro
+      - ./evaluation/results:/app/evaluation/results
       - model-cache:/home/appuser/.cache
       - ${HOME}/.cache/huggingface:/opt/hf-cache:ro
     read_only: true
@@ -27,9 +74,12 @@ services:
       - no-new-privileges:true
     mem_limit: 8g
     pids_limit: 512
-    # No ports: run on demand, e.g. `docker compose run --rm pipeline --videos 457`
+    profiles:
+      - batch
 
-  # Dashboard, reachable only from the host at http://127.0.0.1:8501
+  # OPTIONAL: containerised results dashboard on http://127.0.0.1:8501.
+  # Prefer running locally (`streamlit run results_dashboard.py`); needs --build.
+  # Start with: docker compose --profile dashboard up --build dashboard
   dashboard:
     build:
       context: .
@@ -37,7 +87,7 @@ services:
     entrypoint:
       - streamlit
       - run
-      - src/screen_recording_description/results.py
+      - src/screen_recording_description/results_dashboard.py
       - --server.address=0.0.0.0
       - --server.port=8501
       - --server.headless=true
@@ -45,7 +95,7 @@ services:
     ports:
       - "127.0.0.1:8501:8501"
     volumes:
-      - ./results:/app/results:ro
+      - ./evaluation/results:/app/evaluation/results:ro
       - model-cache:/home/appuser/.cache
     read_only: true
     tmpfs:
@@ -64,6 +114,49 @@ services:
       retries: 3
     profiles:
       - dashboard
+
+  # OPTIONAL: containerised service-metrics dashboard on http://127.0.0.1:8502.
+  # Polls the api service's /metrics over the compose network.
+  # Prefer running locally (`streamlit run service_dashboard.py`); needs --build.
+  # Start with: docker compose --profile metrics up --build metrics-dashboard
+  metrics-dashboard:
+    build:
+      context: .
+    image: screen-recording-description:latest
+    entrypoint:
+      - streamlit
+      - run
+      - src/screen_recording_description/service_dashboard.py
+      - --server.address=0.0.0.0
+      - --server.port=8502
+      - --server.headless=true
+      - --browser.gatherUsageStats=false
+    environment:
+      API_URL: "http://api:8000"
+    ports:
+      - "127.0.0.1:8502:8502"
+    depends_on:
+      - api
+    volumes:
+      # Read-only run outputs for the run-detail view.
+      - ./output:/app/output:ro
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+      - /home/appuser/.streamlit:size=16m,uid=10001,gid=10001
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 512m
+    pids_limit: 256
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8502/_stcore/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    profiles:
+      - metrics
 
 volumes:
   model-cache:

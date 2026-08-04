@@ -45,6 +45,19 @@ from .llm_inference import (
 from .online_inference import start_online_worker
 
 
+def _video_length_sec(video_stream, container):
+    """Video duration in seconds, taken directly from the demuxer.
+
+    Prefers the video stream's own duration; falls back to the container
+    duration (in microseconds). Returns None if neither is reported.
+    """
+    if video_stream.duration is not None:
+        return round(float(video_stream.duration * video_stream.time_base), 2)
+    if container.duration is not None:
+        return round(container.duration / 1_000_000, 2)  # AV_TIME_BASE = 1e6
+    return None
+
+
 def describe_frame(frame_bgr, frame_idx, timestamp_sec, inference_func, prompt,
                    max_frame_width=MAX_FRAME_WIDTH, max_tokens=MAX_TOKENS):
     """Run VLM inference on a single frame and return a timeline entry."""
@@ -250,8 +263,12 @@ def _run_evaluation(video_path, intent, timeline, model_block, result, output_js
         print(f"{prefix}Updated {output_json_path} with ROUGE.")
 
 
-def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None):
-    """Process a video file end-to-end: describe selected frames and generate a summary."""
+def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, evaluate=True):
+    """Process a video file end-to-end: describe selected frames and generate a summary.
+
+    evaluate=True (evaluation mode) scores the summary against reference
+    annotations; evaluate=False (service mode) skips scoring entirely.
+    """
     model_name = model_name or MODEL_NAME
     diff_threshold = DEFAULT_FRAME_DIFF_THRESHOLD
     video_name = os.path.splitext(os.path.basename(video_path))[0]
@@ -266,6 +283,7 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None):
     total_frames = video_stream.frames
     fps = float(video_stream.average_rate)
     width, height = video_stream.width, video_stream.height
+    video_length_sec = _video_length_sec(video_stream, input_container)
 
     min_interval = 1.0 / MAX_FPS if MAX_FPS > 0 else 0.0
 
@@ -355,6 +373,7 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None):
         "video": video_path,
         "total_frames": total_frames,
         "fps": fps,
+        "video_length_sec": video_length_sec,
         "resolution": f"{width}x{height}",
         "reduced_resolution": reduced_res,
         "frames_decoded": frame_count,
@@ -391,7 +410,8 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None):
         print(intent)
 
         eval_start = time.perf_counter()
-        _run_evaluation(video_path, intent, timeline, result["vlm"], result, output_json_path)
+        if evaluate:
+            _run_evaluation(video_path, intent, timeline, result["vlm"], result, output_json_path)
         eval_latency = time.perf_counter() - eval_start
 
     # Compute and save performance metrics

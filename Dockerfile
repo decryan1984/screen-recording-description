@@ -1,5 +1,3 @@
-# syntax=docker/dockerfile:1
-
 FROM python:3.12-slim-bookworm AS builder
 
 ENV PIP_NO_CACHE_DIR=1
@@ -18,7 +16,7 @@ COPY src ./src
 # Install CPU-only torch first so bert-score reuses it instead of pulling the
 # multi-GB CUDA build (no GPU is available to the container).
 RUN pip install --index-url https://download.pytorch.org/whl/cpu torch \
- && pip install -e ".[dashboard]"
+ && pip install -e ".[dashboard,api]"
 
 FROM python:3.12-slim-bookworm AS runtime
 
@@ -39,7 +37,7 @@ COPY --from=builder /opt/venv /opt/venv
 WORKDIR /app
 COPY --from=builder /app /app
 
-RUN mkdir -p /app/data /app/results /home/appuser/.cache \
+RUN mkdir -p /app/evaluation/data /app/evaluation/results /app/output /home/appuser/.cache \
  && chown -R appuser:appuser /app /home/appuser
 
 USER appuser

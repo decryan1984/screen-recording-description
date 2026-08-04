@@ -12,26 +12,20 @@ __pycache__/
 build/
 dist/
 
-# The large dataset and generated outputs are mounted at runtime, not baked in.
-data/
-results/
+evaluation/
+output/
 
-# Model/tokenizer caches
 .cache/
 
-# VCS and local tooling
 .git/
 .gitignore
 
-# Editor / OS cruft
 .DS_Store
 .vscode/
 .idea/
 
-# Project documents
-*.docx
-todo.md
-~$*.docx
+# Docs
+docs/
 
 # Docker files themselves
 Dockerfile

@@ -200,29 +200,40 @@ EVAL_PROMPT_NON_REPETITION = (
     "5 = Few or no redundant entries, relative to the timeline's length\n\n"
     "Respond with ONLY valid JSON: {{\"reasoning\": \"<one or two sentences>\", \"score\": <int>}}"
 )
-# Results directory (relative to project root)
-RESULTS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "results")
+# Project root (the directory containing src/, evaluation/, output/).
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Evaluation-mode (batch/CLI) results — read by the dashboard.
+RESULTS_DIR = os.path.join(PROJECT_ROOT, "evaluation", "results")
 
 # ---------------------
 # DATASET
 # ---------------------
 
+# Evaluation dataset lives under evaluation/data.
+EVAL_DATA_DIR = os.path.join(PROJECT_ROOT, "evaluation", "data")
 # Path to the GUI-World multi-video directory
-GUI_WORLD_VIDEO_DIR = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-    "data", "GUI-World", "multi",
-)
+GUI_WORLD_VIDEO_DIR = os.path.join(EVAL_DATA_DIR, "GUI-World", "multi")
 # Videos to exclude from batch runs.
 # 189–242: VR footage
 # 243–425: GitLab full screen presentations
 GUI_WORLD_BLACKLIST = set(range(189, 243)) | set(range(243, 426))
 GUI_WORLD_MIN_VIDEO_LENGTH_SEC = 30  # seconds
 # Paths to the GUI-World annotations JSONL files (train + benchmark)
-GUI_WORLD_DATA_DIR = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-    "data", "GUI-World", "Annotation",
-)
+GUI_WORLD_DATA_DIR = os.path.join(EVAL_DATA_DIR, "GUI-World", "Annotation")
 GUI_WORLD_ANNOTATIONS = [
     os.path.join(GUI_WORLD_DATA_DIR, "train", "multi.jsonl"),
     os.path.join(GUI_WORLD_DATA_DIR, "benchmark", "multi.jsonl"),
 ]
+
+# ---------------------
+# SERVICE
+# ---------------------
+
+# Accepted video extensions.
+ALLOWED_VIDEO_EXTENSIONS = {".mp4", ".mkv", ".mov", ".webm", ".avi", ".m4v"}
+# Reject files larger than this before decoding.
+MAX_VIDEO_BYTES = int(os.environ.get("MAX_VIDEO_BYTES", str(2 * 1024 ** 3)))
+
+SERVICE_ROOT = os.path.join(PROJECT_ROOT, "output")
+SERVICE_RUNS_DIR = os.path.join(SERVICE_ROOT, "runs")

@@ -17,11 +17,16 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-# Only needed for the Streamlit results dashboard (results.py)
+# Only needed for the Streamlit results dashboard (results_dashboard.py)
 dashboard = [
     "streamlit>=1.30.0",
     "pandas>=2.0.0",
     "altair>=5.0.0",
+]
+# Only needed for the FastAPI submission service (service.py)
+api = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
 ]
 
 [project.scripts]
