@@ -1,14 +1,14 @@
 # Sandboxed services. `docker compose up` starts the processing service.
 #
-# INPUT_DIR: host directory videos are read from, mounted at the same path in the
-# container so absolute paths match. Defaults to the repo root (run compose from
-# there); override with `INPUT_DIR=/data docker compose up`.
+# INPUT_DIR: host directory videos are read from and mounted at the same path in the container
+# so absolute paths match. Defaults to the repo root (run compose from
+# there). Override with `INPUT_DIR=/data docker compose up`.
 
 # Stable project name so container names don't depend on the folder.
 name: screen-recording-description
 
 services:
-  # Processing service (submission API + in-process worker) on http://127.0.0.1:8000.
+  # Processing service (API + in-process worker) on http://127.0.0.1:8000.
   api:
     build:
       context: .
@@ -19,17 +19,12 @@ services:
       - "host.docker.internal:host-gateway"
     environment:
       OLLAMA_BASE_URL: "http://host.docker.internal:11434"
-      # BERTScore reads roberta-large from the host cache; never contacts HuggingFace.
-      HF_HOME: /opt/hf-cache
-      HF_HUB_OFFLINE: "1"
-      TRANSFORMERS_OFFLINE: "1"
     ports:
       - "127.0.0.1:8000:8000"
     volumes:
       - ${INPUT_DIR:-${PWD}}:${INPUT_DIR:-${PWD}}:ro
       - ./output:/app/output
       - model-cache:/home/appuser/.cache
-      - ${HOME}/.cache/huggingface:/opt/hf-cache:ro
     read_only: true
     tmpfs:
       - /tmp:size=512m,mode=1777
@@ -56,15 +51,10 @@ services:
       - "host.docker.internal:host-gateway"
     environment:
       OLLAMA_BASE_URL: "http://host.docker.internal:11434"
-      # BERTScore reads roberta-large from the host cache; never contacts HuggingFace.
-      HF_HOME: /opt/hf-cache
-      HF_HUB_OFFLINE: "1"
-      TRANSFORMERS_OFFLINE: "1"
     volumes:
       - ./evaluation/data:/app/evaluation/data:ro
       - ./evaluation/results:/app/evaluation/results
       - model-cache:/home/appuser/.cache
-      - ${HOME}/.cache/huggingface:/opt/hf-cache:ro
     read_only: true
     tmpfs:
       - /tmp:size=512m,mode=1777
@@ -78,7 +68,7 @@ services:
       - batch
 
   # OPTIONAL: containerised results dashboard on http://127.0.0.1:8501.
-  # Prefer running locally (`streamlit run results_dashboard.py`); needs --build.
+  # Preferably run locally (`streamlit run results_dashboard.py`) as it is faster and easier to debug.
   # Start with: docker compose --profile dashboard up --build dashboard
   dashboard:
     build:
@@ -117,7 +107,7 @@ services:
 
   # OPTIONAL: containerised service-metrics dashboard on http://127.0.0.1:8502.
   # Polls the api service's /metrics over the compose network.
-  # Prefer running locally (`streamlit run service_dashboard.py`); needs --build.
+  # NOTE - This is slow so ideally run locally with streamlit instead(`streamlit run service_dashboard.py`).
   # Start with: docker compose --profile metrics up --build metrics-dashboard
   metrics-dashboard:
     build:

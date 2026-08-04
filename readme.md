@@ -1,6 +1,6 @@
 # Screen Recording Description Service
 
-Generates text descriptions and summaries of desktop screen recordings using local Vision Language Models (defaults are **qwen3.5:4b** and **gemma3:4b**, served via **Ollama**) and, optionally, **Gemini** in the cloud. Outputs are scored by an LLM-as-judge (**phi4:14b**) plus BERTScore/ROUGE and can be explored in a Streamlit dashboard.
+Generates text descriptions and summaries of desktop screen recordings using local Vision Language Models (defaults are **qwen3.5:4b** and **gemma3:4b**, served via **Ollama**) and, optionally, **Gemini** in the cloud. Outputs are scored by an LLM-as-judge (**phi4:14b**) plus ROUGE and can be explored in a Streamlit dashboard.
 
 ## Project Structure
 
@@ -11,7 +11,7 @@ Generates text descriptions and summaries of desktop screen recordings using loc
 │   ├── pipeline.py           # Video processing orchestration
 │   ├── vlm_inference.py      # Local Ollama VLM: frame inference, differencing, summarisation
 │   ├── online_inference.py   # Gemini (cloud VLM) inference worker
-│   ├── llm_inference.py      # LLM-as-judge evaluation + BERTScore/ROUGE scoring
+│   ├── llm_inference.py      # LLM-as-judge evaluation + ROUGE scoring
 │   ├── service.py            # Single service: submission API + in-process worker
 │   ├── results_dashboard.py  # Streamlit dashboard for exploring evaluation results
 │   └── service_dashboard.py  # Streamlit dashboard for live service metrics
@@ -27,7 +27,7 @@ Generates text descriptions and summaries of desktop screen recordings using loc
 | `pipeline.py` | Decode video, select key frames, describe each, summarise, evaluate |
 | `vlm_inference.py` | Run per-frame Ollama inference, compute frame diffs, summarise timelines |
 | `online_inference.py` | Parallel Gemini inference worker |
-| `llm_inference.py` | Load annotations, LLM-as-judge scoring, BERTScore/ROUGE |
+| `llm_inference.py` | Load annotations, LLM-as-judge scoring, ROUGE |
 | `__main__.py` | CLI argument parsing and dispatch (evaluation mode) |
 | `service.py` | Single service (service mode): submit runs, in-process worker runs the pipeline, status + live metrics |
 | `results_dashboard.py` | Streamlit dashboard comparing models/variants |
@@ -62,7 +62,7 @@ The project runs in two modes, described below:
 
 ## Evaluation mode
 
-Batch-process the GUI-World dataset (or your own videos), score the outputs with the LLM-as-judge plus BERTScore/ROUGE, and compare models in a dashboard. Results are written to `evaluation/results/`.
+Batch-process the GUI-World dataset (or your own videos), score the outputs with the LLM-as-judge plus ROUGE, and compare models in a dashboard. Results are written to `evaluation/results/`.
 
 ### Dataset
 
@@ -98,8 +98,6 @@ docker compose run --rm pipeline --model all --videos all-eligible-videos --full
 ```
 
 The dataset is mounted read-only from `./evaluation/data`; results are written to `./evaluation/results`.
-
-The evaluation step (BERTScore) uses `roberta-large`. The container reads it from your host HuggingFace cache (`~/.cache/huggingface`, mounted read-only) and runs offline, so it never downloads models itself. Make sure the model is cached on the host first — e.g. from a host (non-Docker) run, or `huggingface-cli download roberta-large`.
 
 To use Gemini, set `GEMINI_API_KEY` in `src/screen_recording_description/config.py`, then:
 
@@ -267,7 +265,7 @@ Alongside the `<video>.json`, each run directory also contains a small companion
 artifact: **evaluation mode** writes `config.json` (the run's shared model params and
 prompts); **service mode** writes `status.json` per run (status, timings, video length —
 what the metrics dashboard's run history reads). In evaluation mode the model block
-additionally gains `evaluation` (LLM-judge), `bertscore`, and `rouge` sub-blocks; a
+additionally gains `evaluation` (LLM-judge) and `rouge` sub-blocks; a
 full parameter sweep produces several model blocks (e.g. `vlm_diff0.01`, `vlm_fullres`)
 and, with `--run-online-inference`, a `gemini` block.
 

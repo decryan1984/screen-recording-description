@@ -39,18 +39,13 @@ from .vlm_inference import (
 from .llm_inference import (
     get_annotations,
     get_summary_evaluation,
-    get_bertscore,
     get_rouge_scores,
 )
 from .online_inference import start_online_worker
 
 
 def _video_length_sec(video_stream, container):
-    """Video duration in seconds, taken directly from the demuxer.
-
-    Prefers the video stream's own duration; falls back to the container
-    duration (in microseconds). Returns None if neither is reported.
-    """
+    """Return the length of the video in seconds."""
     if video_stream.duration is not None:
         return round(float(video_stream.duration * video_stream.time_base), 2)
     if container.duration is not None:
@@ -238,17 +233,6 @@ def _run_evaluation(video_path, intent, timeline, model_block, result, output_js
     model_block["evaluation"] = evaluation
     _save(result, output_json_path)
     print(f"{prefix}Updated {output_json_path} with evaluation.")
-
-    print(f"\n{prefix}--- Evaluation (BERTScore) ---")
-    bert_result = get_bertscore(summary_text, annotations)
-    if bert_result:
-        print(
-            f"  {prefix}P={bert_result['precision']:.4f}  R={bert_result['recall']:.4f}  "
-            f"F1={bert_result['f1']:.4f}  ({bert_result['latency_sec']:.1f}s)"
-        )
-        model_block["bertscore"] = bert_result
-        _save(result, output_json_path)
-        print(f"{prefix}Updated {output_json_path} with BERTScore.")
 
     print(f"\n{prefix}--- Evaluation (ROUGE) ---")
     rouge_result = get_rouge_scores(summary_text, annotations)

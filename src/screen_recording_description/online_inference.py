@@ -27,7 +27,7 @@ from .config import (
     SUMMARY_MAX_DESC_CHARS,
 )
 from .vlm_inference import _get_downscaled_frame
-from .llm_inference import get_annotations, get_summary_evaluation, get_bertscore, get_rouge_scores
+from .llm_inference import get_annotations, get_summary_evaluation, get_rouge_scores
 
 def _get_gemini_url(model, method="generateContent"):
     return f"{GEMINI_API_URL}/{model}:{method}?key={GEMINI_API_KEY}"
@@ -233,16 +233,6 @@ def _process_frame_queue(frame_queue, video_path, output_json_path, total_frames
                 f"({evaluation['latency_sec']:.1f}s)"
             )
             gemini_block["evaluation"] = evaluation
-
-            print("  [Gemini] Running BERTScore...")
-            bert_result = get_bertscore(summary, annotations)
-            if bert_result:
-                print(
-                    f"  [Gemini] BERTScore P={bert_result['precision']:.4f}  "
-                    f"R={bert_result['recall']:.4f}  F1={bert_result['f1']:.4f}  "
-                    f"({bert_result['latency_sec']:.1f}s)"
-                )
-                gemini_block["bertscore"] = bert_result
 
             print("  [Gemini] Running ROUGE...")
             rouge_result = get_rouge_scores(summary, annotations)

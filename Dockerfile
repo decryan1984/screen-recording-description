@@ -13,10 +13,7 @@ WORKDIR /app
 
 COPY pyproject.toml ./
 COPY src ./src
-# Install CPU-only torch first so bert-score reuses it instead of pulling the
-# multi-GB CUDA build (no GPU is available to the container).
-RUN pip install --index-url https://download.pytorch.org/whl/cpu torch \
- && pip install -e ".[dashboard,api]"
+RUN pip install -e ".[dashboard,api]"
 
 FROM python:3.12-slim-bookworm AS runtime
 
@@ -26,7 +23,7 @@ ENV HOME=/home/appuser \
     PYTHONUNBUFFERED=1 \
     MPLCONFIGDIR=/home/appuser/.cache/matplotlib
 
-# libgomp1: OpenMP for torch/numpy. libglib2.0-0: opencv-python-headless.
+# libgomp1: OpenMP for numpy. libglib2.0-0: opencv-python-headless.
 RUN apt-get update \
  && apt-get install -y --no-install-recommends libgomp1 libglib2.0-0 \
  && rm -rf /var/lib/apt/lists/* \

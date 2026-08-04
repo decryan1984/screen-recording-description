@@ -1,4 +1,4 @@
-"""LLM-as-judge, BERTScore and ROUGE evaluation: scoring summaries against reference descriptions."""
+"""LLM-as-judge and ROUGE evaluation: scoring summaries against reference descriptions."""
 
 import json
 import os
@@ -6,7 +6,6 @@ import re
 import time
 
 import requests
-from bert_score import score as bert_score
 from rouge_score import rouge_scorer
 
 from .config import (
@@ -93,7 +92,7 @@ def get_annotations(video_path):
                         "apps": apps,
                         # Some GUI-World entries store descriptions as a list of
                         # strings rather than a single string; normalise to text
-                        # so downstream scorers (BERTScore, ROUGE) get str inputs.
+                        # so downstream scorers (ROUGE) get str inputs.
                         "description1": _get_text(entry.get("Description1", "")),
                         "description2": _get_text(entry.get("Description2", "")),
                         # QA fields
@@ -329,41 +328,6 @@ def get_summary_evaluation(summary, intent, timeline, annotations, eval_model=EV
         "composite_score": composite,
         "max_score": len(scored) * 5,
         "latency_sec": round(total_latency, 2),
-    }
-
-
-def get_bertscore(summary, annotations):
-    """Compute BERTScore of a summary against reference descriptions and keyframe sub-goals.
-
-    Returns a dict with precision, recall, and F1 scores (each the max across
-    the reference texts).
-    """
-    references = []
-    if annotations["description1"]:
-        references.append(annotations["description1"])
-    if annotations["description2"]:
-        references.append(annotations["description2"])
-    sub_goals = [kf.get("sub_goal", "") for kf in annotations.get("keyframes", []) if kf.get("sub_goal")]
-    if sub_goals:
-        references.append(" ".join(sub_goals))
-
-    if not references:
-        return None
-
-    start = time.perf_counter()
-    candidates = [summary] * len(references)
-    P, R, F1 = bert_score(candidates, references, lang="en", verbose=False)
-    latency = time.perf_counter() - start
-
-    # Take the max score across all references
-    best_idx = F1.argmax().item()
-
-    return {
-        "precision": round(P[best_idx].item(), 4),
-        "recall": round(R[best_idx].item(), 4),
-        "f1": round(F1[best_idx].item(), 4),
-        "num_references": len(references),
-        "latency_sec": round(latency, 2),
     }
 
 

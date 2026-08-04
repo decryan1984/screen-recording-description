@@ -18,8 +18,8 @@ from config import DEFAULT_FRAME_DIFF_THRESHOLD, GEMINI_MAX_TOKENS, MAX_FRAME_WI
 PINNED_COLUMNS = {"Variant": st.column_config.Column(pinned=True)}
 # Numeric columns default to 2 decimal places
 # Text similarity scores are set to 4 decimal places
-TEXT_SIMILARITY_COLUMNS = ["BERTScore F1", "ROUGE-1 F1",
-                           "Avg BERTScore F1", "Avg ROUGE-1 F1"]
+TEXT_SIMILARITY_COLUMNS = ["ROUGE-1 F1", "ROUGE-2 F1", "ROUGE-L F1",
+                           "Avg ROUGE-1 F1", "Avg ROUGE-2 F1", "Avg ROUGE-L F1"]
 TEXT_COLUMNS = {"Variant", "Model", "Resolution", "Frames", "Avg Frames"}
 COLUMN_FORMAT_OVERRIDES = {
     **{c: "{:.4f}" for c in TEXT_SIMILARITY_COLUMNS},
@@ -32,7 +32,8 @@ AVG_COLUMN_ALIASES = {
     "Time per Frame (sec)": "Avg Time per Frame (sec)",
     "Accuracy": "Avg Accuracy", "Coverage": "Avg Coverage",
     "Non-Repetition": "Avg Non-Repetition", "User Intent": "Avg User Intent",
-    "BERTScore F1": "Avg BERTScore F1", "ROUGE-1 F1": "Avg ROUGE-1 F1",
+    "ROUGE-1 F1": "Avg ROUGE-1 F1", "ROUGE-2 F1": "Avg ROUGE-2 F1",
+    "ROUGE-L F1": "Avg ROUGE-L F1",
 }
 PARAM_CHART_MIN_HEIGHT = 400
 COLOR_SCHEME = "tableau10"
@@ -103,7 +104,6 @@ def get_formatted_number(value, decimals=4):
 
 
 def get_bar_height(n_groups, n_series=1, px_per_bar=18):
-    # Floor keeps single/low-variant charts from collapsing to a thin strip.
     return int(max(220, n_groups * (n_series * px_per_bar + 10) + 40))
 
 
@@ -125,8 +125,7 @@ def get_horizontal_bar_chart(df, value_cols, order, height, x_title="", color_fi
         "tooltip": tooltip,
     }
     if multi and n_variants == 1:
-        # A lone variant collapses the yOffset sub-bands (bars overlap), so put
-        # each metric on its own row instead — that fills the height cleanly.
+        # A single variant collapses the bars and causes overlapping, so putting each metric on its own row instead.
         metric_order = [c.replace("Avg ", "") for c in value_cols]
         encoding["y"] = alt.Y("Metric:N", sort=metric_order, title=None,
                               axis=alt.Axis(labelLimit=0))
@@ -146,8 +145,6 @@ def get_horizontal_bar_chart(df, value_cols, order, height, x_title="", color_fi
                                           scale=alt.Scale(domain=color_domain, scheme=COLOR_SCHEME)
                                           if color_domain else alt.Scale(scheme=COLOR_SCHEME),
                                           legend=alt.Legend(orient="bottom"))
-        # A single-series lone/low-variant bar would stretch to fill the whole
-        # band; cap its thickness so the taller chart shows a normal bar.
         if not multi and n_variants <= 2:
             mark = alt.Chart(long_df).mark_bar(size=40)
         else:
@@ -279,8 +276,9 @@ def get_scores_table(data, variant_keys, config=None):
             "User Intent": get_nested_value(block, "evaluation", "scores", "intent", "score"),
             "Overall Score": overall_score,
             "Efficiency (pts/min)": efficiency,
-            "BERTScore F1": get_nested_value(block, "bertscore", "f1"),
             "ROUGE-1 F1": get_nested_value(block, "rouge", "rouge1", "f1"),
+            "ROUGE-2 F1": get_nested_value(block, "rouge", "rouge2", "f1"),
+            "ROUGE-L F1": get_nested_value(block, "rouge", "rougeL", "f1"),
         })
     return pd.DataFrame(rows)
 
@@ -434,7 +432,7 @@ def render_charts_and_effects(df):
                             width='stretch')
 
     with bottom_right:
-        similarity_cols = [c for c in ["BERTScore F1", "ROUGE-1 F1"] if c in df.columns]
+        similarity_cols = [c for c in ["ROUGE-1 F1", "ROUGE-2 F1", "ROUGE-L F1"] if c in df.columns]
         if similarity_cols and df[similarity_cols].notna().any().any():
             st.subheader("Text Similarity Scores")
             st.altair_chart(get_horizontal_bar_chart(df, similarity_cols, order, bottom_height, "Similarity"),
@@ -449,8 +447,9 @@ def render_charts_and_effects(df):
         "Coverage": "Coverage",
         "Non-Repetition": "Non-Repetition",
         "User Intent": "User Intent",
-        "BERTScore F1": "BERTScore F1",
         "ROUGE-1 F1": "ROUGE-1 F1",
+        "ROUGE-2 F1": "ROUGE-2 F1",
+        "ROUGE-L F1": "ROUGE-L F1",
     }
     metric_options = {k: v for k, v in metric_options.items()
                       if v in df.columns and df[v].notna().any()}
@@ -588,7 +587,7 @@ if selected_view == AGGREGATE_LABEL:
         intent_scores, accuracy_scores, coverage_scores, non_repetition_scores, overall_scores = [], [], [], [], []
         frame_counts, overall_times, per_frame_times = [], [], []
         total_frame_counts = []
-        bert_scores, rouge1_scores = [], []
+        rouge1_scores, rouge2_scores, rougeL_scores = [], [], []
 
         for video_data in run["videos"].values():
             block = video_data.get(key)
@@ -619,10 +618,12 @@ if selected_view == AGGREGATE_LABEL:
                 overall_times.append(vlm_time + (summary_time or 0))
                 if timeline: per_frame_times.append(vlm_time / len(timeline))
 
-            bert = get_nested_value(block, "bertscore", "f1")
-            if bert is not None: bert_scores.append(bert)
             rouge1 = get_nested_value(block, "rouge", "rouge1", "f1")
             if rouge1 is not None: rouge1_scores.append(rouge1)
+            rouge2 = get_nested_value(block, "rouge", "rouge2", "f1")
+            if rouge2 is not None: rouge2_scores.append(rouge2)
+            rougeL = get_nested_value(block, "rouge", "rougeL", "f1")
+            if rougeL is not None: rougeL_scores.append(rougeL)
 
         def average(values, decimals=2):
             return round(sum(values) / len(values), decimals) if values else None
@@ -657,8 +658,9 @@ if selected_view == AGGREGATE_LABEL:
             "User Intent": average(intent_scores),
             "Overall Score": avg_score,
             "Efficiency (pts/min)": efficiency,
-            "BERTScore F1": average(bert_scores, 4),
             "ROUGE-1 F1": average(rouge1_scores, 4),
+            "ROUGE-2 F1": average(rouge2_scores, 4),
+            "ROUGE-L F1": average(rougeL_scores, 4),
         })
 
     if config_rows:
@@ -669,7 +671,10 @@ if selected_view == AGGREGATE_LABEL:
                    "between consecutive screenshots, lower values means more frames are processed.  \n"
                    "**Accuracy**, **Coverage**, **Non-Repetition** and **User Intent** are each "
                    "scored from 1 to 5, **Overall Score** is out of 20.  \n"
-                   "**BERTScore** and **ROUGE** are text similarity scores from 0 to 1.  \n"
+                   "**ROUGE** measures word overlap with the reference (0 to 1) — "
+                   "**ROUGE-1**: shared single words (content), "
+                   "**ROUGE-2**: shared adjacent word pairs (phrasing), "
+                   "**ROUGE-L**: longest in-order matching run (structure).  \n"
                    "**Note** — Gemini requires approximately 4 times as many tokens "
                    "in order to generate similar output to the VLMs.")
         agg_display = config_df.rename(columns=AVG_COLUMN_ALIASES)
@@ -708,7 +713,10 @@ else:
                    "between consecutive screenshots; lower values process more frames (more sensitive to change).  \n"
                    "**Accuracy**, **Coverage**, **Non-Repetition** and **User Intent** are each "
                    "scored from 1 to 5, **Overall Score** is out of 20.  \n"
-                   "**BERTScore** and **ROUGE** are text similarity scores from 0 to 1.  \n"
+                   "**ROUGE** measures word overlap with the reference (0 to 1) — "
+                   "**ROUGE-1**: shared single words (content), "
+                   "**ROUGE-2**: shared adjacent word pairs (phrasing), "
+                   "**ROUGE-L**: longest in-order matching run (structure).  \n"
                    "**Note** — Gemini requires approximately 4 times as many tokens "
                    "in order to generate similar output to the VLMs.")
         st.dataframe(get_shaded_variant_groups(scores_df, scores_df),
