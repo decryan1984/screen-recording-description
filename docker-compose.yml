@@ -51,6 +51,8 @@ services:
       - "host.docker.internal:host-gateway"
     environment:
       OLLAMA_BASE_URL: "http://host.docker.internal:11434"
+      # Optional: forwarded from the host so --run-online-inference can reach Gemini.
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
     volumes:
       - ./evaluation/data:/app/evaluation/data:ro
       - ./evaluation/results:/app/evaluation/results
@@ -67,8 +69,9 @@ services:
     profiles:
       - batch
 
-  # OPTIONAL: containerised results dashboard on http://127.0.0.1:8501.
-  # Preferably run locally (`streamlit run results_dashboard.py`) as it is faster and easier to debug.
+  # OPTIONAL: containerised combined dashboard (Results and Service Metrics) on
+  # http://127.0.0.1:8501. Switch views from the sidebar. Faster and easier to 
+  # debug if run directly with Streamlit (`streamlit run src/screen_recording_description/dashboard.py`)
   # Start with: docker compose --profile dashboard up --build dashboard
   dashboard:
     build:
@@ -77,15 +80,20 @@ services:
     entrypoint:
       - streamlit
       - run
-      - src/screen_recording_description/results_dashboard.py
+      - src/screen_recording_description/dashboard.py
       - --server.address=0.0.0.0
       - --server.port=8501
       - --server.headless=true
       - --browser.gatherUsageStats=false
+    environment:
+      API_URL: "http://api:8000"
+    depends_on:
+      - api
     ports:
       - "127.0.0.1:8501:8501"
     volumes:
       - ./evaluation/results:/app/evaluation/results:ro
+      - ./output:/app/output:ro
       - model-cache:/home/appuser/.cache
     read_only: true
     tmpfs:
@@ -104,49 +112,6 @@ services:
       retries: 3
     profiles:
       - dashboard
-
-  # OPTIONAL: containerised service-metrics dashboard on http://127.0.0.1:8502.
-  # Polls the api service's /metrics over the compose network.
-  # NOTE - This is slow so ideally run locally with streamlit instead(`streamlit run service_dashboard.py`).
-  # Start with: docker compose --profile metrics up --build metrics-dashboard
-  metrics-dashboard:
-    build:
-      context: .
-    image: screen-recording-description:latest
-    entrypoint:
-      - streamlit
-      - run
-      - src/screen_recording_description/service_dashboard.py
-      - --server.address=0.0.0.0
-      - --server.port=8502
-      - --server.headless=true
-      - --browser.gatherUsageStats=false
-    environment:
-      API_URL: "http://api:8000"
-    ports:
-      - "127.0.0.1:8502:8502"
-    depends_on:
-      - api
-    volumes:
-      # Read-only run outputs for the run-detail view.
-      - ./output:/app/output:ro
-    read_only: true
-    tmpfs:
-      - /tmp:size=64m,mode=1777
-      - /home/appuser/.streamlit:size=16m,uid=10001,gid=10001
-    cap_drop:
-      - ALL
-    security_opt:
-      - no-new-privileges:true
-    mem_limit: 512m
-    pids_limit: 256
-    healthcheck:
-      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8502/_stcore/health')"]
-      interval: 30s
-      timeout: 5s
-      retries: 3
-    profiles:
-      - metrics
 
 volumes:
   model-cache:

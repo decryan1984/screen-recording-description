@@ -14,9 +14,28 @@ __pycache__/
 build/
 dist/
 
-# Evaluation dataset (ignore everything except the readme)
+# Evaluation dataset — ignore the data itself, but keep the readme and the
+# empty folder skeleton (.gitkeep placeholders) so the expected layout ships.
 evaluation/data/*
 !evaluation/data/readme.md
+!evaluation/data/GUI-World/
+
+evaluation/data/GUI-World/*
+!evaluation/data/GUI-World/multi/
+!evaluation/data/GUI-World/Annotation/
+
+evaluation/data/GUI-World/multi/*
+!evaluation/data/GUI-World/multi/.gitkeep
+
+evaluation/data/GUI-World/Annotation/*
+!evaluation/data/GUI-World/Annotation/train/
+!evaluation/data/GUI-World/Annotation/benchmark/
+
+evaluation/data/GUI-World/Annotation/train/*
+!evaluation/data/GUI-World/Annotation/train/.gitkeep
+
+evaluation/data/GUI-World/Annotation/benchmark/*
+!evaluation/data/GUI-World/Annotation/benchmark/.gitkeep
 
 # Service runtime outputs
 output/

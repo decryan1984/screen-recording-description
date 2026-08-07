@@ -10,9 +10,8 @@ from .config import (
     GUI_WORLD_BLACKLIST,
     GUI_WORLD_VIDEO_DIR,
     GUI_WORLD_MIN_VIDEO_LENGTH_SEC,
-    MODEL_NAME,
+    DEFAULT_VLM,
     RESULTS_DIR,
-    VLM_MODELS,
 )
 from .pipeline import (
     run_pipeline,
@@ -29,9 +28,10 @@ def main():
     )
     parser.add_argument(
         "--model",
+        nargs="+",
         default=None,
-        help="Ollama model to run, or 'all' for every model in VLM_MODELS "
-             "(default: config MODEL_NAME)",
+        help="One or more Ollama models to run (e.g. qwen3.5:4b qwen3.5:8b; "
+             "default: config DEFAULT_VLM)",
     )
     parser.add_argument(
         "--videos",
@@ -63,14 +63,8 @@ def main():
     else:
         video_paths = [get_video_path(v) for v in args.videos]
 
-    # Resolve the model list: 'all' runs every configured VLM, otherwise a
-    # single model (defaulting to config MODEL_NAME).
-    if args.model == "all":
-        models = VLM_MODELS
-    elif args.model:
-        models = [args.model]
-    else:
-        models = [MODEL_NAME]
+    # Resolve the model list: the given model(s), or config DEFAULT_VLM.
+    models = args.model if args.model else [DEFAULT_VLM]
 
     # Resolve thresholds once (shared by every video in the run)
     thresholds = DEFAULT_DIFF_THRESHOLD_VALUES if args.full_param_run else None

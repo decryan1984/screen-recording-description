@@ -12,20 +12,21 @@ import numpy as np
 import requests
 
 from .config import (
-    MODEL_NAME,
+    DEFAULT_VLM,
     OLLAMA_BASE_URL,
     MAX_TOKENS,
     TEMPERATURE,
     MAX_FRAME_WIDTH,
     FRAME_DESCRIPTION_PROMPT,
-    SUMMARY_PROMPT,
-    SUMMARY_CHUNK_SIZE,
-    SUMMARY_MAX_DESC_CHARS,
+    USER_INTENT_PROMPT,
+    INTENT_CHUNK_SIZE,
+    INTENT_MAX_DESC_CHARS,
+    INTENT_MAX_TOKENS,
     ENABLE_GRAYSCALE_CONVERSION,
 )
 
 
-def get_vlm(model_name=MODEL_NAME):
+def get_vlm(model_name=DEFAULT_VLM):
     """Verify the Ollama model is available and return an inference function.
     Returns an inference function and the model info dict.
     """
@@ -49,10 +50,46 @@ def get_vlm(model_name=MODEL_NAME):
     return inference_func, model_info
 
 
+def get_model_memory(model_name):
+    """Resident memory of a loaded Ollama model, in MB, from ``/api/ps``.
+
+    Returns ``model_memory_mb``, or ``None`` if Ollama is unreachable or the model isn't loaded.
+    """
+    try:
+        resp = requests.get(f"{OLLAMA_BASE_URL}/api/ps", timeout=5)
+        resp.raise_for_status()
+        for m in resp.json().get("models", []):
+            if model_name in (m.get("name"), m.get("model")):
+                size = m.get("size")
+                return {"model_memory_mb": round(size / 1024 / 1024) if size else None}
+    except requests.RequestException:
+        pass
+    return {"model_memory_mb": None}
+
+
+def get_model_params(model_name):
+    """Total parameter count of an Ollama model, from ``/api/show``.
+
+    Uses the ``model_info["general.parameter_count"]``, returns
+    ``{"model_params": None}`` if Ollama is unreachable or the field is missing.
+    """
+    try:
+        resp = requests.post(
+            f"{OLLAMA_BASE_URL}/api/show", json={"name": model_name}, timeout=5
+        )
+        resp.raise_for_status()
+        count = (resp.json().get("model_info") or {}).get("general.parameter_count")
+        if count:
+            return {"model_params": int(count)}
+    except (requests.RequestException, ValueError, TypeError):
+        pass
+    return {"model_params": None}
+
+
 def _get_downscaled_frame(frame, max_width):
     """Downscale a frame using the smallest integer ratio that keeps width <= max_width.
 
-    Integer ratios (2×, 3×, …) produce cleaner results than fractional scaling,
+    Integer ratios (2x, 3x, …) produce cleaner results than fractional scaling,
     especially for on-screen text.  If the frame is already at or below max_width,
     it is returned unchanged.
     """
@@ -158,7 +195,7 @@ def print_model_info(model_info):
             print(f"  {key}: {value}")
 
 
-def _get_prompt_response(text_prompt, model_name=MODEL_NAME, max_tokens=1024):
+def _get_prompt_response(text_prompt, model_name=DEFAULT_VLM, max_tokens=INTENT_MAX_TOKENS):
     """Send a text-only prompt to Ollama and return (response_text, metrics_dict)."""
     payload = {
         "model": model_name,
@@ -176,16 +213,16 @@ def _get_prompt_response(text_prompt, model_name=MODEL_NAME, max_tokens=1024):
     return data["response"], _get_metrics(data)
 
 
-def get_timeline_summary(
+def generate_user_intent(
     timeline,
-    model_name=MODEL_NAME,
-    max_entries_per_chunk=SUMMARY_CHUNK_SIZE,
-    max_desc_chars=SUMMARY_MAX_DESC_CHARS,
+    model_name=DEFAULT_VLM,
+    max_entries_per_chunk=INTENT_CHUNK_SIZE,
+    max_desc_chars=INTENT_MAX_DESC_CHARS,
 ):
-    """Generate a composite description of the full video from per-frame descriptions.
+    """Infer the user's overall intent from the per-frame descriptions.
 
-    For large timelines, splits entries into chunks, summarises each chunk,
-    then produces a final summary-of-summaries.
+    For large timelines, summarises entries in chunks then merges those partial
+    summaries into a single intent. Returns ``(intent_text, metrics_list)``.
     """
     if not timeline:
         return "", []
@@ -197,12 +234,12 @@ def get_timeline_summary(
 
     all_metrics = []
 
-    # If small enough, summarise in one pass
+    # If small enough, infer in one pass
     if len(entries) <= max_entries_per_chunk:
-        prompt = SUMMARY_PROMPT.format(entries="\n".join(entries))
+        prompt = USER_INTENT_PROMPT.format(entries="\n".join(entries))
         text, metrics = _get_prompt_response(prompt, model_name)
         all_metrics.append(metrics)
-        return text, all_metrics
+        return text.strip(), all_metrics
 
     chunk_summaries = []
     for i in range(0, len(entries), max_entries_per_chunk):
@@ -215,16 +252,16 @@ def get_timeline_summary(
             f"  Summarising chunk {len(chunk_summaries)+1} "
             f"({t_start}s – {t_end}s, {len(chunk)} entries)..."
         )
-        prompt = SUMMARY_PROMPT.format(entries="\n".join(chunk))
+        prompt = USER_INTENT_PROMPT.format(entries="\n".join(chunk))
         text, metrics = _get_prompt_response(prompt, model_name)
         chunk_summaries.append(text)
         all_metrics.append(metrics)
 
-    print(f"  Merging {len(chunk_summaries)} chunk summaries...")
+    print(f"  Merging {len(chunk_summaries)} chunk summaries into a final intent...")
     combined = "\n".join(
         f"[Part {i+1}] {s}" for i, s in enumerate(chunk_summaries)
     )
-    final_prompt = SUMMARY_PROMPT.format(entries=combined)
+    final_prompt = USER_INTENT_PROMPT.format(entries=combined)
     text, metrics = _get_prompt_response(final_prompt, model_name)
     all_metrics.append(metrics)
-    return text, all_metrics
+    return text.strip(), all_metrics

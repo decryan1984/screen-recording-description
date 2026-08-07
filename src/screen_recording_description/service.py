@@ -22,7 +22,7 @@ from pydantic import BaseModel, Field
 from .config import (
     ALLOWED_VIDEO_EXTENSIONS,
     MAX_VIDEO_BYTES,
-    MODEL_NAME,
+    DEFAULT_VLM,
     OLLAMA_BASE_URL,
     SERVICE_RUNS_DIR,
 )
@@ -34,6 +34,7 @@ _runs_lock = threading.Lock()
 _work = queue.Queue() # run_ids awaiting processing
 _started_at = time.time()
 _last_processing_sec = None # processing time of the most recent completed run
+_last_memory_mb = None # model footprint for the most recent completed run
 
 
 def _now_iso():
@@ -79,7 +80,7 @@ def _ollama_reachable():
         return False
 
 
-# Run queue + background worker
+# Run queue and background worker
 def _enqueue(video_path):
     # Timestamped guid.
     run_id = f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"
@@ -109,13 +110,16 @@ def _write_status(run):
 
 
 def _pipeline_output_stats(run_dir, video_name):
-    """Read (video_length_sec, frames_processed) from the pipeline's <video>.json."""
+    """Read (video_length_sec, frames_processed, model_memory_mb) from the
+    pipeline's <video>.json."""
     try:
         with open(os.path.join(run_dir, f"{video_name}.json")) as f:
             data = json.load(f)
-        return data.get("video_length_sec"), data.get("frames_processed")
+        block = data.get("vlm") if isinstance(data.get("vlm"), dict) else {}
+        memory = (block.get("performance") or {}).get("model_memory_mb")
+        return data.get("video_length_sec"), data.get("frames_processed"), memory
     except (OSError, ValueError):
-        return None, None
+        return None, None, None
 
 
 def _update(run_id, **fields):
@@ -131,7 +135,7 @@ def _update(run_id, **fields):
 
 
 def _process(run_id):
-    global _last_processing_sec
+    global _last_processing_sec, _last_memory_mb
     with _runs_lock:
         run = _runs.get(run_id)
     if not run or run["status"] != "queued":
@@ -157,7 +161,9 @@ def _process(run_id):
 
     processing = round(time.perf_counter() - start, 2)
     _last_processing_sec = processing
-    video_length, frames_processed = _pipeline_output_stats(run_dir, os.path.splitext(name)[0])
+    video_length, frames_processed, memory_mb = _pipeline_output_stats(run_dir, os.path.splitext(name)[0])
+    if memory_mb is not None:
+        _last_memory_mb = memory_mb
     _update(run_id, status="succeeded", finished_at=_now_iso(),
             processing_sec=processing, video_length_sec=video_length,
             frames_processed=frames_processed)
@@ -166,7 +172,7 @@ def _process(run_id):
 
 
 def _worker_loop():
-    _log("worker_started", model=MODEL_NAME)
+    _log("worker_started", model=DEFAULT_VLM)
     while True:
         run_id = _work.get()
         try:
@@ -211,7 +217,7 @@ class RunRequest(BaseModel):
     directory: str = Field(..., description="Directory containing the videos (as seen by the service)")
     filenames: list[str] | None = Field(
         default=None,
-        description="Specific filenames within the directory; omit to take every eligible video",
+        description="Specific filenames within the directory - omit to take every eligible video",
     )
 
 
@@ -288,7 +294,7 @@ def metrics():
                 counts[run["status"]] += 1
     return {
         "uptime_sec": round(time.time() - _started_at, 1),
-        "model": MODEL_NAME,
+        "model": DEFAULT_VLM,
         "ollama_reachable": _ollama_reachable(),
         "runs": {
             "received": sum(counts.values()),
@@ -299,4 +305,5 @@ def metrics():
             "interrupted": counts["interrupted"],
         },
         "last_processing_sec": _last_processing_sec,
+        "last_memory_mb": _last_memory_mb,
     }

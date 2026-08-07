@@ -1,4 +1,4 @@
-"""LLM-as-judge and ROUGE evaluation: scoring summaries against reference descriptions."""
+"""LLM-as-judge and ROUGE evaluation: scoring the inferred intent and timeline against reference annotations."""
 
 import json
 import os
@@ -11,6 +11,7 @@ from rouge_score import rouge_scorer
 from .config import (
     OLLAMA_BASE_URL,
     EVAL_MODEL_NAME,
+    EVAL_MAX_TOKENS,
     GUI_WORLD_ANNOTATIONS,
     EVAL_PROMPT_INTENT,
     EVAL_PROMPT_ACCURACY,
@@ -18,7 +19,7 @@ from .config import (
     EVAL_PROMPT_NON_REPETITION,
 )
 
-def _get_prompt_response(text_prompt, model_name, max_tokens=1024):
+def _get_prompt_response(text_prompt, model_name, max_tokens=EVAL_MAX_TOKENS):
     """Send a text-only prompt to Ollama and return the response."""
     payload = {
         "model": model_name,
@@ -154,7 +155,7 @@ def _get_numbered_keyframes(keyframes):
 
 
 def _get_parsed_coverage_response(response_text):
-    """Parse the coverage checklist JSON: reasoning + covered action numbers + covered apps."""
+    """Parse the coverage checklist JSON: reasoning, covered action numbers and covered apps."""
     text = response_text.strip()
     if text.startswith("```"):
         text = "\n".join(l for l in text.split("\n") if not l.strip().startswith("```")).strip()
@@ -180,11 +181,10 @@ def _get_parsed_coverage_response(response_text):
 
 
 def _get_coverage_evaluation(timeline_text, annotations, eval_model):
-    """Coverage: fraction of reference keyframe actions + applications the timeline captures.
+    """Coverage: fraction of reference keyframe actions and applications the timeline captures.
 
-    Uses a single per-item checklist LLM call (the judge does the semantic matching), then
-    computes coverage = covered / total. Maps the fraction to a 1-5 score (1 + 4*coverage)
-    so it stays comparable with the other criteria in the composite.
+    Uses a single per-item checklist LLM call, then computes coverage = covered / total.
+    Maps the fraction to a 1-5 score so it stays comparable with the other criteria.
     """
     keyframes = annotations.get("keyframes") or []
     apps = annotations.get("apps") or []
@@ -248,7 +248,7 @@ def _get_formatted_timeline(timeline):
     )
 
 
-def get_summary_evaluation(summary, intent, timeline, annotations, eval_model=EVAL_MODEL_NAME):
+def get_intent_evaluation(intent, timeline, annotations, eval_model=EVAL_MODEL_NAME):
     """Run LLM-as-judge evaluation against reference annotations.
 
     Scores intent, accuracy and non-repetition on a 1–5 scale via the LLM judge, and
@@ -304,7 +304,7 @@ def get_summary_evaluation(summary, intent, timeline, annotations, eval_model=EV
         }
         print(f"  {criterion_name}: {parsed.get('score', '?')}/5 — {parsed.get('reasoning', '')}")
 
-    # Coverage: per-item checklist over reference keyframes + apps
+    # Coverage: per-item checklist over reference keyframes and apps
     cov_start = time.perf_counter()
     scores["coverage"] = _get_coverage_evaluation(timeline_text, annotations, eval_model)
     total_latency += time.perf_counter() - cov_start
@@ -331,43 +331,30 @@ def get_summary_evaluation(summary, intent, timeline, annotations, eval_model=EV
     }
 
 
-def get_rouge_scores(summary, annotations):
-    """Compute ROUGE scores of a summary against reference descriptions and keyframe sub-goals.
-
-    Returns a dict with ROUGE-1, ROUGE-2, and ROUGE-L F1 scores (each the max
-    across the reference texts).
-    """
-    references = []
-    if annotations["description1"]:
-        references.append(annotations["description1"])
-    if annotations["description2"]:
-        references.append(annotations["description2"])
+def get_rouge_scores(timeline, annotations):
+    """ROUGE scores for the concatenated per-frame descriptions against the reference keyframes."""
     sub_goals = [kf.get("sub_goal", "") for kf in annotations.get("keyframes", []) if kf.get("sub_goal")]
-    if sub_goals:
-        references.append(" ".join(sub_goals))
+    if not sub_goals:
+        return None
 
-    if not references:
+    reference = " ".join(sub_goals)
+    candidate = " ".join(e.get("frame_description", "") for e in timeline)
+    if not candidate.strip():
         return None
 
     start = time.perf_counter()
     scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
-
-    best_scores = {}
-    for ref in references:
-        scores = scorer.score(ref, summary)
-        for metric, score_val in scores.items():
-            if metric not in best_scores or score_val.fmeasure > best_scores[metric]["f1"]:
-                best_scores[metric] = {
-                    "precision": round(score_val.precision, 4),
-                    "recall": round(score_val.recall, 4),
-                    "f1": round(score_val.fmeasure, 4),
-                }
+    scores = scorer.score(reference, candidate)
     latency = time.perf_counter() - start
 
-    return {
-        "rouge1": best_scores["rouge1"],
-        "rouge2": best_scores["rouge2"],
-        "rougeL": best_scores["rougeL"],
-        "num_references": len(references),
-        "latency_sec": round(latency, 4),
+    result = {
+        metric: {
+            "precision": round(s.precision, 4),
+            "recall": round(s.recall, 4),
+            "f1": round(s.fmeasure, 4),
+        }
+        for metric, s in scores.items()
     }
+    result["num_sub_goals"] = len(sub_goals)
+    result["latency_sec"] = round(latency, 4)
+    return result

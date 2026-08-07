@@ -4,13 +4,9 @@ import os
 # VLM
 # ---------------------
 
-# ollama pull qwen3.5:4b
-MODEL_NAME = "qwen3.5:4b"
-# Local VLMs run through the full parameter sweep (multi-threshold + multi-variable)
-# when no --model override is given. Each model's result blocks are namespaced
-# separately so they can be compared side by side within a single run.
-# ollama pull gemma3:4b
-VLM_MODELS = ["qwen3.5:4b", "gemma3:4b"]
+# Default local VLM when --model isn't given (e.g. ollama pull qwen3.5:4b).
+# Pass extra models on the CLI to compare them, e.g. --model qwen3.5:4b gemma3:4b.
+DEFAULT_VLM = "qwen3.5:4b"
 OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
 # Maximum tokens to generate per inference call
 MAX_TOKENS = 256
@@ -55,37 +51,38 @@ FRAME_DESCRIPTION_PROMPT = (
 # ONLINE VLM
 # ---------------------
 
+# Set via the GEMINI_API_KEY environment variable; never hardcode the key here.
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = "gemini-3.6-flash"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 GEMINI_MAX_TOKENS = 1024 # If the context is lower than this the results degrade considerably
+# Gemini 3.6 Flash standard-tier pricing, USD per 1M tokens (as of June 2026).
+# Used by the results dashboard to price the real Gemini run and give a projection for 
+# what the other variants would cost on Gemini.
+GEMINI_INPUT_USD_PER_1M = 1.50
+GEMINI_OUTPUT_USD_PER_1M = 7.50
+# Flat cost per-frame const for the service dashboard's indicative Gemini projection
+# (service mode makes no real Gemini calls so there is no actual figure available)
+GEMINI_COST_PER_FRAME_USD = 0.00226
 
 # ---------------------
-# SUMMARY
+# USER INTENT
 # ---------------------
 
-# Maximum frame descriptions per chunk when summarising long timelines
-SUMMARY_CHUNK_SIZE = 20
-# Maximum characters per description sent to the summary prompt
-SUMMARY_MAX_DESC_CHARS = 500
-SUMMARY_PROMPT = (
-    "Below is a chronological sequence of frame descriptions from a screen recording. "
-    "Each entry has a frame number, timestamp, and description of what the user is doing.\n\n"
+# Maximum frame descriptions per chunk when inferring intent from long timelines
+INTENT_CHUNK_SIZE = 20
+# Maximum characters per description sent to the intent prompt
+INTENT_MAX_DESC_CHARS = 500
+# Token cap for the intent output (longer than a single frame description, so
+# larger than MAX_TOKENS)
+INTENT_MAX_TOKENS = 1024
+USER_INTENT_PROMPT = (
+    "Below is a chronological sequence of observations from a screen recording "
+    "(per-frame descriptions, or partial summaries of them):\n\n"
     "{entries}\n\n"
-    "Perform the following tasks:\n"
-    "1. COLLATE: List every frame in order, preserving the original frame number "
-    "and timestamp for each. Quote ALL visible user-entered text exactly as typed.\n"
-    "2. INTENT: Based on the sequence of actions, state what the user was trying "
-    "to accomplish in this recording.\n\n"
-    "Respond in this exact format:\n"
-    "INTENT: <one or two sentences describing the user's goal>\n\n"
-    "TIMELINE:\n"
-    "[Frame <N>] [<timestamp>s] <description>\n"
-    "[Frame <N>] [<timestamp>s] <description>\n"
-    "...\n\n"
-    "IMPORTANT: In the TIMELINE, do not infer, assume, or invent any actions not present "
-    "in the original descriptions above. Do not autocorrect any text the user has typed. "
-    "The INTENT section should infer the overall goal from the observed actions."
+    "In one or two sentences, state what the user was trying to accomplish overall. "
+    "Infer the goal only from the observed actions — do not invent details or quote "
+    "text that is not shown above. Respond with the intent only, no preamble or labels."
 )
 
 # ---------------------
@@ -94,6 +91,9 @@ SUMMARY_PROMPT = (
 
 # ollama pull phi4:14b
 EVAL_MODEL_NAME = "phi4:14b"
+# Token cap for the judge's JSON responses (score and reasoning)
+EVAL_MAX_TOKENS = 1024
+# INTENT: how well the AI's inferred user intent matches the reference goal/caption.
 EVAL_PROMPT_INTENT = (
     "You are evaluating an AI-generated analysis of a screen recording.\n\n"
     "The goal was to accurately describe the user's actions in the frames and infer their intentions.\n\n"
@@ -129,6 +129,7 @@ EVAL_PROMPT_INTENT = (
     "5 = Accurate: the core objective is fully captured, even if worded differently or with extra detail\n\n"
     "Respond with ONLY valid JSON: {{\"reasoning\": \"<one or two sentences>\", \"score\": <int>}}"
 )
+# ACCURACY: whether the details stated in the AI timeline are correct and not hallucinated.
 EVAL_PROMPT_ACCURACY = (
     "You are evaluating an AI-generated analysis of a screen recording.\n\n"
     "Below is the ground truth for the video: a caption, a NUMBERED list of keyframes "
@@ -166,7 +167,7 @@ EVAL_PROMPT_ACCURACY = (
     "Respond with ONLY valid JSON: {{\"reasoning\": \"<one or two sentences>\", \"score\": <int>}}"
 )
 # COVERAGE: which reference keyframe actions and applications the timeline captures.
-# Scored as a per-item checklist (fraction covered) rather than a holistic 1-5 rating.
+# Scored as a percentage of keyframes that are covered (rounded to 1-5)
 EVAL_PROMPT_COVERAGE = (
     "You are evaluating an AI-generated analysis of a screen recording.\n\n"
     "Below is a NUMBERED list of ground-truth keyframes (the reference actions) and the list of "
@@ -184,6 +185,7 @@ EVAL_PROMPT_COVERAGE = (
     "\"covered_actions\": [<numbers of covered keyframes>], "
     "\"covered_apps\": [<names of covered applications>]}}"
 )
+# NON-REPETITION: Proportion of timeline entries that add new info rather than repeating the previous one.
 EVAL_PROMPT_NON_REPETITION = (
     "You are evaluating an AI-generated analysis of a screen recording.\n\n"
     "Below is the AI's frame-by-frame timeline. Assess NON-REPETITION: the proportion "
@@ -219,7 +221,7 @@ GUI_WORLD_VIDEO_DIR = os.path.join(EVAL_DATA_DIR, "GUI-World", "multi")
 # 243–425: GitLab full screen presentations
 GUI_WORLD_BLACKLIST = set(range(189, 243)) | set(range(243, 426))
 GUI_WORLD_MIN_VIDEO_LENGTH_SEC = 30  # seconds
-# Paths to the GUI-World annotations JSONL files (train + benchmark)
+# Paths to the GUI-World annotations JSONL files (train and benchmark)
 GUI_WORLD_DATA_DIR = os.path.join(EVAL_DATA_DIR, "GUI-World", "Annotation")
 GUI_WORLD_ANNOTATIONS = [
     os.path.join(GUI_WORLD_DATA_DIR, "train", "multi.jsonl"),
@@ -232,7 +234,7 @@ GUI_WORLD_ANNOTATIONS = [
 
 # Accepted video extensions.
 ALLOWED_VIDEO_EXTENSIONS = {".mp4", ".mkv", ".mov", ".webm", ".avi", ".m4v"}
-# Reject files larger than this before decoding.
+# Reject files larger than 2GB before decoding.
 MAX_VIDEO_BYTES = int(os.environ.get("MAX_VIDEO_BYTES", str(2 * 1024 ** 3)))
 
 SERVICE_ROOT = os.path.join(PROJECT_ROOT, "output")

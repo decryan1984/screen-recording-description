@@ -22,12 +22,12 @@ from .config import (
     TEMPERATURE,
     MAX_FRAME_WIDTH,
     FRAME_DESCRIPTION_PROMPT,
-    SUMMARY_PROMPT,
-    SUMMARY_CHUNK_SIZE,
-    SUMMARY_MAX_DESC_CHARS,
+    USER_INTENT_PROMPT,
+    INTENT_CHUNK_SIZE,
+    INTENT_MAX_DESC_CHARS,
 )
 from .vlm_inference import _get_downscaled_frame
-from .llm_inference import get_annotations, get_summary_evaluation, get_rouge_scores
+from .llm_inference import get_annotations, get_intent_evaluation, get_rouge_scores
 
 def _get_gemini_url(model, method="generateContent"):
     return f"{GEMINI_API_URL}/{model}:{method}?key={GEMINI_API_KEY}"
@@ -92,7 +92,7 @@ def get_gemini_description(frame_bgr, prompt=FRAME_DESCRIPTION_PROMPT):
     return _get_text(data), _get_metrics(data)
 
 
-def _get_prompt_response(text_prompt, max_tokens=1024):
+def _get_prompt_response(text_prompt, max_tokens=GEMINI_MAX_TOKENS):
     """Send a text-only prompt to Gemini and return (text, metrics)."""
     payload = {
         "contents": [{"parts": [{"text": text_prompt}]}],
@@ -105,12 +105,15 @@ def _get_prompt_response(text_prompt, max_tokens=1024):
     return _get_text(data), _get_metrics(data)
 
 
-def get_gemini_timeline_summary(
+def generate_gemini_user_intent(
     timeline,
-    max_entries_per_chunk=SUMMARY_CHUNK_SIZE,
-    max_desc_chars=SUMMARY_MAX_DESC_CHARS,
+    max_entries_per_chunk=INTENT_CHUNK_SIZE,
+    max_desc_chars=INTENT_MAX_DESC_CHARS,
 ):
-    """Generate a summary from per-frame descriptions via Gemini."""
+    """Infer the user's overall intent from per-frame descriptions via Gemini.
+
+    Returns ``(intent_text, metrics_list)``.
+    """
     if not timeline:
         return "", []
 
@@ -122,10 +125,10 @@ def get_gemini_timeline_summary(
     all_metrics = []
 
     if len(entries) <= max_entries_per_chunk:
-        prompt = SUMMARY_PROMPT.format(entries="\n".join(entries))
+        prompt = USER_INTENT_PROMPT.format(entries="\n".join(entries))
         text, metrics = _get_prompt_response(prompt)
         all_metrics.append(metrics)
-        return text, all_metrics
+        return text.strip(), all_metrics
 
     chunk_summaries = []
     for i in range(0, len(entries), max_entries_per_chunk):
@@ -136,21 +139,21 @@ def get_gemini_timeline_summary(
             f"  [Gemini] Summarising chunk {len(chunk_summaries)+1} "
             f"({t_start}s – {t_end}s, {len(chunk)} entries)..."
         )
-        prompt = SUMMARY_PROMPT.format(entries="\n".join(chunk))
+        prompt = USER_INTENT_PROMPT.format(entries="\n".join(chunk))
         text, metrics = _get_prompt_response(prompt)
         chunk_summaries.append(text)
         all_metrics.append(metrics)
 
-    print(f"  [Gemini] Merging {len(chunk_summaries)} chunk summaries...")
+    print(f"  [Gemini] Merging {len(chunk_summaries)} chunk summaries into a final intent synopsis.")
     combined = "\n".join(f"[Part {i+1}] {s}" for i, s in enumerate(chunk_summaries))
-    final_prompt = SUMMARY_PROMPT.format(entries=combined)
+    final_prompt = USER_INTENT_PROMPT.format(entries=combined)
     text, metrics = _get_prompt_response(final_prompt)
     all_metrics.append(metrics)
-    return text, all_metrics
+    return text.strip(), all_metrics
 
 
 def _process_frame_queue(frame_queue, video_path, output_json_path, total_frames):
-    """Pull frames from queue, describes each and summarises."""
+    """Pull frames from queue, describe each and infer the user's intent."""
     timeline = []
 
     while True:
@@ -180,54 +183,46 @@ def _process_frame_queue(frame_queue, video_path, output_json_path, total_frames
 
         print(
             f"  [Gemini] [{frame_idx}/{total_frames}] "
-            f"t={entry['timestamp_sec']}s (latency={entry['latency_sec']}s)"
+            f"time={entry['timestamp_sec']}s (latency={entry['latency_sec']}s)"
         )
         desc_preview = entry["frame_description"][:200]
         if len(entry["frame_description"]) > 200:
             desc_preview += "..."
         print(f"    {desc_preview}\n")
 
-    # Generate summary
-    summary = ""
+    # Infer the user's overall intent
     intent = ""
-    filtered_timeline = ""
-    summary_latency = 0.0
-    summary_metrics = []
+    intent_latency = 0.0
+    intent_metrics = []
     if timeline:
-        print("  [Gemini] Generating summary...")
+        print("  [Gemini] Inferring user intent...")
         start = time.perf_counter()
         try:
-            summary, summary_metrics = get_gemini_timeline_summary(timeline)
+            intent, intent_metrics = generate_gemini_user_intent(timeline)
         except Exception as exc:
-            print(f"  [Gemini] Summary failed: {exc}")
-        summary_latency = time.perf_counter() - start
-        print(f"\n  [Gemini] --- Summary ({summary_latency:.1f}s) ---")
-        print(f"  {summary}\n")
-        if summary:
-            # Reuse the VLM pipeline's summary parser
-            from .pipeline import _parse_summary_response
-            intent, filtered_timeline = _parse_summary_response(summary)
+            print(f"  [Gemini] Intent inference failed: {exc}")
+        intent_latency = time.perf_counter() - start
+        print(f"\n  [Gemini] --- Inferred Intent ({intent_latency:.1f}s) ---")
+        print(f"  {intent}\n")
 
     # Build the gemini block in memory
     gemini_block = {
         "model": GEMINI_MODEL,
         "max_tokens": GEMINI_MAX_TOKENS,
-        "summary": summary,
         "intent": intent,
-        "filtered_timeline": filtered_timeline,
         "timeline": timeline,
     }
 
     # Run evaluation
     eval_latency = 0.0
-    if summary:
+    if intent:
         eval_start = time.perf_counter()
         annotations = get_annotations(video_path)
         if annotations is None:
             print("  [Gemini] Skipping evaluation: no reference annotations found.")
         else:
             print("  [Gemini] Running evaluation...")
-            evaluation = get_summary_evaluation(summary, intent, timeline, annotations)
+            evaluation = get_intent_evaluation(intent, timeline, annotations)
             print(
                 f"  [Gemini] Composite score: {evaluation['composite_score']}/{evaluation['max_score']} "
                 f"({evaluation['latency_sec']:.1f}s)"
@@ -235,7 +230,7 @@ def _process_frame_queue(frame_queue, video_path, output_json_path, total_frames
             gemini_block["evaluation"] = evaluation
 
             print("  [Gemini] Running ROUGE...")
-            rouge_result = get_rouge_scores(summary, annotations)
+            rouge_result = get_rouge_scores(timeline, annotations)
             if rouge_result:
                 print(
                     f"  [Gemini] ROUGE-1 F1={rouge_result['rouge1']['f1']:.4f}  "
@@ -247,12 +242,12 @@ def _process_frame_queue(frame_queue, video_path, output_json_path, total_frames
 
     # Performance metrics — same structure and maths as the VLM pipeline so the
     # dashboard computes Gemini efficiency identically. Per-frame latency_sec here
-    # is the API round-trip time (network + inference).
+    # is the API round-trip time (network and inference).
     if timeline:
         from .pipeline import _compute_performance, _standalone_pipeline_sec
         gemini_block["performance"] = _compute_performance(
-            timeline, summary_metrics, GEMINI_MODEL,
-            summary_latency, _standalone_pipeline_sec(timeline, summary_latency, eval_latency),
+            timeline, intent_metrics, GEMINI_MODEL,
+            intent_latency, _standalone_pipeline_sec(timeline, intent_latency, eval_latency),
         )
 
     # Single atomic merge into the shared result file

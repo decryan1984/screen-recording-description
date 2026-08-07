@@ -10,7 +10,7 @@ from datetime import datetime
 import av
 
 from .config import (
-    MODEL_NAME,
+    DEFAULT_VLM,
     MAX_TOKENS,
     TEMPERATURE,
     MAX_FRAME_WIDTH,
@@ -18,10 +18,10 @@ from .config import (
     DEFAULT_FRAME_DIFF_THRESHOLD,
     MULTI_VARIABLE_CONFIGS,
     MAX_FPS,
-    SUMMARY_CHUNK_SIZE,
-    SUMMARY_MAX_DESC_CHARS,
+    INTENT_CHUNK_SIZE,
+    INTENT_MAX_DESC_CHARS,
     FRAME_DESCRIPTION_PROMPT,
-    SUMMARY_PROMPT,
+    USER_INTENT_PROMPT,
     RESULTS_DIR,
     EVAL_MODEL_NAME,
     EVAL_PROMPT_INTENT,
@@ -34,11 +34,13 @@ from .vlm_inference import (
     get_vlm,
     get_frame_difference,
     print_model_info,
-    get_timeline_summary,
+    generate_user_intent,
+    get_model_memory,
+    get_model_params,
 )
 from .llm_inference import (
     get_annotations,
-    get_summary_evaluation,
+    get_intent_evaluation,
     get_rouge_scores,
 )
 from .online_inference import start_online_worker
@@ -76,28 +78,28 @@ def describe_frame(frame_bgr, frame_idx, timestamp_sec, inference_func, prompt,
     return entry
 
 
-def _summary_seconds(summary_metrics_list, wall_sec):
-    """Summary compute time with model-load excluded (as for frame latency).
+def _intent_seconds(intent_metrics_list, wall_sec):
+    """Intent-inference compute time with model-load excluded (as for frame latency).
 
-    Sums Ollama's server-side ``inference_sec`` across summary chunks; falls
+    Sums Ollama's server-side ``inference_sec`` across intent chunks; falls
     back to wall-clock if those timings are unavailable."""
-    total = sum(m.get("inference_sec", 0) for m in summary_metrics_list)
+    total = sum(m.get("inference_sec", 0) for m in intent_metrics_list)
     return total or wall_sec
 
 
-def _standalone_pipeline_sec(timeline, summary_latency, eval_latency):
+def _standalone_pipeline_sec(timeline, intent_latency, eval_latency):
     """Processing time attributable to a single variant: VLM inference for its
-    own frames plus its own summary and evaluation.
+    own frames plus its own intent inference and evaluation.
 
     Independent of shared decode/diff/model-load overhead, so variants remain
     directly comparable whether they were produced by the single-video,
     multi-threshold (shared descriptions), or multi-variable path.
     """
-    return sum(e["latency_sec"] for e in timeline) + summary_latency + eval_latency
+    return sum(e["latency_sec"] for e in timeline) + intent_latency + eval_latency
 
 
-def _compute_performance(timeline, summary_metrics_list, model_name,
-                         summary_latency, standalone_pipeline_sec):
+def _compute_performance(timeline, intent_metrics_list, model_name,
+                         intent_latency, standalone_pipeline_sec):
     """Compute aggregate performance metrics from the pipeline run."""
     latencies = [e["latency_sec"] for e in timeline]
     desc_lengths = [len(e["frame_description"]) for e in timeline]
@@ -105,7 +107,7 @@ def _compute_performance(timeline, summary_metrics_list, model_name,
 
     total_prompt_tokens = sum(e["prompt_tokens"] for e in timeline)
     total_completion_tokens = sum(e["completion_tokens"] for e in timeline)
-    for m in summary_metrics_list:
+    for m in intent_metrics_list:
         total_prompt_tokens += m["prompt_tokens"]
         total_completion_tokens += m["completion_tokens"]
 
@@ -113,11 +115,11 @@ def _compute_performance(timeline, summary_metrics_list, model_name,
     completion_tokens_in_frames = sum(e["completion_tokens"] for e in timeline)
     avg_tokens_per_sec = completion_tokens_in_frames / total_vlm_sec if total_vlm_sec > 0 else 0
 
-    return {
+    performance = {
         "vlm_model": model_name,
         "standalone_pipeline_sec": round(standalone_pipeline_sec, 2),
         "total_vlm_inference_sec": round(total_vlm_sec, 2),
-        "summary_latency_sec": round(summary_latency, 2),
+        "intent_latency_sec": round(intent_latency, 2),
         "frames_processed": len(timeline),
         "frames_with_empty_description": empty_count,
         "avg_frame_latency_sec": round(statistics.mean(latencies), 2) if latencies else 0,
@@ -129,6 +131,11 @@ def _compute_performance(timeline, summary_metrics_list, model_name,
         "total_completion_tokens": total_completion_tokens,
         "avg_completion_tokens_per_sec": round(avg_tokens_per_sec, 1),
     }
+    # Memory and parameter count. Local models only — Gemini exposes neither.
+    if "gemini" not in str(model_name).lower():
+        performance.update(get_model_memory(model_name))
+        performance.update(get_model_params(model_name))
+    return performance
 
 
 def _save(result, output_json_path):
@@ -138,7 +145,7 @@ def _save(result, output_json_path):
         with open(output_json_path) as f:
             on_disk = json.load(f)
         on_disk.update(result)
-        result.update(on_disk)          # keep in-memory dict current too
+        result.update(on_disk)
     with open(output_json_path, "w") as f:
         json.dump(result, f, indent=2)
 
@@ -151,7 +158,7 @@ def write_run_config(run_dir, model_name=None, thresholds=None):
     every ``<video>.json``.  Merges with any existing file so repeated calls
     within a run accumulate rather than clobber.
     """
-    model_name = model_name or MODEL_NAME
+    model_name = model_name or DEFAULT_VLM
     config = {
         "model": model_name,
         "temperature": TEMPERATURE,
@@ -160,11 +167,11 @@ def write_run_config(run_dir, model_name=None, thresholds=None):
         "enable_grayscale_conversion": ENABLE_GRAYSCALE_CONVERSION,
         "max_fps": MAX_FPS,
         "default_diff_threshold": DEFAULT_FRAME_DIFF_THRESHOLD,
-        "summary_chunk_size": SUMMARY_CHUNK_SIZE,
-        "summary_max_desc_chars": SUMMARY_MAX_DESC_CHARS,
+        "intent_chunk_size": INTENT_CHUNK_SIZE,
+        "intent_max_desc_chars": INTENT_MAX_DESC_CHARS,
         "multi_variable_configs": MULTI_VARIABLE_CONFIGS,
         "frame_description_prompt": FRAME_DESCRIPTION_PROMPT,
-        "summary_prompt": SUMMARY_PROMPT,
+        "user_intent_prompt": USER_INTENT_PROMPT,
         "eval_model": EVAL_MODEL_NAME,
         "eval_prompts": {
             "intent": EVAL_PROMPT_INTENT,
@@ -188,33 +195,6 @@ def write_run_config(run_dir, model_name=None, thresholds=None):
     return path
 
 
-def _parse_summary_response(raw_text):
-    """Parse the structured summary response into intent and filtered timeline text."""
-    intent = ""
-    timeline_text = ""
-
-    lines = raw_text.strip().split("\n")
-    in_timeline = False
-    timeline_lines = []
-
-    for line in lines:
-        stripped = line.strip()
-        if stripped.upper().startswith("INTENT:"):
-            intent = stripped[len("INTENT:"):].strip()
-        elif stripped.upper() == "TIMELINE:":
-            in_timeline = True
-        elif in_timeline:
-            if stripped:
-                timeline_lines.append(stripped)
-
-    timeline_text = "\n".join(timeline_lines)
-    # Fallback: if no INTENT marker found, use the whole text
-    if not intent:
-        intent = raw_text.strip()
-
-    return intent, timeline_text
-
-
 def _run_evaluation(video_path, intent, timeline, model_block, result, output_json_path, label=""):
     """Look up reference annotations and run LLM-as-judge evaluation."""
     prefix = f"[{label}] " if label else ""
@@ -224,8 +204,7 @@ def _run_evaluation(video_path, intent, timeline, model_block, result, output_js
         return
 
     print(f"\n{prefix}--- Evaluation (LLM-as-judge) ---")
-    summary_text = model_block.get("summary", "")
-    evaluation = get_summary_evaluation(summary_text, intent, timeline, annotations)
+    evaluation = get_intent_evaluation(intent, timeline, annotations)
     print(
         f"\n{prefix}Composite score: {evaluation['composite_score']}/{evaluation['max_score']} "
         f"({evaluation['latency_sec']:.1f}s)"
@@ -235,7 +214,7 @@ def _run_evaluation(video_path, intent, timeline, model_block, result, output_js
     print(f"{prefix}Updated {output_json_path} with evaluation.")
 
     print(f"\n{prefix}--- Evaluation (ROUGE) ---")
-    rouge_result = get_rouge_scores(summary_text, annotations)
+    rouge_result = get_rouge_scores(timeline, annotations)
     if rouge_result:
         print(
             f"  {prefix}ROUGE-1 F1={rouge_result['rouge1']['f1']:.4f}  "
@@ -253,7 +232,7 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, e
     evaluate=True (evaluation mode) scores the summary against reference
     annotations; evaluate=False (service mode) skips scoring entirely.
     """
-    model_name = model_name or MODEL_NAME
+    model_name = model_name or DEFAULT_VLM
     diff_threshold = DEFAULT_FRAME_DIFF_THRESHOLD
     video_name = os.path.splitext(os.path.basename(video_path))[0]
     if run_dir is None:
@@ -276,7 +255,7 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, e
         f"Config: model={model_name}, max_tokens={MAX_TOKENS}, "
         f"max_frame_width={MAX_FRAME_WIDTH}, enable_grayscale_conversion={ENABLE_GRAYSCALE_CONVERSION}, "
         f"diff_threshold={diff_threshold}, max_fps={MAX_FPS}, "
-        f"summary_chunk_size={SUMMARY_CHUNK_SIZE}, summary_max_desc_chars={SUMMARY_MAX_DESC_CHARS}"
+        f"intent_chunk_size={INTENT_CHUNK_SIZE}, intent_max_desc_chars={INTENT_MAX_DESC_CHARS}"
     )
 
     print("Loading VLM...")
@@ -332,7 +311,7 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, e
         timeline.append(entry)
 
         print(
-            f"[{frame_count}/{total_frames}] t={entry['timestamp_sec']}s "
+            f"[{frame_count}/{total_frames}] time={entry['timestamp_sec']}s "
             f"(diff={diff_score:.5f}, latency={entry['latency_sec']}s)"
         )
         print(
@@ -365,32 +344,25 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, e
         "vlm": {
             "model": model_name,
             "diff_threshold": diff_threshold,
-            "summary": "",
+            "intent": "",
             "timeline": timeline,
         },
     }
     _save(result, output_json_path)
     print(f"\nProcessed {processed_count}/{frame_count} frames. Output saved to {output_json_path}")
 
-    # Generate overall summary from all per-frame descriptions
-    summary_latency = 0.0
+    # Infer the user's overall intent from all per-frame descriptions
+    intent_latency = 0.0
     eval_latency = 0.0
-    summary_metrics_list = []
+    intent_metrics_list = []
     if timeline:
-        print("\nGenerating overall summary...")
+        print("\nInferring user intent...")
         start = time.perf_counter()
-        summary, summary_metrics_list = get_timeline_summary(timeline, model_name=model_name)
-        summary_latency = _summary_seconds(summary_metrics_list, time.perf_counter() - start)
-        print(f"\n--- Overall Summary ({summary_latency:.1f}s) ---")
-        print(summary)
-
-        intent, filtered_timeline = _parse_summary_response(summary)
-        result["vlm"]["summary"] = summary
+        intent, intent_metrics_list = generate_user_intent(timeline, model_name=model_name)
+        intent_latency = _intent_seconds(intent_metrics_list, time.perf_counter() - start)
         result["vlm"]["intent"] = intent
-        result["vlm"]["filtered_timeline"] = filtered_timeline
         _save(result, output_json_path)
-        print(f"Updated {output_json_path} with summary.")
-        print(f"\n--- Inferred Intent ---")
+        print(f"\n--- Inferred Intent ({intent_latency:.1f}s) ---")
         print(intent)
 
         eval_start = time.perf_counter()
@@ -400,8 +372,8 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, e
 
     # Compute and save performance metrics
     performance = _compute_performance(
-        timeline, summary_metrics_list, model_name,
-        summary_latency, _standalone_pipeline_sec(timeline, summary_latency, eval_latency),
+        timeline, intent_metrics_list, model_name,
+        intent_latency, _standalone_pipeline_sec(timeline, intent_latency, eval_latency),
     )
     result["vlm"]["performance"] = performance
     _save(result, output_json_path)
@@ -422,7 +394,7 @@ def _model_prefix(model_name):
     """Result-block key prefix for a model. Strips '_' so the dashboard's
     first-underscore split cleanly separates the model prefix from the variant
     suffix (e.g. 'qwen3.5:4b_diff0.01' -> model='qwen3.5:4b', suffix='diff0.01')."""
-    return (model_name or MODEL_NAME).replace("_", "-")
+    return (model_name or DEFAULT_VLM).replace("_", "-")
 
 
 def perform_multi_threshold_inferences(video_path, thresholds, model_name=None, run_dir=None,
@@ -436,7 +408,7 @@ def perform_multi_threshold_inferences(video_path, thresholds, model_name=None, 
     ``vlm_diff0.005``, ``vlm_diff0.01``, etc.
     """
     pipeline_start = time.perf_counter()
-    model_name = model_name or MODEL_NAME
+    model_name = model_name or DEFAULT_VLM
     block_prefix = block_prefix or _model_prefix(model_name)
     thresholds = sorted(thresholds)
     video_name = os.path.splitext(os.path.basename(video_path))[0]
@@ -514,7 +486,7 @@ def perform_multi_threshold_inferences(video_path, thresholds, model_name=None, 
             described[frame_count] = entry
             thresholds_str = ", ".join(f"{t}" for t in selected_by)
             print(
-                f"[{frame_count}/{total_frames}] t={entry['timestamp_sec']}s "
+                f"[{frame_count}/{total_frames}] time={entry['timestamp_sec']}s "
                 f"(latency={entry['latency_sec']}s, thresholds=[{thresholds_str}])"
             )
             print(
@@ -557,7 +529,7 @@ def perform_multi_threshold_inferences(video_path, thresholds, model_name=None, 
             "model": model_name,
             "diff_threshold": t,
             "frames_processed": len(timeline),
-            "summary": "",
+            "intent": "",
             "timeline": timeline,
         }
 
@@ -565,20 +537,16 @@ def perform_multi_threshold_inferences(video_path, thresholds, model_name=None, 
         print(f"Threshold {t} — {len(timeline)} frames")
         print(f"{'='*60}")
 
-        summary_latency = 0.0
+        intent_latency = 0.0
         eval_latency = 0.0
-        summary_metrics_list = []
+        intent_metrics_list = []
         if timeline:
-            print("Generating summary...")
+            print("Inferring user intent...")
             start = time.perf_counter()
-            summary, summary_metrics_list = get_timeline_summary(timeline, model_name=model_name)
-            summary_latency = _summary_seconds(summary_metrics_list, time.perf_counter() - start)
-            intent, filtered_tl = _parse_summary_response(summary)
-            print(f"Summary ({summary_latency:.1f}s): {summary[:200]}...\n")
-            print(f"Intent: {intent}\n")
-            block["summary"] = summary
+            intent, intent_metrics_list = generate_user_intent(timeline, model_name=model_name)
+            intent_latency = _intent_seconds(intent_metrics_list, time.perf_counter() - start)
+            print(f"Intent ({intent_latency:.1f}s): {intent}\n")
             block["intent"] = intent
-            block["filtered_timeline"] = filtered_tl
 
             # Temporarily attach block to result so _run_evaluation can save
             result[block_key] = block
@@ -589,8 +557,8 @@ def perform_multi_threshold_inferences(video_path, thresholds, model_name=None, 
             eval_latency = time.perf_counter() - eval_start
 
         performance = _compute_performance(
-            timeline, summary_metrics_list, model_name,
-            summary_latency, _standalone_pipeline_sec(timeline, summary_latency, eval_latency),
+            timeline, intent_metrics_list, model_name,
+            intent_latency, _standalone_pipeline_sec(timeline, intent_latency, eval_latency),
         )
         block["performance"] = performance
         result[block_key] = block
@@ -613,7 +581,7 @@ def perform_multi_variable_inferences(video_path, model_name=None, run_dir=None,
     variants.  Results are added as ``vlm_<name>`` blocks to the shared
     ``results/<timestamp>/<video>.json``.
     """
-    model_name = model_name or MODEL_NAME
+    model_name = model_name or DEFAULT_VLM
     block_prefix = block_prefix or _model_prefix(model_name)
     video_name = os.path.splitext(os.path.basename(video_path))[0]
     if run_dir is None:
@@ -687,7 +655,7 @@ def _run_variable_pass(video_path, out_path, block_key, label, model_name, infer
         )
         timeline.append(entry)
         print(
-            f"[{frame_count}/{total_frames}] t={entry['timestamp_sec']}s "
+            f"[{frame_count}/{total_frames}] time={entry['timestamp_sec']}s "
             f"(diff={diff_score:.5f}, latency={entry['latency_sec']}s)"
         )
         print(
@@ -711,7 +679,7 @@ def _run_variable_pass(video_path, out_path, block_key, label, model_name, infer
         "enable_grayscale": enable_grayscale,
         "reduced_resolution": reduced_res,
         "frames_processed": len(timeline),
-        "summary": "",
+        "intent": "",
         "timeline": timeline,
     }
 
@@ -723,20 +691,16 @@ def _run_variable_pass(video_path, out_path, block_key, label, model_name, infer
         "resolution": f"{width}x{height}",
     }
 
-    summary_latency = 0.0
+    intent_latency = 0.0
     eval_latency = 0.0
-    summary_metrics_list = []
+    intent_metrics_list = []
     if timeline:
-        print("Generating summary...")
+        print("Inferring user intent...")
         start = time.perf_counter()
-        summary, summary_metrics_list = get_timeline_summary(timeline, model_name=model_name)
-        summary_latency = _summary_seconds(summary_metrics_list, time.perf_counter() - start)
-        intent, filtered_tl = _parse_summary_response(summary)
-        print(f"Summary ({summary_latency:.1f}s): {summary[:200]}...\n")
-        print(f"Intent: {intent}\n")
-        block["summary"] = summary
+        intent, intent_metrics_list = generate_user_intent(timeline, model_name=model_name)
+        intent_latency = _intent_seconds(intent_metrics_list, time.perf_counter() - start)
+        print(f"Intent ({intent_latency:.1f}s): {intent}\n")
         block["intent"] = intent
-        block["filtered_timeline"] = filtered_tl
 
         result[block_key] = block
         _save(result, out_path)
@@ -746,8 +710,8 @@ def _run_variable_pass(video_path, out_path, block_key, label, model_name, infer
         eval_latency = time.perf_counter() - eval_start
 
     performance = _compute_performance(
-        timeline, summary_metrics_list, model_name,
-        summary_latency, _standalone_pipeline_sec(timeline, summary_latency, eval_latency),
+        timeline, intent_metrics_list, model_name,
+        intent_latency, _standalone_pipeline_sec(timeline, intent_latency, eval_latency),
     )
     block["performance"] = performance
     result[block_key] = block

@@ -1,6 +1,6 @@
 # Screen Recording Description Service
 
-Generates text descriptions and summaries of desktop screen recordings using local Vision Language Models (defaults are **qwen3.5:4b** and **gemma3:4b**, served via **Ollama**) and, optionally, **Gemini** in the cloud. Outputs are scored by an LLM-as-judge (**phi4:14b**) plus ROUGE and can be explored in a Streamlit dashboard.
+Builds a per-frame timeline of desktop screen recordings and infers the user's overall intent, using local Vision Language Models (default is **qwen3.5:4b**, served via **Ollama**) and, optionally, **Gemini** in the cloud. Outputs are scored by an LLM-as-judge (**phi4:14b**) plus ROUGE and can be explored in a Streamlit dashboard.
 
 ## Project Structure
 
@@ -9,10 +9,11 @@ Generates text descriptions and summaries of desktop screen recordings using loc
 │   ├── __main__.py           # CLI entry point (evaluation/batch mode)
 │   ├── config.py             # All configurable parameters and prompts
 │   ├── pipeline.py           # Video processing orchestration
-│   ├── vlm_inference.py      # Local Ollama VLM: frame inference, differencing, summarisation
+│   ├── vlm_inference.py      # Local Ollama VLM: frame inference, differencing, intent inference
 │   ├── online_inference.py   # Gemini (cloud VLM) inference worker
 │   ├── llm_inference.py      # LLM-as-judge evaluation + ROUGE scoring
 │   ├── service.py            # Single service: submission API + in-process worker
+│   ├── dashboard.py          # Combined Streamlit app: switches between the two dashboards
 │   ├── results_dashboard.py  # Streamlit dashboard for exploring evaluation results
 │   └── service_dashboard.py  # Streamlit dashboard for live service metrics
 ├── evaluation/               # Evaluation mode: dataset + batch results
@@ -24,12 +25,13 @@ Generates text descriptions and summaries of desktop screen recordings using loc
 | Module | Purpose |
 |---|---|
 | `config.py` | Model settings, frame selection thresholds, evaluation prompts, paths |
-| `pipeline.py` | Decode video, select key frames, describe each, summarise, evaluate |
-| `vlm_inference.py` | Run per-frame Ollama inference, compute frame diffs, summarise timelines |
+| `pipeline.py` | Decode video, select key frames, describe each, infer intent, evaluate |
+| `vlm_inference.py` | Run per-frame Ollama inference, compute frame diffs, infer intent from timelines |
 | `online_inference.py` | Parallel Gemini inference worker |
 | `llm_inference.py` | Load annotations, LLM-as-judge scoring, ROUGE |
 | `__main__.py` | CLI argument parsing and dispatch (evaluation mode) |
 | `service.py` | Single service (service mode): submit runs, in-process worker runs the pipeline, status + live metrics |
+| `dashboard.py` | Combined Streamlit app which can switch between the two dashboards |
 | `results_dashboard.py` | Streamlit dashboard comparing models/variants |
 | `service_dashboard.py` | Streamlit dashboard showing live service metrics |
 
@@ -49,9 +51,13 @@ source .venv/bin/activate
 pip install -e .                 # core pipeline
 pip install -e ".[dashboard]"    # add Streamlit dashboard deps
 ```
-4. **(Optional) Gemini** — to include the parallel cloud inference, set `GEMINI_API_KEY` in `src/screen_recording_description/config.py` (keep it empty in version control and fill it in locally only).
-Gemini is off by default. To include it, set `GEMINI_API_KEY` and pass `--run-online-inference`.
-Without a key set, the online run is automatically skipped.
+4. **(Optional) Gemini** — the cloud run is off by default. To include it, set the `GEMINI_API_KEY` environment variable (e.g. `export GEMINI_API_KEY=...`, or add it to the service's Docker env) and pass `--run-online-inference`. Without an API key set, the online run is automatically skipped.
+
+### Hardware
+
+The local models run on the GPU where available, otherwise they fall back to CPU, which is much slower. The Docker containers (API, dashboard, evaluation harness) are CPU-only.
+- **Disk** — the local models are pulled via Ollama and stored on the host: the 4B VLMs are ~3 GB each and the `phi4:14b` 'judge' is ~9 GB, so budget ~15 GB (plus your videos and results).
+- **RAM / unified memory** — 16 GB is the practical minimum, 24 GB+ is reasonably comfortable. Only one VLM model is resident at a time but using the judge in evaluation mode uses a lot of memory.
 
 The project runs in two modes, described below:
 
@@ -94,14 +100,15 @@ docker compose build
 
 docker compose run --rm pipeline --videos 457
 docker compose run --rm pipeline --videos 457 --full-param-run
-docker compose run --rm pipeline --model all --videos all-eligible-videos --full-param-run
+docker compose run --rm pipeline --model qwen3.5:4b gemma3:4b --videos all-eligible-videos --full-param-run
 ```
 
-The dataset is mounted read-only from `./evaluation/data`; results are written to `./evaluation/results`.
+The dataset is mounted read-only from `./evaluation/data`. Results are written to `./evaluation/results`.
 
-To use Gemini, set `GEMINI_API_KEY` in `src/screen_recording_description/config.py`, then:
+To use Gemini, export `GEMINI_API_KEY` on the host (forwarded into the container by `docker-compose.yml`), then pass `--run-online-inference`:
 
 ```bash
+export GEMINI_API_KEY=...
 docker compose run --rm pipeline --videos 457 --run-online-inference
 ```
 
@@ -113,14 +120,14 @@ Run the same pipeline directly on the host (activate the venv from [Prerequisite
 # Single video by ID
 python -m screen_recording_description --videos 457
 
-# Full parameter sweep: all diff thresholds + resolution/token variants
+# Full parameter run: all diff thresholds + resolution/token variants
 python -m screen_recording_description --videos 457 --full-param-run
 
 # Multiple videos, also running the Gemini cloud model (off by default)
 python -m screen_recording_description --videos 457 458 --run-online-inference
 
-# Every model in VLM_MODELS across every eligible GUI-World video, full sweep
-python -m screen_recording_description --model all --videos all-eligible-videos --full-param-run
+# Compare specific models across every eligible GUI-World video, full param
+python -m screen_recording_description --model qwen3.5:4b gemma3:4b --videos all-eligible-videos --full-param-run
 ```
 
 Or via the installed script:
@@ -129,20 +136,27 @@ Or via the installed script:
 screen-recording-description --videos 457
 ```
 
-### Results dashboard
+### Dashboards
 
-Explore and compare batch results (reads from `evaluation/results/`). Activate the venv from [Prerequisites](#prerequisites), then:
+Two separate dashboards run from a single app — use the switcher at the top of the sidebar to move between **Evaluation Results** and **Service Metrics**. Activate the venv from [Prerequisites](#prerequisites), then:
 
 ```bash
-streamlit run src/screen_recording_description/results_dashboard.py
+streamlit run src/screen_recording_description/dashboard.py
 # http://localhost:8501
 ```
+
+The **Evaluation Results** page explores and compares batch results (reads from `evaluation/results/`). Alongside the quality scores (LLM-judge + ROUGE), each variant also reports several cost/efficiency signals:
+
+- **Inference Time** — measured time to process the video (frame VLM + intent). For Gemini this is remote API latency, not local compute.
+- **Compute (TERAFLOPS)** — analytical model work for comparing models independent of hardware. Local models only, parameters come from Ollama (`/api/show`).
+- **Memory (MB)** — resident model size while loaded, from Ollama (`/api/ps`), local models only.
+- **Gemini Cost (USD)** — measured for the Gemini run and projected onto local variants (frames x Gemini's per-frame token rates, priced from `GEMINI_*_USD_PER_1M` in `config.py`). Full-resolution variants are omitted, as their image tokens differ from the baseline.
 
 ---
 
 ## Service mode
 
-Run a local FastAPI service that accepts a directory of videos, processes each through the pipeline in a background worker, and exposes run status + live metrics over HTTP. Per-run output is written to `./output/runs`; the queue, status, and metrics live in memory only (nothing persists between restarts). Cloud (Gemini) inference is off in service mode — submissions are always processed locally.
+Run a local FastAPI service that accepts a directory of videos, processes each through the pipeline in a background worker, and exposes run status + live metrics over HTTP. Per-run output is written to `./output/runs`. The queue, status, and metrics live in memory only (nothing persists between restarts). Cloud (Gemini) inference is off in service mode — submissions are always processed locally.
 
 ### Run in Docker
 
@@ -150,7 +164,7 @@ Start Ollama on the host (as in [Evaluation mode](#run-in-docker-sandboxed)), th
 
 ```bash
 docker compose build
-docker compose up -d                       # shares the project root by default
+docker compose up -d
 # Or read videos from a specific directory instead:
 INPUT_DIR=/path/to/videos docker compose up -d
 ```
@@ -189,14 +203,14 @@ curl -s http://127.0.0.1:8000/runs/abc123def456
 
 ### Service metrics dashboard
 
-Live view of the service's metrics (polls `GET /metrics` every few seconds; needs the service running). Activate the venv from [Prerequisites](#prerequisites), then:
+The **Service Metrics** page of the combined dashboard gives a live view of the service (it polls `GET /metrics` every few seconds, so the service must be running to show live data). Launch the combined app as in [Dashboards](#dashboards) and pick **Service Metrics** in the sidebar:
 
 ```bash
-streamlit run src/screen_recording_description/service_dashboard.py --server.port 8502
-# http://localhost:8502
+streamlit run src/screen_recording_description/dashboard.py
+# http://localhost:8501
 ```
 
-Point it at a non-default service with `API_URL=http://host:8000 streamlit run …/service_dashboard.py`.
+Point it at a non-default service with `API_URL=http://host:8000 streamlit run …/dashboard.py`.
 
 ### Interactive API docs
 
@@ -228,8 +242,8 @@ OLLAMA_BASE_URL=http://192.168.1.50:11434 python -m screen_recording_description
 
 Each run writes one `<video_name>.json` into a timestamped run directory —
 `evaluation/results/<timestamp>/` in evaluation mode, `output/runs/<timestamp>_<run_id>/`
-in service mode. Video-level metadata sits at the top level; per-model results (frame
-timeline, summary, inferred intent, performance) are nested under a model block:
+in service mode. Video-level metadata sits at the top level, per-model results (frame
+timeline, inferred intent, performance) are nested under a model block:
 
 ```json
 {
@@ -244,7 +258,6 @@ timeline, summary, inferred intent, performance) are nested under a model block:
   "vlm": {
     "model": "qwen3.5:4b",
     "diff_threshold": 0.01,
-    "summary": "The user opened a browser and...",
     "intent": "The user is composing an email...",
     "timeline": [
       {
@@ -262,11 +275,11 @@ timeline, summary, inferred intent, performance) are nested under a model block:
 ```
 
 Alongside the `<video>.json`, each run directory also contains a small companion
-artifact: **evaluation mode** writes `config.json` (the run's shared model params and
-prompts); **service mode** writes `status.json` per run (status, timings, video length —
+artifact. **Evaluation mode** writes `config.json` (the run's shared model params and
+prompts). **Service mode** writes `status.json` per run (status, timings, video length —
 what the metrics dashboard's run history reads). In evaluation mode the model block
-additionally gains `evaluation` (LLM-judge) and `rouge` sub-blocks; a
-full parameter sweep produces several model blocks (e.g. `vlm_diff0.01`, `vlm_fullres`)
+additionally gains `evaluation` (LLM-judge) and `rouge` sub-blocks. A
+full parameter runs produce several model blocks (e.g. `vlm_diff0.01`, `vlm_fullres`)
 and, with `--run-online-inference`, a `gemini` block.
 
 ## Notes

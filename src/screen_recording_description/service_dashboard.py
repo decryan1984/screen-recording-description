@@ -1,5 +1,5 @@
 """Live service monitoring dashboard.
-Launch with: streamlit run src/screen_recording_description/service_dashboard.py
+Launch with Streamlit: streamlit run src/screen_recording_description/dashboard.py
 """
 
 import glob
@@ -13,7 +13,7 @@ import pandas as pd
 import requests
 import streamlit as st
 
-from config import SERVICE_RUNS_DIR
+from config import SERVICE_RUNS_DIR, GEMINI_COST_PER_FRAME_USD
 
 API_URL = os.environ.get("API_URL", "http://127.0.0.1:8000").rstrip("/")
 REFRESH_SEC = 5
@@ -137,7 +137,13 @@ def build_perf_df(disk_runs, cutoff):
         if start is None or (cutoff is not None and start < cutoff):
             continue
         for video_name, data in run["videos"].items():
-            perf = (get_model_block(data) or {}).get("performance") or {}
+            block = get_model_block(data) or {}
+            perf = block.get("performance") or {}
+            frames = data.get("frames_processed") or len(block.get("timeline") or [])
+            params = perf.get("model_params")
+            tokens = (perf.get("total_prompt_tokens") or 0) + (perf.get("total_completion_tokens") or 0)
+            compute = 2 * params * tokens / 1e12 if params and tokens else None
+            cost = frames * GEMINI_COST_PER_FRAME_USD if frames else None
             rows.append({
                 "start": start.replace(tzinfo=None),
                 "Video": os.path.basename(data.get("video", "")) or video_name,
@@ -146,6 +152,8 @@ def build_perf_df(disk_runs, cutoff):
                 "Median": perf.get("median_frame_latency_sec"),
                 "Min": perf.get("min_frame_latency_sec"),
                 "Max": perf.get("max_frame_latency_sec"),
+                "Compute (TERAFLOPS)": compute,
+                "Gemini Cost (USD)": cost,
             })
     rows.sort(key=lambda r: r["start"])
     return pd.DataFrame(rows)
@@ -221,11 +229,14 @@ def render_overview():
 
     ollama = "reachable" if metrics.get("ollama_reachable") else "unreachable"
     st.subheader("Current Status")
-    st.markdown(
+    status_line = (
         f"**Model:** {metrics.get('model', '?')}  ·  "
         f"**Ollama:** {ollama}  ·  "
         f"**Uptime:** {metrics.get('uptime_sec', 0):.0f} sec"
     )
+    if metrics.get("last_memory_mb") is not None:
+        status_line += f"  ·  **Memory:** {metrics['last_memory_mb']:.0f} MB"
+    st.markdown(status_line)
 
     # All runs within the selected window, counters are derived from this set.
     history = [r for r in (fetch_json("/runs") or {}).get("runs", [])
@@ -243,8 +254,18 @@ def render_overview():
     cols[4].metric("Failed", counts["failed"])
     cols[5].metric("Interrupted", counts["interrupted"])
 
+    perf_df = build_perf_df(load_disk_runs(), cutoff)
+    if not perf_df.empty:
+        costs = perf_df["Gemini Cost (USD)"].dropna()
+        total_cost, n_cost = costs.sum(), costs.size
+        total_compute = perf_df["Compute (TERAFLOPS)"].dropna().sum()
+        hc = st.columns(3)
+        hc[0].metric("Equivalent Gemini Cost (USD)", f"${total_cost:.2f}")
+        hc[1].metric("Avg Cost / Video", f"${total_cost / n_cost:.4f}" if n_cost else "—")
+        hc[2].metric("Total Compute (TERAFLOPS)", f"{total_compute:.1f}" if total_compute else "—")
+
     st.subheader("Trends")
-    render_trend_charts(build_perf_df(load_disk_runs(), cutoff), cutoff)
+    render_trend_charts(perf_df, cutoff)
 
     st.subheader("Run History")
     if not history:
@@ -325,7 +346,8 @@ def render_video(name, data):
         # vlm_model and frames_processed are already shown above, so omit them here.
         perf_items = [
             ("Total VLM inference (sec)", performance.get("total_vlm_inference_sec")),
-            ("Summary latency (sec)", performance.get("summary_latency_sec")),
+            ("Intent latency (sec)", performance.get("intent_latency_sec")
+             or performance.get("summary_latency_sec")),
             ("Standalone pipeline (sec)", performance.get("standalone_pipeline_sec")),
             ("Avg frame latency (sec)", performance.get("avg_frame_latency_sec")),
             ("Median frame latency (sec)", performance.get("median_frame_latency_sec")),
@@ -368,11 +390,14 @@ def live_overview():
     render_overview()
 
 
-st.set_page_config(
-    page_title="Screen Recording Description — Service Metrics",
-    page_icon="📈",
-    layout="wide",
-)
+try:
+    st.set_page_config(
+        page_title="Screen Recording Description — Service Metrics",
+        page_icon="📈",
+        layout="wide",
+    )
+except st.errors.StreamlitAPIException:
+    pass  # already set
 
 st.title("Screen Recording Description — Service Metrics")
 
