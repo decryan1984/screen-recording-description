@@ -510,7 +510,6 @@ def render_charts_and_effects(df):
     row1_left, row1_right = st.columns(2)
     row2_left, row2_right = st.columns(2)
     row3_left, row3_right = st.columns(2)
-    row4_left, _row4_right = st.columns(2)
 
     with row1_left:
         if "Overall Score" in df.columns and df["Overall Score"].notna().any():
@@ -554,16 +553,8 @@ def render_charts_and_effects(df):
             st.altair_chart(get_horizontal_bar_chart(df, similarity_cols, order, bottom_height, "Similarity"),
                             width='stretch')
 
-    with row3_right:
-        if "Gemini Cost (USD)" in df.columns and df["Gemini Cost (USD)"].notna().any():
-            st.subheader("Estimated Equivalent Cost on Gemini")
-            st.caption("Per video cost to run each variant on Gemini — lower is better. Local variants are projected.")
-            st.altair_chart(get_horizontal_bar_chart(df, ["Gemini Cost (USD)"], order, bottom_height, "USD",
-                                  color_field="Model", color_domain=model_domain),
-                            width='stretch')
-
     # Compute: local models only (Gemini has no exposed parameter count).
-    with row4_left:
+    with row3_right:
         if "Compute (TERAFLOPS)" in df.columns and df["Compute (TERAFLOPS)"].notna().any():
             compute_df = df[df["Compute (TERAFLOPS)"].notna()]
             compute_order = [v for v in order if v in set(compute_df["Variant"])]
@@ -572,6 +563,16 @@ def render_charts_and_effects(df):
             st.caption("Work performed by the model (~2 x params x tokens). Lower values means cheaper. Local models only.")
             st.altair_chart(get_horizontal_bar_chart(compute_df, ["Compute (TERAFLOPS)"], compute_order,
                                   compute_height, "TERAFLOPS",
+                                  color_field="Model", color_domain=model_domain),
+                            width='stretch')
+
+    # Gemini cost last: it only exists when Gemini ran, so if its not there it doesn't leave a gap above.
+    row4_left, _row4_right = st.columns(2)
+    with row4_left:
+        if "Gemini Cost (USD)" in df.columns and df["Gemini Cost (USD)"].notna().any():
+            st.subheader("Estimated Equivalent Cost on Gemini")
+            st.caption("Per video cost to run each variant on Gemini — lower is better. Local variants are projected.")
+            st.altair_chart(get_horizontal_bar_chart(df, ["Gemini Cost (USD)"], order, bottom_height, "USD",
                                   color_field="Model", color_domain=model_domain),
                             width='stretch')
 
