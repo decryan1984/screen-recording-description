@@ -69,7 +69,7 @@ SCORES_CAPTION = (
     "**Memory (MB)** — resident model size while loaded, from Ollama (local models only).  \n"
     f"**Gemini Cost (USD)** — captured for Gemini, projected for local variants at \\${GEMINI_INPUT_USD_PER_1M:.2f}/\\${GEMINI_OUTPUT_USD_PER_1M:.2f} per 1M input/output tokens. "
     "Full-resolution variant omitted as the cost is not comparable.  \n"
-    "NOTE - Gemini uses ~4x the tokens of the local VLMs to generate a similarly sized result.")
+    "NOTE - Gemini needs a 4x higher output-token cap than the local VLMs to generate a similarly sized result (thinking tokens count toward the limit).")
 
 # Parameters whose individual effect is viewable in the Parameter Effect graphs.
 PARAM_EFFECT_PARAMS = ["Diff Threshold", "Max Tokens", "Resolution"]

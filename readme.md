@@ -150,7 +150,7 @@ The **Evaluation Results** page explores and compares batch results (reads from 
 - **Inference Time** — measured time to process the video (frame VLM + intent). For Gemini this is remote API latency, not local compute.
 - **Compute (TERAFLOPS)** — analytical model work for comparing models independent of hardware. Local models only, parameters come from Ollama (`/api/show`).
 - **Memory (MB)** — resident model size while loaded, from Ollama (`/api/ps`), local models only.
-- **Gemini Cost (USD)** — measured for the Gemini run and projected onto local variants (frames x Gemini's per-frame token rates, priced from `GEMINI_*_USD_PER_1M` in `config.py`). Full-resolution variants are omitted, as their image tokens differ from the baseline.
+- **Gemini Cost (USD)** — measured for the Gemini run and projected onto local variants (frames x Gemini's per-frame token rates, priced from `GEMINI_*_USD_PER_1M` in `config.py`). Full-resolution variants are omitted, as their image tokens differ from the baseline. Gemini needs a 4x higher output-token cap than the local VLMs (its "thinking" tokens count toward the limit), but its actual per-frame token usage is comparable or lower.
 
 ---
 
