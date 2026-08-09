@@ -1,0 +1,52 @@
+{
+  "video": "/Users/decryan/Documents/PD/CT5230/screen-recording-description/evaluation/data/GUI-World/multi/2.mp4",
+  "total_frames": 109,
+  "fps": 24.0,
+  "video_length_sec": 4.54,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 109,
+  "frames_processed": 2,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "analysis_prompt": "Below is a chronological sequence of observations from a screen recording (per-frame descriptions, or partial summaries of them):\n\n{entries}\n\nIn one or two sentences, state what the user was trying to accomplish overall. Infer the goal only from the observed actions \u2014 do not invent details or quote text that is not shown above. Respond with the intent only, no preamble or labels.",
+    "intent": "The user is editing a photograph of a person in Adobe Photoshop 2020, focusing on the main subject layer and adjusting image elements using the selected Gotham Black font.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.04,
+        "latency_sec": 5.24,
+        "frame_description": "The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The current action involves selecting or adjusting the \"DSC00984\" layer, which appears to be the main subject layer. No text has been entered by the user in form fields or active input areas; all visible text in the interface is part of the application's UI or the image itself.",
+        "prompt_tokens": 993,
+        "completion_tokens": 94
+      },
+      {
+        "frame_number": 109,
+        "timestamp_sec": 4.54,
+        "latency_sec": 9.68,
+        "frame_description": "The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The current action involves selecting or adjusting elements within the image using the tools available in the Photoshop interface. Visible text includes:\n\n- \"Adobe Photoshop 2020\" in the title bar.\n- \"Photoshop File Edit Image Layer Type Select Filter 3D View Window Help\" in the menu bar.\n- \"Gotham Black\" as the font selected in the toolbar.\n- \"18,3 pt\" as the font size.\n- \"Sharp\" as the effect applied to the text layer.\n- \"Insta picture @ 110% (Layer 2, RGB/8)\" as the layer name.\n- \"Color Swatches Gradients Patterns\" in the top-right panel.\n- \"Properties Adjustments\" in the right-side panel.\n- \"Add an adjustment\" with various adjustment options listed below it.\n- \"Layers Channels Paths\" in the bottom-right panel.\n- \"Layer 2\", \"Layer 1\", \"DSC00984\", and \"Background\" as layer names.\n- \"Normal\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      }
+    ],
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 16.51,
+      "total_vlm_inference_sec": 14.92,
+      "intent_latency_sec": 1.59,
+      "frames_processed": 2,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 7.46,
+      "median_frame_latency_sec": 7.46,
+      "min_frame_latency_sec": 5.24,
+      "max_frame_latency_sec": 9.68,
+      "avg_description_length_chars": 678.5,
+      "total_prompt_tokens": 2313,
+      "total_completion_tokens": 386,
+      "avg_completion_tokens_per_sec": 23.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  }
+}

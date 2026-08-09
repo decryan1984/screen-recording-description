@@ -1,0 +1,52 @@
+{
+  "video": "/Users/decryan/Documents/PD/CT5230/screen-recording-description/evaluation/data/GUI-World/multi/0.mp4",
+  "total_frames": 138,
+  "fps": 24.0,
+  "video_length_sec": 5.75,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 138,
+  "frames_processed": 2,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "analysis_prompt": "Below is a chronological sequence of observations from a screen recording (per-frame descriptions, or partial summaries of them):\n\n{entries}\n\nIn one or two sentences, state what the user was trying to accomplish overall. Infer the goal only from the observed actions \u2014 do not invent details or quote text that is not shown above. Respond with the intent only, no preamble or labels.",
+    "intent": "The user is editing a photograph of a person in a coat and backpack within Adobe Photoshop 2020, utilizing toolbar tools to select or adjust specific areas of the image.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.04,
+        "latency_sec": 4.77,
+        "frame_description": "The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The interface shows various tools and panels typical of Photoshop, including the Layers panel, Color panel, and Properties panel. There is no visible text being actively typed or entered by the user in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 138,
+        "timestamp_sec": 5.75,
+        "latency_sec": 8.64,
+        "frame_description": "The user is editing an image in Adobe Photoshop 2020, specifically working on a photo of a person wearing a coat and carrying a backpack. The current action involves selecting or adjusting the image using tools from the toolbar on the left side of the screen. Visible text includes:\n\n- \"Photoshop\"\n- \"File Edit Image Layer Type Select Filter 3D View Help\"\n- \"Adobe Photoshop 2020\"\n- \"Insta picture @ 110% (Layer 2, RGB/8) *\"\n- \"Mode: Normal Opacity: 100% Reverse Dither Transparency\"\n- \"Color Swatches Gradients Patterns\"\n- \"Properties Adjustments\"\n- \"Add an adjustment\"\n- \"Layer 2 Layer 1 DSC00984 Background\"\n- \"1080 px x 1350 px (300 ppi)\"\n\nThe user appears to be focused on refining the image's appearance, possibly through color adjustments or layer manipulations.",
+        "prompt_tokens": 993,
+        "completion_tokens": 219
+      }
+    ],
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 15.06,
+      "total_vlm_inference_sec": 13.41,
+      "intent_latency_sec": 1.65,
+      "frames_processed": 2,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.71,
+      "median_frame_latency_sec": 6.71,
+      "min_frame_latency_sec": 4.77,
+      "max_frame_latency_sec": 8.64,
+      "avg_description_length_chars": 566,
+      "total_prompt_tokens": 2308,
+      "total_completion_tokens": 329,
+      "avg_completion_tokens_per_sec": 21.8,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  }
+}

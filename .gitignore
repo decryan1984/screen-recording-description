@@ -15,7 +15,7 @@ build/
 dist/
 
 # Evaluation dataset — ignore the data itself, but keep the readme and the
-# empty folder skeleton (.gitkeep placeholders) so the expected layout ships.
+# empty dataset folder structure (.gitkeep placeholders).
 evaluation/data/*
 !evaluation/data/readme.md
 !evaluation/data/GUI-World/
@@ -36,9 +36,6 @@ evaluation/data/GUI-World/Annotation/train/*
 
 evaluation/data/GUI-World/Annotation/benchmark/*
 !evaluation/data/GUI-World/Annotation/benchmark/.gitkeep
-
-# Service runtime outputs
-output/
 
 # macOS
 .DS_Store
