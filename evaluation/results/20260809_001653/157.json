@@ -1,0 +1,440 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/157.mp4",
+  "total_frames": 1297,
+  "fps": 30.000448156270647,
+  "video_length_sec": 43.23,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1297,
+  "frames_processed": 9,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to log into their Riot Games account using a Google account, likely to access or manage their Riot account settings or games.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.79,
+        "frame_description": "The user is typing an email address into the \"Email or phone\" field on the Google sign-in page.\n\nUser-entered text:\n- shuaishuaodcp@gmail.com",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 247,
+        "timestamp_sec": 8.23,
+        "latency_sec": 3.82,
+        "frame_description": "The user is entering their email address into the \"Email or phone\" field on the Google sign-in page for Riot Accounts. The text currently entered is \"shuaishuaicdp@gmail.com\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 394,
+        "timestamp_sec": 13.13,
+        "latency_sec": 3.58,
+        "frame_description": "The user is viewing the Google sign-in page, with no active input or interaction occurring at this moment. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 658,
+        "timestamp_sec": 21.93,
+        "latency_sec": 3.71,
+        "frame_description": "The user is entering their password in the Google sign-in page.\n\nUser-entered text:\n- Password field: `\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022`",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 903,
+        "timestamp_sec": 30.1,
+        "latency_sec": 4.76,
+        "frame_description": "The user is viewing the Microsoft Store application, specifically the \"Games and Software\" section, with a list of available games displayed on the left side of the screen. The main area of the screen shows a blank page, possibly indicating that no specific game has been selected yet. There is no active typing or input visible in any form fields or search bars within the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 956,
+        "timestamp_sec": 31.87,
+        "latency_sec": 3.45,
+        "frame_description": "The user is viewing the Google login page for Riot Accounts, with the email field populated as \"shuashuaxiao@gmail.com\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 1242,
+        "timestamp_sec": 41.4,
+        "latency_sec": 3.15,
+        "frame_description": "The user is viewing the Microsoft Store library, with no active text input or typing observed.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 1253,
+        "timestamp_sec": 41.77,
+        "latency_sec": 3.16,
+        "frame_description": "The user is viewing their Steam library, with no active actions or text input currently visible.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 1297,
+        "timestamp_sec": 43.23,
+        "latency_sec": 8.68,
+        "frame_description": "The user is viewing the Steam client interface, with the \"STORE\" tab active and the \"LIBRARY\" section expanded, displaying a list of installed games such as \"Thronefall,\" \"Titanfall 2,\" \"Is the Moon,\" \"Tom Clancy's Rainbow Six Siege,\" \"Tomb Raider,\" \"Undertale,\" \"Unheard - Voices of Crime,\" \"Unreal,\" \"Unreal Two,\" \"Unreal - Goose Game,\" \"Unreal,\" \"VTube Studio,\" \"Wallpaper Engine,\" \"Warframe,\" \"Watch Dogs 2,\" \"A Way Out,\" \"We Were Here,\" \"We Were Here Together,\" \"What Remains of Edith Finch,\" and \"The Invisible Guard.\" The user has not entered any text in form fields or search bars within the Steam client. The desktop background is visible, and the taskbar at the bottom shows various application icons, including Chrome, Edge, and other utilities. The user appears to be browsing their game library but has not taken any specific action beyond viewing the list.",
+        "prompt_tokens": 993,
+        "completion_tokens": 214
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Authorize the Riot Games account using a Google account.",
+      "reference_caption": "Authenticating and authorizing a Riot Games account using Google credentials",
+      "reference_apps": [
+        "edge",
+        "riots",
+        "google account"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 47,
+          "sub_goal": "Click \"next\" to navigate to the next login interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 263,
+          "sub_goal": "Start loading",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 417,
+          "sub_goal": "The page becomes a request for me to enter a password.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 597,
+          "sub_goal": "I entered my password.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 657,
+          "sub_goal": "Click \"next\" to jump to the next page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 972,
+          "sub_goal": "The password is correct, enter the authorization page for Riot accounts on the Google account.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1069,
+          "sub_goal": "The mouse clicked \"continue.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1278,
+          "sub_goal": "Jump to a new page",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of authorizing a Riot Games account using Google credentials. The timeline details, such as entering an email and password on the Google sign-in page for Riot Accounts, align with this goal. There are no contradictions in the named details (email addresses) between the reasoning/prediction answers and the timeline."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 394 mentions no active input, which contradicts the user's action of entering a password in Frame 658. Frame 903 incorrectly describes viewing the Microsoft Store instead of interacting with the Google sign-in page. These discrepancies indicate fabricated or incorrect details."
+        },
+        "coverage": {
+          "score": 2.45,
+          "coverage": 0.364,
+          "covered": 4,
+          "total": 11,
+          "covered_actions": [
+            1,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "google account"
+          ],
+          "reasoning": "The AI timeline describes actions related to entering an email and password on a Google sign-in page, which aligns with some keyframe actions. However, it does not cover all the specified mouse clicks or navigation steps."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information without meaningful changes, such as multiple views of the Google sign-in page and Microsoft Store interface with no new actions. However, there are also distinct entries describing different user interactions and screen states."
+        }
+      },
+      "composite_score": 12.45,
+      "max_score": 20,
+      "latency_sec": 57.95
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0845,
+        "recall": 0.5172,
+        "f1": 0.1453
+      },
+      "rouge2": {
+        "precision": 0.0169,
+        "recall": 0.1053,
+        "f1": 0.0292
+      },
+      "rougeL": {
+        "precision": 0.0563,
+        "recall": 0.3448,
+        "f1": 0.0969
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0072
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 98.09,
+      "total_vlm_inference_sec": 38.1,
+      "intent_latency_sec": 2.0,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.23,
+      "median_frame_latency_sec": 3.71,
+      "min_frame_latency_sec": 3.15,
+      "max_frame_latency_sec": 8.68,
+      "avg_description_length_chars": 239.6,
+      "total_prompt_tokens": 9590,
+      "total_completion_tokens": 537,
+      "avg_completion_tokens_per_sec": 13.3,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to sign into their Google account and view the Privacy Policy from the account authorization page.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.04,
+        "frame_description": "The user is selecting \"shuaishuaicdp@gmail.com\" from the autofill dropdown menu in the browser. \n\nVisible user-entered text in the application:\n* Email or phone field: \"shuaishuaicdp@gmail.com\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 247,
+        "timestamp_sec": 8.23,
+        "latency_sec": 4.85,
+        "frame_description": "The user is entering their email address into the \"Email or phone\" field on the Google sign-in page.\n\n**User-entered text:**\n* Email or phone field: \"shuaishuaicdp@gmail.com\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 394,
+        "timestamp_sec": 13.13,
+        "latency_sec": 6.94,
+        "frame_description": "The user is viewing the Google sign-in page for \"shuaishuaicdp@gmail.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 658,
+        "timestamp_sec": 21.93,
+        "latency_sec": 5.81,
+        "frame_description": "The user is clicking on the 'Next' button. The visible user-entered text in the password field is \"\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 903,
+        "timestamp_sec": 30.1,
+        "latency_sec": 5.4,
+        "frame_description": "The user is hovering the mouse cursor over the blank web page in the browser window. \n\nVisible user-entered text in the application:\n- Address bar: `https://accounts.google.com.tw/accounts/SetSID`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 956,
+        "timestamp_sec": 31.87,
+        "latency_sec": 6.6,
+        "frame_description": "The user is clicking on the \"\u9690\u79c1\u6743\u653f\u7b56\" (Privacy Policy) link on the Google account authorization page.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 1242,
+        "timestamp_sec": 41.4,
+        "latency_sec": 6.34,
+        "frame_description": "The user is resting the cursor on a blank web page while waiting for the website to load in the browser.\n\nThere is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1253,
+        "timestamp_sec": 41.77,
+        "latency_sec": 5.75,
+        "frame_description": "The user is hovering the mouse cursor over the blank area of the web browser window. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 1297,
+        "timestamp_sec": 43.23,
+        "latency_sec": 6.53,
+        "frame_description": "The user is hovering the mouse cursor over the web browser window. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Authorize the Riot Games account using a Google account.",
+      "reference_caption": "Authenticating and authorizing a Riot Games account using Google credentials",
+      "reference_apps": [
+        "edge",
+        "riots",
+        "google account"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 47,
+          "sub_goal": "Click \"next\" to navigate to the next login interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 263,
+          "sub_goal": "Start loading",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 417,
+          "sub_goal": "The page becomes a request for me to enter a password.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 597,
+          "sub_goal": "I entered my password.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 657,
+          "sub_goal": "Click \"next\" to jump to the next page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 972,
+          "sub_goal": "The password is correct, enter the authorization page for Riot accounts on the Google account.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1069,
+          "sub_goal": "The mouse clicked \"continue.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1278,
+          "sub_goal": "Jump to a new page",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent focuses on viewing the Privacy Policy after clicking its link, which is a peripheral action compared to the core objective of authorizing the Riot Games account using Google credentials. The timeline shows actions related to entering email and password for Google sign-in, but does not provide details about confirming authorization with Riot Games. There are no contradictions in the named details (e.g., email address) between the AI's inferred intent and the prediction answer."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions are mostly consistent with the keyframes. The description of entering an email address aligns with the initial login steps, and clicking 'Next' matches the keyframe actions. However, there is no mention of password entry or authorization page navigation in the AI frames, which are crucial for answering the sequential QA correctly. The static QA about the primary language set on the Google sign-in page is not addressed in the AI frame descriptions, making it impossible to verify its correctness from the provided timeline."
+        },
+        "coverage": {
+          "score": 2.45,
+          "coverage": 0.364,
+          "covered": 4,
+          "total": 11,
+          "covered_actions": [
+            1,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "google account"
+          ],
+          "reasoning": "The AI timeline describes actions related to navigating through a login interface, entering an email address, and clicking the 'Next' button, which aligns with some of the keyframe actions. The timeline mentions interactions on a Google sign-in page, indicating the application used."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as multiple instances of hovering over a blank web page. However, there are also distinct actions like selecting an email from autofill, entering text, and clicking buttons."
+        }
+      },
+      "composite_score": 11.45,
+      "max_score": 20,
+      "latency_sec": 62.28
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1435,
+        "recall": 0.5172,
+        "f1": 0.2247
+      },
+      "rouge2": {
+        "precision": 0.0433,
+        "recall": 0.1579,
+        "f1": 0.0679
+      },
+      "rougeL": {
+        "precision": 0.0957,
+        "recall": 0.3448,
+        "f1": 0.1498
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0065
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 117.66,
+      "total_vlm_inference_sec": 52.26,
+      "intent_latency_sec": 3.09,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.81,
+      "median_frame_latency_sec": 5.81,
+      "min_frame_latency_sec": 4.04,
+      "max_frame_latency_sec": 6.94,
+      "avg_description_length_chars": 137.8,
+      "total_prompt_tokens": 11260,
+      "total_completion_tokens": 330,
+      "avg_completion_tokens_per_sec": 5.9
+    }
+  }
+}

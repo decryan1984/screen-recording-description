@@ -1,0 +1,757 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/450.mov",
+  "total_frames": 1479,
+  "fps": 46.68167662654659,
+  "video_length_sec": 31.68,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1479,
+  "frames_processed": 29,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to generate original lyrics for a song by first seeking musical inspiration and then providing a specific thematic description to Suno AI.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.04,
+        "frame_description": "The user is typing \"sona\" into the Google search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 213,
+        "timestamp_sec": 4.56,
+        "latency_sec": 7.11,
+        "frame_description": "The user is typing \"suno ai\" into the Google search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 256,
+        "timestamp_sec": 5.48,
+        "latency_sec": 7.18,
+        "frame_description": "The user is typing \"suno ai\" into the search bar on the Google search page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 362,
+        "timestamp_sec": 7.75,
+        "latency_sec": 10.36,
+        "frame_description": "The user is viewing a web page in a browser, with the URL \"https://www.suno.ai\" displayed in the address bar. The page appears to be a search result or a landing page for Suno AI, but the content is not visible due to a black screen. The browser has multiple tabs open, including references to CS study, arXiv bot, Cool Papers, ICML 2024, COLM 2024, and various GitHub repositories related to video generation models and datasets. The user seems to be exploring or researching topics related to artificial intelligence, particularly in the field of video generation.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 129
+      },
+      {
+        "frame_number": 430,
+        "timestamp_sec": 9.21,
+        "latency_sec": 7.72,
+        "frame_description": "The user is hovering over the ChatGPT icon in the browser's sidebar, which displays a tooltip with the text \"ChatGPT\" and the URL \"chat.openai.com\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 446,
+        "timestamp_sec": 9.55,
+        "latency_sec": 13.94,
+        "frame_description": "The user is viewing a web page in a browser with multiple tabs open, including \"Suno AI\" and various GitHub repositories and papers. The main content area shows a black screen with two white semi-circular shapes, possibly part of a video or animation. The sidebar lists several GitHub repositories and related items, such as \"MetaTool Benchmark for Large L\", \"A Blurred Border: The Dilemma\", \"Dongping-Chen/MLLM-Judge\", \"HowieHwong/DyGenset\", \"Dongping-Chen/Video-QA\", \"Dongping-Chen/CDP-MLLM\", \"github.com/JieyuZ2/unified\", \"JieyuZ2/dynabench\", \"Dongping-Chen/GUI-video\", \"Overleaf and Conference\", \"Daily Papers\", \"Hugging Face\", \"Video-LLM\", \"Video-Dataset\", \"github.com\", \"Issues - nishantrai18/homage\", \"jingkang50.github.io\", \"Dongping Chen's Website - Home\", \"Video generation models as work\", \"arxiv.org/pdf/2403.17830.pdf\", \"aliyunpan/docs",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 462,
+        "timestamp_sec": 9.9,
+        "latency_sec": 14.0,
+        "frame_description": "The user is viewing a webpage on the Suno AI platform, with no active text input or typing occurring. The visible text includes:\n\n- URL bar: `https://www.suno.ai`\n- Tab title: `Suno AI`\n- Browser bookmarks:\n  - `CS study`\n  - `\u5199\u4f5c`\n  - `CS interest`\n  - `Google`\n  - `arxiv-bot`\n  - `Cool Papers - Im...`\n  - `ICML 2024`\n  - `AI Conference De...`\n  - `COLM 2024`\n  - `\u77e5\u4e4e`\n  - `Apple Music`\n  - `HustMail`\n  - `TGx:Home`\n  - `HutaoCloud`\n  - `\u5b66\u4e60\u901a`\n  - `gatern.github.io`\n  - `bilibili`\n  - `mac software`\n- Sidebar folders and files:\n  - `MetaTool Benchmark for Large L`\n  - `A Blurred Border: The Dilemma`\n  - `GitHub`\n    - `Dongping-Chen/MLLM-Judge`",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 478,
+        "timestamp_sec": 10.24,
+        "latency_sec": 7.71,
+        "frame_description": "The user is viewing a webpage with the text \"Make a song for your goldfish.\" displayed prominently. There is no active input or typing occurring in the visible interface elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 494,
+        "timestamp_sec": 10.58,
+        "latency_sec": 10.61,
+        "frame_description": "The user is viewing the Suno AI website, which displays several prompts for generating songs, including \"Make a song for the holidays,\" \"Make a song about mitochondria,\" and \"Make a happy song.\" The interface includes navigation options like \"About,\" \"Team,\" and \"Blog,\" along with a \"Make a song\" button. On the left sidebar, there are various folders and files listed, such as \"MetaTool Benchmark for Large L,\" \"A Blurred Border: The Dilemma,\" and \"Dongping-Chen/MLLM-Judge.\" The user appears to be browsing or exploring the site but is not actively typing or entering any text in the visible fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 140
+      },
+      {
+        "frame_number": 510,
+        "timestamp_sec": 10.93,
+        "latency_sec": 9.95,
+        "frame_description": "The user is viewing the Suno AI website, which displays several phrases related to making songs. The visible text includes: \"Make a happy song.\", \"Make a song that feels how you feel.\", \"Make a song for my friend Earl.\", and \"Make a song about the moon.\" Additionally, there are navigation options such as \"Suno\", \"About\", \"Team\", and \"Blog\", along with a \"Make a song\" button. The user appears to be browsing or reading the content on the page rather than actively typing or entering text into any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 116
+      },
+      {
+        "frame_number": 526,
+        "timestamp_sec": 11.27,
+        "latency_sec": 7.2,
+        "frame_description": "The user is viewing a webpage with the text \"Make a song for my friend Earl.\" displayed prominently.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 542,
+        "timestamp_sec": 11.61,
+        "latency_sec": 7.17,
+        "frame_description": "The user is hovering over the 'Make a song' button on the Suno AI website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 558,
+        "timestamp_sec": 11.95,
+        "latency_sec": 7.14,
+        "frame_description": "The user is hovering over the 'Make a song' button on the Suno AI website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 574,
+        "timestamp_sec": 12.3,
+        "latency_sec": 9.38,
+        "frame_description": "The user is viewing the Suno AI website, which displays a prompt to \"Make a song about the moon.\" The interface includes navigation options like \"Suno,\" \"About,\" \"Team,\" and \"Blog,\" along with a \"Make a song\" button. There are no visible form fields or input areas where the user has entered text; the page appears to be in a static display mode, likely showcasing examples of song prompts.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 88
+      },
+      {
+        "frame_number": 590,
+        "timestamp_sec": 12.64,
+        "latency_sec": 9.81,
+        "frame_description": "The user is viewing a browser window with multiple tabs open, including references to CS study materials, GitHub repositories, and various software resources. The left sidebar displays a list of bookmarks or saved pages, such as \"A Blurred Border: The Dilemma,\" \"Dongping-Chen/MLLM-Judge,\" and others related to academic research and technical documentation. The main content area is blank, suggesting the user may be preparing to create a new document or navigate to a specific page. No active typing or form-filling actions are currently visible.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 112
+      },
+      {
+        "frame_number": 643,
+        "timestamp_sec": 13.77,
+        "latency_sec": 8.59,
+        "frame_description": "The user is viewing a web page in a browser, with the address bar showing \"https://app.suno.ai\". The page appears to be a document or note-taking application, displaying a list of items on the left side and a mostly black area on the right side. There is no visible text being actively typed or entered into any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 759,
+        "timestamp_sec": 16.26,
+        "latency_sec": 7.45,
+        "frame_description": "The user is viewing the \"Explore\" page on the Suno AI application, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 823,
+        "timestamp_sec": 17.63,
+        "latency_sec": 7.3,
+        "frame_description": "The user is viewing the \"Explore\" page on the Suno application, with no active text input or typing observed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 890,
+        "timestamp_sec": 19.07,
+        "latency_sec": 9.74,
+        "frame_description": "The user is viewing the \"Explore\" page on the Suno AI application, which displays a grid of music tracks with titles, genres, and view counts. The interface includes a sidebar with navigation options like \"Explore,\" \"Create,\" and \"Library,\" as well as a list of folders and files on the left. At the bottom of the screen, there is a progress message indicating that the backend systems are being upgraded. No text is actively being typed or entered by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 101
+      },
+      {
+        "frame_number": 935,
+        "timestamp_sec": 20.03,
+        "latency_sec": 7.07,
+        "frame_description": "The user is hovering over the 'Create' button in the Suno application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 993,
+        "timestamp_sec": 21.27,
+        "latency_sec": 7.74,
+        "frame_description": "The user is typing in the input field at the bottom of the ChatGPT interface. The text being entered is: \"what type of music is it? give me some words\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1125,
+        "timestamp_sec": 24.1,
+        "latency_sec": 8.34,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the model has generated a poem about academic conferences. The user appears to be reading through the generated content, which includes verses, a chorus, and an outro. There is no active input being typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 1141,
+        "timestamp_sec": 24.44,
+        "latency_sec": 7.87,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the model has generated a poem about academic conferences. The user is not actively typing or interacting with any form fields; they are simply reading the content displayed in the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 1157,
+        "timestamp_sec": 24.78,
+        "latency_sec": 7.88,
+        "frame_description": "The user is viewing a webpage from Suno AI, which displays prompts for generating songs. The current prompt visible on the screen is \"Make a song about the moon.\" The user has not yet entered any text into the input field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 1173,
+        "timestamp_sec": 25.13,
+        "latency_sec": 7.06,
+        "frame_description": "The user is viewing a webpage with the text \"Make a song about the moon.\" displayed prominently.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 1261,
+        "timestamp_sec": 27.01,
+        "latency_sec": 7.39,
+        "frame_description": "The user is typing \"an aggressive folk song about wanting to be with you\" into the Song Description field in the Suno AI application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 1277,
+        "timestamp_sec": 27.36,
+        "latency_sec": 7.36,
+        "frame_description": "The user is typing \"an aggressive folk song about wanting to be with you\" into the \"Song Description\" field in the Suno application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1362,
+        "timestamp_sec": 29.18,
+        "latency_sec": 8.38,
+        "frame_description": "The user is viewing the Suno AI interface, which allows for creating music with custom lyrics and styles. The interface shows options to input lyrics, select an instrumental track, choose a style of music, and enter a title for the song. There are no visible user-entered texts in form fields or search bars at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 1479,
+        "timestamp_sec": 31.68,
+        "latency_sec": 7.57,
+        "frame_description": "The user is typing in the input field of the ChatGPT interface.\n\nVisible user-entered text:\n- \"what type of music is it? give me some words\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Create songs using Suno AI.",
+      "reference_caption": "Navigating through a macOS interface to search and access Suno AI for song creation.",
+      "reference_apps": [
+        "edge",
+        "openai",
+        "suno ai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 170,
+          "sub_goal": "Enter \"suno\" in the search bar on Google.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 201,
+          "sub_goal": "Clicked on the first suggested word.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 304,
+          "sub_goal": "The search results for Suno AI came out, then clicked on the first search result, and redirected to Suno AI's webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 551,
+          "sub_goal": "Click on the \"make a song\" button in Suno Ai.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 930,
+          "sub_goal": "Entered the explore page of Suno Ai.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1365,
+          "sub_goal": "Clicked on costum mode, opened custom mode.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1474,
+          "sub_goal": "Place the mouse over the icon for chatgpt, prepare to click and switch to the chatgpt page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of generating original lyrics for a song using Suno AI. The timeline shows that after accessing the 'Make a song' section, the user provided specific thematic descriptions and interacted with the interface to create songs, aligning with the goal of creating songs using Suno AI."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes provided. The sequence of user interactions such as typing 'suno' in the search bar, clicking on suggested results, and navigating to Suno AI's webpage are consistent with the ground truth. However, there are some discrepancies: Frame 1 mentions 'sona' instead of 'suno', which contradicts the keyframe. Additionally, the description of the user typing 'an aggressive folk song about wanting to be with you' in Frame 1261 is not explicitly mentioned in the keyframes but does not contradict them either. The timeline supports answering the static and sequential QA questions correctly, as it includes relevant interactions like clicking on the 'make a song' button after accessing Suno AI's website."
+        },
+        "coverage": {
+          "score": 5.0,
+          "coverage": 1.0,
+          "covered": 10,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "edge",
+            "openai",
+            "suno ai"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, including entering search terms on Google and interacting with Suno AI's webpage. The timeline also mentions interactions with OpenAI's ChatGPT."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, such as multiple frames detailing hovering over the 'Make a song' button and viewing pages with no active input. However, there are also numerous entries providing new information about user actions or interface changes."
+        }
+      },
+      "composite_score": 17.0,
+      "max_score": 20,
+      "latency_sec": 140.08
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0462,
+        "recall": 0.7792,
+        "f1": 0.0873
+      },
+      "rouge2": {
+        "precision": 0.0185,
+        "recall": 0.3158,
+        "f1": 0.035
+      },
+      "rougeL": {
+        "precision": 0.0347,
+        "recall": 0.5844,
+        "f1": 0.0655
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0257
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 393.47,
+      "total_vlm_inference_sec": 246.06,
+      "intent_latency_sec": 7.28,
+      "frames_processed": 29,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.48,
+      "median_frame_latency_sec": 7.72,
+      "min_frame_latency_sec": 7.04,
+      "max_frame_latency_sec": 14.0,
+      "avg_description_length_chars": 265.8,
+      "total_prompt_tokens": 63156,
+      "total_completion_tokens": 2008,
+      "avg_completion_tokens_per_sec": 7.7,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to create a song on Suno AI using its custom mode, leveraging ChatGPT to help generate descriptors and text for the song prompt.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 12.68,
+        "frame_description": "The user is searching on Google with the search menu open, where the address bar contains \"https://www.google.com/search?q=sona&oq=sona&gs_l",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 213,
+        "timestamp_sec": 4.56,
+        "latency_sec": 4.86,
+        "frame_description": "The user is clicking on the \"Participant Pool Management for Universities \u00b7 Sona Systems\" link, with the text \"suno ai\" entered in the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 256,
+        "timestamp_sec": 5.48,
+        "latency_sec": 6.28,
+        "frame_description": "The user is viewing a web page with the cursor positioned over the main content area. The visible user-entered text includes \"suno ai\" in the search bar and \"https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 362,
+        "timestamp_sec": 7.75,
+        "latency_sec": 6.19,
+        "frame_description": "The user is viewing a web browser page with \"https://www.suno.ai\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 430,
+        "timestamp_sec": 9.21,
+        "latency_sec": 4.94,
+        "frame_description": "The user is hovering the cursor over the ChatGPT icon on the left sidebar of the browser. The visible user-entered text in the address bar is \"https://www.suno.ai\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 446,
+        "timestamp_sec": 9.55,
+        "latency_sec": 4.99,
+        "frame_description": "The user is viewing the webpage at \"https://www.suno.ai\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 462,
+        "timestamp_sec": 9.9,
+        "latency_sec": 5.57,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. The visible user-entered text in the address bar is \"https://www.suno.ai\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 478,
+        "timestamp_sec": 10.24,
+        "latency_sec": 5.21,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. The visible user-entered text includes \"https://www.suno.ai\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 494,
+        "timestamp_sec": 10.58,
+        "latency_sec": 5.59,
+        "frame_description": "The user is hovering the mouse cursor over the Suno AI webpage. The address bar contains \"https://www.suno.ai\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 510,
+        "timestamp_sec": 10.93,
+        "latency_sec": 5.16,
+        "frame_description": "The user is moving the mouse cursor over the web page. The visible text in the browser's address bar is \"https://www.suno.ai\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 526,
+        "timestamp_sec": 11.27,
+        "latency_sec": 5.43,
+        "frame_description": "The user is moving the cursor over the webpage. \n\n visible user-entered text includes:\n- Address bar: `https://www.suno.ai`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 542,
+        "timestamp_sec": 11.61,
+        "latency_sec": 4.39,
+        "frame_description": "The user is clicking on the 'Make a song' button. The text visible in the address bar is \"https://www.suno.ai\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 558,
+        "timestamp_sec": 11.95,
+        "latency_sec": 4.03,
+        "frame_description": "The user is clicking on the 'Make a song' button.\n\nVisible user-entered text:\n- Address bar: \"https://www.suno.ai\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 574,
+        "timestamp_sec": 12.3,
+        "latency_sec": 4.29,
+        "frame_description": "The user is clicking on the 'Make a song' button. \n\nVisible user-entered text:\n- Address bar: `https://www.suno.ai`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 590,
+        "timestamp_sec": 12.64,
+        "latency_sec": 5.86,
+        "frame_description": "The user is moving the mouse cursor on a blank web page in the browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 643,
+        "timestamp_sec": 13.77,
+        "latency_sec": 4.93,
+        "frame_description": "The user is hovering the cursor over the webpage background, with the address bar containing \"https://app.suno.ai\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 759,
+        "timestamp_sec": 16.26,
+        "latency_sec": 5.4,
+        "frame_description": "The user is moving the mouse cursor to the top left area of the browser sidebar. \n\n**Visible user-entered text:**\n* **Address bar:** `https://app.suno.ai`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 823,
+        "timestamp_sec": 17.63,
+        "latency_sec": 3.98,
+        "frame_description": "The user is clicking on the \"Library\" option in the sidebar menu. The visible text in the address bar is \"https://app.suno.ai\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 890,
+        "timestamp_sec": 19.07,
+        "latency_sec": 5.56,
+        "frame_description": "The user is clicking on the 'Create' option in the left navigation menu. \n\nThere is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 935,
+        "timestamp_sec": 20.03,
+        "latency_sec": 4.28,
+        "frame_description": "The user is clicking on the 'Create' option in the left navigation menu. \n\n**User-entered text:**\n* Address bar: \"https://app.suno.ai\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 993,
+        "timestamp_sec": 21.27,
+        "latency_sec": 5.34,
+        "frame_description": "The user is typing a prompt into the ChatGPT text box.\n\n**Visible user-entered text:**\n* Browser address bar: `\"https://chat.openai.com/c/9e0bf1ee-6fd6-482d-d956b846b065\"`\n* ChatGPT message input box: `\"what type of music is it? give me some words\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 1125,
+        "timestamp_sec": 24.1,
+        "latency_sec": 7.71,
+        "frame_description": "The user is typing text into the prompt input field in ChatGPT.\n\n**Visible user-entered text:**\n* **URL bar:** `https://chat.openai.com/c/9",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1141,
+        "timestamp_sec": 24.44,
+        "latency_sec": 7.14,
+        "frame_description": "The user is clicking on the 'Suno AI' tab in the left sidebar. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1157,
+        "timestamp_sec": 24.78,
+        "latency_sec": 7.13,
+        "frame_description": "The user is viewing the Suno AI homepage in the browser.\n\n**Visible user-entered text:**\n* **Address bar:** \"https://www.suno.ai\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1173,
+        "timestamp_sec": 25.13,
+        "latency_sec": 4.92,
+        "frame_description": "The user is viewing the Suno AI webpage with the URL 'https://www.suno.ai'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 1261,
+        "timestamp_sec": 27.01,
+        "latency_sec": 7.4,
+        "frame_description": "The user is hovering the mouse cursor near the \"New Tab\" button in the bottom left of the browser window. The visible user-entered text in the application is \"an aggressive folk song about",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1277,
+        "timestamp_sec": 27.36,
+        "latency_sec": 6.52,
+        "frame_description": "The user is hovering the cursor over the \"Suno\" tab in the left sidebar. The visible user-entered text in the application is \"an aggressive folk song about wanting to be with you\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1362,
+        "timestamp_sec": 29.18,
+        "latency_sec": 4.5,
+        "frame_description": "The user is clicking on the \"Custom Mode\" toggle switch.\n\n**Visible user-entered text:**\n* Address bar: `\"https://app.suno.ai/create/\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1479,
+        "timestamp_sec": 31.68,
+        "latency_sec": 7.05,
+        "frame_description": "The user is selecting the text \"give me some words\" in the chat prompt box at the bottom of the page.\n\n**Visible user-entered text:**\n* Address bar: `https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Create songs using Suno AI.",
+      "reference_caption": "Navigating through a macOS interface to search and access Suno AI for song creation.",
+      "reference_apps": [
+        "edge",
+        "openai",
+        "suno ai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 170,
+          "sub_goal": "Enter \"suno\" in the search bar on Google.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 201,
+          "sub_goal": "Clicked on the first suggested word.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 304,
+          "sub_goal": "The search results for Suno AI came out, then clicked on the first search result, and redirected to Suno AI's webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 551,
+          "sub_goal": "Click on the \"make a song\" button in Suno Ai.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 930,
+          "sub_goal": "Entered the explore page of Suno Ai.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1365,
+          "sub_goal": "Clicked on costum mode, opened custom mode.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1474,
+          "sub_goal": "Place the mouse over the icon for chatgpt, prepare to click and switch to the chatgpt page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of creating a song using Suno AI, as evidenced by actions such as navigating to 'https://www.suno.ai', clicking on the 'Make a song' section, and interacting with the ChatGPT text box for input. The timeline supports this with specific details like accessing 'https://app.suno.ai/create/' and typing prompts into the ChatGPT interface."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence of user interactions matches the ground truth, including entering 'suno' in the search bar, clicking on suggested results, navigating to Suno AI's webpage, and interacting with elements like the 'make a song' button. There are no contradictions or fabricated actions in the frame descriptions."
+        },
+        "coverage": {
+          "score": 4.6,
+          "coverage": 0.9,
+          "covered": 9,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "edge",
+            "openai",
+            "suno ai"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, including entering a search term on Google and interacting with Suno AI's webpage. The timeline also mentions interactions with OpenAI through ChatGPT."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as hovering over the same webpage and viewing the same address bar content. These repetitive entries suggest a moderate level of redundancy."
+        }
+      },
+      "composite_score": 17.6,
+      "max_score": 20,
+      "latency_sec": 112.15
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0872,
+        "recall": 0.7792,
+        "f1": 0.1569
+      },
+      "rouge2": {
+        "precision": 0.0408,
+        "recall": 0.3684,
+        "f1": 0.0734
+      },
+      "rougeL": {
+        "precision": 0.0654,
+        "recall": 0.5844,
+        "f1": 0.1176
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0161
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 289.14,
+      "total_vlm_inference_sec": 167.33,
+      "intent_latency_sec": 9.63,
+      "frames_processed": 29,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.77,
+      "median_frame_latency_sec": 5.4,
+      "min_frame_latency_sec": 3.98,
+      "max_frame_latency_sec": 12.68,
+      "avg_description_length_chars": 132.4,
+      "total_prompt_tokens": 36350,
+      "total_completion_tokens": 1098,
+      "avg_completion_tokens_per_sec": 6.1
+    }
+  }
+}

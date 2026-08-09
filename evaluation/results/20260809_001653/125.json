@@ -1,0 +1,402 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/125.mp4",
+  "total_frames": 1371,
+  "fps": 30.000205143634734,
+  "video_length_sec": 45.7,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1371,
+  "frames_processed": 8,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching the application timeline for PhD programs and gathering information on computer science institution rankings to inform their decision-making process.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 5.07,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Chrome browser, which outlines a timeline for PhD applications including sections for October, November-December, January, and February-March with advice on writing recommendation letters, applying for the GREP, and preparing for interviews. The user is not actively typing or interacting with any form fields; they are simply reading the content displayed on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 85
+      },
+      {
+        "frame_number": 54,
+        "timestamp_sec": 1.8,
+        "latency_sec": 3.55,
+        "frame_description": "The user is viewing a Google search results page for the query \"how and when to apply a PhD program\" and is prompted to sign in to Google.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 65,
+        "timestamp_sec": 2.17,
+        "latency_sec": 3.2,
+        "frame_description": "The user is typing \"how and when to apply a PhD program\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 8.63,
+        "latency_sec": 3.05,
+        "frame_description": "The user is typing \"crankings\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 355,
+        "timestamp_sec": 11.83,
+        "latency_sec": 3.18,
+        "frame_description": "The user is viewing a Google search results page for \"csrankings\" on their desktop.",
+        "prompt_tokens": 993,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 428,
+        "timestamp_sec": 14.27,
+        "latency_sec": 3.91,
+        "frame_description": "The user is viewing the CSRankings website, which is currently loading, as indicated by the \"Loading.\" text displayed on the page. No user-entered text is visible in any form fields or input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 1197,
+        "timestamp_sec": 39.9,
+        "latency_sec": 5.19,
+        "frame_description": "The user is viewing the CSRankings website, which displays computer science institution rankings by publication count. A browser notification popup from \"crankings.org\" is asking for location permission, with options to \"Allow\" or \"Block.\" The main page lists top CS institutions and their faculty counts, organized under categories like AI, Systems, Theory, and Interdisciplinary Areas. No user-entered text is visible in form fields or input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 92
+      },
+      {
+        "frame_number": 1371,
+        "timestamp_sec": 45.7,
+        "latency_sec": 5.27,
+        "frame_description": "The user is viewing the CSRankings website, which ranks computer science institutions by publication count in various subfields. A browser notification popup from crsrankings.org is asking for location access, with options to \"Allow\" or \"Block.\" The main page displays a list of top-ranked universities and their faculty counts across different research areas such as Artificial Intelligence, Systems, Theory, and others. No active typing or input actions are occurring at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 92
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the csrankings webpage.",
+      "reference_caption": "Navigating from a Ph.D. application timeline webpage to the CSRankings website via Google search.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "csrankings"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 96,
+          "sub_goal": "Selected all the text in the search box, ready to delete.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 242,
+          "sub_goal": "Entered csranking",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 284,
+          "sub_goal": "Jumped to the search results of Google's scrankings.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 314,
+          "sub_goal": "Clicked on the first search result, which is CSRankings.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 582,
+          "sub_goal": "Wait for the csranking page to load.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1205,
+          "sub_goal": "The webpage loaded successfully, and a csrankings popup appeared in the upper left corner requesting my location information.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of visiting the CSRankings webpage to gather information on computer science institution rankings, which is consistent with the goal and caption. The timeline supports this as it shows the user navigating from a Ph.D. application timeline page to searching for 'csrankings' and viewing its content. There are no contradictions in the specific details named in the reasoning or prediction answers."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 1 describes a webpage unrelated to the task, and Frame 54 mentions an incorrect search query. Frame 259 incorrectly shows 'crankings' instead of 'csranking'. The loading message in Frame 428 is described as 'Loading.' without specifying 'Initializing.', which contradicts the keyframe description. Despite these issues, the overall sequence aligns with the user's actions."
+        },
+        "coverage": {
+          "score": 4.56,
+          "coverage": 0.889,
+          "covered": 8,
+          "total": 9,
+          "covered_actions": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "csrankings",
+            "edge",
+            "google"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching and viewing results on Google, typing a query, visiting the CSRankings website, and interacting with a location permission popup. These correspond to several keyframes but not all."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, such as consecutive descriptions of viewing the CSRankings website and browser notifications. However, there are also distinct actions like typing in search bars and navigating between pages."
+        }
+      },
+      "composite_score": 15.56,
+      "max_score": 20,
+      "latency_sec": 61.22
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.116,
+        "recall": 0.6607,
+        "f1": 0.1973
+      },
+      "rouge2": {
+        "precision": 0.022,
+        "recall": 0.1273,
+        "f1": 0.0375
+      },
+      "rougeL": {
+        "precision": 0.0721,
+        "recall": 0.4107,
+        "f1": 0.1227
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0091
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 95.46,
+      "total_vlm_inference_sec": 32.42,
+      "intent_latency_sec": 1.78,
+      "frames_processed": 8,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.05,
+      "median_frame_latency_sec": 3.73,
+      "min_frame_latency_sec": 3.05,
+      "max_frame_latency_sec": 5.27,
+      "avg_description_length_chars": 246.4,
+      "total_prompt_tokens": 8544,
+      "total_completion_tokens": 431,
+      "avg_completion_tokens_per_sec": 12.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to research the timeline and process for applying to PhD programs and explore computer science department rankings using CSRankings.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.14,
+        "frame_description": "The user is clicking on the \"A Timeline for Applying to PhD P...\" tab in the browser. \n\nVisible user-entered text:\n- Address bar: `https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8slpd02i2zr`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 54,
+        "timestamp_sec": 1.8,
+        "latency_sec": 5.51,
+        "frame_description": "The user is searching for \"how and when to apply a PhD program\" on Google.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 65,
+        "timestamp_sec": 2.17,
+        "latency_sec": 3.99,
+        "frame_description": "The user is viewing Google search results for \"how and when to apply a PhD program\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 8.63,
+        "latency_sec": 6.92,
+        "frame_description": "The user is clicking on the home button in the browser. \n\nVisible user-entered text:\n- Search bar: \"csrankings\"\n- Address bar: \"https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 355,
+        "timestamp_sec": 11.83,
+        "latency_sec": 6.0,
+        "frame_description": "The user is hovering over the link \"CSRankings: Computer Science Rankings\" on a search results page, with the user-entered text \"csrankings\" in the search bar and \"https://csrankings.org\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 428,
+        "timestamp_sec": 14.27,
+        "latency_sec": 6.56,
+        "frame_description": "The user is clicking on the \"off\" option next to \"AI\" on the CSRankings website. The visible user-entered text in the address bar is \"https://csrank",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1197,
+        "timestamp_sec": 39.9,
+        "latency_sec": 6.36,
+        "frame_description": "The user is hovering the mouse cursor over \"AI [off | on]\" on the CSRankings webpage. \n\nVisible user-entered text includes the URL in the address bar: \"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1371,
+        "timestamp_sec": 45.7,
+        "latency_sec": 6.41,
+        "frame_description": "The user is hovering the cursor over 'AI' on the CSRankings website.\n\n**User-entered text:**\n* Address bar: `https://csrankings.org/#/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the csrankings webpage.",
+      "reference_caption": "Navigating from a Ph.D. application timeline webpage to the CSRankings website via Google search.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "csrankings"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 96,
+          "sub_goal": "Selected all the text in the search box, ready to delete.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 242,
+          "sub_goal": "Entered csranking",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 284,
+          "sub_goal": "Jumped to the search results of Google's scrankings.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 314,
+          "sub_goal": "Clicked on the first search result, which is CSRankings.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 582,
+          "sub_goal": "Wait for the csranking page to load.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1205,
+          "sub_goal": "The webpage loaded successfully, and a csrankings popup appeared in the upper left corner requesting my location information.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of visiting the CSRankings webpage to explore computer science department rankings, as evidenced by actions like searching for 'csrankings' and clicking on relevant links. The timeline supports this with details such as entering 'csrankings' in the search bar and navigating to 'https://csrankings.org'. There are no contradictions in the specific entities mentioned."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the ground truth keyframes. The initial action described in Frame 1 contradicts Keyframe 1, as it mentions clicking on a tab rather than selecting text in the search box. Frames 54 and 65 describe actions related to searching for 'how and when to apply a PhD program', which is not part of the ground truth sequence. Frame 259 inaccurately describes clicking the home button instead of entering 'csranking' into the search bar as per Keyframe 2. The description in Frame 355 aligns with Keyframe 4, but subsequent frames introduce actions (e.g., interacting with an AI option) not mentioned in the ground truth keyframes. These discrepancies indicate fabricated or contradicted content."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 6,
+          "total": 9,
+          "covered_actions": [
+            2,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "csrankings",
+            "edge",
+            "google"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching and interacting with search results, but it does not match all the specific keyframe actions. The timeline includes a search for 'csrankings' and clicking on a link, which aligns with some keyframes."
+        },
+        "non_repetition": {
+          "score": 4,
+          "reasoning": "The AI timeline contains several instances of redundancy, particularly in frames 1197 and 1371 where similar actions (hovering over 'AI [off | on]') are described without meaningful change. However, the majority of entries describe distinct actions or changes in state."
+        }
+      },
+      "composite_score": 13.67,
+      "max_score": 20,
+      "latency_sec": 72.21
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1693,
+        "recall": 0.5714,
+        "f1": 0.2612
+      },
+      "rouge2": {
+        "precision": 0.0479,
+        "recall": 0.1636,
+        "f1": 0.0741
+      },
+      "rougeL": {
+        "precision": 0.1111,
+        "recall": 0.375,
+        "f1": 0.1714
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0061
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 119.74,
+      "total_vlm_inference_sec": 45.89,
+      "intent_latency_sec": 1.61,
+      "frames_processed": 8,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.74,
+      "median_frame_latency_sec": 6.18,
+      "min_frame_latency_sec": 3.99,
+      "max_frame_latency_sec": 6.92,
+      "avg_description_length_chars": 141.8,
+      "total_prompt_tokens": 10049,
+      "total_completion_tokens": 337,
+      "avg_completion_tokens_per_sec": 6.8
+    }
+  }
+}

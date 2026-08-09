@@ -1,0 +1,1120 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/151.mp4",
+  "total_frames": 1502,
+  "fps": 46.6848667885764,
+  "video_length_sec": 32.17,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1502,
+  "frames_processed": 51,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to build a structured Excel table to track monthly expenses by following instructions to format headers, apply styles, and organize sample data.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 8.85,
+        "frame_description": "The user is viewing a ChatGPT interface on their desktop, where they have previously asked for an example of an Excel table, and ChatGPT has provided a detailed response including metadata and instructions for creating an Excel table. The user is currently not interacting with the chat or any other elements in the interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 9.59,
+        "frame_description": "The user is viewing a ChatGPT interface on their desktop, where they have previously asked for an example of an Excel table to track monthly expenses, and ChatGPT has provided a description of how such a table would look along with metadata details. The user is currently reading through the response, which includes instructions on how to format headers, apply table formatting, customize styles, adjust column widths, format headers, and validate data in Excel. There is no active input being typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 103
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 8.06,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions for formatting an Excel table and an example of a monthly expenses table. The user has not yet entered any text into the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 49,
+        "timestamp_sec": 1.05,
+        "latency_sec": 8.07,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions for creating an Excel table and an example of monthly expenses metadata. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 8.24,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions for creating an Excel table and an example of metadata and sample data for a monthly expenses table. The user has not yet entered any text into the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.76,
+        "latency_sec": 8.09,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions for creating an Excel table and an example of monthly expenses. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 98,
+        "timestamp_sec": 2.1,
+        "latency_sec": 8.26,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions for setting up an Excel table to track monthly expenses, including metadata and a sample data table. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 122,
+        "timestamp_sec": 2.61,
+        "latency_sec": 8.23,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions on formatting headers and saving an Excel workbook, along with an example of a monthly expenses table. The user has not yet entered any text into the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 138,
+        "timestamp_sec": 2.96,
+        "latency_sec": 8.1,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions for formatting an Excel table and an example of a monthly expenses table. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 154,
+        "timestamp_sec": 3.3,
+        "latency_sec": 8.16,
+        "frame_description": "The user is viewing a ChatGPT interface within a browser, where the chat displays instructions for creating an Excel table to track monthly expenses, including metadata and sample data. The user has not yet entered any text into the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 170,
+        "timestamp_sec": 3.64,
+        "latency_sec": 8.01,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has provided an example of an Excel table for tracking monthly expenses, including metadata and sample data. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 195,
+        "timestamp_sec": 4.18,
+        "latency_sec": 7.92,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided an example of an Excel table for tracking monthly expenses. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 211,
+        "timestamp_sec": 4.52,
+        "latency_sec": 8.06,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided an example of an Excel table for tracking monthly expenses. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 227,
+        "timestamp_sec": 4.86,
+        "latency_sec": 7.99,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided an example of an Excel table for tracking monthly expenses. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 261,
+        "timestamp_sec": 5.59,
+        "latency_sec": 8.18,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions and an example of how to create an Excel table for tracking monthly expenses. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 277,
+        "timestamp_sec": 5.93,
+        "latency_sec": 8.15,
+        "frame_description": "The user is viewing a ChatGPT conversation in a web browser, where ChatGPT has provided an example of an Excel table for tracking monthly expenses, including metadata and sample data. The user has not yet entered any new text into the chat input field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 293,
+        "timestamp_sec": 6.28,
+        "latency_sec": 8.09,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided an example of an Excel table for tracking monthly expenses. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 309,
+        "timestamp_sec": 6.62,
+        "latency_sec": 8.74,
+        "frame_description": "The user is viewing a chat interface in the ChatGPT application, where they have received instructions and an example of how to create an Excel table for tracking monthly expenses. The chat includes a table with sample data and step-by-step guidance on inputting metadata into Excel cells. There is no active typing or input field interaction visible at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 325,
+        "timestamp_sec": 6.96,
+        "latency_sec": 8.0,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has provided instructions and an example of how to create an Excel table for tracking monthly expenses. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 346,
+        "timestamp_sec": 7.41,
+        "latency_sec": 8.0,
+        "frame_description": "The user is viewing a ChatGPT interface where the model has provided an example of an Excel table for tracking monthly expenses, including metadata and sample data. The user has not entered any text in the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 362,
+        "timestamp_sec": 7.75,
+        "latency_sec": 8.1,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has provided instructions for creating an Excel table to track monthly expenses, including metadata and sample data. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 378,
+        "timestamp_sec": 8.1,
+        "latency_sec": 7.96,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions for creating an Excel table to track monthly expenses. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 394,
+        "timestamp_sec": 8.44,
+        "latency_sec": 8.05,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has provided instructions for creating an Excel table to track monthly expenses, including metadata and sample data. The user has not yet entered any text into the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 422,
+        "timestamp_sec": 9.04,
+        "latency_sec": 7.98,
+        "frame_description": "The user is viewing a ChatGPT interface on their desktop, where the chat window displays instructions for creating an Excel table to track monthly expenses. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 438,
+        "timestamp_sec": 9.38,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing a chat interface in the ChatGPT application, where the assistant has provided instructions on how to create an Excel table for monthly expenses, including metadata and sample data. The user has not entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 454,
+        "timestamp_sec": 9.72,
+        "latency_sec": 8.03,
+        "frame_description": "The user is viewing a webpage in a browser, specifically a ChatGPT interface that provides instructions on how to create an Excel table for monthly expenses. The user has not entered any text into form fields or search bars, and there is no active typing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 470,
+        "timestamp_sec": 10.07,
+        "latency_sec": 13.88,
+        "frame_description": "The user is viewing a webpage titled \"Excel Table Example: Monthly Expenses\" in a browser window, which appears to be part of a larger application or platform. The page contains instructions on how to create an Excel table with metadata and sample data for monthly expenses. There is no active input field being filled by the user at this moment; however, the user may have recently navigated to this page or is reviewing the content displayed.\n\nVisible user-entered text includes:\n\n- In the browser address bar: `https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8`\n- In the sidebar under \"Today\":\n  - \"Frame Extraction from MP...\"\n  - \"Interact across applications\"\n  - \"Tech Conference Acronym Jumble\"\n- Under \"Yesterday\":\n  - \"Translate & Refine Requests\"\n  - \"Adjust Git Remote URL\"\n  - \"Interpreting and...\"\n- Under \"Previous 7 Days\":\n  - \"Scene Graph Task Generator\"\n  - \"MLLM Revisions and Gratitude\"\n  - \"Clear Vision Explanation\"\n  - \"AI",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 486,
+        "timestamp_sec": 10.41,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions on how to create a \"Monthly Expenses Table\" in Excel, including metadata, headers, sample data, and formatting steps. The user has not yet entered any text into the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 519,
+        "timestamp_sec": 11.12,
+        "latency_sec": 9.01,
+        "frame_description": "The user is viewing a detailed guide on how to create a \"Monthly Expenses Table\" in Excel, which includes metadata and sample data for tracking personal finances. The guide outlines steps such as inputting metadata, defining headers, entering sample data, formatting the table, styling it, and adjusting column widths. The user has not yet taken any action on the desktop; they are simply reading through the instructions provided by ChatGPT.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 535,
+        "timestamp_sec": 11.46,
+        "latency_sec": 7.84,
+        "frame_description": "The user is viewing a ChatGPT interface displaying instructions for creating an Excel table with sample financial data, including a table of expenses and step-by-step guidance. No active typing or input is occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 551,
+        "timestamp_sec": 11.8,
+        "latency_sec": 9.4,
+        "frame_description": "The user is viewing a document titled \"ChatGPT 4\" that provides instructions on how to create a \"Monthly Expenses Table\" in Excel, including steps for inputting metadata, defining headers, entering sample data, formatting the table, and adjusting column widths. The document includes a sample table with columns for Date, Category, Description, and Amount ($), along with specific instructions for each step. The user is not actively typing or interacting with any form fields or input areas in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 101
+      },
+      {
+        "frame_number": 567,
+        "timestamp_sec": 12.15,
+        "latency_sec": 7.33,
+        "frame_description": "The user is viewing a ChatGPT interface displaying instructions for creating an Excel table, with no active input or typing observed in the visible fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 583,
+        "timestamp_sec": 12.49,
+        "latency_sec": 9.32,
+        "frame_description": "The user is viewing a chat interface in an application, likely ChatGPT, where they have pasted or received instructions on how to create a table in Excel. The chat displays a sample data table and step-by-step guidance for formatting it. There is no active input field being filled by the user at this moment; the input field at the bottom contains placeholder text \"Message ChatGPT...\" which is not user-entered. No new text is being typed or edited in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 100
+      },
+      {
+        "frame_number": 746,
+        "timestamp_sec": 15.98,
+        "latency_sec": 6.97,
+        "frame_description": "The user is typing \"excel\" into the search bar in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 762,
+        "timestamp_sec": 16.32,
+        "latency_sec": 7.61,
+        "frame_description": "The user is viewing a webpage with a table of expenses and instructions on how to create a similar table in Excel. The user has not entered any text into any form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 778,
+        "timestamp_sec": 16.66,
+        "latency_sec": 7.75,
+        "frame_description": "The user is viewing a list of recent Excel workbooks in the \"Recent\" tab, with the top item \"external tools 2\" highlighted. No text is being actively typed or entered in any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 875,
+        "timestamp_sec": 18.74,
+        "latency_sec": 7.88,
+        "frame_description": "The user is hovering over the 'Screenshot Recor...07.29 00:38' file on the desktop.\n\nNo user-entered text is visible in any application windows or form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 907,
+        "timestamp_sec": 19.43,
+        "latency_sec": 7.67,
+        "frame_description": "The user is viewing a desktop with multiple widgets and applications open, including a spreadsheet application in the center. There is no active text input or typing occurring in any visible form fields or text areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 923,
+        "timestamp_sec": 19.77,
+        "latency_sec": 6.98,
+        "frame_description": "The user is viewing a blank spreadsheet in Microsoft Excel with no data entered.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 941,
+        "timestamp_sec": 20.16,
+        "latency_sec": 7.15,
+        "frame_description": "The user is hovering over cell A1 in a spreadsheet application, with no text entered or being typed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 957,
+        "timestamp_sec": 20.5,
+        "latency_sec": 7.98,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided instructions for creating an Excel table to track monthly expenses. The user is not actively typing or interacting with any form fields; they are simply reading the content displayed on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 973,
+        "timestamp_sec": 20.84,
+        "latency_sec": 8.57,
+        "frame_description": "The user is viewing a detailed guide on how to create an Excel table for tracking monthly expenses, which includes steps for inputting metadata, defining headers, entering sample data, formatting the table, styling it, adjusting column widths, formatting numbers, and saving the file. The guide also provides a sample table with entries for groceries, utilities, entertainment, and transportation expenses.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 989,
+        "timestamp_sec": 21.18,
+        "latency_sec": 9.21,
+        "frame_description": "The user is viewing a webpage with instructions on how to create a table in Excel, including steps for inputting metadata, defining headers, and formatting the table. The browser address bar shows the URL \"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\". There are no visible form fields or search bars where the user has entered text.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 1005,
+        "timestamp_sec": 21.53,
+        "latency_sec": 8.2,
+        "frame_description": "The user is viewing a document titled \"Excel Table Example: Monthly Expenses\" within the ChatGPT interface, which includes metadata, headers, sample data, and step-by-step instructions for creating an Excel table. The user has not entered any text into form fields or active input areas in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 1126,
+        "timestamp_sec": 24.12,
+        "latency_sec": 10.11,
+        "frame_description": "The user is viewing a webpage in a browser that displays an Excel table example for monthly expenses, along with instructions on how to create such a table in Excel. The browser tab shows the URL `https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8`. The page includes a sample data table with columns for Date, Category, Description, and Amount ($), and lists steps to replicate this table in Excel. The user has not entered any text into any form fields or search bars on the page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 126
+      },
+      {
+        "frame_number": 1142,
+        "timestamp_sec": 24.46,
+        "latency_sec": 7.12,
+        "frame_description": "The user is viewing a blank spreadsheet in Numbers on their desktop, with no active editing or input occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 1158,
+        "timestamp_sec": 24.8,
+        "latency_sec": 7.32,
+        "frame_description": "The user is hovering over cell A1 in a spreadsheet application. No text has been entered into any form fields or active input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 1384,
+        "timestamp_sec": 29.65,
+        "latency_sec": 10.75,
+        "frame_description": "The user is viewing a spreadsheet application with data entered in the first five rows, including dates, categories, descriptions, and amounts. The visible user-entered text includes: \"Date\", \"Category\", \"Description\", \"Amount ($)\", \"2024/4/1\", \"Groceries\", \"Whole Foods\", \"150.75\", \"2024/4/2\", \"Utilities\", \"Electricity Bi\", \"75.5\", \"2024/4/3\", \"Entertainment\", \"Netflix Subsc\", \"15.99\", \"2024/4/4\", \"Transportat\", \"Gas\", \"45.3\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 147
+      },
+      {
+        "frame_number": 1400,
+        "timestamp_sec": 29.99,
+        "latency_sec": 13.85,
+        "frame_description": "The user is viewing a spreadsheet in Microsoft Excel with data entered into columns labeled Date, Category, Description, and Amount ($). The visible user-entered text includes:\n\n- In cell A1: \"Date\"\n- In cell B1: \"Category\"\n- In cell C1: \"Description\"\n- In cell D1: \"Amount ($)\"\n- In cell A2: \"2024/4/1\"\n- In cell B2: \"Groceries\"\n- In cell C2: \"Whole Foods\"\n- In cell D2: \"150.75\"\n- In cell A3: \"2024/4/2\"\n- In cell B3: \"Utilities\"\n- In cell C3: \"Electricity Bil\"\n- In cell D3: \"75.5\"\n- In cell A4: \"2024/4/3\"\n- In cell B4: \"Entertainmer\"\n- In cell C4: \"Netflix Subsc\"\n- In cell D4: \"15.99\"\n- In cell A5: \"2024/4/4\"\n- In cell",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1426,
+        "timestamp_sec": 30.55,
+        "latency_sec": 11.8,
+        "frame_description": "The user is selecting a range of cells in the spreadsheet, specifically from C7 to D8.\n\nVisible user-entered text in the application:\n- \"Date\"\n- \"Category\"\n- \"Description\"\n- \"Amount ($)\"\n- \"2024/4/1\"\n- \"Groceries\"\n- \"Whole Foods\"\n- \"150.75\"\n- \"2024/4/2\"\n- \"Utilities\"\n- \"Electricity Bil\"\n- \"75.5\"\n- \"2024/4/3\"\n- \"Entertainmer\"\n- \"Netflix Subsc\"\n- \"15.99\"\n- \"2024/4/4\"\n- \"Transportatic\"\n- \"Gas\"\n- \"45.3\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 184
+      },
+      {
+        "frame_number": 1502,
+        "timestamp_sec": 32.17,
+        "latency_sec": 7.57,
+        "frame_description": "The user is viewing a spreadsheet application with a table of expenses, including dates, categories, descriptions, and amounts. No active text input is occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use GPT to generate table data, then copy it to Excel.",
+      "reference_caption": "Creating and formatting an Excel table for tracking expenses using ChatGPT and Microsoft Excel on macOS.",
+      "reference_apps": [
+        "edge",
+        "excel",
+        "oepnai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 96,
+          "sub_goal": "GPT is outputting some text.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 715,
+          "sub_goal": "\"Command + space\" to open Mac's spotlight, then type \"excel\" to open the Excel application.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 874,
+          "sub_goal": "Double-clicked on \"blank workbook\" to open a blank worksheet.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 923,
+          "sub_goal": "A blank Excel sheet popped up.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1096,
+          "sub_goal": "Return to the chatgpt page and copy the table it just outputted to me.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1215,
+          "sub_goal": "Paste into Excel",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1261,
+          "sub_goal": "Click on the paste option, select match destination formatting.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1399,
+          "sub_goal": "Adjust the zoom ratio of Excel to enlarge the content of the table.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent was to guide the user in creating and populating an Excel table for tracking monthly expenses, which aligns well with the user's underlying objective of managing financial data. The timeline shows consistent actions related to entering expense details into a spreadsheet, matching the core goal of organizing financial information."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The details about user interactions, such as typing 'excel' into a search bar and entering data into an Excel spreadsheet, are consistent with the timeline. There are no fabricated or contradicted actions reported in the descriptions."
+        },
+        "coverage": {
+          "score": 4.27,
+          "coverage": 0.818,
+          "covered": 9,
+          "total": 11,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "excel"
+          ],
+          "reasoning": "The AI timeline provides a detailed description of the user's actions, including opening Excel, creating and formatting an expenses table, which aligns with several keyframe actions. The timeline covers specific steps such as inputting metadata, defining headers, entering sample data, and adjusting column widths."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline contains many repetitive descriptions of the user viewing a ChatGPT interface and instructions for creating an Excel table, with minimal changes in content across frames. This repetition suggests a high level of redundancy."
+        }
+      },
+      "composite_score": 15.27,
+      "max_score": 20,
+      "latency_sec": 156.69
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0179,
+        "recall": 0.6,
+        "f1": 0.0348
+      },
+      "rouge2": {
+        "precision": 0.004,
+        "recall": 0.1351,
+        "f1": 0.0077
+      },
+      "rougeL": {
+        "precision": 0.0143,
+        "recall": 0.48,
+        "f1": 0.0278
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0453
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 601.54,
+      "total_vlm_inference_sec": 432.76,
+      "intent_latency_sec": 12.02,
+      "frames_processed": 51,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.49,
+      "median_frame_latency_sec": 8.09,
+      "min_frame_latency_sec": 6.97,
+      "max_frame_latency_sec": 13.88,
+      "avg_description_length_chars": 292.4,
+      "total_prompt_tokens": 111127,
+      "total_completion_tokens": 3562,
+      "avg_completion_tokens_per_sec": 7.9,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was attempting to generate tabular data using ChatGPT and transfer it into Microsoft Excel to create and organize a spreadsheet.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 6.98,
+        "frame_description": "The user is viewing a response from ChatGPT in a web browser. \n\nThe visible user-entered text includes:\n* **Address bar:** `\"https://chat.openai.com/c",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 6.93,
+        "frame_description": "The user is reading ChatGPT's response to their prompt. The visible user-entered text is \"give me an example of excel table\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 7.26,
+        "frame_description": "The user is viewing ChatGPT's response to their prompt on the web page. \n\n**Visible user-entered text:**\n* Prompt message: `\"give me an example of excel",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 49,
+        "timestamp_sec": 1.05,
+        "latency_sec": 6.25,
+        "frame_description": "The user is waiting for ChatGPT to generate a response on the website.\n\nVisible user-entered text in the application:\n- Address bar: `https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 7.34,
+        "frame_description": "The user is viewing a ChatGPT conversation on the desktop where ChatGPT is generating a response. \n\nVisible user-entered text:\n- Chat prompt: `\"give me an example of excel",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.76,
+        "latency_sec": 6.76,
+        "frame_description": "The user is viewing a ChatGPT conversation in a web browser with the URL \"https://chat.openai.com/c/d54e9126-ac67-4",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 98,
+        "timestamp_sec": 2.1,
+        "latency_sec": 6.68,
+        "frame_description": "The user is viewing a ChatGPT conversation in a web browser.\n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai.com/c/d54e9",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 122,
+        "timestamp_sec": 2.61,
+        "latency_sec": 6.71,
+        "frame_description": "The user is viewing a response from ChatGPT providing an example of an Excel table.\n\n**Visible user-entered text in form fields:**\n* **Address bar:** \"https://chat.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 138,
+        "timestamp_sec": 2.96,
+        "latency_sec": 6.99,
+        "frame_description": "The user is viewing a ChatGPT response on a browser window. \n\nVisible user-entered text in the application includes the URL in the address bar: `\"https://chat.openai.com/c",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 154,
+        "timestamp_sec": 3.3,
+        "latency_sec": 6.54,
+        "frame_description": "The user is viewing a conversation on the ChatGPT web application. \n\nVisible user-entered text includes:\n* **Address Bar:** `https://chat.openai.com/c/d",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 170,
+        "timestamp_sec": 3.64,
+        "latency_sec": 6.88,
+        "frame_description": "The user is hovering the mouse cursor over \"Frame Extraction from MP...\" in the ChatGPT sidebar.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 195,
+        "timestamp_sec": 4.18,
+        "latency_sec": 6.44,
+        "frame_description": "The user is viewing a response generated by ChatGPT in a web browser. \n\nVisible user-entered text includes the URL in the address bar:\n* `\"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 211,
+        "timestamp_sec": 4.52,
+        "latency_sec": 6.75,
+        "frame_description": "The user is viewing a response from ChatGPT in a web browser. \n\nThe visible user-entered text includes:\n- Address bar: `https://chat.openai.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 227,
+        "timestamp_sec": 4.86,
+        "latency_sec": 6.86,
+        "frame_description": "The user is viewing a ChatGPT conversation on the browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 261,
+        "timestamp_sec": 5.59,
+        "latency_sec": 7.3,
+        "frame_description": "The user is viewing a response being generated by ChatGPT on a web page.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 277,
+        "timestamp_sec": 5.93,
+        "latency_sec": 6.94,
+        "frame_description": "The user is viewing a conversation on ChatGPT in a web browser with no active typing or clicking currently taking place. \n\nVisible user-entered text in form fields/address bar:\n- Address bar:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 293,
+        "timestamp_sec": 6.28,
+        "latency_sec": 5.47,
+        "frame_description": "The user is viewing a ChatGPT conversation where the assistant has generated an example of an Excel table for tracking monthly expenses.\n\n**Visible user-entered text:**\n* Address bar: \"https://chat.openai.com/c/d",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 309,
+        "timestamp_sec": 6.62,
+        "latency_sec": 7.27,
+        "frame_description": "The user is viewing a response from ChatGPT on the OpenAI website. The visible user-entered text in the application is \"give me an example of excel table\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 325,
+        "timestamp_sec": 6.96,
+        "latency_sec": 6.31,
+        "frame_description": "The user is viewing a response from ChatGPT in a web browser with the address bar displaying \"https://chat.openai.com/c/d54e9126-ac67",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 346,
+        "timestamp_sec": 7.41,
+        "latency_sec": 7.01,
+        "frame_description": "The user is viewing a response from ChatGPT on the OpenAI website. There is no visible user-entered text in any active form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 362,
+        "timestamp_sec": 7.75,
+        "latency_sec": 7.53,
+        "frame_description": "The user is viewing a response from ChatGPT on the OpenAI website.\n\n**User-entered text:**\n- \"give me an example of excel table\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 378,
+        "timestamp_sec": 8.1,
+        "latency_sec": 5.65,
+        "frame_description": "The user is viewing a ChatGPT response in a browser tab with the address bar containing \"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 394,
+        "timestamp_sec": 8.44,
+        "latency_sec": 6.33,
+        "frame_description": "The user is viewing a ChatGPT conversation in the web browser with the URL \"https://chat.openai.com/c/d54e9126-ac67-42",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 422,
+        "timestamp_sec": 9.04,
+        "latency_sec": 7.49,
+        "frame_description": "The user is viewing a generated response from ChatGPT in a browser window with the URL \"https://chat.openai.com/c/d54e9126-ac67-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 438,
+        "timestamp_sec": 9.38,
+        "latency_sec": 5.71,
+        "frame_description": "The user is viewing a response from ChatGPT about creating a monthly expenses table in Excel on the web page.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 454,
+        "timestamp_sec": 9.72,
+        "latency_sec": 7.85,
+        "frame_description": "The user is viewing a ChatGPT conversation titled \"ChatGPT 4\" in a web browser, showing instructions and an example table for creating monthly expenses in Excel.\n\nVisible user-entered text:\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 470,
+        "timestamp_sec": 10.07,
+        "latency_sec": 7.51,
+        "frame_description": "The user is viewing a chat conversation on ChatGPT. There is no visible user-entered text in the application form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 486,
+        "timestamp_sec": 10.41,
+        "latency_sec": 5.43,
+        "frame_description": "The user is waiting while ChatGPT generates a response.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 519,
+        "timestamp_sec": 11.12,
+        "latency_sec": 6.94,
+        "frame_description": "The user is viewing a ChatGPT chat page in the browser. The text in the address bar is \"https://chat.openai.com/c/d54e9126-ac6",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 535,
+        "timestamp_sec": 11.46,
+        "latency_sec": 7.09,
+        "frame_description": "The user is viewing ChatGPT generating a response in a web browser. The text in the browser's address bar is \"https://chat.openai.com/c/d54e912",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 551,
+        "timestamp_sec": 11.8,
+        "latency_sec": 6.49,
+        "frame_description": "The user is viewing a response being generated by ChatGPT in a web browser. \n\nVisible user-entered text includes:\n- Address bar: `https://chat.openai.com/c/d",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 567,
+        "timestamp_sec": 12.15,
+        "latency_sec": 6.5,
+        "frame_description": "The user is viewing a response being generated by ChatGPT in a web browser. \n\nVisible user-entered text:\n* Address bar: `\"https://chat.openai.com/c/d5",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 583,
+        "timestamp_sec": 12.49,
+        "latency_sec": 6.89,
+        "frame_description": "The user is viewing a webpage on ChatGPT with the address \"https://chat.openai.com/c/d54e9126-ac67-427",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 746,
+        "timestamp_sec": 15.98,
+        "latency_sec": 3.92,
+        "frame_description": "The user is typing \"excel\" into the search bar overlay.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 762,
+        "timestamp_sec": 16.32,
+        "latency_sec": 5.59,
+        "frame_description": "The user is hovering the cursor near the text input area at the bottom of the ChatGPT interface.\n\n**User-entered text:**\n* Address bar: `\"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 778,
+        "timestamp_sec": 16.66,
+        "latency_sec": 6.93,
+        "frame_description": "The user is selecting the file 'external tools 2' in Microsoft Excel. There is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 875,
+        "timestamp_sec": 18.74,
+        "latency_sec": 4.4,
+        "frame_description": "The user is hovering the mouse cursor over the desktop wallpaper.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 907,
+        "timestamp_sec": 19.43,
+        "latency_sec": 7.03,
+        "frame_description": "The user is hovering the mouse cursor over the desktop background. There is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 923,
+        "timestamp_sec": 19.77,
+        "latency_sec": 6.18,
+        "frame_description": "The user is viewing a blank Microsoft Excel spreadsheet named 'Book1'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 941,
+        "timestamp_sec": 20.16,
+        "latency_sec": 7.48,
+        "frame_description": "The user is viewing an empty spreadsheet in Microsoft Excel. There is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 957,
+        "timestamp_sec": 20.5,
+        "latency_sec": 6.79,
+        "frame_description": "The user is resizing the ChatGPT sidebar in the web browser. \n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai.com/c/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 973,
+        "timestamp_sec": 20.84,
+        "latency_sec": 7.66,
+        "frame_description": "The user is hovering the mouse cursor over the text area in the ChatGPT window. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 989,
+        "timestamp_sec": 21.18,
+        "latency_sec": 6.94,
+        "frame_description": "The user is viewing a response generated by ChatGPT on the website. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 1005,
+        "timestamp_sec": 21.53,
+        "latency_sec": 7.04,
+        "frame_description": "The user is hovering the mouse cursor over text in the ChatGPT response. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1126,
+        "timestamp_sec": 24.12,
+        "latency_sec": 5.5,
+        "frame_description": "The user is selecting text in a table within the ChatGPT web application. The address bar contains \"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 1142,
+        "timestamp_sec": 24.46,
+        "latency_sec": 5.94,
+        "frame_description": "The user is hovering the mouse cursor over the spreadsheet in Microsoft Excel. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 1158,
+        "timestamp_sec": 24.8,
+        "latency_sec": 6.31,
+        "frame_description": "The user is hovering the cursor over cell A8 in Microsoft Excel.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 1384,
+        "timestamp_sec": 29.65,
+        "latency_sec": 6.97,
+        "frame_description": "The user is adjusting the zoom level using the zoom slider in Microsoft Excel.\n\n**Visible user-entered text in the application:**\n- **Formula bar:** `Date`\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1400,
+        "timestamp_sec": 29.99,
+        "latency_sec": 7.0,
+        "frame_description": "The user is clicking on the zoom slider at the bottom right corner of Microsoft Excel.\n\n visible user-entered text in the application includes:\n- Formula bar: `\"Date\"`\n- Table cells",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1426,
+        "timestamp_sec": 30.55,
+        "latency_sec": 6.98,
+        "frame_description": "The user is selecting a range of cells in Microsoft Excel. \n\nThere is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 1502,
+        "timestamp_sec": 32.17,
+        "latency_sec": 6.5,
+        "frame_description": "The user is selecting cell D9 in Microsoft Excel. \n\n visible user-entered text in the spreadsheet includes:\n- \"Date\"\n- \"Category\"\n- \"Description\"\n-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use GPT to generate table data, then copy it to Excel.",
+      "reference_caption": "Creating and formatting an Excel table for tracking expenses using ChatGPT and Microsoft Excel on macOS.",
+      "reference_apps": [
+        "edge",
+        "excel",
+        "oepnai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 96,
+          "sub_goal": "GPT is outputting some text.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 715,
+          "sub_goal": "\"Command + space\" to open Mac's spotlight, then type \"excel\" to open the Excel application.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 874,
+          "sub_goal": "Double-clicked on \"blank workbook\" to open a blank worksheet.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 923,
+          "sub_goal": "A blank Excel sheet popped up.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1096,
+          "sub_goal": "Return to the chatgpt page and copy the table it just outputted to me.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1215,
+          "sub_goal": "Paste into Excel",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1261,
+          "sub_goal": "Click on the paste option, select match destination formatting.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1399,
+          "sub_goal": "Adjust the zoom ratio of Excel to enlarge the content of the table.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of generating and organizing tabular data in Excel, as evidenced by actions such as viewing ChatGPT responses for table examples, pasting data into Excel, and adjusting formatting. The timeline supports this with details like selecting text in a table within ChatGPT and interacting with Microsoft Excel to format cells. There are no contradictions in the specific entities or actions related to the reasoning and prediction questions."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence of user interactions aligns well with the ground truth, including opening Excel via Spotlight search and pasting content into a new workbook. There are no fabricated or contradicted actions in the timeline that would lead to incorrect answers for the QA questions."
+        },
+        "coverage": {
+          "score": 3.55,
+          "coverage": 0.636,
+          "covered": 7,
+          "total": 11,
+          "covered_actions": [
+            1,
+            2,
+            4,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "edge",
+            "excel"
+          ],
+          "reasoning": "The AI timeline describes actions related to viewing and interacting with ChatGPT, searching for Excel, opening a blank workbook in Excel, and adjusting the zoom level. These correspond to several keyframes but not all."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains numerous repetitive entries that describe similar states of the user interface without significant changes, such as repeated mentions of viewing ChatGPT responses and static address bar URLs. However, there are also distinct actions like typing in a search bar or interacting with Excel, which add new information."
+        }
+      },
+      "composite_score": 15.55,
+      "max_score": 20,
+      "latency_sec": 185.95
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0323,
+        "recall": 0.52,
+        "f1": 0.0607
+      },
+      "rouge2": {
+        "precision": 0.0075,
+        "recall": 0.1216,
+        "f1": 0.014
+      },
+      "rougeL": {
+        "precision": 0.0265,
+        "recall": 0.4267,
+        "f1": 0.0498
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0305
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 533.01,
+      "total_vlm_inference_sec": 338.24,
+      "intent_latency_sec": 8.77,
+      "frames_processed": 51,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.63,
+      "median_frame_latency_sec": 6.88,
+      "min_frame_latency_sec": 3.92,
+      "max_frame_latency_sec": 7.85,
+      "avg_description_length_chars": 138.8,
+      "total_prompt_tokens": 63827,
+      "total_completion_tokens": 1913,
+      "avg_completion_tokens_per_sec": 5.4
+    }
+  }
+}

@@ -1,0 +1,538 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/467.mov",
+  "total_frames": 1867,
+  "fps": 46.73517153334919,
+  "video_length_sec": 39.95,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1867,
+  "frames_processed": 18,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching multi-software collaboration examples from ChatGPT and then composing an email to a specific recipient to inquire about this topic.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 9.1,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has provided examples of multi-windows/multi-software/multi-website interactions. The user has not yet entered any text into the input field at the bottom of the screen.\n\nVisible user-entered text: None.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 19,
+        "timestamp_sec": 0.41,
+        "latency_sec": 8.43,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has provided examples of multi-window/multi-software/multi-website interactions. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 35,
+        "timestamp_sec": 0.75,
+        "latency_sec": 7.61,
+        "frame_description": "The user is viewing a list of examples demonstrating how users can interact across different applications or platforms, with no active input being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 101,
+        "timestamp_sec": 2.16,
+        "latency_sec": 9.35,
+        "frame_description": "The user is viewing a list of examples of interactions across different applications or platforms, as displayed in the ChatGPT interface. The text being shown includes numbered items describing various tasks such as copying text from a Word document to an email, dragging files from File Explorer to a web browser, and more. There is no active input field where the user is typing anything at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 117,
+        "timestamp_sec": 2.5,
+        "latency_sec": 7.87,
+        "frame_description": "The user is typing in the 'Subject' field of an email composition window. The text entered is: \"Hi, I am curious about how to do multi-software collaboration\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1287,
+        "timestamp_sec": 27.54,
+        "latency_sec": 9.16,
+        "frame_description": "The user is typing in the email composition window, specifically entering text into the \"To\" and \"Subject\" fields. The text being entered includes \"dongpingchen0612@gmail.com\" in the \"To\" field and \"Hi, I am curious about how to do multi-software collaboration\" in the \"Subject\" field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1303,
+        "timestamp_sec": 27.88,
+        "latency_sec": 7.81,
+        "frame_description": "The user is typing in the 'To' field of an email composition window in Outlook. The text being entered is \"dongpingchen0612@gmail.com\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1353,
+        "timestamp_sec": 28.95,
+        "latency_sec": 8.12,
+        "frame_description": "The user is typing in the subject field of an email draft.\n\nUser-entered text:\n- Subject: Hi, I am curious about how to do multi-software collaboration",
+        "prompt_tokens": 2093,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1369,
+        "timestamp_sec": 29.29,
+        "latency_sec": 7.94,
+        "frame_description": "The user is typing in the subject field of an email draft.\n\nUser-entered text:\n- Subject: Hi, I am curious about how to do multi-software collaboration",
+        "prompt_tokens": 2093,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1420,
+        "timestamp_sec": 30.38,
+        "latency_sec": 8.75,
+        "frame_description": "The user is typing in the 'To' field of an email draft.\n\nUser-entered text:\n- To: dongpingchen0612@gmail.com\n- Subject: Hi, I am curious about how to do multi-software collaboration",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1436,
+        "timestamp_sec": 30.73,
+        "latency_sec": 9.14,
+        "frame_description": "The user is typing in the email composition window, specifically entering text into the \"To\" field and the \"Subject\" field. The text being entered includes \"dongpingchen0612@gmail.com\" in the \"To\" field and \"Hi, I am curious about how to do multi-software collaboration\" in the \"Subject\" field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 1658,
+        "timestamp_sec": 35.48,
+        "latency_sec": 8.95,
+        "frame_description": "The user is typing in the email composition window, specifically entering text into the \"To\" field. The visible user-entered text includes: \"dongpingchen0612@gmail.com\" in the \"To\" field and \"Hi, I am curious about how to do multi-software collaboration\" in the \"Subject\" field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 1674,
+        "timestamp_sec": 35.82,
+        "latency_sec": 8.18,
+        "frame_description": "The user is typing in the 'To' field of an email draft.\n\nUser-entered text:\n- To: dongpingchen0612@gmail.com\n- Subject: Hi, I am curious about how to do multi-software collaboration",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1690,
+        "timestamp_sec": 36.16,
+        "latency_sec": 7.95,
+        "frame_description": "The user is typing in the 'Subject' field of an email draft.\n\nUser-entered text:\n- Subject: Hi, I am curious about how to do multi-software collaboration",
+        "prompt_tokens": 2093,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1743,
+        "timestamp_sec": 37.3,
+        "latency_sec": 8.74,
+        "frame_description": "The user is typing in the email composition window, specifically entering text into the \"Subject\" field. The visible user-entered text includes: \"Hi, I am curious about how to do multi-software collaboration\" in the Subject field, and \"dongpingchen0612@gmail.com\" in the To field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 1819,
+        "timestamp_sec": 38.92,
+        "latency_sec": 8.35,
+        "frame_description": "The user is viewing an email from Khmya posted to all PhD students about graduate school being hard, with the email open in the main pane. No new text is being entered or edited in any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 1852,
+        "timestamp_sec": 39.63,
+        "latency_sec": 9.64,
+        "frame_description": "The user is composing an email in the Outlook application, with the message body currently empty and the status bar indicating \"Sending...\" at the bottom. The recipient field shows \"Dongping Chen\", and the sender is identified as \"Khmya posted: To all the PhD students: graduate school is hard, it...\" from \"X (formerly Twitter) <info@twitter.com>\". No additional user-entered text is visible beyond what is already displayed in the interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 1867,
+        "timestamp_sec": 39.95,
+        "latency_sec": 9.36,
+        "frame_description": "The user is viewing a message from Khimya on the desktop, which reads: \"To all the PhD students: graduate school is hard, it is even harder to see the end of the tunnel because it has been dark and scary full of self doubt and constant rejection. Try this! Try to visualize you are a rising star in the field (simply by definition of rising :)) 1/N twitter.com/bambarkarprasa...\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 91
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Write a new email to someone, including the responses generated by ChatGPT.",
+      "reference_caption": "Composing and sending an email in Outlook with pasted content from ChatGPT on a macOS system.",
+      "reference_apps": [
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 86,
+          "sub_goal": "Copied the output of chatgpt",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 113,
+          "sub_goal": "Switch windows, return to Outlook.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1248,
+          "sub_goal": "Entered some text into the letter.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1317,
+          "sub_goal": "ctrl + v, paste the copied content of chatgpt into the email",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1780,
+          "sub_goal": "Browse the content of the email, then click send.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective as both involve composing an email to inquire about multi-software collaboration, using content generated by ChatGPT. The timeline supports this with details such as the recipient 'dongpingchen0612@gmail.com' and subject 'Hi, I am curious about how to do multi-software collaboration', which align with the inferred intent."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes. The sequence of user interactions, such as typing in the 'To' and 'Subject' fields before pasting content from ChatGPT into Outlook, is correctly captured. There are no fabricated or contradicted actions reported. However, there's a minor discrepancy where Frame 1852 mentions an email from Khmya, which does not align with the keyframes but doesn't contradict them either since it could be background context. The timeline supports answering the static and sequential QA consistently with the given answers."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 4,
+          "total": 6,
+          "covered_actions": [
+            2,
+            3,
+            5
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes actions related to composing an email in Outlook, including entering text into fields and viewing emails. However, it does not mention copying content from ChatGPT or pasting it into the email."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, particularly in the early and middle sections where the user is viewing examples or typing in fields with no change. However, there are also distinct entries describing new actions or content, such as entering text into different fields and viewing a specific email message."
+        }
+      },
+      "composite_score": 15.67,
+      "max_score": 20,
+      "latency_sec": 108.1
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0301,
+        "recall": 0.6111,
+        "f1": 0.0574
+      },
+      "rouge2": {
+        "precision": 0.0082,
+        "recall": 0.1714,
+        "f1": 0.0157
+      },
+      "rougeL": {
+        "precision": 0.026,
+        "recall": 0.5278,
+        "f1": 0.0496
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0126
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 265.82,
+      "total_vlm_inference_sec": 154.45,
+      "intent_latency_sec": 3.25,
+      "frames_processed": 18,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.58,
+      "median_frame_latency_sec": 8.59,
+      "min_frame_latency_sec": 7.61,
+      "max_frame_latency_sec": 9.64,
+      "avg_description_length_chars": 239,
+      "total_prompt_tokens": 39034,
+      "total_completion_tokens": 1032,
+      "avg_completion_tokens_per_sec": 6.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to research examples of multi-software collaboration using ChatGPT and compose an email inquiring about the same topic.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.91,
+        "frame_description": "The user is hovering the mouse cursor over text on the ChatGPT webpage. \n\nVisible user-entered text in the application includes:\n- Address bar: `https://chat.openai.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 19,
+        "timestamp_sec": 0.41,
+        "latency_sec": 8.12,
+        "frame_description": "The user is hovering the mouse cursor over the text \"Drag and Drop from File Explorer to a Web Browser\" in the ChatGPT conversation window.\n\nVisible user-entered text in the application includes:\n- Address bar: `https://chat.openai.com/c/e79ca284-17b9-458d-dda1b0eb7fc0`\n- Chat message: `Hi, can you tell me some example of multi-windows/multi-software/multi-website interactions? For example, Copy the text in PPT to discord.`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 121
+      },
+      {
+        "frame_number": 35,
+        "timestamp_sec": 0.75,
+        "latency_sec": 7.93,
+        "frame_description": "The user is hovering the mouse cursor over the text in paragraph 4 of the response on the ChatGPT web page.\n\n**Visible user-entered text:**\n* **Address bar:** `https://chat",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 101,
+        "timestamp_sec": 2.16,
+        "latency_sec": 8.02,
+        "frame_description": "The user is hovering the mouse cursor over the text response in ChatGPT. The visible text in the address bar is 'https://chat.openai.com/c/e79ca28",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 117,
+        "timestamp_sec": 2.5,
+        "latency_sec": 6.22,
+        "frame_description": "The user is composing an email with the \"To\" field set to \"dongpingchen0612@gmail.com\" and the \"Subject\" set to \"Hi, I am curious about how to do multi-software collaboration\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 1287,
+        "timestamp_sec": 27.54,
+        "latency_sec": 6.99,
+        "frame_description": "The user is composing an email draft in Microsoft Outlook.\n\nThe user-entered text includes:\n* **To**: \"dongpingchen0612@gmail.com\"\n*",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1303,
+        "timestamp_sec": 27.88,
+        "latency_sec": 7.43,
+        "frame_description": "The user is composing an email in Outlook.\n\n**Visible user-entered text in the application:**\n\n* **To:** `dongpingchen0612@gmail.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1353,
+        "timestamp_sec": 28.95,
+        "latency_sec": 7.4,
+        "frame_description": "The user is composing an email in Outlook.\n\n**User-entered text:**\n\n* **To:** \"dongpingchen0612@gmail.com\"\n* **Subject:** \"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1369,
+        "timestamp_sec": 29.29,
+        "latency_sec": 10.88,
+        "frame_description": "The user is drafting an email in Microsoft Outlook.\n\n**Visible user-entered text:**\n\n* **To:** `dongpingchen0612@gmail.com`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1420,
+        "timestamp_sec": 30.38,
+        "latency_sec": 7.61,
+        "frame_description": "The user is composing an email in Outlook. \n\nThe visible user-entered text in the application includes:\n* **To:** \"dongpingchen0612@",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1436,
+        "timestamp_sec": 30.73,
+        "latency_sec": 7.21,
+        "frame_description": "The user is composing an email in Outlook. \n\nThe visible user-entered text includes:\n\n* **To:** \"dongpingchen0612@gmail.com\"\n*",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1658,
+        "timestamp_sec": 35.48,
+        "latency_sec": 6.68,
+        "frame_description": "The user is composing an email draft in Outlook.\n\nThe visible user-entered text in the application includes:\n\n**To:**\n`dongpingchen0612@gmail.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1674,
+        "timestamp_sec": 35.82,
+        "latency_sec": 7.58,
+        "frame_description": "The user is composing an email draft in Microsoft Outlook.\n\nThe visible user-entered text in the application includes:\n\n* **To:** \"dongpingchen0612@gmail.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1690,
+        "timestamp_sec": 36.16,
+        "latency_sec": 9.69,
+        "frame_description": "The user is composing an email draft in Outlook. \n\n**User-entered text:**\n\n* **To:** \"dongpingchen0612@gmail.com\"\n*",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1743,
+        "timestamp_sec": 37.3,
+        "latency_sec": 6.82,
+        "frame_description": "The user is selecting the word 'output' in the email draft body within Microsoft Outlook.\n\n**User-entered text:**\n* **To:** `dongpingchen0612@gmail.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1819,
+        "timestamp_sec": 38.92,
+        "latency_sec": 6.78,
+        "frame_description": "The user is viewing an email in Microsoft Outlook. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 1852,
+        "timestamp_sec": 39.63,
+        "latency_sec": 8.9,
+        "frame_description": "The user is hovering the cursor over the email reading pane in Microsoft Outlook. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 1867,
+        "timestamp_sec": 39.95,
+        "latency_sec": 9.45,
+        "frame_description": "The user is hovering the mouse cursor over the email content in Microsoft Outlook. \n\nThere is no visible user-entered text in any search bars or form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Write a new email to someone, including the responses generated by ChatGPT.",
+      "reference_caption": "Composing and sending an email in Outlook with pasted content from ChatGPT on a macOS system.",
+      "reference_apps": [
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 86,
+          "sub_goal": "Copied the output of chatgpt",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 113,
+          "sub_goal": "Switch windows, return to Outlook.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1248,
+          "sub_goal": "Entered some text into the letter.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1317,
+          "sub_goal": "ctrl + v, paste the copied content of chatgpt into the email",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1780,
+          "sub_goal": "Browse the content of the email, then click send.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent captures the user's goal of researching multi-software collaboration and composing an email to inquire about it, which aligns well with the actions described in the timeline. The specific detail that matches is the subject line 'Hi, I am curious about how to do multi-software collaboration' and the recipient 'dongpingchen0612@gmail.com', both consistent with the AI's inferred intent."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The user's interactions in Outlook are correctly described, including composing an email and pasting content from ChatGPT. There are no contradictions with the ground truth or fabricated actions. The timeline supports answering the STATIC QA about GUI elements, SEQUENTIAL-QA regarding the first action after switching to Outlook, and MCQA about the action performed after switching applications."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 4,
+          "total": 6,
+          "covered_actions": [
+            3,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes actions related to composing and interacting with an email in Microsoft Outlook, which aligns with some of the keyframe actions. However, it does not mention copying content from ChatGPT or switching windows."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, particularly during the email composition in Outlook. These repetitive entries suggest a high level of redundancy."
+        }
+      },
+      "composite_score": 14.67,
+      "max_score": 20,
+      "latency_sec": 91.11
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0465,
+        "recall": 0.5833,
+        "f1": 0.0861
+      },
+      "rouge2": {
+        "precision": 0.0089,
+        "recall": 0.1143,
+        "f1": 0.0165
+      },
+      "rougeL": {
+        "precision": 0.0332,
+        "recall": 0.4167,
+        "f1": 0.0615
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0161
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 236.13,
+      "total_vlm_inference_sec": 141.62,
+      "intent_latency_sec": 3.35,
+      "frames_processed": 18,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 7.87,
+      "median_frame_latency_sec": 7.6,
+      "min_frame_latency_sec": 6.22,
+      "max_frame_latency_sec": 10.88,
+      "avg_description_length_chars": 158.6,
+      "total_prompt_tokens": 22593,
+      "total_completion_tokens": 789,
+      "avg_completion_tokens_per_sec": 5.4
+    }
+  }
+}

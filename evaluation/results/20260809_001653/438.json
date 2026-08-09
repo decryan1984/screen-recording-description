@@ -1,0 +1,749 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/438.mov",
+  "total_frames": 1662,
+  "fps": 46.65284983789398,
+  "video_length_sec": 35.62,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1662,
+  "frames_processed": 30,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to draft an email about multi-software collaboration while simultaneously seeking motivational content on visualization to overcome self-doubt.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 9.49,
+        "frame_description": "The user is typing in the email composition window, specifically entering text into the \"Subject\" field. The visible user-entered text includes: \"Dongping Chen (shuaishuacdp@outlook.com)\" in the \"From\" field, \"dongpingchen0612@gmail.com\" in the \"To\" field, and \"Hi, I am curious about how to do multi-software collaboration\" in the \"Subject\" field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 94
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 8.77,
+        "frame_description": "The user is typing in the email composition window, specifically entering text into the \"Subject\" field. The visible user-entered text includes: \"Hi, I am curious about how to do multi-software collaboration\" in the Subject field, and \"dongpingchen0612@gmail.com\" in the To field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 109,
+        "timestamp_sec": 2.34,
+        "latency_sec": 7.91,
+        "frame_description": "The user is viewing an email from Khmya posted to all PhD students about graduate school being hard, with the email open in the main pane. No new text is being entered or edited in any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 142,
+        "timestamp_sec": 3.04,
+        "latency_sec": 9.88,
+        "frame_description": "The user is composing an email in the Outlook application, with the message body currently empty and the status bar indicating \"Sending...\" at the bottom. The recipient field shows \"Dongping Chen\", and the sender is identified as \"Khmya posted: To all the PhD students: graduate school is hard, it...\" from \"X (formerly Twitter) <info@twitter.com>\". No additional user-entered text is visible beyond what is already displayed in the interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 158,
+        "timestamp_sec": 3.39,
+        "latency_sec": 9.23,
+        "frame_description": "The user is viewing a message from Khimya on the desktop, which reads: \"To all the PhD students: graduate school is hard, it is even harder to see the end of the tunnel because it has been dark and scary full of self doubt and constant rejection. Try this! Try to visualize you are a rising star in the field (simply by definition of rising :)) 1/N twitter.com/bambarkarprasa...\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 91
+      },
+      {
+        "frame_number": 526,
+        "timestamp_sec": 11.27,
+        "latency_sec": 7.82,
+        "frame_description": "The user is hovering over the text \"twitter.com/BenbarExpres...\" in a tweet displayed within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 542,
+        "timestamp_sec": 11.62,
+        "latency_sec": 10.15,
+        "frame_description": "The user is viewing a web browser with multiple tabs open, including one titled \"Untitled\" which appears to be a Twitter redirect page. The browser's sidebar shows a list of bookmarks or saved pages, such as \"Dongping-Chen/MLLM-Judge,\" \"HowieHwong/DyGenset,\" and others related to research and resources. The main content area of the browser is mostly blank, suggesting the user may have navigated away from the active tab or is waiting for content to load. There is no visible text being actively typed or entered into any form fields in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 125
+      },
+      {
+        "frame_number": 608,
+        "timestamp_sec": 13.03,
+        "latency_sec": 8.51,
+        "frame_description": "The user is viewing a Twitter page on their desktop browser, with the URL visible in the address bar. The page appears to be loading or displaying an error, as indicated by the large \"X\" logo in the center of the screen. There are no visible user-entered text fields or active typing actions in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 948,
+        "timestamp_sec": 20.32,
+        "latency_sec": 9.43,
+        "frame_description": "The user is viewing a Twitter profile page for \"Dongping Chen\" (@Dongping0612) within a web browser, with the sidebar showing various folders and tabs including \"GitHub,\" \"Overleaf and Conference,\" \"Daily Papers,\" \"Hugging Face,\" \"Video-LLM,\" and \"Video-Dataset.\" The main content area appears to be loading or displaying a blank screen. There is no active text input or typing occurring in the visible interface elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 98
+      },
+      {
+        "frame_number": 1145,
+        "timestamp_sec": 24.54,
+        "latency_sec": 8.27,
+        "frame_description": "The user is viewing a Twitter (X) post by Khimya about PhD students' self-doubt in the field, with the post currently loading. The user has not yet interacted with the post or any other elements on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1161,
+        "timestamp_sec": 24.89,
+        "latency_sec": 8.2,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya about PhD students and self-doubt, with a reply from Prasad Bambankar discussing visualization. The user is not actively typing or entering text in any form fields or search bars at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 1211,
+        "timestamp_sec": 25.96,
+        "latency_sec": 8.15,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya about PhD students and visualization, with an embedded video from Prasad Bambankar. The user has not performed any active actions (clicks, typing, etc.) in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1364,
+        "timestamp_sec": 29.24,
+        "latency_sec": 9.57,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya about visualizing success as a rising star in the field, which includes an embedded video clip of Coach Bob Bowman speaking. The interface shows various navigation options like Home, Explore, Notifications, Messages, Grok, Lists, Bookmarks, Communities, Premium, Profile, and More on the left sidebar. There are also relevant people and trending topics displayed on the right side. The user has not interacted with any buttons or input fields yet.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 101
+      },
+      {
+        "frame_number": 1380,
+        "timestamp_sec": 29.58,
+        "latency_sec": 8.37,
+        "frame_description": "The user is viewing a Twitter (X) post about visualization techniques for achieving success, with the post containing a video titled \"COACH BOB BOWMAN\" and several replies discussing the topic. The user has not performed any active actions such as clicking, typing, or navigating within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 1396,
+        "timestamp_sec": 29.92,
+        "latency_sec": 8.53,
+        "frame_description": "The user is viewing a Twitter (X) post by Prasad Bambankar about visualization, with the post displayed in the center of the screen. The user has not performed any active actions such as clicking, typing, or scrolling in the current frame. No user-entered text is visible in form fields or input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 1412,
+        "timestamp_sec": 30.27,
+        "latency_sec": 9.08,
+        "frame_description": "The user is viewing a Twitter post by Khimya about visualization and its impact on optimism in the face of uncertainty. The post includes a video titled \"COACH BOB BOWMAN\" and two tweets discussing the concept of visualization. The user appears to be reading the content, as there are no visible actions like clicking, typing, or navigating being performed at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 1428,
+        "timestamp_sec": 30.61,
+        "latency_sec": 10.72,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya, which includes a video titled \"COACH BOB BOWMAN\" and two replies discussing visualization techniques for success. The interface shows options to reply, retweet, like, bookmark, and share the post. There are also sidebar sections listing relevant people (Khimya and Prasad Bambarkar) and trending topics such as \"Volunteers at Boilermakers,\" \"Danielle Smith,\" \"Politics - Trending Israel,\" and \"Breaking News.\" The left panel displays various GitHub repositories and folders related to ML projects, papers, and datasets. No active typing or input actions are observed; the user appears to be browsing content passively.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 144
+      },
+      {
+        "frame_number": 1444,
+        "timestamp_sec": 30.95,
+        "latency_sec": 9.12,
+        "frame_description": "The user is viewing a Twitter (X) post by Khimya, which includes a video and two text segments discussing the power of visualization. The post is part of a thread, as indicated by the \"2/2\" and \"3/\" markers. The user appears to be browsing through their timeline or feed, possibly reviewing content related to academic or professional development. There is no active input or typing occurring in the visible interface elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 89
+      },
+      {
+        "frame_number": 1460,
+        "timestamp_sec": 31.29,
+        "latency_sec": 8.73,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya, which includes a video and two tweets discussing the power of visualization. The interface shows options to reply, retweet, like, and share the content. There are also sidebar sections listing relevant people and trending topics. No active typing or input actions are currently being performed by the user.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1478,
+        "timestamp_sec": 31.68,
+        "latency_sec": 8.64,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya on X, which includes a video and two replies discussing visualization techniques for success. The interface shows options to reply, like, retweet, bookmark, and share the post. There are also sidebar sections listing relevant people and trending topics. No active typing or input actions are currently being performed by the user.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 1494,
+        "timestamp_sec": 32.02,
+        "latency_sec": 9.98,
+        "frame_description": "The user is viewing a Twitter (X) post by Khimya on their desktop browser, with the post displayed in the center of the screen. The post includes two tweets discussing visualization techniques for success and optimism. The user appears to be reading the content of the post, as there are no visible actions being taken such as replying, liking, or sharing. The left sidebar shows various folders and files, including GitHub repositories and daily papers, suggesting the user may be managing or organizing their digital workspace. The right sidebar displays relevant people and trending topics, providing additional context for the user's browsing activity.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 122
+      },
+      {
+        "frame_number": 1537,
+        "timestamp_sec": 32.95,
+        "latency_sec": 8.13,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya on their desktop browser, with the interface showing the post's content, engagement metrics, and related accounts. No active typing or input actions are visible in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 1553,
+        "timestamp_sec": 33.29,
+        "latency_sec": 7.75,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya, which includes a video and two replies. The post discusses visualization techniques for success and failure. The user has not entered any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1569,
+        "timestamp_sec": 33.63,
+        "latency_sec": 8.87,
+        "frame_description": "The user is viewing a Twitter/X post featuring a video of Coach Bob Bowman, with the post showing 31.1K views and engagement metrics. The interface displays relevant people like Khimya and Prasad Bambarkar, along with trending topics such as \"Volunteers at Boilermakers\" and \"Danielle Smith.\" The user appears to be browsing content without any active input or typing actions.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 84
+      },
+      {
+        "frame_number": 1585,
+        "timestamp_sec": 33.97,
+        "latency_sec": 8.59,
+        "frame_description": "The user is viewing a Twitter post by Khimya on X, which includes a video titled \"COACH BOB BOWMAN\" and text discussing visualization as a critical skill. The post is part of a thread, and the user appears to be browsing through their timeline or feed. There is no active input or typing occurring in the visible interface elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 1601,
+        "timestamp_sec": 34.32,
+        "latency_sec": 10.24,
+        "frame_description": "The user is viewing a Twitter/X post on their desktop browser, which includes a video embedded in the tweet. The post is from Khimya and discusses visualization as a skill for success, featuring a quote from Prasad Bambankar about achieving greatness in real life. The video shows a presentation slide titled \"COACH BOB BOWMAN\" with text about Arizona State University Swimming and USA Olympic Swim Team. The user has not interacted with the post yet, but the interface shows options to reply, like, retweet, and bookmark the content. There are no visible user-entered text fields or active typing actions in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 131
+      },
+      {
+        "frame_number": 1617,
+        "timestamp_sec": 34.66,
+        "latency_sec": 8.25,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya about PhD students and visualization, with a video embedded in the post. The user has not performed any active actions (clicking, typing, etc.) in this screenshot. No user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 1633,
+        "timestamp_sec": 35.0,
+        "latency_sec": 8.94,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya about visualizing success as a rising star in their field, with an embedded video clip from Prasad Bambankar discussing visualization. The interface shows the user's sidebar with GitHub repositories and other folders, indicating they may be multitasking between coding or research and social media. No active typing or input actions are visible; the user appears to be passively consuming content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 1649,
+        "timestamp_sec": 35.35,
+        "latency_sec": 9.1,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya about visualizing success for PhD students, with a reply from Prasad Bambankar discussing visualization as a critical skill. The interface shows the user's sidebar with various folders and files, including \"Daily Papers\" and \"Hugging Face,\" suggesting they are organizing or researching academic content. No active typing or input actions are visible; the user appears to be browsing or reading the content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 1662,
+        "timestamp_sec": 35.62,
+        "latency_sec": 8.39,
+        "frame_description": "The user is viewing a Twitter/X post by Khimya about PhD students and self-doubt, which includes a video clip from Prasad Bambarkar. The interface shows various tabs and folders on the left side, including GitHub repositories and other resources. There is no active input or typing occurring in the visible fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 66
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Click on the tweet in email X, then open the webpage.",
+      "reference_caption": "Navigating from composing and sending an email in Outlook to opening and browsing a linked Twitter post in a web browser on macOS.",
+      "reference_apps": [
+        "outlook",
+        "X.com"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 93,
+          "sub_goal": "Clicked send, email sent out.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 160,
+          "sub_goal": "After the email is sent, automatically redirect to the first email.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 383,
+          "sub_goal": "Right-click on the link of the email sent by X and prepare to copy.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 525,
+          "sub_goal": "Click on this link",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1270,
+          "sub_goal": "Jumped to the corresponding tweet of X.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1459,
+          "sub_goal": "Scroll down to view the comments on this post.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent captures the user's underlying objective of seeking motivational content on visualization to overcome self-doubt, which aligns with the goal and caption describing actions related to viewing a Twitter post about PhD students' challenges. The timeline supports this by showing interactions with a Twitter post discussing visualization techniques for success. There are no contradictions in the named details between the AI's inferred intent and the timeline."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. Frame 142 mentions 'Khmya' instead of 'Khimya', and the description in Frame 158 incorrectly states 'Khimya' instead of 'Khimya posted'. These minor errors do not contradict keyframes significantly, as they pertain to names rather than actions or sequences. The descriptions align well with the keyframes regarding user interactions like clicking links and navigating between applications. For the QA tasks, the timeline supports answering them consistently with the given answers: the redirection after sending an email (Sequential-QA) and the automatic GUI redirect (MCQA)."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 4,
+          "total": 8,
+          "covered_actions": [
+            1,
+            2
+          ],
+          "covered_apps": [
+            "X.com",
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes actions related to composing and sending an email, viewing emails, and interacting with a Twitter post. It covers some but not all the specified keyframe actions."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, particularly when viewing content on Twitter/X. These repetitive descriptions occur frequently enough to suggest a moderate level of redundancy."
+        }
+      },
+      "composite_score": 15.0,
+      "max_score": 20,
+      "latency_sec": 150.7
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0199,
+        "recall": 0.7059,
+        "f1": 0.0386
+      },
+      "rouge2": {
+        "precision": 0.0028,
+        "recall": 0.1,
+        "f1": 0.0054
+      },
+      "rougeL": {
+        "precision": 0.016,
+        "recall": 0.5686,
+        "f1": 0.0311
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0301
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 426.52,
+      "total_vlm_inference_sec": 266.81,
+      "intent_latency_sec": 8.96,
+      "frames_processed": 30,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.89,
+      "median_frame_latency_sec": 8.75,
+      "min_frame_latency_sec": 7.75,
+      "max_frame_latency_sec": 10.72,
+      "avg_description_length_chars": 364.5,
+      "total_prompt_tokens": 65867,
+      "total_completion_tokens": 2473,
+      "avg_completion_tokens_per_sec": 8.8,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to access and engage with a Twitter (X) post by opening a link received in an Outlook email. Once on the post, they interacted with it by liking the tweet and exploring its associated media and links.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.51,
+        "frame_description": "Copy URL from Browser to a Text Editor**: Users often copy URLs from web browsers and paste them into a text editor or a note-taking app to save references or compile research.\n\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 8.19,
+        "frame_description": "The user is composing an email in Microsoft Outlook. \n\nThe user-entered text visible in the application includes:\n\n* **To:** \"dongpingchen0612@gmail.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 109,
+        "timestamp_sec": 2.34,
+        "latency_sec": 6.03,
+        "frame_description": "The user is viewing an email in Microsoft Outlook. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 142,
+        "timestamp_sec": 3.04,
+        "latency_sec": 7.56,
+        "frame_description": "The user is hovering the cursor over the email reading pane in Microsoft Outlook. There is no visible user-entered text to quote.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 158,
+        "timestamp_sec": 3.39,
+        "latency_sec": 10.75,
+        "frame_description": "The user is hovering the mouse cursor over an email message from 'X (formerly Twitter)' in Microsoft Outlook.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 526,
+        "timestamp_sec": 11.27,
+        "latency_sec": 7.04,
+        "frame_description": "The user is hovering the cursor over the link 'twitter.com/bambarkarprasa...' in the email body.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 542,
+        "timestamp_sec": 11.62,
+        "latency_sec": 5.95,
+        "frame_description": "The user is hovering the cursor over the blank web page area. \n\nThe visible text in the address bar is \"https://twitter.com/i/redirect?url=",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 608,
+        "timestamp_sec": 13.03,
+        "latency_sec": 6.04,
+        "frame_description": "The user is browsing to 'https://twitter.com/khimya/status/1774464973395333606?cxt=HBwWzMfQ2byflaAxAAAA&cn=Zmx",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 948,
+        "timestamp_sec": 20.32,
+        "latency_sec": 7.31,
+        "frame_description": "The user is viewing a Twitter (X) webpage that is currently loading in the web browser with the address bar containing \"https://twitter.com/khimya/status/1774",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1145,
+        "timestamp_sec": 24.54,
+        "latency_sec": 5.8,
+        "frame_description": "The user is viewing a page on X (formerly Twitter) while waiting for the content to load, with the URL \"https://twitter.com/khimya/status/1774464973395333606?cxt=HBwWzMfQ2byflaAxAAAA&cn=ZmxleUdsibGVfcmVjaw%3D%3D&refsrc=email\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 96
+      },
+      {
+        "frame_number": 1161,
+        "timestamp_sec": 24.89,
+        "latency_sec": 7.29,
+        "frame_description": "The user is hovering the mouse cursor over the media section of a tweet on X (formerly Twitter). \n\nThe visible user-entered text in the browser's address bar is:\n\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1211,
+        "timestamp_sec": 25.96,
+        "latency_sec": 7.64,
+        "frame_description": "The user is hovering the cursor over a link on the X (formerly Twitter) webpage.\n\nVisible user-entered text in form fields / address bar:\n\"https://twitter.com/kh",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1364,
+        "timestamp_sec": 29.24,
+        "latency_sec": 8.4,
+        "frame_description": "The user is viewing a post on X (formerly Twitter) in a web browser.\n\n**Visible user-entered text:**\n* Address bar: `https://twitter.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1380,
+        "timestamp_sec": 29.58,
+        "latency_sec": 6.91,
+        "frame_description": "The user is hovering the mouse cursor over a link to `@khimya` on Twitter.\n\n**User-entered text:**\n- Address bar: `https://twitter.com/khimya",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1396,
+        "timestamp_sec": 29.92,
+        "latency_sec": 7.35,
+        "frame_description": "The user is hovering the mouse cursor over the '@khimya' link inside the 'Who can reply?' box on Twitter.\n\nThere is no visible user-entered text in",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1412,
+        "timestamp_sec": 30.27,
+        "latency_sec": 6.26,
+        "frame_description": "The user is hovering the mouse cursor over a tweet in a thread on X (formerly Twitter).",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 1428,
+        "timestamp_sec": 30.61,
+        "latency_sec": 6.12,
+        "frame_description": "The user is hovering the mouse cursor over a tweet on X (Twitter). \n\n\"https://twitter.com/khimya/status/1774464973395333606?cxt=HBwWzMfQ2byflaAxAAAA&cn=ZmxleGlibGVfcmVjaw%3D%3D&refsrc=email\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 89
+      },
+      {
+        "frame_number": 1444,
+        "timestamp_sec": 30.95,
+        "latency_sec": 7.35,
+        "frame_description": "The user is hovering the mouse cursor over a tweet by Khimya on X (formerly Twitter).\n\nThere is no user-entered text visible in any form fields or search bars; the URL in",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1460,
+        "timestamp_sec": 31.29,
+        "latency_sec": 7.43,
+        "frame_description": "The user is hovering the mouse cursor over a link on a post on X (Twitter).\n\n**User-entered text:**\n* **URL bar:** \"https://twitter.com/khim",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1478,
+        "timestamp_sec": 31.68,
+        "latency_sec": 6.09,
+        "frame_description": "The user is viewing a post thread on X (formerly Twitter). No user-entered text is visible in any form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 1494,
+        "timestamp_sec": 32.02,
+        "latency_sec": 7.03,
+        "frame_description": "The user is viewing a post on Twitter (X). The text in the browser address bar is \"https://twitter.com/khimya/status/17744649",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1537,
+        "timestamp_sec": 32.95,
+        "latency_sec": 6.58,
+        "frame_description": "The user is clicking on the heart (like) icon below a post on X. The visible user-entered text in the address bar is \"https://twitter.com/khimya/status",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1553,
+        "timestamp_sec": 33.29,
+        "latency_sec": 7.3,
+        "frame_description": "The user is hovering the mouse cursor over a post area on Twitter/X in the browser.\n\nVisible user-entered text in the browser address bar:\n`https://twitter.com/khim",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1569,
+        "timestamp_sec": 33.63,
+        "latency_sec": 6.09,
+        "frame_description": "The user is browsing Twitter (X) in a web browser. \n\nThe visible text in the address bar is:\n\"https://twitter.com/khimya/status/1774464973395333606?cxt=HBwWzMfQ2byflaAxAAAA&cn=ZmxleGlibGVFcmVjd2%3D%3D&refsrc=email\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 97
+      },
+      {
+        "frame_number": 1585,
+        "timestamp_sec": 33.97,
+        "latency_sec": 8.02,
+        "frame_description": "The user is hovering the mouse cursor over the video on the Twitter page.\n\n**Visible user-entered text:**\n* Address bar: `\"https://twitter.com/khimya",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1601,
+        "timestamp_sec": 34.32,
+        "latency_sec": 9.04,
+        "frame_description": "The user is hovering the mouse cursor over a link to the profile '@khimya' on Twitter (X). \n\nThere is no user-entered text visible in any text fields or search",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1617,
+        "timestamp_sec": 34.66,
+        "latency_sec": 7.72,
+        "frame_description": "The user is hovering the mouse cursor over a link to the profile page of `@khimya` on Twitter/X. There is no visible user-entered text in any search bars or form fields",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1633,
+        "timestamp_sec": 35.0,
+        "latency_sec": 6.09,
+        "frame_description": "The user is hovering the mouse pointer over a video within a post on X (Twitter).\n\n**Visible User-Entered Text:**\n* Address bar: `\"https://twitter.com/khimya/status/1774464973395333606?cxt=HBwWzMfQ2byflaAxAAAA&cn=ZmxleGlibGVfcmVscrc=email\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 1649,
+        "timestamp_sec": 35.35,
+        "latency_sec": 6.69,
+        "frame_description": "The user is hovering the cursor over a tweet on X (formerly Twitter). The visible text in the browser's address bar is \"https://twitter.com/khimya/status/1774464973395333606?cxt=HBwWzMfQ2byflaAxAAAA&cn=ZmxleGlibGVjWw%3D%3D&refsrc=email\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 97
+      },
+      {
+        "frame_number": 1662,
+        "timestamp_sec": 35.62,
+        "latency_sec": 6.59,
+        "frame_description": "The user is hovering the cursor over a quoted tweet on X. The visible user-entered text in the browser's address bar is \"https://twitter.com/khimya/status/1774464973395333606?cxt=hBWwZMfQ2byflaAxAAAA&cn=ZmxleGlibGVjdw%3D3D&refsrc=email\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 96
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Click on the tweet in email X, then open the webpage.",
+      "reference_caption": "Navigating from composing and sending an email in Outlook to opening and browsing a linked Twitter post in a web browser on macOS.",
+      "reference_apps": [
+        "outlook",
+        "X.com"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 93,
+          "sub_goal": "Clicked send, email sent out.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 160,
+          "sub_goal": "After the email is sent, automatically redirect to the first email.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 383,
+          "sub_goal": "Right-click on the link of the email sent by X and prepare to copy.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 525,
+          "sub_goal": "Click on this link",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1270,
+          "sub_goal": "Jumped to the corresponding tweet of X.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1459,
+          "sub_goal": "Scroll down to view the comments on this post.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent accurately captures the user's underlying objective of accessing and engaging with a Twitter post via an email link, as described in both the goal and caption. The timeline supports this by showing actions like hovering over and clicking on the tweet link in Outlook, then viewing and interacting with it in Safari. For the reasoning question, the application used to view the Twitter post was Safari, which matches the timeline detail of browsing 'https://twitter.com/khimya/status/1774464973395333606' in a web browser. The prediction about the next GUI element or scene change aligns with typical user interactions on Twitter, such as scrolling or clicking on comments, consistent with the observed actions."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the ground truth keyframes. For instance, there is no mention of clicking 'send' in Frame 1, which contradicts Keyframe 1. Additionally, Frames 33 and 109 describe actions related to composing and viewing emails but do not align with the specific sequence described in the keyframes, such as right-clicking on a link (Keyframe 3) or automatically redirecting after sending an email (Keyframe 2). The descriptions also include fabricated interactions like hovering over links and media sections that are not mentioned in the keyframes. These inaccuracies suggest multiple clear factual errors and invented content."
+        },
+        "coverage": {
+          "score": 4.5,
+          "coverage": 0.875,
+          "covered": 7,
+          "total": 8,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "X.com",
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes actions related to interacting with emails in Outlook and navigating a Twitter page, which aligns with some of the keyframe actions. However, not all keyframe actions are explicitly described."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes in context or detail, such as hovering over the same elements and displaying nearly identical URLs. These repetitive entries suggest a moderate level of redundancy."
+        }
+      },
+      "composite_score": 13.5,
+      "max_score": 20,
+      "latency_sec": 130.4
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.039,
+        "recall": 0.6275,
+        "f1": 0.0735
+      },
+      "rouge2": {
+        "precision": 0.0085,
+        "recall": 0.14,
+        "f1": 0.0161
+      },
+      "rougeL": {
+        "precision": 0.0305,
+        "recall": 0.4902,
+        "f1": 0.0574
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0167
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 351.22,
+      "total_vlm_inference_sec": 214.17,
+      "intent_latency_sec": 6.62,
+      "frames_processed": 30,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 7.14,
+      "median_frame_latency_sec": 7.17,
+      "min_frame_latency_sec": 5.8,
+      "max_frame_latency_sec": 10.75,
+      "avg_description_length_chars": 160.8,
+      "total_prompt_tokens": 38002,
+      "total_completion_tokens": 1553,
+      "avg_completion_tokens_per_sec": 6.8
+    }
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/114.mp4",
+  "total_frames": 2052,
+  "fps": 30.000137062029705,
+  "video_length_sec": 68.4,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 2052,
+  "frames_processed": 12,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user initially searched for the University of Washington PhD program on Bing and Google, then navigated to the University of Washington Graduate School's \"Find a Program\" page to explore available options, before briefly viewing a blank page.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.2,
+        "frame_description": "The user is searching for the \"university of washington phd program\" on Bing.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 115,
+        "timestamp_sec": 3.83,
+        "latency_sec": 3.18,
+        "frame_description": "The user is typing \"university of washington phd program\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 126,
+        "timestamp_sec": 4.2,
+        "latency_sec": 3.19,
+        "frame_description": "The user is typing \"university of washington phd program\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 1423,
+        "timestamp_sec": 47.43,
+        "latency_sec": 3.51,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Maryland's Graduate School website, with no active input or text entry occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 1466,
+        "timestamp_sec": 48.87,
+        "latency_sec": 3.47,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Washington Graduate School website, with no active input or text entry occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1514,
+        "timestamp_sec": 50.47,
+        "latency_sec": 3.48,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Washington Graduate School website, with no active input or text entry occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1574,
+        "timestamp_sec": 52.47,
+        "latency_sec": 3.47,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Washington Graduate School website, with no active input or text entry occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1634,
+        "timestamp_sec": 54.47,
+        "latency_sec": 3.46,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Washington Graduate School website, with no active input or text entry occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1694,
+        "timestamp_sec": 56.47,
+        "latency_sec": 3.45,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Washington Graduate School website, with no active input or text entry occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1720,
+        "timestamp_sec": 57.33,
+        "latency_sec": 3.95,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Washington Graduate School website, which provides options for finding programs based on admission cycles. No user-entered text is visible in the current state of the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 2034,
+        "timestamp_sec": 67.8,
+        "latency_sec": 3.82,
+        "frame_description": "The user is viewing a blank web page in Google Chrome, with no active input or text being entered. No user-entered text is visible in any form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 2052,
+        "timestamp_sec": 68.4,
+        "latency_sec": 3.53,
+        "frame_description": "The user is viewing a blank webpage in Google Chrome, with no active input or text being entered. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for the PhD program at the University of Washington and click on the official website to view detailed information.",
+      "reference_caption": "Navigating from an unsuccessful Bing search to a successful Google search to explore PhD programs at the University of Washington.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "bing"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 39,
+          "sub_goal": "\"Bing search failed, click on the Google in the webpage bookmark bar.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 111,
+          "sub_goal": "Pasted the search text into the search box.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 159,
+          "sub_goal": "Search successful, jump to the interface of search content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 201,
+          "sub_goal": "Click on the first search result, which is the official website of UW.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 883,
+          "sub_goal": "Wait for the page to load.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1520,
+          "sub_goal": "The page has loaded successfully.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1960,
+          "sub_goal": "Click for admission to programs beginning in autumn 2024 and beyond.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 4,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of finding information about PhD programs at the University of Washington. The timeline shows the user successfully navigating to the University of Washington Graduate School's 'Find a Program' page, which matches the goal and caption. However, there is no specific mention in the timeline of clicking on the official website link after loading the page, as predicted. Therefore, while the core objective is captured, the prediction about subsequent actions lacks direct evidence from the timeline."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some inaccuracies. Frame 1423 incorrectly mentions the University of Maryland instead of the University of Washington, which contradicts the keyframes. The rest of the frames align well with the ground truth, accurately describing actions and applications used."
+        },
+        "coverage": {
+          "score": 3.8,
+          "coverage": 0.7,
+          "covered": 7,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "covered_apps": [
+            "bing",
+            "google"
+          ],
+          "reasoning": "The AI timeline describes actions that align with some of the keyframes, such as searching on Bing and Google, viewing the University of Washington's website, but does not explicitly mention all specific actions like clicking or waiting for pages to load."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe identical actions without meaningful change, particularly when viewing the 'Find a Program' page and blank web pages. These repetitive entries suggest redundancy."
+        }
+      },
+      "composite_score": 13.8,
+      "max_score": 20,
+      "latency_sec": 62.17
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1156,
+        "recall": 0.5312,
+        "f1": 0.1899
+      },
+      "rouge2": {
+        "precision": 0.0205,
+        "recall": 0.0952,
+        "f1": 0.0337
+      },
+      "rougeL": {
+        "precision": 0.0816,
+        "recall": 0.375,
+        "f1": 0.1341
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0078
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 106.28,
+      "total_vlm_inference_sec": 41.71,
+      "intent_latency_sec": 2.37,
+      "frames_processed": 12,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 3.48,
+      "median_frame_latency_sec": 3.47,
+      "min_frame_latency_sec": 3.18,
+      "max_frame_latency_sec": 3.95,
+      "avg_description_length_chars": 142.9,
+      "total_prompt_tokens": 12542,
+      "total_completion_tokens": 407,
+      "avg_completion_tokens_per_sec": 8.7,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is searching for information on PhD programs offered by the University of Washington and navigating the university's graduate school website to find specific program listings.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 5.48,
+        "frame_description": "The user is viewing Bing search results for \"university of washington phd program\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 115,
+        "timestamp_sec": 3.83,
+        "latency_sec": 3.92,
+        "frame_description": "The user is typing \"university of washington phd program\" into the Google search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 126,
+        "timestamp_sec": 4.2,
+        "latency_sec": 5.25,
+        "frame_description": "The user is viewing Google search results for \"university of washington phd program\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 1423,
+        "timestamp_sec": 47.43,
+        "latency_sec": 4.9,
+        "frame_description": "The user is browsing a web page titled \"Find a Program\" on the University of Washington website.\n\n**Visible user-entered text:**\n* Address bar: `https://grad.uw.edu/programs/find-a-program/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1466,
+        "timestamp_sec": 48.87,
+        "latency_sec": 5.15,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Washington Graduate School website. The visible text in the browser's address bar is \"https://grad.uw.edu/programs/find-a-program/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 1514,
+        "timestamp_sec": 50.47,
+        "latency_sec": 5.36,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Washington Graduate School website. \n\nThere is no visible user-entered text present.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1574,
+        "timestamp_sec": 52.47,
+        "latency_sec": 4.91,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. \n\nVisible user-entered text includes the address bar URL:\n\"https://grad.uw.edu/programs/find-a-program/\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1634,
+        "timestamp_sec": 54.47,
+        "latency_sec": 4.66,
+        "frame_description": "The user is viewing the \"Find a Program\" webpage on the University of Washington website. The text in the address bar is \"https://grad.uw.edu/programs/find-a-program/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1694,
+        "timestamp_sec": 56.47,
+        "latency_sec": 3.63,
+        "frame_description": "The user is browsing the \"Find a Program\" page on the University of Washington Graduate School website. The visible user-entered text in the application is:\n\n* **Address bar:** `https://grad.uw.edu/programs/find-a-program/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 1720,
+        "timestamp_sec": 57.33,
+        "latency_sec": 4.84,
+        "frame_description": "The user is viewing the \"Find a Program\" page on the University of Washington Graduate School website.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 2034,
+        "timestamp_sec": 67.8,
+        "latency_sec": 5.72,
+        "frame_description": "The user is waiting for a webpage to load in the web browser.\n\n**Visible user-entered text:**\n* Address bar: `https://grad.uw.edu/programs/find-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2052,
+        "timestamp_sec": 68.4,
+        "latency_sec": 4.9,
+        "frame_description": "The user is viewing a web page in Microsoft Edge with the URL 'https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for the PhD program at the University of Washington and click on the official website to view detailed information.",
+      "reference_caption": "Navigating from an unsuccessful Bing search to a successful Google search to explore PhD programs at the University of Washington.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "bing"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 39,
+          "sub_goal": "\"Bing search failed, click on the Google in the webpage bookmark bar.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 111,
+          "sub_goal": "Pasted the search text into the search box.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 159,
+          "sub_goal": "Search successful, jump to the interface of search content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 201,
+          "sub_goal": "Click on the first search result, which is the official website of UW.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 883,
+          "sub_goal": "Wait for the page to load.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1520,
+          "sub_goal": "The page has loaded successfully.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1960,
+          "sub_goal": "Click for admission to programs beginning in autumn 2024 and beyond.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on searching for and navigating to information about PhD programs at the University of Washington. The timeline supports this with actions like switching from Bing to Google, typing a search query, viewing results, and accessing the 'Find a Program' page on the university's website. For the reasoning question, the browser used was Google Chrome (Frame 126), which MATCHES the answer provided. For the prediction question, the user's action of clicking on a link related to programs beginning in autumn 2024 is consistent with the timeline details (Frames 1423 and 1720), thus MATCHING the predicted behavior."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. The keyframes indicate that the user clicked on Google in the bookmark bar, pasted text using 'ctrl + v', and navigated to the University of Washington's official website. However, the AI frames mention typing into the Google search bar directly (Frame 115), which contradicts the use of 'ctrl + v' as described in the keyframes. Additionally, Frame 2052 incorrectly identifies Microsoft Edge as the browser instead of Google Chrome, contradicting the MCQA correct answer."
+        },
+        "coverage": {
+          "score": 4.2,
+          "coverage": 0.8,
+          "covered": 8,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "edge",
+            "google"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching for the University of Washington PhD program, viewing search results on Google, and navigating to a specific page on the UW website. It covers keyframes involving switching from Bing to Google, performing a search, clicking on search results, waiting for pages to load, and browsing specific content."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe the same action or state without meaningful change, particularly when viewing the 'Find a Program' page and displaying the address bar URL. These repetitions occur multiple times with minimal variation in description."
+        }
+      },
+      "composite_score": 13.2,
+      "max_score": 20,
+      "latency_sec": 72.67
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1331,
+        "recall": 0.6406,
+        "f1": 0.2204
+      },
+      "rouge2": {
+        "precision": 0.0423,
+        "recall": 0.2063,
+        "f1": 0.0703
+      },
+      "rougeL": {
+        "precision": 0.0942,
+        "recall": 0.4531,
+        "f1": 0.1559
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0091
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 133.9,
+      "total_vlm_inference_sec": 58.72,
+      "intent_latency_sec": 2.48,
+      "frames_processed": 12,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.89,
+      "median_frame_latency_sec": 4.91,
+      "min_frame_latency_sec": 3.63,
+      "max_frame_latency_sec": 5.72,
+      "avg_description_length_chars": 150.9,
+      "total_prompt_tokens": 15019,
+      "total_completion_tokens": 474,
+      "avg_completion_tokens_per_sec": 7.6
+    }
+  }
+}

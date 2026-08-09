@@ -1,0 +1,542 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/122.mp4",
+  "total_frames": 995,
+  "fps": 30.000885704540273,
+  "video_length_sec": 33.17,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 995,
+  "frames_processed": 15,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is simultaneously researching Microsoft 365 product features and AI conference deadlines while developing a Python project in Visual Studio Code, with a final focus on reviewing details for the ACM Multimedia 2024 conference.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 10.06,
+        "frame_description": "The user is viewing a Microsoft 365 pricing comparison page on their desktop, with a VS Code window open on the left side showing Python code. There is no active input or typing occurring in any form fields or text areas.\n\nVisible user-entered text (excluding placeholders):\n- In VS Code:\n  - File path: `C:\\Windows\\system32\\cmd.exe`\n  - Code snippets and comments in the editor (e.g., `# block 4`, `def add_description_to_json`, variable names like `input_file`, `output_file`, etc.)\n  - Terminal output: `NTS320.00/\u6708 >` (partially visible)\n- In browser tabs:\n  - Tab titles: \u201c\u63a2\u7d22 Microsoft 365 \u7684\u66f4\u591a\u6b0a\u76ca\u201d, \u201c\u6bd4\u8f03 Microsoft 365 \u548c Office\u201d\n  - URL bar: `https://www.microsoft.com/zh-tw/microsoft-365/compare-a-microsoft-products-tab-b-18001d-cmm-levels-tab-1`\n  - Pricing section text:\n    - \u201cMicrosoft 365 \u5bb6\u7528\u7248\u201d \u2192 NT$3,190.00/\u5e74",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 16,
+        "timestamp_sec": 0.53,
+        "latency_sec": 4.05,
+        "frame_description": "The user is viewing a comparison page for Microsoft 365 and Office products on a web browser, with a code editor window open in the background. No text is being actively typed or entered in any form fields or search bars at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 27,
+        "timestamp_sec": 0.9,
+        "latency_sec": 3.92,
+        "frame_description": "The user is viewing a comparison of Microsoft 365 subscription plans on a web browser, with VS Code open in the background showing Python code. No active typing or input is occurring in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 38,
+        "timestamp_sec": 1.27,
+        "latency_sec": 4.37,
+        "frame_description": "The user is viewing a comparison table of Microsoft 365 and Office 2021 features on a web browser, while simultaneously having a Jupyter notebook open in VS Code on the left side of the screen. No active typing or input is occurring in any visible form fields or text areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 49,
+        "timestamp_sec": 1.63,
+        "latency_sec": 5.87,
+        "frame_description": "The user is viewing a webpage about Microsoft 365 products, specifically focusing on the \"Office \u5bb6\u7528\u53ca\u4e2d\u5c0f\u4f01\u696d\u7248 2021\" (Office Home and Business 2021) section. The webpage lists features such as support for 1 PC or Mac, and includes a list of common questions. On the left side of the screen, there is an open Visual Studio Code window displaying Python code related to a project named \"annoy.py\". The user appears to be multitasking between coding and researching Microsoft 365 products.",
+        "prompt_tokens": 993,
+        "completion_tokens": 115
+      },
+      {
+        "frame_number": 60,
+        "timestamp_sec": 2.0,
+        "latency_sec": 5.89,
+        "frame_description": "The user is viewing a webpage about Microsoft 365 features and services, with a VS Code window open on the left side of the screen. The webpage lists various questions related to Microsoft 365, such as \"How can I use Microsoft 365 on my PC or Mac?\" and \"Are Microsoft 365 features the same on PC and Mac?\". The VS Code window shows a Python script being edited, with code snippets visible in the editor. There are no visible user-entered text in form fields or search bars on the current screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 116
+      },
+      {
+        "frame_number": 71,
+        "timestamp_sec": 2.37,
+        "latency_sec": 3.63,
+        "frame_description": "The user is viewing a webpage about Microsoft Defender and its features, with a code editor open in the background. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 123,
+        "timestamp_sec": 4.1,
+        "latency_sec": 5.89,
+        "frame_description": "The user is viewing a webpage listing AI conference deadlines while simultaneously working on code in a text editor. The webpage displays various conferences such as MMM 2024, MIPR 2024, ECAI 2024, CIKM 2024, NeurIPS 2024, and EMNLP 2024, along with their respective deadlines and submission details. The text editor shows Python code related to image processing and description generation. The user appears to be managing or referencing these deadlines while coding.",
+        "prompt_tokens": 993,
+        "completion_tokens": 115
+      },
+      {
+        "frame_number": 516,
+        "timestamp_sec": 17.2,
+        "latency_sec": 3.81,
+        "frame_description": "The user is viewing a blank webpage in the Google Chrome browser, with no active input or typing occurring. No user-entered text is visible in any form fields, search bars, or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 749,
+        "timestamp_sec": 24.97,
+        "latency_sec": 3.82,
+        "frame_description": "The user is viewing a web browser window open to the ACM Mobile Computing conference page, while a VS Code editor window remains open in the background displaying Python code. No active typing or form input is currently occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 886,
+        "timestamp_sec": 29.53,
+        "latency_sec": 8.67,
+        "frame_description": "The user is viewing the ACM Multimedia 2024 conference webpage, which displays event details including dates, location, and a countdown timer. The page also includes a section titled \"Express Your Interest to Attend ACMMM 2024\" with a green button labeled \"COMPLETE THE EOI FORM\" and a QR code for the Expression of Interest form.\n\nIn the background, the user has an open Visual Studio Code window displaying a project folder structure for \"GUI_MOBILE_Ammo_2\", including files like `main.py`, `selected_0_100.py`, and `selected_0_100.jpg`. The file explorer shows the path `C:\\Users\\7030\\Downloads\\GUI_MOBILE_Ammo_2`.\n\nNo user-entered text is visible in any form fields, search bars, or active input areas on the screen. The only visible text entered by the user appears to be the file paths and project names shown in the Visual Studio Code interface, but these are not being actively typed at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 215
+      },
+      {
+        "frame_number": 929,
+        "timestamp_sec": 30.97,
+        "latency_sec": 5.21,
+        "frame_description": "The user is viewing the ACM Multimedia 2024 website in a web browser, with a VS Code window open on the left side of the screen. The website displays information about the event, including dates, location, and a countdown timer. There is also a section prompting users to express their interest to attend by completing an Expression of Interest form. No text is being actively typed or entered in any form fields or search bars at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 91
+      },
+      {
+        "frame_number": 965,
+        "timestamp_sec": 32.17,
+        "latency_sec": 4.66,
+        "frame_description": "The user is viewing the ACM Multimedia 2024 website, which displays event details and a countdown timer. The user is also working on a Python script in Visual Studio Code, indicated by the open file `anno.py` and the terminal output showing execution progress. No text is actively being typed in any form fields or input boxes at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 976,
+        "timestamp_sec": 32.53,
+        "latency_sec": 6.34,
+        "frame_description": "The user is viewing the ACM Multimedia 2024 conference website, which displays event details including dates (28 October \u2013 1 November 2024), location (Melbourne, Australia), and a countdown timer showing 204 days, 17 hours, 4 minutes, and 38 seconds remaining. A file explorer window is open on the left side of the screen, displaying Python files related to the conference project. The user has not entered any text into form fields or search bars; all visible text in the application is static content from the website or file paths in the explorer. No active typing is occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 132
+      },
+      {
+        "frame_number": 995,
+        "timestamp_sec": 33.17,
+        "latency_sec": 4.06,
+        "frame_description": "The user is viewing the ACM Multimedia 2024 conference website in a web browser, with a VS Code window open on the left side of the screen. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 50
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Closed the interface of office, then opened the homepage of ACM MM.",
+      "reference_caption": "Navigating through the Microsoft Office product comparison webpage, closing it, and opening the ACM MM 2024 conference homepage.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "ACM MM"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 24,
+          "sub_goal": "Roll the mouse, browse the web page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 78,
+          "sub_goal": "Scroll to the bottom of the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 114,
+          "sub_goal": "Place the mouse on the close button of this page in the page bar, ready to close this page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 264,
+          "sub_goal": "Closed the previous window, automatically went to the AI conference page.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 395,
+          "sub_goal": "Click on MM's meeting, jump to MM's countdown.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 500,
+          "sub_goal": "Click on the homepage of ACMMM, it will open in a moment.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 901,
+          "sub_goal": "The homepage of the ACMMM 2024 conference has been loaded.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 984,
+          "sub_goal": "The homepage of ACM MM 2024 has loaded all the images.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent captures the user's multitasking between researching Microsoft 365 features and preparing for the ACM Multimedia 2024 conference, which aligns with the goal of navigating through a webpage to close one interface and open another. The timeline shows consistent actions related to viewing and interacting with both Microsoft Office and ACM MM 2024 webpages, matching the core objective described in the caption. There are no contradictions in the specific details mentioned in the reasoning or prediction questions."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. For example, Frame 1 mentions a VS Code window and Python code, which is not directly related to the keyframes of navigating through web pages. Additionally, Frames 123 and 749 introduce new elements like AI conference deadlines and ACM Mobile Computing that are not part of the ground truth keyframes for transitioning from Microsoft Office to ACM MM 2024. These discrepancies suggest some fabricated content or misalignment with the provided keyframes."
+        },
+        "coverage": {
+          "score": 4.27,
+          "coverage": 0.818,
+          "covered": 9,
+          "total": 11,
+          "covered_actions": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "edge",
+            "google"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing web pages and interacting with a code editor, which aligns with some of the keyframe actions. However, specific mouse interactions like scrolling or clicking are not explicitly mentioned."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, such as viewing a webpage while having VS Code open. These entries often repeat the same context with minor variations in wording, indicating redundancy."
+        }
+      },
+      "composite_score": 14.27,
+      "max_score": 20,
+      "latency_sec": 90.27
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0509,
+        "recall": 0.6092,
+        "f1": 0.0939
+      },
+      "rouge2": {
+        "precision": 0.0144,
+        "recall": 0.1744,
+        "f1": 0.0266
+      },
+      "rougeL": {
+        "precision": 0.0355,
+        "recall": 0.4253,
+        "f1": 0.0655
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0256
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 174.45,
+      "total_vlm_inference_sec": 80.25,
+      "intent_latency_sec": 3.87,
+      "frames_processed": 15,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.35,
+      "median_frame_latency_sec": 4.66,
+      "min_frame_latency_sec": 3.63,
+      "max_frame_latency_sec": 10.06,
+      "avg_description_length_chars": 405.7,
+      "total_prompt_tokens": 16376,
+      "total_completion_tokens": 1487,
+      "avg_completion_tokens_per_sec": 18.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was browsing the web to compare Microsoft 365 subscription plans and subsequently navigate to the ACM Multimedia 2024 website.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.87,
+        "frame_description": "The user is viewing the Microsoft 365 product comparison webpage in a web browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 16,
+        "timestamp_sec": 0.53,
+        "latency_sec": 5.73,
+        "frame_description": "The user is viewing a web page about Microsoft 365 plans in a browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 27,
+        "timestamp_sec": 0.9,
+        "latency_sec": 5.57,
+        "frame_description": "The user is viewing Microsoft 365 subscription plans on a website.\n\n**Visible user-entered text:**\n- Address bar: `https://www.microsoft.com/zh-tw/microsoft-365/buy/compare-all-microsoft-365-products?tab=1&OCID=cmmruikv4ct&rtc=1`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 38,
+        "timestamp_sec": 1.27,
+        "latency_sec": 5.76,
+        "frame_description": "The user is browsing a web page comparing Microsoft 365 product options. The visible user-entered text in the browser address bar is \"https://www.microsoft.com/zh-tw/microsoft-365/buy/compare-all-microsoft-365-products?tab=1&OCID=cmmruikv4ct&rtc=1\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 49,
+        "timestamp_sec": 1.63,
+        "latency_sec": 6.22,
+        "frame_description": "The user is viewing a web page in the Microsoft Edge browser with the URL \"https://www.microsoft.com/zh-tw/microsoft-365/buy/compare-all",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 60,
+        "timestamp_sec": 2.0,
+        "latency_sec": 5.83,
+        "frame_description": "The user is clicking on the \"\u4ec0\u9ebc\u662f Microsoft \u5e33\u6236\uff1f\u70ba\u4ec0\u9ebd\u9700\u8981\u5b83\u624d\u80fd\u4f7f\u7528 Microsoft 365\uff1f\" dropdown item on the webpage.\n\n**User-entered text:**\n* Address bar: `https://www.microsoft.com/zh-tw/microsoft-365/buy/compare-all-microsoft-365-products?tab=1&OCID=cmmruikv4ct&rtc=1`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 98
+      },
+      {
+        "frame_number": 71,
+        "timestamp_sec": 2.37,
+        "latency_sec": 6.24,
+        "frame_description": "The user is viewing a webpage on Microsoft 365 plans in a web browser with the web address \"https://www.microsoft.com/zh-tw/microsoft-365",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 123,
+        "timestamp_sec": 4.1,
+        "latency_sec": 6.11,
+        "frame_description": "The user is clicking on the close button ('x') of the '\u83b7\u53d6\u6240\u6709 Microsoft 365 \u65b9\u6848 (\u6298...' browser tab.\n\n**Visible user-entered text:**\n*",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 516,
+        "timestamp_sec": 17.2,
+        "latency_sec": 5.87,
+        "frame_description": "The user is hovering the mouse cursor over a blank page in the browser with the URL \"about:blank\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 749,
+        "timestamp_sec": 24.97,
+        "latency_sec": 4.81,
+        "frame_description": "The user is viewing a webpage with the URL \"https://2024.acmmm.org\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 886,
+        "timestamp_sec": 29.53,
+        "latency_sec": 6.49,
+        "frame_description": "The user is viewing the ACM Multimedia 2024 website in Microsoft Edge with the URL 'https://2024.acmmm.org'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 929,
+        "timestamp_sec": 30.97,
+        "latency_sec": 6.27,
+        "frame_description": "The user is browsing the ACM Multimedia 2024 webpage. \n\nVisible user-entered text includes:\n- Browser address bar: `https://2024",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 965,
+        "timestamp_sec": 32.17,
+        "latency_sec": 6.55,
+        "frame_description": "The user is viewing the ACM Multimedia 2024 web page.\n\n**User-entered text:**\n* Browser address bar: `\"https://2024.acmmm.org",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 976,
+        "timestamp_sec": 32.53,
+        "latency_sec": 6.46,
+        "frame_description": "The user is viewing the ACM Multimedia 2024 homepage in the web browser.\n\n**Visible user-entered text:**\n* Address bar: `\"https://2024.acmmm.org\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 995,
+        "timestamp_sec": 33.17,
+        "latency_sec": 6.27,
+        "frame_description": "The user is viewing the ACM Multimedia 2024 website in a web browser.\n\n**Visible user-entered text:**\n- Browser address bar: `\"https://2024.acmmm.org\"`\n- VS Code search bar: `\"GUI_mobile_Anno 2\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 61
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Closed the interface of office, then opened the homepage of ACM MM.",
+      "reference_caption": "Navigating through the Microsoft Office product comparison webpage, closing it, and opening the ACM MM 2024 conference homepage.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "ACM MM"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 24,
+          "sub_goal": "Roll the mouse, browse the web page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 78,
+          "sub_goal": "Scroll to the bottom of the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 114,
+          "sub_goal": "Place the mouse on the close button of this page in the page bar, ready to close this page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 264,
+          "sub_goal": "Closed the previous window, automatically went to the AI conference page.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 395,
+          "sub_goal": "Click on MM's meeting, jump to MM's countdown.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 500,
+          "sub_goal": "Click on the homepage of ACMMM, it will open in a moment.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 901,
+          "sub_goal": "The homepage of the ACMMM 2024 conference has been loaded.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 984,
+          "sub_goal": "The homepage of ACM MM 2024 has loaded all the images.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective as both involve navigating from a Microsoft Office webpage to the ACM Multimedia 2024 homepage. The timeline supports this by showing actions consistent with closing one tab and opening another, specifically moving from 'https://www.microsoft.com/zh-tw/microsoft-365/buy/compare-all-microsoft-365-products' to 'https://2024.acmmm.org'. There are no contradictions in the specific details of the URLs or actions described."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes. The sequence of user interactions, such as scrolling, clicking on close buttons, and navigating to the ACM MM 2024 page, is correctly captured without contradictions or fabricated actions. The static QA about the Windows taskbar's 'Search' bar being consistent is supported by the descriptions. For the sequential-QA, the timeline accurately reflects the transition from Microsoft Office to ACM MM 2024. The MCQA answer is also correct as it identifies ACM MM 2024 as the conference page opened."
+        },
+        "coverage": {
+          "score": 2.82,
+          "coverage": 0.455,
+          "covered": 5,
+          "total": 11,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            7
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing Microsoft 365 product pages and then transitioning to the ACM Multimedia 2024 website, which aligns with some of the ground-truth keyframes. The timeline includes scrolling, clicking on a close button, and viewing the ACM MM 2024 homepage."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as multiple entries detailing viewing the same webpage with slight variations in description. However, there are also distinct actions like clicking and navigating to different URLs."
+        }
+      },
+      "composite_score": 15.82,
+      "max_score": 20,
+      "latency_sec": 94.86
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1129,
+        "recall": 0.4713,
+        "f1": 0.1822
+      },
+      "rouge2": {
+        "precision": 0.0414,
+        "recall": 0.1744,
+        "f1": 0.067
+      },
+      "rougeL": {
+        "precision": 0.0854,
+        "recall": 0.3563,
+        "f1": 0.1378
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0147
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 188.18,
+      "total_vlm_inference_sec": 91.05,
+      "intent_latency_sec": 2.24,
+      "frames_processed": 15,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.07,
+      "median_frame_latency_sec": 6.22,
+      "min_frame_latency_sec": 4.81,
+      "max_frame_latency_sec": 6.87,
+      "avg_description_length_chars": 143.9,
+      "total_prompt_tokens": 18861,
+      "total_completion_tokens": 695,
+      "avg_completion_tokens_per_sec": 7.3
+    }
+  }
+}

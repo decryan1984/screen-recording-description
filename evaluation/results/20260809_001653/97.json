@@ -1,0 +1,890 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/97.mp4",
+  "total_frames": 2142,
+  "fps": 30.00013130309569,
+  "video_length_sec": 71.4,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 2142,
+  "frames_processed": 38,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching and reviewing the timeline and requirements for applying to PhD programs to understand key dates and tasks from October through May. Their overall goal was to gather comprehensive information about the application process, including deadlines for emails, the GRE, statements, and interviews, without actively entering data into any forms.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 5.19,
+        "frame_description": "The user is viewing a Google search results page on their desktop, with the search query \"how and when to apply a PhD program\" entered in the search bar. The page displays various links, including articles about PhD application timelines and requirements, as well as video results. A \"Sign in to Google\" prompt is visible at the bottom of the screen, suggesting the user may be prompted to sign in for additional features or services.",
+        "prompt_tokens": 993,
+        "completion_tokens": 87
+      },
+      {
+        "frame_number": 358,
+        "timestamp_sec": 11.93,
+        "latency_sec": 3.77,
+        "frame_description": "The user is viewing a blank webpage in Google Chrome, with no active input or text being entered. No user-entered text is visible in any form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 444,
+        "timestamp_sec": 14.8,
+        "latency_sec": 3.63,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" on the \"Rooted in STEM\" website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 481,
+        "timestamp_sec": 16.03,
+        "latency_sec": 4.49,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" on their desktop, which provides guidance on the application process for graduate school. The page includes sections detailing timelines and advice for different stages of the application process. There are no visible user-entered texts in form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 947,
+        "timestamp_sec": 31.57,
+        "latency_sec": 3.46,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" on their desktop browser, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 958,
+        "timestamp_sec": 31.93,
+        "latency_sec": 4.2,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in the Google Chrome browser, which outlines steps and deadlines for applying to graduate programs. No active typing or input actions are occurring; the user is simply reading the content displayed on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 1042,
+        "timestamp_sec": 34.73,
+        "latency_sec": 5.1,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in the Google Chrome browser. The page contains text about the application process for PhD programs, including sections on research, GRE preparation, and reaching out to professors. There are no visible form fields or input areas where the user is actively typing or entering text. The desktop background shows various application icons, but the user is currently focused on the browser window.",
+        "prompt_tokens": 993,
+        "completion_tokens": 87
+      },
+      {
+        "frame_number": 1053,
+        "timestamp_sec": 35.1,
+        "latency_sec": 4.38,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Google Chrome browser, which outlines steps for applying to PhD programs. The page contains text about research programs, GRE preparation, and writing recommendation letters, but no user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 1064,
+        "timestamp_sec": 35.47,
+        "latency_sec": 4.14,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Google Chrome browser, which provides guidance on PhD application deadlines and preparation steps. No active typing or input actions are occurring; the user is simply reading the content displayed on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 1075,
+        "timestamp_sec": 35.83,
+        "latency_sec": 4.93,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Google Chrome browser, which outlines steps for applying to graduate programs. The page includes sections like \"June - July before you apply!\" and \"August - September,\" with bullet points detailing tasks such as researching programs and preparing for exams. No text is being actively typed or entered into any form fields on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 1086,
+        "timestamp_sec": 36.2,
+        "latency_sec": 4.81,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" on Google Chrome, which outlines a timeline for applying to PhD programs. The page includes sections for \"June - July before you apply\" and \"August - September,\" with bullet points providing advice on research programs, GRE scores, and letters of recommendation. There is no active input or typing occurring in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 1340,
+        "timestamp_sec": 44.67,
+        "latency_sec": 4.42,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in Google Chrome, which outlines steps for applying to graduate school. The page includes sections on research programs, GRE preparation, and recommendation letters. No active typing or input actions are visible; the user appears to be reading or reviewing the content.",
+        "prompt_tokens": 993,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 1351,
+        "timestamp_sec": 45.03,
+        "latency_sec": 4.9,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Chrome browser, which outlines steps for applying to PhD programs from June to October. The page includes sections on researching programs, preparing for exams like the GRE, writing recommendation letters, and drafting application statements. No active typing or input actions are visible; the user appears to be reading or reviewing the content.",
+        "prompt_tokens": 993,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 1517,
+        "timestamp_sec": 50.57,
+        "latency_sec": 4.82,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Chrome browser, which outlines a timeline for PhD applications including sections on June-July, August-September, and October. The webpage contains detailed advice on research programs, GRE preparation, and writing recommendation letters. There is no active input or typing occurring in any form fields or text areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 1528,
+        "timestamp_sec": 50.93,
+        "latency_sec": 4.9,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in Google Chrome, which outlines a timeline for PhD applications including sections for August-September and October. The page contains bullet points and paragraphs discussing preparation for graduate school applications, such as taking the GRE, writing recommendation letters, and drafting personal statements. No text is being actively typed or entered into any form fields on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 81
+      },
+      {
+        "frame_number": 1712,
+        "timestamp_sec": 57.07,
+        "latency_sec": 4.58,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Google Chrome browser, which provides guidance on preparing for PhD applications, including information about the GRE, recommendation letters, and the NSF GRFP. The user is not actively typing or interacting with any form fields; they are simply reading the content displayed on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1723,
+        "timestamp_sec": 57.43,
+        "latency_sec": 4.07,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in a web browser, with no active input or text entry occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1746,
+        "timestamp_sec": 58.2,
+        "latency_sec": 4.58,
+        "frame_description": "The user is viewing a document in a web browser that outlines a timeline for applying to graduate programs, with sections for August\u2013September, October, and November\u2013December. The document provides advice on preparing for the GRE, writing recommendation letters, drafting personal statements, and meeting application deadlines. No text is currently being entered or edited by the user.",
+        "prompt_tokens": 993,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1757,
+        "timestamp_sec": 58.57,
+        "latency_sec": 4.45,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Google Chrome browser, which outlines a timeline for PhD applications including sections for October, November-December, and January. The user is not actively typing or interacting with any form fields; they are simply reading the content displayed on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 1772,
+        "timestamp_sec": 59.07,
+        "latency_sec": 4.89,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Google Chrome browser, which outlines a timeline for applying to PhD programs. The page contains text about preparing for exams, writing recommendation letters, and applying to universities, with sections for October, November-December, and January. There is no active input or typing occurring in the browser or any other application on the desktop.",
+        "prompt_tokens": 993,
+        "completion_tokens": 81
+      },
+      {
+        "frame_number": 1783,
+        "timestamp_sec": 59.43,
+        "latency_sec": 5.02,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Chrome browser, which outlines a timeline for applying to PhD programs. The page contains sections for different months (September, October, November - December, January, February - March, April, May) with corresponding advice and tasks for each period. There is no active input or typing occurring in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 85
+      },
+      {
+        "frame_number": 1794,
+        "timestamp_sec": 59.8,
+        "latency_sec": 5.42,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in Google Chrome, which outlines a timeline for applying to PhD programs. The page includes sections for October, November-December, January, February-March, April, and May, with specific tasks and deadlines listed under each month. The user appears to be reading through the content, as indicated by the scroll bar on the right side of the browser window. There is no active input or typing visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 99
+      },
+      {
+        "frame_number": 1805,
+        "timestamp_sec": 60.17,
+        "latency_sec": 5.14,
+        "frame_description": "The user is viewing a document titled \"A Timeline for Applying to PhD\" in a web browser, which outlines key dates and tasks for applying to PhD programs from October through May. The document includes sections for each month with bullet points detailing actions such as emailing professors, taking the GRE, finalizing statements, attending interviews, and committing to a program. No active typing or input is occurring; the user appears to be reading or reviewing the content.",
+        "prompt_tokens": 993,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 1816,
+        "timestamp_sec": 60.53,
+        "latency_sec": 9.92,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in Google Chrome, which outlines a month-by-month guide for PhD applications. The page displays text organized by months (October through May) with bullet points detailing tasks such as emailing professors, taking the GRE, submitting applications, and attending interviews. No active typing or input actions are occurring; the user appears to be reading or reviewing the content.\n\nVisible user-entered text in the application:\n- In the browser\u2019s address bar: `https://www.rootedstem.com/grad-school/timeline/PhD-application-timeline.pdf`\n- In the tab title: `A Timeline for Applying to PhD`\n- In the page content (not form fields or search bars):\n  - \u201cOctober\u201d\n  - \u201cBy early October you should have an idea of which universities and programs you like. Now you should email a few professors from each program whose research you find most interesting to inquire if they will be taking on graduate students for the year you are applying to.\u201d\n  - \u201cTake (or retake) the GRE. Your score needs enough time to get sent to the different universities, so make sure you plan accordingly.\u201d\n  - \u201cThe NSF GRFP is due!",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1840,
+        "timestamp_sec": 61.33,
+        "latency_sec": 7.01,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in Google Chrome, which outlines key dates and tasks for PhD applications from October through May. The page lists monthly milestones such as emailing professors, taking the GRE, submitting applications, attending interviews, and committing to a program. No active typing or input is occurring; the user appears to be reading or reviewing the content.\n\nVisible user-entered text in the application (Google Chrome):\n- In the address bar: \"https://www.rootedstem.com/grad-school/timeline-for-phd-applications.pdf\"\n- In the tab title: \"A Timeline for Applying to PhD | Rooted STEM\"\n\nNo other form fields or input areas are active or populated with user-entered text.",
+        "prompt_tokens": 993,
+        "completion_tokens": 156
+      },
+      {
+        "frame_number": 1851,
+        "timestamp_sec": 61.7,
+        "latency_sec": 5.53,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in Google Chrome, which outlines a timeline for PhD applications from November to May. The page includes bullet points and sections for each month, detailing tasks such as reminding letter writers of deadlines, finalizing statements, attending interviews, and hearing back from programs. The user appears to be reading through the content, as indicated by the scroll bar on the right side of the browser window. There is no active input or typing occurring in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 103
+      },
+      {
+        "frame_number": 1881,
+        "timestamp_sec": 62.7,
+        "latency_sec": 4.53,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Google Chrome browser, which outlines a timeline for PhD applications from November to May. The page includes sections for each month with specific tasks and reminders related to the application process. There is no active typing or input being performed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 1892,
+        "timestamp_sec": 63.07,
+        "latency_sec": 6.21,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Chrome browser, which outlines a timeline for PhD applications from November to May. The page includes bullet points and paragraphs detailing actions for each month, such as reminding letter writers of deadlines, finalizing statements, submitting applications, focusing on finals, hearing back from programs, attending interviews, continuing to hear back from universities, hearing back from NSF GRFP, committing to a program, finishing classes or working, and notes on the intensity of the application process. The user is not actively typing or interacting with any form fields; they are simply reading the content.",
+        "prompt_tokens": 993,
+        "completion_tokens": 127
+      },
+      {
+        "frame_number": 1991,
+        "timestamp_sec": 66.37,
+        "latency_sec": 5.53,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Google Chrome browser, which outlines a timeline for PhD applications from January to May. The page includes bullet points and text detailing tasks such as finalizing statements, submitting applications, attending interviews, and hearing back from universities. There is no active input or typing occurring; the user appears to be reading or reviewing the content. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 103
+      },
+      {
+        "frame_number": 2002,
+        "timestamp_sec": 66.73,
+        "latency_sec": 5.27,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in Google Chrome, which outlines a monthly schedule for PhD applications from January to May. The page includes bullet points under each month and a paragraph discussing the intensity of the application process. The user has not performed any active actions such as clicking, typing, or scrolling; they are simply observing the content. No user-entered text is visible in form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 93
+      },
+      {
+        "frame_number": 2019,
+        "timestamp_sec": 67.3,
+        "latency_sec": 9.84,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in Google Chrome, which outlines a timeline for applying to PhD programs. The page includes sections for February-March, April, and May, with bullet points and paragraphs providing guidance on each month's activities. The user is not actively typing or interacting with any form fields; they are simply reading the content.\n\nVisible user-entered text in the application includes:\n- In the browser's address bar: \"https://www.rootedinstem.com/grad-school/timeline-for-phd-applications/\"\n- In the browser's tab title: \"A Timeline for Applying to PhD | Rooted in STEM\"\n- In the webpage content:\n  - \"Start to hear back from programs and more information about interviews.\"\n  - \"Start the new semester/quarter academically focused. There is nothing for you to do but focus on classes\"\n  - \"February - March\"\n  - \"Attend interviews\"\n  - \"Continue to hear back from universities\"\n  - \"April\"\n  - \"Hear back from the NSF GRFP. Make sure you save your comments as a .pdf because you lose access to them after a few months.\"\n  - \"",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 2030,
+        "timestamp_sec": 67.67,
+        "latency_sec": 5.3,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" in the Google Chrome browser, which outlines steps and timelines for applying to PhD programs. The page includes sections for April and May with bullet points and paragraphs providing advice on the application process. There is no active input or typing occurring; the user appears to be reading or reviewing the content. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 2041,
+        "timestamp_sec": 68.03,
+        "latency_sec": 3.99,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" on the Chrome browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 2052,
+        "timestamp_sec": 68.4,
+        "latency_sec": 3.95,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD\" on the desktop, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 2063,
+        "timestamp_sec": 68.77,
+        "latency_sec": 4.91,
+        "frame_description": "The user is viewing a webpage titled \"How to Apply to PhD\" in Google Chrome, which outlines a timeline for PhD applications. The page includes sections for October, November\u2013December, January, and February\u2013March, with bullet points detailing tasks such as reaching out to professors, writing recommendation letters, and preparing for interviews. No text is being actively typed or entered into any form fields on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 82
+      },
+      {
+        "frame_number": 2074,
+        "timestamp_sec": 69.13,
+        "latency_sec": 4.1,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 2085,
+        "timestamp_sec": 69.5,
+        "latency_sec": 4.85,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" on the desktop, which provides guidance on the application process for graduate school. The page includes sections detailing steps to take from June to September, such as researching programs, considering GRE requirements, and thinking about writing statements. There are no visible form fields or input areas where the user is actively typing or entering text.",
+        "prompt_tokens": 993,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 2142,
+        "timestamp_sec": 71.4,
+        "latency_sec": 3.81,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" on their desktop, which outlines steps for applying to graduate programs. No active typing or input actions are visible in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse a webpage for applying for a PhD.",
+      "reference_caption": "Navigating a Google search result and browsing a webpage for a PhD application timeline.",
+      "reference_apps": [
+        "edge",
+        "google"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 63,
+          "sub_goal": "Selected \"stay signed out\" in the Google pop-up window and closed the pop-up.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 171,
+          "sub_goal": "Click on the first search result, A timeline for applying to PhD Programs",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 523,
+          "sub_goal": "Jump to a new webpage",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1132,
+          "sub_goal": "Scroll down with the mouse to browse more page content.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1785,
+          "sub_goal": "Continue scrolling down to view more detailed content.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2002,
+          "sub_goal": "Slide all the way to the bottom to see the entire page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2061,
+          "sub_goal": "Then continue scrolling up to return to the top of the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of gathering information on a timeline for applying to PhD programs. The timeline consistently shows the user viewing and reading content related to this topic, with no contradictions in details such as webpage titles or URLs."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The descriptions correctly identify the user's interactions, such as viewing webpages and entering URLs in the address bar, without introducing any fabricated actions or content. The timeline supports the QA answers consistently with no contradictions."
+        },
+        "coverage": {
+          "score": 4.56,
+          "coverage": 0.889,
+          "covered": 8,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "google"
+          ],
+          "reasoning": "The AI timeline describes the user's actions and interactions on a webpage related to applying for PhD programs, including viewing content and navigating through different sections. The timeline does not explicitly mention all keyframe actions but covers some through descriptions of browsing and reading."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline contains numerous consecutive frames that describe viewing the same webpage without any meaningful change in content, indicating a high level of redundancy. The repeated descriptions across many frames suggest minimal new information is being added."
+        }
+      },
+      "composite_score": 15.56,
+      "max_score": 20,
+      "latency_sec": 155.89
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0198,
+        "recall": 0.6933,
+        "f1": 0.0386
+      },
+      "rouge2": {
+        "precision": 0.0073,
+        "recall": 0.2568,
+        "f1": 0.0141
+      },
+      "rougeL": {
+        "precision": 0.0164,
+        "recall": 0.5733,
+        "f1": 0.0319
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0443
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 356.56,
+      "total_vlm_inference_sec": 190.04,
+      "intent_latency_sec": 10.55,
+      "frames_processed": 38,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.0,
+      "median_frame_latency_sec": 4.83,
+      "min_frame_latency_sec": 3.46,
+      "max_frame_latency_sec": 9.92,
+      "avg_description_length_chars": 423.9,
+      "total_prompt_tokens": 41440,
+      "total_completion_tokens": 3340,
+      "avg_completion_tokens_per_sec": 16.8,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to understand the timeline and process for applying to a PhD program.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.62,
+        "frame_description": "The user is viewing Google search results for \"how and when to apply a PhD program\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 358,
+        "timestamp_sec": 11.93,
+        "latency_sec": 5.61,
+        "frame_description": "The user is hovering the mouse cursor over the main blank content area of the web browser. The visible user-entered text in the address bar is \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8sI9pd02i2zr\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 444,
+        "timestamp_sec": 14.8,
+        "latency_sec": 6.1,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in the browser.\n\n**Visible user-entered text:**\n* Address bar: `\"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8sl9pd02i2zr\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 481,
+        "timestamp_sec": 16.03,
+        "latency_sec": 5.85,
+        "frame_description": "The user is viewing a web page titled \"A Timeline for Applying to PhD Programs\". \n\n**Visible user-entered text:**\n* Address bar: `\"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8sl9pd02i2zr\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 947,
+        "timestamp_sec": 31.57,
+        "latency_sec": 4.57,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\". The address bar contains \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8sl9pd02i2zr\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 958,
+        "timestamp_sec": 31.93,
+        "latency_sec": 5.37,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in a browser, with the address bar containing the URL \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s19pd02i2zr\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 1042,
+        "timestamp_sec": 34.73,
+        "latency_sec": 6.14,
+        "frame_description": "The user is reading a web page titled \"A Timeline for Applying to PhD Programs\". \n\nVisible user-entered text in the address bar:\n\"https://www.rootedinst",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1053,
+        "timestamp_sec": 35.1,
+        "latency_sec": 6.25,
+        "frame_description": "The user is browsing a webpage titled \"A Timeline for Applying to PhD Programs\" on the Microsoft Edge browser.\n\n**User-entered text:**\n* Address bar: `https://www.rooted",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1064,
+        "timestamp_sec": 35.47,
+        "latency_sec": 6.43,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in a web browser. The URL bar contains the text \"https://www.rootedinstem.com/grad-school",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1075,
+        "timestamp_sec": 35.83,
+        "latency_sec": 5.79,
+        "frame_description": "The user is viewing a web page in a web browser. The URL bar contains the text \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s19pd0zi22r\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 1086,
+        "timestamp_sec": 36.2,
+        "latency_sec": 6.47,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\".\n\n**Visible user-entered text:**\n* **Address bar:** \"https://www.rootedinstem.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1340,
+        "timestamp_sec": 44.67,
+        "latency_sec": 4.74,
+        "frame_description": "The user is reading an article titled \"A Timeline for Applying to PhD Programs\" on a webpage in a web browser. The visible user-entered text in the address bar is \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s19pd0zi2zr\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 1351,
+        "timestamp_sec": 45.03,
+        "latency_sec": 6.16,
+        "frame_description": "The user is reading a web page titled \"A Timeline for Applying to PhD Programs\".\n\n**Visible user-entered text:**\n- Address bar: `https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s19pd02iz2r`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1517,
+        "timestamp_sec": 50.57,
+        "latency_sec": 5.13,
+        "frame_description": "The user is browsing a webpage titled \"A Timeline for Applying to PhD P...\" in the web browser, with the address bar containing \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s19pd0zi22r\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 1528,
+        "timestamp_sec": 50.93,
+        "latency_sec": 5.93,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD P...\" on rootedinstem.com.\n\n**Visible user-entered text:**\n* **Address bar:** `https://www.rootedinstem.com/grad-school/t6eex9ljqqf53uodg8sl9pd0zi2izr`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 1712,
+        "timestamp_sec": 57.07,
+        "latency_sec": 5.95,
+        "frame_description": "The user is viewing a web page in Microsoft Edge. \n\nThe visible user-entered text in the address bar is:\n\"https://www.rootedinstem.com/grad",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1723,
+        "timestamp_sec": 57.43,
+        "latency_sec": 5.05,
+        "frame_description": "The user is reading a webpage.\n\n**User-entered text:**\n* Address bar: `https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8slpd0zi22r`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 1746,
+        "timestamp_sec": 58.2,
+        "latency_sec": 5.85,
+        "frame_description": "The user is viewing a webpage containing an article titled \"A Timeline for Applying to PhD Programs\".\n\n**Visible user-entered text:**\n* **Address bar:** `https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8sl9pd0zi2zr`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 1757,
+        "timestamp_sec": 58.57,
+        "latency_sec": 5.4,
+        "frame_description": "The user is reading a webpage titled \"A Timeline for Applying to PhD P...\" in the browser. \n\nThe visible text in the address bar is \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s9pd0zi2i2r\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1772,
+        "timestamp_sec": 59.07,
+        "latency_sec": 5.15,
+        "frame_description": "The user is viewing a web page titled \"A Timeline for Applying to PhD...\" in Microsoft Edge. The address bar contains \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s19pd0zi22r\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 1783,
+        "timestamp_sec": 59.43,
+        "latency_sec": 6.01,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 1794,
+        "timestamp_sec": 59.8,
+        "latency_sec": 5.27,
+        "frame_description": "The user is viewing a webpage with the URL \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8sl9pd0zi2zr\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 1805,
+        "timestamp_sec": 60.17,
+        "latency_sec": 5.04,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in a browser window. The address bar contains the text \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodq8s1ypd02i2zr\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 1816,
+        "timestamp_sec": 60.53,
+        "latency_sec": 4.5,
+        "frame_description": "The user is viewing a webpage titled 'A Timeline for Applying to PhD P...'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 1840,
+        "timestamp_sec": 61.33,
+        "latency_sec": 4.41,
+        "frame_description": "The user is browsing a webpage titled \"A Timeline for Applying to PhD Programs\". The visible text in the address bar is \"https://www.rootedinstem.com/grad-school/t6eeX9IjiqqfS3uodq8sI9pd02i2zr\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 1851,
+        "timestamp_sec": 61.7,
+        "latency_sec": 6.35,
+        "frame_description": "The user is viewing a web page titled \"A Timeline for Applying to PhD P...\" in Microsoft Edge. \n\nThe visible text in the address bar is `\"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s19pd0zi2zr\"`.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 1881,
+        "timestamp_sec": 62.7,
+        "latency_sec": 5.72,
+        "frame_description": "The user is viewing a web page in Microsoft Edge titled \"A Timeline for Applying to PhD Programs\".\n\n**Visible user-entered text:**\n* Address bar: `\"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodq8st9pd0zi2zr\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 1892,
+        "timestamp_sec": 63.07,
+        "latency_sec": 5.45,
+        "frame_description": "The user is reading a webpage. \n\nVisible user-entered text in form fields:\n- Address bar: \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s19pd02i22r\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 1991,
+        "timestamp_sec": 66.37,
+        "latency_sec": 5.44,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD P...\" in the web browser. \n\nVisible user-entered text:\n- Address bar: \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8s9pd0zi2zr\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 2002,
+        "timestamp_sec": 66.73,
+        "latency_sec": 5.18,
+        "frame_description": "The user is viewing a webpage on a web browser.\n\n**User-entered text:**\n* Address bar: `https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8sl9pd02i22r`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 2019,
+        "timestamp_sec": 67.3,
+        "latency_sec": 6.72,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in a web browser.\n\nVisible user-entered text in the application address bar:\n- `https://",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 2030,
+        "timestamp_sec": 67.67,
+        "latency_sec": 5.71,
+        "frame_description": "The user is viewing a webpage. \n\n**Visible user-entered text:**\n* Address bar: `\"https://www.rootedinstem.com/grad-school/t6eex9ljiqgf53uodg8s1ypd02i22r\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 2041,
+        "timestamp_sec": 68.03,
+        "latency_sec": 5.48,
+        "frame_description": "The user is viewing a webpage in the Microsoft Edge browser.\n\n**User-entered text:**\n* Address bar: \"https://www.rootedinstem.com/grad-school/t6eex9ljiqgf53uodg8sl9pd02i2zr\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 2052,
+        "timestamp_sec": 68.4,
+        "latency_sec": 5.32,
+        "frame_description": "The user is viewing a web page with the URL 'https://www.rootedinstem.com/grad-school/t6eex9ljqqf53uodg8stpd0zi2zr'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2063,
+        "timestamp_sec": 68.77,
+        "latency_sec": 5.74,
+        "frame_description": "The user is viewing a web page titled \"A Timeline for Applying to PhD\" in the web browser.\n\nVisible user-entered text:\n- Address bar: `\"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8sl9pd02i2zr\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 2074,
+        "timestamp_sec": 69.13,
+        "latency_sec": 6.1,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in a web browser. The URL bar contains \"https://www.rootedinstem.com/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 2085,
+        "timestamp_sec": 69.5,
+        "latency_sec": 6.21,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in the Microsoft Edge browser. The text visible in the address bar is \"https://www.rootedinstem.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 2142,
+        "timestamp_sec": 71.4,
+        "latency_sec": 4.82,
+        "frame_description": "The user is viewing a webpage titled \"A Timeline for Applying to PhD Programs\" in the Microsoft Edge browser. \n\nThe visible user-entered text in the application address bar is:\n- \"https://www.rootedinstem.com/grad-school/t6eex9ljiqqf53uodg8sl9pd02i22r\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 79
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse a webpage for applying for a PhD.",
+      "reference_caption": "Navigating a Google search result and browsing a webpage for a PhD application timeline.",
+      "reference_apps": [
+        "edge",
+        "google"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 63,
+          "sub_goal": "Selected \"stay signed out\" in the Google pop-up window and closed the pop-up.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 171,
+          "sub_goal": "Click on the first search result, A timeline for applying to PhD Programs",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 523,
+          "sub_goal": "Jump to a new webpage",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1132,
+          "sub_goal": "Scroll down with the mouse to browse more page content.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1785,
+          "sub_goal": "Continue scrolling down to view more detailed content.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2002,
+          "sub_goal": "Slide all the way to the bottom to see the entire page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2061,
+          "sub_goal": "Then continue scrolling up to return to the top of the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 4,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of understanding the timeline and process for applying to a PhD program, as evidenced by their consistent focus on the webpage titled 'A Timeline for Applying to PhD Programs'. The reasoning question about reaching out to professors aligns with typical application timelines, though no specific detail in the timeline directly confirms this. The prediction question is plausible given the user's scrolling behavior and repeated viewing of the same page, suggesting further exploration or completion of reading."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The sequence of actions, such as closing the Google pop-up and clicking on a search result, aligns with the ground truth. There are no fabricated or contradicted actions reported. For the STATIC QA, SEQUENTIAL-QA, and MCQA questions, the timeline provides sufficient information to answer them consistently with the given answers."
+        },
+        "coverage": {
+          "score": 1.89,
+          "coverage": 0.222,
+          "covered": 2,
+          "total": 9,
+          "covered_actions": [
+            2
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes the user's interaction with a webpage titled 'A Timeline for Applying to PhD Programs' and mentions navigating through it, but does not explicitly describe actions like clicking or scrolling. The application used is identified as Microsoft Edge."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI-generated timeline contains numerous consecutive frames that describe nearly identical states of the webpage and address bar, indicating a high level of redundancy. The repeated descriptions of viewing the same page with minor variations in the URL text suggest many entries do not add new information."
+        }
+      },
+      "composite_score": 11.89,
+      "max_score": 20,
+      "latency_sec": 173.11
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0407,
+        "recall": 0.5467,
+        "f1": 0.0758
+      },
+      "rouge2": {
+        "precision": 0.0119,
+        "recall": 0.1622,
+        "f1": 0.0222
+      },
+      "rougeL": {
+        "precision": 0.0328,
+        "recall": 0.44,
+        "f1": 0.061
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0221
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 390.44,
+      "total_vlm_inference_sec": 212.03,
+      "intent_latency_sec": 5.25,
+      "frames_processed": 38,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.58,
+      "median_frame_latency_sec": 5.66,
+      "min_frame_latency_sec": 4.41,
+      "max_frame_latency_sec": 6.72,
+      "avg_description_length_chars": 176.5,
+      "total_prompt_tokens": 48344,
+      "total_completion_tokens": 2198,
+      "avg_completion_tokens_per_sec": 10.1
+    }
+  }
+}

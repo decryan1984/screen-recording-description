@@ -1,0 +1,707 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/439.mov",
+  "total_frames": 1859,
+  "fps": 46.640964097246034,
+  "video_length_sec": 39.86,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1859,
+  "frames_processed": 26,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user aimed to create an inspirational pop song by first extracting descriptive keywords from academic conference lyrics using ChatGPT and then applying those keywords to Suno AI to generate a track titled \"2024 good luck\" with a dynamic style.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 9.19,
+        "frame_description": "The user is viewing the Suno AI interface, where they can input lyrics and style preferences to generate music. The text \"Enter your own lyrics...\" is visible in the lyrics input field, and \"Enter style of music\" is shown in the style input field. Additionally, the text \"Select a song to preview.\" appears in the right panel, indicating that no song is currently selected for preview.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 81
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 7.68,
+        "frame_description": "The user is typing in the input field at the bottom of the ChatGPT interface. The text being entered is: \"what type of music is it? give me some words\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 306,
+        "timestamp_sec": 6.56,
+        "latency_sec": 8.21,
+        "frame_description": "The user is viewing a chat interface in the ChatGPT application, where they have asked for words describing a music style. The visible user-entered text in the application is: \"what type of music is it? give me some words of the music style\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 425,
+        "timestamp_sec": 9.11,
+        "latency_sec": 8.07,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a poem about academic conferences and a question about music style. The user has not entered any new text in the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 445,
+        "timestamp_sec": 9.54,
+        "latency_sec": 7.92,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a poem about academic conferences and a question about the music style of the poem. The user has not entered any new text in the current session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 461,
+        "timestamp_sec": 9.88,
+        "latency_sec": 8.21,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a poem about academic conferences and a discussion about the music style of the lyrics. The user has not entered any new text in the current session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 487,
+        "timestamp_sec": 10.44,
+        "latency_sec": 8.05,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the model has analyzed and described the musical style of a poem as \"inspirational pop music.\" The user has not yet entered any new text into the input field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 505,
+        "timestamp_sec": 10.83,
+        "latency_sec": 9.0,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where they have asked about the music style of lyrics provided by the model. The current action appears to be reading or reviewing the response given by ChatGPT, which describes the music style as \"inspirational pop\" and lists keywords such as \"Uplifting\" and \"Moti\". There is no active typing or input being performed at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 84
+      },
+      {
+        "frame_number": 521,
+        "timestamp_sec": 11.17,
+        "latency_sec": 8.02,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the model has analyzed lyrics and suggested they align with inspirational pop music. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 537,
+        "timestamp_sec": 11.51,
+        "latency_sec": 7.58,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation discusses the music style of lyrics provided. The user has not entered any new text in this session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 589,
+        "timestamp_sec": 12.63,
+        "latency_sec": 9.65,
+        "frame_description": "The user is viewing a chat conversation in the ChatGPT application, where they have asked about the music style of lyrics provided by ChatGPT. The chat shows that ChatGPT has identified the style as \"inspirational pop music\" and listed key words such as \"Uplifting,\" \"Motivational,\" \"Anthemic,\" \"Empowering,\" \"Hopeful,\" \"Melodic,\" \"Inspirational,\" and \"Dynamic.\" There is no active input being typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 104
+      },
+      {
+        "frame_number": 605,
+        "timestamp_sec": 12.97,
+        "latency_sec": 7.99,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the model has analyzed lyrics and suggested they align with an \"inspirational pop music\" style. The user has not entered any new text in this session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 780,
+        "timestamp_sec": 16.72,
+        "latency_sec": 8.38,
+        "frame_description": "The user is viewing the Suno AI interface, which allows for the creation of music. The interface includes options for customizing lyrics, style of music, and title. The user has not yet entered any text into the form fields. The interface also displays a list of previously generated songs on the right side.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 899,
+        "timestamp_sec": 19.27,
+        "latency_sec": 11.64,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has analyzed lyrics and suggested keywords for an inspirational pop music style. The visible user-entered text includes:\n\n- In the left sidebar under \"Today\": \"Tech Conference Acronym\"\n- In the main chat area, the user's message: \"what type of music is it? give me some words of the music style\"\n- ChatGPT's response includes the phrase: \"Key words to describe this music style would include:\" followed by a bulleted list of suggested keywords: Uplifting, Motivational, Anthemic, Empowering, Hopeful, Melodic, Inspirational, Dynamic\n- At the bottom of the chat window, the input field contains the placeholder text: \"Message ChatGPT...\"\n\nNo other user-entered text is actively being typed or visible in form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 175
+      },
+      {
+        "frame_number": 938,
+        "timestamp_sec": 20.11,
+        "latency_sec": 8.84,
+        "frame_description": "The user is viewing a chat interface where they have asked ChatGPT about the music style of lyrics they wrote, and ChatGPT has responded with keywords describing the style as \"Uplifting,\" \"Motivational,\" \"Anthem,\" \"Empowering,\" \"Hopeful,\" \"Melodic,\" \"Inspirational,\" and \"Dynamic.\" The user appears to be reviewing this interaction.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 954,
+        "timestamp_sec": 20.45,
+        "latency_sec": 13.94,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes lyrics and a question about music style. The visible user-entered text in the application is:\n\n- In the input field at the bottom: \"Message ChatGPT...\" (placeholder text, not user-entered)\n- No active typing is occurring; the input field is empty except for the placeholder.\n- The only user-entered text visible in the interface is within the chat history, such as:\n  - \"ECCV, ARR, in the knowledge we give.\"\n  - \"(Verse 2)\"\n  - \"In proceeding papers, we share, discoveries everywhere,\"\n  - \"Submitted with care, innovation laid bare.\"\n  - \"ICML's insights, ICLR's bright lights,\"\n  - \"Guiding us through academic nights.\"\n  - \"(Bridge)\"\n  - \"2024, our future's at the door,\"\n  - \"With every conference, we find more.\"\n  - \"From aaai to ECCV, we see,\"\n  - \"A world of tech, united, free.\"\n  - \"(Chorus)\"\n  - \"Good luck in submissions, we're on a",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 970,
+        "timestamp_sec": 20.8,
+        "latency_sec": 14.22,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the model has generated lyrics for an inspirational pop song. The user has asked ChatGPT to describe the music style based on the lyrics provided. The current action appears to be reading or reviewing the generated response about the music style.\n\nVisible user-entered text in the application includes:\n- In the sidebar: \"A Blurred Border: The Dilemma\", \"Dongping-Chen/MLLM-Judge\", \"HowieHwong/DyGenset\", \"Dongping-Chen/Video-QA\", \"github.com/JieyuZ2/unified_\", \"JieyuZ2/dynabench\", \"Dongping-Chen/GUI-video\", \"Overleaf and Conference\", \"Daily Papers\", \"Hugging Face\", \"Video-LLM\", \"Video-Dataset\", \"github.com\", \"Issues - nishantrai18/homage\", \"github.com\", \"jingkang50.github.io\", \"github.com\", \"Dongping Chen's Website - Home\", \"Video generation models as work\", \"arxiv.org/pdf/2403.17830.pdf\", \"aliyunpan/docs/manual",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1048,
+        "timestamp_sec": 22.47,
+        "latency_sec": 8.81,
+        "frame_description": "The user is viewing a chat interface where they have asked ChatGPT to describe the music style of lyrics provided in the conversation. The chat shows that ChatGPT has responded by identifying the music style as \"inspirational pop music\" and explaining its characteristics. The user has not yet entered any new text into the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 1064,
+        "timestamp_sec": 22.81,
+        "latency_sec": 8.9,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has generated lyrics for a music piece based on provided keywords related to academic conferences. The lyrics include verses, a chorus, a bridge, and an outro, all written in English. There is no active typing or input from the user at this moment; the conversation appears to be completed with the last message from ChatGPT visible in the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 82
+      },
+      {
+        "frame_number": 1080,
+        "timestamp_sec": 23.16,
+        "latency_sec": 8.06,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has generated music lyrics based on provided keywords. The lyrics are displayed in the main chat area, and the user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1172,
+        "timestamp_sec": 25.13,
+        "latency_sec": 7.06,
+        "frame_description": "The user is typing \"Dynamic\" into the \"Style of Music\" input field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 1662,
+        "timestamp_sec": 35.63,
+        "latency_sec": 8.0,
+        "frame_description": "The user is viewing the Suno AI interface, where they have entered \"2024 good luck\" into the Title field and selected \"v3\" from a dropdown menu. They are not actively typing or interacting with other elements at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1678,
+        "timestamp_sec": 35.98,
+        "latency_sec": 7.98,
+        "frame_description": "The user is viewing the Suno AI interface, where they have entered \"2024 good luck\" into the Title field and selected \"v3\" from a dropdown menu. They are not actively typing or interacting with other elements at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1815,
+        "timestamp_sec": 38.91,
+        "latency_sec": 8.05,
+        "frame_description": "The user is viewing the Suno AI interface, where they have entered \"2024 good luck\" into the Title field and \"v3\" into the Style dropdown. They are also reviewing a list of generated songs on the right side of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 1831,
+        "timestamp_sec": 39.26,
+        "latency_sec": 7.59,
+        "frame_description": "The user is viewing the Suno AI website in Microsoft Edge, where they have entered \"2024 good luck\" into the Title field and are interacting with lyrics generation options.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1859,
+        "timestamp_sec": 39.86,
+        "latency_sec": 7.55,
+        "frame_description": "The user is viewing the Suno AI interface, where they have entered \"2024 good luck\" into the Title field and are interacting with lyrics and music generation options.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 37
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Create songs using Suno AI.",
+      "reference_caption": "Creating a song with Suno AI using lyrics generated by ChatGPT, with a focus on academic conferences and optimism for the year 2024.",
+      "reference_apps": [
+        "edge",
+        "openai",
+        "suno ai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 323,
+          "sub_goal": "Send the written prompt to GPT to generate some keywords related to music style for me.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 708,
+          "sub_goal": "ChatGPT generated the type of song and then copied it to me to generate key words.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "command + c"
+        },
+        {
+          "frame": 842,
+          "sub_goal": "Input the just copied keywords into Suno Ai's style of music.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 1030,
+          "sub_goal": "Return to the openai interface and copy the lyrics just generated by chatgpt.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1242,
+          "sub_goal": "Return to the interface of Suno Ai and paste the lyrics into the lyrics section.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 1272,
+          "sub_goal": "Click on \"create\" to compose a song.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1678,
+          "sub_goal": "Discover that the title is not filled in, and then fill in the title, the song is called 2024 good luck.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "2024 good luck"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's objective of creating an inspirational pop song using Suno AI, based on lyrics generated by ChatGPT. The timeline supports this as it shows the user switching between interfaces to refine lyrics and music style before entering '2024 good luck' in Suno AI, consistent with the prediction that they would click 'Create'. There are no contradictions in the timeline regarding these actions."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes. The descriptions correctly identify interactions such as typing keywords into Suno AI, pasting lyrics, and filling in the title '2024 good luck'. There are no fabricated or contradicted actions reported. However, some frames describe viewing content without active interaction, which is consistent with the background context but not directly tied to keyframes."
+        },
+        "coverage": {
+          "score": 4.6,
+          "coverage": 0.9,
+          "covered": 9,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "openai",
+            "suno ai"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, including interactions with both OpenAI and Suno AI interfaces. The timeline captures specific user inputs and interface interactions relevant to generating music style keywords and lyrics."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, particularly in Frames 425-521 and 605. These entries repeat the same information about viewing a chat interface with ChatGPT discussing music style analysis, indicating redundancy."
+        }
+      },
+      "composite_score": 16.6,
+      "max_score": 20,
+      "latency_sec": 141.1
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0558,
+        "recall": 0.78,
+        "f1": 0.1042
+      },
+      "rouge2": {
+        "precision": 0.0172,
+        "recall": 0.2424,
+        "f1": 0.0321
+      },
+      "rougeL": {
+        "precision": 0.0401,
+        "recall": 0.56,
+        "f1": 0.0748
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0333
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 378.23,
+      "total_vlm_inference_sec": 228.59,
+      "intent_latency_sec": 8.48,
+      "frames_processed": 26,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.79,
+      "median_frame_latency_sec": 8.07,
+      "min_frame_latency_sec": 7.06,
+      "max_frame_latency_sec": 14.22,
+      "avg_description_length_chars": 324.1,
+      "total_prompt_tokens": 56810,
+      "total_completion_tokens": 2117,
+      "avg_completion_tokens_per_sec": 8.6,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was attempting to create a custom song on Suno AI by using ChatGPT to generate music style descriptors, lyrics, and song ideas to guide the music creation process.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 5.57,
+        "frame_description": "The user is viewing the Suno web application on the page \"https://app.suno.ai/create/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 5.07,
+        "frame_description": "The user is typing text into the ChatGPT prompt box, with the visible user-entered text being \"what type of music is it? give me some words\" in the chat field and \"https://chat.openai.com/c/9e0bf1ee-6fd6-482d-80dd-d956b846b065\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 306,
+        "timestamp_sec": 6.56,
+        "latency_sec": 7.42,
+        "frame_description": "The user is viewing a conversation on ChatGPT in a web browser.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com/c",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 425,
+        "timestamp_sec": 9.11,
+        "latency_sec": 7.06,
+        "frame_description": "The user is viewing a conversation on the ChatGPT webpage while the AI generates a response. \n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai.com/c",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 445,
+        "timestamp_sec": 9.54,
+        "latency_sec": 6.85,
+        "frame_description": "The user is viewing ChatGPT while it generates a response to their prompt, \"what type of music is it? give me some words of the music style\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 461,
+        "timestamp_sec": 9.88,
+        "latency_sec": 6.87,
+        "frame_description": "The user is hovering the mouse cursor over the text being generated in the ChatGPT window.\n\n**User-entered text:**\n* **URL Bar:** `https://chat.openai.com/c/9e0bf1ee-6fd6-482d-80dd-d956b846b065`\n* **Chat Prompt:** \"what type of music is it? give me some",
+        "prompt_tokens": 1200,
+        "completion_tokens": 91
+      },
+      {
+        "frame_number": 487,
+        "timestamp_sec": 10.44,
+        "latency_sec": 6.56,
+        "frame_description": "The user is viewing ChatGPT generate a response to the prompt \"what type of music is it? give me some words of the music style\". The browser address bar contains \"https://chat.openai.com/c/9e0bf1ee-6fd6-482d-80dd-d956b846b06",
+        "prompt_tokens": 1200,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 505,
+        "timestamp_sec": 10.83,
+        "latency_sec": 6.84,
+        "frame_description": "The user is viewing ChatGPT generating a response to a prompt on the web browser.\n\nVisible user-entered text includes:\n- Address bar: `\"https://chat.openai.com/c/9",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 521,
+        "timestamp_sec": 11.17,
+        "latency_sec": 7.21,
+        "frame_description": "The user is viewing the response generated by ChatGPT on the website. \n\nVisible user-entered text in the application:\n- User prompt: `\"what type of music is it? give me some",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 537,
+        "timestamp_sec": 11.51,
+        "latency_sec": 6.58,
+        "frame_description": "The user is viewing ChatGPT generating a response to their prompt \"what type of music is it? give me some words of the music style\" on the webpage \"https://chat.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 589,
+        "timestamp_sec": 12.63,
+        "latency_sec": 6.29,
+        "frame_description": "The user is hovering the mouse cursor over the word 'Melodic' in the ChatGPT response.\n\n**User-entered text:**\n- Address bar: `https://chat.openai.com/c/9e0bf1ee-6fd6-482d-0d956b846b065`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 605,
+        "timestamp_sec": 12.97,
+        "latency_sec": 6.88,
+        "frame_description": "The user is hovering the cursor over the word 'Anthemic' in the ChatGPT response.\n\n**Visible user-entered text:**\n- Address bar: `https://chat.openai.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 780,
+        "timestamp_sec": 16.72,
+        "latency_sec": 4.73,
+        "frame_description": "The user is viewing the Suno web application interface with 'https://app.suno.ai/create/' in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 899,
+        "timestamp_sec": 19.27,
+        "latency_sec": 6.44,
+        "frame_description": "The user is selecting text in the ChatGPT response window.\n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai.com/c/9e0bf1ee-6fd6-482d-08dd-d956b846b065\"`\n* Prompt history: `\"what type of music is it? give me some words of the music style\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 938,
+        "timestamp_sec": 20.11,
+        "latency_sec": 6.68,
+        "frame_description": "The user is selecting text in the ChatGPT response on the screen.\n\n**Visible user-entered text:**\n* **Address Bar:** `https://chat.openai.com/c/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 954,
+        "timestamp_sec": 20.45,
+        "latency_sec": 7.2,
+        "frame_description": "The user is hovering the mouse cursor over the text response area in the ChatGPT interface. \n\nVisible user-entered text in application fields:\n- **Address Bar:** `https://chat.openai",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 970,
+        "timestamp_sec": 20.8,
+        "latency_sec": 7.38,
+        "frame_description": "The user is hovering the cursor over the generated song lyrics on the ChatGPT webpage. The visible text in the address bar is \"https://chat.openai.com/c/9e0bf1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1048,
+        "timestamp_sec": 22.47,
+        "latency_sec": 6.88,
+        "frame_description": "The user is hovering the mouse cursor over the text in the ChatGPT response window. The visible user-entered text in the address bar is \"https://chat.openai.com/c/9",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1064,
+        "timestamp_sec": 22.81,
+        "latency_sec": 9.24,
+        "frame_description": "The user is hovering the mouse cursor over the generated text response in ChatGPT. \n\nVisible user-entered text:\n- Address bar: `https://chat.openai.com/c/9",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1080,
+        "timestamp_sec": 23.16,
+        "latency_sec": 7.44,
+        "frame_description": "The user is clicking on the three dots menu icon next to \"Tech Conference Acronym...\" in the ChatGPT sidebar. The visible user-entered text in the address bar is \"https://chat.openai.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1172,
+        "timestamp_sec": 25.13,
+        "latency_sec": 5.12,
+        "frame_description": "The user is clicking on the \"Create \ud83c\udfb5\" button. \n\nThe visible user-entered text in the application is:\n- **Style of Music**: \"Inspirational\", \"Dynamic\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1662,
+        "timestamp_sec": 35.63,
+        "latency_sec": 7.4,
+        "frame_description": "The user is hovering the cursor over the model version dropdown menu in the Suno web application.\n\n**Visible user-entered text:**\n\n* **URL bar:** `https://app.s",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1678,
+        "timestamp_sec": 35.98,
+        "latency_sec": 7.23,
+        "frame_description": "The user is clicking on the version selection dropdown menu in the Suno web application.\n\nVisible user-entered text in the application includes:\n\n- Address bar: `\"https://app.s",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1815,
+        "timestamp_sec": 38.91,
+        "latency_sec": 7.13,
+        "frame_description": "The user is viewing the Suno music creation page with custom song details entered.\n\n**Visible user-entered text:**\n\n* **Lyrics field:**\n> \"(Chorus)\n> Good luck in submissions",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1831,
+        "timestamp_sec": 39.26,
+        "latency_sec": 6.86,
+        "frame_description": "The user is viewing the Suno AI music creation web page.\n\nVisible user-entered text includes:\n\n* **Lyrics field:**\n  \"(Chorus)\n  Good luck in submissions",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1859,
+        "timestamp_sec": 39.86,
+        "latency_sec": 8.81,
+        "frame_description": "The user is hovering the mouse cursor over an icon on the top menu bar. \n\nThe visible user-entered text in the application includes:\n* **Address bar:** `",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Create songs using Suno AI.",
+      "reference_caption": "Creating a song with Suno AI using lyrics generated by ChatGPT, with a focus on academic conferences and optimism for the year 2024.",
+      "reference_apps": [
+        "edge",
+        "openai",
+        "suno ai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 323,
+          "sub_goal": "Send the written prompt to GPT to generate some keywords related to music style for me.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 708,
+          "sub_goal": "ChatGPT generated the type of song and then copied it to me to generate key words.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "command + c"
+        },
+        {
+          "frame": 842,
+          "sub_goal": "Input the just copied keywords into Suno Ai's style of music.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 1030,
+          "sub_goal": "Return to the openai interface and copy the lyrics just generated by chatgpt.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1242,
+          "sub_goal": "Return to the interface of Suno Ai and paste the lyrics into the lyrics section.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 1272,
+          "sub_goal": "Click on \"create\" to compose a song.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1678,
+          "sub_goal": "Discover that the title is not filled in, and then fill in the title, the song is called 2024 good luck.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "2024 good luck"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of creating a song using Suno AI, guided by lyrics generated via ChatGPT. The timeline shows consistent actions related to generating music style descriptors and lyrics in ChatGPT, then inputting them into Suno AI for song creation. There are no contradictions with specific details named in the reasoning or prediction answers."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as outlined in the keyframes. The sequence of actions, such as clicking, typing, and pasting text, aligns with the ground truth provided. There are no contradictions or fabricated details in the descriptions that would mislead the understanding of the user's actions."
+        },
+        "coverage": {
+          "score": 4.2,
+          "coverage": 0.8,
+          "covered": 8,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "openai",
+            "suno ai"
+          ],
+          "reasoning": "The AI timeline describes actions related to interacting with ChatGPT and Suno Ai, including generating keywords, copying text, and composing a song. However, it does not explicitly cover all keyframe actions such as clicking specific buttons or filling in the title."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as hovering over text and viewing responses. These repetitive entries suggest a moderate level of redundancy."
+        }
+      },
+      "composite_score": 17.2,
+      "max_score": 20,
+      "latency_sec": 114.22
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0837,
+        "recall": 0.62,
+        "f1": 0.1474
+      },
+      "rouge2": {
+        "precision": 0.0189,
+        "recall": 0.1414,
+        "f1": 0.0334
+      },
+      "rougeL": {
+        "precision": 0.0621,
+        "recall": 0.46,
+        "f1": 0.1094
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0213
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 301.37,
+      "total_vlm_inference_sec": 177.74,
+      "intent_latency_sec": 9.38,
+      "frames_processed": 26,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.84,
+      "median_frame_latency_sec": 6.88,
+      "min_frame_latency_sec": 4.73,
+      "max_frame_latency_sec": 9.24,
+      "avg_description_length_chars": 169.6,
+      "total_prompt_tokens": 32921,
+      "total_completion_tokens": 1296,
+      "avg_completion_tokens_per_sec": 6.8
+    }
+  }
+}

@@ -1,0 +1,922 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/92.mp4",
+  "total_frames": 3699,
+  "fps": 46.79721418043727,
+  "video_length_sec": 79.04,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 3699,
+  "frames_processed": 43,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was gathering context and verifying details about Zhiqiu Lin's research publications, projects, and professional achievements by reviewing their academic profile across multiple platforms.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.92,
+        "frame_description": "The user is viewing a personal website on a browser, specifically the \"News\" and \"Publications\" sections. The page displays academic updates and research papers, with no active input fields or typing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 67,
+        "timestamp_sec": 1.43,
+        "latency_sec": 7.81,
+        "frame_description": "The user is viewing a personal webpage on a desktop browser, likely reviewing their academic profile, news updates, and publications. No active typing or input actions are occurring; the page is being passively viewed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 83,
+        "timestamp_sec": 1.77,
+        "latency_sec": 8.79,
+        "frame_description": "The user is viewing a personal academic website on a browser, specifically the \"News\" and \"Publications\" sections of Zhiqiu Lin's profile. The page displays recent updates, including research papers and conference presentations, along with an image illustrating a model architecture for one of the publications. There are no active input fields or text being typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 190,
+        "timestamp_sec": 4.06,
+        "latency_sec": 8.75,
+        "frame_description": "The user is viewing a personal webpage for Zhiqiu Lin, which includes sections for news, publications, and other academic-related information. The webpage is displayed in a browser window with multiple tabs open, including links to GitHub, arXiv, and other resources. There are no visible user-entered text fields or active typing actions in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 206,
+        "timestamp_sec": 4.4,
+        "latency_sec": 10.58,
+        "frame_description": "The user is viewing a personal webpage for Zhiqiu Lin, which includes sections for news, publications, and other academic and professional information. The webpage is displayed in a web browser with multiple tabs open, including references to GitHub, writing, CS interest, Google, arXiv-bot, Cool Papers, ICML 2024, AI Conference, COLM 2024, Apple Music, HustMail, TGX:Home, HutaoCloud, Clash, gatern.github.io, bilibili, mac software, and Overview - OpenAI. The user appears to be browsing or reviewing the content on the webpage, possibly for academic or professional purposes.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 137
+      },
+      {
+        "frame_number": 222,
+        "timestamp_sec": 4.74,
+        "latency_sec": 8.33,
+        "frame_description": "The user is viewing a personal webpage on a browser, likely a GitHub or academic portfolio page for Zhiqiu Lin. The page includes sections for news, publications, and contact information. There are no visible user-entered text fields or active typing actions in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 239,
+        "timestamp_sec": 5.11,
+        "latency_sec": 7.72,
+        "frame_description": "The user is viewing a personal webpage on a desktop browser, likely reviewing their academic and professional profile. No active typing or input actions are occurring; the page is being read or scrolled through.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 255,
+        "timestamp_sec": 5.45,
+        "latency_sec": 9.09,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various academic projects and publications, including \"Multimodal Models,\" \"LECO: Continual Learning with Evolving Class Ontologies,\" \"The CLEAR Benchmark,\" and \"Visual Chirality.\" There are no visible user-entered text fields or active typing actions in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 85
+      },
+      {
+        "frame_number": 271,
+        "timestamp_sec": 5.79,
+        "latency_sec": 8.09,
+        "frame_description": "The user is viewing a personal academic website hosted on GitHub, which lists research projects, publications, and contact information. No active input or typing is occurring; the browser is displaying static content with no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 287,
+        "timestamp_sec": 6.13,
+        "latency_sec": 9.27,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various sections including personal information, publications, honors and awards, education, invited talks, and services. There are no visible form fields or input areas where the user could be typing or entering text at this moment. The user appears to be browsing through the content rather than interacting with any specific element that requires input.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 1185,
+        "timestamp_sec": 25.32,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing a personal webpage on a desktop browser, likely reviewing their academic and professional profile. No active typing or input actions are occurring; the page is being scrolled through to view sections such as \"Honors and Awards,\" \"Educations,\" and \"Invited Talks.\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 1201,
+        "timestamp_sec": 25.66,
+        "latency_sec": 8.62,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's website. The page displays various sections including publications, honors and awards, education, and invited talks. There are no visible form fields or input areas where the user has entered text; therefore, there is no user-entered text to quote in this context.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 1217,
+        "timestamp_sec": 26.01,
+        "latency_sec": 8.81,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically a personal academic website for Zhiqiu Lin. The page displays various sections including publications, honors and awards, education, and invited talks. There are no visible form fields or input areas where the user is actively typing or entering text at this moment. The user appears to be browsing through the content of the webpage.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 1233,
+        "timestamp_sec": 26.35,
+        "latency_sec": 8.97,
+        "frame_description": "The user is viewing a personal academic website for Zhiqiu Lin, which includes sections on publications, honors, and education. The page displays various research projects, such as \"The CLEAR Benchmark\" and \"Visual Chirality,\" along with links to related resources like arXiv papers and conference websites. There are no visible form fields or input areas where the user is actively typing or entering text.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 82
+      },
+      {
+        "frame_number": 1249,
+        "timestamp_sec": 26.69,
+        "latency_sec": 8.81,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically a personal academic website for Zhiqiu Lin. The page displays various sections including publications, honors and awards, education, and projects. There are no visible actions being performed by the user at this moment; they appear to be browsing or reading the content. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 1276,
+        "timestamp_sec": 27.27,
+        "latency_sec": 13.99,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically a personal academic portfolio site for Zhiqiu Lin. The page displays sections such as \"Honors and Awards,\" \"Educations,\" and various research projects or papers. There is no active input being performed by the user at this moment; they are simply browsing the content.\n\nVisible user-entered text includes:\n\n- In the browser address bar: `https://linzhiqiu.github.io`\n- In the sidebar under \u201cOverleaf and Conference\u201d:\n  - \u201cJieyuZ2/dynabench\u201d\n  - \u201cDongping-Chen/GUI-video: O\u201d\n  - \u201cHonestyLLM - Online LaTeX E\u201d\n  - \u201cNAACL 2024 - Online LaTeX E\u201d\n  - \u201cNAACL 2024 (Arxiv) (Copy)\u201d\n  - \u201cCOLM - Online LaTeX Editor C\u201d\n  - \u201cIs MLLM a good annotator?\u201d\n  - \u201cClean CV Template - Online L\u201d\n  - \u201cDaily Papers\u201d\n  - \u201cHugging Face\u201d\n  - \u201cVideo-LLM\u201d\n  - \u201cVideo-Dataset\u201d\n  - \u201cD",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1292,
+        "timestamp_sec": 27.61,
+        "latency_sec": 7.59,
+        "frame_description": "The user is viewing a personal academic website on a browser, likely reviewing or browsing through their publications and projects. No active typing or input actions are observed in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1310,
+        "timestamp_sec": 27.99,
+        "latency_sec": 8.32,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various sections including publications, honors and awards, and education. There are no visible user-entered text in form fields or search bars on the current screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 1326,
+        "timestamp_sec": 28.34,
+        "latency_sec": 10.17,
+        "frame_description": "The user is viewing a personal webpage for Zhiqiu Lin, which appears to be a GitHub profile or academic portfolio. The page displays various projects, papers, and achievements. There are no visible form fields or input areas where the user is actively typing or entering text at this moment. The user seems to be browsing through the content, possibly looking at specific projects like \"LECO: Continual Learning with Evolving Class Ontologies\" or \"The CLEAR Benchmark: Continual LEArning on Real-World Imagery.\" No specific action such as clicking, typing, or navigating is evident from the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 125
+      },
+      {
+        "frame_number": 1747,
+        "timestamp_sec": 37.33,
+        "latency_sec": 9.72,
+        "frame_description": "The user is viewing a personal webpage on GitHub, specifically the \"Publications\" section of Zhiqiu Lin's profile. The page displays various academic papers and projects, including \"LECO: Continual Learning with Evolving Class Ontologies,\" \"The CLEAR Benchmark: Continual LEArning on Real-World Imagery,\" and \"Visual Chirality.\" There are no visible form fields or input areas where the user is actively typing or entering text. The user appears to be browsing through the content, possibly looking for specific information or papers.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 112
+      },
+      {
+        "frame_number": 1763,
+        "timestamp_sec": 37.67,
+        "latency_sec": 8.07,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various academic projects, papers, and awards. There are no visible user-entered text fields or active typing actions in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 1779,
+        "timestamp_sec": 38.02,
+        "latency_sec": 7.97,
+        "frame_description": "The user is viewing a GitHub profile page for Zhiqiu Lin, which displays academic papers, projects, and awards. No active typing or input actions are occurring; the interface is static with no visible user-entered text being modified or entered.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1886,
+        "timestamp_sec": 40.3,
+        "latency_sec": 8.58,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various projects, papers, and awards related to computer vision and machine learning. There are no visible form fields or input areas where the user has entered text; all text displayed is part of the webpage content itself.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1902,
+        "timestamp_sec": 40.64,
+        "latency_sec": 8.78,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically a personal academic website for Zhiqiu Lin. The page displays various sections including publications, honors and awards, and other academic achievements. There are no visible form fields or input areas where the user has entered text; therefore, there is no user-entered text to quote in this context.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 1937,
+        "timestamp_sec": 41.39,
+        "latency_sec": 8.86,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically a personal website for Zhiqiu Lin, which appears to be an academic profile. The page displays various sections including publications, projects, and contact information. There are no visible actions being performed by the user at this moment; they are simply browsing the content of the webpage. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 82
+      },
+      {
+        "frame_number": 1953,
+        "timestamp_sec": 41.73,
+        "latency_sec": 9.14,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically a personal website for Zhiqiu Lin, which appears to be a portfolio or research page. The page includes sections for publications, projects, and other academic activities. There are no visible form fields or input areas where the user is actively typing or entering text at this moment. The browser tabs and bookmarks are open, but no new actions like clicking or typing are being performed in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 93
+      },
+      {
+        "frame_number": 2066,
+        "timestamp_sec": 44.15,
+        "latency_sec": 9.48,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various academic projects and publications, including \"LECO: Continual Learning with Evolving Class Ontologies,\" \"The CLEAR Benchmark: Continual LEArning on Real-World Imagery,\" and \"Visual Chirality.\" There are no visible form fields or input areas where the user has entered text; thus, there is no user-entered text to quote in this context.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 104
+      },
+      {
+        "frame_number": 2082,
+        "timestamp_sec": 44.49,
+        "latency_sec": 8.31,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various sections including personal information, publications, and projects related to computer vision and machine learning. There are no visible user-entered text fields or active typing actions in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 2098,
+        "timestamp_sec": 44.83,
+        "latency_sec": 7.96,
+        "frame_description": "The user is viewing a personal webpage on GitHub, specifically the homepage of Zhiqiu Lin, which includes sections for publications, projects, and other academic activities. The user is not actively typing or entering any text in the application at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 2285,
+        "timestamp_sec": 48.83,
+        "latency_sec": 9.26,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various academic projects and publications, including \"Multimodal Models,\" \"LECO: Continual Learning with Evolving Class Ontologies,\" \"The CLEAR Benchmark: Continual LEArning on Real-World Imagery,\" and \"Visual Chirality.\" There are no visible user-entered text in form fields or search bars on this page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 97
+      },
+      {
+        "frame_number": 2301,
+        "timestamp_sec": 49.17,
+        "latency_sec": 8.88,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically a GitHub profile page for \"Zhiqiu Lin\". The page displays various academic papers and projects related to computer vision and machine learning. There are no visible form fields or input areas where the user could be typing or entering text at this moment. The user appears to be browsing through the content, possibly looking at the list of papers and projects.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 83
+      },
+      {
+        "frame_number": 2410,
+        "timestamp_sec": 51.5,
+        "latency_sec": 9.95,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various academic papers and projects, including \"Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models,\" \"LECO: Continual Learning with Evolving Class Ontologies,\" and \"The CLEAR Benchmark: Continual LEArning on Real-World Imagery.\" There are no visible form fields or input areas where the user has entered text; thus, there is no user-entered text to quote in this context.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 121
+      },
+      {
+        "frame_number": 2426,
+        "timestamp_sec": 51.84,
+        "latency_sec": 8.49,
+        "frame_description": "The user is viewing a personal webpage on GitHub, likely their own profile or a project page, with various sections such as \"Honors and Awards,\" \"Educations,\" \"Invited Talks,\" and \"Services.\" The page includes links to papers, projects, and other resources. There is no active input or typing occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 2442,
+        "timestamp_sec": 52.18,
+        "latency_sec": 7.64,
+        "frame_description": "The user is viewing a personal webpage on a desktop browser, likely reviewing their academic profile, publications, and projects. No active typing or input actions are occurring; the page is being passively viewed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 2953,
+        "timestamp_sec": 63.1,
+        "latency_sec": 9.02,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically a GitHub profile page for Zhiqiu Lin. The page displays various sections including personal information, publications, honors and awards, education, invited talks, and services. There are no visible form fields or input areas where the user could be typing or entering text at this moment. The user appears to be browsing through the content of the webpage rather than interacting with any input fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 89
+      },
+      {
+        "frame_number": 2969,
+        "timestamp_sec": 63.44,
+        "latency_sec": 8.51,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various sections including personal information, publications, honors and awards, education, invited talks, and services. There are no visible form fields or input areas where the user could be typing or entering text at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 3040,
+        "timestamp_sec": 64.96,
+        "latency_sec": 9.03,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically a personal website for Zhiqiu Lin. The page displays various sections including \"Honors and Awards,\" \"Educations,\" \"Invited Talks,\" and \"Services.\" There are no visible form fields or input areas where the user could be typing or entering text at this moment. The user appears to be browsing through the content of the webpage rather than interacting with any input fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 3059,
+        "timestamp_sec": 65.37,
+        "latency_sec": 8.51,
+        "frame_description": "The user is viewing a webpage on their desktop browser, specifically the homepage of Zhiqiu Lin's GitHub profile. The page displays various sections including personal information, publications, honors and awards, education, invited talks, and services. There are no visible form fields or input areas where the user could be typing or entering text at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 3125,
+        "timestamp_sec": 66.78,
+        "latency_sec": 11.04,
+        "frame_description": "The user is viewing a personal webpage on GitHub, specifically the homepage of Zhiqiu Lin, which includes sections for publications, honors and awards, education, invited talks, and services. The page displays various links to papers, projects, and academic achievements. There are no visible form fields or input areas where the user is actively typing or entering text. The sidebar on the left shows a list of repositories and other GitHub-related items, but none of these appear to be in an editable state. The browser's address bar contains the URL \"https://linzhiqiu.github.io\", but this is not user-entered text in the context of an application form or input field. Therefore, there is no active user-entered text being displayed or typed in the application at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 159
+      },
+      {
+        "frame_number": 3141,
+        "timestamp_sec": 67.12,
+        "latency_sec": 8.18,
+        "frame_description": "The user is viewing a personal academic website on a desktop browser, likely reviewing their publications, honors, and projects. No active typing or input actions are occurring; the page is being scrolled through to view content such as \"The CLEAR Benchmark,\" \"Visual Chirality,\" and other academic achievements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 3193,
+        "timestamp_sec": 68.23,
+        "latency_sec": 8.18,
+        "frame_description": "The user is viewing a list of bookmarks or saved items in a web browser, with no active typing or input actions visible. The current page appears to be an empty or blank tab titled \"Untitled,\" and the user is not interacting with any form fields or text inputs at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 3271,
+        "timestamp_sec": 69.9,
+        "latency_sec": 8.28,
+        "frame_description": "The user is viewing a Google Scholar profile page for Zhiqiu Lin, which lists academic papers, citations, and related metrics. The page displays a list of publications with titles, authors, venues, citation counts, and publication years. There is no active input or typing occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 3699,
+        "timestamp_sec": 79.04,
+        "latency_sec": 8.21,
+        "frame_description": "The user is viewing the Google Scholar profile page for Zhiqiu Lin, which displays a list of publications with titles, authors, years, and citation counts. The user has not performed any active actions such as clicking, typing, or navigating; they are simply observing the content on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 61
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View Zhiqiu Lin's personal page, then click into his Google Scholar.",
+      "reference_caption": "Exploring Zhiqiu Lin's Academic Profile and Publications on His Personal Webpage",
+      "reference_apps": [
+        "edge",
+        "google translate"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 193,
+          "sub_goal": "Entered Zhiqiu Lin's personal homepage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 551,
+          "sub_goal": "Flip the page down and then refer to his paper.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3188,
+          "sub_goal": "Clicked on his Google Scholar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3544,
+          "sub_goal": "Click to sort by year.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of viewing and reviewing Zhiqiu Lin's academic profile, publications, and related metrics on Google Scholar. The timeline consistently shows the user observing content without active interaction, aligning with the goal of passively reviewing information."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The descriptions consistently match the visible content and user interactions (or lack thereof) as described in the keyframes, without introducing any fabricated actions or incorrect specifics."
+        },
+        "coverage": {
+          "score": 1.67,
+          "coverage": 0.167,
+          "covered": 1,
+          "total": 6,
+          "covered_actions": [
+            3
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline describes actions related to viewing web pages, including Zhiqiu Lin's GitHub profile and Google Scholar page. It does not explicitly mention the action of entering a URL or clicking on links as described in keyframes 1 and 2."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of viewing a webpage without significant changes in content or user interaction, indicating redundancy. However, there are also entries with distinct updates about the page's content and context."
+        }
+      },
+      "composite_score": 14.67,
+      "max_score": 20,
+      "latency_sec": 173.98
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0077,
+        "recall": 0.7692,
+        "f1": 0.0152
+      },
+      "rouge2": {
+        "precision": 0.0019,
+        "recall": 0.2,
+        "f1": 0.0038
+      },
+      "rougeL": {
+        "precision": 0.0061,
+        "recall": 0.6154,
+        "f1": 0.0121
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0335
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 564.94,
+      "total_vlm_inference_sec": 379.97,
+      "intent_latency_sec": 10.91,
+      "frames_processed": 43,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.84,
+      "median_frame_latency_sec": 8.62,
+      "min_frame_latency_sec": 7.59,
+      "max_frame_latency_sec": 13.99,
+      "avg_description_length_chars": 385.1,
+      "total_prompt_tokens": 94274,
+      "total_completion_tokens": 3543,
+      "avg_completion_tokens_per_sec": 9.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to explore Zhiqiu Lin's academic profile and research publications by reviewing their personal website, project pages, and Google Scholar profile.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 4.85,
+        "frame_description": "The user is viewing a webpage with the URL 'https://zhiqiulin.github.io'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 67,
+        "timestamp_sec": 1.43,
+        "latency_sec": 6.62,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. \n\n**Visible user-entered text:**\n* Address bar: `https://linzhiqiu.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 83,
+        "timestamp_sec": 1.77,
+        "latency_sec": 4.68,
+        "frame_description": "The user is viewing a webpage with the URL 'https://linzhiqiu.github.io'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 190,
+        "timestamp_sec": 4.06,
+        "latency_sec": 6.11,
+        "frame_description": "The user is viewing a webpage on a web browser.\n\n**User-entered text:**\n* Address bar: `https://linzhiqiu.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 206,
+        "timestamp_sec": 4.4,
+        "latency_sec": 4.9,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. \n\nVisible user-entered text:\n- Address bar: \"https://zhiqiulin.github.io\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 222,
+        "timestamp_sec": 4.74,
+        "latency_sec": 6.67,
+        "frame_description": "The user is hovering the text cursor over the \"Publications\" section on a webpage. \n\nVisible user-entered text in the application includes:\n- Address bar: `https://zhiqiulin.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 239,
+        "timestamp_sec": 5.11,
+        "latency_sec": 5.59,
+        "frame_description": "The user is hovering the mouse cursor over the \"Publications\" section heading on the webpage.\n\n**User-entered text:**\n* Address bar: `https://linzhiqiu.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 255,
+        "timestamp_sec": 5.45,
+        "latency_sec": 5.13,
+        "frame_description": "The user is hovering the mouse cursor over an image on the webpage.\n\n**User-entered text:**\n* Address bar: `https://linzhiqiu.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 271,
+        "timestamp_sec": 5.79,
+        "latency_sec": 4.62,
+        "frame_description": "The user is viewing the web page at \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 287,
+        "timestamp_sec": 6.13,
+        "latency_sec": 5.06,
+        "frame_description": "The user is viewing a webpage. \n\nVisible user-entered text in form fields/address bar:\n- `https://linzhiqiu.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1185,
+        "timestamp_sec": 25.32,
+        "latency_sec": 6.12,
+        "frame_description": "The user is hovering the mouse cursor over the web page. The visible user-entered text in the address bar is \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1201,
+        "timestamp_sec": 25.66,
+        "latency_sec": 5.23,
+        "frame_description": "The user is viewing the website \"https://linzhiqiu.github.io\". \n\nVisible user-entered text:\n- Address bar: `https://linzhiqiu.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1217,
+        "timestamp_sec": 26.01,
+        "latency_sec": 6.72,
+        "frame_description": "The user is hovering the mouse cursor over text on the webpage with the URL \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 1233,
+        "timestamp_sec": 26.35,
+        "latency_sec": 6.94,
+        "frame_description": "The user is viewing a webpage on the browser with the address bar containing the text `'https://linzhiqiu.github.io'`.\n\n**Visible user-entered text:**\n* Address bar: `'https://linzhiqiu.github.io",
+        "prompt_tokens": 1200,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 1249,
+        "timestamp_sec": 26.69,
+        "latency_sec": 3.82,
+        "frame_description": "The user is clicking on the 'Website' link.\n\nVisible user-entered text:\n- Address bar: \"https://linzhiqiu.github.io\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1276,
+        "timestamp_sec": 27.27,
+        "latency_sec": 4.17,
+        "frame_description": "The user is clicking on the 'Website' link under the \"Visual Chirality\" paper section on the webpage. \n\nVisible user-entered text in the application's address bar includes:\n- \"https://linzhiqiu.github.io\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 1292,
+        "timestamp_sec": 27.61,
+        "latency_sec": 4.5,
+        "frame_description": "The user is hovering the mouse cursor over the \"Visual Chirality\" link on the webpage. \n\nVisible user-entered text includes:\n- Address bar: `https://linzhiqiu.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1310,
+        "timestamp_sec": 27.99,
+        "latency_sec": 5.21,
+        "frame_description": "The user is hovering over the 'Visual Chirality' link on the webpage. \n\n\"https://linzhiqiu.github.io\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 1326,
+        "timestamp_sec": 28.34,
+        "latency_sec": 4.93,
+        "frame_description": "The user is browsing a webpage. The visible text in the address bar is \"https://zhiqiulin.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 1747,
+        "timestamp_sec": 37.33,
+        "latency_sec": 5.81,
+        "frame_description": "The user is viewing the homepage of Zhiqiu Lin's website. The visible user-entered text in the address bar is \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1763,
+        "timestamp_sec": 37.67,
+        "latency_sec": 5.8,
+        "frame_description": "The user is hovering the mouse cursor over the webpage content. The visible user-entered text in the application includes \"https://linzhiqiu.github.io\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1779,
+        "timestamp_sec": 38.02,
+        "latency_sec": 5.43,
+        "frame_description": "The user is hovering the mouse cursor over the \"1st CLEAR challenge\" link on the webpage.\n\n**User-entered text:**\n* \"https://zhiqiulin.github.io\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1886,
+        "timestamp_sec": 40.3,
+        "latency_sec": 5.23,
+        "frame_description": "The user is clicking on the '1st CLEAR challenge' link on the webpage. The text in the address bar is \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1902,
+        "timestamp_sec": 40.64,
+        "latency_sec": 5.04,
+        "frame_description": "The user is hovering the mouse cursor over the \"1st CLEAR challenge\" link on the webpage. \n\nThe visible user-entered text in the address bar is \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1937,
+        "timestamp_sec": 41.39,
+        "latency_sec": 4.92,
+        "frame_description": "The user is hovering the mouse cursor over the \"1st CLEAR challenge\" link on the webpage. \n\nVisible user-entered text:\n- Address bar: \"https://linzhiqiu.github.io\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1953,
+        "timestamp_sec": 41.73,
+        "latency_sec": 5.43,
+        "frame_description": "The user is browsing a webpage. \n\nThe visible user-entered text in the application is the address bar URL: `https://linzhiqiu.github.io`.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 2066,
+        "timestamp_sec": 44.15,
+        "latency_sec": 6.42,
+        "frame_description": "The user is hovering the mouse cursor over the webpage content next to the text \"The first continual benchmark for visual recognition with natural distribution shifts over a decade!\". \n\nVisible user-entered text in the",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2082,
+        "timestamp_sec": 44.49,
+        "latency_sec": 6.22,
+        "frame_description": "The user is hovering the mouse cursor over the webpage content. \n\nThe visible text in the address bar is \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 2098,
+        "timestamp_sec": 44.83,
+        "latency_sec": 6.04,
+        "frame_description": "The user is browsing a webpage. The visible text in the address bar is \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 2285,
+        "timestamp_sec": 48.83,
+        "latency_sec": 5.9,
+        "frame_description": "The user is viewing a webpage on a web browser. \n\n**User-entered text in application form fields:**\n* Address bar: `https://linzhiqiu.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2301,
+        "timestamp_sec": 49.17,
+        "latency_sec": 6.13,
+        "frame_description": "The user is hovering the mouse cursor over the text on the webpage.\n\n**User-entered text:**\n- Address bar: `https://linzhiqiu.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 2410,
+        "timestamp_sec": 51.5,
+        "latency_sec": 6.48,
+        "frame_description": "The user is viewing a webpage. The URL bar contains the text \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 2426,
+        "timestamp_sec": 51.84,
+        "latency_sec": 5.74,
+        "frame_description": "The user is viewing a webpage on a web browser. The address bar contains the text \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 2442,
+        "timestamp_sec": 52.18,
+        "latency_sec": 5.01,
+        "frame_description": "The user is viewing a webpage with the URL \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 2953,
+        "timestamp_sec": 63.1,
+        "latency_sec": 6.84,
+        "frame_description": "The user is browsing the webpage titled \"Zhiqiu Lin's website - Homepage\". The URL bar contains the text \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 2969,
+        "timestamp_sec": 63.44,
+        "latency_sec": 6.37,
+        "frame_description": "The user is viewing a webpage with the URL 'https://zhiqiulin.github.io'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 3040,
+        "timestamp_sec": 64.96,
+        "latency_sec": 5.99,
+        "frame_description": "The user is viewing a webpage titled \"Zhiqiu Lin's website - Homepage\".\n\n**Visible user-entered text:**\n* Address bar: `\"https://linzhiqiu.github.io",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 3059,
+        "timestamp_sec": 65.37,
+        "latency_sec": 4.45,
+        "frame_description": "The user is viewing a webpage. The text in the address bar is \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 3125,
+        "timestamp_sec": 66.78,
+        "latency_sec": 4.33,
+        "frame_description": "The user is browsing the webpage at \"https://linzhiqiu.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 3141,
+        "timestamp_sec": 67.12,
+        "latency_sec": 6.63,
+        "frame_description": "The user is hovering the mouse cursor over the \"Visual Chirality\" link on the webpage.\n\n**Text in input fields:**\n\"https://linzhiqiu.github.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 3193,
+        "timestamp_sec": 68.23,
+        "latency_sec": 6.51,
+        "frame_description": "The user is viewing a blank page in the web browser with \"about:blank\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 3271,
+        "timestamp_sec": 69.9,
+        "latency_sec": 6.17,
+        "frame_description": "The user is viewing a web page on Google Scholar. The text in the address bar is 'https://scholar.google.com/citations?user=TFlZ2OcAAAAJ&hl'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 3699,
+        "timestamp_sec": 79.04,
+        "latency_sec": 6.43,
+        "frame_description": "The user is hovering the mouse cursor over the Google Scholar publication list on the webpage. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View Zhiqiu Lin's personal page, then click into his Google Scholar.",
+      "reference_caption": "Exploring Zhiqiu Lin's Academic Profile and Publications on His Personal Webpage",
+      "reference_apps": [
+        "edge",
+        "google translate"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 193,
+          "sub_goal": "Entered Zhiqiu Lin's personal homepage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 551,
+          "sub_goal": "Flip the page down and then refer to his paper.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3188,
+          "sub_goal": "Clicked on his Google Scholar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3544,
+          "sub_goal": "Click to sort by year.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on exploring Zhiqiu Lin's academic profile and publications. The timeline shows consistent actions related to viewing his personal webpage and Google Scholar, aligning with the goal of learning about his most cited work. For the reasoning question, the feature 'Cited by' on Google Scholar matches the user's intent to learn about the most cited work. In the prediction question, the next action involves interacting with sorted publications, which is consistent with typical user behavior on Google Scholar."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as per the keyframes. The sequence of mouse clicks and URL changes aligns with the actions described in the keyframes, such as entering Zhiqiu Lin's homepage, clicking on Google Scholar, and sorting by year. There are no fabricated or contradicted actions reported. For STATIC QA, the timeline does not provide specific information about sections following the introduction, but it doesn't contradict the given answer. The SEQUENTIAL-QA is consistent with the user's actions as described in the keyframes. The MCQA is also correctly answered by the timeline, showing that after viewing the 'Publications' section, the user clicks on a hyperlink titled 'Google Scholar'."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 4,
+          "total": 6,
+          "covered_actions": [
+            1,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to navigating and interacting with Zhiqiu Lin's personal homepage, including clicking on links such as '1st CLEAR challenge' and viewing Google Scholar. However, it does not explicitly mention flipping a page down or sorting by year."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI-generated timeline contains numerous repetitive entries that describe similar actions without meaningful changes, such as repeated mentions of viewing the same webpage URL and hovering over elements with no new context. These redundancies are prevalent throughout the timeline."
+        }
+      },
+      "composite_score": 15.67,
+      "max_score": 20,
+      "latency_sec": 150.12
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0152,
+        "recall": 0.5385,
+        "f1": 0.0295
+      },
+      "rouge2": {
+        "precision": 0.0043,
+        "recall": 0.16,
+        "f1": 0.0084
+      },
+      "rougeL": {
+        "precision": 0.0108,
+        "recall": 0.3846,
+        "f1": 0.0211
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0094
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 399.09,
+      "total_vlm_inference_sec": 241.19,
+      "intent_latency_sec": 7.75,
+      "frames_processed": 43,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.61,
+      "median_frame_latency_sec": 5.74,
+      "min_frame_latency_sec": 3.82,
+      "max_frame_latency_sec": 6.94,
+      "avg_description_length_chars": 129.8,
+      "total_prompt_tokens": 53839,
+      "total_completion_tokens": 1586,
+      "avg_completion_tokens_per_sec": 6.2
+    }
+  }
+}

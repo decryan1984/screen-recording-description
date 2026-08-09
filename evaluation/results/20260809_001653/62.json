@@ -1,0 +1,774 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/62.mp4",
+  "total_frames": 1082,
+  "fps": 30.000814486067956,
+  "video_length_sec": 36.07,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1082,
+  "frames_processed": 34,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching ENFP personality traits and romantic relationship dynamics on the 16 Personalities website while simultaneously seeking advice from a community member regarding a long-distance relationship.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 5.03,
+        "frame_description": "The user is viewing a webpage about ENFP personality types, specifically focusing on romantic relationships. There is no active input or text being entered by the user at this moment. The page displays information about ENFPs in relationships, including sections like \"Fanning the Flames\" and \"Insight of the Day.\" The user appears to be reading through the content rather than interacting with any form fields or input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 83
+      },
+      {
+        "frame_number": 304,
+        "timestamp_sec": 10.13,
+        "latency_sec": 3.62,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" section for the ENFP personality type on the 16 Personalities website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 315,
+        "timestamp_sec": 10.5,
+        "latency_sec": 3.81,
+        "frame_description": "The user is viewing a webpage about ENFP personalities on the 16 Personalities website, specifically focusing on romantic relationships. There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 327,
+        "timestamp_sec": 10.9,
+        "latency_sec": 3.54,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" section for ENFP personalities on the 16 Personalities website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 338,
+        "timestamp_sec": 11.27,
+        "latency_sec": 4.17,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" section for ENFPs on the 16 Personalities website, reading about how ENFPs approach relationships and their tendency to fall in love easily. No text is being actively typed or entered in any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 412,
+        "timestamp_sec": 13.73,
+        "latency_sec": 4.68,
+        "frame_description": "The user is viewing a webpage on the 16 Personalities website, specifically the \"Romantic Relationships | ENFP\" page. The page displays information about ENFP personalities in romantic relationships, including sections like \"Fanning the Flames\" and \"Insight of the Day.\" There are no visible user-entered text fields or active typing actions on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 14.1,
+        "latency_sec": 4.05,
+        "frame_description": "The user is viewing a webpage about ENFP personalities on the 16 Personalities website, specifically the \"Fanning the Flames\" section under \"Romantic Relationships.\" There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 631,
+        "timestamp_sec": 21.03,
+        "latency_sec": 3.33,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships, with no active text input or editing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 642,
+        "timestamp_sec": 21.4,
+        "latency_sec": 5.07,
+        "frame_description": "The user is viewing a webpage about ENFP personality traits and relationships on the 16 Personalities website. There is no active input or text being entered by the user in any form fields or search bars. The page displays content under the heading \"Fanning the Flames\" and \"The Mystery of Relationships,\" with navigation options visible in the sidebar and top menu. No user-entered text is present in the application interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 694,
+        "timestamp_sec": 23.13,
+        "latency_sec": 3.92,
+        "frame_description": "The user is viewing a webpage about ENFP personalities on the 16 Personalities website, specifically the section titled \"Fanning the Flames.\" There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 705,
+        "timestamp_sec": 23.5,
+        "latency_sec": 3.68,
+        "frame_description": "The user is viewing a webpage about ENFP personality traits, specifically focusing on \"Fanning the Flames\" and \"The Mystery of Relationships,\" with no active text input or editing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 740,
+        "timestamp_sec": 24.67,
+        "latency_sec": 9.88,
+        "frame_description": "The user is viewing a webpage titled \"Fanning the Flames\" on the 16 Personalities website, which discusses ENFPs and their romantic relationships. There is no active input or typing occurring in any form fields or search bars on the page. The visible user-entered text includes:\n\n- In the browser tabs: \"Romantic Relationships | ENFPs\"\n- In the URL bar: \"https://www.16personalities.com/enfp-relationships-dating\"\n- In the sidebar menu: \"Explore Your Type\", \"Introduction\", \"Strengths & Weaknesses\", \"Romantic Relationships\", \"Friendships\", \"Parenthood\", \"Career Paths\", \"Workplace Habits\", \"Conclusion\", \"Premium Campaigner Suite\"\n- In the main content area: \"Fanning the Flames\", \"When ENFPs are interested in someone, they rarely hold back. People with this personality type tend to fall in love easily \u2013 and they fall hard. These individuals shower their new flame with affection, trusting that the devotion and passion that they feel are real.\", \"Optimists at heart, ENFP personalities are undaunted by the practical challenges and inconveniences of a new partnership. This might explain why they generally don't shy",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 751,
+        "timestamp_sec": 25.03,
+        "latency_sec": 4.97,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships on the 16 Personalities website. There is no active input or text being entered by the user in any form fields or search bars. The page displays content under sections like \"Explore Your Type,\" \"Romantic Relationships,\" and \"The Mystery of Relationships.\" No user-entered text is visible in the current state of the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 83
+      },
+      {
+        "frame_number": 781,
+        "timestamp_sec": 26.03,
+        "latency_sec": 4.62,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships on the 16 Personalities website. There is no active input or text being entered by the user in any form fields or search bars. The page displays content under sections like \"Romantic Relationships\" and \"The Mystery of Relationships,\" with no visible user-entered text.",
+        "prompt_tokens": 993,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 792,
+        "timestamp_sec": 26.4,
+        "latency_sec": 3.6,
+        "frame_description": "The user is viewing a webpage about ENFP romantic relationships on the 16 Personalities website. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 818,
+        "timestamp_sec": 27.27,
+        "latency_sec": 5.31,
+        "frame_description": "The user is viewing a webpage about ENFP personalities on the 16 Personalities website, specifically focusing on the \"Romantic Relationships\" section. There is no active input or typing occurring in any form fields or search bars visible on the screen. The page displays text content related to ENFPs' approach to relationships, including headings like \"The Mystery of Relationships\" and \"Cherished Ideals.\" No user-entered text is present in the current view.",
+        "prompt_tokens": 993,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 829,
+        "timestamp_sec": 27.63,
+        "latency_sec": 3.9,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 844,
+        "timestamp_sec": 28.13,
+        "latency_sec": 4.68,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships on the 16 Personalities website. There is no active input or text being entered by the user in any form fields or search bars. The page displays content under sections like \"The Mystery of Relationships\" and \"Cherished Ideals,\" with no visible user-entered text.",
+        "prompt_tokens": 993,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 855,
+        "timestamp_sec": 28.5,
+        "latency_sec": 3.93,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 866,
+        "timestamp_sec": 28.87,
+        "latency_sec": 6.5,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships, specifically focusing on \"Cherished Ideals.\" There is no active input or text being entered by the user in this screenshot. The page displays content from the 16 Personalities website, including sections like \"Introduction,\" \"Strengths & Weaknesses,\" and \"Romantic Relationships.\" The \"Insight of the Day\" section highlights that Campaigners are the most likely personality type to say physically touching someone, whether it be a hug or a handshake, makes them like that person more. The user appears to be reading through the information rather than interacting with any form fields or input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 136
+      },
+      {
+        "frame_number": 877,
+        "timestamp_sec": 29.23,
+        "latency_sec": 4.76,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships on the 16 Personalities website. There is no active input or text being entered by the user in any form fields or search bars. The page displays content under sections like \"Cherished Ideals\" and \"Insight of the Day,\" but no user-entered text is visible.",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 888,
+        "timestamp_sec": 29.6,
+        "latency_sec": 5.01,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships on the 16 Personalities website. There is no active input or text being entered by the user in any form fields or search bars. The page displays content under sections like \"Cherished Ideals\" and includes an \"Insight of the Day\" box. No user-entered text is visible in the current state of the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 85
+      },
+      {
+        "frame_number": 899,
+        "timestamp_sec": 29.97,
+        "latency_sec": 6.52,
+        "frame_description": "The user is viewing a webpage about ENFP personalities and their romantic relationships, specifically focusing on \"Cherished Ideals.\" There is no active text input or typing occurring in the visible application. The page displays information about ENFPs' approach to relationships, including their idealism, need for excitement, and challenges with mundane tasks. A sidebar offers insights into different aspects of personality types, and there's an \"Insight of the Day\" section highlighting ENFPs as the most likely personality type to say physically touching someone. Additionally, there's a prompt to upgrade to the Premium Suite for more insights. No user-entered text is present in the current view.",
+        "prompt_tokens": 993,
+        "completion_tokens": 135
+      },
+      {
+        "frame_number": 929,
+        "timestamp_sec": 30.97,
+        "latency_sec": 6.76,
+        "frame_description": "The user is viewing a webpage about ENFPs and their romantic relationships on the 16 Personalities website. There is no active input or typing occurring in any form fields or text areas. The page displays content under the heading \"Cherished Ideals,\" discussing how ENFPs approach relationships with high ideals and the challenges they face in balancing spontaneity with stability. A sidebar on the left offers navigation options such as \"Introduction,\" \"Strengths & Weaknesses,\" and \"Romantic Relationships.\" At the bottom of the main content area, there is an advertisement for the Premium Suite with a call-to-action button labeled \"Upgrade today.\" No user-entered text is visible in the current state of the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 147
+      },
+      {
+        "frame_number": 940,
+        "timestamp_sec": 31.33,
+        "latency_sec": 5.55,
+        "frame_description": "The user is viewing a webpage about ENFP personalities, specifically focusing on their romantic relationships. The page includes sections on strengths, weaknesses, friendships, parenthood, career paths, workplace habits, and conclusion. There is also an \"Insight of the Day\" section highlighting that Campioners are the most likely personality type to say physically touching someone. Additionally, there is a prompt to upgrade to the Premium Suite for more insights. The user has not performed any active actions such as clicking or typing in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 104
+      },
+      {
+        "frame_number": 965,
+        "timestamp_sec": 32.17,
+        "latency_sec": 5.94,
+        "frame_description": "The user is viewing a webpage about ENFP personalities on the 16 Personalities website, specifically focusing on \"Romantic Relationships.\" There is no active input or typing occurring in any form fields or search bars. The page displays text content about ENFPs' romantic behaviors and includes an \"Insight of the Day\" section highlighting Campaigners as the most likely personality type to say physically touching someone. Additionally, there is a call-to-action button labeled \"Upgrade today\" for accessing more insights. No user-entered text is visible in the current state of the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 117
+      },
+      {
+        "frame_number": 976,
+        "timestamp_sec": 32.53,
+        "latency_sec": 4.24,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" section for ENFP (Campaigner) personality type on the 16Personalities website, specifically under the \"Strengths & Weaknesses\" tab. No user-entered text is visible in form fields or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 1004,
+        "timestamp_sec": 33.47,
+        "latency_sec": 3.55,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" section for ENFP personalities on the 16Personalities website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 1015,
+        "timestamp_sec": 33.83,
+        "latency_sec": 6.29,
+        "frame_description": "The user is viewing a webpage about ENFP personalities on the 16 Personalities website, specifically focusing on relationships and friendships. There is no active input or typing occurring in any form fields or search bars on the page. The visible text includes headings like \"Friendships,\" \"Parenthood,\" \"Career Paths,\" \"Workplace Habits,\" \"Conclusion,\" and \"Premium Campaigner Suite.\" Additionally, there are sections titled \"Insight of the Day\" and \"Strengths & Weaknesses,\" along with an \"Upgrade today\" button for accessing more content. No user-entered text is present in the current state of the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 130
+      },
+      {
+        "frame_number": 1026,
+        "timestamp_sec": 34.2,
+        "latency_sec": 4.5,
+        "frame_description": "The user is viewing a webpage on the 16 Personalities website, specifically looking at the \"Romantic Relationships | ENFP\" page. The page displays information about ENFP personalities, including their strengths and weaknesses in friendships. There is no active text input or typing occurring in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 1037,
+        "timestamp_sec": 34.57,
+        "latency_sec": 5.7,
+        "frame_description": "The user is viewing a webpage on the 16 Personalities website, specifically the \"Premium Campaigner Suite\" section, which discusses ENFPs (Extraverted, Intuitive, Feeling, Perceiving) and their strengths and weaknesses in relationships. The page includes an \"Insight of the Day\" card and a call-to-action to upgrade to the Premium Suite for more insights. There are no visible form fields or input areas where the user has entered text, so no user-entered text is present in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 109
+      },
+      {
+        "frame_number": 1048,
+        "timestamp_sec": 34.93,
+        "latency_sec": 9.9,
+        "frame_description": "The user is viewing a webpage on the 16 Personalities website, specifically the \"Strengths & Weaknesses\" section of their profile. There is no active input or typing occurring in any form fields or text areas. The visible user-entered text includes:\n\n- In the browser tab: \"Romantic Relationships | ENFP-T\"\n- In the browser address bar: \"https://www.16personalities.com/enfp-relationship-dating\"\n- In the browser's search bar (leftmost tab): \"Google Chrome Web Browser - Search\"\n- In the browser's tab title (second from left): \"Google Chrome Web Browser - Search\"\n- In the browser's tab title (third from left): \"16 personalities - Search\"\n- In the browser's tab title (fourth from left): \"Romantic Relationships | ENFP-T\"\n- In the browser's tab title (fifth from left): \"16 Personalities\"\n- In the browser's tab title (sixth from left): \"16 Personalities\"\n- In the browser's tab title (seventh from left): \"16 Personalities\"\n- In the browser's tab title (eighth from left): \"1",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1059,
+        "timestamp_sec": 35.3,
+        "latency_sec": 6.4,
+        "frame_description": "The user is viewing a webpage on the 16 Personalities website, specifically a page titled \"Strengths & Weaknesses\" and \"Friendships.\" There is no active text input or typing occurring in the visible interface. The only user-entered text visible is within the comment section:\n\n- Comment by Molly: \"I like this ENTP and he goes to a different school as me (I'm in 9th grade) and he likes me back do you think it'll work out? I wanna here from ENFPs who have done long distance!!!\"\n\nNo other text fields are being actively filled or edited by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 135
+      },
+      {
+        "frame_number": 1082,
+        "timestamp_sec": 36.07,
+        "latency_sec": 4.19,
+        "frame_description": "The user is viewing a webpage on the 16 Personalities website, specifically the \"Strengths & Weaknesses\" section for ENFPs, with a comment from Molly about her ENFP partner. There is no active input or typing occurring in the visible interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 56
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse the website \"16 personalities\" for romantic relationship information.",
+      "reference_caption": "Exploring the 'Romantic Relationships' section of the '16 Personalities' website, focusing on the ENFP personality type, followed by a transition to the 'Friendships' section.",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 487,
+          "sub_goal": "Scroll down to browse more web page content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 818,
+          "sub_goal": "Scroll down to browse more web content.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 953,
+          "sub_goal": "Continue scrolling down the webpage to browse more content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1067,
+          "sub_goal": "Click on \"friendships\" to jump to the explanation of friendships' relationships.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 4,
+          "reasoning": "The AI inferred intent captures the user's exploration of ENFP personality traits in romantic relationships and friendships, aligning well with the goal to browse for relationship information. The timeline shows consistent navigation through relevant sections without contradictions. However, there is no evidence of seeking advice from a community member regarding a long-distance relationship, which was part of the AI's inferred intent but not supported by the timeline."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The frames correctly indicate scrolling and clicking actions without contradicting any specified details from the ground truth. There are no fabricated or incorrect interactions reported, aligning well with the provided keyframes and QA answers."
+        },
+        "coverage": {
+          "score": 1.67,
+          "coverage": 0.167,
+          "covered": 1,
+          "total": 6,
+          "covered_actions": [],
+          "covered_apps": [
+            "16 personalities"
+          ],
+          "reasoning": "The AI timeline describes the user viewing various sections on the ENFP personality type's romantic relationships without any active interactions like clicking or scrolling. The actions described in the keyframes involve specific mouse actions, which are not present in the AI timeline."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states of viewing without meaningful changes, indicating redundancy. However, there are also entries that introduce new sections and details as the user progresses through different parts of the webpage."
+        }
+      },
+      "composite_score": 13.67,
+      "max_score": 20,
+      "latency_sec": 119.41
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0107,
+        "recall": 0.6571,
+        "f1": 0.021
+      },
+      "rouge2": {
+        "precision": 0.0009,
+        "recall": 0.0588,
+        "f1": 0.0018
+      },
+      "rougeL": {
+        "precision": 0.0088,
+        "recall": 0.5429,
+        "f1": 0.0173
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0316
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 312.81,
+      "total_vlm_inference_sec": 171.6,
+      "intent_latency_sec": 21.74,
+      "frames_processed": 34,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.05,
+      "median_frame_latency_sec": 4.68,
+      "min_frame_latency_sec": 3.33,
+      "max_frame_latency_sec": 9.9,
+      "avg_description_length_chars": 404.8,
+      "total_prompt_tokens": 37061,
+      "total_completion_tokens": 3015,
+      "avg_completion_tokens_per_sec": 17.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is exploring articles on the 16Personalities website to learn about ENFP personality type romantic relationships and related dynamics.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.58,
+        "frame_description": "The user is browsing the 16Personalities website. The visible text in the address bar is 'https://www.16personalities.com/enfp-relationships-dating'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 304,
+        "timestamp_sec": 10.13,
+        "latency_sec": 4.37,
+        "frame_description": "The user is browsing an article on the 16Personalities website. The text in the browser's address bar is \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 315,
+        "timestamp_sec": 10.5,
+        "latency_sec": 5.12,
+        "frame_description": "The user is browsing the 16Personalities website with the URL \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 327,
+        "timestamp_sec": 10.9,
+        "latency_sec": 4.06,
+        "frame_description": "The user is hovering the mouse cursor over an illustration on the 16Personalities webpage. Visible user-entered text includes \"https://www.16personalities.com/enfp-relationships-dating\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 338,
+        "timestamp_sec": 11.27,
+        "latency_sec": 5.2,
+        "frame_description": "The user is browsing an article about ENFP romantic relationships on the 16Personalities website. \n\nVisible user-entered text in the address bar:\n`https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 412,
+        "timestamp_sec": 13.73,
+        "latency_sec": 5.97,
+        "frame_description": "The user is reading an article on the 16Personalities website. The visible text in the address bar is 'https://www.16personalities.com/enfp-relationships-dating'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 14.1,
+        "latency_sec": 5.04,
+        "frame_description": "The user is browsing a web page on the 16Personalities website. The text entered in the address bar is \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 631,
+        "timestamp_sec": 21.03,
+        "latency_sec": 3.97,
+        "frame_description": "The user is viewing a webpage on the 16Personalities website with the URL \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 642,
+        "timestamp_sec": 21.4,
+        "latency_sec": 5.19,
+        "frame_description": "The user is browsing a web page on the 16Personalities website.\n\n**Visible user-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 694,
+        "timestamp_sec": 23.13,
+        "latency_sec": 4.72,
+        "frame_description": "The user is browsing an article on the 16Personalities website with the URL \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 705,
+        "timestamp_sec": 23.5,
+        "latency_sec": 5.23,
+        "frame_description": "The user is viewing a webpage on the 16Personalities website.\n\n**Visible user-entered text:**\n* Address bar: `\"https://www.16personalities.com/enfp-relationships-dating\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 740,
+        "timestamp_sec": 24.67,
+        "latency_sec": 4.29,
+        "frame_description": "The user is browsing a webpage about ENFP romantic relationships on 16Personalities.\n\n**User-entered text:**\n- Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 751,
+        "timestamp_sec": 25.03,
+        "latency_sec": 5.21,
+        "frame_description": "The user is reading an article on the 16Personalities website.\n\n**Visible user-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 781,
+        "timestamp_sec": 26.03,
+        "latency_sec": 4.75,
+        "frame_description": "The user is browsing a webpage on the 16Personalities website.\n\nVisible user-entered text:\n- Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 792,
+        "timestamp_sec": 26.4,
+        "latency_sec": 8.65,
+        "frame_description": "The user is reading an article titled \"Romantic Relationships\" on the 16Personalities website. \n\n**Visible user-entered text:**\n* Address bar: `https://www.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 818,
+        "timestamp_sec": 27.27,
+        "latency_sec": 5.01,
+        "frame_description": "The user is viewing a webpage about romantic relationships on the 16Personalities website.\n\nVisible user-entered text/URL in the application:\n- Address bar: `\"https://www.16personalities.com/enfp-relationships-dating\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 829,
+        "timestamp_sec": 27.63,
+        "latency_sec": 4.94,
+        "frame_description": "The user is reading an article about romantic relationships on the 16Personalities website. \n\n**Visible user-entered text:**\n* Address bar: `\"https://www.16personalities.com/enfp-relationships-dating\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 844,
+        "timestamp_sec": 28.13,
+        "latency_sec": 4.2,
+        "frame_description": "The user is viewing a webpage on the 16 Personalities website with the address \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 855,
+        "timestamp_sec": 28.5,
+        "latency_sec": 4.39,
+        "frame_description": "The user is browsing an article titled \"The Mystery of Relationships\" on the 16Personalities website.\n\n**Visible user-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 866,
+        "timestamp_sec": 28.87,
+        "latency_sec": 6.48,
+        "frame_description": "The user is reading an article on the 16Personalities website about ENFP romantic relationships.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 877,
+        "timestamp_sec": 29.23,
+        "latency_sec": 5.35,
+        "frame_description": "The user is reading an article on the 16Personalities website.\n\n**User-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 888,
+        "timestamp_sec": 29.6,
+        "latency_sec": 4.83,
+        "frame_description": "The user is viewing a webpage about ENFP romantic relationships on the 16Personalities website.\n\n**Visible user-entered text:**\n* **Address bar:** \"https://www.16personalities.com/enfp-relationships-dating\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 899,
+        "timestamp_sec": 29.97,
+        "latency_sec": 5.78,
+        "frame_description": "The user is viewing a webpage on the 16Personalities website with the URL 'https://www.16personalities.com/enfp-relationships-dating'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 929,
+        "timestamp_sec": 30.97,
+        "latency_sec": 4.52,
+        "frame_description": "The user is reading an article on the 16 Personalities website. \n\nVisible user-entered text:\n- Address bar: \"https://www.16personalities.com/enfp-relationships-dating\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 940,
+        "timestamp_sec": 31.33,
+        "latency_sec": 5.64,
+        "frame_description": "The user is viewing a webpage titled \"16 Personalities\" in the browser. The text in the address bar is \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 965,
+        "timestamp_sec": 32.17,
+        "latency_sec": 5.0,
+        "frame_description": "The user is browsing a webpage on the 16Personalities website.\n\n**Visible user-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 976,
+        "timestamp_sec": 32.53,
+        "latency_sec": 5.75,
+        "frame_description": "The user is browsing a web page on the 16Personalities website. The visible text in the address bar is \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1004,
+        "timestamp_sec": 33.47,
+        "latency_sec": 5.53,
+        "frame_description": "The user is reading an article on the 16Personalities website.\n\n**Visible user-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 1015,
+        "timestamp_sec": 33.83,
+        "latency_sec": 4.1,
+        "frame_description": "The user is browsing the 16Personalities website. \n\n captured text in the address bar is \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1026,
+        "timestamp_sec": 34.2,
+        "latency_sec": 6.14,
+        "frame_description": "The user is viewing a web page on the 16 Personalities website. The visible user-entered text in the address bar is \"https://www.16personalities.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1037,
+        "timestamp_sec": 34.57,
+        "latency_sec": 5.12,
+        "frame_description": "The user is hovering the cursor over the web page. The visible user-entered text is \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1048,
+        "timestamp_sec": 34.93,
+        "latency_sec": 6.08,
+        "frame_description": "The user is hovering over the email share button on the webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 1059,
+        "timestamp_sec": 35.3,
+        "latency_sec": 6.07,
+        "frame_description": "The user is hovering the mouse cursor over the right arrow button under the \"Friendships\" section on the web page. \n\nVisible user-entered text in the application includes the",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1082,
+        "timestamp_sec": 36.07,
+        "latency_sec": 6.25,
+        "frame_description": "The user is browsing the 16Personalities website in the web browser.\n\n**User-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse the website \"16 personalities\" for romantic relationship information.",
+      "reference_caption": "Exploring the 'Romantic Relationships' section of the '16 Personalities' website, focusing on the ENFP personality type, followed by a transition to the 'Friendships' section.",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 487,
+          "sub_goal": "Scroll down to browse more web page content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 818,
+          "sub_goal": "Scroll down to browse more web content.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 953,
+          "sub_goal": "Continue scrolling down the webpage to browse more content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1067,
+          "sub_goal": "Click on \"friendships\" to jump to the explanation of friendships' relationships.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on exploring ENFP personality type dynamics in relationships, specifically transitioning from romantic to platonic contexts. The timeline supports this by showing consistent navigation through 'ENFP Relationships' and a transition to 'Friendships', matching the prediction about content change."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The frames consistently show the user browsing and interacting with the '16 Personalities' website, specifically focusing on the ENFP personality type in the 'Romantic Relationships' section and transitioning to the 'Friendships' section. There are no contradictions or fabricated actions reported in the AI frame descriptions when compared to the ground truth keyframes."
+        },
+        "coverage": {
+          "score": 1.67,
+          "coverage": 0.167,
+          "covered": 1,
+          "total": 6,
+          "covered_actions": [],
+          "covered_apps": [
+            "16 personalities"
+          ],
+          "reasoning": "The AI timeline describes the user browsing and reading content on the 16Personalities website, but it does not explicitly mention any mouse actions such as clicking or scrolling. The keyframes that involve specific mouse actions are not described in the timeline."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline contains numerous repetitive entries that describe similar actions and states without significant changes, particularly regarding the URL in the address bar. The majority of frames provide redundant information about browsing the same webpage with an unchanged URL."
+        }
+      },
+      "composite_score": 12.67,
+      "max_score": 20,
+      "latency_sec": 116.06
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0163,
+        "recall": 0.3714,
+        "f1": 0.0312
+      },
+      "rouge2": {
+        "precision": 0.0025,
+        "recall": 0.0588,
+        "f1": 0.0048
+      },
+      "rougeL": {
+        "precision": 0.0163,
+        "recall": 0.3714,
+        "f1": 0.0312
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0131
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 298.2,
+      "total_vlm_inference_sec": 177.53,
+      "intent_latency_sec": 4.58,
+      "frames_processed": 34,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.22,
+      "median_frame_latency_sec": 5.12,
+      "min_frame_latency_sec": 3.97,
+      "max_frame_latency_sec": 8.65,
+      "avg_description_length_chars": 161.6,
+      "total_prompt_tokens": 42812,
+      "total_completion_tokens": 1510,
+      "avg_completion_tokens_per_sec": 8.1
+    }
+  }
+}

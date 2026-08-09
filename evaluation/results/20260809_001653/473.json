@@ -1,0 +1,1157 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/473.mov",
+  "total_frames": 1678,
+  "fps": 46.72077515278919,
+  "video_length_sec": 35.92,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1678,
+  "frames_processed": 52,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was reviewing the \"m&m's\" benchmark dataset and associated resources to understand its structure, sample queries, and execution plans for evaluating multi-step multi-modal tool-use tasks.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.9,
+        "frame_description": "The user is viewing a document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in a web browser, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 7.81,
+        "frame_description": "The user is viewing a PDF document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in a browser window, with no active input or typing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 9.23,
+        "frame_description": "The user is viewing a document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in a PDF viewer application. The document displays several examples of user queries and corresponding executed plans involving various tools like image classification, search, ASR (Automatic Speech Recognition), QA (Question Answering), object detection, and emoji recognition. There is no active typing or input being performed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 70,
+        "timestamp_sec": 1.5,
+        "latency_sec": 8.46,
+        "frame_description": "The user is viewing a document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in a PDF viewer, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or active input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 86,
+        "timestamp_sec": 1.84,
+        "latency_sec": 8.4,
+        "frame_description": "The user is viewing a document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in a PDF viewer, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or active input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 102,
+        "timestamp_sec": 2.18,
+        "latency_sec": 8.14,
+        "frame_description": "The user is viewing a document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in a web browser, with no active input or typing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 140,
+        "timestamp_sec": 3.0,
+        "latency_sec": 7.77,
+        "frame_description": "The user is viewing a document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in a web browser, with no active input or typing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 156,
+        "timestamp_sec": 3.34,
+        "latency_sec": 14.03,
+        "frame_description": "The user is viewing a document in a PDF viewer, likely reviewing examples of query-plan pairs for a multimodal machine learning system. No active typing or input actions are occurring.\n\nVisible user-entered text in the application:\n- In the \"User Query\" section:\n  - \"I have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a brief overview of the subject from Wikipedia?\"\n  - \"I have an audio file '8455.flac' and it seems to describe an event. Can you tell me where did this event take place based on the content?\"\n  - \"I just heard about a movie called Moonlight that released in 2016. Can you find out some details about this movie and then tell me who directed it?\"\n  - \"I need an illustration for my children's book. I've imagined a scene where there's a large group of little kids and adults at a long table with blue plates. After we have the image, we also need to identify all the objects, then add labels to them.\"\n  - \"I've got an image 2329",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 172,
+        "timestamp_sec": 3.68,
+        "latency_sec": 7.74,
+        "frame_description": "The user is viewing a document in a PDF viewer, likely reviewing or reading content related to multi-modal machine learning models and their applications. No active typing or input actions are observed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 188,
+        "timestamp_sec": 4.02,
+        "latency_sec": 14.01,
+        "frame_description": "The user is viewing a document in a PDF reader application, specifically looking at Figure 1 which illustrates query-plan pairs and execution results for a multi-modal system. The document appears to be from an academic paper titled \"m&m's: A...\" (likely \"m&m's: A Multi-modal Multi-step Reasoning System\"), published by the University of Washington and Allen Institute for AI. The figure shows examples of user queries involving text, image, and audio modalities, along with the corresponding plans and execution results using various tools like image classifiers, search engines, QA systems, etc.\n\nVisible user-entered text in the application includes:\n\n- In the PDF viewer toolbar: \"Weekl...\", \"ich: ... X\", \"Large Lan... X\", \"Silke: Pre... X\", \"Panda-70... X\", \"LLM-as-a... X\", \"Is GPT-3... X\", \"Chart-bas... X\", \"Hallusion... X\", \"Want To R... X\", \"Kosmos... X\", \"Assesse... X\", \"m&m's: A... X\"\n- In the document content: \"1 University of Washington, 2 Allen Institute for AI\", \"https://huggingface.co/d",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 204,
+        "timestamp_sec": 4.37,
+        "latency_sec": 14.02,
+        "frame_description": "The user is viewing a PDF document in a browser window, which appears to be an academic paper about multi-modal machine learning models. The document includes a figure showing examples of query-plan pairs and execution results. There is no active input or typing occurring in the visible interface.\n\nVisible user-entered text in the application:\n- In the PDF viewer\u2019s navigation bar: \u201c1 of 23\u201d\n- In the URL bar: \u201chttps://huggingface.co/datasets/zixianma/mms\u201d\n- In the figure caption: \u201cFigure 1. We present examples of query-plan pairs along with the execution results of the plans in m&m\u2019s. Our benchmark contains a large quantity of diverse user queries involving three modalities (i.e., text, image, and audio) as well as human-verified plans that consist of 1 - 3 tools across three categories: multi-modal machine learning models (blue), public APIs (red) and image processing modules (yellow).\u201d\n- In the abstract section: \u201cAbstract\u201d, \u201cReal-world multi-modal problems are rarely solved by a single machine learning model, and often require multi-step computational plans that involve stitching several mod-\u201d, \u201c4K+ multi-step multi-modal tasks involving 33 tools",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 220,
+        "timestamp_sec": 4.71,
+        "latency_sec": 14.03,
+        "frame_description": "The user is viewing a PDF document in a browser window, which appears to be an academic paper about multi-modal machine learning models. The document includes a figure showing examples of query-plan pairs and execution results. There is no active text input or typing occurring in the visible interface.\n\nVisible user-entered text in the application:\n- In the PDF viewer toolbar: \"1 of 23\"\n- In the figure caption: \"Figure 1. We present examples of query-plan pairs along with the execution results of the plans in m&m's. Our benchmark contains a large quantity of diverse user queries involving three modalities (i.e., text, image, and audio) as well as human-verified plans that consist of 1 - 3 tools across three categories: multi-modal machine learning models (blue), public APIs (red) and image processing modules (yellow).\"\n- In the abstract section: \"Abstract\", \"Real-world multi-modal problems are rarely solved by a single machine learning model, and often require multi-step computational plans that involve stitching several mod-\", \"4K+ multi-step multi-modal tasks involving 33 tools that include multi-modal models, (free) public APIs, and image processing modules. For each of these task queries, we provide",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 236,
+        "timestamp_sec": 5.05,
+        "latency_sec": 13.94,
+        "frame_description": "The user is viewing a document in a PDF viewer, likely reviewing or reading content related to multi-modal tasks and tool-augmented LLMs. No active typing or input actions are visible.\n\nVisible user-entered text in the application:\n- In the \"User Query\" section:\n  - \"I have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a brief overview of the subject from Wikipedia?\"\n  - \"I have an audio file '8455.flac' and it seems to describe an event. Can you tell me where did this event take place based on the content?\"\n  - \"I just heard about a movie called Moonlight that released in 2016. Can you find out some details about this movie and then tell me who directed it?\"\n  - \"I need an illustration for my children's book. I've imagined a scene where there's a large group of little kids and adults at a long table with blue plates. After we have the image, we also need to identify all the objects, then add labels to them.\"\n  - \"I've got an image",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 252,
+        "timestamp_sec": 5.39,
+        "latency_sec": 13.99,
+        "frame_description": "The user is viewing a document in a PDF viewer, likely reviewing examples of query-plan pairs for a research paper. No active typing or input is occurring.\n\nVisible user-entered text in the application:\n- In the \"User Query\" section:\n  - \"I have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a brief overview of the subject from Wikipedia?\"\n  - \"I have an audio file '8455.flac' and it seems to describe an event. Can you tell me where did this event take place based on the content?\"\n  - \"I just heard about a movie called Moonlight that released in 2016. Can you find out some details about this movie and then tell me who directed it?\"\n  - \"I need an illustration for my children's book. I've imagined a scene where there's a large group of little kids and adults at a long table with blue plates. After we have the image, we also need to identify all the objects, then add labels to them.\"\n  - \"I've got an image 2329676.jpg",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 268,
+        "timestamp_sec": 5.74,
+        "latency_sec": 8.75,
+        "frame_description": "The user is viewing a document in a PDF reader application, specifically looking at Figure 1 which illustrates examples of query-plan pairs and execution results. The document appears to be from an academic paper, as indicated by the arXiv identifier visible on the left side. There is no active typing or input being performed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 284,
+        "timestamp_sec": 6.08,
+        "latency_sec": 14.08,
+        "frame_description": "The user is viewing a document in a PDF viewer, likely reviewing or analyzing content related to multi-modal machine learning and task planning. No active typing or input actions are visible.\n\nVisible user-entered text in the application:\n- In the \"User Query\" section:\n  - \"I have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a brief overview of the subject from Wikipedia?\"\n  - \"I have an audio file '8455.flac' and it seems to describe an event. Can you tell me where did this event take place based on the content?\"\n  - \"I just heard about a movie called Moonlight that released in 2016. Can you find out some details about this movie and then tell me who directed it?\"\n  - \"I need an illustration for my children's book. I've imagined a scene where there's a large group of little kids and adults at a long table with blue plates. After we have the image, we also need to identify all the objects, then add labels to them.\"\n  - \"I've got an image 2329",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 328,
+        "timestamp_sec": 7.02,
+        "latency_sec": 7.89,
+        "frame_description": "The user is scrolling through a PDF document in a browser window, likely reviewing content related to multi-modal tasks and computational plans. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 344,
+        "timestamp_sec": 7.36,
+        "latency_sec": 13.92,
+        "frame_description": "The user is viewing a PDF document in a browser window, with no active input or typing occurring. The visible user-entered text includes:\n\n- In the PDF content:\n  - \u201cHubei\u201d (in the weather widget on the left)\n  - \u201c21\u00b0\u201d\n  - \u201cRain H:23\u00b0 L:18\u00b0\u201d\n  - \u201c21 Mar\u201d\n  - \u201carXiv:2403.11085v3 [cs.CV]\u201d\n  - \u201cFigure 1. We present examples of query-plan pairs along with the execution results of the plans in m&m\u2019s. Our benchmark contains a large quantity of diverse user queries involving three modalities (i.e., text, image, and audio) as well as human-verified plans that consist of 1 - 3 tools across three categories: multi-modal machine learning models (blue), public APIs (red) and image processing modules (yellow).\u201d\n  - \u201cAbstract\u201d\n  - \u201cReal-world multi-modal problems are rarely solved by a single machine learning model, and often require multi-step computational plans that involve stitching several models. Tool-augmented LLMs hold tremendous promise for automating the generation",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 360,
+        "timestamp_sec": 7.71,
+        "latency_sec": 7.73,
+        "frame_description": "The user is viewing a PDF document in a reader application, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or active input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 376,
+        "timestamp_sec": 8.05,
+        "latency_sec": 8.38,
+        "frame_description": "The user is viewing a PDF document in the Zotero application, specifically on page 1 of 23, which contains an abstract and a figure illustrating multi-modal task planning examples. No active typing or form-filling is occurring; all visible text in the document is static content from the paper itself.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 392,
+        "timestamp_sec": 8.39,
+        "latency_sec": 14.01,
+        "frame_description": "The user is viewing a PDF document in a reading application, with no active input or typing occurring.\n\nVisible user-entered text in the application:\n- In the figure caption: \"Figure 1. We present examples of query-plan pairs along with the execution results of the plans in m&m's. Our benchmark contains a large quantity of diverse user queries involving three modalities (i.e. text, image, and audio) as well as human-verified plans that consist of 1 - 3 tools across three categories: multi-modal machine learning (blue), public APIs (red) and image processing modules (yellow).\"\n- In the abstract section: \"Abstract\", \"Real-world multi-modal problems are rarely solved by a single machine learning model, and often require multi-step computational plans that involve stitching several models. Tool-augmented LLMs hold tremendous promise for automating the generation of such computational plans. However, the lack of standardized benchmarks for evaluating LLMs as planners for multi-step multi-modal tasks has prevented a systematic study of planner design decisions. Should LLMs generate a full plan in a single shot or step-by-step? Should they invoke tools directly with Python code or through structured data formats like JSON? Does feedback improve planning? To answer these",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 408,
+        "timestamp_sec": 8.73,
+        "latency_sec": 13.82,
+        "frame_description": "The user is viewing a document in a PDF viewer, likely reviewing or reading content related to multi-modal tasks and planning. No active typing or input actions are visible.\n\nVisible user-entered text in the application:\n- In the PDF viewer toolbar: \"1 of 23\"\n- In the document content (Figure 1 caption): \"Figure 1. We present examples of query-plan pairs along with the execution results of the plans in m&m's. Our benchmark contains a large quantity of diverse user queries involving three modalities (i.e., text, image, and audio) as well as human-verified plans that consist of 1 - 3 tools across three categories: multi-modal machine learning models (blue), public APIs (red) and image processing modules (yellow).\"\n- In the document content (Abstract section): \"Abstract\", followed by the abstract text including phrases like \"Real-world multi-modal problems are rarely solved by a single machine learning model, and often require multi-step computational plans that involve stitching several models. Tool-augmented LLMs hold tremendous promise for automating the generation of such computational plans. However, the lack of standardized benchmarks for evaluating LLMs as planners for multi-step multi-modal tasks has prevented a systematic study of",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 424,
+        "timestamp_sec": 9.08,
+        "latency_sec": 13.82,
+        "frame_description": "The user is viewing a PDF document in a browser window, with no active input or typing occurring. The visible user-entered text includes:\n\n- In the top-left widget: \u201cHubei\u201d, \u201c21\u00b0\u201d, \u201cRain\u201d, \u201cH:23\u00b0 L:18\u00b0\u201d\n- In the PDF viewer\u2019s toolbar: \u201cWeekl\u2026\u201d, \u201cIch:\u2026 X\u201d, \u201cLarge Lan\u2026 X\u201d, \u201cSilke: Pre\u2026 X\u201d, \u201cPanda-70\u2026 X\u201d, \u201cLLM-as-a\u2026 X\u201d, \u201cIs GPT-3\u2026 X\u201d, \u201cChart-bas\u2026 X\u201d, \u201cHallusion\u2026 X\u201d, \u201cWant To R\u2026 X\u201d, \u201cKosmos\u2026 X\u201d, \u201cAssesse\u2026 X\u201d, \u201cm&m\u2019s: A\u2026 X\u201d\n- In the PDF content: \u201cFigure 1. We present examples of query-plan pairs along with the execution results of the plans in m&m\u2019s. Our benchmark contains a large quantity of diverse user queries involving three modalities (i.e. text, image, and audio) as well as human-verified plans that consist of 1 - 3 tools across three categories: multi-modal machine learning models (blue), public APIs (red) and image processing",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 440,
+        "timestamp_sec": 9.42,
+        "latency_sec": 13.82,
+        "frame_description": "The user is viewing a document in a PDF viewer, likely reviewing or reading content related to multi-modal tasks and planning. No active typing or input actions are visible.\n\nVisible user-entered text in the application:\n- In the \"User Query\" section:\n  - \"I have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a brief overview of the subject from Wikipedia?\"\n  - \"I have an audio file '8455.flac' and it seems to describe an event. Can you tell me where did this event take place based on the content?\"\n  - \"I just heard about a movie called Moonlight that released in 2016. Can you find out some details about this movie and then tell me who directed it?\"\n  - \"I need an illustration for my children's book. I've imagined a scene where there's a large group of little kids and adults at a long table with blue plates. After we have the image, we also need to identify all the objects, then add labels to them.\"\n  - \"I've got an image 232967",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 456,
+        "timestamp_sec": 9.76,
+        "latency_sec": 13.86,
+        "frame_description": "The user is viewing a document in a PDF viewer, likely reviewing or reading content related to multi-modal tasks and computational plans. No active typing or input actions are visible.\n\nVisible user-entered text in the application:\n- In the \"User Query\" section:\n  - \"I have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a brief overview of the subject from Wikipedia?\"\n  - \"I have an audio file '8455.flac' and it seems to describe an event. Can you tell me where did this event take place based on the content?\"\n  - \"I just heard about a movie called Moonlight that released in 2016. Can you find out some details about this movie and then tell me who directed it?\"\n  - \"I need an illustration for my children's book. I've imagined a scene where there's a large group of little kids and adults at a long table with blue plates. After we have the image, we also need to identify all the objects, then add labels to them.\"\n  - \"I've got an image 23296",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 472,
+        "timestamp_sec": 10.1,
+        "latency_sec": 7.55,
+        "frame_description": "The user is viewing a document in a PDF viewer, likely reviewing or reading content related to multimodal machine learning models and their applications. No active typing or input actions are observed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 600,
+        "timestamp_sec": 12.84,
+        "latency_sec": 13.85,
+        "frame_description": "The user is viewing a document in Microsoft Edge, which appears to be a research paper or presentation slide discussing multimodal tasks and tools. The document includes examples of user queries and corresponding executed plans involving various modalities (text, image, audio). There is no active input field being filled or text being typed by the user at this moment.\n\nVisible user-entered text in the application includes:\n\n- In the document content:\n  - \u201cZixian Ma\u00b9, Weikai Huang\u00b9, Jieyu Zhang\u00b9, Tanmay Gupta\u00b2, Ranjay Krishna\u00b9,\u00b2\u201d\n  - \u201c\u00b9University of Washington, \u00b2Allen Institute for AI\u201d\n  - \u201chttps://huggingface.co/datasets/zixianma/mms\u201d\n  - Multiple user query examples such as:\n    - \u201cI have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a brief overview of the subject from Wikipedia?\u201d\n    - \u201cI have an audio file '8455.flac' and it seems to describe an event. Can you tell me where did this event take place based on the content?\u201d\n    -",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 616,
+        "timestamp_sec": 13.18,
+        "latency_sec": 7.46,
+        "frame_description": "The user is viewing a list of items in a sidebar, possibly within a note-taking or document management application, with no active text input or editing occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 659,
+        "timestamp_sec": 14.11,
+        "latency_sec": 8.74,
+        "frame_description": "The user is viewing the Hugging Face dataset page for \"zixianma/mnms,\" specifically examining the dataset viewer which displays sample data including columns like 'id', 'user_request', 'plan_str', and 'code_str'. The interface shows download statistics, dataset details, and a sidebar with related datasets and resources. No active typing or input actions are currently occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 755,
+        "timestamp_sec": 16.16,
+        "latency_sec": 8.12,
+        "frame_description": "The user is viewing a dataset on the Hugging Face website, specifically the \"m&ms\" dataset, and appears to be examining the data preview in the \"Dataset Viewer\" section. The user has not entered any text into form fields or search bars in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 842,
+        "timestamp_sec": 18.02,
+        "latency_sec": 8.77,
+        "frame_description": "The user is viewing a dataset on the Hugging Face website, specifically examining the \"m&m's\" dataset. They are scrolling through the dataset viewer to inspect the data structure and content, which includes columns like `id`, `user_request`, `plan_str`, and `code_str`. The user appears to be analyzing the text data within these columns, possibly for research or development purposes.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 1063,
+        "timestamp_sec": 22.75,
+        "latency_sec": 8.49,
+        "frame_description": "The user is viewing the Hugging Face dataset page for \"m&ms,\" which is a multi-step multi-modal task dataset. The interface displays a dataset viewer with sample rows, including user requests and corresponding plans. The user has not entered any text in form fields or search bars; all visible text is static content from the dataset or website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1079,
+        "timestamp_sec": 23.09,
+        "latency_sec": 13.85,
+        "frame_description": "The user is viewing a dataset card for m&ms on the Hugging Face website, which displays examples of multi-step multi-modal tasks and corresponding task plans. The interface shows a table with columns for `id`, `user_request`, `plan_str`, and `code_str`. Below the table, there are two example scenarios: one involving an image query about a kimono and another about an audio file describing an event. The user appears to be reviewing the dataset's structure and content.\n\nVisible user-entered text includes:\n- In the `user_request` column: \"I'm trying to visualize a scene for my upcoming book. Could you...\", \"For the photo titled 2349496.jpg, generate a descriptive text...\", \"Can you help me describe the scenario presented in image...\", \"Could you identify and extract the graffiti text from the image...\", \"I have an image COCO_train2014_000009256855.jpg...\", \"I'd like to know the description of the text in the...\", \"I have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1095,
+        "timestamp_sec": 23.44,
+        "latency_sec": 9.84,
+        "frame_description": "The user is viewing a dataset card for \"m&ms\" on the Hugging Face website, which displays examples of multi-step multi-modal tasks and their corresponding task plans. The interface shows a table of dataset entries with columns for \"int64\", \"string \u00b7 lengths\", and other metadata, along with a section titled \"Dataset Card for m&ms\" that includes a \"User Query\" and \"Executed Plan\" example. The user has not performed any active actions such as clicking, typing, or navigating; they are simply observing the content displayed on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 117
+      },
+      {
+        "frame_number": 1117,
+        "timestamp_sec": 23.91,
+        "latency_sec": 8.82,
+        "frame_description": "The user is viewing a dataset card for \"m&ms\" on the Hugging Face website, which displays examples of multi-step multi-modal tasks and their corresponding task plans. The interface shows a list of datasets on the left sidebar, with the current page focused on the \"m&ms\" dataset details. There are no visible user-entered text fields or active typing actions in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 81
+      },
+      {
+        "frame_number": 1133,
+        "timestamp_sec": 24.25,
+        "latency_sec": 8.45,
+        "frame_description": "The user is viewing a dataset card for \"m&ms\" on the Hugging Face website, which describes a multi-step multi-modal dataset. The page displays examples of user queries and corresponding executed plans involving various tools like image captioning, OCR, and search engines. There is no active input or typing occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 1149,
+        "timestamp_sec": 24.59,
+        "latency_sec": 8.59,
+        "frame_description": "The user is viewing a webpage about the m&ms dataset on Hugging Face, which details multi-step multi-modal tasks and corresponding task plans. The page includes examples of user queries and executed plans involving various tools like image generation, object detection, and text search. The user is not actively typing or interacting with any form fields; they are simply reading the content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 1165,
+        "timestamp_sec": 24.94,
+        "latency_sec": 8.78,
+        "frame_description": "The user is viewing a dataset card for \"m&ms\" on the Hugging Face website, which describes a dataset of multi-step multi-modal tasks and corresponding task plans. The page displays examples of user queries and executed plans involving various tools like image generation, object detection, and text search. The user is not actively typing or interacting with any form fields; they are simply reading the content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 1181,
+        "timestamp_sec": 25.28,
+        "latency_sec": 8.93,
+        "frame_description": "The user is viewing a dataset card for \"m&ms\" on the Hugging Face website, which describes a multi-step multi-modal task dataset. The page includes examples of user queries and corresponding executed plans involving various tools like image classification, Wikipedia search, audio-to-text, movie search, object detection, and emoji generation. The user is not actively typing or interacting with any form fields; they are simply reading the content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 1197,
+        "timestamp_sec": 25.62,
+        "latency_sec": 8.66,
+        "frame_description": "The user is viewing a dataset card for \"m&ms\" on the Hugging Face website, which describes a multi-step multi-modal task dataset. The page includes examples of user queries and corresponding executed plans involving various tools like image classification, search, and object detection. The user is not actively typing or interacting with any form fields; they are simply reading the content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 1213,
+        "timestamp_sec": 25.96,
+        "latency_sec": 8.4,
+        "frame_description": "The user is viewing a webpage about a dataset on Hugging Face, specifically looking at examples of user queries and executed plans for multi-modal tasks. The page includes sections like \"Dataset Details,\" \"Dataset Sources,\" and \"Uses.\" There are no visible form fields or input areas where the user is actively typing or entering text.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 1229,
+        "timestamp_sec": 26.31,
+        "latency_sec": 9.26,
+        "frame_description": "The user is viewing a webpage on Hugging Face that describes the \"mms\" dataset, which includes multi-step multi-modal tasks. The page displays examples of user queries and corresponding executed plans involving various tools like image classification, Wikipedia search, ASR (Automatic Speech Recognition), QA (Question Answering), and object detection. The user has scrolled down to see details about the dataset, including its sources and uses. No active typing or input actions are currently being performed by the user.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 98
+      },
+      {
+        "frame_number": 1430,
+        "timestamp_sec": 30.61,
+        "latency_sec": 9.69,
+        "frame_description": "The user is viewing a webpage about the \"zixianma/mms\" dataset on Hugging Face, which details multi-step multi-modal tasks and their execution plans. The page includes examples of user queries and corresponding executed plans involving various tools like image classification, Wikipedia search, ASR (Automatic Speech Recognition), QA (Question Answering), object detection, and emoji generation. The user appears to be reading through the dataset details, sources, and direct use cases. There is no active typing or input being performed by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 110
+      },
+      {
+        "frame_number": 1472,
+        "timestamp_sec": 31.51,
+        "latency_sec": 7.54,
+        "frame_description": "The user is viewing the GitHub repository page for \"m&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal Tasks\" and scrolling through the README content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1526,
+        "timestamp_sec": 32.66,
+        "latency_sec": 7.84,
+        "frame_description": "The user is viewing the GitHub repository page for \"m&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal tasks\" and scrolling through the README content, which includes dataset examples and details about the benchmark.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 1542,
+        "timestamp_sec": 33.0,
+        "latency_sec": 7.81,
+        "frame_description": "The user is viewing the GitHub repository page for \"m&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal tasks\" within a web browser, with the sidebar showing various open tabs and folders.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1587,
+        "timestamp_sec": 33.97,
+        "latency_sec": 7.69,
+        "frame_description": "The user is viewing a GitHub repository page for \"m&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal tasks\" and scrolling through the content, which includes dataset examples.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1624,
+        "timestamp_sec": 34.76,
+        "latency_sec": 7.63,
+        "frame_description": "The user is scrolling down the GitHub repository page for \"m&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal Tasks\" to view more content, including dataset examples.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1640,
+        "timestamp_sec": 35.1,
+        "latency_sec": 8.66,
+        "frame_description": "The user is viewing the README page of the GitHub repository \"RAIVNLab/mnms: m&ms: A Benchmark to Evaluate Tool-Use for multi-step multi-modal tasks\". The page displays information about the benchmark, including dataset examples with user queries and executed plans. There are no visible user-entered text in form fields or search bars on this page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 1656,
+        "timestamp_sec": 35.44,
+        "latency_sec": 7.69,
+        "frame_description": "The user is viewing a GitHub repository page for \"m&m's: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal tasks\" and scrolling through the content, which includes dataset examples and details.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1672,
+        "timestamp_sec": 35.79,
+        "latency_sec": 8.69,
+        "frame_description": "The user is viewing a GitHub repository page for \"m&m's: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal tasks,\" which includes sections like \"Dataset examples\" and \"Dataset details.\" The page displays various examples of user queries and executed plans involving image, audio, and text inputs. There are no visible form fields or active typing actions on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 1678,
+        "timestamp_sec": 35.92,
+        "latency_sec": 8.73,
+        "frame_description": "The user is viewing a GitHub repository page for \"m&m's: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal tasks,\" which includes sections like \"Dataset examples\" and \"Dataset details.\" The page displays various examples of user queries and executed plans involving different tools and models. There are no visible form fields or input areas where the user is actively typing or entering text.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 79
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View a paper in Zotero, then click on its Huggingface homepage, and then enter its Github homepage.",
+      "reference_caption": "Navigating from an academic paper in Zotero to its dataset on Hugging Face and then to the project's GitHub repository page.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "hugging face",
+        "github"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 93,
+          "sub_goal": "Use Zotero to browse academic papers.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 561,
+          "sub_goal": "Prepare to click on the hyperlink for the paper.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 711,
+          "sub_goal": "Jump to the dataset page on huggingface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1050,
+          "sub_goal": "Simply browse through the dataset.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1339,
+          "sub_goal": "Scroll down the webpage and briefly browse the details of the webpage.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1257,
+          "sub_goal": "Click on the project's GitHub page and open a new tab for GitHub.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1495,
+          "sub_goal": "Access the GitHub page for this project.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1661,
+          "sub_goal": "",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1674,
+          "sub_goal": "Scroll down the webpage to view dataset examples.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of evaluating tool-use agents for multi-step, multi-modal tasks. The timeline consistently shows interactions focused on datasets and examples related to this benchmark, without any contradictions in specific details."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The descriptions consistently match the active applications, visible text, and actions such as scrolling and viewing content without introducing any fabricated or contradictory details."
+        },
+        "coverage": {
+          "score": 4.38,
+          "coverage": 0.846,
+          "covered": 11,
+          "total": 13,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "covered_apps": [
+            "github",
+            "hugging face"
+          ],
+          "reasoning": "The AI timeline provides a detailed description of the user's actions across various keyframes, including viewing content on different platforms and interacting with specific datasets. The descriptions align well with the actions depicted in each keyframe."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The timeline contains multiple entries describing similar actions such as viewing dataset details and scrolling through content on GitHub and Hugging Face, indicating redundancy. However, there are also distinct actions like switching between different platforms (GitHub to Hugging Face) and specific interactions with datasets."
+        }
+      },
+      "composite_score": 17.38,
+      "max_score": 20,
+      "latency_sec": 165.71
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.012,
+        "recall": 0.8235,
+        "f1": 0.0237
+      },
+      "rouge2": {
+        "precision": 0.0037,
+        "recall": 0.2537,
+        "f1": 0.0072
+      },
+      "rougeL": {
+        "precision": 0.0097,
+        "recall": 0.6618,
+        "f1": 0.0191
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0874
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 699.62,
+      "total_vlm_inference_sec": 518.08,
+      "intent_latency_sec": 15.7,
+      "frames_processed": 52,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.96,
+      "median_frame_latency_sec": 8.71,
+      "min_frame_latency_sec": 7.46,
+      "max_frame_latency_sec": 14.08,
+      "avg_description_length_chars": 526.0,
+      "total_prompt_tokens": 114277,
+      "total_completion_tokens": 6367,
+      "avg_completion_tokens_per_sec": 11.9,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was reviewing a research paper in Zotero and exploring its associated dataset by navigating from its Hugging Face page to the project's GitHub repository to view documentation and examples.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.54,
+        "frame_description": "The user is hovering the cursor over the link \"https://huggingface.co/datasets/zixianma/mnms\" in the open PDF document. \n\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 6.76,
+        "frame_description": "The user is viewing a PDF document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in Zotero. There is no visible user-entered text in any search bars or form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 7.97,
+        "frame_description": "The user is selecting an area in the document using the area selection tool. \n\nVisible user-entered text in application form fields:\n* **Page field:** \"1\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 70,
+        "timestamp_sec": 1.5,
+        "latency_sec": 5.95,
+        "frame_description": "The user is viewing a PDF document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 86,
+        "timestamp_sec": 1.84,
+        "latency_sec": 7.18,
+        "frame_description": "The user is hovering the mouse cursor over an image within a PDF document. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 102,
+        "timestamp_sec": 2.18,
+        "latency_sec": 7.52,
+        "frame_description": "The user is viewing a document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in Zotero.\n\nVisible user-entered",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 140,
+        "timestamp_sec": 3.0,
+        "latency_sec": 7.04,
+        "frame_description": "The user is viewing a PDF document titled \"m&m's: A Benchmark to Evaluate Tool-Use for multi-step multi-modal Tasks\" in Zotero with the mouse cursor positioned over an image inside the document.\n\nThere is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 156,
+        "timestamp_sec": 3.34,
+        "latency_sec": 6.43,
+        "frame_description": "The user is pointing the cursor at the \"8455.flac\" icon inside the PDF document. \n\nThere is no visible user-entered text in any application form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 172,
+        "timestamp_sec": 3.68,
+        "latency_sec": 6.53,
+        "frame_description": "The user is hovering the cursor over the text 'Moonlight (2016)' in the open PDF document. There is no visible user-entered text in any application form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 188,
+        "timestamp_sec": 4.02,
+        "latency_sec": 6.47,
+        "frame_description": "The user is hovering the cursor over the text 'Moonlight (2016)' in the document.\n\nThere is no visible user-entered text in any search bars or form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 204,
+        "timestamp_sec": 4.37,
+        "latency_sec": 6.76,
+        "frame_description": "The user is viewing a PDF document in Zotero. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 220,
+        "timestamp_sec": 4.71,
+        "latency_sec": 7.11,
+        "frame_description": "The user is viewing a PDF document in Zotero. The visible user-entered text in form fields is \"1\" in the page number input field.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 236,
+        "timestamp_sec": 5.05,
+        "latency_sec": 7.64,
+        "frame_description": "The user is viewing a PDF document in Zotero. The visible text in the application's input field is \"1\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 252,
+        "timestamp_sec": 5.39,
+        "latency_sec": 7.0,
+        "frame_description": "The user is viewing a PDF document in Zotero. \n\nThere is no visible user-entered text in any fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 268,
+        "timestamp_sec": 5.74,
+        "latency_sec": 5.35,
+        "frame_description": "The user is viewing a PDF document in Zotero. \n\nVisible user-entered text in application input fields includes:\n- Page number field: `\"1\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 284,
+        "timestamp_sec": 6.08,
+        "latency_sec": 8.06,
+        "frame_description": "The user is viewing a document in the Zotero application without actively interacting with any input fields or performing an action.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 328,
+        "timestamp_sec": 7.02,
+        "latency_sec": 7.43,
+        "frame_description": "The user is viewing a PDF document in Zotero. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 344,
+        "timestamp_sec": 7.36,
+        "latency_sec": 7.79,
+        "frame_description": "The user is viewing a PDF document in Zotero.\n\n**User-entered text:**\n* Page number field: `\"1\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 360,
+        "timestamp_sec": 7.71,
+        "latency_sec": 5.79,
+        "frame_description": "The user is viewing a PDF document in Zotero.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 376,
+        "timestamp_sec": 8.05,
+        "latency_sec": 7.85,
+        "frame_description": "The user is viewing a PDF document in Zotero. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 392,
+        "timestamp_sec": 8.39,
+        "latency_sec": 7.89,
+        "frame_description": "The user is viewing a PDF document.\n\n**Visible user-entered text:**\n* Page number field: `\"1\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 408,
+        "timestamp_sec": 8.73,
+        "latency_sec": 5.51,
+        "frame_description": "The user is viewing a PDF document in Zotero. The visible user-entered text in the page navigation field is '1'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 424,
+        "timestamp_sec": 9.08,
+        "latency_sec": 7.5,
+        "frame_description": "The user is viewing a PDF document in Zotero.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 440,
+        "timestamp_sec": 9.42,
+        "latency_sec": 7.6,
+        "frame_description": "The user is viewing a PDF document in Zotero. \n\nThere is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 456,
+        "timestamp_sec": 9.76,
+        "latency_sec": 7.35,
+        "frame_description": "The user is pointing the mouse cursor at text inside the PDF document.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 472,
+        "timestamp_sec": 10.1,
+        "latency_sec": 8.02,
+        "frame_description": "The user is viewing a PDF document titled \"m&m's: A...\" in Zotero. There is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 600,
+        "timestamp_sec": 12.84,
+        "latency_sec": 7.77,
+        "frame_description": "The user is clicking on the hyperlink \"https://huggingface.co/datasets/zixianma/mnms\" inside the PDF document.\n\nThere is no visible user-entered text",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 616,
+        "timestamp_sec": 13.18,
+        "latency_sec": 6.12,
+        "frame_description": "The user is navigating to the webpage \"https://huggingface.co/datasets/zixianma/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 659,
+        "timestamp_sec": 14.11,
+        "latency_sec": 4.86,
+        "frame_description": "The user is hovering the cursor over the histogram chart under the 'id' column in the Dataset Viewer.\n\nVisible user-entered text:\n- Address bar: \"https://huggingface.co/datasets/zixianma/mnms\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 755,
+        "timestamp_sec": 16.16,
+        "latency_sec": 6.4,
+        "frame_description": "The user is hovering the cursor over a cell in the dataset viewer table. \n\nThere is no user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 842,
+        "timestamp_sec": 18.02,
+        "latency_sec": 5.18,
+        "frame_description": "The user is hovering the cursor over the text `\"I have a review here which says, 'forced, familiar and thoroughly condescending.' I need to understand if this sentiment is positive or negative to shape my response accordingly.\"` in the dataset viewer table. \n\nThere is no visible user-entered text in any search bars or form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 1063,
+        "timestamp_sec": 22.75,
+        "latency_sec": 6.24,
+        "frame_description": "The user is viewing a webpage on Hugging Face.\n\n**Visible user-entered text:**\n* **Address bar:** `https://huggingface.co/datasets/zixianma/mnms?row=0`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 1079,
+        "timestamp_sec": 23.09,
+        "latency_sec": 4.86,
+        "frame_description": "The user is browsing a web page with 'https://huggingface.co/datasets/zixianma/mnms?row=0' in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1095,
+        "timestamp_sec": 23.44,
+        "latency_sec": 6.59,
+        "frame_description": "The user is hovering the mouse cursor over the \"Dataset Card for m&ms\" section on the web page.\n\n**Visible user-entered text:**\n* Address bar: `https://h",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1117,
+        "timestamp_sec": 23.91,
+        "latency_sec": 5.97,
+        "frame_description": "The user is hovering the mouse cursor over text on the Hugging Face dataset webpage.\n\nVisible user-entered text in the application includes:\n- Address bar: `https://huggingface.co/datasets/zixianma/mnms?row=0`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 1133,
+        "timestamp_sec": 24.25,
+        "latency_sec": 5.58,
+        "frame_description": "The user is hovering the cursor over text in the 'User Query' diagram on the webpage. \n\nVisible user-entered text includes:\n- Address bar: `\"https://huggingface.co/datasets/zixianma/mnms?row=0\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 1149,
+        "timestamp_sec": 24.59,
+        "latency_sec": 5.17,
+        "frame_description": "The user is viewing a webpage on Hugging Face.\n\n**Visible user-entered text:**\n* **Address Bar:** `https://huggingface.co/datasets/zixianma/mnms?row=0`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 1165,
+        "timestamp_sec": 24.94,
+        "latency_sec": 5.93,
+        "frame_description": "The user is viewing a webpage on Hugging Face. The visible user-entered text in the address bar is \"https://huggingface.co/datasets/zixianma/mnms?row=0\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1181,
+        "timestamp_sec": 25.28,
+        "latency_sec": 5.56,
+        "frame_description": "The user is browsing the \"zixianma/mnms\" dataset page on Hugging Face. \n\nVisible user-entered text:\n- Address bar: `https://huggingface.co/datasets/zixianma/mnms?row=0`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 1197,
+        "timestamp_sec": 25.62,
+        "latency_sec": 5.88,
+        "frame_description": "The user is hovering the cursor over the word \"For\" in the text on the webpage. \n\nThe visible user-entered text in the address bar is:\n\"https://huggingface.co/datasets/zixianma/mnms?row=0\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 1213,
+        "timestamp_sec": 25.96,
+        "latency_sec": 5.8,
+        "frame_description": "The user is viewing a webpage. The visible user-entered text in the application's address bar is \"https://huggingface.co/datasets/zixianma/mnms?row=0\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 1229,
+        "timestamp_sec": 26.31,
+        "latency_sec": 5.1,
+        "frame_description": "The user is hovering the mouse cursor over the \"https://github.com/RAIVNLab/mnms\" link.\n\nVisible user-entered text in the application's search/address bar:\n- \"https://huggingface.co/datasets/zixianma/mnms?row=0\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 1430,
+        "timestamp_sec": 30.61,
+        "latency_sec": 5.64,
+        "frame_description": "The user is clicking on the \"zixianma/mnms \u00b7 Datasets at Hugging Face\" tab in the browser sidebar.\n\n**Visible user-entered text:**\n* Address bar: `https://huggingface.co/datasets/zixianma/mnms?row=0`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 1472,
+        "timestamp_sec": 31.51,
+        "latency_sec": 5.04,
+        "frame_description": "The user is hovering the cursor over the \"RAIVNLab/mnms: A Benc...\" tab in the browser's tab list.\n\n**User-entered text:**\n* Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 1526,
+        "timestamp_sec": 32.66,
+        "latency_sec": 6.0,
+        "frame_description": "The user is clicking on the \"RAIVNLab/mnms: m&ms: A Benc\" tab in the browser's sidebar. The visible user-entered text in the address bar is \"https://github.com/RAIVNLab/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 1542,
+        "timestamp_sec": 33.0,
+        "latency_sec": 5.4,
+        "frame_description": "The user is clicking on the \"RAIVNLab/mnms: m&ms: A Benc...\" tab in the left sidebar. The visible text in the address bar is \"https://github.com/RAIVNLab/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1587,
+        "timestamp_sec": 33.97,
+        "latency_sec": 5.36,
+        "frame_description": "The user is hovering the mouse cursor over an image in the README section of the webpage. \n\nThe visible user-entered text in the address bar is \"https://github.com/RAIVNLab/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1624,
+        "timestamp_sec": 34.76,
+        "latency_sec": 4.9,
+        "frame_description": "The user is hovering the mouse cursor over the dataset examples image in the GitHub repository README.\n\n**Visible user-entered text:**\n* Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1640,
+        "timestamp_sec": 35.1,
+        "latency_sec": 7.85,
+        "frame_description": "The user is hovering the mouse cursor over the dataset examples image in the README section of the GitHub repository.\n\nVisible user-entered text in form fields/address bar:\n- Address bar: \"`https://github.com/RAIVNLab/mnms`\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 1656,
+        "timestamp_sec": 35.44,
+        "latency_sec": 5.47,
+        "frame_description": "The user is hovering the cursor over an image on the webpage.\n\n**User-entered text:**\n* Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1672,
+        "timestamp_sec": 35.79,
+        "latency_sec": 5.63,
+        "frame_description": "The user is hovering the cursor over an image on the GitHub page. The visible text in the address bar is \"https://github.com/RAIVNLab/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1678,
+        "timestamp_sec": 35.92,
+        "latency_sec": 5.54,
+        "frame_description": "The user is hovering the mouse cursor over the dataset examples image in the GitHub repository README. The visible user-entered text in the address bar is \"https://github.com/RAIVNLab/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View a paper in Zotero, then click on its Huggingface homepage, and then enter its Github homepage.",
+      "reference_caption": "Navigating from an academic paper in Zotero to its dataset on Hugging Face and then to the project's GitHub repository page.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "hugging face",
+        "github"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 93,
+          "sub_goal": "Use Zotero to browse academic papers.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 561,
+          "sub_goal": "Prepare to click on the hyperlink for the paper.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 711,
+          "sub_goal": "Jump to the dataset page on huggingface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1050,
+          "sub_goal": "Simply browse through the dataset.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1339,
+          "sub_goal": "Scroll down the webpage and briefly browse the details of the webpage.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1257,
+          "sub_goal": "Click on the project's GitHub page and open a new tab for GitHub.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1495,
+          "sub_goal": "Access the GitHub page for this project.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1661,
+          "sub_goal": "",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1674,
+          "sub_goal": "Scroll down the webpage to view dataset examples.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent accurately captures the user's underlying objective of reviewing a research paper in Zotero and exploring its associated dataset by navigating from its Hugging Face page to the project's GitHub repository. The timeline supports this with actions such as viewing the PDF document, clicking on the Hugging Face link, and then visiting the GitHub repository. There are no contradictions in the specific details mentioned in the reasoning or prediction answers."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The sequence of actions, including clicking on hyperlinks and scrolling through web pages, aligns with the ground truth. There are no fabricated or contradicted actions reported. For the STATIC QA, the description does not contradict the presence of Zotero's distinctive purple 'Z' icon. In SEQUENTIAL-QA, the user's examination of dataset details before clicking on the GitHub link is consistent with the timeline. The MCQA answer aligns with the action described in frame 1526 where the user clicks on the GitHub repository page."
+        },
+        "coverage": {
+          "score": 4.08,
+          "coverage": 0.769,
+          "covered": 10,
+          "total": 13,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9
+          ],
+          "covered_apps": [
+            "github",
+            "hugging face"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing and interacting with documents in Zotero, navigating to a dataset page on Hugging Face, and accessing a GitHub repository. These actions align with several keyframes but not all."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI-generated timeline contains several repetitive entries that describe similar actions without significant changes in context or detail, such as multiple mentions of viewing a PDF document with the same title and page number. However, there are also numerous unique actions described throughout the timeline."
+        }
+      },
+      "composite_score": 17.08,
+      "max_score": 20,
+      "latency_sec": 203.86
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0362,
+        "recall": 0.7206,
+        "f1": 0.0689
+      },
+      "rouge2": {
+        "precision": 0.0133,
+        "recall": 0.2687,
+        "f1": 0.0253
+      },
+      "rougeL": {
+        "precision": 0.0273,
+        "recall": 0.5441,
+        "f1": 0.052
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0269
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 548.74,
+      "total_vlm_inference_sec": 333.88,
+      "intent_latency_sec": 10.95,
+      "frames_processed": 52,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.42,
+      "median_frame_latency_sec": 6.32,
+      "min_frame_latency_sec": 4.86,
+      "max_frame_latency_sec": 8.06,
+      "avg_description_length_chars": 149.8,
+      "total_prompt_tokens": 65325,
+      "total_completion_tokens": 2211,
+      "avg_completion_tokens_per_sec": 6.3
+    }
+  }
+}

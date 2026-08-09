@@ -1,0 +1,410 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/430.mov",
+  "total_frames": 2266,
+  "fps": 44.43674561956838,
+  "video_length_sec": 50.99,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 2266,
+  "frames_processed": 10,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was exploring various tools and resources related to video processing, academic research, and GUI automation before ultimately seeking Python code to extract a specific frame from an MP4 video and display it within a Jupyter notebook.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 14.14,
+        "frame_description": "The user is viewing a JSON file named `youtube-4.1-blueice.jsonl` in a code editor, which appears to be part of a project related to GUI automation or video generation. The file contains structured data with fields like `\"frame\"`, `\"sub_goal\"`, `\"mouse\"`, and `\"keyboard\"`, suggesting it defines sequences of actions for automating interactions with a graphical user interface.\n\nIn the terminal panel below the editor, the user is monitoring the progress of processing multiple `.mp4` files (e.g., `0.mp4`, `1.mp4`, etc.), with the current status showing \u201cProcessing data: 89%\u201d. The terminal also displays a timestamp (`03:16:00:31`) and a speed metric (`3.95s/it`), indicating real-time feedback on the processing task.\n\nNo user-entered text is visible in form fields, search bars, or active input areas \u2014 the interface is read-only or passive at this moment. The only text being actively displayed (not entered) is the JSON content and terminal output.\n\nTherefore, the current action is:  \nThe user is observing the real-time processing progress of multiple video files in a terminal while reviewing a JSON file",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 22,
+        "timestamp_sec": 0.5,
+        "latency_sec": 10.15,
+        "frame_description": "The user is viewing a JSON file named \"youtube-4.1-blueice.jsonl\" in a code editor, which contains structured data related to a tutorial or demonstration involving Windows system usage. The file includes entries with keys such as \"ws\", \"region\", \"goal\", and \"keyframes\", detailing steps for teaching users how to use the Windows system. The terminal at the bottom shows processing data percentages, indicating that some kind of analysis or conversion is being performed on the data. The user appears to be reviewing or editing the JSON content, possibly to refine or expand the tutorial steps.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 120
+      },
+      {
+        "frame_number": 37,
+        "timestamp_sec": 0.83,
+        "latency_sec": 10.69,
+        "frame_description": "The user is running a Python script in Jupyter Notebook that processes video files, specifically checking for the existence of a combined GIF file and executing a command to merge GIFs using `gifsicle` if the file does not exist. The script is part of a larger project involving video processing and animation handling. The user is observing the output of the script, which includes warnings from `gifsicle` about conflicting background colors and incorrect animation frames. The terminal shows the execution of `tmux` commands, indicating that the script is being run in a remote SSH session. The user is not actively typing or editing the code at this moment but is monitoring the script's execution and output.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 139
+      },
+      {
+        "frame_number": 52,
+        "timestamp_sec": 1.17,
+        "latency_sec": 7.9,
+        "frame_description": "The user is viewing a Jupyter notebook cell that contains Python code for processing video files into GIFs, with the terminal output below showing warnings from the `gifsicle` command about conflicting background colors in input images.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 67,
+        "timestamp_sec": 1.51,
+        "latency_sec": 8.81,
+        "frame_description": "The user is viewing a webpage titled \"Cool Papers - Immersive Paper Discovery\" in a browser, with the URL \"https://papers.cool\" displayed. The page lists various academic fields and venues such as arXiv, Machine Learning, NeurIPS, and others. There is no active text input or typing occurring in any form fields or search bars on the visible screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.85,
+        "latency_sec": 10.26,
+        "frame_description": "The user is viewing a webpage titled \"Cool Papers - Immersive Paper Discovery\" in a browser, which lists various academic categories and venues. The page includes sections for arXiv categories such as Artificial Intelligence, Computation and Language, Computer Vision, Machine Learning (cs.LG), and Machine Learning (stat.ML). Additionally, there is a list of venues like ICLR, ICCV, NeurIPS, EMNLP, CVPR, IJSLT, USENIX-Sec, and INTERSPEECH. The user appears to be browsing through these categories and venues without any active input or interaction with the content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 129
+      },
+      {
+        "frame_number": 145,
+        "timestamp_sec": 3.26,
+        "latency_sec": 9.72,
+        "frame_description": "The user is viewing a web browser with multiple tabs open, including one titled \"Interact across applications\" which appears to be an AI chat interface. The main content area is mostly blank or dark, suggesting no active conversation or document is currently displayed. On the left sidebar, there are several folders and files listed, such as \"GitHub,\" \"Overleaf and Conference,\" and \"Daily Papers,\" indicating the user may be organizing or managing research-related documents. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 108
+      },
+      {
+        "frame_number": 160,
+        "timestamp_sec": 3.6,
+        "latency_sec": 7.49,
+        "frame_description": "The user is viewing a chat interface where they have asked ChatGPT for websites with interesting content, and the response is displayed on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 238,
+        "timestamp_sec": 5.36,
+        "latency_sec": 7.42,
+        "frame_description": "The user is viewing the ChatGPT interface on their desktop, with no active typing or input visible in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 2266,
+        "timestamp_sec": 50.99,
+        "latency_sec": 8.29,
+        "frame_description": "The user is typing in the input field at the bottom of the ChatGPT interface. The text being entered is: \"I have a mp4 and I want to extract the specific frame from this video and display it in my jupyter notebook, help me write python code\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 57
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Switch window to edge, ask chatgpt about code questions.",
+      "reference_caption": "A user navigates macOS, switches between VS Code and Edge browser, and interacts with OpenAI's ChatGPT for coding assistance and web browsing.",
+      "reference_apps": [
+        "vscode",
+        "edge",
+        "openai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 29,
+          "sub_goal": "Switch to full screen window on Mac.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 65,
+          "sub_goal": "Switched to full-screen application on Mac again, now switching to Edge.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Opened chatgpt as well.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Created a new chatgpt",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2019,
+          "sub_goal": "Entered a command, then copied the command to prevent chatgpt from swallowing my input if it fails to send successfully.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's actions and objectives as described in the timeline. The user navigates between VS Code, Edge browser, and ChatGPT to seek coding assistance for extracting a frame from an MP4 video and displaying it in Jupyter Notebook, which matches the core objective of using tools for coding help and web browsing. There are no contradictions with specific details named in the reasoning or prediction questions."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some inaccuracies. Frame 1 mentions a terminal showing processing progress, which is not directly related to the keyframes about switching applications and interacting with ChatGPT. Frame 22 describes editing JSON content, which isn't mentioned in the keyframes. Frame 37 discusses running a Python script in Jupyter Notebook, which doesn't align with the keyframe actions involving VS Code and Edge browser interactions. The descriptions do not contradict the keyframes but include additional details not specified in them."
+        },
+        "coverage": {
+          "score": 2.0,
+          "coverage": 0.25,
+          "covered": 2,
+          "total": 8,
+          "covered_actions": [],
+          "covered_apps": [
+            "edge",
+            "vscode"
+          ],
+          "reasoning": "The AI timeline does not describe any actions that match the ground-truth keyframes related to switching full-screen windows or interacting with specific applications like Edge and OpenAI. The timeline focuses on different activities such as viewing JSON files, running scripts in Jupyter Notebook, browsing web pages, and using a chat interface."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, such as repeated descriptions of viewing a webpage or monitoring script output. However, there are also distinct actions and transitions between different tasks (e.g., from code editor to Jupyter Notebook), indicating some level of new information."
+        }
+      },
+      "composite_score": 14.0,
+      "max_score": 20,
+      "latency_sec": 77.09
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0356,
+        "recall": 0.5745,
+        "f1": 0.067
+      },
+      "rouge2": {
+        "precision": 0.0026,
+        "recall": 0.0435,
+        "f1": 0.005
+      },
+      "rougeL": {
+        "precision": 0.0198,
+        "recall": 0.3191,
+        "f1": 0.0372
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0241
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 174.97,
+      "total_vlm_inference_sec": 94.87,
+      "intent_latency_sec": 2.98,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.49,
+      "median_frame_latency_sec": 9.27,
+      "min_frame_latency_sec": 7.42,
+      "max_frame_latency_sec": 14.14,
+      "avg_description_length_chars": 464.5,
+      "total_prompt_tokens": 21907,
+      "total_completion_tokens": 1031,
+      "avg_completion_tokens_per_sec": 10.4,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is seeking Python code to extract a specific frame from an MP4 video file and display it inside a Jupyter Notebook.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 5.41,
+        "frame_description": "The user is viewing the 'youtube-4.1-blueice.jsonl' file in Visual Studio Code.\n\nVisible user-entered text in search bars/form fields:\n- Top search bar: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 22,
+        "timestamp_sec": 0.5,
+        "latency_sec": 7.62,
+        "frame_description": "The user is selecting the \"youtube-4.1-blueice\" item in the file explorer panel in Visual Studio Code.\n\n**Visible user-entered text:**\n* Search bar: `\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 37,
+        "timestamp_sec": 0.83,
+        "latency_sec": 6.8,
+        "frame_description": "The user is viewing a Jupyter Notebook file (`clean.ipynb`) in Visual Studio Code.\n\nVisible user-entered text in the application:\n- Search bar: `rico [SSH:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 52,
+        "timestamp_sec": 1.17,
+        "latency_sec": 7.11,
+        "frame_description": "The user is viewing the `clean.ipynb` notebook in Visual Studio Code.\n\nVisible user-entered text includes:\n- Top search/command bar: `\"rico [SSH",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 67,
+        "timestamp_sec": 1.51,
+        "latency_sec": 5.98,
+        "frame_description": "The user is hovering the mouse cursor over the web page in the browser.\n\nVisible user-entered text:\n- Address bar: \"https://papers.cool\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.85,
+        "latency_sec": 5.02,
+        "frame_description": "The user is viewing the webpage for \"Cool Papers\". \n\n**User-entered text:**\n* Address bar: \"https://papers.cool\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 145,
+        "timestamp_sec": 3.26,
+        "latency_sec": 7.38,
+        "frame_description": "The user is clicking on the cursor button on the top-left sidebar. The visible user-entered text in the address bar is \"https://chat.openai.com/c/e7",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 160,
+        "timestamp_sec": 3.6,
+        "latency_sec": 6.89,
+        "frame_description": "The user is selecting the text 'thisismywebsitenow.com' in the browser window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 238,
+        "timestamp_sec": 5.36,
+        "latency_sec": 7.81,
+        "frame_description": "The user is hovering the cursor over \"ChatGPT Classic\" in the left sidebar menu.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 2266,
+        "timestamp_sec": 50.99,
+        "latency_sec": 7.23,
+        "frame_description": "The user is typing a prompt into the ChatGPT input box. The visible user-entered text includes:\n\n* **Address bar:** \"https://chat.openai.com\"\n* **Chat prompt field:** \"I have a mp4 and I want to extract the specific frame from this video and display it in my jupyter notebook, help me write python code\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 74
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Switch window to edge, ask chatgpt about code questions.",
+      "reference_caption": "A user navigates macOS, switches between VS Code and Edge browser, and interacts with OpenAI's ChatGPT for coding assistance and web browsing.",
+      "reference_apps": [
+        "vscode",
+        "edge",
+        "openai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 29,
+          "sub_goal": "Switch to full screen window on Mac.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 65,
+          "sub_goal": "Switched to full-screen application on Mac again, now switching to Edge.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Opened chatgpt as well.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Created a new chatgpt",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2019,
+          "sub_goal": "Entered a command, then copied the command to prevent chatgpt from swallowing my input if it fails to send successfully.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as described in the goal and caption. The timeline shows that the user is interacting with ChatGPT to ask for Python code to extract a specific frame from an MP4 video and display it in a Jupyter Notebook, which aligns with the goal of asking ChatGPT about code questions. There are no contradictions in the timeline regarding this intent."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The frames describe interactions consistent with switching between applications (VS Code and Edge), using ChatGPT, and typing commands, which aligns with the ground truth. There are no fabricated or contradicted actions in the descriptions. For the STATIC QA, the timeline supports the inference of using VS Code's 'Explorer' feature based on the description of viewing JSON files and folders. The SEQUENTIAL-QA is consistent as it describes closing a ChatGPT dialog and opening a new one to ask for help with a task, matching the keyframes. For the MCQA, the timeline correctly identifies Microsoft Edge as the application used to start a new ChatGPT conversation."
+        },
+        "coverage": {
+          "score": 2.5,
+          "coverage": 0.375,
+          "covered": 3,
+          "total": 8,
+          "covered_actions": [
+            4,
+            5
+          ],
+          "covered_apps": [
+            "openai"
+          ],
+          "reasoning": "The AI timeline does not describe the actions related to switching to full-screen mode on a Mac, nor does it mention switching between applications like Edge or OpenAI. The only relevant action is typing into ChatGPT, which corresponds to keyframe 4 and partially to keyframe 5."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames where consecutive actions are repeated without meaningful change. For example, Frames 1 and 52 both describe viewing the 'clean.ipynb' file with similar search bar text, and Frames 82 and 145 repeat the address bar content without new information. These redundancies occur multiple times throughout the timeline."
+        }
+      },
+      "composite_score": 14.5,
+      "max_score": 20,
+      "latency_sec": 67.95
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0627,
+        "recall": 0.3404,
+        "f1": 0.106
+      },
+      "rouge2": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rougeL": {
+        "precision": 0.0392,
+        "recall": 0.2128,
+        "f1": 0.0662
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0109
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 138.29,
+      "total_vlm_inference_sec": 67.25,
+      "intent_latency_sec": 3.06,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.72,
+      "median_frame_latency_sec": 7.0,
+      "min_frame_latency_sec": 5.02,
+      "max_frame_latency_sec": 7.81,
+      "avg_description_length_chars": 149.3,
+      "total_prompt_tokens": 12551,
+      "total_completion_tokens": 424,
+      "avg_completion_tokens_per_sec": 5.9
+    }
+  }
+}

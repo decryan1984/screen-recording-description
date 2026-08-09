@@ -1,0 +1,501 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/38.mp4",
+  "total_frames": 1067,
+  "fps": 30.0,
+  "video_length_sec": 35.57,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1067,
+  "frames_processed": 12,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was configuring the view settings for a \"Test Folder\" within the Documents directory before navigating to the Trash to permanently delete it and its contents.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 8.19,
+        "frame_description": "The user is configuring the Documents folder view settings in macOS Finder, specifically adjusting options like icon size, grid spacing, text size, and label position. The visible user-entered text includes:\n\n- \"Test Folder\" (folder name)\n- \"Documents\" (window title)\n- \"Always open in icon view\" (checkbox label)\n- \"Browse in icon view\" (checkbox label)\n- \"Group By: None\"\n- \"Sort By: None\"\n- \"Icon size: 76x76\"\n- \"Grid spacing:\"\n- \"Text size: 12\"\n- \"Label position: Bottom\"\n- \"Show item info\" (checkbox label)\n- \"Show icon preview\" (checkbox label)\n- \"Background: Default\"\n- \"Use as Defaults\" (button label)\n\nNo text is actively being typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 190
+      },
+      {
+        "frame_number": 165,
+        "timestamp_sec": 5.5,
+        "latency_sec": 6.07,
+        "frame_description": "The user is hovering over the 'Test Folder' icon in the Documents folder.\n\nVisible user-entered text:\n- \"Test Folder\" (folder name)\n- \"Documents\" (current folder title)\n- \"AirDrop\", \"Recents\", \"Applications\", \"Desktop\", \"Movies\", \"Documents\", \"Downloads\", \"Test Folder\", \"Music\", \"Pictures\", \"iCloud Drive\", \"BOOTCAMP\", \"Red\", \"Orange\", \"Yellow\", \"Green\", \"Blue\", \"Purple\", \"Gray\", \"All Tags...\" (sidebar folder and tag names)",
+        "prompt_tokens": 993,
+        "completion_tokens": 121
+      },
+      {
+        "frame_number": 198,
+        "timestamp_sec": 6.6,
+        "latency_sec": 6.12,
+        "frame_description": "The user is hovering over the 'Test Folder' in the Documents directory.\n\nVisible user-entered text:\n- \"Test Folder\" (folder name)\n- \"Documents\" (current location in sidebar)\n- \"AirDrop\", \"Recents\", \"Applications\", \"Desktop\", \"Movies\", \"Downloads\", \"Test Folder\", \"Music\", \"Pictures\", \"iCloud Drive\", \"BOOTCAMP\", \"Red\", \"Orange\", \"Yellow\", \"Green\", \"Blue\", \"Purple\", \"Gray\", \"All Tags...\" (sidebar items)\n- \"Search\" (search bar label)",
+        "prompt_tokens": 993,
+        "completion_tokens": 125
+      },
+      {
+        "frame_number": 208,
+        "timestamp_sec": 6.93,
+        "latency_sec": 7.14,
+        "frame_description": "The user is hovering over the 'Test Folder' in the Documents folder within the Finder application.\n\nVisible user-entered text:\n- \"Test Folder\" (folder name)\n- \"Documents\" (window title)\n- \"AirDrop\", \"Recents\", \"Applications\", \"Desktop\", \"Movies\", \"Downloads\", \"Test Folder\", \"Music\", \"Pictures\" (sidebar items)\n- \"iCloud Drive\", \"BOOTCAMP\" (locations)\n- \"Red\", \"Change\", \"Yellow\", \"Green\", \"Blue\", \"Purple\", \"Gray\", \"All Tags...\" (tags)\n- \"Movies\", \"Music\", \"Pictures\" (folder names in the bottom window)\n- \"Recite\" (window title in the top-right window)",
+        "prompt_tokens": 993,
+        "completion_tokens": 161
+      },
+      {
+        "frame_number": 219,
+        "timestamp_sec": 7.3,
+        "latency_sec": 9.83,
+        "frame_description": "The user is hovering over the 'Test Folder' in the Documents folder within the Finder application.\n\nVisible user-entered text:\n- \"Test Folder\" (in the Documents folder)\n- \"Documents\" (in the sidebar)\n- \"Test Folder\" (in the sidebar)\n- \"Music\" (in the sidebar)\n- \"Pictures\" (in the sidebar)\n- \"iCloud Drive\" (in the sidebar)\n- \"BOOTCAMP\" (in the sidebar)\n- \"Movies\" (folder name)\n- \"Music\" (folder name)\n- \"Pictures\" (folder name)\n- \"Recents\" (window title)\n- \"Documents\" (window title)\n- \"Search\" (search bar placeholder, not user-entered)\n- \"Fri Mar 17 8:57 PM\" (date and time in the menu bar)\n- \"Finder\" (menu bar item)\n- \"File\" (menu bar item)\n- \"Edit\" (menu bar item)\n- \"View\" (menu bar item)\n- \"Go\" (menu bar item)\n- \"Window\" (menu bar item)\n- \"Help\" (menu bar",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 494,
+        "timestamp_sec": 16.47,
+        "latency_sec": 6.04,
+        "frame_description": "The user is viewing the 'Documents' folder in Finder, with no files currently displayed in the main area. The sidebar shows standard macOS folders like AirDrop, Recents, Applications, Desktop, Movies, Downloads, Music, Pictures, iCloud Drive, and BOOTCAMP, along with tags such as Red, Orange, Yellow, Green, Blue, Purple, Gray, and All Tags. The top-right corner of the screen displays the date and time as 'Fri Mar 17 6:57 PM'. No text has been entered by the user in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 121
+      },
+      {
+        "frame_number": 668,
+        "timestamp_sec": 22.27,
+        "latency_sec": 4.21,
+        "frame_description": "The user is confirming the action to permanently delete items in the Trash by clicking the 'Empty Trash' button in a dialog box.\n\nVisible user-entered text:\n- \"Are you sure you want to permanently erase the items in the Trash?\"\n- \"Empty Trash\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 777,
+        "timestamp_sec": 25.9,
+        "latency_sec": 5.74,
+        "frame_description": "The user is viewing the 'Documents' folder in Finder, with no files currently displayed in the main area. The sidebar shows standard macOS folders like 'AirDrop', 'Recents', 'Applications', 'Desktop', 'Movies', 'Downloads', 'Music', 'Pictures', 'Cloud Drive', and 'BOOTCAMP'. Below these are tags such as 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Gray', and 'All Tags'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 111
+      },
+      {
+        "frame_number": 805,
+        "timestamp_sec": 26.83,
+        "latency_sec": 3.55,
+        "frame_description": "The user is viewing the Trash folder in Finder, which contains two folders named \"Text Folder\" and \"Text Folder 8:57:32 PM\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 951,
+        "timestamp_sec": 31.7,
+        "latency_sec": 4.23,
+        "frame_description": "The user is hovering over the 'Delete Immediately...' option in the context menu within the Trash folder.\n\nVisible user-entered text:\n- \"Trash\" (folder name)\n- \"Test Folder\" (folder name)\n- \"Delete Immediately...\" (menu item)",
+        "prompt_tokens": 993,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 987,
+        "timestamp_sec": 32.9,
+        "latency_sec": 9.84,
+        "frame_description": "The user is hovering over the 'Test Folder' icon in the Finder window.\n\nVisible user-entered text:\n- \"Desktop\" (in the Finder window title bar)\n- \"Test Folder\" (label under the folder icon)\n- \"Finder\" (in the menu bar)\n- \"File\", \"Edit\", \"View\", \"Window\", \"Help\" (menu bar items)\n- \"Fri Mar 17 6:57 PM\" (date and time in the menu bar)\n- \"Test Folder\", \"Macintosh HD\", \"BOOTCAMP\" (folder names on the desktop)\n- \"Movies\", \"Music\", \"Pictures\" (folder names in the bottom Finder window)\n- \"Favorites\", \"AirDrop\", \"Recents\", \"Applications\", \"Desktop\", \"Movies\", \"Documents\", \"Downloads\", \"Music\", \"Pictures\", \"Locations\", \"iCloud Drive\", \"BOOTCAMP\", \"Tags\", \"Red\", \"Orange\", \"Yellow\", \"Green\", \"Blue\", \"Purple\", \"Gray\", \"All Tags...\" (sidebar items in the top Finder window)\n- \"Recents\", \"Applications\", \"Desktop\", \"Movies\", \"Documents\", \"Downloads\", \"Music",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1067,
+        "timestamp_sec": 35.57,
+        "latency_sec": 3.53,
+        "frame_description": "The user is viewing the Desktop folder in Finder, with the \"Test Folder\" item selected. No text is being actively typed or entered in any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 33
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Delete folder, check recycle bin, restore folder.",
+      "reference_caption": "A user moves a 'Test Folder' to the trash and subsequently restores it to the original location on a macOS system.",
+      "reference_apps": [
+        "Mac"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 148,
+          "sub_goal": "Close folder settings",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 243,
+          "sub_goal": "Display the right-click menu for the folder.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 435,
+          "sub_goal": "Move the folder to the trash.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 591,
+          "sub_goal": "Open the right-click menu of the recycle bin.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 668,
+          "sub_goal": "Click \"empty trash\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 763,
+          "sub_goal": "Empty the waste paper basket.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 835,
+          "sub_goal": "Open the trash can.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 934,
+          "sub_goal": "Display the right-click menu for the folder.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 993,
+          "sub_goal": "Click \"pull back\" to restore the folder.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent suggests configuring view settings and navigating to the Trash for deletion, which partially aligns with the user's actions of moving a folder to the trash and restoring it. However, the core objective described in the goal and caption is specifically about deleting a folder, checking the recycle bin (Trash), and restoring it, not just configuring view settings or permanently deleting items. The timeline shows the user hovering over and interacting with the 'Test Folder' but does not explicitly mention configuring view settings before deletion. Therefore, while there is some overlap in actions related to handling the 'Test Folder', the inferred intent misses the core objective of checking and restoring from the Trash."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided in the ground truth. The descriptions correctly identify user interactions such as hovering, clicking, and context menu actions without introducing any fabricated or contradictory details. The timeline supports answering the static QA about the initial view setting for 'Test Folder' and the sequential QA regarding restoring the folder after emptying the Trash. There are no factual errors or hallucinated actions."
+        },
+        "coverage": {
+          "score": 3.4,
+          "coverage": 0.6,
+          "covered": 6,
+          "total": 10,
+          "covered_actions": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "covered_apps": [
+            "Mac"
+          ],
+          "reasoning": "The AI timeline describes actions related to interacting with folders and the Trash in macOS Finder, but it does not explicitly cover all the keyframe actions such as closing settings or moving a folder to trash. The timeline includes viewing folders, hovering over items, and emptying the trash."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information without significant changes, such as hovering over 'Test Folder' and listing sidebar items. However, there are also distinct actions like confirming deletion and viewing different folders."
+        }
+      },
+      "composite_score": 14.4,
+      "max_score": 20,
+      "latency_sec": 82.13
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0438,
+        "recall": 0.6415,
+        "f1": 0.0819
+      },
+      "rouge2": {
+        "precision": 0.009,
+        "recall": 0.1346,
+        "f1": 0.0169
+      },
+      "rougeL": {
+        "precision": 0.0335,
+        "recall": 0.4906,
+        "f1": 0.0627
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0161
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 162.1,
+      "total_vlm_inference_sec": 74.49,
+      "intent_latency_sec": 5.45,
+      "frames_processed": 12,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.21,
+      "median_frame_latency_sec": 6.05,
+      "min_frame_latency_sec": 3.53,
+      "max_frame_latency_sec": 9.84,
+      "avg_description_length_chars": 449.2,
+      "total_prompt_tokens": 13431,
+      "total_completion_tokens": 1553,
+      "avg_completion_tokens_per_sec": 20.4,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is trying to restore a deleted folder named \"Test Folder\" from the Trash back to the desktop.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.28,
+        "frame_description": "The user is clicking on the 'Right' option under 'Label position:' in the Finder view options window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 165,
+        "timestamp_sec": 5.5,
+        "latency_sec": 5.17,
+        "frame_description": "The user is clicking on a blank space in the \"Documents\" window. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 198,
+        "timestamp_sec": 6.6,
+        "latency_sec": 3.31,
+        "frame_description": "The user is clicking on an empty area inside the \"Documents\" window. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 208,
+        "timestamp_sec": 6.93,
+        "latency_sec": 3.84,
+        "frame_description": "The user is moving the cursor over the empty space in the Documents folder window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 219,
+        "timestamp_sec": 7.3,
+        "latency_sec": 5.38,
+        "frame_description": "The user is clicking on the empty space inside the 'Documents' Finder window. There is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 494,
+        "timestamp_sec": 16.47,
+        "latency_sec": 6.33,
+        "frame_description": "The user is viewing multiple open Finder windows on the desktop. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 668,
+        "timestamp_sec": 22.27,
+        "latency_sec": 6.2,
+        "frame_description": "The user is viewing a system confirmation prompt asking \"Are you sure you want to permanently erase the items in the Trash?\". \n\nThere is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 777,
+        "timestamp_sec": 25.9,
+        "latency_sec": 6.39,
+        "frame_description": "The user is hovering the mouse cursor over the Trash icon in the Mac Dock. \n\nThere is no visible user-entered text in any search bars or form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 805,
+        "timestamp_sec": 26.83,
+        "latency_sec": 3.71,
+        "frame_description": "The user is clicking on the 'Trash' icon in the Dock.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 951,
+        "timestamp_sec": 31.7,
+        "latency_sec": 4.63,
+        "frame_description": "The user is selecting \"Put Back\" from the context menu of \"Test Folder\" in the Trash window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 987,
+        "timestamp_sec": 32.9,
+        "latency_sec": 3.82,
+        "frame_description": "The user is clicking on an empty area inside the Finder window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 1067,
+        "timestamp_sec": 35.57,
+        "latency_sec": 5.55,
+        "frame_description": "The user is clicking on the \"Test Folder\" icon on the desktop.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Delete folder, check recycle bin, restore folder.",
+      "reference_caption": "A user moves a 'Test Folder' to the trash and subsequently restores it to the original location on a macOS system.",
+      "reference_apps": [
+        "Mac"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 148,
+          "sub_goal": "Close folder settings",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 243,
+          "sub_goal": "Display the right-click menu for the folder.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 435,
+          "sub_goal": "Move the folder to the trash.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 591,
+          "sub_goal": "Open the right-click menu of the recycle bin.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 668,
+          "sub_goal": "Click \"empty trash\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 763,
+          "sub_goal": "Empty the waste paper basket.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 835,
+          "sub_goal": "Open the trash can.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 934,
+          "sub_goal": "Display the right-click menu for the folder.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 993,
+          "sub_goal": "Click \"pull back\" to restore the folder.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as described by both the goal and caption. The timeline shows actions consistent with deleting a folder, checking the recycle bin (Trash), and restoring it to its original location, which aligns with the core objective of managing files on macOS. Specifically, the action at Frame 951 where the user selects 'Put Back' from the context menu in the Trash window matches the intent to restore the 'Test Folder'. There are no contradictions in the timeline regarding these actions."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. Frame 1 mentions clicking 'Right' under 'Label position:', which is not specified in the keyframes, and frames 165-219 describe clicks on empty spaces without specifying actions related to moving a folder to trash or restoring it. The description of confirming permanent deletion (Frame 668) aligns with the keyframe for emptying the trash but does not mention canceling this action as described in the MCQA correct answer. Frame 951 correctly describes selecting 'Put Back', consistent with the sequential QA answer."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 5,
+          "total": 10,
+          "covered_actions": [
+            4,
+            5,
+            7,
+            9
+          ],
+          "covered_apps": [
+            "Mac"
+          ],
+          "reasoning": "The AI timeline describes actions related to interacting with the Finder and Trash on a Mac, which aligns with some of the keyframe actions. The timeline includes clicking on the Trash icon, emptying the trash, and restoring an item from the Trash."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as clicking on empty spaces in the 'Documents' window. These entries are redundant because they do not provide new information about user interactions or system states."
+        }
+      },
+      "composite_score": 14.0,
+      "max_score": 20,
+      "latency_sec": 72.06
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1384,
+        "recall": 0.5849,
+        "f1": 0.2238
+      },
+      "rouge2": {
+        "precision": 0.0224,
+        "recall": 0.0962,
+        "f1": 0.0364
+      },
+      "rougeL": {
+        "precision": 0.1027,
+        "recall": 0.434,
+        "f1": 0.1661
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0087
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 132.27,
+      "total_vlm_inference_sec": 58.61,
+      "intent_latency_sec": 1.59,
+      "frames_processed": 12,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.88,
+      "median_frame_latency_sec": 4.9,
+      "min_frame_latency_sec": 3.31,
+      "max_frame_latency_sec": 6.39,
+      "avg_description_length_chars": 102.2,
+      "total_prompt_tokens": 14841,
+      "total_completion_tokens": 292,
+      "avg_completion_tokens_per_sec": 4.6
+    }
+  }
+}

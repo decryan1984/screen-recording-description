@@ -1,0 +1,554 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/470.mov",
+  "total_frames": 1335,
+  "fps": 44.375747905863584,
+  "video_length_sec": 30.08,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1335,
+  "frames_processed": 19,
+  "vlm": {
+    "model": "qwen3.5:latest",
+    "diff_threshold": 0.01,
+    "intent": "The user is running a Python script to process and clean video data files while simultaneously navigating the Windows Start menu and Settings to manage application pins and system configurations.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 135.54,
+        "frame_description": "The user is viewing a code editor with Python scripts and JSON files, where the terminal displays progress on processing data with percentages and file names like \"cleaned-software-4.1-peter.json\" and \"cleaned-youtube-4.1-blueice.json\". The visible text includes commands such as `python azure_gpt.py --input \"software-4.1-peter.json\" --output \"cleaned-software-4.1-peter.json\"` and output messages like \"Processing data: 53%\" along with file paths and directory structures in the explorer panel.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 120
+      },
+      {
+        "frame_number": 47,
+        "timestamp_sec": 1.06,
+        "latency_sec": 37.12,
+        "frame_description": "The user is viewing a code editor with Python scripts and JSON files, where the terminal displays progress on processing data with percentages and file names like \"software-4.1-peter.jsonl\" and \"cleaned-software-4.1-peter.jsonl\". The status bar shows \"Deleting 43 files\" and the interpreter is set to Python.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 238,
+        "timestamp_sec": 5.36,
+        "latency_sec": 60.65,
+        "frame_description": "The user is hovering over the file '0.mp4' in the Explorer panel of Visual Studio Code. The terminal displays the text: \"Done! Answers saved to dataset_all_with_answers.json\", followed by a command line showing \"Processing data: 53%\" up to \"Processing data: 71%\", with a progress bar indicating completion at \"54/76\". The status bar shows \"Ln 68, Col 27\", \"Spaces: 4\", \"UTF-8\", \"LF\", \"Python\", and \"Select Interpreter\". The SSH connection is active to \"5050-14.19.198.105\", and the session has been running for \"3 hrs 9 mins\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 155
+      },
+      {
+        "frame_number": 286,
+        "timestamp_sec": 6.44,
+        "latency_sec": 21.28,
+        "frame_description": "The user is viewing a video file named '0.mp4' in the VS Code editor, with the terminal displaying progress on processing data from a JSON file. The terminal shows the command: `python azure_gpt.py --input \"software-4.1-peter.json\" --output \"cleaned-software-4.1-peter.json\"` and the output includes messages like \"Done! Answers saved to dataset_all_with_answers.json\" and \"Processing data: 71%\". The status bar indicates an SSH connection to '5050-14.19.198.105', and the bottom right corner shows a file size of '536.18KB'.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 147
+      },
+      {
+        "frame_number": 301,
+        "timestamp_sec": 6.78,
+        "latency_sec": 14.44,
+        "frame_description": "The user is typing 'Type here to search' in the search bar of the Start menu.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 399,
+        "timestamp_sec": 8.99,
+        "latency_sec": 16.5,
+        "frame_description": "The user is hovering over the 'Settings' application in the Start menu. The visible user-entered text includes: \"Type here to search\" in the search bar, \"GUI [SSH: 5050-14.19.198.105]\" in the terminal tab, and \"Processing data: 53%\" through \"Processing data: 74%\" in the terminal output.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 88
+      },
+      {
+        "frame_number": 478,
+        "timestamp_sec": 10.77,
+        "latency_sec": 16.17,
+        "frame_description": "The user is right-clicking on the 'Settings' app in the Start menu. The visible user-entered text includes: \"Type here to search\" in the search bar, \"Unpin from Start\" and \"More\" in the context menu, and \"GUI [SSH: 5050-14.19.198.105]\" in the terminal tab.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 83
+      },
+      {
+        "frame_number": 493,
+        "timestamp_sec": 11.11,
+        "latency_sec": 22.65,
+        "frame_description": "The user is right-clicking on the 'Settings' app in the Start menu to access the context menu. The visible text includes: \"Type here to search\", \"All apps\", \"Back\", \"Prime Video for Windows\", \"Productionserver21\", \"R\", \"Realtek HD Audio Manager\", \"S\", \"Settings\", \"Unpin from Start\", \"More\", \"Skype\", \"Snipping Tool\", \"Solitaire Collection\", \"Spotify\", \"Sticky Notes\", \"Time Clock MTS\", \"HMLaptop1\", \"GUI [SSH: 5050-14.19.198.105]\", \"azure_gpt.py\", \"0.mp4\", \"count.ipynb\", \"youtube-4.1-blueice.jsonl\", \"GUI > Youtube > youtube-4.1-blueice > 0.mp4\", \"cleaned_website1.jsonl\", \"website1.jsonl\", \"4.5\", \"mobile-rico\", \"Annotations\", \"Videos\", \"scripts\", \"azure_gpt.py\", \"cleaned-software-4.1-peter.jsonl\", \"cleaned-youtube-4.1-blueice.jsonl\", \"count.ipynb\",",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 644,
+        "timestamp_sec": 14.51,
+        "latency_sec": 15.42,
+        "frame_description": "The user is viewing a desktop with an open Start menu and a terminal window displaying progress on processing data. The visible user-entered text includes: \"Type here to search\" in the search bar, \"All apps\" in the Start menu, and \"Processing data: [percentage]\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 741,
+        "timestamp_sec": 16.7,
+        "latency_sec": 17.76,
+        "frame_description": "The user is viewing a desktop with a Windows Start menu open, displaying various application icons and a search bar with the text \"Type here to search\". The terminal window shows progress messages such as \"Processing data: 53%\" up to \"Processing data: 75%\", along with a timestamp \"02:36:01:01, 3.26s/it\". The file explorer lists multiple files including \"0.mp4\", \"1.mp4\", etc., under the directory \"youtube-4.1-blueice\". No additional user-entered text is visible beyond the aforementioned elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 127
+      },
+      {
+        "frame_number": 756,
+        "timestamp_sec": 17.04,
+        "latency_sec": 16.5,
+        "frame_description": "The user is viewing a desktop with a Windows 11 background and several icons, including Google Chrome, Microsoft Edge, Dropbox, and others. The terminal window shows progress on processing data, with percentages ranging from 53% to 75%. The file explorer displays a list of video files named '0.mp4' through '17.mp4'. The user is not actively typing or interacting with any form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 833,
+        "timestamp_sec": 18.77,
+        "latency_sec": 14.02,
+        "frame_description": "The user is typing in the search bar on the desktop. The text being typed is \"type here to search\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 1175,
+        "timestamp_sec": 26.48,
+        "latency_sec": 13.76,
+        "frame_description": "The user is typing 'settings' in the search bar of the Windows Start menu.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 1198,
+        "timestamp_sec": 27.0,
+        "latency_sec": 13.83,
+        "frame_description": "The user is typing 'settings' in the search bar of the Windows Start menu.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 1213,
+        "timestamp_sec": 27.33,
+        "latency_sec": 18.5,
+        "frame_description": "The user is viewing a remote desktop session in Visual Studio Code, where a script is processing data at 80% completion. The terminal displays the text \"Processing data: 80%\" and \"02:49:00:48, 3.21s/it\". The file explorer shows multiple video files (e.g., \"0.mp4\", \"1.mp4\") under the folder \"youtube-4.1-blueice\". The desktop background features a blue abstract design with icons for applications like Google Chrome, Microsoft Edge, Dropbox, and others. The taskbar includes system icons and the time \"10:28 AM 5/28/2022\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 147
+      },
+      {
+        "frame_number": 1242,
+        "timestamp_sec": 27.99,
+        "latency_sec": 16.71,
+        "frame_description": "The user is viewing a desktop with a window open, displaying a progress bar that reads \"Processing data: 80%\". The terminal shows the same progress percentage along with a timestamp \"02:49:00:48, 3.21s/it\". The file explorer lists multiple MP4 files, including \"0.mp4\" through \"17.mp4\". The user is not actively typing or interacting with any form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 98
+      },
+      {
+        "frame_number": 1257,
+        "timestamp_sec": 28.33,
+        "latency_sec": 20.14,
+        "frame_description": "The user is viewing the Windows Settings window, which displays system information and options such as Bluetooth & devices, Network & internet, Personalization, Apps, Accounts, Time & language, Gaming, Accessibility, Privacy & security, Windows Update, Display, Sound, Notifications, Focus assist, Power & battery, Storage, Nearby sharing, and Multitasking. The terminal at the bottom shows a progress bar with text \"Processing data: 80%\" and \"02:49:00:48, 3.21s/it\". The file explorer on the left lists various files and folders, including \"0.mp4\", \"1.mp4\", up to \"17.mp4\", and other files like \"azure_gpt.py\", \"count.ipynb\", and \"youtube-4.1-blueice.jsonl\". The user is not actively typing or interacting with any form fields or search bars in the visible application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 192
+      },
+      {
+        "frame_number": 1272,
+        "timestamp_sec": 28.66,
+        "latency_sec": 22.39,
+        "frame_description": "The user is viewing a video titled \"0.mp4\" in a media player, which displays the Windows Settings window on the desktop. The terminal shows processing data percentages increasing from 58% to 80%, with a speed of 3.21s/it at timestamp 02:49:00:48. The visible text includes \"GUI [SSH: 5050-14.19.198.105]\", \"azure_gpt.py\", \"0.mp4\", \"count.ipynb\", \"youtube-4.1-blueice.jsonl\", \"System\", \"HMLaptop!\", \"Local Account\", \"DESKTOP-HRP4PP6\", \"X705UAR\", \"Rename\", \"Microsoft 365\", \"OneDrive\", \"Windows Update\", \"Last checked: 14 minutes ago\", \"Display\", \"Monitors, brightness, night light, display profile\", \"Sound\", \"Volume levels, output, input, sound devices\", \"Notifications\", \"Alerts from apps and system\", \"Focus assist\", \"Notifications, automatic rules\", \"Power & battery\", \"Sleep, battery usage, battery saver\", \"Storage\", \"Storage space, drives",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1335,
+        "timestamp_sec": 30.08,
+        "latency_sec": 18.54,
+        "frame_description": "The user is viewing a video titled \"0.mp4\" in a media player, with the Windows Settings window open to the System settings page. The terminal displays progress messages such as \"Processing data: 59%\" up to \"Processing data: 82%\", and the timeline shows elapsed time \"02:52<00:45, 3.25s/it\". The visible text includes file names like \"azure_gpt.py\", \"count.ipynb\", \"youtube-4.1-blueice.json\", and folder names like \"GUI\", \"Youtube\", \"programming\", \"Software\", \"Website copy\", along with system settings options like \"Display\", \"Sound\", \"Notifications\", etc.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 149
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View a video on the server in vscode.",
+      "reference_caption": "Viewing a Windows tutorial video in Visual Studio Code on macOS and monitoring data processing progress in the terminal.",
+      "reference_apps": [
+        "vscode"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 101,
+          "sub_goal": "The progress bar of tqdm is displaying data slowly in the terminal.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 250,
+          "sub_goal": "Clicked on the 0.mp4 file in the left file management system, opened a video file, and previewed it in vscode.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 317,
+          "sub_goal": "The video has loaded.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 333,
+          "sub_goal": "Click to play and start browsing the video.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1215,
+          "sub_goal": "Always browsing videos, now the video is a Windows tutorial video, teaching how to open settings.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent captures the user's actions of running a Python script for data processing while navigating Windows settings, which aligns with the goal and caption of monitoring data processing progress in the terminal and viewing a video. The timeline supports this by showing progression in the tqdm bar and interactions with both the terminal and Windows settings. However, there is no explicit mention of watching a specific tutorial video, only '0.mp4', which could be any content. Thus, while the core objective of monitoring data processing is captured, the specific intent related to viewing a Windows tutorial video is not fully supported by the timeline."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some inaccuracies. Frame 1 mentions Python scripts and JSON files, which is not directly related to the keyframes focused on video interaction. Frames 286 and 301 correctly describe interactions with '0.mp4' and searching in the Start menu, aligning with keyframe actions. However, frames like 238 and 644 introduce details about SSH connections and terminal outputs that are not explicitly mentioned in the keyframes or caption. These discrepancies suggest some fabricated content but do not contradict the main sequence of user interactions."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 3,
+          "total": 6,
+          "covered_actions": [
+            2,
+            5
+          ],
+          "covered_apps": [
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to processing data in a terminal, interacting with files and videos within Visual Studio Code, and navigating Windows settings. However, it does not explicitly describe the specific keyframe actions such as clicking on tqdm progress bar or playing a video."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information about the user's actions and on-screen states, such as viewing files in a code editor, terminal progress updates, and desktop settings. However, there are also distinct changes like typing in search bars or interacting with different applications."
+        }
+      },
+      "composite_score": 13.0,
+      "max_score": 20,
+      "latency_sec": 291.3
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0375,
+        "recall": 0.7869,
+        "f1": 0.0716
+      },
+      "rouge2": {
+        "precision": 0.0109,
+        "recall": 0.2333,
+        "f1": 0.0209
+      },
+      "rougeL": {
+        "precision": 0.0281,
+        "recall": 0.5902,
+        "f1": 0.0537
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.017
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:latest",
+      "standalone_pipeline_sec": 810.53,
+      "total_vlm_inference_sec": 511.92,
+      "intent_latency_sec": 7.23,
+      "frames_processed": 19,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 26.94,
+      "median_frame_latency_sec": 17.76,
+      "min_frame_latency_sec": 13.76,
+      "max_frame_latency_sec": 135.54,
+      "avg_description_length_chars": 406.2,
+      "total_prompt_tokens": 41962,
+      "total_completion_tokens": 2156,
+      "avg_completion_tokens_per_sec": 4.1,
+      "model_memory_mb": 8141,
+      "model_params": 9653104368
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was attempting to navigate through folders in the Visual Studio Code file explorer to locate and view a video file (`0.mp4`).",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 6.86,
+        "frame_description": "The user is hovering the cursor over the file explorer on the left sidebar.\n\n**Visible user-entered text:**\n* Top bar: `GUI [SSH: 5050-14.19.198.105]`\n* Terminal prompt: `python azure_gpt.py --input \"software-4.1-peter.jsonl\" --output \"cleaned-software-4.1-peter.jsonl\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 47,
+        "timestamp_sec": 1.06,
+        "latency_sec": 6.9,
+        "frame_description": "The user is clicking on the \"youtube-4.1-blueice\" folder in the file explorer sidebar.\n\nAll visible user-entered text:\n- Top search bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 238,
+        "timestamp_sec": 5.36,
+        "latency_sec": 6.22,
+        "frame_description": "The user is clicking on the \"0.mp4\" file under the \"youtube-4.1-blueice\" folder in the Visual Studio Code file explorer panel.\n\nVisible user-entered text includes:\n- Top search/command bar: `\"GUI [SSH: 5050-14.19.198.105]\"`\n- Terminal input command: `\"python azure_gpt.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 89
+      },
+      {
+        "frame_number": 286,
+        "timestamp_sec": 6.44,
+        "latency_sec": 6.53,
+        "frame_description": "The user is viewing the media file '0.mp4' in Visual Studio Code.\n\n**Visible user-entered text:**\n* Search/address bar: `\"GUI [SSH: 5050-14.19.198.105]\"`\n* Terminal command: `\"python azure_gpt.py --input \"software-4.1-peter.jsonl\" --output \"cleaned-software",
+        "prompt_tokens": 1200,
+        "completion_tokens": 91
+      },
+      {
+        "frame_number": 301,
+        "timestamp_sec": 6.78,
+        "latency_sec": 7.06,
+        "frame_description": "The user is viewing a video file named \"0.mp4\" in Visual Studio Code with the user-entered text \"GUI [SSH: 5050-14.19.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 399,
+        "timestamp_sec": 8.99,
+        "latency_sec": 7.29,
+        "frame_description": "The user is viewing a video in Visual Studio Code.\n\n**User-entered text:**\n* Top search bar: `\"GUI [SSH: 5050-1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 478,
+        "timestamp_sec": 10.77,
+        "latency_sec": 7.15,
+        "frame_description": "The user is clicking on the '0.mp4' file in the left explorer sidebar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 493,
+        "timestamp_sec": 11.11,
+        "latency_sec": 6.3,
+        "frame_description": "The user is clicking on the 'Unpin from Start' option in the menu.\n\n**User-entered text:** \"GUI [SSH: 5050-14.19.198.105]\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 644,
+        "timestamp_sec": 14.51,
+        "latency_sec": 7.03,
+        "frame_description": "The user is viewing the video file '0.mp4' in Visual Studio Code with \"GUI [SSH: 5050-14.19.198.10",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 741,
+        "timestamp_sec": 16.7,
+        "latency_sec": 6.37,
+        "frame_description": "The user is viewing the \"0.mp4\" file in Visual Studio Code.\n\n**Visible user-entered text:**\n* Top search bar: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 756,
+        "timestamp_sec": 17.04,
+        "latency_sec": 6.32,
+        "frame_description": "The user is viewing the video file '0.mp4' in Visual Studio Code.\n\n**User-entered text:**\n- Search bar: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 833,
+        "timestamp_sec": 18.77,
+        "latency_sec": 7.54,
+        "frame_description": "The user is viewing the video file `0.mp4` in the editor.\n\n**Visible user-entered text:**\n\"GUI [SSH: 5050-14.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1175,
+        "timestamp_sec": 26.48,
+        "latency_sec": 6.0,
+        "frame_description": "The user is watching a video named '0.mp4' in Visual Studio Code. The visible user-entered text is \"GUI [SSH: 5050-14.19.198.105]\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1198,
+        "timestamp_sec": 27.0,
+        "latency_sec": 5.86,
+        "frame_description": "The user is clicking on the 'Apps' tab.\n\n**Visible user-entered text:**\n* Top search bar: `\"GUI [SSH: 5050-14.19.198.105]\"`\n* Windows search bar (in video): `\"settings\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 1213,
+        "timestamp_sec": 27.33,
+        "latency_sec": 5.7,
+        "frame_description": "The user is viewing the video file '0.mp4' in Visual Studio Code. \n\nThe visible text in the top search bar is \"GUI [SSH: 5050-14.19.198.105]\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 1242,
+        "timestamp_sec": 27.99,
+        "latency_sec": 6.36,
+        "frame_description": "The user is viewing the video file '0.mp4' in Visual Studio Code. The visible user-entered text in the top search bar is \"GUI [SSH: 5050-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1257,
+        "timestamp_sec": 28.33,
+        "latency_sec": 7.38,
+        "frame_description": "The user is watching the video file '0.mp4' in Visual Studio Code.\n\n**Visible user-entered text:**\n- Search bar at top: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 1272,
+        "timestamp_sec": 28.66,
+        "latency_sec": 7.92,
+        "frame_description": "The user is viewing the video file '0.mp4' in Visual Studio Code. \n\nVisible user-entered text in application input fields includes:\n- Command Center / Search bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1335,
+        "timestamp_sec": 30.08,
+        "latency_sec": 6.01,
+        "frame_description": "The user is clicking on 'Website copy' in the file explorer panel on the left.\n\nVisible user-entered text:\n- Search bar: \"GUI [SSH: 5050-14.19.198.105]\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 55
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View a video on the server in vscode.",
+      "reference_caption": "Viewing a Windows tutorial video in Visual Studio Code on macOS and monitoring data processing progress in the terminal.",
+      "reference_apps": [
+        "vscode"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 101,
+          "sub_goal": "The progress bar of tqdm is displaying data slowly in the terminal.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 250,
+          "sub_goal": "Clicked on the 0.mp4 file in the left file management system, opened a video file, and previewed it in vscode.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 317,
+          "sub_goal": "The video has loaded.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 333,
+          "sub_goal": "Click to play and start browsing the video.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1215,
+          "sub_goal": "Always browsing videos, now the video is a Windows tutorial video, teaching how to open settings.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective as both involve navigating through folders in Visual Studio Code to locate and view a video file ('0.mp4'). The timeline supports this with actions like clicking on folders and files, consistent with viewing a Windows tutorial video. For the reasoning question, the progression of the tqdm progress bar indicates ongoing data processing when the user starts watching the video, which aligns with the answer 'B'. In the prediction question, the next step after clicking '0.mp4' is indeed starting video playback, matching typical behavior and the timeline detail that the file was clicked and viewed."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. The keyframes indicate specific interactions such as clicking on '0.mp4' and watching a Windows tutorial video, which align with the AI descriptions of viewing and interacting with '0.mp4'. However, there is an inconsistency in Frame 493 where it mentions clicking 'Unpin from Start', which does not appear in the keyframes. This could be considered a fabricated action. The timeline supports answering the STATIC QA correctly by showing the path to '0.mp4' as described. For SEQUENTIAL-QA, the timeline aligns with watching the video after opening it. The MCQA is also supported by the timeline, which shows the user viewing a Windows tutorial video."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 5,
+          "total": 6,
+          "covered_actions": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to interacting with a video file in Visual Studio Code, which aligns with some of the keyframe actions. However, not all keyframe actions are explicitly described."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline contains numerous consecutive frames that describe similar actions and visible text without meaningful changes, particularly regarding viewing '0.mp4' in Visual Studio Code with the same user-entered text. This repetition suggests a high level of redundancy."
+        }
+      },
+      "composite_score": 14.33,
+      "max_score": 20,
+      "latency_sec": 102.7
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.065,
+        "recall": 0.5574,
+        "f1": 0.1164
+      },
+      "rouge2": {
+        "precision": 0.0268,
+        "recall": 0.2333,
+        "f1": 0.0481
+      },
+      "rougeL": {
+        "precision": 0.0612,
+        "recall": 0.5246,
+        "f1": 0.1096
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0067
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 231.81,
+      "total_vlm_inference_sec": 126.8,
+      "intent_latency_sec": 2.3,
+      "frames_processed": 19,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.67,
+      "median_frame_latency_sec": 6.53,
+      "min_frame_latency_sec": 5.7,
+      "max_frame_latency_sec": 7.92,
+      "avg_description_length_chars": 151.8,
+      "total_prompt_tokens": 24046,
+      "total_completion_tokens": 1038,
+      "avg_completion_tokens_per_sec": 8.0
+    }
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/65.mp4",
+  "total_frames": 1130,
+  "fps": 29.999983407088823,
+  "video_length_sec": 37.67,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1130,
+  "frames_processed": 13,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was primarily browsing the NeurIPS 2024 conference webpage to review blog entries and important dates while simultaneously managing game downloads for \"Lethal Company\" and \"3DMark\" via Steam. Additionally, the user engaged in a chat session within the \"Ethical Company\" application, sending multiple messages in Chinese, before later checking the League of Legends client for a Skarner theme and enabling two-factor authentication.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.87,
+        "frame_description": "The user is scrolling down the NeurIPS 2024 webpage, viewing sections such as \"Latest NeurIPS Blog Entries\" and \"Important Dates.\" No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 246,
+        "timestamp_sec": 8.2,
+        "latency_sec": 4.03,
+        "frame_description": "The user is viewing the NeurIPS 2024 conference webpage in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 256,
+        "timestamp_sec": 8.53,
+        "latency_sec": 3.84,
+        "frame_description": "The user is viewing the NeurIPS 2024 conference webpage, specifically the \"Latest NeurIPS Blog Entries\" and \"Important Dates\" sections. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 301,
+        "timestamp_sec": 10.03,
+        "latency_sec": 5.07,
+        "frame_description": "The user is typing in the chat window of the \"Ethical Company\" application.\n\nVisible user-entered text in the application:\n- \"demg wo xia yi ge\"\n- \"xia hao le lai\"\n- \"\u4f60\u597dQ\u7fa4\u7fa4 \u56de\u597d\"\n- \"shuaishuai_rdp\"\n- \"wo yi hui lai\"\n- \"wo zai da biao\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 87
+      },
+      {
+        "frame_number": 516,
+        "timestamp_sec": 17.2,
+        "latency_sec": 3.85,
+        "frame_description": "The user is viewing the NeurIPS 2024 conference webpage, which displays blog entries and important dates for the event. No text is being actively typed or entered in any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 559,
+        "timestamp_sec": 18.63,
+        "latency_sec": 3.67,
+        "frame_description": "The user is viewing the NeurIPS 2024 conference webpage, which displays blog entries and important dates for the event. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 569,
+        "timestamp_sec": 18.97,
+        "latency_sec": 3.38,
+        "frame_description": "The user is viewing a webpage listing important dates for NeurIPS 2024, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 579,
+        "timestamp_sec": 19.3,
+        "latency_sec": 4.69,
+        "frame_description": "The user is viewing a webpage about the NeurIPS 2024 conference, specifically the \"Important Dates\" section, which lists various deadlines and notifications for the event. The page includes details such as submission deadlines, workshop proposal dates, and other critical information for attendees. There are no visible user-entered text fields or active typing actions on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 611,
+        "timestamp_sec": 20.37,
+        "latency_sec": 4.78,
+        "frame_description": "The user is viewing a webpage about the NeurIPS 2024 conference, specifically the \"Important Dates\" section, which lists various deadlines and notifications for the event. The page includes details such as submission deadlines, workshop proposal dates, and other key dates relevant to participants. There is no active input or typing occurring in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 693,
+        "timestamp_sec": 23.1,
+        "latency_sec": 4.74,
+        "frame_description": "The user is viewing the Steam client interface, specifically the \"Starting Download\" section for the game \"Lethal Company,\" with no downloads currently in the queue. The user has scheduled two games: \"a guard walks into a tavern\" and \"3DMark.\" There is no active typing or input being performed by the user in any form fields or text areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 830,
+        "timestamp_sec": 27.67,
+        "latency_sec": 4.17,
+        "frame_description": "The user is viewing the League of Legends client, specifically the Skarner Champion Theme page, with a notification about enabling two-factor authentication visible in the top-right corner. No user-entered text is currently visible in any form fields or input areas within the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 909,
+        "timestamp_sec": 30.3,
+        "latency_sec": 3.88,
+        "frame_description": "The user is viewing the \"Starting Download\" screen in the Riot Games client, with a pop-up notification about enabling two-factor authentication. No user-entered text is visible in form fields or search bars at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1130,
+        "timestamp_sec": 37.67,
+        "latency_sec": 9.89,
+        "frame_description": "The user is viewing a desktop with multiple open applications, including a web browser showing a NeuIPS 2024 conference page and a Steam client displaying download progress for \"Lethal Company.\" There is no active typing or input being performed by the user at this moment.\n\nVisible user-entered text in applications:\n- In the web browser (NeuIPS 2024 page):\n  - \"NeuIPS 2024\" (in the browser tab)\n  - \"NeuIPS Newsletter \u2013 September 2023\" (in the email list)\n  - \"Introducing the College Outreach Program at NeuIPS 2023\" (in the email list)\n  - \"Sep 12, 2023\" (date in email list)\n  - \"Your NeuIPS Workshop was Accepted \u2013 Now What?\" (email subject)\n  - \"Organizing Committee\" (section heading)\n  - \"General Chair\" (role heading)\n  - \"Program Chair\" (role heading)\n  - \"NeuIPS uses cookies to remember that you are logged in. By using our websites, you agree to the placement of cookies. Our Privacy Policy.\" (",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Discover local network issues through Steam friend chat.",
+      "reference_caption": "Troubleshooting local network issues through interactions with Steam chat and game downloads on a Windows desktop.",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "steam",
+        "riot games"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 237,
+          "sub_goal": "A message notification popped up from the Steam friend in the lower right corner.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 357,
+          "sub_goal": "I clicked on the message he sent me, and the chat interface popped up, only to find that my messages did not send successfully.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 697,
+          "sub_goal": "Click on the right side of Steam, and found that the games on Steam have not started downloading.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 841,
+          "sub_goal": "Clicked on the Riot Games icon in the bottom application bar on the desktop, found network issues, download is very slow.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 858,
+          "sub_goal": "Click to pause download",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 915,
+          "sub_goal": "Clicked on the steam interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 940,
+          "sub_goal": "Clicked \"Pause Download\" on the Steam interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1006,
+          "sub_goal": "Clicked start download again, equivalent to restarting the download.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 1,
+          "reasoning": "The AI inferred intent focuses on browsing a conference webpage and managing game downloads while engaging in chat, which does not align with the goal of discovering local network issues through Steam friend chat. The timeline shows interactions with various applications but lacks evidence of troubleshooting network issues via chat or download management."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions do not align with the keyframes provided in the ground truth. The keyframes describe interactions within Steam and Riot Games applications, while the AI frames focus on unrelated activities such as viewing a NeurIPS conference webpage and interacting with other applications like League of Legends client. This discrepancy indicates fabricated content that contradicts the specified user actions in the keyframes."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 8,
+          "total": 12,
+          "covered_actions": [
+            1,
+            3,
+            5,
+            6,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "riot games",
+            "steam"
+          ],
+          "reasoning": "The AI timeline describes actions related to viewing the NeurIPS 2024 webpage and interacting with Steam and Riot Games interfaces, which partially aligns with some keyframe actions involving notifications and downloads."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of viewing the NeurIPS 2024 webpage without meaningful changes, indicating redundancy. However, there are also distinct entries describing different applications and user actions."
+        }
+      },
+      "composite_score": 8.67,
+      "max_score": 20,
+      "latency_sec": 75.58
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0768,
+        "recall": 0.4608,
+        "f1": 0.1317
+      },
+      "rouge2": {
+        "precision": 0.0245,
+        "recall": 0.1485,
+        "f1": 0.0421
+      },
+      "rougeL": {
+        "precision": 0.049,
+        "recall": 0.2941,
+        "f1": 0.084
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0177
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 139.83,
+      "total_vlm_inference_sec": 59.86,
+      "intent_latency_sec": 4.35,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.6,
+      "median_frame_latency_sec": 4.03,
+      "min_frame_latency_sec": 3.38,
+      "max_frame_latency_sec": 9.89,
+      "avg_description_length_chars": 294.7,
+      "total_prompt_tokens": 13967,
+      "total_completion_tokens": 998,
+      "avg_completion_tokens_per_sec": 15.2,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to check the NeurIPS 2024 conference website while managing game downloads and updates in Steam and the Riot Client.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.93,
+        "frame_description": "The user is viewing a webpage with the URL 'https://nips.cc/Conferences/2024'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 246,
+        "timestamp_sec": 8.2,
+        "latency_sec": 6.41,
+        "frame_description": "The user is clicking on the \"Accept Cookies\" button on the webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 256,
+        "timestamp_sec": 8.53,
+        "latency_sec": 5.19,
+        "frame_description": "The user is hovering the mouse cursor over \"Main Conference Paper Submission Deadline\" on the webpage. \n\nVisible user-entered text:\n- Address bar: `https://neurips.cc/Conferences/2024`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 301,
+        "timestamp_sec": 10.03,
+        "latency_sec": 6.42,
+        "frame_description": "The user is viewing a Steam chat window with the user \"CY\". \n\nVisible user-entered text in the application includes:\n* **Chat history:**\n  * `\"deng wo xia yi",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 516,
+        "timestamp_sec": 17.2,
+        "latency_sec": 5.09,
+        "frame_description": "The user is viewing the NeurIPS 2024 webpage in a web browser. The text present in the address bar is \"https://neurips.cc/Conferences/2024\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 559,
+        "timestamp_sec": 18.63,
+        "latency_sec": 6.44,
+        "frame_description": "The user is browsing the NeurIPS 2024 webpage on a desktop web browser. \n\nText visible in the browser address bar:\n\"https://neurips.cc/Con",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 569,
+        "timestamp_sec": 18.97,
+        "latency_sec": 5.34,
+        "frame_description": "The user is viewing the NeurIPS 2024 conference website with the address bar containing \"https://neurips.cc/Conferences/2024\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 579,
+        "timestamp_sec": 19.3,
+        "latency_sec": 4.74,
+        "frame_description": "The user is viewing the NeurIPS 2024 conference website in a web browser. \n\nVisible user-entered text in the application includes the URL in the address bar: \"https://neurips.cc/Conferences/2024\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 611,
+        "timestamp_sec": 20.37,
+        "latency_sec": 4.46,
+        "frame_description": "The user is viewing the NeurIPS 2024 webpage in a web browser.\n\nVisible user-entered text:\n- Address bar: \"https://neurips.cc/Conferences/2024\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 693,
+        "timestamp_sec": 23.1,
+        "latency_sec": 6.21,
+        "frame_description": "The user is hovering the mouse cursor over the downloads section in the Steam application. \n\n**Visible user-entered text:**\n* Address bar: `\"https://neurips.cc/Conferences",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 830,
+        "timestamp_sec": 27.67,
+        "latency_sec": 5.35,
+        "frame_description": "The user is updating League of Legends in the Riot Client.\n\n**User-entered text:**\n* Browser address bar: `https://neurips.cc/Conferences/2024`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 909,
+        "timestamp_sec": 30.3,
+        "latency_sec": 5.46,
+        "frame_description": "The user is hovering the mouse cursor over the Steam downloads window. The visible user-entered text in the browser address bar is \"https://neurips.cc/Conferences/2024\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1130,
+        "timestamp_sec": 37.67,
+        "latency_sec": 8.36,
+        "frame_description": "The user is not actively interacting with any controls; the desktop shows the Steam client displaying a download progress screen alongside the Riot Client window and a web browser in the background.\n\nVisible user-entered",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Discover local network issues through Steam friend chat.",
+      "reference_caption": "Troubleshooting local network issues through interactions with Steam chat and game downloads on a Windows desktop.",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "steam",
+        "riot games"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 237,
+          "sub_goal": "A message notification popped up from the Steam friend in the lower right corner.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 357,
+          "sub_goal": "I clicked on the message he sent me, and the chat interface popped up, only to find that my messages did not send successfully.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 697,
+          "sub_goal": "Click on the right side of Steam, and found that the games on Steam have not started downloading.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 841,
+          "sub_goal": "Clicked on the Riot Games icon in the bottom application bar on the desktop, found network issues, download is very slow.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 858,
+          "sub_goal": "Click to pause download",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 915,
+          "sub_goal": "Clicked on the steam interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 940,
+          "sub_goal": "Clicked \"Pause Download\" on the Steam interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1006,
+          "sub_goal": "Clicked start download again, equivalent to restarting the download.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent mentions checking the NeurIPS 2024 conference website while managing game downloads and updates, which aligns with the user's actions of browsing the NeurIPS site and interacting with Steam and Riot Client. However, it does not directly address discovering local network issues through Steam friend chat as described in the goal. The timeline shows interactions with the NeurIPS site and game clients but lacks explicit evidence of troubleshooting network issues via Steam chat."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the ground truth keyframes. The timeline does not mention interactions with Steam chat, game downloads, or Riot Games application as described in the keyframes. Instead, it focuses on unrelated activities such as browsing a webpage and interacting with NeurIPS 2024 content. This contradicts the specified actions related to troubleshooting network issues through Steam and Riot Games applications. Consequently, these discrepancies would lead to incorrect answers for both STATIC QA and SEQUENTIAL-QA questions, as they rely on specific interactions that are not captured in the AI descriptions."
+        },
+        "coverage": {
+          "score": 3.33,
+          "coverage": 0.583,
+          "covered": 7,
+          "total": 12,
+          "covered_actions": [
+            3,
+            5,
+            6,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "riot games",
+            "steam"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing a webpage, interacting with Steam and Riot Games, but does not cover all the specific interactions listed in the keyframes."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as repeatedly viewing the NeurIPS 2024 webpage and displaying the same URL in the address bar. These entries do not provide new information and are considered redundant."
+        }
+      },
+      "composite_score": 9.33,
+      "max_score": 20,
+      "latency_sec": 83.85
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1154,
+        "recall": 0.3529,
+        "f1": 0.1739
+      },
+      "rouge2": {
+        "precision": 0.0386,
+        "recall": 0.1188,
+        "f1": 0.0583
+      },
+      "rougeL": {
+        "precision": 0.0865,
+        "recall": 0.2647,
+        "f1": 0.1304
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.011
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 160.06,
+      "total_vlm_inference_sec": 74.4,
+      "intent_latency_sec": 1.78,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.72,
+      "median_frame_latency_sec": 5.35,
+      "min_frame_latency_sec": 4.46,
+      "max_frame_latency_sec": 8.36,
+      "avg_description_length_chars": 148.6,
+      "total_prompt_tokens": 16287,
+      "total_completion_tokens": 534,
+      "avg_completion_tokens_per_sec": 6.8
+    }
+  }
+}

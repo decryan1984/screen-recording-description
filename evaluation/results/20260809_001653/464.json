@@ -1,0 +1,845 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/464.mov",
+  "total_frames": 2764,
+  "fps": 44.43539398096544,
+  "video_length_sec": 62.2,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 2764,
+  "frames_processed": 37,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to create a Python function to extract and encode specific video frames from a file using OpenCV and PIL, initially seeking code examples before executing the script in Visual Studio Code.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.14,
+        "frame_description": "The user is typing the text 'utf-8' in the code editor.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 783,
+        "timestamp_sec": 17.62,
+        "latency_sec": 9.37,
+        "frame_description": "The user is viewing a Python script in a code editor, specifically focusing on the `encode_and_save_frames` function within the `azure_api.py` file. The script involves reading video frames, calculating key frame indexes, encoding frames using base64, and saving them as PNG files. The user appears to be reviewing or editing the code, as indicated by the cursor position near line 40. There is no active typing or input being performed in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 96
+      },
+      {
+        "frame_number": 798,
+        "timestamp_sec": 17.96,
+        "latency_sec": 8.96,
+        "frame_description": "The user is viewing a chat interface with code snippets displayed, specifically focusing on a Python script that uses OpenCV and PIL to extract frames from a video. The script includes comments and instructions for setting up the video path, frame number, and processing the frame. The user appears to be reviewing or learning about the code, as there are no visible signs of active typing or editing in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 81
+      },
+      {
+        "frame_number": 813,
+        "timestamp_sec": 18.3,
+        "latency_sec": 8.14,
+        "frame_description": "The user is typing in the input field at the bottom of the ChatGPT interface, entering the text: \"help me construct a function, I will provide you with a video path and a list of key frame, you should return a list of\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 971,
+        "timestamp_sec": 21.85,
+        "latency_sec": 8.38,
+        "frame_description": "The user is typing in the input field at the bottom of the ChatGPT interface. The visible text being entered is: \"help me construct a function, I will provide you with a video path and a list of keyframe, you should return a list of\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 986,
+        "timestamp_sec": 22.19,
+        "latency_sec": 7.01,
+        "frame_description": "The user is typing \"rico\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 1001,
+        "timestamp_sec": 22.53,
+        "latency_sec": 7.87,
+        "frame_description": "The user is viewing a code editor with Python scripts related to video frame encoding and GIF merging, and the terminal shows tmux session management commands. There is no active typing or input visible in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1043,
+        "timestamp_sec": 23.47,
+        "latency_sec": 7.43,
+        "frame_description": "The user is viewing a code editor with Python scripts related to video processing and Azure API integration, while simultaneously monitoring terminal output in the same window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1058,
+        "timestamp_sec": 23.81,
+        "latency_sec": 8.0,
+        "frame_description": "The user is typing in the input field at the bottom of the screen, entering the text: \"help me construct a function, I will provide you with a video path and a list of keyframe, you should return a list of\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 1073,
+        "timestamp_sec": 24.15,
+        "latency_sec": 7.99,
+        "frame_description": "The user is typing in the input field at the bottom of the screen, entering the text: \"help me construct a function, I will provide you with a video path and a list of keyframes, you should return a list of\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 2130,
+        "timestamp_sec": 47.93,
+        "latency_sec": 9.08,
+        "frame_description": "The user is viewing a Python script in the ChatGPT interface that demonstrates how to extract a specific frame from a video using OpenCV and display it with PIL. The script includes comments explaining each step, such as setting the frame number, reading the frame, converting color formats, and displaying the image. The user has not entered any text in the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 2145,
+        "timestamp_sec": 48.27,
+        "latency_sec": 8.22,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for converting video frames to RGB and saving them as PNG files. The user has not yet entered any text into the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 2227,
+        "timestamp_sec": 50.12,
+        "latency_sec": 14.15,
+        "frame_description": "The user is viewing a chat interface with code snippets and text explanations related to image processing and frame extraction. There is no active input field being filled or text being typed at this moment.\n\nVisible user-entered text includes:\n\n- In the code block:\n  - `frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)`\n  - `pil_image = Image.fromarray(frame_rgb)`\n  - `plt.imshow(pil_image)`\n  - `plt.axis('off')`\n  - `plt.show()`\n  - `print(\"Error: Could not read the frame.\")`\n\n- In the explanatory text:\n  - \u201cIn this script, the frame is first converted from BGR to RGB (since OpenCV uses BGR by default), and then it\u2019s converted to a PIL Image using `Image.fromarray()`. Finally, the image is displayed using `matplotlib` to leverage its integrated notebook rendering capabilities. Even though we\u2019re using PIL to handle the image, `matplotlib` is still convenient for displaying images in Jupyter notebooks.\u201d\n\n- In the user\u2019s message:\n  - \u201chelp me construct a function, I will provide you with a video path and a list of keyframe, you should return",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 2275,
+        "timestamp_sec": 51.2,
+        "latency_sec": 14.0,
+        "frame_description": "The user is viewing a chat interface with code snippets and explanations displayed on the screen. There is no active typing or input being performed by the user at this moment. The visible user-entered text includes:\n\n- In the browser address bar: `https://chat.openai.com/c/d54e9126-ac6b-4271-811b-fd2bcc409cf8`\n- In the code block:\n  - `frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)`\n  - `pil_image = Image.fromarray(frame_rgb)`\n  - `plt.imshow(pil_image)`\n  - `plt.axis('off')`\n  - `plt.show()`\n  - `print(\"Error: Could not read the frame.\")`\n- In the explanatory text below the code:\n  - \u201cIn this script, the frame is first converted from BGR to RGB (since OpenCV uses BGR by default), and then it\u2019s converted to a PIL image using \u2018Image.fromarray()\u2019. Finally, the image is displayed using \u2018matplotlib\u2019 to leverage its integrated notebook rendering capabilities. Even though we\u2019re using PIL to handle the image, \u2018matplotlib\u2019 is",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 2290,
+        "timestamp_sec": 51.54,
+        "latency_sec": 8.22,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where they have requested help constructing a function to encode video frames. The chat shows a partial Python function being discussed, involving frame extraction and base64 encoding. There is no active typing or input visible in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 2320,
+        "timestamp_sec": 52.21,
+        "latency_sec": 8.26,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where they have requested help constructing a function to extract keyframes from a video. The chat displays code snippets and explanations related to image processing using OpenCV and PIL libraries. There is no active typing or input visible in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 2335,
+        "timestamp_sec": 52.55,
+        "latency_sec": 13.9,
+        "frame_description": "The user is viewing a chat interface with code snippets and explanations displayed on the screen. There is no active input being typed by the user at this moment. The visible user-entered text includes:\n\n- In the code block:\n  - `pil_image = Image.fromarray(frame_rgb)`\n  - `plt.imshow(pil_image)`\n  - `plt.axis('off')`\n  - `plt.show()`\n  - `print(\"Error: Could not read the frame.\")`\n  - `for index, frame_index in enumerate(frame_indexes):`\n  - `file_path = os.path.join(output_dir, f\"{index}.png\")`\n  - `image = Image.fromarray(frames[frame_index])`\n  - `image.save(file_path)`\n  - `with open(file_path, \"rb\") as image_file:`\n  - `encoded_frame = base64.b64encode(image_file.read()).decode('utf-8')`\n  - `encoded_frames.append(encoded_frame)`\n  - `return encoded_frames`\n\n- In the chat messages:\n  - \"help me construct a function, I will provide you with a video path and a list of keyframe, you should return a list of",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 2377,
+        "timestamp_sec": 53.49,
+        "latency_sec": 7.84,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 2392,
+        "timestamp_sec": 53.83,
+        "latency_sec": 7.93,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 2407,
+        "timestamp_sec": 54.17,
+        "latency_sec": 7.78,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting video frames. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 2422,
+        "timestamp_sec": 54.51,
+        "latency_sec": 7.8,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting frames from a video. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2437,
+        "timestamp_sec": 54.84,
+        "latency_sec": 7.85,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting frames from a video. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2452,
+        "timestamp_sec": 55.18,
+        "latency_sec": 7.8,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting frames from a video. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2467,
+        "timestamp_sec": 55.52,
+        "latency_sec": 7.79,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2489,
+        "timestamp_sec": 56.01,
+        "latency_sec": 7.79,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2504,
+        "timestamp_sec": 56.35,
+        "latency_sec": 8.01,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2529,
+        "timestamp_sec": 56.91,
+        "latency_sec": 7.81,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2544,
+        "timestamp_sec": 57.25,
+        "latency_sec": 7.78,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2569,
+        "timestamp_sec": 57.81,
+        "latency_sec": 8.52,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where they have requested help constructing a function to extract and encode video frames. The chat displays a Python code snippet that the user has reviewed, and the user is currently positioned at the bottom of the screen, ready to input a new message into the text field labeled \"Message ChatGPT...\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 2604,
+        "timestamp_sec": 58.6,
+        "latency_sec": 7.8,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 2619,
+        "timestamp_sec": 58.94,
+        "latency_sec": 8.34,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where they have requested help constructing a function to extract and encode video frames. The chat displays Python code that the user has provided as input, along with ChatGPT\u2019s response containing a suggested implementation. No active typing or form-filling is occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 2644,
+        "timestamp_sec": 59.5,
+        "latency_sec": 7.84,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2659,
+        "timestamp_sec": 59.84,
+        "latency_sec": 8.0,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided Python code for extracting and encoding video frames. The user has not yet entered any text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 2674,
+        "timestamp_sec": 60.18,
+        "latency_sec": 6.88,
+        "frame_description": "The user is typing \"rico\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 2689,
+        "timestamp_sec": 60.51,
+        "latency_sec": 6.93,
+        "frame_description": "The user is typing \"rico\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 2717,
+        "timestamp_sec": 61.14,
+        "latency_sec": 8.47,
+        "frame_description": "The user is viewing a Python script in Visual Studio Code, specifically the `azure_api.py` file, which contains functions for encoding images and saving frames from a video. The terminal panel at the bottom shows active tmux sessions, indicating the user is managing remote server connections. No new text is being entered or edited in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 2764,
+        "timestamp_sec": 62.2,
+        "latency_sec": 6.88,
+        "frame_description": "The user is typing \"rico\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use GPT to generate new code based on a segment of vscode script.",
+      "reference_caption": "Demonstration of using ChatGPT to extend Python code in VSCode on macOS.",
+      "reference_apps": [
+        "vscode",
+        "edge",
+        "openai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 738,
+          "sub_goal": "Copy a portion of the code in a file in vscode using ctrl + c.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1703,
+          "sub_goal": "Switch to GPT, then paste the copied code as a reference for writing code.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 2086,
+          "sub_goal": "Standardized the format of the code input for GPT.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2563,
+          "sub_goal": "Translation: gpt starts outputting code",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2671,
+          "sub_goal": "Switch back to vscode to view the script.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's objective of constructing a Python function to extract and encode video frames using OpenCV and PIL, as evidenced by their interactions in the ChatGPT interface. The timeline shows consistent actions related to this task, such as typing requests for help with frame extraction and encoding, reviewing provided code snippets, and preparing to integrate these into VSCode. There are no contradictions in the timeline regarding the specific entities or details mentioned in the reasoning and prediction questions."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes provided. The user's actions in VSCode, switching to ChatGPT, and typing are accurately described. However, there is a discrepancy in Frame 986 where 'rico' is typed in the terminal, which does not match any keyframe or ground truth action related to Python code modification for GPT processing. This introduces an inconsistency with the provided sequence of actions."
+        },
+        "coverage": {
+          "score": 4.0,
+          "coverage": 0.75,
+          "covered": 6,
+          "total": 8,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "openai",
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to using a code editor and interacting with ChatGPT, which aligns with some of the keyframe actions. However, not all specific actions like copying and pasting code or switching between applications are explicitly detailed."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, particularly in viewing code snippets and chat interfaces. However, there are also numerous entries with new information about user actions and content being viewed or typed."
+        }
+      },
+      "composite_score": 16.0,
+      "max_score": 20,
+      "latency_sec": 144.08
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0174,
+        "recall": 0.64,
+        "f1": 0.0339
+      },
+      "rouge2": {
+        "precision": 0.0049,
+        "recall": 0.1837,
+        "f1": 0.0095
+      },
+      "rougeL": {
+        "precision": 0.0163,
+        "recall": 0.6,
+        "f1": 0.0317
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0305
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 464.67,
+      "total_vlm_inference_sec": 311.96,
+      "intent_latency_sec": 8.58,
+      "frames_processed": 37,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.43,
+      "median_frame_latency_sec": 7.93,
+      "min_frame_latency_sec": 6.88,
+      "max_frame_latency_sec": 14.15,
+      "avg_description_length_chars": 290.5,
+      "total_prompt_tokens": 80408,
+      "total_completion_tokens": 2511,
+      "avg_completion_tokens_per_sec": 7.7,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was using ChatGPT to generate a Python function for processing video keyframes and then reviewing and modifying the code in Visual Studio Code.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.13,
+        "frame_description": "The user is editing code in the file `azure_api.py` in Visual Studio Code.\n\n**User-entered text:**\n* Search bar: `rico [SSH: 17",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 783,
+        "timestamp_sec": 17.62,
+        "latency_sec": 7.7,
+        "frame_description": "The user is viewing a Python file named `azure_api.py` in Visual Studio Code.\n\n**Visible user-entered text:**\n* Top command/search bar: `rico",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 798,
+        "timestamp_sec": 17.96,
+        "latency_sec": 7.35,
+        "frame_description": "Describe the current action that the user is performing on the desktop. State the action as a sentence (e.g. 'The user is clicking on the 'send' button.'). Quote ALL visible user",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 813,
+        "timestamp_sec": 18.3,
+        "latency_sec": 6.2,
+        "frame_description": "The user is typing in the ChatGPT prompt input box with the visible text \"help me construct a function, I will provide you with a video path and a list of key frame, you should return a list of\" while the address bar contains \"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 91
+      },
+      {
+        "frame_number": 971,
+        "timestamp_sec": 21.85,
+        "latency_sec": 6.78,
+        "frame_description": "The user is typing a prompt into the text input field in the ChatGPT interface.\n\n**Visible user-entered text:**\n* **Address bar:** `\"https://chat.openai.com/c",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 986,
+        "timestamp_sec": 22.19,
+        "latency_sec": 6.89,
+        "frame_description": "The user is viewing the code file `azure_api.py` in Visual Studio Code while hovering the mouse cursor over the integrated terminal.\n\n**User-entered text:**\n- Top command palette/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1001,
+        "timestamp_sec": 22.53,
+        "latency_sec": 6.83,
+        "frame_description": "The user is editing the code file `azure_api.py` in Visual Studio Code, with the cursor positioned at line 40. \n\nThe visible user-entered text includes:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1043,
+        "timestamp_sec": 23.47,
+        "latency_sec": 7.21,
+        "frame_description": "The user is editing code in Visual Studio Code with the search bar containing `\"rico [SSH: 175.178.24.19]\"`.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1058,
+        "timestamp_sec": 23.81,
+        "latency_sec": 3.88,
+        "frame_description": "The user is typing a prompt into the ChatGPT input field. \n\n**User-entered text:**\n* **URL Bar:** `https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8`\n* **Message Box:** `help me construct a function, I will provide you with a video path and a list of keyframe, you should return a list of`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 104
+      },
+      {
+        "frame_number": 1073,
+        "timestamp_sec": 24.15,
+        "latency_sec": 4.58,
+        "frame_description": "The user is typing a prompt into the ChatGPT input box with the text \"help me construct a function, I will provide you with a video path and a list of keyframe, you should return a list of\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 2130,
+        "timestamp_sec": 47.93,
+        "latency_sec": 7.74,
+        "frame_description": "9126-ac67-4271-811b-fd2bcc409cf8\".\nIs there any active text in form fields?",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 2145,
+        "timestamp_sec": 48.27,
+        "latency_sec": 7.06,
+        "frame_description": "The user is viewing a conversation on ChatGPT in a web browser.\n\n**Visible user-entered text:**\n* **Address Bar:** `https://chat.openai.com/c/d",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 2227,
+        "timestamp_sec": 50.12,
+        "latency_sec": 6.81,
+        "frame_description": "6-ac67-4271-811b-fd2bcc409cf8\"\n\nLet's carefully verify visible user-entered text",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 2275,
+        "timestamp_sec": 51.2,
+        "latency_sec": 7.05,
+        "frame_description": "The user is viewing a conversation on the ChatGPT web page while a response is being generated. \n\n**User-entered text:**\n* **Address Bar:** `https://chat.openai.com/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 2290,
+        "timestamp_sec": 51.54,
+        "latency_sec": 6.73,
+        "frame_description": "The user is viewing a conversation in ChatGPT as a response is being generated. \n\nThe visible user-entered text in the address bar is \"https://chat.openai.com/c",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 2320,
+        "timestamp_sec": 52.21,
+        "latency_sec": 6.52,
+        "frame_description": "The user is viewing the ChatGPT interface while a response is being generated. \n\n**Visible user-entered text in application fields:**\n* Address bar: `https://chat.openai.com/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2335,
+        "timestamp_sec": 52.55,
+        "latency_sec": 8.0,
+        "frame_description": "The user is hovering the mouse cursor over the main chat area in the ChatGPT web application.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2377,
+        "timestamp_sec": 53.49,
+        "latency_sec": 7.37,
+        "frame_description": "The user is viewing a ChatGPT conversation page in the browser with the URL \"https://chat.openai.com/c/d54e9126-ac67-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 2392,
+        "timestamp_sec": 53.83,
+        "latency_sec": 7.0,
+        "frame_description": "The user is hovering the cursor over the text generated by ChatGPT. \n\nVisible user-entered text:\n- In the browser address bar: `https://chat.openai.com/c/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2407,
+        "timestamp_sec": 54.17,
+        "latency_sec": 7.11,
+        "frame_description": "The user is hovering the mouse cursor over text in the ChatGPT chat window. \n\nVisible user-entered text in the application:\n- Address bar: \"https://chat.openai.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 2422,
+        "timestamp_sec": 54.51,
+        "latency_sec": 7.11,
+        "frame_description": "The user is hovering the mouse cursor over a code block within a ChatGPT conversation in the browser.\n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 2437,
+        "timestamp_sec": 54.84,
+        "latency_sec": 7.84,
+        "frame_description": "The user is hovering the mouse cursor over a code block in the ChatGPT interface. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 2452,
+        "timestamp_sec": 55.18,
+        "latency_sec": 7.2,
+        "frame_description": "The user is hovering the mouse cursor over the code block generated by ChatGPT in the browser. \n\nThere is no visible user-entered text in any active form fields or search bars (the address",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 2467,
+        "timestamp_sec": 55.52,
+        "latency_sec": 5.88,
+        "frame_description": "The user is viewing a ChatGPT conversation in a web browser with the URL \"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 2489,
+        "timestamp_sec": 56.01,
+        "latency_sec": 9.44,
+        "frame_description": "The user is hovering the mouse cursor over the code snippet in the ChatGPT browser window. \n\nVisible user-entered text:\n* Address bar: `\"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 2504,
+        "timestamp_sec": 56.35,
+        "latency_sec": 6.37,
+        "frame_description": "The user is hovering the cursor over the text 'TemporaryDirectory' in a Python code block in the ChatGPT chat interface.\n\n**User-entered text:**\n* Address bar: `\"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 2529,
+        "timestamp_sec": 56.91,
+        "latency_sec": 6.91,
+        "frame_description": "The user is hovering the mouse cursor over the code block in the ChatGPT chat interface. \n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 2544,
+        "timestamp_sec": 57.25,
+        "latency_sec": 6.46,
+        "frame_description": "The user is hovering the mouse cursor over the Python code block in the ChatGPT chat interface. \n\nThe visible text in the address bar is \"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 2569,
+        "timestamp_sec": 57.81,
+        "latency_sec": 7.36,
+        "frame_description": "The user is hovering the mouse cursor over the code block in the ChatGPT window. There is no visible user-entered text in form fields or search bars (the URL bar contains \"https://",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 2604,
+        "timestamp_sec": 58.6,
+        "latency_sec": 7.46,
+        "frame_description": "The user is hovering the mouse cursor over the text in the code block within the ChatGPT interface.\n\nVisible user-entered text in application fields:\n* Address bar: `https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 2619,
+        "timestamp_sec": 58.94,
+        "latency_sec": 12.69,
+        "frame_description": "The user is hovering the mouse cursor over a code block in the ChatGPT interface. \n\nThere is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 2644,
+        "timestamp_sec": 59.5,
+        "latency_sec": 7.29,
+        "frame_description": "The user is hovering the mouse cursor over the python code block generated in the ChatGPT interface. \n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc40cf8\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 2659,
+        "timestamp_sec": 59.84,
+        "latency_sec": 7.3,
+        "frame_description": "The user is hovering the mouse cursor over a code snippet in the ChatGPT interface. \n\nThere is no visible user-entered text in any active input fields or search bars (the address bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 2674,
+        "timestamp_sec": 60.18,
+        "latency_sec": 6.91,
+        "frame_description": "The user is viewing the file `azure_api.py` in Visual Studio Code with the command prompt showing `rico [SSH: 175.178.24.1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2689,
+        "timestamp_sec": 60.51,
+        "latency_sec": 7.88,
+        "frame_description": "The user is viewing a Python script (`azure_api.py`) in Visual Studio Code.\n\nVisible user-entered text includes:\n- Top search/command bar: `\"rico [SSH: ",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 2717,
+        "timestamp_sec": 61.14,
+        "latency_sec": 7.49,
+        "frame_description": "The user is currently viewing code in Visual Studio Code.\n\nUser-entered text:\n- Terminal: `tmux attach-session -t gpt`, `tmux list-session`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 2764,
+        "timestamp_sec": 62.2,
+        "latency_sec": 7.72,
+        "frame_description": "The user is selecting the text \"encoded_frames\" in the code editor.\n\nUser-entered text:\n- In the terminal: \"tmux attach-session -t gpt\", \"tmux list",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use GPT to generate new code based on a segment of vscode script.",
+      "reference_caption": "Demonstration of using ChatGPT to extend Python code in VSCode on macOS.",
+      "reference_apps": [
+        "vscode",
+        "edge",
+        "openai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 738,
+          "sub_goal": "Copy a portion of the code in a file in vscode using ctrl + c.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1703,
+          "sub_goal": "Switch to GPT, then paste the copied code as a reference for writing code.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 2086,
+          "sub_goal": "Standardized the format of the code input for GPT.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2563,
+          "sub_goal": "Translation: gpt starts outputting code",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2671,
+          "sub_goal": "Switch back to vscode to view the script.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as described by the goal and caption. The timeline shows that after switching to the ChatGPT interface, the user types a prompt to generate Python code, which aligns with using ChatGPT to extend Python code in VSCode. After copying the response from ChatGPT, the user switches back to Visual Studio Code, consistent with integrating the generated code into their existing script."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The user's interactions in Visual Studio Code, such as copying code and switching to ChatGPT, are correctly described without contradictions. The sequence of actions aligns with the ground truth, including the modification of Python code for GPT processing. For STATIC QA, the timeline supports the answer about adding a function definition line. SEQUENTIAL-QA is consistent with the user's action of navigating to the OpenAI ChatGPT interface after copying code from VSCode. MCQA correctly identifies Visual Studio Code as the application used for copying Python script portions."
+        },
+        "coverage": {
+          "score": 2.0,
+          "coverage": 0.25,
+          "covered": 2,
+          "total": 8,
+          "covered_actions": [],
+          "covered_apps": [
+            "openai",
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to editing code in Visual Studio Code and interacting with ChatGPT, but it does not explicitly mention copying or pasting code between these applications. The timeline includes viewing and typing within both applications but lacks specific references to the keyframe actions such as using 'ctrl + c' or 'ctrl + v'."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI-generated timeline contains numerous repetitive entries, particularly regarding user actions in Visual Studio Code and ChatGPT. Many frames describe similar activities without significant changes, such as hovering over text or viewing the same file, leading to a high proportion of redundancy."
+        }
+      },
+      "composite_score": 13.0,
+      "max_score": 20,
+      "latency_sec": 158.33
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0237,
+        "recall": 0.5,
+        "f1": 0.0452
+      },
+      "rouge2": {
+        "precision": 0.0066,
+        "recall": 0.1429,
+        "f1": 0.0127
+      },
+      "rougeL": {
+        "precision": 0.018,
+        "recall": 0.38,
+        "f1": 0.0344
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0201
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 431.75,
+      "total_vlm_inference_sec": 265.25,
+      "intent_latency_sec": 8.14,
+      "frames_processed": 37,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 7.17,
+      "median_frame_latency_sec": 7.11,
+      "min_frame_latency_sec": 3.88,
+      "max_frame_latency_sec": 12.69,
+      "avg_description_length_chars": 166.6,
+      "total_prompt_tokens": 46760,
+      "total_completion_tokens": 1827,
+      "avg_completion_tokens_per_sec": 6.6
+    }
+  }
+}

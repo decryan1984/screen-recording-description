@@ -1,0 +1,443 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/53.mp4",
+  "total_frames": 1009,
+  "fps": 30.000576076473223,
+  "video_length_sec": 33.63,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1009,
+  "frames_processed": 10,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was preparing a Python script to process JSON data while browsing eBay, then shifted focus to search for a specific price (\"509.99\") and a currency conversion query (\"\u00a3509.99 rmb\") on Bing.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.77,
+        "frame_description": "The user is viewing the eBay homepage on a web browser, with a VS Code window open on the left side of the screen displaying Python code. The eBay page shows promotional banners and product listings, while the VS Code window contains a script involving JSON processing and file operations. No active typing or input actions are currently visible in either application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 29,
+        "timestamp_sec": 0.97,
+        "latency_sec": 4.55,
+        "frame_description": "The user is viewing the eBay homepage on a web browser, with a VS Code window open on the left side of the screen displaying Python code. The eBay page shows promotional banners and product listings, while the VS Code window contains a script that appears to be processing JSON data. No active typing or input is currently being performed in either application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 40,
+        "timestamp_sec": 1.33,
+        "latency_sec": 8.88,
+        "frame_description": "The user is viewing the eBay homepage on a web browser while simultaneously working on a Python script in Visual Studio Code, which includes code for handling JSON input and output. The eBay page displays a spring sale banner offering up to 50% off on tools, along with product listings such as a Ninja Foodi FoodDrawer Air Fryer, an orthopaedic divan bed set, an Apple iPhone 15 Pro Max, and a 4K Ultra HD monitor. Below these, there are trending categories including spring sale deals, TVs, garden items, fragrances, smart home products, power tools, and mobile phones. The Visual Studio Code window shows a script that reads from a JSON file, processes data, and writes to another JSON file, with comments in Chinese indicating steps like \"add description to json\" and \"read input file.\" The desktop background features a blue abstract design, and various application icons are visible, including VS Code, Chrome, and other utilities. The user appears to be multitasking between coding and browsing for potential purchases or inspiration.",
+        "prompt_tokens": 993,
+        "completion_tokens": 214
+      },
+      {
+        "frame_number": 51,
+        "timestamp_sec": 1.7,
+        "latency_sec": 3.94,
+        "frame_description": "The user is viewing the eBay homepage with a VS Code window open on the left side of the screen, displaying Python code for a JSON description generator. No active typing or input is occurring in any visible form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 137,
+        "timestamp_sec": 4.57,
+        "latency_sec": 6.59,
+        "frame_description": "The user is viewing the eBay homepage on a web browser, with a VS Code window open on the left side of the screen displaying Python code. The eBay page shows a \"Up to 50% off in the spring sale\" banner and various product listings such as a Ninja Foodi Air Fryer, an orthopaedic divan bed, an Apple iPhone 15 Pro Max, and a 4x100 Finish Ultra Dishwasher. The VS Code window contains a script that reads from a JSON file and writes to another JSON file, with comments in both English and Chinese. The user has not entered any text in form fields or search bars on the eBay page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 139
+      },
+      {
+        "frame_number": 148,
+        "timestamp_sec": 4.93,
+        "latency_sec": 3.89,
+        "frame_description": "The user is viewing the eBay homepage on a web browser, with a VS Code window open on the left side of the screen displaying Python code. No active typing or input is occurring in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 161,
+        "timestamp_sec": 5.37,
+        "latency_sec": 3.88,
+        "frame_description": "The user is viewing the eBay homepage on a web browser, with a VS Code window open on the left side of the screen displaying Python code. No active typing or input is occurring in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 5.93,
+        "latency_sec": 5.56,
+        "frame_description": "The user is viewing the Microsoft Start page in a web browser, with no active input or typing occurring. The search bar is empty, and no text is being entered into any form fields. The user appears to be observing the homepage layout, which includes shortcut icons for services like Microsoft 365, eBay, Amazon, Bing.com, TikTok, Getty Images, LinkedIn, and Add shortcut. No other applications are actively receiving input; the VS Code window is open but not being edited at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 102
+      },
+      {
+        "frame_number": 368,
+        "timestamp_sec": 12.27,
+        "latency_sec": 3.26,
+        "frame_description": "The user is typing \"509.99\" into the search bar on the Microsoft Bing webpage.",
+        "prompt_tokens": 993,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 1009,
+        "timestamp_sec": 33.63,
+        "latency_sec": 3.4,
+        "frame_description": "The user is typing \"\u00a3509.99 rmb\" into the search bar of the Microsoft Bing web browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 27
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for prices, wait for loading.",
+      "reference_caption": "Navigating eBay for iPhone 13 Max prices, refreshing Bing's international page, and searching for RMB.",
+      "reference_apps": [
+        "edge",
+        "ebay"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 35,
+          "sub_goal": "Accept all cookies",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 111,
+          "sub_goal": "Select iPhone 13 Max.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 192,
+          "sub_goal": "Open a new tab.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Enter the tags and price of the iPhone in the search bar, then delete the tags and leave only the price.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 583,
+          "sub_goal": "Clicked on Bing's international version.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 746,
+          "sub_goal": "Click to refresh the webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 891,
+          "sub_goal": "Enter RMB",
+          "mouse": "none",
+          "keyboard": "delete",
+          "keyboardOperation": "rmb"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent captures the user's actions of searching for prices and currency conversion, which aligns with the goal of 'Search for prices, wait for loading.' The timeline shows the user entering specific price queries into Bing's search bar, matching the caption's description. There are no contradictions in the timeline regarding these details."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some inaccuracies. Frame 1 and 29 correctly describe the eBay homepage, aligning with keyframe actions like accepting cookies and selecting iPhone 13 Max. However, frames 40 and 51 incorrectly mention an iPhone 15 Pro Max instead of the iPhone 13 Max specified in the ground truth. Frames 137 and 148 also inaccurately list an iPhone 15 Pro Max. Frame 178 correctly describes navigating to Bing's international page, aligning with keyframe actions. Frame 368 accurately captures typing '509.99' into Bing's search bar, consistent with keyframes. Frame 1009 correctly shows the user typing '\u00a3509.99 rmb', matching the final keyframe action. The timeline supports answering STATIC QA and SEQUENTIAL-QA consistently with the given answers, but MCQA could be slightly misleading due to the incorrect product model mentioned in some frames."
+        },
+        "coverage": {
+          "score": 3.22,
+          "coverage": 0.556,
+          "covered": 5,
+          "total": 9,
+          "covered_actions": [
+            4,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "ebay",
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing and typing on a web browser, specifically mentioning eBay and Bing. It does not explicitly mention accepting cookies or selecting an iPhone 13 Max, but it does describe entering a price into the search bar and refreshing the webpage."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information about the user viewing eBay and VS Code without significant changes, indicating redundancy. However, there are also distinct updates such as typing actions in later frames."
+        }
+      },
+      "composite_score": 15.22,
+      "max_score": 20,
+      "latency_sec": 60.33
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0372,
+        "recall": 0.5333,
+        "f1": 0.0695
+      },
+      "rouge2": {
+        "precision": 0.0062,
+        "recall": 0.0909,
+        "f1": 0.0116
+      },
+      "rougeL": {
+        "precision": 0.0294,
+        "recall": 0.4222,
+        "f1": 0.055
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.013
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 112.13,
+      "total_vlm_inference_sec": 48.72,
+      "intent_latency_sec": 3.04,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.87,
+      "median_frame_latency_sec": 4.25,
+      "min_frame_latency_sec": 3.26,
+      "max_frame_latency_sec": 8.88,
+      "avg_description_length_chars": 365.6,
+      "total_prompt_tokens": 10810,
+      "total_completion_tokens": 831,
+      "avg_completion_tokens_per_sec": 16.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is trying to view an iPhone listing on eBay and convert its price from British pounds (\u00a3509.99) to Chinese yuan (RMB) using a search engine.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 12.38,
+        "frame_description": "The user is browsing the eBay website on a web browser, hovering over content on the page.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 29,
+        "timestamp_sec": 0.97,
+        "latency_sec": 4.85,
+        "frame_description": "The user is clicking on \"Mobile phones from \u00a399\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 40,
+        "timestamp_sec": 1.33,
+        "latency_sec": 5.81,
+        "frame_description": "The user is hovering the mouse cursor over \"Mobile phones from \u00a399\" on the eBay webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 51,
+        "timestamp_sec": 1.7,
+        "latency_sec": 6.55,
+        "frame_description": "The user is hovering the mouse cursor over the eBay web page.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 137,
+        "timestamp_sec": 4.57,
+        "latency_sec": 5.63,
+        "frame_description": "The user is selecting text on the webpage. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 148,
+        "timestamp_sec": 4.93,
+        "latency_sec": 5.03,
+        "frame_description": "The user is clicking on the \"Apple iPhone 13 Pro Max - All Sizes - All Colours - Unlocked - Good...\" product listing on the eBay website.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 161,
+        "timestamp_sec": 5.37,
+        "latency_sec": 8.64,
+        "frame_description": "The user is clicking on the 'HutaoCloud' link in the bookmarks bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 5.93,
+        "latency_sec": 6.57,
+        "frame_description": "The user is clicking on the \"New tab\" button in the top tab bar of the Microsoft Edge browser window. \n\nThere is no visible user-entered text in any search bars or form fields",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 368,
+        "timestamp_sec": 12.27,
+        "latency_sec": 6.48,
+        "frame_description": "The user is searching for \"\u00a3509.99\" in the Microsoft Bing search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 1009,
+        "timestamp_sec": 33.63,
+        "latency_sec": 4.68,
+        "frame_description": "The user is searching for \"\u00a3509.99 rmb\" on Bing.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for prices, wait for loading.",
+      "reference_caption": "Navigating eBay for iPhone 13 Max prices, refreshing Bing's international page, and searching for RMB.",
+      "reference_apps": [
+        "edge",
+        "ebay"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 35,
+          "sub_goal": "Accept all cookies",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 111,
+          "sub_goal": "Select iPhone 13 Max.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 192,
+          "sub_goal": "Open a new tab.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Enter the tags and price of the iPhone in the search bar, then delete the tags and leave only the price.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 583,
+          "sub_goal": "Clicked on Bing's international version.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 746,
+          "sub_goal": "Click to refresh the webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 891,
+          "sub_goal": "Enter RMB",
+          "mouse": "none",
+          "keyboard": "delete",
+          "keyboardOperation": "rmb"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of searching for prices and converting them to RMB, as evidenced by actions like entering a price in the search bar and using Bing to convert it. The timeline supports this with entries showing searches for specific prices and currency conversion attempts. There are no contradictions in the timeline regarding these details."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 29 mentions clicking on 'Mobile phones from \u00a399', which is not specified in the keyframes, and Frame 137 describes selecting text without specifying what was selected. The description of entering tags and price in Frame 368 does not mention deleting the tags as per Keyframe 4. However, these inaccuracies do not contradict the overall sequence or fabricate actions beyond minor discrepancies."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 6,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions that correspond to some of the keyframes, but not all. The timeline mentions clicking on product listings and opening a new tab, which align with keyframe actions, while entering text in search bars is also described."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful change, such as hovering over the same element multiple times. However, there are also distinct actions like clicking different links and entering search queries."
+        }
+      },
+      "composite_score": 15.67,
+      "max_score": 20,
+      "latency_sec": 70.57
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1548,
+        "recall": 0.5778,
+        "f1": 0.2441
+      },
+      "rouge2": {
+        "precision": 0.0479,
+        "recall": 0.1818,
+        "f1": 0.0758
+      },
+      "rougeL": {
+        "precision": 0.1012,
+        "recall": 0.3778,
+        "f1": 0.1596
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0051
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 139.58,
+      "total_vlm_inference_sec": 66.62,
+      "intent_latency_sec": 2.36,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.66,
+      "median_frame_latency_sec": 6.14,
+      "min_frame_latency_sec": 4.68,
+      "max_frame_latency_sec": 12.38,
+      "avg_description_length_chars": 90.1,
+      "total_prompt_tokens": 12378,
+      "total_completion_tokens": 261,
+      "avg_completion_tokens_per_sec": 3.3
+    }
+  }
+}

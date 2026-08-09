@@ -1,0 +1,1011 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/461.mov",
+  "total_frames": 2330,
+  "fps": 46.74084574852221,
+  "video_length_sec": 49.85,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 2330,
+  "frames_processed": 48,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is gathering a curated list of interesting websites from ChatGPT and then visiting a personal portfolio to review and organize specific research projects and applications.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.34,
+        "frame_description": "The user is typing \"Tell m\" into the input field at the bottom of the ChatGPT interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 594,
+        "timestamp_sec": 12.71,
+        "latency_sec": 7.25,
+        "frame_description": "The user is typing \"Message ChatGPT...\" into the input field of the ChatGPT interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 610,
+        "timestamp_sec": 13.05,
+        "latency_sec": 8.18,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation history is displayed on the left side and the current chat session is shown in the center. The user has not entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 714,
+        "timestamp_sec": 15.28,
+        "latency_sec": 8.74,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where they have sent a message asking for websites with interesting things. The chat shows a numbered list of examples related to interacting across applications, and the user has not yet received a full response from ChatGPT. There is no active typing or input being performed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 730,
+        "timestamp_sec": 15.62,
+        "latency_sec": 7.5,
+        "frame_description": "The user is typing in the message input field of the ChatGPT interface.\n\nUser-entered text: \"Message ChatGPT...\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 900,
+        "timestamp_sec": 19.26,
+        "latency_sec": 8.9,
+        "frame_description": "The user is viewing a chat interface in a web browser, specifically within the ChatGPT application. The conversation is ongoing, with the user having sent a message asking for websites with interesting content, and the AI responding with an acknowledgment. The user has not yet typed a new message or performed any other action in the current session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 916,
+        "timestamp_sec": 19.6,
+        "latency_sec": 7.95,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where they have previously asked for websites with interesting content, and the response is partially visible. The user has not entered any new text in the current session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 943,
+        "timestamp_sec": 20.18,
+        "latency_sec": 10.93,
+        "frame_description": "The user is viewing a chat interface in the OpenAI web application, where they have initiated a conversation with ChatGPT 4. The user has asked ChatGPT to suggest websites with interesting content, and ChatGPT has responded by listing various domains such as educational material, entertainment, creative inspiration, and quirky stuff. The user is currently reading through the response, which includes examples like copying URLs from browsers, using screenshot tools, exporting data from Excel, sharing screen contents during video calls, using APIs to send data between websites, copying text from PDFs into spreadsheets, dragging images from web browsers to desktop publishing software, and copying code from documentation websites into IDEs. The user has not yet taken any further action in this session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 150
+      },
+      {
+        "frame_number": 959,
+        "timestamp_sec": 20.52,
+        "latency_sec": 8.1,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation history is displayed on the left side and the current chat session is shown on the right. The user has not entered any new text in the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 975,
+        "timestamp_sec": 20.86,
+        "latency_sec": 8.57,
+        "frame_description": "The user is viewing a chat interface in the ChatGPT application, where they have initiated a conversation asking for websites with interesting content. The chat shows a response from ChatGPT listing various websites known for their interesting and unique content. The user has not yet typed any additional text in the input field at the bottom of the chat window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 991,
+        "timestamp_sec": 21.2,
+        "latency_sec": 9.64,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation history includes multiple topics such as data analysis, video content, and website recommendations. The current active chat session appears to be about finding websites with interesting content, as indicated by the last user message: \"Tell me some website with interesting things.\" The assistant has responded with a list of websites, starting with \"TED (ted.com): TED Talks o\". There is no visible input being typed in the text field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 104
+      },
+      {
+        "frame_number": 1031,
+        "timestamp_sec": 22.06,
+        "latency_sec": 9.09,
+        "frame_description": "The user is viewing a chat interface in a web browser, specifically within the ChatGPT application. The conversation is between the user and ChatGPT 4, where the user has asked for websites with interesting content, and ChatGPT has responded with a list of recommendations including TED Talks. The user is not actively typing or interacting with any form fields at this moment; they are simply reading the response.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 83
+      },
+      {
+        "frame_number": 1047,
+        "timestamp_sec": 22.4,
+        "latency_sec": 8.04,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a request for websites with interesting content and a response listing TED (ted.com) as one such site. The user has not entered any new text in the current session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1063,
+        "timestamp_sec": 22.74,
+        "latency_sec": 10.72,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation history includes multiple topics such as importing data into MySQL Workbench, sharing screen contents during video calls, using APIs to send data between websites, copying text from PDFs into spreadsheets, dragging images into desktop publishing software, and copying code from documentation websites to an IDE. The current message from the user reads: \"Tell me some website with interesting things.\" ChatGPT has responded by listing several websites known for their interesting and unique content, including TED (ted.com) and A Soft Murmur (asoft). The user appears to be exploring or reviewing the conversation history rather than actively typing or interacting with the input field at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 144
+      },
+      {
+        "frame_number": 1105,
+        "timestamp_sec": 23.64,
+        "latency_sec": 8.09,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a list of websites with interesting content such as TED and A Soft Murmur. The user has not entered any new text in the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1121,
+        "timestamp_sec": 23.98,
+        "latency_sec": 13.45,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a list of websites with interesting content. The visible user-entered text in the application includes:\n\n- In the chat history:\n  - \"Tell me some website with interesting things\"\n  - \"Sure! There are numerous websites with interesting content across various domains. Whether you're looking for educational material, entertainment, creative inspiration, or just fun and quirky stuff, there's something online for everyone. Here are some websites known for their interesting and unique content:\"\n  - \"1. TED (ted.com): TED Talks offer a plethora of short, powerful talks on almost every topic imaginable, from science to business to global issues, all in more than 100 languages.\"\n  - \"2. A Soft Murmur (asoftmurmur.com): This site allows you to create your own ambient soundscape by mixing different natural sounds. It's perfect for relaxation\"\n\n- In the input field at the bottom:\n  - \"Message ChatGPT...\" (placeholder text, not user-entered)\n\nNo additional user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 238
+      },
+      {
+        "frame_number": 1157,
+        "timestamp_sec": 24.75,
+        "latency_sec": 7.96,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided a list of websites with interesting content. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1173,
+        "timestamp_sec": 25.1,
+        "latency_sec": 8.67,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a request for websites with interesting content and a response listing several options like TED, A Soft Murmur, and Wait But Why. The user has not entered any new text in the current session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 1214,
+        "timestamp_sec": 25.97,
+        "latency_sec": 8.68,
+        "frame_description": "The user is viewing a chat interface in a web browser, specifically within the ChatGPT application. The chat shows a conversation where the user asked for websites with interesting content, and ChatGPT has responded with a list of recommended websites. The user is not actively typing or interacting with any form fields at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 1230,
+        "timestamp_sec": 26.32,
+        "latency_sec": 7.95,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the model has provided a list of websites with interesting content. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1252,
+        "timestamp_sec": 26.79,
+        "latency_sec": 14.12,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a list of websites recommended for interesting content. The visible text in the application includes:\n\n- ChatGPT 4\n- Use API to Send Data Between Different Websites: Websites can interact with each other using APIs. For example, a travel booking website might use weather API to display weather information for different destinations.\n- Copy Text from a PDF and Paste into a Spreadsheet: When working with financial reports or data in PDF format, users might copy numbers or text and paste them into an Excel spreadsheet for further calculation or consolidation.\n- Dragging an Image from a Web Browser to a Desktop Publishing Software: For those creating newsletters or brochures, dragging an image directly from a browser to a tool like Adobe InDesign can streamline the process of gathering resources.\n- Copying Code from a Documentation Website to an IDE: Developers frequently copy code snippets or examples from documentation or forums and paste them into an Integrated Development Environment (IDE) to test or integrate into their own code.\n- These interactions enhance productivity by allowing data and content to flow seamlessly between different applications or platforms, reducing the need for redundant data entry or manual transfer.\n- You: Tell me some website with interesting things\n-",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1268,
+        "timestamp_sec": 27.13,
+        "latency_sec": 12.99,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation discusses websites with interesting content. The visible user-entered text includes:\n\n- In the chat message area: \"Tell me some website with interesting things\"\n- In the list of websites provided by ChatGPT:\n  - \"TED (ted.com): TED Talks offer a plethora of short, powerful talks on almost every topic imaginable, from science to business to global issues, all in more than 100 languages.\"\n  - \"A Soft Murmur (asoftmurmur.com): This site allows you to create your own ambient soundscape by mixing different natural sounds. It's perfect for relaxation, meditation, or just as a background noise while working.\"\n  - \"Wait But Why (waitbutwhy.com): A blog that dives deep into a variety of topics from science to philosophy to societal issues, all with a humorous and relatable approach.\"\n  - \"Atlas Obscura (atlasobscura.com): Discover hidden wonders of\"\n\nNo other user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 225
+      },
+      {
+        "frame_number": 1289,
+        "timestamp_sec": 27.58,
+        "latency_sec": 8.91,
+        "frame_description": "The user is viewing a chat interface in an application, specifically interacting with ChatGPT. The chat shows a conversation where the user asked for websites with interesting content, and ChatGPT responded with a list of recommended sites. The user is currently scrolling through the chat history on the left sidebar, which includes various past conversations and documents. There is no active input being typed in the main chat area at the moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 84
+      },
+      {
+        "frame_number": 1305,
+        "timestamp_sec": 27.92,
+        "latency_sec": 7.67,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided a list of websites with interesting content. The user has not yet entered any new text into the input field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1333,
+        "timestamp_sec": 28.52,
+        "latency_sec": 7.06,
+        "frame_description": "The user is typing \"Tell me some website with interesting things\" into the chat input field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 1349,
+        "timestamp_sec": 28.86,
+        "latency_sec": 13.81,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has provided a list of websites with interesting content. The current action appears to be reading or reviewing the response from ChatGPT.\n\nVisible user-entered text in the application includes:\n- In the chat history: \"Tell me some website with interesting things\"\n- In the chat history: \"Sure! There are numerous websites with interesting content across various domains. Whether you're looking for educational material, entertainment, creative inspiration, or just fun and quirky stuff, there's something online for everyone. Here are some websites known for their interesting and unique content:\"\n- In the chat history: \"1. TED (ted.com): TED Talks offer a plethora of short, powerful talks on almost every topic imaginable, from science to business to global issues, all in more than 100 languages.\"\n- In the chat history: \"2. A Soft Murmur (asoftmurmur.com): This site allows you to create your own ambient soundscape by mixing different natural sounds. It's perfect for relaxation, meditation, or just as a background noise while working.\"\n- In the chat history: \"3. Wait But Why (waitbutwhy.com): A blog that dives deep into a variety",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1371,
+        "timestamp_sec": 29.33,
+        "latency_sec": 7.78,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided a list of websites with interesting content. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1387,
+        "timestamp_sec": 29.67,
+        "latency_sec": 7.55,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a list of websites with interesting content. The user has not entered any new text in the current session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1403,
+        "timestamp_sec": 30.02,
+        "latency_sec": 7.82,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided a list of websites with interesting content. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1419,
+        "timestamp_sec": 30.36,
+        "latency_sec": 7.98,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided a list of websites with interesting content. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1435,
+        "timestamp_sec": 30.7,
+        "latency_sec": 8.72,
+        "frame_description": "The user is viewing a chat interface in the ChatGPT application, where they have previously asked for websites with interesting content, and ChatGPT has responded with a list of recommended sites. The user is currently scrolling through the conversation history on the left sidebar, which includes various past interactions and documents. There is no active input being typed in the main chat area at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 1474,
+        "timestamp_sec": 31.54,
+        "latency_sec": 7.81,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the model has provided a list of websites with interesting content. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1490,
+        "timestamp_sec": 31.88,
+        "latency_sec": 8.63,
+        "frame_description": "The user is viewing a chat interface in an application, where they have previously asked ChatGPT for website recommendations. The current action involves reading through the provided list of websites, which includes TED, A Soft Murmur, Wait But Why, Atlas Obscura, Khan Academy, and Project Gutenberg. There is no active typing or input being performed at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 1506,
+        "timestamp_sec": 32.22,
+        "latency_sec": 13.83,
+        "frame_description": "The user is viewing a chat interface in the ChatGPT application, where they have previously asked for website recommendations and received a list of sites. The current action appears to be passive observation or reading of the displayed content.\n\nVisible user-entered text includes:\n- In the chat history: \"Tell me some website with interesting things\"\n- In the list of recommended websites:\n  - \"TED (ted.com): TED Talks offer a plethora of short, powerful talks on almost every topic imaginable, from science to business to global issues, all in more than 100 languages.\"\n  - \"A Soft Murmur (asoftmurmur.com): This site allows you to create your own ambient soundscape by mixing different natural sounds. It's perfect for relaxation, meditation, or just as a background noise while working.\"\n  - \"Wait But Why (waitbutwhy.com): A blog that dives deep into a variety of topics from science to philosophy to societal issues, all with a humorous and relatable approach.\"\n  - \"Atlas Obscura (atlasobscura.com): Discover hidden wonders of the world with Atlas Obscura's collection of unusual places and stories. It's a treasure trove for adventurers and curious minds.\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1531,
+        "timestamp_sec": 32.76,
+        "latency_sec": 7.52,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation discusses websites with interesting content. The user has not entered any new text in the current session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1547,
+        "timestamp_sec": 33.1,
+        "latency_sec": 9.8,
+        "frame_description": "The user is viewing a chat interface in the ChatGPT application, where they have previously asked for website recommendations with interesting content. The chat history shows that ChatGPT has responded with a list of seven websites, including TED, A Soft Murmur, Wait But Why, Atlas Obscura, Khan Academy, Project Gutenberg, and This Is My Website Now. The user is currently scrolling through the chat history, as indicated by the scroll bar on the right side of the screen. There is no active input field being used at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 109
+      },
+      {
+        "frame_number": 1563,
+        "timestamp_sec": 33.44,
+        "latency_sec": 7.81,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided a list of websites with interesting content. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1597,
+        "timestamp_sec": 34.17,
+        "latency_sec": 13.83,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a list of websites recommended for interesting content. The visible text in the chat includes:\n\n- \"Copying Code from a Documentation Website to an IDE: Developers frequently copy code snippets or examples from documentation or forums and paste them into an Integrated Development Environment (IDE) to test or integrate into their own code.\"\n- \"These interactions enhance productivity by allowing data and content to flow seamlessly between different applications or platforms, reducing the need for redundant data entry or manual transfer.\"\n- \"You: Tell me some website with interesting things\"\n- \"ChatGPT: Sure! There are numerous websites with interesting content across various domains. Whether you're looking for educational material, entertainment, creative inspiration, or just fun and quirky stuff, there's something online for everyone. Here are some websites known for their interesting and unique content:\"\n- A numbered list of websites including TED (ted.com), A Soft Murmur (asoftmurmur.com), Wait But Why (waitbutwhy.com), Atlas Obscura (atlasobscura.com), Khan Academy (khanacademy.org), Project Gutenberg (gutenberg.org), This Is My Website Now (thisismysitenow.com), and The",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1613,
+        "timestamp_sec": 34.51,
+        "latency_sec": 7.83,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided a list of websites with interesting content. The user has not yet entered any new text into the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1629,
+        "timestamp_sec": 34.85,
+        "latency_sec": 7.57,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the assistant has provided a list of websites with interesting content. The user has not entered any new text in this session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1864,
+        "timestamp_sec": 39.88,
+        "latency_sec": 7.49,
+        "frame_description": "The user is viewing the Microsoft Start page on their desktop, with various website shortcuts and a search bar visible. There is no active text input or typing occurring in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 2071,
+        "timestamp_sec": 44.31,
+        "latency_sec": 9.58,
+        "frame_description": "The user is viewing a webpage titled \"This is My Website Now\" with the subtitle \"A hodge-podge of the useful, the useless, and the everywhere-in-between.\" The page appears to be a personal or academic portfolio, possibly related to computer science or technology, given the references to papers and datasets in the sidebar. The sidebar lists various items such as papers, datasets, and resources, suggesting the user might be organizing or browsing through their research or project materials. There is no active input or typing visible on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 108
+      },
+      {
+        "frame_number": 2087,
+        "timestamp_sec": 44.65,
+        "latency_sec": 10.37,
+        "frame_description": "The user is viewing a webpage titled \"This is My Website Now\" with a subtitle \"A hodge-podge of the useful, the useless, and the everywhere-in-between.\" The page features a large orange rectangle labeled \"Random App\" and two circles labeled \"Dodger\" and \"Maze Mine.\" On the left side, there is a sidebar with various links and folders, including items like \"[2403.11085] m&m's: A Bench,\" \"VideoAgent: Lo,\" \"2310.02226.pdf,\" and others. The user appears to be browsing or organizing content within this application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 135
+      },
+      {
+        "frame_number": 2103,
+        "timestamp_sec": 44.99,
+        "latency_sec": 10.08,
+        "frame_description": "The user is viewing a webpage titled \"This is My Website Now\" which displays a list of items on the left side and a visual representation of categories in the center. The left sidebar contains various entries such as \"[2403.11085] m&m's: A Bench...\", \"Hugging Face\", \"Video-LLM\", \"Video-Dataset\", and others. The central part of the page shows four circles labeled \"Dodger\", \"Maze Mine\", \"Defend\", and \"Fast Tap\". There is no active input field or text being typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 126
+      },
+      {
+        "frame_number": 2119,
+        "timestamp_sec": 45.34,
+        "latency_sec": 9.05,
+        "frame_description": "The user is viewing a webpage titled \"This is My Website Now\" which displays a list of items on the left side and several colored circles with text in the center. The webpage appears to be a personal or project dashboard, possibly for organizing files, links, or resources. There are no visible form fields or input areas where the user is actively typing or entering text. The user seems to be browsing or reviewing the content displayed on the page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 2225,
+        "timestamp_sec": 47.6,
+        "latency_sec": 9.67,
+        "frame_description": "The user is viewing a webpage titled \"This is My Website Now\" with a subtitle \"A hodge-podge of the useful, the useless, and the everywhere-in-between.\" The page features a large orange section labeled \"Random App\" and four circular diagrams below it labeled \"Dodger,\" \"Maze Mine,\" \"Defend,\" and \"Fast Tap.\" On the left side, there is a sidebar with various links and files, including PDFs and other documents. The user appears to be browsing or reviewing the content on this webpage.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 110
+      },
+      {
+        "frame_number": 2254,
+        "timestamp_sec": 48.22,
+        "latency_sec": 8.93,
+        "frame_description": "The user is scrolling down a webpage that displays various circular diagrams with labels such as \"Dodger,\" \"Maze Mine,\" \"Defend,\" and \"Fast Tap.\" The webpage appears to be part of a website called \"This is My Website Now,\" which seems to showcase different applications or projects. The user's cursor is hovering over the \"Defend\" circle, suggesting they might be about to interact with it.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 85
+      },
+      {
+        "frame_number": 2330,
+        "timestamp_sec": 49.85,
+        "latency_sec": 8.96,
+        "frame_description": "The user is viewing a webpage titled \"This is My Website Now\" which displays a collection of colorful circles, each labeled with different names such as \"Dodger,\" \"Maze Mine,\" \"Defend,\" and \"Fast Tap.\" The page appears to be part of a personal website or portfolio, showcasing various projects or applications. There are no visible user-entered text fields or active typing actions in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 85
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Ask GPT for fun websites, then open a website recommended by GPT.",
+      "reference_caption": "A user interacts with ChatGPT to find interesting websites, selects 'This Is My Website Now' from the provided list, and navigates to it in a new browser tab.",
+      "reference_apps": [
+        "edge",
+        "openai",
+        "thisismywebsitenow.com"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 592,
+          "sub_goal": "Chat with chatGPT and ask it to tell you some websites with interesting things.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "tell me some websites with interesting things "
+        },
+        {
+          "frame": 1849,
+          "sub_goal": "GPT generated some responses, I chose one of them, and then copied the link to the webpage.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + c"
+        },
+        {
+          "frame": 1903,
+          "sub_goal": "Created a new tab, then entered the copied website URL.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 2179,
+          "sub_goal": "Enter the website thisismywebsitenow.com, where there are many small games.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent was to provide a list of websites with interesting content in response to the user's request. The timeline shows that the user asked for website recommendations and received a detailed list, which matches the core objective of providing useful web resources."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The descriptions correctly identify the user's interactions, such as viewing a webpage titled 'This is My Website Now' and scrolling through its content. There are no contradictions or fabricated details in the descriptions compared to the keyframes."
+        },
+        "coverage": {
+          "score": 3.86,
+          "coverage": 0.714,
+          "covered": 5,
+          "total": 7,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline provides a detailed description of the user's actions across various keyframes, including viewing content, scrolling, and interacting with webpages. These descriptions align well with the specific actions mentioned in each keyframe."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The timeline contains multiple frames showing similar views of a chat interface and webpage without significant changes in content, indicating redundancy. However, there are also distinct transitions between different activities (e.g., from viewing the ChatGPT application to browsing a personal website), which reduces the overall redundancy."
+        }
+      },
+      "composite_score": 16.86,
+      "max_score": 20,
+      "latency_sec": 194.12
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0122,
+        "recall": 0.7885,
+        "f1": 0.0239
+      },
+      "rouge2": {
+        "precision": 0.0024,
+        "recall": 0.1569,
+        "f1": 0.0047
+      },
+      "rougeL": {
+        "precision": 0.0098,
+        "recall": 0.6346,
+        "f1": 0.0193
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0492
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 645.04,
+      "total_vlm_inference_sec": 438.92,
+      "intent_latency_sec": 11.92,
+      "frames_processed": 48,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.14,
+      "median_frame_latency_sec": 8.65,
+      "min_frame_latency_sec": 7.06,
+      "max_frame_latency_sec": 14.12,
+      "avg_description_length_chars": 429.6,
+      "total_prompt_tokens": 104943,
+      "total_completion_tokens": 4425,
+      "avg_completion_tokens_per_sec": 9.8,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was seeking website recommendations from ChatGPT and exploring the suggested links to find and open the \"Defend\" application on one of those sites.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 4.11,
+        "frame_description": "The user is typing text into the message input field at the bottom of the ChatGPT web page.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com/c/e79ca284-17b9-458d-b38d-dda1b0eb7fc0`\n* Message input field: `Tell m`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 85
+      },
+      {
+        "frame_number": 594,
+        "timestamp_sec": 12.71,
+        "latency_sec": 6.83,
+        "frame_description": "The user is viewing a ChatGPT conversation in a web browser with the address bar containing \"https://chat.openai.com/c/e79ca284-17",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 610,
+        "timestamp_sec": 13.05,
+        "latency_sec": 12.43,
+        "frame_description": "The user is waiting for ChatGPT to generate a response to their query.\n\n**Visible User-Entered Text:**\n* Address bar: `https://chat.openai.com/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 714,
+        "timestamp_sec": 15.28,
+        "latency_sec": 6.35,
+        "frame_description": "The user is viewing ChatGPT generating a response in a web browser.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com/c/e79ca284-17b9-458d-dda1-b0eb7fc0`\n* Chat prompt: `Tell me some website with interesting things`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 730,
+        "timestamp_sec": 15.62,
+        "latency_sec": 7.0,
+        "frame_description": "The user is viewing a ChatGPT conversation in a web browser. \n\nVisible user-entered text includes:\n- Address bar: `\"https://chat.openai.com/c/e",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 900,
+        "timestamp_sec": 19.26,
+        "latency_sec": 6.53,
+        "frame_description": "The user is viewing a response from ChatGPT in a web browser.\n\n**Visible user-entered text in form fields:**\n* Address bar: `\"https://chat.openai.com/c/e79ca284-17b9-458d-b38d-bda1b0eb7fc0\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 916,
+        "timestamp_sec": 19.6,
+        "latency_sec": 7.32,
+        "frame_description": "The user is viewing ChatGPT generating a response to a prompt in the web browser.\n\n**User-entered text:**\n* Address bar: `\"https://chat.openai.com/c/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 943,
+        "timestamp_sec": 20.18,
+        "latency_sec": 7.6,
+        "frame_description": "The user is viewing a response from ChatGPT in a web browser.\n\n**User-entered text:**\n* Address bar: `https://chat.openai.com/c/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 959,
+        "timestamp_sec": 20.52,
+        "latency_sec": 7.34,
+        "frame_description": "The user is viewing a ChatGPT response on a web browser. The visible user-entered text in the address bar is \"https://chat.openai.com/c/e79ca2",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 975,
+        "timestamp_sec": 20.86,
+        "latency_sec": 7.4,
+        "frame_description": "The user is viewing a response generated by ChatGPT to their query.\n\n**Visible user-entered text:**\n* Prompt field: `\"Tell me some website with interesting things\"`\n* Address bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 991,
+        "timestamp_sec": 21.2,
+        "latency_sec": 13.97,
+        "frame_description": "The user is viewing a response generated by ChatGPT in the browser, where ChatGPT is actively streaming text to answer the prompt \"Tell me some website with interesting things\".\n\nVisible user-entered text:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1031,
+        "timestamp_sec": 22.06,
+        "latency_sec": 6.95,
+        "frame_description": "The user is viewing a conversation with ChatGPT in a web browser while the AI generates a response. \n\nThe visible user-entered text in the application's address bar is:\n`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1047,
+        "timestamp_sec": 22.4,
+        "latency_sec": 7.63,
+        "frame_description": "The user is viewing ChatGPT as it generates a response to a prompt on the screen.\n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai.com/c",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1063,
+        "timestamp_sec": 22.74,
+        "latency_sec": 7.12,
+        "frame_description": "The user is viewing a response on the ChatGPT website in a web browser. \n\nVisible user-entered text includes:\n- Address bar: `\"https://chat.openai.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1105,
+        "timestamp_sec": 23.64,
+        "latency_sec": 7.77,
+        "frame_description": "The user is viewing a response generated by ChatGPT in the web browser with the address bar containing \"https://chat.openai.com/c/e79ca284-17",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1121,
+        "timestamp_sec": 23.98,
+        "latency_sec": 6.9,
+        "frame_description": "The user is viewing ChatGPT generating a response to the prompt \"Tell me some website with interesting things\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 1157,
+        "timestamp_sec": 24.75,
+        "latency_sec": 6.95,
+        "frame_description": "b9-458d-b38d-dda1b0eb7fc0`\n\nLet's formulate the exact response clearly and concisely:\n\nThe user is viewing a ChatGPT",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1173,
+        "timestamp_sec": 25.1,
+        "latency_sec": 7.88,
+        "frame_description": "The user is viewing a response from ChatGPT in a web browser while the model generates text.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1214,
+        "timestamp_sec": 25.97,
+        "latency_sec": 7.7,
+        "frame_description": "The user is viewing a response being generated by ChatGPT to their prompt in a web browser.\n\n**User-entered text:**\n* Address bar: `https://chat.openai.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1230,
+        "timestamp_sec": 26.32,
+        "latency_sec": 6.59,
+        "frame_description": "The user is viewing ChatGPT generating a response to the prompt \"Tell me some website with interesting things\" at the URL \"https://chat.openai.com/c/e79ca284-17b9-458d-b38d-dda1b0eb7fc0\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 1252,
+        "timestamp_sec": 26.79,
+        "latency_sec": 7.73,
+        "frame_description": "The user is viewing a response generated by ChatGPT in a web browser.\n\nVisible user-entered text in form fields/address bar:\n- Address bar: `https://chat.openai",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1268,
+        "timestamp_sec": 27.13,
+        "latency_sec": 7.19,
+        "frame_description": "The user is viewing a ChatGPT conversation in a web browser.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com/c/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1289,
+        "timestamp_sec": 27.58,
+        "latency_sec": 7.13,
+        "frame_description": "The user is viewing ChatGPT's response to their prompt in a web browser.\n\n**Visible user-entered text:**\n* **Chat prompt:** `\"Tell me some website with interesting things",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1305,
+        "timestamp_sec": 27.92,
+        "latency_sec": 6.89,
+        "frame_description": "The user is hovering the mouse cursor over the \"waitbutwhy.com\" link in the ChatGPT response. \n\nThe visible user-entered text includes:\n* Address bar: `https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1333,
+        "timestamp_sec": 28.52,
+        "latency_sec": 6.62,
+        "frame_description": "The user is hovering the cursor over the \"waitbutwhy.com\" link on the web page.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1349,
+        "timestamp_sec": 28.86,
+        "latency_sec": 7.01,
+        "frame_description": "The user is viewing a ChatGPT conversation in a web browser. \n\nThere is no active user-entered text in input fields or form fields; the address bar contains the URL `\"https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1371,
+        "timestamp_sec": 29.33,
+        "latency_sec": 6.98,
+        "frame_description": "The user is viewing a ChatGPT response on a webpage. \n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com/c/e79ca2",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1387,
+        "timestamp_sec": 29.67,
+        "latency_sec": 6.93,
+        "frame_description": "The user is hovering the mouse cursor over the link \"atlasobscura.com\" in the ChatGPT response.\n\n**Visible user-entered text:**\n* Address bar: `https://",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1403,
+        "timestamp_sec": 30.02,
+        "latency_sec": 7.55,
+        "frame_description": "\" (placeholder).\n\nWhat about the mouse action?\nThe mouse pointer (I-beam) is positioned over the text \"atlasobscura.com\" in the ChatGPT chat window",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1419,
+        "timestamp_sec": 30.36,
+        "latency_sec": 8.27,
+        "frame_description": "The user is viewing a web page in Microsoft Edge where ChatGPT is generating a response to the prompt \"Tell me some website with interesting things\".\n\n**Visible user-entered text:**",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1435,
+        "timestamp_sec": 30.7,
+        "latency_sec": 7.46,
+        "frame_description": "The user is hovering the mouse cursor over text in the web page. \n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com/c",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1474,
+        "timestamp_sec": 31.54,
+        "latency_sec": 7.28,
+        "frame_description": "The user is hovering the text cursor over the text \"Khan Academy (khanacademy.org)\" on the web page.\n\nVisible user-entered text includes:\n- Address bar:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1490,
+        "timestamp_sec": 31.88,
+        "latency_sec": 7.28,
+        "frame_description": "The user is hovering the mouse cursor over the text generated in the ChatGPT window.\n\n**Visible user-entered text:**\n* Address bar: `https://chat.openai.com/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1506,
+        "timestamp_sec": 32.22,
+        "latency_sec": 7.45,
+        "frame_description": "The user is hovering the text cursor over text on a web page in the web browser.\n\n**Visible user-entered text in form fields/address bar:**\n- Address bar: `https://",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1531,
+        "timestamp_sec": 32.76,
+        "latency_sec": 7.45,
+        "frame_description": "The user is clicking on the \"gutenberg.org\" link. \n\nVisible user-entered text in the application:\n- \"Tell me some website with interesting things\"\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1547,
+        "timestamp_sec": 33.1,
+        "latency_sec": 6.96,
+        "frame_description": "The user is hovering the mouse cursor over the text \"gutenberg.org\" on the ChatGPT webpage. \n\n**Visible user-entered text:**\n* Address bar: `https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1563,
+        "timestamp_sec": 33.44,
+        "latency_sec": 7.33,
+        "frame_description": "The user is hovering the mouse cursor over text in the ChatGPT response on the web page.\n\nVisible user-entered text:\n- Address bar: `https://chat.openai.com/c/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1597,
+        "timestamp_sec": 34.17,
+        "latency_sec": 7.25,
+        "frame_description": "The user is hovering the cursor over text on a web page displaying a ChatGPT response.\n\n**Visible user-entered text in application fields:**\n- Address bar: `\"https://chat.openai",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1613,
+        "timestamp_sec": 34.51,
+        "latency_sec": 6.2,
+        "frame_description": "The user is hovering the cursor over text in a ChatGPT chat response within the web browser. The user-entered text visible in the URL bar is 'https://chat.openai.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1629,
+        "timestamp_sec": 34.85,
+        "latency_sec": 6.65,
+        "frame_description": "The user is hovering the mouse cursor over the text in the ChatGPT response area.\n\n**User-Entered Text:**\n* Address bar: `https://chat.openai.com/c/e",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1864,
+        "timestamp_sec": 39.88,
+        "latency_sec": 5.2,
+        "frame_description": "The user is clicking on the \"If I was your grumpy teacher | S...\" tab in the left sidebar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 2071,
+        "timestamp_sec": 44.31,
+        "latency_sec": 6.38,
+        "frame_description": "The user is moving the mouse cursor over the webpage.\n\n**Visible user-entered text:**\n* Address bar: `\"https://thisismywebsitenow.com\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 2087,
+        "timestamp_sec": 44.65,
+        "latency_sec": 4.93,
+        "frame_description": "The user is clicking on the 'Random App' box on the webpage.\n\n**Visible user-entered text:**\n* **Address bar:** \"https://thisismywebsitenow.com\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 2103,
+        "timestamp_sec": 44.99,
+        "latency_sec": 5.58,
+        "frame_description": "The user is clicking on the 'Random App' section. \n\n visible user-entered text:\n- Address bar: \"https://thisismywebsitenow.com\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 2119,
+        "timestamp_sec": 45.34,
+        "latency_sec": 4.81,
+        "frame_description": "The user is hovering the cursor over the \"Random App\" section on the webpage.\n\n**Visible user-entered text:**\n* Address bar: `\"https://thisismywebsitenow.com\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 2225,
+        "timestamp_sec": 47.6,
+        "latency_sec": 5.15,
+        "frame_description": "The user is clicking on the \"Dodger\" circle on the webpage. \n\nThe visible text in the address bar is \"https://thisismywebsitenow.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 2254,
+        "timestamp_sec": 48.22,
+        "latency_sec": 5.42,
+        "frame_description": "The user is hovering over the 'Defend' circle on the webpage.\n\n**User-entered text:**\n* Address bar: `https://thisismywebsitenow.com`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 2330,
+        "timestamp_sec": 49.85,
+        "latency_sec": 5.34,
+        "frame_description": "The user is clicking on the 'Defend' button. The address bar contains the text \"https://thisismywebsitenow.com/defend/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Ask GPT for fun websites, then open a website recommended by GPT.",
+      "reference_caption": "A user interacts with ChatGPT to find interesting websites, selects 'This Is My Website Now' from the provided list, and navigates to it in a new browser tab.",
+      "reference_apps": [
+        "edge",
+        "openai",
+        "thisismywebsitenow.com"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 592,
+          "sub_goal": "Chat with chatGPT and ask it to tell you some websites with interesting things.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "tell me some websites with interesting things "
+        },
+        {
+          "frame": 1849,
+          "sub_goal": "GPT generated some responses, I chose one of them, and then copied the link to the webpage.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + c"
+        },
+        {
+          "frame": 1903,
+          "sub_goal": "Created a new tab, then entered the copied website URL.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 2179,
+          "sub_goal": "Enter the website thisismywebsitenow.com, where there are many small games.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both involve seeking website recommendations from ChatGPT and exploring those suggestions. The timeline supports this by showing interactions with ChatGPT to find interesting websites, followed by navigating to 'thisismywebsitenow.com' and interacting with its content. There are no contradictions in the timeline regarding these actions."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The user's interactions, such as typing a prompt to ChatGPT, selecting and copying a link, opening a new tab, pasting the URL, and navigating to 'thisismywebsitenow.com', are all correctly described in the frames without contradictions or fabricated details. The timeline supports answering the sequential QA consistently with the given answer, confirming that the user selected and navigated to 'This Is My Website Now'."
+        },
+        "coverage": {
+          "score": 4.43,
+          "coverage": 0.857,
+          "covered": 6,
+          "total": 7,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "openai",
+            "thisismywebsitenow.com"
+          ],
+          "reasoning": "The AI timeline describes the user interacting with ChatGPT to request website suggestions, selecting a link, and navigating to it. It also covers actions related to visiting 'thisismywebsitenow.com' and engaging with its content."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI-generated timeline contains numerous repetitive entries that describe similar states of the user interface without significant changes, such as repeated mentions of viewing ChatGPT responses and hovering over links. These repetitions occur frequently throughout the timeline."
+        }
+      },
+      "composite_score": 16.43,
+      "max_score": 20,
+      "latency_sec": 169.14
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0289,
+        "recall": 0.6731,
+        "f1": 0.0554
+      },
+      "rouge2": {
+        "precision": 0.0074,
+        "recall": 0.1765,
+        "f1": 0.0143
+      },
+      "rougeL": {
+        "precision": 0.0223,
+        "recall": 0.5192,
+        "f1": 0.0427
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0182
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 517.49,
+      "total_vlm_inference_sec": 338.79,
+      "intent_latency_sec": 9.52,
+      "frames_processed": 48,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 7.06,
+      "median_frame_latency_sec": 7.0,
+      "min_frame_latency_sec": 4.11,
+      "max_frame_latency_sec": 13.97,
+      "avg_description_length_chars": 153.8,
+      "total_prompt_tokens": 60341,
+      "total_completion_tokens": 2037,
+      "avg_completion_tokens_per_sec": 5.8
+    }
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/468.mov",
+  "total_frames": 915,
+  "fps": 46.72260897686848,
+  "video_length_sec": 19.58,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 915,
+  "frames_processed": 9,
+  "vlm": {
+    "model": "qwen3.5:latest",
+    "diff_threshold": 0.01,
+    "intent": "The user is attempting to clean and convert JSON data within a Jupyter Notebook by removing specific formatting artifacts before parsing, but the process is failing due to a JSON parsing error caused by malformed content in the input file.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 87.81,
+        "frame_description": "The user is viewing a Jupyter Notebook in Visual Studio Code, with the current cell containing Python code that processes JSON data. The visible user-entered text includes:\n\n- In the first code cell:\n  - `import json`\n  - `def clean_and_convert_to_dict(json_str):`\n  - `# \u53bb\u9664\u5b57\u7b26\u4e32\u5f00\u5934\u548c\u7ed3\u5c3e\u7684 ``json` \u548c ``, \u7136\u540e\u53bb\u9664\u6240\u6709\u7684\u8f6c\u4e49\u5b57\u7b26 `\\n`\n  - `clean_str = json_str.replace('``json', '').replace('``', '').replace('\\n', '').strip()`\n  - `# \u5c06\u6e05\u6d17\u540e\u7684\u5b57\u7b26\u4e32\u8f6c\u6362\u4e3a JSON \u5b57\u5178`\n  - `json_dict = json.loads(clean_str)`\n  - `return json_dict`\n\n- In the second code cell:\n  - `with open(\"rico_79_1000.jsonl\", 'r') as f:`\n  - `data = [json.loads(line) for line in f]`\n  - `for item in data:`\n  - `try:`\n  - `clean_dict = clean_and_convert_to_dict(item['result'])`\n  - `except Exception as e:`\n  - `print(e)`\n  - `print",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 426,
+        "timestamp_sec": 9.12,
+        "latency_sec": 38.49,
+        "frame_description": "The user is viewing a code editor with Python scripts and JSON files, specifically working on cleaning and converting JSON data. The terminal displays output from a script processing JSON files, showing progress and sample data. The user has not entered any text in form fields or search bars; all visible text is part of the code or terminal output.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 442,
+        "timestamp_sec": 9.46,
+        "latency_sec": 55.08,
+        "frame_description": "The user is viewing a Jupyter Notebook file named 'clean.ipynb' in Visual Studio Code, which contains Python code for processing JSON data. The terminal at the bottom shows output from running a script that processes items from 'rico_left.jsonl' and writes them to 'rico_left_output.jsonl'. The visible text includes file names like 'azure_api.py', 'rico_1000_3000.jsonl', 'connect_video.sh', 'clean.ipynb', 'rico_left.jsonl', 'clean_rico_0_1000.jsonl', 'rico_left_output.jsonl', 'config', 'rico_79_1000.jsonl', 'rico_v', 'process.ipynb', 'rico_0_200.jsonl', 'rico_79_1000.jsonl', 'rico_left.jsonl', 'rico_v2.jsonl', 'rico.jsonl', 'test.jsonl', 'selected', 'selected_0_200', 'combined.gif', 'connect_video.sh', 'process_gif.sh', 'selected_0_200.zip', 'selected.zip', 'scripts', 'with open(\"rico_left_output.jsonl\", 'r",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 458,
+        "timestamp_sec": 9.8,
+        "latency_sec": 30.19,
+        "frame_description": "The user is running a Python script in a Jupyter notebook to process JSON data, with the terminal displaying output from a subprocess command. The visible user-entered text includes:  \n- In the notebook cell: `with open(\"rico_left_output.jsonl\", 'r') as f:`, `data = [json.loads(line) for line in f]`, `for item in data:`, `try:`, `clean_dict = clean_and_convert_to_dict(item['result'])`, `except Exception as e:`, `print(e)`, `print(item['result'])`, `break`, `item['Description'] = clean_dict['Description']`, `item['Caption'] = clean_dict['Caption']`, `item['QA'] = clean_dict['QA']`, `item['MCQA'] = clean_dict['MCQA']`, `item.pop('result')`, `with open(\"clean_rico_79_1000.jsonl\", 'w') as f:`, `for item in data:`, `f.write(json.dumps(item, ensure_ascii=False) + '\\n')`  \n- In the terminal: `\"QA\": {`, `\"Question\": \"What information is required from the user on the registration screen?\",`, `\"Answer\":",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 841,
+        "timestamp_sec": 18.0,
+        "latency_sec": 18.07,
+        "frame_description": "The user is viewing a Jupyter Notebook file named 'clean.ipynb' in Visual Studio Code, which contains Python code for processing JSON data. The terminal at the bottom shows an error message related to JSON parsing and a command being executed to process items from a JSON file. The visible text includes file names like 'rico_left_output.jsonl', 'clean_rico_0_1000.jsonl', and other related files in the explorer panel. The terminal also displays a progress bar indicating 'Processing items: 100%' and a timestamp '12:51 02-4\u6708-24'.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 130
+      },
+      {
+        "frame_number": 857,
+        "timestamp_sec": 18.34,
+        "latency_sec": 22.46,
+        "frame_description": "The user is viewing a JSON file in a code editor, with the terminal displaying output from a Python script processing items. The visible text includes: \"rico [SSH: 175.178.24.19]\", \"clean.ipynb\", \"with open('rico_left_output.jsonl', 'r') as f:\", \"item['Caption'] = clean_dict['Caption']\", \"item['QA'] = clean_dict['QA']\", \"item['MCQA'] = clean_dict['MCQA']\", \"item.pop('result')\", \"with open('clean_rico_left_output.jsonl', 'w') as f:\", \"for item in data:\", \"f.write(json.dumps(item, ensure_ascii=False) + '\\n')\", \"Expecting ',' delimiter: line 1 column 715 (char 714)\", \"```json\", \"{\", \"\\\"Description\\\": \\\"The video showcases a user navigating through a mobile application dedicated to Rick Steves' audio tours of Europe. Initially, the user is on the home screen with a un\", \"\\\"Caption\\\": \\\"Exploring the Rick Steves Audio Europe App for Curated London Travel Guides\\\",\", \"\\\"QA\\\": {\", \"\\\"Question\\\": \\\"How can a user add audio tracks to",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 873,
+        "timestamp_sec": 18.68,
+        "latency_sec": 22.52,
+        "frame_description": "The user is viewing a JSON file in a code editor, with the terminal displaying output from a Python script processing items. The visible text includes: \"rico [SSH: 175.178.24.19]\", \"clean.ipynb\", \"with open(\"clean_rico_left_output.jsonl\", 'w') as f:\", \"for item in data:\", \"f.write(json.dumps(item, ensure_ascii=False) + '\\n')\", \"Expecting ',' delimiter: line 1 column 715 (char 714)\", \"```json\", \"{\", \"\\\"Description\\\": \\\"The video showcases a user navigating through a mobile application dedicated to Rick Steves' audio tours of Europe. Initially, the user is on the home screen with a un\", \"\\\"Caption\\\": \\\"Exploring the Rick Steves Audio Europe App for Curated London Travel Guides\\\",\", \"\\\"QA\\\": {\", \"\\\"Question\\\": \\\"How can a user add audio tracks to their playlist in the Rick Steves app?\\\",\", \"\\\"Answer\\\": \\\"A user can add audio tracks to their playlist by tapping the 'Add Tours & Interviews' button and selecting their desired tours from various European regions.\\\",\", \"},\", \"\\\"MCQA\\\": {\", \"\\\"Question\\\":",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 889,
+        "timestamp_sec": 19.03,
+        "latency_sec": 18.23,
+        "frame_description": "The user is viewing a JSON file in a code editor, with the text \"Expecting ',' delimiter: line 1 column 715 (char 714)\" displayed at the top of the editor window. The visible user-entered text includes:\n\n- In the search bar at the top: \"rico [SSH: 175.178.24.19]\"\n- In the terminal output: \n  - \"Processing items: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588",
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      },
+      {
+        "frame_number": 915,
+        "timestamp_sec": 19.58,
+        "latency_sec": 22.49,
+        "frame_description": "The user is viewing a JSON file in a code editor, with the text \"Expecting ',' delimiter: line 1 column 715 (char 714)\" displayed at the top of the editor window. The visible user-entered text includes:\n\n- In the search bar at the top: \"rico [SSH: 175.178.24.19]\"\n- In the file explorer sidebar: filenames such as \"azure_api.py\", \"rico_1000_3000.jsonl\", \"connect_video.sh\", \"clean.ipynb\", etc.\n- In the main editor area: JSON content including strings like `\"Description\": \"The video showcases a user navigating through a mobile application dedicated to Rick Steves' audio tours of Europe. Initially, the user is on the home screen with a un\"`, `\"Caption\": \"Exploring the Rick Steves Audio Europe App for Curated London Travel Guides\"`, `\"QA\": {`, `\"Question\": \"How can a user add audio tracks to their playlist in the Rick Steves app?\"`, `\"Answer\": \"A user can add audio tracks to their playlist by tapping the 'Add Tours & Interviews' button and selecting their desired tours from",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Run Jupyter notebook file",
+      "reference_caption": "Executing and modifying file names in a Jupyter notebook within VSCode on macOS.",
+      "reference_apps": [
+        "vscode"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 62,
+          "sub_goal": "Ran the first block of the Jupyter notebook.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 397,
+          "sub_goal": "Modified the file name for data input.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "left_output"
+        },
+        {
+          "frame": 726,
+          "sub_goal": "Modified the output file name.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "left_output"
+        },
+        {
+          "frame": 826,
+          "sub_goal": "Ran the second block of Jupyter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of cleaning and converting JSON data within a Jupyter Notebook, as evidenced by actions like correcting file paths and handling JSON parsing errors. The timeline supports this with details about processing JSON files and fixing issues related to malformed content. For the reasoning question, the correction of the file path for the JSON input matches the user's action in Frame 841. For the prediction question, verifying the contents of 'clean_rico_left_output.jsonl' aligns with the logical next step after successful code execution, as seen in Frames 442 and 458."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes and ground truth information. The frames correctly describe interactions such as clicking, typing, and running code cells in a Jupyter notebook within VSCode on macOS. There are no contradictions or fabricated actions reported in the AI descriptions compared to the provided keyframes and answers."
+        },
+        "coverage": {
+          "score": 3.4,
+          "coverage": 0.6,
+          "covered": 3,
+          "total": 5,
+          "covered_actions": [
+            1,
+            4
+          ],
+          "covered_apps": [
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to viewing and running code in a Jupyter Notebook within Visual Studio Code, which aligns with some of the keyframe actions. However, specific mouse clicks or file name modifications are not explicitly mentioned."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of the user interface and actions without significant changes, such as repeated descriptions of viewing a Jupyter Notebook or JSON file in Visual Studio Code. However, there are also entries with new information like error messages and script outputs."
+        }
+      },
+      "composite_score": 16.4,
+      "max_score": 20,
+      "latency_sec": 205.87
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0181,
+        "recall": 0.7308,
+        "f1": 0.0353
+      },
+      "rouge2": {
+        "precision": 0.0067,
+        "recall": 0.28,
+        "f1": 0.013
+      },
+      "rougeL": {
+        "precision": 0.0153,
+        "recall": 0.6154,
+        "f1": 0.0298
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0104
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:latest",
+      "standalone_pipeline_sec": 526.69,
+      "total_vlm_inference_sec": 315.34,
+      "intent_latency_sec": 5.41,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 35.04,
+      "median_frame_latency_sec": 22.52,
+      "min_frame_latency_sec": 18.07,
+      "max_frame_latency_sec": 87.81,
+      "avg_description_length_chars": 750,
+      "total_prompt_tokens": 18145,
+      "total_completion_tokens": 1777,
+      "avg_completion_tokens_per_sec": 5.5,
+      "model_memory_mb": 8141,
+      "model_params": 9653104368
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to review and edit code within the \"clean.ipynb\" notebook file in Visual Studio Code.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 21.16,
+        "frame_description": "The user is selecting text in the code editor. Visible user-entered text includes `\"rico [SSH: 175.178.24.19]\"` in the",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 426,
+        "timestamp_sec": 9.12,
+        "latency_sec": 6.66,
+        "frame_description": "The user is editing code in \"clean.ipynb\" in Visual Studio Code, with \"rico [SSH: 175.178.24.19]\" entered in the top search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 442,
+        "timestamp_sec": 9.46,
+        "latency_sec": 24.16,
+        "frame_description": "The user is typing in the search bar at the top of the window. The visible user-entered text is \"rico\", \"python azure_api.py --json_file_path",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 458,
+        "timestamp_sec": 9.8,
+        "latency_sec": 22.98,
+        "frame_description": "The user is viewing the Jupyter Notebook file 'clean.ipynb' in Visual Studio Code.\n\n**User-entered text:**\n* Top search bar: `\"rico [SSH: 1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 841,
+        "timestamp_sec": 18.0,
+        "latency_sec": 18.75,
+        "frame_description": "The user is hovering the cursor over the text in the code editor of the `clean.ipynb` file.\n\n**Visible user-entered text:**\n* Top search bar: `\"rico [SSH",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 857,
+        "timestamp_sec": 18.34,
+        "latency_sec": 10.45,
+        "frame_description": "The user is viewing the clean.ipynb notebook file in Visual Studio Code.\n\nVisible user-entered text in application fields:\n- Search bar: `rico [SSH: 175.178.24.19]`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 873,
+        "timestamp_sec": 18.68,
+        "latency_sec": 7.22,
+        "frame_description": "The user is viewing the \"clean.ipynb\" notebook file in Visual Studio Code.\n\nVisible user-entered text:\n- Top search bar: `rico [SSH: 1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 889,
+        "timestamp_sec": 19.03,
+        "latency_sec": 22.66,
+        "frame_description": "",
+        "prompt_tokens": 1200,
+        "completion_tokens": 0
+      },
+      {
+        "frame_number": 915,
+        "timestamp_sec": 19.58,
+        "latency_sec": 7.45,
+        "frame_description": "The user is selecting text in the 'clean.ipynb' file within Visual Studio Code.\n\n**Visible user-entered text:**\n* Top command/search bar: `rico",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Run Jupyter notebook file",
+      "reference_caption": "Executing and modifying file names in a Jupyter notebook within VSCode on macOS.",
+      "reference_apps": [
+        "vscode"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 62,
+          "sub_goal": "Ran the first block of the Jupyter notebook.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 397,
+          "sub_goal": "Modified the file name for data input.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "left_output"
+        },
+        {
+          "frame": 726,
+          "sub_goal": "Modified the output file name.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "left_output"
+        },
+        {
+          "frame": 826,
+          "sub_goal": "Ran the second block of Jupyter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective as both involve editing and executing code within a Jupyter notebook file in Visual Studio Code. The timeline shows actions consistent with this, such as selecting text and viewing/editing 'clean.ipynb'. There are no contradictions in the specific details of the reasoning or prediction answers."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions do not contradict the keyframes or provided answers. They accurately describe user interactions such as selecting text and editing code in 'clean.ipynb' within Visual Studio Code, consistent with the keyframe actions of modifying filenames and running notebook cells. The descriptions align with the ground truth regarding active interaction points without introducing fabricated details. For STATIC QA, the timeline supports identifying VSCode elements confirming the environment. SEQUENTIAL-QA is supported by the description of filename modification before cell execution. MCQA is consistent as it reflects the correct change from 'rico_79_1000.json' to 'rico_left_output.json'."
+        },
+        "coverage": {
+          "score": 1.8,
+          "coverage": 0.2,
+          "covered": 1,
+          "total": 5,
+          "covered_actions": [],
+          "covered_apps": [
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to editing and viewing a Jupyter notebook file in Visual Studio Code, but it does not explicitly mention running blocks or modifying filenames as described in the keyframes."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames that describe similar actions without significant changes in context or information. For example, multiple frames indicate the user is 'viewing' or 'editing' the same file with minimal variation in description or visible text, suggesting redundancy."
+        }
+      },
+      "composite_score": 13.8,
+      "max_score": 20,
+      "latency_sec": 65.05
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0553,
+        "recall": 0.4231,
+        "f1": 0.0978
+      },
+      "rouge2": {
+        "precision": 0.0152,
+        "recall": 0.12,
+        "f1": 0.0269
+      },
+      "rougeL": {
+        "precision": 0.0503,
+        "recall": 0.3846,
+        "f1": 0.0889
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0047
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 207.99,
+      "total_vlm_inference_sec": 141.49,
+      "intent_latency_sec": 1.44,
+      "frames_processed": 9,
+      "frames_with_empty_description": 1,
+      "avg_frame_latency_sec": 15.72,
+      "median_frame_latency_sec": 18.75,
+      "min_frame_latency_sec": 6.66,
+      "max_frame_latency_sec": 24.16,
+      "avg_description_length_chars": 124.4,
+      "total_prompt_tokens": 11271,
+      "total_completion_tokens": 345,
+      "avg_completion_tokens_per_sec": 2.3
+    }
+  }
+}

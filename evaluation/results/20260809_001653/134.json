@@ -1,0 +1,505 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/134.mp4",
+  "total_frames": 1046,
+  "fps": 29.9999820745805,
+  "video_length_sec": 34.87,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1046,
+  "frames_processed": 13,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching PhD and graduate program options at the University of Illinois Urbana-Champaign by searching for specific universities and browsing their course catalogs and program listings.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.13,
+        "frame_description": "The user is searching for \"uluc phd programs\" on Microsoft Bing.",
+        "prompt_tokens": 993,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 189,
+        "timestamp_sec": 6.3,
+        "latency_sec": 3.09,
+        "frame_description": "The user is typing \"umd graduate programs\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 234,
+        "timestamp_sec": 7.8,
+        "latency_sec": 3.18,
+        "frame_description": "The user is typing \"uic: phd programs\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 627,
+        "timestamp_sec": 20.9,
+        "latency_sec": 4.46,
+        "frame_description": "The user is viewing the University of Illinois Urbana-Champaign's 2024-2025 Course Catalog webpage, specifically the \"Graduate Majors and Concentrations\" section under the letter \"A\". No user-entered text is visible in form fields or search bars on the current page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 644,
+        "timestamp_sec": 21.47,
+        "latency_sec": 3.69,
+        "frame_description": "The user is viewing the University of Illinois Urbana-Champaign 2024-2025 Course Catalog webpage in Google Chrome, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 696,
+        "timestamp_sec": 23.2,
+        "latency_sec": 4.5,
+        "frame_description": "The user is viewing the University of Illinois Urbana-Champaign 2024-2025 Course Catalog webpage, specifically the \"Graduate Majors and Concentrations\" section under the \"Graduate\" tab. No active typing or input is occurring in any form fields or search bars on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 766,
+        "timestamp_sec": 25.53,
+        "latency_sec": 3.52,
+        "frame_description": "The user is viewing a webpage listing graduate programs in the College of Liberal Arts and Sciences at the University of Illinois, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 830,
+        "timestamp_sec": 27.67,
+        "latency_sec": 7.27,
+        "frame_description": "The user is viewing a webpage listing graduate programs at the University of Illinois, specifically under the letter \"C,\" which includes fields like Cell and Developmental Biology, Chemical Engineering, Chemistry, Civil Engineering, Classics, Communication, and others. The page appears to be part of a larger directory or catalog of graduate programs.\n\nThere is no active input field being filled or text being typed by the user in this screenshot. All visible text is static content from the webpage itself \u2014 such as program names, subfields, and navigation links \u2014 and does not include any user-entered text in form fields, search bars, or other interactive elements.\n\nTherefore, the current action can be described as:\n\nThe user is browsing a list of graduate programs at the University of Illinois, scrolling through categories starting with the letter \"C.\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 165
+      },
+      {
+        "frame_number": 840,
+        "timestamp_sec": 28.0,
+        "latency_sec": 4.33,
+        "frame_description": "The user is scrolling down a webpage listing graduate programs at the University of Illinois, likely reviewing options in fields such as Cell and Developmental Biology, Chemical Engineering, Chemistry, Civil Engineering, Classics, Communication, and others. No text is being actively typed or entered into any form field at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 850,
+        "timestamp_sec": 28.33,
+        "latency_sec": 6.06,
+        "frame_description": "The user is scrolling down a webpage listing graduate programs at the University of Illinois, specifically focusing on the \"C\" section which includes departments like Cell and Developmental Biology, Chemical Engineering, Chemistry, Civil Engineering, Classics, Communication, and others. The user appears to be reviewing the list of available programs and their sub-specializations.\n\nVisible user-entered text in the application:\n- In the address bar: \"catalog.illinois.edu/graduate/\"\n- In the search bar at the bottom of the page: \"communication\"\n\nNo other user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 122
+      },
+      {
+        "frame_number": 918,
+        "timestamp_sec": 30.6,
+        "latency_sec": 3.98,
+        "frame_description": "The user is viewing a webpage listing various academic programs and their specializations, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 936,
+        "timestamp_sec": 31.2,
+        "latency_sec": 3.13,
+        "frame_description": "The user is typing \"university\" into the search bar in the Start menu.",
+        "prompt_tokens": 993,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 1046,
+        "timestamp_sec": 34.87,
+        "latency_sec": 8.5,
+        "frame_description": "The user is scrolling down a webpage listing graduate programs at the University of Illinois, specifically focusing on Computer Science and related fields. The visible text includes program names such as \"Community Health, MS,\" \"Comparative Literature, MA,\" \"Computer Science, MCS,\" \"Computational Science & Engineering,\" \"Entrepreneurship & Innovation,\" \"Computer Science, MS,\" \"Computer Science, PhD,\" \"Creative Writing, MA,\" \"Crop Sciences, MS,\" \"Crop Sciences, PhD,\" \"Curriculum & Instruction, CAS,\" \"Bilingual-Bicultural Education,\" \"Curriculum & Instruction, EdD,\" \"Digital Learning,\" \"Curriculum & Instruction, EdM,\" \"Bilingual-Bicultural Education,\" \"Digital Learning,\" \"Curriculum & Instruction, MA,\" \"Bilingual-Bicultural Education,\" and \"Digital Learning.\" Additionally, there is a \"Cookie Notice\" at the bottom of the screen with text about cookie usage and an \"I Agree\" button. The user has not entered any text in form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 207
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for information on UIUC PhD programs.",
+      "reference_caption": "Navigating a Windows GUI to search for UIUC PhD programs and exploring options in Computational Science & Engineering.",
+      "reference_apps": [
+        "edge",
+        "UIUC homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 28,
+          "sub_goal": "Click on the bookmarked Google webpage to enter the Google search interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 113,
+          "sub_goal": "Entered the webpage of Google search.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 209,
+          "sub_goal": "Paste the text that was just copied into the search box.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 245,
+          "sub_goal": "Search completed, enter the new page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 443,
+          "sub_goal": "Click on the first result of the Google search, the official website of UIUC.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 664,
+          "sub_goal": "Enter the website for Graduate Majors and concentrations.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 763,
+          "sub_goal": "Click on C to enter the major starting with C.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 979,
+          "sub_goal": "The mouse hovers over the major of Computational Science & Engineering.",
+          "mouse": "hover",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on researching PhD and graduate program options at UIUC, specifically in Computational Science & Engineering. The timeline supports this with actions like viewing the course catalog and scrolling through relevant programs. There are no contradictions in the specific details of the reasoning or prediction questions."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the ground truth keyframes. The initial search engine is incorrectly stated as Microsoft Bing in Frame 1, whereas the caption specifies Google. Additionally, there are discrepancies in the sequence of actions and typed text (e.g., 'uluc phd programs' instead of 'uiuc phd programs'). These inaccuracies contradict the provided ground truth keyframes and answers."
+        },
+        "coverage": {
+          "score": 3.4,
+          "coverage": 0.6,
+          "covered": 6,
+          "total": 10,
+          "covered_actions": [
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "UIUC homepage"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing and searching for graduate programs at the University of Illinois, which aligns with some of the keyframe actions. However, specific interactions like clicking on bookmarks or entering search interfaces are not explicitly mentioned."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as viewing and scrolling through the same webpage content. However, there are also distinct entries where new information is provided, like typing different search queries or navigating to a new section."
+        }
+      },
+      "composite_score": 13.4,
+      "max_score": 20,
+      "latency_sec": 79.66
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0852,
+        "recall": 0.6883,
+        "f1": 0.1516
+      },
+      "rouge2": {
+        "precision": 0.0274,
+        "recall": 0.2237,
+        "f1": 0.0488
+      },
+      "rougeL": {
+        "precision": 0.0595,
+        "recall": 0.4805,
+        "f1": 0.1059
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0153
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 141.2,
+      "total_vlm_inference_sec": 58.84,
+      "intent_latency_sec": 2.57,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.53,
+      "median_frame_latency_sec": 3.98,
+      "min_frame_latency_sec": 3.09,
+      "max_frame_latency_sec": 8.5,
+      "avg_description_length_chars": 317.2,
+      "total_prompt_tokens": 13851,
+      "total_completion_tokens": 905,
+      "avg_completion_tokens_per_sec": 14.8,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was searching for and exploring various graduate degree programs and concentration options offered by the University of Illinois Urbana-Champaign.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.59,
+        "frame_description": "The user is clicking on the search icon in the Microsoft Bing search bar, which contains the text \"uiuc phd programs\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 189,
+        "timestamp_sec": 6.3,
+        "latency_sec": 5.79,
+        "frame_description": "The user is using the search bar on the Google homepage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 234,
+        "timestamp_sec": 7.8,
+        "latency_sec": 6.19,
+        "frame_description": "The user is viewing Google search results for \"uiuc phd programs\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 627,
+        "timestamp_sec": 20.9,
+        "latency_sec": 6.25,
+        "frame_description": "The user is browsing the Graduate Majors and Concentrations page on the University of Illinois Urbana-Champaign Course Catalog website in a web browser.\n\nVisible user-entered text:\n- Address",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 644,
+        "timestamp_sec": 21.47,
+        "latency_sec": 5.73,
+        "frame_description": "The user is viewing the Graduate Majors and Concentrations page on the University of Illinois Urbana-Champaign Course Catalog website in the web browser.\n\n**User-entered text:**\n* Address bar: `catalog.illinois.edu/graduate/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 696,
+        "timestamp_sec": 23.2,
+        "latency_sec": 4.95,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. There is no visible user-entered text in any form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 766,
+        "timestamp_sec": 25.53,
+        "latency_sec": 4.89,
+        "frame_description": "The user is hovering the mouse cursor over the \"Civil Engineering, PhD\" link on the webpage. \n\n**Visible user-entered text:**\n* Address bar: `catalog.illinois.edu/graduate/#C`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 830,
+        "timestamp_sec": 27.67,
+        "latency_sec": 6.24,
+        "frame_description": "The user is clicking on the \"Chemistry, MS\" link on the webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 840,
+        "timestamp_sec": 28.0,
+        "latency_sec": 6.49,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. \n\nVisible user-entered text in the application's address bar:\n\"catalog.illinois.edu/graduate/#C\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 850,
+        "timestamp_sec": 28.33,
+        "latency_sec": 6.41,
+        "frame_description": "The user is hovering the mouse cursor near the 'Chemistry, MS' link on the web page.\n\n**Visible user-entered text:**\n* Address bar: `catalog.illinois.edu/graduate/#C`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 918,
+        "timestamp_sec": 30.6,
+        "latency_sec": 5.01,
+        "frame_description": "The user is hovering over the \"Entrepreneurship & Innovation\" link under \"Computer Science, MCS\" on the web page.\n\n**Visible user-entered text:**\n* Address bar: `catalog.illinois.edu/graduate/#C`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 936,
+        "timestamp_sec": 31.2,
+        "latency_sec": 4.09,
+        "frame_description": "The user is clicking on the 'Entrepreneurship & Innovation' link.\n\n**User-entered text in the application:**\n- Address bar: `catalog.illinois.edu/graduate/#C`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1046,
+        "timestamp_sec": 34.87,
+        "latency_sec": 3.74,
+        "frame_description": "The user is clicking on the \"Computational Science & Engineering\" link on the webpage. \n\nThe visible user-entered text in the browser's address bar is `\"catalog.illinois.edu/graduate/#C\"`.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for information on UIUC PhD programs.",
+      "reference_caption": "Navigating a Windows GUI to search for UIUC PhD programs and exploring options in Computational Science & Engineering.",
+      "reference_apps": [
+        "edge",
+        "UIUC homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 28,
+          "sub_goal": "Click on the bookmarked Google webpage to enter the Google search interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 113,
+          "sub_goal": "Entered the webpage of Google search.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 209,
+          "sub_goal": "Paste the text that was just copied into the search box.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 245,
+          "sub_goal": "Search completed, enter the new page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 443,
+          "sub_goal": "Click on the first result of the Google search, the official website of UIUC.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 664,
+          "sub_goal": "Enter the website for Graduate Majors and concentrations.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 763,
+          "sub_goal": "Click on C to enter the major starting with C.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 979,
+          "sub_goal": "The mouse hovers over the major of Computational Science & Engineering.",
+          "mouse": "hover",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on searching for and exploring UIUC PhD programs, specifically in Computational Science & Engineering. The timeline supports this with actions like navigating to 'catalog.illinois.edu/graduate/' and clicking on relevant links such as 'Computational Science & Engineering'. There are no contradictions in the named details of the reasoning or prediction questions."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. Frame 1 mentions clicking on the search icon in Microsoft Bing, which contradicts the ground truth that states Google was used initially (Keyframe 2). The description of using Google's homepage and viewing results aligns with Keyframes 3-4. However, there is no mention of navigating to UIUC's official website or accessing 'Graduate Majors and Concentrations' in the AI descriptions, which are crucial steps described in Keyframes 5-7. These omissions could lead to incorrect answers for sequential QA questions."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 5,
+          "total": 10,
+          "covered_actions": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "UIUC homepage"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing the UIUC website and searching for specific majors, which aligns with some of the keyframe actions. However, it does not mention using Google search or clicking on a bookmarked webpage."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as hovering over links and repeated mentions of the address bar content. These entries do not provide new information about user interactions or on-screen state changes."
+        }
+      },
+      "composite_score": 13.0,
+      "max_score": 20,
+      "latency_sec": 91.37
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1818,
+        "recall": 0.7013,
+        "f1": 0.2888
+      },
+      "rouge2": {
+        "precision": 0.0642,
+        "recall": 0.25,
+        "f1": 0.1022
+      },
+      "rougeL": {
+        "precision": 0.1212,
+        "recall": 0.4675,
+        "f1": 0.1925
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0096
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 164.54,
+      "total_vlm_inference_sec": 70.37,
+      "intent_latency_sec": 2.71,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.41,
+      "median_frame_latency_sec": 5.73,
+      "min_frame_latency_sec": 3.74,
+      "max_frame_latency_sec": 6.49,
+      "avg_description_length_chars": 143.5,
+      "total_prompt_tokens": 16225,
+      "total_completion_tokens": 470,
+      "avg_completion_tokens_per_sec": 6.3
+    }
+  }
+}

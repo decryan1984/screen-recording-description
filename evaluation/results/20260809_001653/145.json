@@ -1,0 +1,489 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/145.mp4",
+  "total_frames": 999,
+  "fps": 30.000281534173556,
+  "video_length_sec": 33.3,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 999,
+  "frames_processed": 10,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to secure their gaming accounts by enabling two-factor authentication across multiple platforms while simultaneously managing game installations and communicating with friends via chat.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.39,
+        "frame_description": "The user is typing \"xia hao le\" in the chat input field of the Discord application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 108,
+        "timestamp_sec": 3.6,
+        "latency_sec": 3.88,
+        "frame_description": "The user is viewing the Riot Games client, specifically the Overwatch 2 game page, with an overlay prompting to enable two-factor authentication. No user-entered text is visible in form fields or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 119,
+        "timestamp_sec": 3.97,
+        "latency_sec": 3.58,
+        "frame_description": "The user is viewing the Steam library page for the game \"Undertale,\" with the \"INSTALL\" button visible and no active input fields or text being entered.",
+        "prompt_tokens": 993,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 251,
+        "timestamp_sec": 8.37,
+        "latency_sec": 5.49,
+        "frame_description": "The user is viewing the Riot Games client interface, specifically the \"STORE\" tab, with a list of games displayed on the left side and an \"INSTALL\" button visible for one of the games. There is no active text input or typing occurring in any form fields or search bars within the application. The browser window in the background shows a URL related to two-factor authentication for a Riot account, but no text is being entered there either.\n\n**Visible user-entered text:** None.",
+        "prompt_tokens": 993,
+        "completion_tokens": 99
+      },
+      {
+        "frame_number": 262,
+        "timestamp_sec": 8.73,
+        "latency_sec": 3.87,
+        "frame_description": "The user is viewing the \"Lethal Company\" game page in the Steam client, with no active input or typing occurring. No user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 276,
+        "timestamp_sec": 9.2,
+        "latency_sec": 4.13,
+        "frame_description": "The user is installing the game \"Lethal Company\" on their desktop. The action involves selecting options for creating desktop and start menu shortcuts, choosing the installation location as \"E:\", and then clicking the \"Install\" button to proceed with the installation process.",
+        "prompt_tokens": 993,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 304,
+        "timestamp_sec": 10.13,
+        "latency_sec": 3.95,
+        "frame_description": "The user is viewing the \"Enable two-factor authentication\" dialog in the Riot Games Launcher, which prompts them to secure their Riot Account with two-factor authentication. No user-entered text is visible in the application at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 346,
+        "timestamp_sec": 11.53,
+        "latency_sec": 3.76,
+        "frame_description": "The user is viewing the League of Legends client, specifically the Skarner Champion Theme page, with a notification about enabling two-factor authentication. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 639,
+        "timestamp_sec": 21.3,
+        "latency_sec": 5.28,
+        "frame_description": "The user is viewing the Riot Games website, specifically the League of Legends page, with a notification about enabling two-factor authentication. The user has opened a chat window within the browser, where they are interacting with a contact named \"shuaishuai_cdp\". The chat contains several messages, including \"yl ge ren\", \"ma\", \"111\", and \"ding wo wo yi ge\". The user is not actively typing in the chat window at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 999,
+        "timestamp_sec": 33.3,
+        "latency_sec": 4.94,
+        "frame_description": "The user is typing in the chat window of the League of Legends update screen.\n\nVisible user-entered text:\n- \"yl ge ren\"\n- \"ma\"\n- \"111\"\n- \"ding wo wo yi ge\"\n- \"xia hao le la\"\n- \"wo yi hui lai\"\n- \"wo zai de biao\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 79
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Steam and chat with friends.",
+      "reference_caption": "Navigating through Steam and League of Legends clients to send messages and install a game while receiving chat notifications.",
+      "reference_apps": [
+        "edge",
+        "riot games",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 24,
+          "sub_goal": "Send a message to a Steam friend and press Enter to send.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 61,
+          "sub_goal": "Move the mouse back to the left side of the steam window and start spinning randomly.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 135,
+          "sub_goal": "Clicked on the undertale game.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 250,
+          "sub_goal": "Clicked on the game \"lethal company\", which is being played by my Steam friends.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 273,
+          "sub_goal": "Click \"install\" to prepare for download.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 297,
+          "sub_goal": "Click \"install\" to install this game on the E drive.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 465,
+          "sub_goal": "Switch back to league of legends to check for updates, while receiving a message from a steam friend, which pops up in the lower right corner.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 643,
+          "sub_goal": "I click on the message he sent, and the chat window for Steam automatically pops up.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 790,
+          "sub_goal": "I sent him \"okk\", I will come back.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 919,
+          "sub_goal": "I sent it to him, then pressed enter to send it.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent focuses on securing gaming accounts by enabling two-factor authentication and managing game installations, which partially aligns with the user's actions of installing 'Lethal Company' and interacting via chat. However, it misses the core objective of opening Steam and chatting with friends as described in the goal and caption. The timeline does not contradict specific details about the reasoning or prediction questions but is too sparse to fully support the inferred intent."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the ground truth keyframes. For instance, Frame 1 mentions Discord instead of Steam, and Frame 108 refers to Overwatch 2 in Riot Games client rather than League of Legends as per the keyframes. Additionally, there are discrepancies such as mentioning 'Undertale' installation in Frame 119 without specifying it was clicked on first (keyframe 3), and missing interactions with Steam chat notifications and messages (keyframes 7-10). These inaccuracies lead to contradictions with the ground truth."
+        },
+        "coverage": {
+          "score": 3.15,
+          "coverage": 0.538,
+          "covered": 7,
+          "total": 13,
+          "covered_actions": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "riot games",
+            "steam"
+          ],
+          "reasoning": "The AI timeline describes actions related to Steam and Riot Games, but not all keyframe actions are captured. Some keyframes involve specific interactions that are either missing or described differently in the timeline."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline provides a variety of distinct actions and states across different applications and interfaces, with minimal repetition. Each frame describes unique interactions or changes in the user's environment."
+        }
+      },
+      "composite_score": 13.15,
+      "max_score": 20,
+      "latency_sec": 71.99
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1388,
+        "recall": 0.4677,
+        "f1": 0.214
+      },
+      "rouge2": {
+        "precision": 0.036,
+        "recall": 0.122,
+        "f1": 0.0556
+      },
+      "rougeL": {
+        "precision": 0.0909,
+        "recall": 0.3065,
+        "f1": 0.1402
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0188
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 116.55,
+      "total_vlm_inference_sec": 42.27,
+      "intent_latency_sec": 2.24,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.23,
+      "median_frame_latency_sec": 3.92,
+      "min_frame_latency_sec": 3.39,
+      "max_frame_latency_sec": 5.49,
+      "avg_description_length_chars": 246.9,
+      "total_prompt_tokens": 10702,
+      "total_completion_tokens": 580,
+      "avg_completion_tokens_per_sec": 13.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is installing the game Lethal Company from their Steam library while interacting with Steam chat and the League of Legends launcher.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.84,
+        "frame_description": "The user is typing 'xia hao le' in a chat input box.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 108,
+        "timestamp_sec": 3.6,
+        "latency_sec": 7.22,
+        "frame_description": "The user is clicking on 'Undertale' in the Steam library.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 119,
+        "timestamp_sec": 3.97,
+        "latency_sec": 7.05,
+        "frame_description": "The user is clicking on \"Undertale\" in the Steam library list.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 251,
+        "timestamp_sec": 8.37,
+        "latency_sec": 6.36,
+        "frame_description": "The user is clicking on 'Lethal Company' in the Steam library list.\n\nVisible user-entered text in application fields:\n- Browser address bar: `https://authenticate.riotgames.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 262,
+        "timestamp_sec": 8.73,
+        "latency_sec": 4.8,
+        "frame_description": "The user is clicking on the 'INSTALL' button.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 276,
+        "timestamp_sec": 9.2,
+        "latency_sec": 6.51,
+        "frame_description": "The user is clicking on the 'Create desktop shortcut' checkbox in the Steam game installation window.\n\n**User-entered text:**\n* Address bar: `https://authenticate.riotgames.com/?client_id=riot-client&code_challenge=-aDcKetRLzT-cHSb8eOctTIFFLRg_VUUEwBocc4-120M&locale=en_US&not_theme=riot&method=google&platform=windows&redirect_uri=notclient%3A%2F%2Fauth%2Fv1%2F",
+        "prompt_tokens": 1200,
+        "completion_tokens": 127
+      },
+      {
+        "frame_number": 304,
+        "timestamp_sec": 10.13,
+        "latency_sec": 7.25,
+        "frame_description": "The user is viewing the Lethal Company game page in the Steam application with the mouse cursor positioned over the activity section. \n\nThere is no visible user-entered text in any",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 346,
+        "timestamp_sec": 11.53,
+        "latency_sec": 7.13,
+        "frame_description": "The user is hovering the mouse cursor over the League of Legends client window.\n\n**Visible user-entered text:**\n* **Address Bar:** `https://authenticate.riotgames.com/?",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 639,
+        "timestamp_sec": 21.3,
+        "latency_sec": 6.55,
+        "frame_description": "The user is viewing the desktop with a Steam chat window, the Riot Games launcher, and Google Chrome open in the background, while a Steam notification pops up in the bottom right corner",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 999,
+        "timestamp_sec": 33.3,
+        "latency_sec": 6.25,
+        "frame_description": "The user is resizing the Steam chat window. There is no visible user-entered text in any active form field or text box.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Steam and chat with friends.",
+      "reference_caption": "Navigating through Steam and League of Legends clients to send messages and install a game while receiving chat notifications.",
+      "reference_apps": [
+        "edge",
+        "riot games",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 24,
+          "sub_goal": "Send a message to a Steam friend and press Enter to send.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 61,
+          "sub_goal": "Move the mouse back to the left side of the steam window and start spinning randomly.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 135,
+          "sub_goal": "Clicked on the undertale game.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 250,
+          "sub_goal": "Clicked on the game \"lethal company\", which is being played by my Steam friends.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 273,
+          "sub_goal": "Click \"install\" to prepare for download.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 297,
+          "sub_goal": "Click \"install\" to install this game on the E drive.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 465,
+          "sub_goal": "Switch back to league of legends to check for updates, while receiving a message from a steam friend, which pops up in the lower right corner.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 643,
+          "sub_goal": "I click on the message he sent, and the chat window for Steam automatically pops up.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 790,
+          "sub_goal": "I sent him \"okk\", I will come back.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 919,
+          "sub_goal": "I sent it to him, then pressed enter to send it.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of interacting with Steam and installing a game while engaging in chat. The timeline supports this as it shows actions like clicking on 'Lethal Company' to install, interacting with the Steam chat window, and receiving notifications. For the reasoning question, the action of starting the download for 'Lethal Company' matches the user's friend playing it, which aligns with the timeline detail of clicking 'INSTALL'. The prediction about a progress bar or status indicator follows logically from initiating an installation in Steam. No contradictions are present."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 1 mentions typing 'xia hao le', which contradicts the ground truth of sending a message and pressing Enter without specifying text content. Frames 108 and 119 both describe clicking on 'Undertale', which is redundant, while Frame 251 correctly describes clicking on 'Lethal Company'. The address bar URL in Frame 262 does not match any keyframe details about Steam interactions. Frame 639 accurately reflects the Steam notification popping up but lacks detail on subsequent actions like opening the chat window and responding to a message. These inaccuracies suggest some fabricated or incorrect specifics, though they do not completely contradict the overall sequence of events."
+        },
+        "coverage": {
+          "score": 2.85,
+          "coverage": 0.462,
+          "covered": 6,
+          "total": 13,
+          "covered_actions": [
+            2,
+            3,
+            4,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "steam"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, with some paraphrasing and different wording. The timeline does not cover all keyframes but matches specific ones related to clicking on games in Steam and interacting with notifications."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several instances of redundancy, such as frames 108 and 119 both describing clicks on 'Undertale' without significant change in context. However, there are also numerous unique actions described throughout the timeline, indicating a mix of new information and repetition."
+        }
+      },
+      "composite_score": 13.85,
+      "max_score": 20,
+      "latency_sec": 80.39
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.209,
+        "recall": 0.4113,
+        "f1": 0.2772
+      },
+      "rouge2": {
+        "precision": 0.07,
+        "recall": 0.1382,
+        "f1": 0.0929
+      },
+      "rougeL": {
+        "precision": 0.1434,
+        "recall": 0.2823,
+        "f1": 0.1902
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0109
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 147.52,
+      "total_vlm_inference_sec": 63.96,
+      "intent_latency_sec": 3.14,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.4,
+      "median_frame_latency_sec": 6.53,
+      "min_frame_latency_sec": 4.8,
+      "max_frame_latency_sec": 7.25,
+      "avg_description_length_chars": 147.8,
+      "total_prompt_tokens": 12532,
+      "total_completion_tokens": 404,
+      "avg_completion_tokens_per_sec": 5.9
+    }
+  }
+}

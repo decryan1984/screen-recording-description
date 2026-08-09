@@ -1,0 +1,785 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/469.mov",
+  "total_frames": 1236,
+  "fps": 46.632417578962595,
+  "video_length_sec": 26.51,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1236,
+  "frames_processed": 32,
+  "vlm": {
+    "model": "qwen3.5:latest",
+    "diff_threshold": 0.01,
+    "intent": "The user is researching the \"m&ms\" benchmark and Jieyu Zhang's academic work to gather information on dataset statistics, generation processes, and language model agent research.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 103.68,
+        "frame_description": "The user is viewing a GitHub repository page for 'm&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal Tasks'. The visible text includes:\n\n- In the browser address bar: `https://github.com/RAIVNLab/mnms`\n- In the file list on the left sidebar:\n  - `[2403.11299] SQ-LLaVA: Self...`\n  - `[2403.10517] VideoAgent: Lo...`\n  - `2310.02226.pdf`\n  - `[2403.16984] Modelling Com...`\n  - `[2403.14783] Multi-Agent VC...`\n  - `[2403.20330] Are We on the...`\n  - `[2403.11807] How Far Are We...`\n  - `Computation and Language | \u00d7`\n  - `[2403.09072] UniCode: Learn...`\n  - `2403.09227",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 100.4,
+        "frame_description": "The user is viewing a GitHub repository page for 'm&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal Tasks'. The visible text includes:\n\n- In the browser address bar: `https://github.com/RAIVNLab/mnms`\n- In the GitHub repository title: `m&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal Tasks`\n- Under \u201cDataset examples\u201d:\n  - User Query examples:\n    - \u201cI have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a brief overview of the subject from Wikipedia?\u201d\n    - \u201cI have an audio file '8455.flac' and it seems to describe an event. Can you tell me where did this event take place based on the content?\u201d\n    - \u201cI just heard about a movie called Moonlight that released in 2016. Can you find out some details about this movie and then tell me who directed it?\u201d\n    - \u201cI need an illustration for my children's book. I've imagined a scene where there's a large group of little kids and adults",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 40,
+        "timestamp_sec": 0.86,
+        "latency_sec": 56.18,
+        "frame_description": "The user is viewing a GitHub repository page for 'm&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal Tasks'. The visible text includes:\n\n- In the browser address bar: `https://github.com/RAIVNLab/mnms`\n- In the GitHub repository title: `RAIVNLab/mnms: m&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal Tasks`\n- In the README section:\n  - `m&ms: A Benchmark to Evaluate Tool-Use Agents for multi-step multi-modal Tasks`\n  - `Website | Dataset | Paper`\n  - `m&ms is a benchmark for evaluating large language model (LLM) agents' tool-use abilities on multi-step multi-modal tasks.`\n  - `Dataset examples`\n  - Under \u201cUser Query\u201d column:\n    - `I have an image '08773.jpg', and I'd like to know more about what's in the image. Once you determine that, can you provide me with a brief overview of the subject from Wikipedia?`\n    - `I have an audio file '8455.flac' and it seems to describe an event. Can",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 56,
+        "timestamp_sec": 1.2,
+        "latency_sec": 23.01,
+        "frame_description": "The user is viewing a webpage on GitHub that displays details about a dataset, including a table with statistics such as 'Raw examples', 'Human verified examples', and other related data points. The visible text includes:\n\n- In the table:\n  - Item: Raw examples, Human verified examples, Human verified & filtered examples, 1 / 2 / 3-tool examples, Tools, - ML model / image processing / API, Tool graphs, Avg. # of unique queries per tool graph\n  - Number: 4427, 1565, 882, 70 / 159 / 653, 33, 13 / 11 / 9, 317, 2.78\n\n- In the section titled 'Dataset details':\n  - \"This dataset contains 4K+ multi-step multi-modal tasks involving 33 tools that include 13 multi-modal models, 9 (free) public APIs, and 11 image processing modules. For each of these task queries, we provide automatically generated plans using this realistic toolset. We further provide a high-quality subset of 1,565 human-verified task plans and",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 72,
+        "timestamp_sec": 1.54,
+        "latency_sec": 22.52,
+        "frame_description": "The user is viewing a webpage on GitHub that displays details about a dataset for multi-modal tasks, including statistics and examples of tool use. The visible text includes: 'Dataset details', 'This dataset contains 4K+ multi-step multi-modal tasks involving 33 tools that include 13 multi-modal models, 9 (free) public APIs, and 11 image processing modules. For each of these task queries, we provide automatically generated plans using this realistic toolset. We further provide a high-quality subset of 1,565 human-verified task plans and 882 human-verified, filtered, and correctly executable plans. Below is a table summarizing the statistics of m&ms:', followed by a table with items such as 'Raw examples', 'Human verified examples', etc., and numbers like '4427', '1565', '882', '70 / 159 / 653', '33', '13 / 11 / 9', '317', '2.78'. Additionally, there are sections titled 'Dataset generation' with icons and labels like 'Input example sampling' and 'User query generation'. The browser tabs show various open",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 88,
+        "timestamp_sec": 1.89,
+        "latency_sec": 22.58,
+        "frame_description": "The user is viewing a webpage on GitHub that displays details about a dataset, including statistics and generation processes. The visible text includes:\n\n- \"Dataset details\"\n- \"This dataset contains 4K+ multi-step multi-modal tasks involving 33 tools that include 13 multi-modal models, 9 (free) public APIs, and 11 image processing modules. For each of these task queries, we provide automatically generated plans using this realistic toolset. We further provide a high-quality subset of 1,565 human-verified task plans and 882 human-verified, filtered, and correctly executable plans. Below is a table summarizing the statistics of m&ms:\"\n- Table entries: \"Item\", \"Number\", \"Raw examples\", \"4427\", \"Human verified examples\", \"1565\", \"Human verified & filtered examples\", \"882\", \"- 1 / 2 / 3-tool examples\", \"70 / 159 / 653\", \"Tools\", \"33\", \"- ML model / image processing / API\", \"13 / 11 / 9\", \"Tool graphs\", \"317\", \"Avg. # of unique queries",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 104,
+        "timestamp_sec": 2.23,
+        "latency_sec": 22.61,
+        "frame_description": "The user is viewing a webpage on GitHub that displays details about a dataset for multi-modal tasks, including statistics and a diagram illustrating the dataset generation process. The visible text includes: \"Dataset details\", \"This dataset contains 4K+ multi-step multi-modal tasks involving 33 tools that include 13 multi-modal models, 9 (free) public APIs, and 11 image processing modules. For each of these task queries, we provide automatically generated plans using this realistic toolset. We further provide a high-quality subset of 1,565 human-verified task plans and 882 human-verified, filtered, and correctly executable plans. Below is a table summarizing the statistics of m&ms:\", followed by a table with items such as \"Raw examples\", \"Human verified examples\", etc., and a section titled \"Dataset generation\" with labeled steps like \"Input example sampling\", \"User query generation\", \"Tool graph sampling\", \"Rule-based plan generation\", and \"Human verification\". Additionally, there is an example scenario labeled \"B\" showing a user query: \"I have this old photo labeled '16611.jpg' and I'm not quite sure what's in it. Can you identify what's in the image and",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 120,
+        "timestamp_sec": 2.57,
+        "latency_sec": 22.48,
+        "frame_description": "The user is viewing a GitHub repository page for 'RAIVNLab/mnms', which includes sections on dataset generation, setup, installation, and environment variables. The visible text includes:\n\n- In the browser address bar: `https://github.com/RAIVNLab/mnms`\n- In the README section:\n  - Table header: `- 1 / 2 / 3-tool examples`\n  - Table values: `70 / 159 / 653`, `33`, `13 / 11 / 9`, `317`, `2.78`\n  - Labels: `Tools`, `- ML model / image processing / API`, `Tool graphs`, `Avg. # of unique queries per tool graph`\n  - Section titles: `Dataset generation`, `Setup`, `Installation`, `Environment variables`\n  - Diagram labels: `Input example sampling`, `User query generation`, `Tool graph sampling`, `Rule-based plan generation`, `Human verification`, `Image cls.`, `Wiki search`, `PLAN`, `JSON`, `Python code`\n  - Example text in diagram B: `I have this old photo labeled '16611.jpg",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 136,
+        "timestamp_sec": 2.92,
+        "latency_sec": 22.41,
+        "frame_description": "The user is viewing a GitHub repository page for \"RAIVNLab/mnms: m&ms: A Benchmark to Evaluate Tool-Use for multi-step multi-modal tasks\" in a web browser, with the focus on the \"Dataset generation\" section of the README file. The visible text includes:\n\n- In the table at the top:\n  - \"Tools\"\n  - \"33\"\n  - \"- ML model / image processing / API\"\n  - \"13 / 11 / 9\"\n  - \"Tool graphs\"\n  - \"317\"\n  - \"Avg. # of unique queries per tool graph\"\n  - \"2.78\"\n\n- Under \"Dataset generation\":\n  - \"A\"\n  - \"Input example sampling\"\n  - \"User query generation\"\n  - \"Tool graph sampling\"\n  - \"Rule-based plan generation\"\n  - \"Human verification\"\n  - \"B\"\n  - \"16611.jpg\"\n  - \"Image cls.\"\n  - \"Wiki. search\"\n  - \"I have this old photo labeled '16611.jpg' and I'm not quite sure",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 152,
+        "timestamp_sec": 3.26,
+        "latency_sec": 22.47,
+        "frame_description": "The user is viewing a GitHub repository page for \"RAIVNLab/mnms\" in a web browser, with the README file open. The visible text includes:\n\n- In the browser address bar: `https://github.com/RAIVNLab/mnms`\n- In the sidebar file list:\n  - `[2403.11299] SQ-LLaVA: Self...`\n  - `[2403.10517] VideoAgent: Lo...`\n  - `2310.02226.pdf`\n  - `[2403.16984] Modelling Com...`\n  - `[2403.14783] Multi-Agent VC...`\n  - `[2403.20330] Are We on the...`\n  - `[2403.11807] How Far Are We...`\n  - `Computation and Language | \u00d7`\n  - `[2403.09072] UniCode: Learn...`\n  - `2403.09227.pdf`",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 168,
+        "timestamp_sec": 3.6,
+        "latency_sec": 18.13,
+        "frame_description": "The user is viewing a GitHub repository page for \"RAIVNLab/mnms\" in a web browser, with the README file open. The user is reading the setup instructions, which include installing required packages using `pip install -r requirements.txt` and setting up environment variables by running specific commands. The user is also looking at a diagram illustrating the process of input example sampling, user query generation, tool graph sampling, rule-based plan generation, and human verification. Additionally, the user is examining an example workflow involving image classification and Wikipedia search, along with JSON and Python code snippets. The user is not actively typing or interacting with any form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 135
+      },
+      {
+        "frame_number": 184,
+        "timestamp_sec": 3.95,
+        "latency_sec": 22.42,
+        "frame_description": "The user is viewing a GitHub repository page for \"RAIVNLab/mnms\" in a web browser, with the README file open. The visible text includes:\n\n- In the browser address bar: `https://github.com/RAIVNLab/mnms`\n- In the sidebar (left panel), multiple file/folder names such as:\n  - `[2403.11299] SQ-LLaVA: Self...`\n  - `[2403.10517] VideoAgent: Lo...`\n  - `2310.02226.pdf`\n  - `[2403.16984] Modelling Com...`\n  - `[2403.14783] Multi-Agent VC...`\n  - `[2403.20330] Are We on the...`\n  - `[2403.11807] How Far Are We...`\n  - `Computation and Language |`\n  - `[2403.09072] UniCode: Learn...`\n  - `2403.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 200,
+        "timestamp_sec": 4.29,
+        "latency_sec": 22.53,
+        "frame_description": "The user is viewing a GitHub repository page for \"RAIVNLab/mnms\" in a web browser, with the README file open. The visible text includes:\n\n- In the browser address bar: `https://github.com/RAIVNLab/mnms`\n- In the sidebar (left panel), multiple file/folder names such as:\n  - `[2403.11299] SQ-LLaVA: Self...`\n  - `[2403.10517] VideoAgent: Lo...`\n  - `2310.02226.pdf`\n  - `[2403.16984] Modelling Com...`\n  - `[2403.14783] Multi-Agent VC...`\n  - `[2403.20330] Are We on the...`\n  - `[2403.11807] How Far Are We...`\n  - `Computation and Language |`\n  - `[2403.09072] UniCode: Learn...`\n  - `2403.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 217,
+        "timestamp_sec": 4.65,
+        "latency_sec": 22.52,
+        "frame_description": "The user is viewing a GitHub repository page for \"RAVINLab/mnms: m&ms - A Benchmark of multi-modal tasks\" in a web browser. The visible text includes:\n\n- In the browser address bar: `https://github.com/RAVINLab/mnms`\n- In the tab title: `RAVINLab/mnms: m&ms - A Benchmark of multi-modal tasks`\n- In the sidebar (bookmarks/folders):  \n  - `CS study`  \n  - `Writing`  \n  - `CS interest`  \n  - `Google`  \n  - `arXiv-bot`  \n  - `Cool Papers - Im...`  \n  - `ICML 2024`  \n  - `AI Conference De...`  \n  - `COLM 2024`  \n  - `Apple Music`  \n  - `HustMail`  \n  - `TGx:Home`  \n  - `HutaoCloud`  \n  - `Clash`  \n  - `gatern.github.io`  \n  - `bilibili`  \n  - `mac software`  \n  - `Overview - OpenA...`  \n- In the file list on the",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 233,
+        "timestamp_sec": 5.0,
+        "latency_sec": 22.42,
+        "frame_description": "The user is viewing a GitHub repository page for \"RAIVNLab/mnms\" in a web browser, with the README file open. The visible text includes:\n\n- In the browser address bar: `https://github.com/RAIVNLab/mnms`\n- In the file list on the left sidebar (partially visible):\n  - `[2403.11299] SQ-LLaVA: Self...`\n  - `[2403.10517] VideoAgent: Lo...`\n  - `2310.02226.pdf`\n  - `[2403.16984] Modelling Com...`\n  - `[2403.14783] Multi-Agent VC...`\n  - `[2403.20330] Are We on the...`\n  - `[2403.11807] How Far Are We...`\n  - `Computation and Language |`\n  - `[2403.09072] UniCode: Learn...`\n  - `2403.09",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 431,
+        "timestamp_sec": 9.24,
+        "latency_sec": 14.41,
+        "frame_description": "The user is viewing a new tab in a web browser with a search bar and several shortcut icons displayed. The text \"\u641c\u7d22\u7f51\u9875\" is visible in the search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 509,
+        "timestamp_sec": 10.92,
+        "latency_sec": 14.86,
+        "frame_description": "The user is typing 'H' in the search bar of a web browser. The visible user-entered text includes 'H' in the search bar and 'H \u997f' and 'H \u989d' in the autocomplete suggestions.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 539,
+        "timestamp_sec": 11.56,
+        "latency_sec": 19.5,
+        "frame_description": "The user is typing 'H' in the search bar of a web browser, with the following text visible: 'H', 'Google Search', 'Downloads - Document Visual Question Answering - Robust Reading Competition - https://rrc.cvc.uab.es/?ch=17&com=downloads', '\u5546\u5e97\u9996\u9875 - GPT4-API\u6279\u53d1\u7f51 - https://faka.gpt4api.cc', 'Hugging Face \u2013 The AI community building the future. - huggingface.co', 'huggingface - Google Search', 'how to contact midjourney for a refund', '\u767b\u5f55 \u2014 HutaoCloud - https://hutao.cloud/user', '\u7f51\u7ad9\u7ad9\u70b9 - \u573a\u9986\u4e2d\u5fc3\u7f51\u7ad9 - https://pecg.hust.edu.cn/wescms/', '\u667a\u6167\u534e\u4e2d\u5927 | \u7535\u5b50\u90ae\u4ef6\u7cfb\u7edf - https://mail.hust.edu.cn/coremail/'.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 175
+      },
+      {
+        "frame_number": 555,
+        "timestamp_sec": 11.9,
+        "latency_sec": 15.9,
+        "frame_description": "The user is viewing the Microsoft Start page with a search bar displaying the text \"\u641c\u7d22\u7f51\u9875\" and a weather widget showing \"\u6b66\u6c49\u5e02 20\u00b0C\". The sidebar lists various bookmarks and tabs, including entries like \"CS study\", \"Writing\", \"CS interest\", and others. No active typing or clicking action is visible; the user appears to be browsing or preparing to search.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 584,
+        "timestamp_sec": 12.52,
+        "latency_sec": 13.85,
+        "frame_description": "The user is typing 'jieyu2.github.io' in the address bar of a web browser.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 600,
+        "timestamp_sec": 12.87,
+        "latency_sec": 22.41,
+        "frame_description": "The user is typing 'jieyu2.github.io' in the address bar of a web browser. The visible text includes 'jieyu2.github.io', 'Jieyu Zhang | Ph.D. Student @ UW CSE - jieyu2.github.io', 'jieyu zhang - Google Search', 'Ji', 'Jiawei Han', 'jin hao wang SYSU openreview', 'Jieyu zhang', 'JieyuZ2/dynabench - github.com/JieyuZ2/dynabench', 'OneDrive - entuedu-my.sharepoint.com/personal/jingkang001_e_ntu_edu_sg/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fjingkang001_e_ntu_edu_sg%2FDocuments%2FPVSG_dataset%2FEpicKitchen', and 'PVSG_dataset - OneDrive - entuedu-my.sharepoint.com/personal/jingkang001_e_ntu_edu_sg/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjingkang001_e_ntu_edu_sg%2FDocuments%2FPVSG_dataset&ga=",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 649,
+        "timestamp_sec": 13.92,
+        "latency_sec": 17.17,
+        "frame_description": "The user is viewing a webpage on their desktop, with the URL \"https://jieyuz2.github.io\" displayed in the browser's address bar. The page shows a search bar with the text \"\u641c\u7d22\u7f51\u9875\" and several icons for different websites below it. The sidebar lists various bookmarks and tabs, including items like \"CS study,\" \"Writing,\" \"CS interest,\" and others. The weather widget indicates it is raining in Wuhan with a temperature of 20\u00b0C. There is no active typing or clicking action visible at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 111
+      },
+      {
+        "frame_number": 746,
+        "timestamp_sec": 16.0,
+        "latency_sec": 22.45,
+        "frame_description": "The user is viewing a webpage that displays information about Jieyu Zhang, including his research interests, selected publications, and blogs. The visible text includes:\n\n- \"Jieyu Zhang\"\n- \"Research\"\n- \"Mentoring\"\n- \"Ph.D. Student @ UW CSE\"\n- \"View My GitHub Profile\"\n- \"AutoGen Blogs\"\n- \"Selected Publications\"\n- \"Preprints\"\n- \"Peer-reviewed\"\n- Various publication titles and author lists (e.g., \"Training Language Model Agents without Modifying Language Models\", \"EcoAssistant: Using LLM Assistant More Affordably and Accurately\", etc.)\n- Conference names like \"ICLR 2024\", \"NeurIPS 2023\", \"AISTATS 2023\"\n- Browser tabs and bookmarks such as \"CS study\", \"Writing\", \"Google\", \"arXiv-bot\", \"Cool Papers - Im...\", \"ICML 2024\", \"AI Conference De...\", \"COLM 2024\", \"Apple Music\", \"HustMail\", \"TGx:Home\", \"HutaoCloud\", \"Clash\", \"gatern.github.io",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 883,
+        "timestamp_sec": 18.94,
+        "latency_sec": 14.98,
+        "frame_description": "The user is viewing a webpage that displays Jieyu Zhang's profile, which includes sections on research interests, selected publications, and blogs. The user is not performing any specific action on the desktop but is instead reading or browsing the content of the webpage.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 899,
+        "timestamp_sec": 19.28,
+        "latency_sec": 22.43,
+        "frame_description": "The user is viewing a webpage that displays Jieyu Zhang's profile, including his research interests, publications, and blogs. The visible text includes:\n\n- \"Jieyu Zhang\"\n- \"Research\"\n- \"Mentoring\"\n- \"I am happy to mentor a few students on research and especially encourage students from underrepresented groups to reach out.\"\n- \"AutoGen Blogs\"\n- \"AgentOptimizer: An Agentic Way to Train Your LLM Agent\"\n- \"Agent AutoBuild: Automatically Building Multi-agent Systems\"\n- \"EcoAssistant: Using LLM Assistant More Affordably and Accurately\"\n- \"Selected Publications\"\n- \"(* denotes equal contribution)\"\n- \"Preprints\"\n- \"Training Language Model Agents without Modifying Language Models\"\n- \"Shaokun Zhang*, Jieyu Zhang*, Jiale Liu, Linxin Song, Chi Wang, Ranjay Krishna, Qingyun Wu.\"\n- \"Peer-reviewed\"\n- \"EcoAssistant: Using LLM Assistant More Affordably and Accurately\"\n- \"Jieyu Zhang, Ranjay Krishna, Ahmed Awadallah, Chi Wang.\"\n- \"LLM Agents @ ICLR 202",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 915,
+        "timestamp_sec": 19.62,
+        "latency_sec": 14.25,
+        "frame_description": "The user is viewing a webpage that lists publications and blogs related to Jieyu Zhang, with no active text input or interaction occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 944,
+        "timestamp_sec": 20.24,
+        "latency_sec": 22.27,
+        "frame_description": "The user is viewing a webpage that displays Jieyu Zhang's profile, including his photo, title as Ph.D. Student @ UW CSE, and links to his GitHub profile. The page lists AutoGen Blogs, Selected Publications (including Preprints and Peer-reviewed articles), and mentions his interest in mentoring students from underrepresented groups. Visible text includes:\n\n- \"Jieyu Zhang\"\n- \"Research\"\n- \"Mentoring\"\n- \"I am happy to mentor a few students on research and especially encourage students from underrepresented groups to reach out.\"\n- \"AutoGen Blogs\"\n- \"AgentOptimizer: An Agentic Way to Train Your LLM Agent\"\n- \"Agent AutoBuild: Automatically Building Multi-agent Systems\"\n- \"EcoAssistant: Using LLM Assistant More Affordably and Accurately\"\n- \"Selected Publications\"\n- \"(* denotes equal contribution)\"\n- \"Preprints\"\n- \"Training Language Model Agents without Modifying Language Models\"\n- \"Shaokun Zhang*, Jieyu Zhang*, Jiale Liu, Linxin Song, Chi Wang, Ranjay Krishna, Qingyun Wu.\"\n- \"Peer-reviewed\"\n- \"EcoAssistant: Using LLM Assistant More",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 960,
+        "timestamp_sec": 20.59,
+        "latency_sec": 22.38,
+        "frame_description": "The user is viewing a webpage that displays Jieyu Zhang's academic profile, including his publications and research interests. The visible text includes:\n\n- \"Jieyu Zhang\"\n- \"Ph.D. Student @ UW CSE\"\n- \"View My GitHub Profile\"\n- \"AutoGen Biogs\"\n- \"Selected Publications\"\n- \"Preprints\"\n- \"Peer-reviewed\"\n- \"Before Ph.D.\"\n- Various publication titles and author lists (e.g., \"Training Language Model Agents without Modifying Language Models\", \"EcoAssistant: Using LLM Assistant More Affordably and Accurately\", etc.)\n- Browser tabs and bookmarks such as \"CS study\", \"Writing\", \"CS interest\", \"Google\", \"arXiv-bot\", \"Cool Papers - Im...\", \"ICML 2024\", \"AI Conference De...\", \"COLM 2024\", \"Apple Music\", \"HustMail\", \"TGx:Home\", \"HutaoCloud\", \"Clash\", \"gatern.github.io\", \"bilibili\", \"mac software\", \"Overview - OpenA...\"\n- Sidebar items like \"[2403.11299] SQ-LLa",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 998,
+        "timestamp_sec": 21.4,
+        "latency_sec": 22.36,
+        "frame_description": "The user is viewing a webpage that displays Jieyu Zhang's academic profile, including his publications and research interests. The visible text includes:\n\n- \"Jieyu Zhang\"\n- \"Ph.D. Student @ UW CSE\"\n- \"View My GitHub Profile\"\n- Publication titles such as:\n  - \"AgentOptimizer: An Agentic Way to Train Your LLM Agent\"\n  - \"Agent AutoBuild: Automatically Building Multi-agent Systems\"\n  - \"EcoAssistant: Using LLM Assistant More Affordably and Accurately\"\n  - \"Training Language Model Agents without Modifying Language Models\"\n  - \"AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework\"\n  - \"On the Trade-off of Intra-/Inter-class Diversity for Supervised Pre-training\"\n  - \"SugarCrepe: Fixing Hackable Benchmarks for Vision-Language Compositionality\"\n  - \"Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias\"\n  - \"DataComp: In Search of the Next Generation of Multimodal Datasets\"\n  - \"Leveraging Instance Features for Label Aggregation in Programmatic Weak Supervision\"\n  -",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1014,
+        "timestamp_sec": 21.74,
+        "latency_sec": 22.41,
+        "frame_description": "The user is viewing a webpage that displays their academic profile, including selected publications and research interests. The visible text includes:\n\n- \u201cJieyu Zhang\u201d\n- \u201cPh.D. Student @ UW CSE\u201d\n- \u201cView My GitHub Profile\u201d\n- Publication titles such as:\n  - \u201cAgentOptimizer: An Agetic Way to Train Your LLM Agent\u201d\n  - \u201cAgent AutoBuild: Automatically Building Multi-agent Systems\u201d\n  - \u201cEcoAssistant: Using LLM Assistant More Affordably and Accurately\u201d\n  - \u201cTraining Language Model Agents without Modifying Language Models\u201d\n  - \u201cEcoAssistant: Using LLM Assistant More Affordably and Accurately\u201d\n  - \u201cAutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework\u201d\n  - \u201cOn the Trade-off of Intra-/Inter-class Diversity for Supervised Pre-training\u201d\n  - \u201cSugarCrepe: Fixing Hackable Benchmarks for Vision-Language Compositionality\u201d\n  - \u201cLarge Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias\u201d\n  - \u201cDataComp: In Search of the Next Generation of Multimodal Datasets\u201d\n  - \u201cLever",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1030,
+        "timestamp_sec": 22.09,
+        "latency_sec": 22.45,
+        "frame_description": "The user is viewing a webpage that displays Jieyu Zhang's academic profile, including selected publications and research interests. The visible text includes:\n\n- \"Jieyu Zhang\"\n- \"Research\"\n- \"Mentoring\"\n- \"Ph.D. Student @ UW CSE\"\n- \"View My GitHub Profile\"\n- Publication titles such as:\n  - \"AgentOptimizer: An Agentic Way to Train Your LLM Agent\"\n  - \"Agent AutoBuild: Automatically Building Multi-agent Systems\"\n  - \"EcoAssistant: Using LLM Assistant More Affordably and Accurately\"\n  - \"Training Language Model Agents without Modifying Language Models\"\n  - \"AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework\"\n  - \"On the Trade-off of Intra-/Inter-class Diversity for Supervised Pre-training\"\n  - \"SugarCrepe: Fixing Hackable Benchmarks for Vision-Language Compositionality\"\n  - \"Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias\"\n  - \"DataComp: In Search of the Next Generation of Multimodal Datasets\"\n  - \"Leveraging Instance Features for Label",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1236,
+        "timestamp_sec": 26.51,
+        "latency_sec": 22.44,
+        "frame_description": "The user is viewing a webpage that displays Jieyu Zhang's academic profile, including selected publications and research interests. The visible text includes:\n\n- \"Jieyu Zhang\"\n- \"Research\"\n- \"Mentoring\"\n- \"Ph.D. Student @ UW CSE\"\n- \"View My GitHub Profile\"\n- Publication titles such as:\n  - \"AgentOptimizer: An Agentic Way to Train Your LLM Agent\"\n  - \"Agent AutoBuild: Automatically Building Multi-agent Systems\"\n  - \"EcoAssistant: Using LLM Assistant More Affordably and Accurately\"\n  - \"Training Language Model Agents without Modifying Language Models\"\n  - \"AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework\"\n  - \"On the Trade-off of Intra-/Inter-class Diversity for Supervised Pre-training\"\n  - \"SugarCrepe: Fixing Hackable Benchmarks for Vision-Language Compositionality\"\n  - \"Large Language Model as Attributed Training Data Generator: A Tale of Diversity and Bias\"\n  - \"DataComp: In Search of the Next Generation of Multimodal Datasets\"\n  - \"Leveraging Instance Features for Label",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse Jieyu Zhang's personal page on github.",
+      "reference_caption": "Navigating a GitHub repository for m&ms benchmark and visiting Jieyu Zhang's personal page to view publications.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "github"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 105,
+          "sub_goal": "Continue scrolling to browse more information on the webpage.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 226,
+          "sub_goal": "Continue scrolling to the setup section.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 447,
+          "sub_goal": "Open a new tab.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 645,
+          "sub_goal": "Enter J, then the first option is the website I want to find, Jieyuz2.github.io, I click Enter to confirm.",
+          "mouse": "click",
+          "keyboard": "enter",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 772,
+          "sub_goal": "Enter his personal homepage.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1127,
+          "sub_goal": "Slightly scroll down the webpage to browse his publications.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of viewing and exploring Jieyu Zhang's academic profile, including publications and research interests. The timeline consistently shows the user engaging with this content across multiple frames without any contradictions in details such as publication titles or author names."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The descriptions correctly identify the applications in use, such as web browsers and GitHub profiles, and they match the visible text and interactions described in the keyframes without introducing contradictions or fabricated details."
+        },
+        "coverage": {
+          "score": 4.56,
+          "coverage": 0.889,
+          "covered": 8,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "github",
+            "google"
+          ],
+          "reasoning": "The AI timeline describes the user's actions across various webpages, focusing on viewing and reading content related to Jieyu Zhang's academic profile and publications. The actions are consistently about browsing or examining information without any specific interaction beyond navigation."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The timeline contains several repeated frames showing Jieyu Zhang's academic profile and publications without significant changes, indicating redundancy. However, there are also distinct transitions between different webpages and activities."
+        }
+      },
+      "composite_score": 17.56,
+      "max_score": 20,
+      "latency_sec": 285.88
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0114,
+        "recall": 0.717,
+        "f1": 0.0224
+      },
+      "rouge2": {
+        "precision": 0.0024,
+        "recall": 0.1538,
+        "f1": 0.0047
+      },
+      "rougeL": {
+        "precision": 0.0081,
+        "recall": 0.5094,
+        "f1": 0.0159
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0435
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:latest",
+      "standalone_pipeline_sec": 1156.19,
+      "total_vlm_inference_sec": 852.88,
+      "intent_latency_sec": 17.31,
+      "frames_processed": 32,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 26.65,
+      "median_frame_latency_sec": 22.42,
+      "min_frame_latency_sec": 13.85,
+      "max_frame_latency_sec": 103.68,
+      "avg_description_length_chars": 710.8,
+      "total_prompt_tokens": 71866,
+      "total_completion_tokens": 6677,
+      "avg_completion_tokens_per_sec": 7.7,
+      "model_memory_mb": 8141,
+      "model_params": 9653104368
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to learn about the \"mnms\" GitHub project and visit the personal academic website of its creator, Jieyu Zhang.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 5.67,
+        "frame_description": "The user is hovering the mouse cursor over an image in the GitHub repository README.\n\n**User-entered text:**\n* Address bar: `\"https://github.com/RAIVNLab/mnms\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 6.36,
+        "frame_description": "The user is hovering over the \"Dataset examples\" image in the GitHub repository README. The visible text in the address bar is \"https://github.com/RAIVNLab/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 40,
+        "timestamp_sec": 0.86,
+        "latency_sec": 6.71,
+        "frame_description": "The user is hovering the mouse cursor over the dataset examples image on the webpage.\n\n**Visible user-entered text:**\n* Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 56,
+        "timestamp_sec": 1.2,
+        "latency_sec": 6.55,
+        "frame_description": "The user is hovering the cursor over an image on a webpage. The visible text in the address bar is \"https://github.com/RAIVNLab/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 72,
+        "timestamp_sec": 1.54,
+        "latency_sec": 8.08,
+        "frame_description": "The user is hovering the mouse cursor over a table image on the GitHub webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 88,
+        "timestamp_sec": 1.89,
+        "latency_sec": 8.54,
+        "frame_description": "The user is hovering the mouse cursor over the dataset statistics table image on the web page.\n\nVisible user-entered text in the application:\n- `https://github.com/RAIV",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 104,
+        "timestamp_sec": 2.23,
+        "latency_sec": 5.53,
+        "frame_description": "The user is hovering the cursor over an image on the GitHub page.\n\n**User-entered text:**\n* Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 120,
+        "timestamp_sec": 2.57,
+        "latency_sec": 5.66,
+        "frame_description": "The user is hovering the mouse cursor over an image on the GitHub webpage.\n\n**User-entered text:**\n* Address bar: \"https://github.com/RAIVNLab/mnms\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 136,
+        "timestamp_sec": 2.92,
+        "latency_sec": 8.88,
+        "frame_description": "The user is hovering the mouse cursor over the \"Dataset generation\" diagram on the GitHub repository web page.\n\n**Visible user-entered text:**\n* Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 152,
+        "timestamp_sec": 3.26,
+        "latency_sec": 5.86,
+        "frame_description": "The user is hovering the mouse cursor over an image in a GitHub repository README page. \n\nVisible user-entered text in the application:\n- Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 168,
+        "timestamp_sec": 3.6,
+        "latency_sec": 4.77,
+        "frame_description": "The user is hovering the cursor over \"Environment variables\" on the webpage. The visible text in the address bar is \"https://github.com/RAIVNLab/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 184,
+        "timestamp_sec": 3.95,
+        "latency_sec": 6.71,
+        "frame_description": "The user is viewing the GitHub repository page for \"RAIVNLab/mnms\". \n\nVisible user-entered text in the application:\n- Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 200,
+        "timestamp_sec": 4.29,
+        "latency_sec": 6.94,
+        "frame_description": "The user is viewing a GitHub repository webpage for \"RAIVNLab/mnms\".\n\n**Visible user-entered text:**\n* Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 217,
+        "timestamp_sec": 4.65,
+        "latency_sec": 3.95,
+        "frame_description": "The user is viewing a GitHub repository webpage in the browser. The text in the address bar is \"https://github.com/RAIVNLab/mnms\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 233,
+        "timestamp_sec": 5.0,
+        "latency_sec": 5.88,
+        "frame_description": "The user is browsing the GitHub repository webpage. \n\n**Visible user-entered text:**\n* Address bar: `https://github.com/RAIVNLab/mnms`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 431,
+        "timestamp_sec": 9.24,
+        "latency_sec": 6.24,
+        "frame_description": "The user is viewing a new tab page in the web browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 509,
+        "timestamp_sec": 10.92,
+        "latency_sec": 4.85,
+        "frame_description": "The user is typing in the browser address bar: \"H e\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 539,
+        "timestamp_sec": 11.56,
+        "latency_sec": 5.42,
+        "frame_description": "The user is typing \"H\" in the browser's address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 555,
+        "timestamp_sec": 11.9,
+        "latency_sec": 7.73,
+        "frame_description": "The user is viewing the new tab page in the web browser with no active interaction taking place. \n\nThere is no visible user-entered text on the screen.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 584,
+        "timestamp_sec": 12.52,
+        "latency_sec": 4.33,
+        "frame_description": "The user is typing \"Jieyuz2.github.io\" into the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 600,
+        "timestamp_sec": 12.87,
+        "latency_sec": 4.7,
+        "frame_description": "The user is typing \"jieyuz2.github.io\" in the browser address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 649,
+        "timestamp_sec": 13.92,
+        "latency_sec": 5.53,
+        "frame_description": "The user is viewing a new tab page in the web browser with \"https://Jieyuz2.github.io\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 746,
+        "timestamp_sec": 16.0,
+        "latency_sec": 5.36,
+        "frame_description": "The user is viewing a web page. The text in the address bar is \"https://jieyuz2.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 883,
+        "timestamp_sec": 18.94,
+        "latency_sec": 6.01,
+        "frame_description": "The user is hovering the mouse cursor over the webpage with \"https://jieyuz2.github.io\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 899,
+        "timestamp_sec": 19.28,
+        "latency_sec": 5.74,
+        "frame_description": "The user is hovering the mouse cursor over the web page. \n\nVisible user-entered text in the application's search/address bar:\n- `\"https://jieyuz2.github.io\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 915,
+        "timestamp_sec": 19.62,
+        "latency_sec": 7.9,
+        "frame_description": "The user is viewing a webpage with the URL \"https://jieyuz2.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 944,
+        "timestamp_sec": 20.24,
+        "latency_sec": 5.81,
+        "frame_description": "The user is viewing a personal academic webpage. The visible text in the address bar is \"https://jieyuz2.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 960,
+        "timestamp_sec": 20.59,
+        "latency_sec": 5.8,
+        "frame_description": "The user is viewing a webpage in the browser. The visible text in the address bar is \"https://jieyuz2.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 998,
+        "timestamp_sec": 21.4,
+        "latency_sec": 5.59,
+        "frame_description": "The user is viewing the webpage \"https://jieyuz2.github.io\". \n\nVisible user-entered text in the application includes:\n- Address bar: `https://jieyuz2.github.io`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 1014,
+        "timestamp_sec": 21.74,
+        "latency_sec": 7.15,
+        "frame_description": "The user is viewing a webpage in the web browser with the address bar containing \"https://jieyuz2.github.io\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 1030,
+        "timestamp_sec": 22.09,
+        "latency_sec": 6.75,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. \n\nVisible user-entered text:\n* Address bar: \"https://jieyuz2.github.io\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1236,
+        "timestamp_sec": 26.51,
+        "latency_sec": 6.51,
+        "frame_description": "The user is viewing the webpage for Jieyu Zhang.\n\n**User-entered text:**\n* Address bar: `\"https://jieyuz2.github.io\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse Jieyu Zhang's personal page on github.",
+      "reference_caption": "Navigating a GitHub repository for m&ms benchmark and visiting Jieyu Zhang's personal page to view publications.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "github"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 105,
+          "sub_goal": "Continue scrolling to browse more information on the webpage.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 226,
+          "sub_goal": "Continue scrolling to the setup section.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 447,
+          "sub_goal": "Open a new tab.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 645,
+          "sub_goal": "Enter J, then the first option is the website I want to find, Jieyuz2.github.io, I click Enter to confirm.",
+          "mouse": "click",
+          "keyboard": "enter",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 772,
+          "sub_goal": "Enter his personal homepage.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1127,
+          "sub_goal": "Slightly scroll down the webpage to browse his publications.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both involve visiting Jieyu Zhang's personal page on GitHub. The timeline shows the user navigating to 'https://jieyuz2.github.io', which aligns with the goal of browsing Jieyu Zhang's personal page, confirming a semantic match."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The frames correctly capture the sequence of scrolling, clicking to open a new tab, and typing 'Jieyuz2.github.io' into the address bar before confirming with Enter. There are no contradictions or fabricated actions in the descriptions. For the STATIC QA, the timeline does not provide information about the 'Dataset details' section, so it cannot answer this question. The SEQUENTIAL-QA is consistent with the keyframes as they show the user viewing the 'Setup' section before opening a new tab. The MCQA can be answered correctly based on the frame descriptions, which do not mention 'TWITTER_API_KEY'."
+        },
+        "coverage": {
+          "score": 3.22,
+          "coverage": 0.556,
+          "covered": 5,
+          "total": 9,
+          "covered_actions": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "github"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing and interacting with web pages, specifically on GitHub and a personal homepage. It includes scrolling, hovering, typing in the address bar, and viewing specific URLs."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI-generated timeline contains several repetitive entries that describe similar actions without meaningful changes, such as hovering over images and viewing webpages with the same URL. However, there are also distinct transitions like typing in the address bar and navigating to a new webpage."
+        }
+      },
+      "composite_score": 15.22,
+      "max_score": 20,
+      "latency_sec": 124.53
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0299,
+        "recall": 0.3774,
+        "f1": 0.0553
+      },
+      "rouge2": {
+        "precision": 0.0105,
+        "recall": 0.1346,
+        "f1": 0.0194
+      },
+      "rougeL": {
+        "precision": 0.0269,
+        "recall": 0.3396,
+        "f1": 0.0498
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0103
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 330.3,
+      "total_vlm_inference_sec": 197.51,
+      "intent_latency_sec": 8.18,
+      "frames_processed": 32,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.17,
+      "median_frame_latency_sec": 5.87,
+      "min_frame_latency_sec": 3.95,
+      "max_frame_latency_sec": 8.88,
+      "avg_description_length_chars": 124.2,
+      "total_prompt_tokens": 40023,
+      "total_completion_tokens": 1152,
+      "avg_completion_tokens_per_sec": 5.4
+    }
+  }
+}

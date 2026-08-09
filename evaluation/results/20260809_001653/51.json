@@ -1,0 +1,674 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/51.mp4",
+  "total_frames": 3855,
+  "fps": 46.93692432258025,
+  "video_length_sec": 82.13,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 3855,
+  "frames_processed": 24,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to log into Notion and navigate to a specific page within a video generation dataset workspace to access and manage its resources.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.65,
+        "frame_description": "The user is viewing the desktop with no active applications or input actions. No user-entered text is visible in any application windows, form fields, or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 24,
+        "timestamp_sec": 0.51,
+        "latency_sec": 7.43,
+        "frame_description": "The user is viewing the desktop with no active application window open. There is no visible user-entered text in any application or form field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 42,
+        "timestamp_sec": 0.89,
+        "latency_sec": 7.52,
+        "frame_description": "The user is hovering over the 'aDrive' application icon on the desktop.\n\nNo user-entered text is visible in any application or form field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 95,
+        "timestamp_sec": 2.02,
+        "latency_sec": 7.63,
+        "frame_description": "The user is hovering over the Notion application icon on the desktop.\n\nNo user-entered text is visible in any form fields, search bars, or active input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 111,
+        "timestamp_sec": 2.36,
+        "latency_sec": 8.17,
+        "frame_description": "The user is viewing the Activity Monitor application on their desktop, specifically in the Network tab, which displays real-time network activity for various processes. No user-entered text is visible in any form fields or search bars within the active window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 127,
+        "timestamp_sec": 2.71,
+        "latency_sec": 7.95,
+        "frame_description": "The user is viewing the Activity Monitor application on their desktop, specifically in the Network tab, which displays a list of processes and their network activity metrics such as sent and received bytes and packets.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 420,
+        "timestamp_sec": 8.95,
+        "latency_sec": 8.76,
+        "frame_description": "The user is viewing a blank white window on their desktop, with no active input or text being entered. There is no visible user-entered text in any form fields, search bars, or other input areas within the current application window. The desktop background and dock are visible, but no text is being actively typed or entered by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 436,
+        "timestamp_sec": 9.29,
+        "latency_sec": 7.84,
+        "frame_description": "The user is hovering over a blank white window on the desktop, with no active text input or interaction visible. No user-entered text is present in any form fields, search bars, or active typing areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 874,
+        "timestamp_sec": 18.62,
+        "latency_sec": 8.87,
+        "frame_description": "The user is viewing a desktop with a large black window in the center, which appears to be loading or inactive, as indicated by the small loading spinner in the middle. There are no visible user-entered texts in any form fields or active input areas within the visible applications or windows. The desktop contains various widgets and icons, but none show active text input or user-entered content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 1181,
+        "timestamp_sec": 25.16,
+        "latency_sec": 7.59,
+        "frame_description": "The user is hovering over the \"Continue with Google\" button on the Notion login screen.\n\nNo user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1197,
+        "timestamp_sec": 25.5,
+        "latency_sec": 8.72,
+        "frame_description": "The user is viewing a browser window with multiple tabs open, including one titled \"Untitled\" which appears to be a Google authentication page. The left sidebar shows a list of bookmarks or saved items, some of which are highlighted in purple, blue, and teal colors. There is no visible text being actively typed by the user in any form field or search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 1533,
+        "timestamp_sec": 32.66,
+        "latency_sec": 8.12,
+        "frame_description": "The user is viewing a Google Accounts sign-in page in a browser, with no active input fields or text being entered. The address bar displays a long URL related to Google authentication, but no user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1798,
+        "timestamp_sec": 38.31,
+        "latency_sec": 7.71,
+        "frame_description": "The user is viewing the Google account selection page for signing into Notion, with the email address \"shuaishuaicdp@gmail.com\" highlighted as the selected account.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 2015,
+        "timestamp_sec": 42.93,
+        "latency_sec": 8.25,
+        "frame_description": "The user is viewing a Notion page with a list of items on the left sidebar, including references to papers, datasets, and resources related to video generation models. The main content area is blank or loading. There is no active text input visible in the screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 3018,
+        "timestamp_sec": 64.3,
+        "latency_sec": 8.71,
+        "frame_description": "The user is navigating through a list of items in a Notion workspace, specifically within the \"Daily Papers\" section. They appear to be scrolling down the list, possibly looking for a specific item or reviewing the contents. The current action involves moving through the list of papers and documents, with no direct interaction (like clicking or typing) occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 3067,
+        "timestamp_sec": 65.34,
+        "latency_sec": 9.7,
+        "frame_description": "The user is hovering over the \"Daily Papers\" folder in the Notion sidebar, which triggers a tooltip showing its contents: \"Cool Papers - Immersive Paper Discovery\", \"papers.cool\", and a note that \"This tab is sleeping to save resources.\" The main browser window displays a Notion page that is redirecting to the Notion app, with the message \"Redirecting to your Notion app...\" and an option to \"continue in your browser.\" No user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 105
+      },
+      {
+        "frame_number": 3086,
+        "timestamp_sec": 65.75,
+        "latency_sec": 13.89,
+        "frame_description": "The user is viewing a browser window with a Notion page open, and a dialog box is prompting to open Notion. The user has not yet interacted with the dialog box. The visible text in the application includes:\n\n- In the browser's address bar: \"https://www.notion.so/native/oa... (truncated URL)\"\n- In the Notion dialog box: \"This site is trying to open Notion. https://www.notion.so wants to open this application. Always allow www.notion.so to open links of this type in the associated application\"\n- In the Notion page: \"Redirecting to your Notion app... If you weren't redirected, click here. Or, continue in your browser\"\n- In the sidebar of the Notion page: Various folder and document names such as \"HonestyLLM - Online LaTeX E\", \"NAACL 2024 - Online LaTeX\", \"NAACL 2024 (Arxiv) (Copy)\", \"COLM - Online LaTeX Editor\", \"Is MLLM a good annotator?\", \"Clean CV Template - Online\", \"Daily Papers\", \"Cool Papers\", \"[2403.168]\", \"[2403.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 3288,
+        "timestamp_sec": 70.05,
+        "latency_sec": 7.34,
+        "frame_description": "The user is viewing a Notion page that is redirecting to their Notion app, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 3304,
+        "timestamp_sec": 70.39,
+        "latency_sec": 7.76,
+        "frame_description": "The user is hovering over a blank white window on the desktop, with no active text input or interaction visible. No user-entered text is present in any form fields, search bars, or active typing areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 3349,
+        "timestamp_sec": 71.35,
+        "latency_sec": 8.26,
+        "frame_description": "The user is hovering over a large, blank window on the desktop, which appears to be loading or inactive, as indicated by the spinner in the center. No specific action is being performed within an application, and there is no visible user-entered text in any form fields or active input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 3365,
+        "timestamp_sec": 71.69,
+        "latency_sec": 7.65,
+        "frame_description": "The user is viewing a desktop with a Notion window open, displaying the text \"Logging in to Notion...\" in the center.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 3526,
+        "timestamp_sec": 75.12,
+        "latency_sec": 7.25,
+        "frame_description": "The user is hovering over a large, blank black window on the desktop, with no active application window open or text being entered.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 3753,
+        "timestamp_sec": 79.96,
+        "latency_sec": 7.17,
+        "frame_description": "The user is viewing an empty Notion page within the application, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 3855,
+        "timestamp_sec": 82.13,
+        "latency_sec": 7.21,
+        "frame_description": "The user is viewing a Notion page titled \"Multiple-windows transition\" within the workspace \"GUI Video IT Dataset\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Access Notion on the Mac platform.",
+      "reference_caption": "Accessing and logging into the Notion application on macOS using a Google account.",
+      "reference_apps": [
+        "notion",
+        "edge",
+        "google account"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 93,
+          "sub_goal": "Selected \"notion\" in the program and opened \"notion\".",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 339,
+          "sub_goal": "Pop up a warning asking if you want to open Notion.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 367,
+          "sub_goal": "Click to open",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1099,
+          "sub_goal": "Opened Notion, need to log in.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1144,
+          "sub_goal": "Click \"continue with Google\" to log in to Notion.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1771,
+          "sub_goal": "Jump to the login page and click on the first Google account.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3844,
+          "sub_goal": "Notion login successful",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of logging into Notion using a Google account, as evidenced by the timeline showing the user selecting 'Continue with Google' and interacting with a Google authentication page. The specific detail that matched is the email address \"shuaishuaicdp@gmail.com\" highlighted during the login process, which aligns with the goal of accessing Notion on macOS via Google."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence of events described in the frames aligns well with the user's actions, such as opening Notion and logging in via Google. There are no fabricated or contradicted interactions noted. For the STATIC QA, the timeline supports the correct system verification message. For the SEQUENTIAL-QA, the timeline accurately describes the login process after clicking 'Open'. The MCQA is also supported by the timeline, confirming that 'Continue with Google' was selected."
+        },
+        "coverage": {
+          "score": 4.2,
+          "coverage": 0.8,
+          "covered": 8,
+          "total": 10,
+          "covered_actions": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "google account",
+            "notion"
+          ],
+          "reasoning": "The AI timeline describes several actions related to opening and interacting with the Notion application, including hovering over its icon, logging in via Google, and viewing a Notion page. However, some keyframes like initial selection or specific clicks are not explicitly detailed."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, such as hovering over icons and viewing blank windows. However, there are also distinct actions like navigating through Notion pages and interacting with specific application elements."
+        }
+      },
+      "composite_score": 17.2,
+      "max_score": 20,
+      "latency_sec": 112.9
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0385,
+        "recall": 0.7692,
+        "f1": 0.0733
+      },
+      "rouge2": {
+        "precision": 0.0164,
+        "recall": 0.3333,
+        "f1": 0.0312
+      },
+      "rougeL": {
+        "precision": 0.0269,
+        "recall": 0.5385,
+        "f1": 0.0513
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.02
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 315.9,
+      "total_vlm_inference_sec": 197.15,
+      "intent_latency_sec": 5.81,
+      "frames_processed": 24,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.21,
+      "median_frame_latency_sec": 7.8,
+      "min_frame_latency_sec": 7.17,
+      "max_frame_latency_sec": 13.89,
+      "avg_description_length_chars": 253.8,
+      "total_prompt_tokens": 52106,
+      "total_completion_tokens": 1415,
+      "avg_completion_tokens_per_sec": 6.7,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is trying to log into their Notion account using Google authentication to start creating content on a blank workspace page.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 5.25,
+        "frame_description": "The user is viewing the Launchpad screen.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 9
+      },
+      {
+        "frame_number": 24,
+        "timestamp_sec": 0.51,
+        "latency_sec": 4.2,
+        "frame_description": "The user is viewing the Launchpad screen.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 9
+      },
+      {
+        "frame_number": 42,
+        "timestamp_sec": 0.89,
+        "latency_sec": 4.21,
+        "frame_description": "The user is viewing the macOS Launchpad screen.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 95,
+        "timestamp_sec": 2.02,
+        "latency_sec": 4.08,
+        "frame_description": "The user is clicking on the 'Notion' icon.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 111,
+        "timestamp_sec": 2.36,
+        "latency_sec": 4.81,
+        "frame_description": "The user is hovering the mouse cursor over the desktop background. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 127,
+        "timestamp_sec": 2.71,
+        "latency_sec": 5.96,
+        "frame_description": "The user is hovering the mouse cursor over the process list in the Activity Monitor window. There is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 420,
+        "timestamp_sec": 8.95,
+        "latency_sec": 4.96,
+        "frame_description": "The user is moving the mouse cursor over the blank area of the Notion application window. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 436,
+        "timestamp_sec": 9.29,
+        "latency_sec": 4.69,
+        "frame_description": "The user is hovering the mouse cursor over a blank window in the Notion application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 874,
+        "timestamp_sec": 18.62,
+        "latency_sec": 4.6,
+        "frame_description": "The user is waiting for the Notion application window to load.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 1181,
+        "timestamp_sec": 25.16,
+        "latency_sec": 3.99,
+        "frame_description": "The user is clicking on the 'Continue with Google' button.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 1197,
+        "timestamp_sec": 25.5,
+        "latency_sec": 5.63,
+        "frame_description": "The user is viewing a webpage. The visible user-entered text in the address bar is \"https://accounts.google.com/o/oauth2/v2/auth?access_type=",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1533,
+        "timestamp_sec": 32.66,
+        "latency_sec": 5.51,
+        "frame_description": "The user is hovering the mouse cursor over the webpage background.\n\nVisible user-entered text in the address bar:\n\"https://accounts.google.com/o/oauth2/v2/auth?access_type=offline&scope=profile%20email%20",
+        "prompt_tokens": 1200,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 1798,
+        "timestamp_sec": 38.31,
+        "latency_sec": 5.36,
+        "frame_description": "The user is clicking on the Google account option \"\u9648\u4e1c\u5e73 shuaishuaicdp@gmail.com\" to sign in. The visible text in the address bar is",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 2015,
+        "timestamp_sec": 42.93,
+        "latency_sec": 5.86,
+        "frame_description": "CWUN6M0hpZWp5dVIZUZYWENsTzYxNmNTb1l1SGN2a...`\n\nWait, let's check if the",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 3018,
+        "timestamp_sec": 64.3,
+        "latency_sec": 6.35,
+        "frame_description": "The user is hovering the mouse cursor over \"Dongping Chen's Website - Home\" in the left sidebar of the Arc browser.\n\n**Visible user-entered text:**\n- Address bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 3067,
+        "timestamp_sec": 65.34,
+        "latency_sec": 6.07,
+        "frame_description": "The user is clicking on the \"Daily Papers\" tab group in the left sidebar.\n\nVisible user-entered text:\n- Address bar: `https://www.notion.so/native/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 3086,
+        "timestamp_sec": 65.75,
+        "latency_sec": 5.89,
+        "frame_description": "The user is hovering the mouse cursor over the tab titled \"COLM - Online LaTeX Editor O\" on the left sidebar.\n\nVisible user-entered text:\n- Address bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 3288,
+        "timestamp_sec": 70.05,
+        "latency_sec": 5.81,
+        "frame_description": " The user is clicking on the \"Open\" button in the dialog box.\n\n**User-entered text:**\n* **Address bar:** `\"https://www.notion.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 3304,
+        "timestamp_sec": 70.39,
+        "latency_sec": 7.43,
+        "frame_description": "The user is hovering the mouse cursor inside a blank application window. There is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 3349,
+        "timestamp_sec": 71.35,
+        "latency_sec": 7.04,
+        "frame_description": "The user is waiting for the Notion application to load.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 3365,
+        "timestamp_sec": 71.69,
+        "latency_sec": 6.33,
+        "frame_description": "The user is waiting for the Notion application to log in.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 3526,
+        "timestamp_sec": 75.12,
+        "latency_sec": 5.48,
+        "frame_description": "The user is hovering the mouse cursor over the open Notion application window. There is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 3753,
+        "timestamp_sec": 79.96,
+        "latency_sec": 6.88,
+        "frame_description": "The user is hovering the text cursor over the blank page area in Notion.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 3855,
+        "timestamp_sec": 82.13,
+        "latency_sec": 8.4,
+        "frame_description": "The user is hovering the mouse cursor over the page canvas in Notion. \n\nVisible user-entered text in the application includes:\n- Workspace name: `\"\u4e1c\u5e73 \u9648's Notion\"`\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Access Notion on the Mac platform.",
+      "reference_caption": "Accessing and logging into the Notion application on macOS using a Google account.",
+      "reference_apps": [
+        "notion",
+        "edge",
+        "google account"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 93,
+          "sub_goal": "Selected \"notion\" in the program and opened \"notion\".",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 339,
+          "sub_goal": "Pop up a warning asking if you want to open Notion.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 367,
+          "sub_goal": "Click to open",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1099,
+          "sub_goal": "Opened Notion, need to log in.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1144,
+          "sub_goal": "Click \"continue with Google\" to log in to Notion.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1771,
+          "sub_goal": "Jump to the login page and click on the first Google account.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3844,
+          "sub_goal": "Notion login successful",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of logging into Notion using Google authentication, as evidenced by the timeline showing the user clicking 'Continue with Google' and interacting with a webpage to select their Google account. The prediction about the web browser window appearing for Google account selection is consistent with the timeline detail where the user clicks on the Google account option in the address bar."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence of events described in the frames aligns well with the user's actions, such as clicking on 'Notion', handling a security prompt, and logging in via Google. There are no fabricated or contradicted interactions noted. For STATIC QA, the description supports the verification message shown when trying to open Notion. SEQUENTIAL-QA is consistent with the timeline of events leading to successful login. MCQA correctly identifies that 'Continue with Google' was selected for login."
+        },
+        "coverage": {
+          "score": 4.2,
+          "coverage": 0.8,
+          "covered": 8,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "google account",
+            "notion"
+          ],
+          "reasoning": "The AI timeline describes several actions related to opening and logging into Notion, matching some of the ground-truth keyframes. The timeline includes clicking on 'Notion', dealing with a login prompt, and using Google for authentication."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as hovering over blank areas and waiting for applications to load. These entries contribute to redundancy in the timeline."
+        }
+      },
+      "composite_score": 16.2,
+      "max_score": 20,
+      "latency_sec": 99.67
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0705,
+        "recall": 0.5962,
+        "f1": 0.126
+      },
+      "rouge2": {
+        "precision": 0.0205,
+        "recall": 0.1765,
+        "f1": 0.0367
+      },
+      "rougeL": {
+        "precision": 0.0477,
+        "recall": 0.4038,
+        "f1": 0.0854
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0081
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 241.08,
+      "total_vlm_inference_sec": 134.79,
+      "intent_latency_sec": 6.59,
+      "frames_processed": 24,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.62,
+      "median_frame_latency_sec": 5.57,
+      "min_frame_latency_sec": 3.99,
+      "max_frame_latency_sec": 8.4,
+      "avg_description_length_chars": 107.3,
+      "total_prompt_tokens": 29908,
+      "total_completion_tokens": 694,
+      "avg_completion_tokens_per_sec": 4.7
+    }
+  }
+}

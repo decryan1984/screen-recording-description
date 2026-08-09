@@ -1,0 +1,400 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/82.mp4",
+  "total_frames": 3035,
+  "fps": 30.000290365248592,
+  "video_length_sec": 101.17,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 3035,
+  "frames_processed": 10,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to locate and access information about the NeurIPS 2024 conference by searching for it on the Microsoft Start page and then navigating to its official website.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.81,
+        "frame_description": "The user is viewing the Microsoft Start page in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 4.42,
+        "frame_description": "The user is typing in the address bar of a web browser. The text being entered is \"motions.so/GUI-Video-IF-Dataset-ab/7d15e7971e4d6695a40601f65d3b8c\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 23,
+        "timestamp_sec": 0.77,
+        "latency_sec": 3.17,
+        "frame_description": "The user is typing \"mop\" into the search bar on the Microsoft Start page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 48,
+        "timestamp_sec": 1.6,
+        "latency_sec": 3.16,
+        "frame_description": "The user is typing \"nips\" into the search bar of the Microsoft Edge browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 157,
+        "timestamp_sec": 5.23,
+        "latency_sec": 4.52,
+        "frame_description": "The user is viewing the Microsoft Start page in a web browser, with no active input or typing occurring. The search bar is empty, and no text is being entered into any form field. The visible interface shows pinned applications, recent items, and a weather widget, but no user-entered text is present in the current state.",
+        "prompt_tokens": 993,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 215,
+        "timestamp_sec": 7.17,
+        "latency_sec": 3.27,
+        "frame_description": "The user is typing \"nips 2024\" into the search bar of a web browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 507,
+        "timestamp_sec": 16.9,
+        "latency_sec": 3.28,
+        "frame_description": "The user is typing \"nips 2024\" into the search bar on the Bing search engine.",
+        "prompt_tokens": 993,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 702,
+        "timestamp_sec": 23.4,
+        "latency_sec": 3.88,
+        "frame_description": "The user is viewing a blank browser tab titled \"about:blank\" with no active input or text entry. No user-entered text is currently visible in any form fields, search bars, or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 1700,
+        "timestamp_sec": 56.67,
+        "latency_sec": 3.93,
+        "frame_description": "The user is viewing the Steam client interface, with no active input or text being entered. The desktop displays various application icons and open browser tabs, but no user-entered text is visible in any form fields or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 3035,
+        "timestamp_sec": 101.17,
+        "latency_sec": 4.68,
+        "frame_description": "The user is viewing a web page in the Microsoft Edge browser, which appears to be the NeurIPS 2024 conference website. The page content is not visible, suggesting it may still be loading or the user has navigated to a blank section. No text has been entered by the user in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 69
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for \"nips 2024\" on Edge and wait for it to load.",
+      "reference_caption": "Searching and accessing the NeurIPS 2024 official page on Microsoft Edge using Bing search engine.",
+      "reference_apps": [
+        "edge",
+        "bing"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 23,
+          "sub_goal": "Translation failed",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "nips"
+        },
+        {
+          "frame": 155,
+          "sub_goal": "The mouse selected \"nips 2024\" in the search options bar, and the page jumped to the search interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 697,
+          "sub_goal": "Click on the first search result, which is neurIPS 2024.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2232,
+          "sub_goal": "\"Waiting for loading\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both aim to locate and access information about the NeurIPS 2024 conference. The timeline supports this with actions like typing 'nips 2024' into a search bar and eventually viewing the NeurIPS 2024 webpage, which aligns with the goal of searching for 'nips 2024' on Edge and waiting for it to load."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 1 mentions no active input, which contradicts the keyframe of typing 'nips'. Frame 12 and 23 describe unrelated actions not present in the keyframes. Frame 48 correctly describes typing 'nips', matching a keyframe. Frame 157 incorrectly states an empty search bar after typing 'nips 2024'. Frame 215 accurately reflects typing 'nips 2024' but does not specify Bing, which is clarified in frame 507. Frames 702 and 1700 describe irrelevant actions or applications not mentioned in the keyframes. The timeline allows for consistent answers to the STATIC QA and SEQUENTIAL-QA questions, as it includes relevant interactions with Bing and navigating to NeurIPS 2024. However, the MCQA could be misinterpreted due to missing context about clicking the first search result."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 5,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2,
+            3
+          ],
+          "covered_apps": [
+            "bing",
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions that align with some of the keyframes, specifically typing and clicking related to 'nips' and navigating to a page. The applications mentioned are Edge and Bing."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, such as multiple instances of viewing pages without active input. However, there are also distinct actions like typing different search queries and navigating to new web pages."
+        }
+      },
+      "composite_score": 15.33,
+      "max_score": 20,
+      "latency_sec": 66.84
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0719,
+        "recall": 0.6667,
+        "f1": 0.1298
+      },
+      "rouge2": {
+        "precision": 0.023,
+        "recall": 0.2188,
+        "f1": 0.0415
+      },
+      "rougeL": {
+        "precision": 0.0556,
+        "recall": 0.5152,
+        "f1": 0.1003
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.008
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 107.14,
+      "total_vlm_inference_sec": 38.12,
+      "intent_latency_sec": 2.15,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 3.81,
+      "median_frame_latency_sec": 3.84,
+      "min_frame_latency_sec": 3.16,
+      "max_frame_latency_sec": 4.68,
+      "avg_description_length_chars": 169,
+      "total_prompt_tokens": 10568,
+      "total_completion_tokens": 453,
+      "avg_completion_tokens_per_sec": 10.9,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to search for information about the NeurIPS 2024 conference and navigate to its official website.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 8.12,
+        "frame_description": "The user is viewing a new tab page in the Microsoft Edge browser. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 5.03,
+        "frame_description": "The user is typing a URL into the browser's address bar. The visible user-entered text in the address bar is \"notion.so/GUI-Video-IT-Dataset-ab7d15e7871e4b8695b408d16f5d3b3c\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 23,
+        "timestamp_sec": 0.77,
+        "latency_sec": 3.48,
+        "frame_description": "The user is typing 'nips' into the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 48,
+        "timestamp_sec": 1.6,
+        "latency_sec": 4.7,
+        "frame_description": "The user is typing \"nips\" into the browser search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 157,
+        "timestamp_sec": 5.23,
+        "latency_sec": 6.58,
+        "frame_description": "The user is moving the mouse cursor over the search suggestions dropdown menu in the browser.\n\n**User-entered text:**\n`https://cn.bing.com/search?pg",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 215,
+        "timestamp_sec": 7.17,
+        "latency_sec": 5.01,
+        "frame_description": "The user is searching for \"nips 2024\" in the web browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 507,
+        "timestamp_sec": 16.9,
+        "latency_sec": 6.76,
+        "frame_description": "The user is viewing search results on Microsoft Bing for \"nips 2024\". \n\n**Visible user-entered text:**\n* Search bar: `\"nips 2024\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 702,
+        "timestamp_sec": 23.4,
+        "latency_sec": 6.89,
+        "frame_description": "The user is hovering the mouse cursor over a blank page in Microsoft Edge. The visible user-entered text in the application is \"about:blank\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1700,
+        "timestamp_sec": 56.67,
+        "latency_sec": 6.38,
+        "frame_description": "The user is viewing a blank webpage in a web browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 3035,
+        "timestamp_sec": 101.17,
+        "latency_sec": 5.66,
+        "frame_description": "The user is hovering the mouse cursor over the web page.\n\nVisible user-entered text:\n- Address bar: `https://neurips.cc/Conferences/2024`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for \"nips 2024\" on Edge and wait for it to load.",
+      "reference_caption": "Searching and accessing the NeurIPS 2024 official page on Microsoft Edge using Bing search engine.",
+      "reference_apps": [
+        "edge",
+        "bing"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 23,
+          "sub_goal": "Translation failed",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "nips"
+        },
+        {
+          "frame": 155,
+          "sub_goal": "The mouse selected \"nips 2024\" in the search options bar, and the page jumped to the search interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 697,
+          "sub_goal": "Click on the first search result, which is neurIPS 2024.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2232,
+          "sub_goal": "\"Waiting for loading\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both aim to search for and access information about NeurIPS 2024. The timeline supports this with actions like typing 'nips 2024' into the search bar, viewing search results, and navigating to the official conference page (https://neurips.cc/Conferences/2024). There are no contradictions in the details provided by the timeline regarding the user's actions or the specific webpage accessed."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 1 mentions a new tab page, which is consistent with starting in Microsoft Edge, but it doesn't contradict any keyframe. Frame 12 incorrectly describes typing a URL into the address bar instead of the search bar as per Keyframe 3. Frame 23 correctly notes 'nips' being typed, aligning with Keyframe 1. Frame 48 accurately reflects typing 'nips' in the search bar. Frame 157's description of hovering over suggestions is consistent but not explicitly mentioned in keyframes. Frame 215 matches Keyframe 2 by showing a search for 'nips 2024'. Frame 507 aligns with viewing Bing results, matching Keyframe 3. Frame 702 and 1700 describe viewing blank pages, which are not contradicted by the keyframes but don't directly relate to them. Frame 3035 correctly shows hovering over the NeurIPS page, consistent with Keyframe 4. The timeline supports answering STATIC QA about Bing being used (Frame 507), SEQUENTIAL-QA about navigating to 'NeurIPS 2024' (Frames 215 and 3035), and MCQA about clicking the first result (Frame 507). However, some inaccuracies in frame descriptions exist."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 5,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2,
+            3
+          ],
+          "covered_apps": [
+            "bing",
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching for 'nips' and viewing search results, which align with some keyframe actions. The timeline mentions using Microsoft Edge and Bing, matching the listed applications."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline includes several frames that describe similar actions without significant changes in state, such as multiple entries detailing mouse movements and viewing states. However, there are also distinct actions like typing URLs and searching for specific terms, which add new information."
+        }
+      },
+      "composite_score": 16.33,
+      "max_score": 20,
+      "latency_sec": 74.0
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1058,
+        "recall": 0.6061,
+        "f1": 0.1802
+      },
+      "rouge2": {
+        "precision": 0.0319,
+        "recall": 0.1875,
+        "f1": 0.0545
+      },
+      "rougeL": {
+        "precision": 0.0794,
+        "recall": 0.4545,
+        "f1": 0.1351
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0051
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 133.97,
+      "total_vlm_inference_sec": 58.61,
+      "intent_latency_sec": 1.34,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.86,
+      "median_frame_latency_sec": 6.02,
+      "min_frame_latency_sec": 3.48,
+      "max_frame_latency_sec": 8.12,
+      "avg_description_length_chars": 108,
+      "total_prompt_tokens": 12462,
+      "total_completion_tokens": 333,
+      "avg_completion_tokens_per_sec": 5.3
+    }
+  }
+}

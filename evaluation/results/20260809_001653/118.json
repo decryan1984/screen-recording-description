@@ -1,0 +1,551 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/118.mp4",
+  "total_frames": 954,
+  "fps": 30.000294814217906,
+  "video_length_sec": 31.8,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 954,
+  "frames_processed": 16,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching the University of Maryland's Computer Science graduate program by reviewing the 2023-2024 catalog for admission requirements, deadlines, and general information, as well as checking the department's upcoming events and news.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.84,
+        "frame_description": "The user is viewing a blank webpage in the Google Chrome browser, with no active text input or interaction occurring. No user-entered text is visible in any form fields, search bars, or application interfaces.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 4.11,
+        "frame_description": "The user is viewing the Computer Science (CMSC) graduate program page on the University of Maryland's 2023-2024 Catalog website. No user-entered text is visible in form fields or search bars on the current screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 46,
+        "timestamp_sec": 1.53,
+        "latency_sec": 3.87,
+        "frame_description": "The user is viewing the University of Maryland's 2023-2024 Graduate Catalog page for the Computer Science (CMSC) program, with no active input or text entry occurring at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 57,
+        "timestamp_sec": 1.9,
+        "latency_sec": 3.8,
+        "frame_description": "The user is viewing the Computer Science (CMSC) graduate program page on the University of Maryland's 2023-2024 Catalog website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 282,
+        "timestamp_sec": 9.4,
+        "latency_sec": 4.45,
+        "frame_description": "The user is viewing the 2023-2024 Graduate Catalog page for the University of Maryland's Computer Science program, specifically the section on \"PROGRAM-SPECIFIC REQUIREMENTS\" and \"APPLICATION DEADLINES.\" No user-entered text is visible in form fields or input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 435,
+        "timestamp_sec": 14.5,
+        "latency_sec": 4.31,
+        "frame_description": "The user is viewing the \"2023-2024 Catalog\" page for the Computer Science program at the University of Maryland, specifically focusing on general and program-specific requirements, application deadlines, and resources. No active typing or input is occurring in any form fields or text areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 446,
+        "timestamp_sec": 14.87,
+        "latency_sec": 4.27,
+        "frame_description": "The user is viewing the Computer Science (CMSC) graduate program page on the University of Maryland's 2023-2024 Catalog, specifically under the \"Admissions\" tab. No text is being actively typed or entered in any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 466,
+        "timestamp_sec": 15.53,
+        "latency_sec": 4.39,
+        "frame_description": "The user is viewing the \"Computer Science (CMSC)\" graduate program page on the University of Maryland's 2023-2024 Catalog website, specifically under the \"Admissions\" tab. No text is currently being entered or typed in any form fields or input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 477,
+        "timestamp_sec": 15.9,
+        "latency_sec": 4.42,
+        "frame_description": "The user is viewing the 2023-2024 Catalog page for the Computer Science Ph.D. Program at the University of Maryland, specifically the section detailing general and program-specific requirements along with application deadlines. No active typing or input is occurring in any form fields or text areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 735,
+        "timestamp_sec": 24.5,
+        "latency_sec": 3.78,
+        "frame_description": "The user is viewing a blank web page in Google Chrome, with no active input or text being entered. No user-entered text is visible in any form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 844,
+        "timestamp_sec": 28.13,
+        "latency_sec": 4.72,
+        "frame_description": "The user is viewing the \"2023-2024 Catalog\" page for the Computer Science (M.S.) program at the University of Maryland, specifically the section on \"GENERAL REQUIREMENTS\" and \"PROGRAM-SPECIFIC REQUIREMENTS\" for graduate admissions. No user-entered text is visible in form fields or active input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 868,
+        "timestamp_sec": 28.93,
+        "latency_sec": 3.52,
+        "frame_description": "The user is viewing a blank webpage in Google Chrome, with no active input or text being entered. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 881,
+        "timestamp_sec": 29.37,
+        "latency_sec": 5.34,
+        "frame_description": "The user is viewing a webpage on the desktop, specifically the \"Upcoming Events\" section of the University of Maryland's Computer Science department website. There is no active input or typing occurring in any form fields or search bars visible on the screen. The page displays several scheduled talks and events, including PhD defenses and proposals, with details such as dates, times, and titles. No user-entered text is currently present in any input fields or active text areas on the webpage.",
+        "prompt_tokens": 993,
+        "completion_tokens": 96
+      },
+      {
+        "frame_number": 903,
+        "timestamp_sec": 30.1,
+        "latency_sec": 4.44,
+        "frame_description": "The user is viewing a webpage on the University of Maryland's Computer Science department site, specifically looking at upcoming events and recent news. There is no active input or typing occurring in any form fields or search bars on the page. The desktop background shows various application icons, but none are being interacted with at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 952,
+        "timestamp_sec": 31.73,
+        "latency_sec": 3.84,
+        "frame_description": "The user is viewing the University of Maryland Department of Computer Science webpage, specifically looking at upcoming events and recent news. No text is being actively typed or entered in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 954,
+        "timestamp_sec": 31.8,
+        "latency_sec": 3.82,
+        "frame_description": "The user is viewing the University of Maryland Department of Computer Science webpage, specifically looking at upcoming events and recent news. No text is being actively typed or entered in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View the PhD program in computer science at the University of Maryland.",
+      "reference_caption": "Navigating the University of Maryland's Computer Science Ph.D. program webpage, examining admissions requirements, and exploring the official school website.",
+      "reference_apps": [
+        "edge",
+        "maryland homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 57,
+          "sub_goal": "Scroll down the webpage.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 264,
+          "sub_goal": "Prepare to click the \"admission\" button on the webpage to check the admission status of the CMSC program.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 339,
+          "sub_goal": "Jump to the admissions page",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 711,
+          "sub_goal": "Click on the program website in the resource and links, which is actually the official website of the UMD CS school.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 834,
+          "sub_goal": "Waiting for the webpage to load",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 846,
+          "sub_goal": "Click on the previous webpage in the top webpage bar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 876,
+          "sub_goal": "Click on the \"back\" button at the top of the webpage to reopen the previously opened webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 942,
+          "sub_goal": "The webpage has loaded.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of researching the University of Maryland's Computer Science graduate program, as evidenced by actions like viewing the admissions requirements and exploring upcoming events. The timeline supports this inference through consistent navigation across relevant sections such as the '2023-2024 Catalog' for CMSC and departmental updates. For the reasoning question about checking contact information, there is no direct contradiction in the timeline since it does not specify this action; however, the prediction about clicking on the 'Program Website' link matches the user's navigation pattern to explore official resources."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes provided. The descriptions correctly identify the user's interactions, such as viewing specific sections of the University of Maryland's Computer Science Ph.D. program webpage and clicking on relevant links. There are no fabricated or contradicted actions in the descriptions. For the QA tasks, the timeline supports the given answers: the 'Admissions' tab is identified correctly for STATIC QA; SEQUENTIAL-QA is consistent with the user's navigation back to a previous page; MCQA confirms that printing was not performed."
+        },
+        "coverage": {
+          "score": 1.4,
+          "coverage": 0.1,
+          "covered": 1,
+          "total": 10,
+          "covered_actions": [],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes the user viewing various pages related to the University of Maryland's Computer Science program, including admissions and general requirements. However, it does not explicitly mention actions like scrolling, clicking buttons, or waiting for webpages to load."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe nearly identical states of the webpage without meaningful changes, indicating redundancy. However, there are also distinct entries describing different sections and pages viewed by the user."
+        }
+      },
+      "composite_score": 14.4,
+      "max_score": 20,
+      "latency_sec": 72.45
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0715,
+        "recall": 0.5765,
+        "f1": 0.1273
+      },
+      "rouge2": {
+        "precision": 0.0219,
+        "recall": 0.1786,
+        "f1": 0.0391
+      },
+      "rougeL": {
+        "precision": 0.0599,
+        "recall": 0.4824,
+        "f1": 0.1065
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0191
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 142.91,
+      "total_vlm_inference_sec": 66.92,
+      "intent_latency_sec": 3.49,
+      "frames_processed": 16,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.18,
+      "median_frame_latency_sec": 4.19,
+      "min_frame_latency_sec": 3.52,
+      "max_frame_latency_sec": 5.34,
+      "avg_description_length_chars": 258.1,
+      "total_prompt_tokens": 17080,
+      "total_completion_tokens": 936,
+      "avg_completion_tokens_per_sec": 13.2,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is researching the graduate Computer Science program at the University of Maryland by reviewing its academic catalog, admissions requirements, and department website.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.91,
+        "frame_description": "The user is viewing a web page in Microsoft Edge with the URL 'https://academiccatalog.umd.edu/graduate/programs/computer-science-cmsc/'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 5.49,
+        "frame_description": "The user is viewing the \"Computer Science (CMSC)\" graduate catalog page on the University of Maryland website in a web browser. \n\n**User-entered text:**\n* Address bar: `https://academiccatalog.umd.edu/graduate/programs/computer-science-cmsc/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 46,
+        "timestamp_sec": 1.53,
+        "latency_sec": 6.19,
+        "frame_description": "The user is viewing the Computer Science (CMSC) graduate program page on the University of Maryland website. \n\nVisible user-entered text includes:\n- Address bar: `https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 57,
+        "timestamp_sec": 1.9,
+        "latency_sec": 6.06,
+        "frame_description": "The user is viewing the \"Computer Science (CMSC)\" graduate catalog page on the University of Maryland website.\n\nThere is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 282,
+        "timestamp_sec": 9.4,
+        "latency_sec": 5.53,
+        "frame_description": "The user is hovering the mouse cursor over the \"international graduate students\" link on the webpage.\n\n**Visible user-entered text:**\n* Address bar: `https://academiccatalog.umd.edu/graduate/programs/computer-science-cmsc/#admissionstext`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 435,
+        "timestamp_sec": 14.5,
+        "latency_sec": 5.94,
+        "frame_description": "The user is hovering over the 'Admissions' tab on the webpage. The visible user-entered text in the application address bar is \"https://academiccatalog.umd.edu/graduate/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 446,
+        "timestamp_sec": 14.87,
+        "latency_sec": 6.13,
+        "frame_description": "The user is hovering the mouse cursor over the web page content titled \"GENERAL REQUIREMENTS\" on the University of Maryland website.\n\nThere is no visible user-entered text in any form fields",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 466,
+        "timestamp_sec": 15.53,
+        "latency_sec": 6.25,
+        "frame_description": "The user is viewing a web page titled \"Computer Science (CMSC)\" on the University of Maryland website.\n\nThere is no visible user-entered text in any application or form",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 477,
+        "timestamp_sec": 15.9,
+        "latency_sec": 5.74,
+        "frame_description": "The user is viewing the 'Computer Science (CMSC) | University of Maryland' graduate catalog webpage in Microsoft Edge. \n\nText visible in user-entered fields:\n- Address bar: \"https://academiccatalog.umd.edu/graduate/programs/computer-science-cmsc/#admissionstext\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 735,
+        "timestamp_sec": 24.5,
+        "latency_sec": 6.25,
+        "frame_description": "The user is viewing a blank web page with the URL \"about:blank\" in the browser address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 844,
+        "timestamp_sec": 28.13,
+        "latency_sec": 5.81,
+        "frame_description": "The user is clicking on the 'Computer Science (CMSC) | U...' tab in the browser.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 868,
+        "timestamp_sec": 28.93,
+        "latency_sec": 4.52,
+        "frame_description": "The user is clicking on the \"Welcome | UMD Department...\" tab in the browser, where the visible user-entered text in the address bar is \"https://www.cs.umd.edu\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 881,
+        "timestamp_sec": 29.37,
+        "latency_sec": 5.66,
+        "frame_description": "The user is browsing the web on the UMD Computer Science department website. The visible user-entered text in the application includes \"https://www.cs.umd.edu\" in the address bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 903,
+        "timestamp_sec": 30.1,
+        "latency_sec": 4.07,
+        "frame_description": "The user is browsing the University of Maryland Department of Computer Science website with \"https://www.cs.umd.edu\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 952,
+        "timestamp_sec": 31.73,
+        "latency_sec": 5.64,
+        "frame_description": "The user is hovering the mouse cursor over the image slideshow on the website. The visible user-entered text is \"https://www.cs.umd.edu\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 954,
+        "timestamp_sec": 31.8,
+        "latency_sec": 5.65,
+        "frame_description": "The user is hovering the mouse cursor over an image link on the University of Maryland Department of Computer Science webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View the PhD program in computer science at the University of Maryland.",
+      "reference_caption": "Navigating the University of Maryland's Computer Science Ph.D. program webpage, examining admissions requirements, and exploring the official school website.",
+      "reference_apps": [
+        "edge",
+        "maryland homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 57,
+          "sub_goal": "Scroll down the webpage.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 264,
+          "sub_goal": "Prepare to click the \"admission\" button on the webpage to check the admission status of the CMSC program.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 339,
+          "sub_goal": "Jump to the admissions page",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 711,
+          "sub_goal": "Click on the program website in the resource and links, which is actually the official website of the UMD CS school.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 834,
+          "sub_goal": "Waiting for the webpage to load",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 846,
+          "sub_goal": "Click on the previous webpage in the top webpage bar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 876,
+          "sub_goal": "Click on the \"back\" button at the top of the webpage to reopen the previously opened webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 942,
+          "sub_goal": "The webpage has loaded.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 4,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on researching the graduate Computer Science program at the University of Maryland. The timeline shows consistent actions aligned with this goal, such as navigating to relevant web pages and examining specific sections like admissions requirements. For the reasoning question, the answer 'D' is not directly supported by the timeline details provided, but it does not contradict them either. For the prediction question, the timeline matches the predicted action of clicking on the 'Program Website' link leading to a navigation event."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes. The descriptions correctly identify user interactions such as scrolling, clicking on specific links, and navigating between webpages. There are no fabricated or contradicted actions in the descriptions. For the STATIC QA, the timeline supports the answer that the 'Admissions' tab was clicked. For the SEQUENTIAL-QA, the timeline indicates the user clicked the 'back' button after viewing requirements, consistent with the given answer. The MCQA is also supported by the timeline, as there is no mention of printing the admissions page."
+        },
+        "coverage": {
+          "score": 4.6,
+          "coverage": 0.9,
+          "covered": 9,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to viewing and interacting with web pages, including scrolling, clicking, and hovering over elements. It also mentions specific URLs in the address bar, indicating navigation between different sections or pages."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information about viewing web pages without significant changes in context, such as multiple entries describing the user viewing the 'Computer Science (CMSC)' graduate catalog page. However, there are also distinct actions like hovering and clicking on different elements, which add new information."
+        }
+      },
+      "composite_score": 16.6,
+      "max_score": 20,
+      "latency_sec": 84.58
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1023,
+        "recall": 0.5294,
+        "f1": 0.1714
+      },
+      "rouge2": {
+        "precision": 0.0342,
+        "recall": 0.1786,
+        "f1": 0.0574
+      },
+      "rougeL": {
+        "precision": 0.0864,
+        "recall": 0.4471,
+        "f1": 0.1448
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0136
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 176.06,
+      "total_vlm_inference_sec": 89.84,
+      "intent_latency_sec": 1.61,
+      "frames_processed": 16,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.62,
+      "median_frame_latency_sec": 5.7,
+      "min_frame_latency_sec": 4.07,
+      "max_frame_latency_sec": 6.25,
+      "avg_description_length_chars": 170.4,
+      "total_prompt_tokens": 20033,
+      "total_completion_tokens": 656,
+      "avg_completion_tokens_per_sec": 7.0
+    }
+  }
+}

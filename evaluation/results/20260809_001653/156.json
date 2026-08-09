@@ -1,0 +1,446 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/156.mp4",
+  "total_frames": 1868,
+  "fps": 29.999989962530126,
+  "video_length_sec": 62.27,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1868,
+  "frames_processed": 13,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user searched for information regarding the EMNLP 2024 conference and subsequently navigated to its official website to review details such as important dates, submission deadlines, and conference location.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.34,
+        "frame_description": "The user is typing \"ennlp 2024\" into the search bar on the Bing search engine.",
+        "prompt_tokens": 993,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 78,
+        "timestamp_sec": 2.6,
+        "latency_sec": 3.32,
+        "frame_description": "The user is typing \"emnlp 2024\" into the search bar on the Bing search engine.",
+        "prompt_tokens": 993,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 187,
+        "timestamp_sec": 6.23,
+        "latency_sec": 4.29,
+        "frame_description": "The user is viewing an empty browser window with no active content or input fields. There is no visible user-entered text in any form fields, search bars, or other input areas. The desktop displays various icons and a game library panel, but no active typing or text entry is occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 258,
+        "timestamp_sec": 8.6,
+        "latency_sec": 3.78,
+        "frame_description": "The user is viewing a blank webpage in a web browser, with no active input or interaction occurring. No user-entered text is visible in any form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 969,
+        "timestamp_sec": 32.3,
+        "latency_sec": 4.75,
+        "frame_description": "The user is viewing a web page titled \"The 2024 eMMP.org\" in a browser window, with no active text input or typing observed. The desktop displays various application icons and folders, including \"Lethal Company,\" \"Steam,\" and \"VS Code,\" but no user-entered text is visible in any form fields or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 1181,
+        "timestamp_sec": 39.37,
+        "latency_sec": 4.41,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference, specifically the \"Important Dates\" section, which lists deadlines for ARR submission, commitment, acceptance notification, and camera-ready papers. No text is being actively typed or entered in any form fields or input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 1191,
+        "timestamp_sec": 39.7,
+        "latency_sec": 4.08,
+        "frame_description": "The user is viewing a webpage about EMNLP 2024, which includes details about the conference location, news updates, important dates, and paper submission deadlines. No text is being actively typed or entered in any form fields on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1216,
+        "timestamp_sec": 40.53,
+        "latency_sec": 4.05,
+        "frame_description": "The user is viewing the EMNLP 2024 conference website in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1226,
+        "timestamp_sec": 40.87,
+        "latency_sec": 4.01,
+        "frame_description": "The user is viewing a webpage about EMNLP 2024, which includes information on conference details, news updates, important dates, and submission deadlines. No active typing or input actions are visible in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 1719,
+        "timestamp_sec": 57.3,
+        "latency_sec": 8.92,
+        "frame_description": "The user is viewing the EMNLP 2024 conference website in a web browser, with no active input or typing occurring. The visible user-entered text includes:\n\n- In the browser address bar: `https://2024.emnlp.org`\n- In the Windows taskbar search bar: `Search` (placeholder, not user-entered)\n- In the Start menu: `STORE`, `LIBRARY`, `Up Next`, `Scheduled` (these are menu labels, not user-entered text)\n- In the browser tabs: `The 2024 C...`, `emnlp 2024`, `macos...`, `Overview OpenAI...`, `Midjourney Tutorial` (tab titles, not user-entered text)\n- In the webpage content: All dates, headings, and links are pre-filled; no user has typed anything.\n\nTherefore, the current action is:  \nThe user is passively viewing the EMNLP 2024 conference website with no active input or typing.",
+        "prompt_tokens": 993,
+        "completion_tokens": 223
+      },
+      {
+        "frame_number": 1729,
+        "timestamp_sec": 57.63,
+        "latency_sec": 4.33,
+        "frame_description": "The user is viewing a webpage for \"The 2024 Conference on Empirical Methods in Natural Language Processing\" in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 1739,
+        "timestamp_sec": 57.97,
+        "latency_sec": 4.04,
+        "frame_description": "The user is viewing the EMNLP 2024 conference webpage in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1868,
+        "timestamp_sec": 62.27,
+        "latency_sec": 4.06,
+        "frame_description": "The user is viewing the EMNLP 2024 conference website in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 51
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the official website of emnlp and browse the webpage.",
+      "reference_caption": "Navigating and browsing the official EMNLP 2024 website after searching on Bing using Microsoft Edge on a Windows system.",
+      "reference_apps": [
+        "edge",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 183,
+          "sub_goal": "Click on the first link that appears in the search results, which is the official website of emnlp.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 478,
+          "sub_goal": "\"Waiting for emnlp to load\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1177,
+          "sub_goal": "Partial text information loaded, webpage images not loaded.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1744,
+          "sub_goal": "Browsed the webpage up and down.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 4,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both involve navigating to and reviewing details on the EMNLP 2024 conference website. The timeline supports this by showing actions like searching for 'emnlp 2024' and viewing the webpage, which aligns with the goal of browsing the official site. For the reasoning question about following EMNLP on Twitter, there is no specific mention in the timeline about social media links or actions related to Twitter, so it cannot be confirmed if this action was taken. The prediction about interacting with webpage elements after viewing the fully loaded page aligns with typical user behavior and matches the general browsing activity described."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence of user interactions aligns with the described actions, such as typing in the search bar and clicking on links, leading to webpage loading stages. There are no contradictions or fabricated details in the descriptions. For the QA tasks, the timeline supports consistent answers: static GUI elements can be inferred from the loaded webpage content, sequential changes match the visual transitions during page load, and MCQA options align with visible webpage details."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 4,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2,
+            3
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes the user's actions related to searching for and viewing the EMNLP 2024 website, which aligns with some of the keyframe actions. However, specific actions like clicking a link or scrolling are not explicitly mentioned."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states of inactivity on the screen without meaningful changes, particularly from Frames 187 to 1868. These entries often repeat information about no active input or typing occurring, with minor variations in wording."
+        }
+      },
+      "composite_score": 14.67,
+      "max_score": 20,
+      "latency_sec": 74.03
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0368,
+        "recall": 0.5676,
+        "f1": 0.0692
+      },
+      "rouge2": {
+        "precision": 0.0088,
+        "recall": 0.1389,
+        "f1": 0.0165
+      },
+      "rougeL": {
+        "precision": 0.0281,
+        "recall": 0.4324,
+        "f1": 0.0527
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0111
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 134.39,
+      "total_vlm_inference_sec": 57.38,
+      "intent_latency_sec": 2.94,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.41,
+      "median_frame_latency_sec": 4.06,
+      "min_frame_latency_sec": 3.32,
+      "max_frame_latency_sec": 8.92,
+      "avg_description_length_chars": 263.2,
+      "total_prompt_tokens": 13936,
+      "total_completion_tokens": 862,
+      "avg_completion_tokens_per_sec": 14.3,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is searching for and navigating the official EMNLP 2024 conference website to find information regarding the call for main conference papers.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.52,
+        "frame_description": "The user is typing \"emnlp 2024\" in the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 78,
+        "timestamp_sec": 2.6,
+        "latency_sec": 4.8,
+        "frame_description": "The user is viewing search results on Bing for \"emnlp 2024\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 187,
+        "timestamp_sec": 6.23,
+        "latency_sec": 4.65,
+        "frame_description": "The user is hovering the cursor over the blank page area of a web browser displaying 'about:blank'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 258,
+        "timestamp_sec": 8.6,
+        "latency_sec": 6.39,
+        "frame_description": "The user is viewing a loading web page in the Microsoft Edge browser with the URL \"https://www.bing.com/ck/a?!&&p=e245c9fb98",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 969,
+        "timestamp_sec": 32.3,
+        "latency_sec": 6.57,
+        "frame_description": "The user is navigating to \"https://2024.emnlp.org\" in the web browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 1181,
+        "timestamp_sec": 39.37,
+        "latency_sec": 5.29,
+        "frame_description": "The user is viewing the EMNLP 2024 conference webpage in the browser. \n\nVisible user-entered text:\n- Address bar: \"https://2024.emnlp.org\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1191,
+        "timestamp_sec": 39.7,
+        "latency_sec": 5.2,
+        "frame_description": "The user is hovering the mouse cursor over the \"UTC -12h\" link on the webpage.\n\n**User-entered text:**\n* Address bar: `https://2024.emnlp.org`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1216,
+        "timestamp_sec": 40.53,
+        "latency_sec": 5.88,
+        "frame_description": "The user is selecting the text 'UTC -12h' on the webpage. The visible user-entered text in the address bar is \"https://2024.em",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1226,
+        "timestamp_sec": 40.87,
+        "latency_sec": 5.85,
+        "frame_description": "The user is hovering the cursor over the \"UTC -12h\" link on the webpage. \n\nVisible user-entered text in form fields/address bar:\n- Address bar: `https://2024.emnlp.org`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1719,
+        "timestamp_sec": 57.3,
+        "latency_sec": 4.88,
+        "frame_description": "The user is viewing the EMNLP 2024 website in the browser. \n\n**User-entered text:**\n* Address bar: `https://2024.emnlp.org`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 1729,
+        "timestamp_sec": 57.63,
+        "latency_sec": 6.58,
+        "frame_description": "The user is viewing the EMNLP 2024 conference website in a browser.\n\n**Visible user-entered text:**\n* Address bar: `https://2024.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1739,
+        "timestamp_sec": 57.97,
+        "latency_sec": 6.55,
+        "frame_description": "The user is clicking on the \"Twitter (X)\" link on the webpage.\n\n**User-entered text:**\n* Address bar: `https://2024.emnlp.org`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1868,
+        "timestamp_sec": 62.27,
+        "latency_sec": 4.63,
+        "frame_description": "The user is clicking on the 'Calls' navigation menu item on the web page.\n\nVisible user-entered text:\n- Address bar: \"https://2024.emnlp.org/calls/main_conference_papers/\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the official website of emnlp and browse the webpage.",
+      "reference_caption": "Navigating and browsing the official EMNLP 2024 website after searching on Bing using Microsoft Edge on a Windows system.",
+      "reference_apps": [
+        "edge",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 183,
+          "sub_goal": "Click on the first link that appears in the search results, which is the official website of emnlp.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 478,
+          "sub_goal": "\"Waiting for emnlp to load\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1177,
+          "sub_goal": "Partial text information loaded, webpage images not loaded.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1744,
+          "sub_goal": "Browsed the webpage up and down.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on navigating and interacting with the EMNLP 2024 website to find information. The timeline shows actions consistent with this, such as visiting the site and clicking on links like 'Twitter (X)' which aligns with the reasoning question about following EMNLP on Twitter."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The user's interactions such as typing in the search bar, clicking on the first link from Bing results, and navigating to 'https://2024.emnlp.org' are correctly described without contradictions or fabrications. The timeline supports answering the static QA by showing that the webpage eventually loads with relevant information about EMNLP 2024. For sequential-QA, the descriptions align with the visual changes observed during loading. The MCQA can be answered accurately as images not being loaded is consistent with the frame descriptions."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 4,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2,
+            4
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes the user navigating to and interacting with the emnlp website, which aligns with some of the keyframe actions. The timeline includes clicking on a link (keyframe 1), viewing a loading page (keyframe 2), and browsing the webpage (keyframe 4)."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as hovering over and selecting text, which are repeated. However, there are also distinct transitions between different states like navigating to a new URL or clicking on links."
+        }
+      },
+      "composite_score": 16.67,
+      "max_score": 20,
+      "latency_sec": 70.65
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0795,
+        "recall": 0.5676,
+        "f1": 0.1395
+      },
+      "rouge2": {
+        "precision": 0.0266,
+        "recall": 0.1944,
+        "f1": 0.0468
+      },
+      "rougeL": {
+        "precision": 0.053,
+        "recall": 0.3784,
+        "f1": 0.093
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0069
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 147.52,
+      "total_vlm_inference_sec": 73.79,
+      "intent_latency_sec": 3.04,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.68,
+      "median_frame_latency_sec": 5.85,
+      "min_frame_latency_sec": 4.63,
+      "max_frame_latency_sec": 6.58,
+      "avg_description_length_chars": 117.4,
+      "total_prompt_tokens": 16257,
+      "total_completion_tokens": 505,
+      "avg_completion_tokens_per_sec": 6.5
+    }
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/130.mp4",
+  "total_frames": 1052,
+  "fps": 29.999982176816673,
+  "video_length_sec": 35.07,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1052,
+  "frames_processed": 12,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to create a new Riot Games account using the email address shuaishaicdp@gmail.com and then sign in to the Riot Client application.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.2,
+        "frame_description": "The user is viewing their Steam library, with no active actions or text input currently visible.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 382,
+        "timestamp_sec": 12.73,
+        "latency_sec": 3.72,
+        "frame_description": "The user is viewing the Steam Store Library page, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 392,
+        "timestamp_sec": 13.07,
+        "latency_sec": 3.37,
+        "frame_description": "The user is viewing the Riot Games sign-in page on their desktop, with no text entered in the username or password fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 405,
+        "timestamp_sec": 13.5,
+        "latency_sec": 3.68,
+        "frame_description": "The user is viewing the Riot Games sign-in page, with no active input or text entry occurring at this moment. No user-entered text is visible in form fields or input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 415,
+        "timestamp_sec": 13.83,
+        "latency_sec": 4.71,
+        "frame_description": "The user is viewing the Riot Games login page, which asks whether they have played one of their games before. The page offers options to create a new account or link an existing one. There is no active input being performed by the user at this moment.\n\nVisible user-entered text:\n- None (no form fields are currently filled with user-entered text)",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 464,
+        "timestamp_sec": 15.47,
+        "latency_sec": 4.15,
+        "frame_description": "The user is viewing the Riot Games login page, which asks whether they have played one of their games before and offers options to create a new account or link an existing one. No user-entered text is visible in any form fields or input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 474,
+        "timestamp_sec": 15.8,
+        "latency_sec": 3.64,
+        "frame_description": "The user is creating a Riot account by entering their email address in the form field.\n\nUser-entered text:\n- Email: shuaishaicdp@gmail.com",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 874,
+        "timestamp_sec": 29.13,
+        "latency_sec": 4.41,
+        "frame_description": "The user is creating a Riot account by entering their email address and birthdate on the website. The email entered is \"shuaishuaicdp@gmail.com\" and the birthdate is \"12 06 2003\". The user has not yet checked the box for personalized advertising.",
+        "prompt_tokens": 993,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 929,
+        "timestamp_sec": 30.97,
+        "latency_sec": 5.1,
+        "frame_description": "The user is attempting to sign in to the Riot Client through a web browser, but the process is being interrupted by a prompt from Microsoft asking to save their password for the Google account. The user has entered their username and password into the fields, but they have not yet clicked the \"Get it\" button to save the password. The user is also viewing a list of games in the Steam library on the left side of the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 88
+      },
+      {
+        "frame_number": 972,
+        "timestamp_sec": 32.4,
+        "latency_sec": 5.09,
+        "frame_description": "The user is viewing the Riot Games website, which is prompting them to open the Riot Client application. The screen displays a message stating, \"Signing in to Riot Client. We're redirecting you now. You will be asked to open a link to Riot Client.\" Additionally, there is a password manager popup showing saved passwords for various services, including Microsoft Edge and Google. No text has been actively typed by the user in this session.",
+        "prompt_tokens": 993,
+        "completion_tokens": 88
+      },
+      {
+        "frame_number": 1045,
+        "timestamp_sec": 34.83,
+        "latency_sec": 5.76,
+        "frame_description": "The user is viewing the Riot Games website, which is prompting them to open the Riot Client application. The screen displays a message stating, \"Signing in to Riot Client. We're redirecting you now. You will be asked to open a link to Riot Client.\" Additionally, there is a browser notification indicating that the site is trying to open the Riot Client, with options to either \"Open\" or \"Cancel.\" The desktop background features an image of a character from a video game, and various application icons are visible on the taskbar and desktop.",
+        "prompt_tokens": 993,
+        "completion_tokens": 111
+      },
+      {
+        "frame_number": 1052,
+        "timestamp_sec": 35.07,
+        "latency_sec": 4.04,
+        "frame_description": "The user is viewing a webpage from Riot Games that is in the process of signing them into the Riot Client, with a message indicating they will be redirected to open a link to the client. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 50
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Authorize the Riot Games account using a Google account, and complete the setup.",
+      "reference_caption": "User creates and authorizes a new Riot Games account using a Google account, with GUI interactions on a Windows system.",
+      "reference_apps": [
+        "edge",
+        "riots",
+        "google account"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 155,
+          "sub_goal": "A notification pops up at the bottom, reminding me that this webpage will use my cookies, asking me to pay attention.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 376,
+          "sub_goal": "Click on the Riot Games icon in the desktop taskbar to open the Riot Games interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 421,
+          "sub_goal": "Refresh the webpage and ask me if I have played Riot Games.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 452,
+          "sub_goal": "I click \"create account\", which means I don't have a riot account temporarily.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 551,
+          "sub_goal": "Let me input my birthday, I am inputting the day now.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 744,
+          "sub_goal": "I have entered my birthday.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "12 06 2003"
+        },
+        {
+          "frame": 790,
+          "sub_goal": "Click the option to allow Riot Games to send customized advertisements to my email.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 830,
+          "sub_goal": "Click to continue",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 863,
+          "sub_goal": "Cancel customized advertisements.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1036,
+          "sub_goal": "The webpage popped up and asked me if I wanted to open a certain application, but I accidentally clicked \"cancel\" instead of \"open.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as described by both the goal and caption. The timeline shows that the user was creating a Riot Games account using their Google email address (shuaishaicdp@gmail.com) and attempting to sign into the Riot Client, which aligns with the core objective of authorizing the Riot Games account using a Google account and completing the setup. There are no contradictions in the named details such as the email address or actions described."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 1 mentions Steam, which is not part of the ground truth and contradicts the initial context of Riot Games account creation. Frames 382-405 describe viewing the Riot Games sign-in page without active interaction, consistent with keyframe 2. Frame 415 matches keyframe 4 by mentioning creating a new account. Frame 474 aligns with keyframe 5 regarding email entry, and frame 874 correctly describes entering the birthdate (keyframe 6). Frames 929-972 describe interactions related to signing in and prompts about Riot Client, which are consistent with keyframes 9 and 10. However, there is no mention of clicking options for advertisements (keyframes 7 and 8) in the AI descriptions, indicating missing details rather than contradictions."
+        },
+        "coverage": {
+          "score": 2.54,
+          "coverage": 0.385,
+          "covered": 5,
+          "total": 13,
+          "covered_actions": [
+            3,
+            4,
+            6,
+            9
+          ],
+          "covered_apps": [
+            "riots"
+          ],
+          "reasoning": "The AI timeline describes actions related to the Riot Games login and account creation process, but it does not cover all the specific keyframe actions. The timeline mentions creating a Riot account and entering an email address and birthdate, which aligns with some keyframes."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, particularly in Frames 392 and 405, as well as Frames 464 and 415. These redundancies occur when the description of the screen state does not change significantly between consecutive frames."
+        }
+      },
+      "composite_score": 13.54,
+      "max_score": 20,
+      "latency_sec": 81.84
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1154,
+        "recall": 0.541,
+        "f1": 0.1902
+      },
+      "rouge2": {
+        "precision": 0.0333,
+        "recall": 0.157,
+        "f1": 0.0549
+      },
+      "rougeL": {
+        "precision": 0.0682,
+        "recall": 0.3197,
+        "f1": 0.1124
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0159
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 135.36,
+      "total_vlm_inference_sec": 50.87,
+      "intent_latency_sec": 2.59,
+      "frames_processed": 12,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.24,
+      "median_frame_latency_sec": 4.1,
+      "min_frame_latency_sec": 3.2,
+      "max_frame_latency_sec": 5.76,
+      "avg_description_length_chars": 267.2,
+      "total_prompt_tokens": 12853,
+      "total_completion_tokens": 718,
+      "avg_completion_tokens_per_sec": 13.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to create a new Riot Games account using their email address and date of birth, and then sign in to the Riot Client.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 5.63,
+        "frame_description": "The user is hovering the mouse cursor inside the Microsoft Edge browser window.\n\n**Visible user-entered text:**\n- Address bar: `\"https://authenticate.riotgames.com/?client_id",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 382,
+        "timestamp_sec": 12.73,
+        "latency_sec": 6.05,
+        "frame_description": "The user is clicking on the red screen recorder icon in the system taskbar at the bottom of the screen.\n\nVisible user-entered text in the address bar:\n\"https://authenticate.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 392,
+        "timestamp_sec": 13.07,
+        "latency_sec": 6.32,
+        "frame_description": "The user is hovering the cursor over an icon in the taskbar. \n\nThere is no user-entered text visible.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 405,
+        "timestamp_sec": 13.5,
+        "latency_sec": 6.79,
+        "frame_description": "The user is resting the cursor on the right panel of the Riot Games application window. No user-entered text is visible in the form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 415,
+        "timestamp_sec": 13.83,
+        "latency_sec": 5.73,
+        "frame_description": "The user is hovering the cursor over the dark background of the web page in the web browser. \n\nVisible user-entered text in the application includes:\n* Address bar: `https://authenticate.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 464,
+        "timestamp_sec": 15.47,
+        "latency_sec": 5.97,
+        "frame_description": "The user is clicking on the 'Create account' button.\n\nVisible user-entered text in form fields / address bar:\n- Address bar: `\"https://authenticate.riotgames.com/?client_id=riot-client&code_challenge=RZEV7-aPErZvsGwD88Gn1FBVNK5gqufx9s",
+        "prompt_tokens": 1200,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 474,
+        "timestamp_sec": 15.8,
+        "latency_sec": 5.99,
+        "frame_description": "The user is filling out the \"Create a Riot Account\" web form with the email address \"shuaishuaicdp@gmail.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 874,
+        "timestamp_sec": 29.13,
+        "latency_sec": 6.11,
+        "frame_description": "The user is creating a Riot account, with the entered text including the email \"shuaishuaicdp@gmail.com\" and birthdate \"12\", \"0",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 929,
+        "timestamp_sec": 30.97,
+        "latency_sec": 6.52,
+        "frame_description": "The user is clicking on the 'Got it' button in the 'Save password for accounts.google.com?' prompt.\n\n**Visible user-entered text:**\n* **Username field:**",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 972,
+        "timestamp_sec": 32.4,
+        "latency_sec": 6.13,
+        "frame_description": "The user is clicking on the 'Never' button in the browser's password save prompt.\n\n**Visible user-entered text:**\n* Address bar: `https://authenticate",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1045,
+        "timestamp_sec": 34.83,
+        "latency_sec": 5.47,
+        "frame_description": "The user is clicking on the 'Cancel' button in the pop-up dialog.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 1052,
+        "timestamp_sec": 35.07,
+        "latency_sec": 5.29,
+        "frame_description": "The user is viewing the Riot Games sign-in page in a web browser, which displays the message \"Signing in to Riot Client\". There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Authorize the Riot Games account using a Google account, and complete the setup.",
+      "reference_caption": "User creates and authorizes a new Riot Games account using a Google account, with GUI interactions on a Windows system.",
+      "reference_apps": [
+        "edge",
+        "riots",
+        "google account"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 155,
+          "sub_goal": "A notification pops up at the bottom, reminding me that this webpage will use my cookies, asking me to pay attention.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 376,
+          "sub_goal": "Click on the Riot Games icon in the desktop taskbar to open the Riot Games interface.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 421,
+          "sub_goal": "Refresh the webpage and ask me if I have played Riot Games.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 452,
+          "sub_goal": "I click \"create account\", which means I don't have a riot account temporarily.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 551,
+          "sub_goal": "Let me input my birthday, I am inputting the day now.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 744,
+          "sub_goal": "I have entered my birthday.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "12 06 2003"
+        },
+        {
+          "frame": 790,
+          "sub_goal": "Click the option to allow Riot Games to send customized advertisements to my email.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 830,
+          "sub_goal": "Click to continue",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 863,
+          "sub_goal": "Cancel customized advertisements.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1036,
+          "sub_goal": "The webpage popped up and asked me if I wanted to open a certain application, but I accidentally clicked \"cancel\" instead of \"open.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as described by both the goal and caption. The timeline shows actions consistent with creating a Riot Games account using a Google account, including entering an email address and clicking 'Create account'. There is no contradiction in the details provided for these actions."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but have some discrepancies. Frame 1 mentions hovering in Microsoft Edge, which is not specified in the keyframes and could be considered a minor error. Frames 382 and 392 describe interactions with icons that are not detailed in the keyframes, potentially introducing inaccuracies. Frame 405's description of resting on the right panel does not match any specific action from the keyframes. Frame 415 mentions hovering over a dark background without specifying an interaction, which is vague compared to the keyframes. Frame 464 correctly identifies clicking 'Create account,' aligning with keyframe 4. Frames 474 and 874 describe entering email and birthdate, consistent with keyframes 6 and 5. Frame 929's description of clicking 'Got it' does not directly match any keyframe but could be inferred as part of the process. Frame 972 mentions clicking 'Never,' which is not in the keyframes, introducing a potential error. Frame 1045 correctly identifies clicking 'Cancel,' aligning with keyframe 10. The timeline allows for consistent answers to the STATIC QA and SEQUENTIAL-QA but lacks specific details for MCQA."
+        },
+        "coverage": {
+          "score": 3.15,
+          "coverage": 0.538,
+          "covered": 7,
+          "total": 13,
+          "covered_actions": [
+            4,
+            6,
+            7,
+            8,
+            9
+          ],
+          "covered_apps": [
+            "edge",
+            "riots"
+          ],
+          "reasoning": "The AI timeline describes several actions that align with the ground-truth keyframes, but not all. The timeline includes clicking on buttons and filling out forms related to creating a Riot Games account, which corresponds to some keyframes."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as hovering over icons and backgrounds. These repetitive entries suggest a moderate level of redundancy."
+        }
+      },
+      "composite_score": 14.15,
+      "max_score": 20,
+      "latency_sec": 92.03
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1405,
+        "recall": 0.3443,
+        "f1": 0.1995
+      },
+      "rouge2": {
+        "precision": 0.047,
+        "recall": 0.1157,
+        "f1": 0.0668
+      },
+      "rougeL": {
+        "precision": 0.0936,
+        "recall": 0.2295,
+        "f1": 0.133
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0135
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 166.64,
+      "total_vlm_inference_sec": 72.0,
+      "intent_latency_sec": 2.56,
+      "frames_processed": 12,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.0,
+      "median_frame_latency_sec": 6.02,
+      "min_frame_latency_sec": 5.29,
+      "max_frame_latency_sec": 6.79,
+      "avg_description_length_chars": 150.6,
+      "total_prompt_tokens": 15029,
+      "total_completion_tokens": 481,
+      "avg_completion_tokens_per_sec": 6.3
+    }
+  }
+}

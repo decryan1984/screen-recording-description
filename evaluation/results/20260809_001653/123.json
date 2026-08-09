@@ -1,0 +1,278 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/123.mp4",
+  "total_frames": 981,
+  "fps": 30.000286699987576,
+  "video_length_sec": 32.7,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 981,
+  "frames_processed": 2,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was browsing the CSRankings website to view and compare the publication-based rankings of computer science institutions across categories like AI, Systems, and Theory.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.87,
+        "frame_description": "The user is viewing the CS Rankings website on a desktop, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 981,
+        "timestamp_sec": 32.7,
+        "latency_sec": 4.28,
+        "frame_description": "The user is viewing the CSRankings website, which ranks computer science institutions based on publications. The page displays various categories such as AI, Systems, and Theory, with institutions listed alongside their rankings and publication counts. There is no active input or typing occurring in the visible interface elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 58
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the csrankings website, search for AI-related school rankings, and browse the faculty information for NYU.",
+      "reference_caption": "Browsing and expanding faculty information on CSRankings website for various universities including NYU and Tulane University.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "csrankings"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 131,
+          "sub_goal": "Scroll down with the mouse to browse more faculty information from UW schools.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 238,
+          "sub_goal": "Click on the small arrow of NYU to expand the detailed faculty information of NYU.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 407,
+          "sub_goal": "Scroll down the page to browse detailed information about NYU faculty.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 607,
+          "sub_goal": "Click on the small arrow for Stony Brook University to expand the detailed faculty information for SBU.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 818,
+          "sub_goal": "Accidentally switched to Tulane University, then clicked and expanded the detailed information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on browsing and comparing computer science institution rankings, specifically in categories like AI. The timeline supports this by showing the user viewing CSRankings with no active input or typing, consistent with browsing activities."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions do not contradict any keyframes or answers. They accurately describe the user's interaction (or lack thereof) with the CSRankings website without introducing fabricated actions or content. The timeline allows for consistent answers to all QA questions based on the provided ground truth."
+        },
+        "coverage": {
+          "score": 1.5,
+          "coverage": 0.125,
+          "covered": 1,
+          "total": 8,
+          "covered_actions": [],
+          "covered_apps": [
+            "csrankings"
+          ],
+          "reasoning": "The AI timeline describes the user viewing the CS Rankings website without any specific actions like scrolling, clicking, or expanding information. It only mentions that no active input is occurring and provides a general description of the content displayed."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline contains only two entries over a span of 32.7 seconds, both describing similar states without any meaningful change in the user's interaction with the CS Rankings website. The second entry merely reiterates the first with additional details about categories and rankings, indicating redundancy."
+        }
+      },
+      "composite_score": 12.5,
+      "max_score": 20,
+      "latency_sec": 38.41
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1358,
+        "recall": 0.1618,
+        "f1": 0.1477
+      },
+      "rouge2": {
+        "precision": 0.0125,
+        "recall": 0.0149,
+        "f1": 0.0136
+      },
+      "rougeL": {
+        "precision": 0.0988,
+        "recall": 0.1176,
+        "f1": 0.1074
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0045
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 47.88,
+      "total_vlm_inference_sec": 8.15,
+      "intent_latency_sec": 1.29,
+      "frames_processed": 2,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.08,
+      "median_frame_latency_sec": 4.08,
+      "min_frame_latency_sec": 3.87,
+      "max_frame_latency_sec": 4.28,
+      "avg_description_length_chars": 261.5,
+      "total_prompt_tokens": 2194,
+      "total_completion_tokens": 130,
+      "avg_completion_tokens_per_sec": 12.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is exploring computer science faculty rankings on CSRankings for AI-related fields between 2022 and 2024, specifically looking up publication information for the researcher Sewoong Oh.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.52,
+        "frame_description": "The user is hovering the mouse cursor over the DBLP icon next to \"Sewoong Oh\" on the CSRankings webpage.\n\n**User-entered text:**\n* Address bar: `https://csrankings.org/#/fromyear/2022/toyear/2024/index?ai&vision&ml&mining&nlp&inforet&robotics&us`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 87
+      },
+      {
+        "frame_number": 981,
+        "timestamp_sec": 32.7,
+        "latency_sec": 6.37,
+        "frame_description": "The user is viewing the CSRankings website in a web browser with the address bar containing \"https://csrankings.org/#/fromyear/2022/toyear/2",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the csrankings website, search for AI-related school rankings, and browse the faculty information for NYU.",
+      "reference_caption": "Browsing and expanding faculty information on CSRankings website for various universities including NYU and Tulane University.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "csrankings"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 131,
+          "sub_goal": "Scroll down with the mouse to browse more faculty information from UW schools.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 238,
+          "sub_goal": "Click on the small arrow of NYU to expand the detailed faculty information of NYU.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 407,
+          "sub_goal": "Scroll down the page to browse detailed information about NYU faculty.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 607,
+          "sub_goal": "Click on the small arrow for Stony Brook University to expand the detailed faculty information for SBU.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 818,
+          "sub_goal": "Accidentally switched to Tulane University, then clicked and expanded the detailed information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on exploring computer science faculty rankings related to AI fields. The timeline shows the user interacting with NYU's faculty information, consistent with the goal of browsing AI-related school rankings and faculty details for universities like NYU."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions do not contradict any keyframes or answers. The description of the user hovering over the DBLP icon and entering a specific URL in the address bar does not conflict with the actions described in the keyframes, which involve clicking arrows to expand faculty information for universities like NYU and Tulane University. There are no fabricated interactions or incorrect specifics mentioned that would contradict the ground truth provided."
+        },
+        "coverage": {
+          "score": 1.5,
+          "coverage": 0.125,
+          "covered": 1,
+          "total": 8,
+          "covered_actions": [],
+          "covered_apps": [
+            "csrankings"
+          ],
+          "reasoning": "The AI timeline describes the user interacting with a web browser to view and navigate the CSRankings website, but it does not specifically mention actions related to scrolling or clicking on university details as described in the keyframes. The timeline only mentions hovering over an icon and viewing the webpage."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline provides only two distinct frames, both describing similar actions without meaningful change. The first frame describes hovering over the DBLP icon, while the second frame shows a static view of the CSRankings website with an address bar URL that appears to be incomplete or truncated."
+        }
+      },
+      "composite_score": 12.5,
+      "max_score": 20,
+      "latency_sec": 39.22
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1746,
+        "recall": 0.1618,
+        "f1": 0.1679
+      },
+      "rouge2": {
+        "precision": 0.0484,
+        "recall": 0.0448,
+        "f1": 0.0465
+      },
+      "rougeL": {
+        "precision": 0.127,
+        "recall": 0.1176,
+        "f1": 0.1221
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0054
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 54.78,
+      "total_vlm_inference_sec": 12.89,
+      "intent_latency_sec": 2.65,
+      "frames_processed": 2,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.45,
+      "median_frame_latency_sec": 6.45,
+      "min_frame_latency_sec": 6.37,
+      "max_frame_latency_sec": 6.52,
+      "avg_description_length_chars": 193,
+      "total_prompt_tokens": 2616,
+      "total_completion_tokens": 170,
+      "avg_completion_tokens_per_sec": 9.9
+    }
+  }
+}

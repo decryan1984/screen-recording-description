@@ -1,0 +1,969 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/466.mov",
+  "total_frames": 3372,
+  "fps": 44.384189119818885,
+  "video_length_sec": 75.97,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 3372,
+  "frames_processed": 43,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was developing an automated Python pipeline to analyze YouTube videos by extracting frames and generating structured JSON datasets containing goals and keyboard operations. This process involved monitoring script execution, reviewing code for frame encoding, and managing background tasks to convert video content into annotated data using Azure OpenAI or base64 encoding.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 9.09,
+        "frame_description": "The user is running a Python script in Jupyter Notebook that processes video frames from a file named `0.mp4`, extracts specific frames, and saves the results to a JSON file. The script uses OpenCV (`cv2`) to read video frames, convert them to PIL images, and display them using Matplotlib (`plt.imshow`). The terminal output shows progress as the script processes data, indicating successful execution so far.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 85
+      },
+      {
+        "frame_number": 825,
+        "timestamp_sec": 18.59,
+        "latency_sec": 8.83,
+        "frame_description": "The user is viewing a JSON file named `youtube-4.1-blueice.jsonl` in a code editor, which contains structured data about video frames and associated goals. The terminal panel shows that a script has finished processing multiple `.mp4` files, saving answers to a JSON file. No new text is being actively typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 866,
+        "timestamp_sec": 19.51,
+        "latency_sec": 9.4,
+        "frame_description": "The user is viewing a code editor with multiple files open, including `azure_gpt.py`, `youtube-4.1-blueice.jsonl`, and others. The terminal at the bottom shows progress messages like \"Processing data: 82%\", \"Done! Answers saved to dataset_all_with_answers.json\", and indicates the script has been running for 3 hours. The user appears to be monitoring the execution of a Python script that processes video data and generates JSON output.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 96
+      },
+      {
+        "frame_number": 907,
+        "timestamp_sec": 20.44,
+        "latency_sec": 10.97,
+        "frame_description": "The user is running a Python script (`azure_gpt.py`) in Visual Studio Code that processes video data from JSON files, likely converting or annotating video content using an LLM (OpenAI ChatGPT), as indicated by the code using `openai.ChatCompletion.create`. The script appears to be processing multiple `.mp4` files under a \"Youtube\" folder, extracting keyframes, and generating descriptions or goals based on the video content. The terminal shows progress (\"Processing data: 82%\", etc.) and a completion message (\"Done! Answers saved to dataset_all_with_answers.json\"). The user has not entered any new text in form fields or search bars; all visible text is either code, file paths, or output logs.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 150
+      },
+      {
+        "frame_number": 944,
+        "timestamp_sec": 21.27,
+        "latency_sec": 13.96,
+        "frame_description": "The user is viewing a code editor interface with multiple files open, including Python scripts and JSON files, and appears to be working on processing video data using Azure OpenAI services. The terminal shows progress on processing data, indicating that the user is actively running a script to analyze or transform video content.\n\nVisible user-entered text in the application includes:\n\n- In the terminal output:\n  - \"Processing data: 82%\"\n  - \"Processing data: 83%\"\n  - \"Processing data: 84%\"\n  - \"Processing data: 86%\"\n  - \"Processing data: 87%\"\n  - \"Processing data: 88%\"\n  - \"Processing data: 89%\"\n  - \"Processing data: 91%\"\n  - \"Processing data: 92%\"\n  - \"Processing data: 93%\"\n  - \"Processing data: 95%\"\n  - \"Processing data: 96%\"\n  - \"Processing data: 97%\"\n  - \"Processing data: 99%\"\n  - \"Processing data: 100%\"\n  - \"03:46:00:",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 959,
+        "timestamp_sec": 21.61,
+        "latency_sec": 8.97,
+        "frame_description": "The user is viewing a code editor with multiple files open, including `azure_generate_dataset.py` and `youtube-4.1-blueice.jsonl`, while monitoring terminal output showing data processing progress. The terminal displays lines like \"Processing data: 82%\", \"Done! Answers saved to dataset_all_with_answers.json\", and the user has not entered any new text in the active editor or terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 82
+      },
+      {
+        "frame_number": 975,
+        "timestamp_sec": 21.97,
+        "latency_sec": 7.9,
+        "frame_description": "The user is running a Python script in Visual Studio Code that processes video files and generates datasets, with the terminal showing progress updates like \"Processing data: 82%\" and a final message indicating completion.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 990,
+        "timestamp_sec": 22.31,
+        "latency_sec": 9.43,
+        "frame_description": "The user is running a Python script named `azure_generate_dataset.py` in Visual Studio Code, which processes JSON data from a file (`azure_gpt.py`) and saves the results to another JSON file (`dataset_all_with_answers.json`). The script appears to be processing video frames and extracting information such as goals and keyboard operations. The terminal shows that the script is currently processing data, with progress percentages displayed. The user has not entered any new text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 94
+      },
+      {
+        "frame_number": 1013,
+        "timestamp_sec": 22.82,
+        "latency_sec": 9.82,
+        "frame_description": "The user is running a Python script (`azure_generate_dataset.py`) in VS Code that processes video data, likely converting subtitles or annotations from Chinese to English using a function `get_res_cn` and `get_res_en`, saving the processed data to a JSON file. The script is actively processing data as shown by the tqdm progress bar in the terminal output. The user has opened a JSON file (`youtube-4.1-blueice.json`) in the editor to view the data being processed. The script is part of a larger project involving GUI scripts and software datasets.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 114
+      },
+      {
+        "frame_number": 1028,
+        "timestamp_sec": 23.16,
+        "latency_sec": 9.23,
+        "frame_description": "The user is running a Python script named `azure_generate_dataset.py` in Visual Studio Code, which processes video files and generates a JSON dataset. The script is actively executing, as indicated by the terminal output showing progress percentages (e.g., \"Processing data: 82%\") and a completion message (\"Done! Answers saved to dataset_all_with_answers.json\"). The user has not entered any new text into form fields or search bars during this session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 92
+      },
+      {
+        "frame_number": 1266,
+        "timestamp_sec": 28.52,
+        "latency_sec": 11.34,
+        "frame_description": "The user is running a Python script named `azure_generate_dataset.py` in Visual Studio Code, which processes video files and generates a JSON dataset. The script is actively executing, as indicated by the terminal output showing \"Processing data:\" with progress percentages increasing from 82% to 100%. The script appears to be converting or annotating video content (likely from YouTube videos based on the filenames like `youtube-4.1-blueice.mp4`) into structured data, including fields such as `frame`, `sub_goal`, `mouse`, and `keyboardOperation`. The terminal also shows a completion message: \"Done! Answers saved to dataset_all_with_answers.json\". The user has not entered any new text during this process; the visible text is all part of the code, terminal output, or file paths.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 166
+      },
+      {
+        "frame_number": 1281,
+        "timestamp_sec": 28.86,
+        "latency_sec": 10.64,
+        "frame_description": "The user is running a Python script named `azure_generate_dataset.py` in Visual Studio Code, which processes video data from a JSON file and saves the results to another JSON file. The script is actively executing, as indicated by the terminal output showing progress updates like \"Processing data: 82%\", \"Processing data: 83%\", and so on, up to \"Processing data: 100%\". The script appears to be processing video frames and extracting information such as \"sub_goal\" and \"keyboardOperation\" from each frame, likely for dataset generation purposes. The user has not entered any new text in the application during this process.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 132
+      },
+      {
+        "frame_number": 1366,
+        "timestamp_sec": 30.78,
+        "latency_sec": 9.22,
+        "frame_description": "The user is running a Python script named `azure_generate_dataset.py` in Visual Studio Code, which processes JSON data from a file and saves it to an output file. The script is actively executing, as indicated by the terminal output showing progress percentages for \"Processing data\" and a completion message stating \"Done! Answers saved to dataset_all_with_answers.json\". The user has not entered any new text into form fields or search bars during this session.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 1381,
+        "timestamp_sec": 31.11,
+        "latency_sec": 14.01,
+        "frame_description": "The user is running a Python script that processes video data and generates answers using an LLM, with progress displayed in the terminal.\n\nVisible user-entered text:\n- In the terminal: \"Processing data: 82%\", \"Processing data: 83%\", ..., \"Processing data: 100%\", \"Done! Answers saved to dataset_all_with_answers.json\"\n- In the code editor (azure_generate_dataset.py): \n  - Line 30: `basic_message = f'''As an expert in English, please refine the following Chinese sentence and provide the polished output in English. Avoid including irrelevant content and provide the polished output in English. Here is the English sentence: {string}'''`\n  - Line 33: `chat_completion = openai.ChatCompletion.create(engine=\"TrustLLM_chatgpt_1106\", messages=[{\"role\": \"user\", \"content\": basic_message}, {\"role\": \"assistant\", \"content\": \"\"}])`\n  - Line 43: `parser = ArgumentParser()`\n  - Line 44: `parser.add_argument(\"--input\", type=str, default=None)`\n  - Line 45: `parser.add_argument(\"--output\", type=str",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1396,
+        "timestamp_sec": 31.45,
+        "latency_sec": 8.11,
+        "frame_description": "The user is viewing a code editor with multiple files open, including `azure_generate_dataset.py` and `youtube-4.1-blueice.jsonl`, while monitoring terminal output showing data processing progress. No active typing or input is occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1414,
+        "timestamp_sec": 31.86,
+        "latency_sec": 10.8,
+        "frame_description": "The user is running a Python script (`azure_generate_dataset.py`) in Visual Studio Code that processes video files and generates datasets using an LLM. The script is actively executing, as shown by the terminal output displaying progress percentages (e.g., \"Processing data: 82%\") and a final message indicating completion (\"Done! Answers saved to dataset_all_with_answers.json\"). The script appears to be processing multiple `.mp4` files from a `youtube-4.1-blueice` directory, extracting frames, and generating annotations or descriptions via an API call to `openai.ChatCompletion.create`. The user has not entered any new text during this execution; all visible text in the terminal is output from the script itself.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 146
+      },
+      {
+        "frame_number": 1429,
+        "timestamp_sec": 32.2,
+        "latency_sec": 9.58,
+        "frame_description": "The user is running a Python script in Visual Studio Code that processes video files using an LLM API to generate datasets. The script is actively executing, as shown by the terminal output indicating \"Processing data\" with progress percentages increasing from 82% to 100%. The user has not entered any new text in the application; all visible text is either part of the code, terminal output, or file paths.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 1468,
+        "timestamp_sec": 33.07,
+        "latency_sec": 9.6,
+        "frame_description": "The user is running a Python script (`azure_generate_dataset.py`) in Visual Studio Code that processes video files (`.mp4`) to generate datasets, as indicated by the terminal output showing \"Processing data:\" progress and the completion message \"Done! Answers saved to dataset_all_with_answers.json\". The script appears to be using an LLM (via `openai.ChatCompletion`) to translate or refine content from the videos, based on the code logic visible in the editor. The user is likely monitoring the script's execution progress.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 106
+      },
+      {
+        "frame_number": 1483,
+        "timestamp_sec": 33.41,
+        "latency_sec": 7.78,
+        "frame_description": "The user is viewing a code editor with Python scripts related to GUI and Azure, and a terminal showing data processing progress. The user is not actively typing or interacting with any form fields or input boxes in the visible application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1498,
+        "timestamp_sec": 33.75,
+        "latency_sec": 10.72,
+        "frame_description": "The user is running a Python script in Visual Studio Code that processes video files and generates datasets using an Azure OpenAI API. The script is actively executing, as shown by the terminal output displaying processing progress percentages (e.g., \"Processing data: 82%\", \"Processing data: 83%\", etc.) and a final message indicating completion: \"Done! Answers saved to dataset_all_with_answers.json\". The script appears to be translating or refining content from video files into structured JSON format with fields like \"frame\", \"sub_goal\", \"keyboardOperation\", and \"mouse\". The user has not entered any new text during this session; all visible text in the application is either code, configuration, or output from the running script.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 148
+      },
+      {
+        "frame_number": 1513,
+        "timestamp_sec": 34.09,
+        "latency_sec": 8.04,
+        "frame_description": "The user is viewing a code editor with Python scripts and JSON files, likely working on a project involving GUI automation or data processing. The terminal shows progress logs indicating data processing is ongoing. No active typing is observed in the visible interface elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 1529,
+        "timestamp_sec": 34.45,
+        "latency_sec": 7.6,
+        "frame_description": "The user is running a Python script in Visual Studio Code that processes video files and generates datasets using an LLM, with the terminal showing progress percentages and completion messages.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 1544,
+        "timestamp_sec": 34.79,
+        "latency_sec": 9.75,
+        "frame_description": "The user is running a Python script (`azure_generate_dataset.py`) in Visual Studio Code that processes video files and generates datasets using an AI model (OpenAI's GPT-3.5-turbo). The script is actively executing, as shown by the terminal output indicating progress (\"Processing data: 82%\") and completion (\"Done! Answers saved to dataset_all_with_answers.json\"). The user has not entered any new text into the application during this session; all visible text is either part of the code, file paths, or output logs.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 112
+      },
+      {
+        "frame_number": 1612,
+        "timestamp_sec": 36.32,
+        "latency_sec": 7.64,
+        "frame_description": "The user is running a Python script in Visual Studio Code that processes video files using an AI model to generate subtitles or annotations, with progress displayed in the terminal and JSON output files being created.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1656,
+        "timestamp_sec": 37.31,
+        "latency_sec": 13.88,
+        "frame_description": "The user is running a Python script (`azure_generate_dataset.py`) in VS Code that processes video files and generates a dataset by extracting subtitles or goals from them, converting them between Chinese and English based on language detection, and saving the results to a JSON file. The script is actively processing data, as shown by the progress bar in the terminal output.\n\nVisible user-entered text in the application includes:\n\n- In the Explorer panel:\n  - Folder names: `GUI`, `annotation`, `mobile-rico`, `scripts`, `Software`, `Youtube`, `programming`, `youtube-4.1-blueice`\n  - Files: `cleaned_website1.jsonl`, `website1.jsonl`, `azure_generate_dataset.py`, `azure_gpt.py`, `cleaned-youtube-4.1-blueice.jsonl`, `count.ipynb`, `display.ipynb`, `software-4.1-peter.jsonl`, `youtube-4.1-blueice.jsonl`, `0.mp4`, `1.mp4`, `2.mp4`, `3.mp4`, `4.mp4`, `5.mp4`, `6.mp4`, `7.mp4`, `8.mp4`, `9.mp4`, `",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1671,
+        "timestamp_sec": 37.65,
+        "latency_sec": 10.5,
+        "frame_description": "The user is running a Python script in VS Code that processes JSON data, likely for generating or updating a dataset, as indicated by the terminal output showing \"Processing data\" progress and the script's logic involving `tqdm` and JSON file handling. The script appears to be part of a larger GUI automation or data generation workflow, possibly related to YouTube video analysis or dataset creation, given the file names and content visible in the editor. The user is actively monitoring the script's execution through the terminal, which shows the script is nearing completion (100% processing). The script is likely being used to automate or standardize data processing tasks, possibly for machine learning or data analysis purposes.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 140
+      },
+      {
+        "frame_number": 1697,
+        "timestamp_sec": 38.23,
+        "latency_sec": 13.81,
+        "frame_description": "The user is running a Python script (`azure_generate_dataset.py`) in a Jupyter Notebook environment, which is processing a dataset by converting Chinese text in JSON files to English using predefined translation functions. The script is actively executing, as shown by the progress bar and output messages in the terminal panel.\n\nVisible user-entered text includes:\n\n- In the Python code:\n  - `openai.api_key = '1f462c58d0d6407eb4995453ab22ff7'`\n  - `def contains_chinese(s): return any('\\u4e00' <= c <= '\\u9fff' for c in s)`\n  - `def main():`\n  - `parser = ArgumentParser()`\n  - `parser.add_argument(\"--input\", type=str, default=None)`\n  - `parser.add_argument(\"--output\", type=str, default=None)`\n  - `args = parser.parse_args()`\n  - `with open(args.input, 'r', encoding='utf-8') as file:`\n  - `data = [json.loads(line) for line in file]`\n  - `for item in tqdm(data, desc=\"Processing",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1712,
+        "timestamp_sec": 38.57,
+        "latency_sec": 7.34,
+        "frame_description": "The user is typing in the terminal at the bottom of the screen, entering the command `rico`.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 1727,
+        "timestamp_sec": 38.91,
+        "latency_sec": 8.43,
+        "frame_description": "The user is viewing a chat interface with code snippets displayed, specifically focusing on a Python script that uses PIL and matplotlib to extract frames from a video file. The script includes comments and instructions for setting up the video path, frame number, and processing the frame. There is no active typing or input being performed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 1742,
+        "timestamp_sec": 39.25,
+        "latency_sec": 8.55,
+        "frame_description": "The user is viewing a Python script in the ChatGPT interface that demonstrates how to extract a frame from a video using OpenCV and PIL. The script includes comments explaining each step, such as setting the frame number, reading the frame, converting it to RGB, and displaying it with matplotlib. The user has not entered any text in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 2962,
+        "timestamp_sec": 66.74,
+        "latency_sec": 8.94,
+        "frame_description": "The user is viewing a code snippet in a chat interface that includes Python code for video frame extraction using PIL and cv2. The code defines variables like `video_path`, `frame_number`, and `cap`, and includes comments explaining the steps. The user has not entered any new text in the chat or code editor.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 2977,
+        "timestamp_sec": 67.07,
+        "latency_sec": 7.79,
+        "frame_description": "The user is typing \"rico\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 2992,
+        "timestamp_sec": 67.41,
+        "latency_sec": 7.4,
+        "frame_description": "The user is typing \"rico\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 3030,
+        "timestamp_sec": 68.27,
+        "latency_sec": 7.42,
+        "frame_description": "The user is typing \"rico\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 3045,
+        "timestamp_sec": 68.61,
+        "latency_sec": 9.04,
+        "frame_description": "The user is viewing a Python script in Visual Studio Code, specifically the `encode_and_save_frames` function, which processes video frames and saves them as PNG files. The terminal panel shows active tmux sessions for `rico` and `gpt`, with the `rico` session currently active and waiting for input. No text is being actively typed at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 3083,
+        "timestamp_sec": 69.46,
+        "latency_sec": 7.02,
+        "frame_description": "The user is typing \"r\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 3098,
+        "timestamp_sec": 69.8,
+        "latency_sec": 7.53,
+        "frame_description": "The user is typing \"rico\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 3118,
+        "timestamp_sec": 70.25,
+        "latency_sec": 8.34,
+        "frame_description": "The user is viewing a Python script in Visual Studio Code, specifically focusing on the `encode_and_save_frames` function, which processes video frames. The terminal panel below shows output from a tmux session involving `torch` and `rico`. No active typing or input is occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 3133,
+        "timestamp_sec": 70.59,
+        "latency_sec": 9.37,
+        "frame_description": "The user is viewing a Python script in Visual Studio Code, specifically focusing on the `encode_and_save_frames` function. The script processes video frames, saves them as PNG files, and encodes them using base64. The terminal at the bottom shows recent commands related to tmux sessions and a Windows terminal session. No active typing is occurring; the user appears to be reviewing or debugging the code.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 82
+      },
+      {
+        "frame_number": 3148,
+        "timestamp_sec": 70.93,
+        "latency_sec": 8.75,
+        "frame_description": "The user is editing a Python script in Visual Studio Code, specifically working on the `encode_and_save_frames` function within the `azure_api.py` file. The terminal at the bottom shows recent commands executed via tmux sessions related to `rico`. No new text is being actively typed in the editor at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 3172,
+        "timestamp_sec": 71.47,
+        "latency_sec": 9.77,
+        "frame_description": "The user is viewing a Python script in Visual Studio Code, specifically the `encode_and_save_frames` function, which processes video frames and encodes them using Azure OpenAI. The terminal shows active tmux sessions for `torch` and `rico`, indicating the user is managing or monitoring these processes. No new text is being entered at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 3187,
+        "timestamp_sec": 71.8,
+        "latency_sec": 7.59,
+        "frame_description": "The user is typing \"rico\" in the terminal.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 3372,
+        "timestamp_sec": 75.97,
+        "latency_sec": 9.22,
+        "frame_description": "The user is viewing a Python script in Visual Studio Code, specifically the `encode_and_save_frames` function, which processes video frames and encodes them using base64. The terminal at the bottom shows an active tmux session labeled `rico`, indicating the user is likely running or monitoring a process related to video or image encoding. No new text is being entered by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 81
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Created a new file in vscode, then pasted another file into it.",
+      "reference_caption": "A user creates and populates a new Python file in VSCode, drafts a prompt in ChatGPT interface without sending, and then returns to VSCode to review the changes.",
+      "reference_apps": [
+        "vscode"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 166,
+          "sub_goal": "Clicked on \"Create New File\" on the left side of vscode.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 803,
+          "sub_goal": "Name the new file as azure_generate_dataset.py",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "azure_generate_dataset.py"
+        },
+        {
+          "frame": 918,
+          "sub_goal": "\"Select all the code of a file with command + a and then copy it with command + c.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 954,
+          "sub_goal": "Open the newly created file and paste all the copied code into it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1773,
+          "sub_goal": "Switch to the chatgpt interface and ask GPT some questions.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2909,
+          "sub_goal": "Write the prompt well and then do not send it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3101,
+          "sub_goal": "Switch back to vscode to view the script that was just edited.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of processing video frames and encoding them using base64, as evidenced by the consistent focus on the `encode_and_save_frames` function in the timeline. The core activity involves handling video data, which aligns with the user's actions described throughout the timeline."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The descriptions consistently match the typed text, active applications, and context provided by the keyframes without introducing contradictions or fabricated details."
+        },
+        "coverage": {
+          "score": 4.5,
+          "coverage": 0.875,
+          "covered": 7,
+          "total": 8,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline describes actions related to processing video frames, running Python scripts, and using tmux sessions for managing processes. These actions are explicitly mentioned in the keyframe descriptions."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The timeline contains multiple repeated entries of 'rico' being typed in the terminal and viewing similar code snippets, indicating redundancy. However, there are also distinct actions such as processing data with Python scripts and managing tmux sessions."
+        }
+      },
+      "composite_score": 17.5,
+      "max_score": 20,
+      "latency_sec": 190.14
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.02,
+        "recall": 0.6951,
+        "f1": 0.0389
+      },
+      "rouge2": {
+        "precision": 0.0053,
+        "recall": 0.1852,
+        "f1": 0.0102
+      },
+      "rougeL": {
+        "precision": 0.0165,
+        "recall": 0.5732,
+        "f1": 0.0321
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0626
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 607.41,
+      "total_vlm_inference_sec": 403.12,
+      "intent_latency_sec": 14.04,
+      "frames_processed": 43,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.37,
+      "median_frame_latency_sec": 9.09,
+      "min_frame_latency_sec": 7.02,
+      "max_frame_latency_sec": 14.01,
+      "avg_description_length_chars": 413.6,
+      "total_prompt_tokens": 94297,
+      "total_completion_tokens": 4160,
+      "avg_completion_tokens_per_sec": 9.7,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was developing, editing, and reviewing Azure-related Python scripts in Visual Studio Code, using ChatGPT for assistance and inspecting logs to refine their code.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.08,
+        "frame_description": "The user is clicking on the 'azure_gpt.py' file in the Explorer panel.\n\n**Visible user-entered text:**\n* 'GUI [SSH: 5050-14.19.198.105]'",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 825,
+        "timestamp_sec": 18.59,
+        "latency_sec": 6.57,
+        "frame_description": "The user is clicking on the 'scripts' folder in the explorer sidebar. The text in the top search bar is \"GUI [SSH: 5050-14.19.198.105]\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 866,
+        "timestamp_sec": 19.51,
+        "latency_sec": 7.64,
+        "frame_description": "The user is clicking on the 'azure_generate_dataset.py' file in the file explorer.\n\nThe visible user-entered text in the search bar is \"GUI [SSH:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 907,
+        "timestamp_sec": 20.44,
+        "latency_sec": 6.08,
+        "frame_description": "The user is selecting text in the code editor.\n\n**Visible user-entered text:**\n* Top search bar: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 944,
+        "timestamp_sec": 21.27,
+        "latency_sec": 7.2,
+        "frame_description": "The user is selecting multiple lines of code in the \"azure_gpt.py\" tab in Visual Studio Code. \n\nVisible user-entered text in the application search bar:\n\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 959,
+        "timestamp_sec": 21.61,
+        "latency_sec": 8.04,
+        "frame_description": "The user is selecting 'azure_generate_dataset.py' in the file explorer in Visual Studio Code.\n\n**Visible user-entered text:**\n* Top search bar: `\"GUI [SSH:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 975,
+        "timestamp_sec": 21.97,
+        "latency_sec": 6.91,
+        "frame_description": "The user is viewing the VS Code editor window where the active file is `azure_generate_dataset.py` and the text entered in the search/command bar at the top",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 990,
+        "timestamp_sec": 22.31,
+        "latency_sec": 8.09,
+        "frame_description": "The user is clicking on line 53 in the code editor in Visual Studio Code. The visible user-entered text is \"GUI [SSH: 5050-14.19.198.105]\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1013,
+        "timestamp_sec": 22.82,
+        "latency_sec": 7.07,
+        "frame_description": "The user is hovering the cursor over the code editor showing \"azure_generate_dataset.py\".\n\n**Visible user-entered text:**\n- Address bar: \"GUI [SSH:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1028,
+        "timestamp_sec": 23.16,
+        "latency_sec": 8.17,
+        "frame_description": "The user is viewing the Visual Studio Code application with the file `azure_generate_dataset.py` open in the editor.\n\nVisible user-entered text:\n- Top",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1266,
+        "timestamp_sec": 28.52,
+        "latency_sec": 7.11,
+        "frame_description": "The user is hovering the mouse cursor over the code in the editor on line 52.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 1281,
+        "timestamp_sec": 28.86,
+        "latency_sec": 22.21,
+        "frame_description": "",
+        "prompt_tokens": 1200,
+        "completion_tokens": 0
+      },
+      {
+        "frame_number": 1366,
+        "timestamp_sec": 30.78,
+        "latency_sec": 7.93,
+        "frame_description": "The user is viewing the code in the 'azure_generate_dataset.py' file in Visual Studio Code.\n\n**Visible user-entered text:**\n* Top bar search/command field:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1381,
+        "timestamp_sec": 31.11,
+        "latency_sec": 7.55,
+        "frame_description": "The user is hovering the cursor over the code editor in Visual Studio Code. The visible user-entered text in the search bar at the top is \"GUI [SSH: 5050-1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1396,
+        "timestamp_sec": 31.45,
+        "latency_sec": 5.12,
+        "frame_description": "The user is clicking on the code editor in Visual Studio Code.\n\nVisible user-entered text:\n- Top search bar: \"GUI [SSH: 5050-14.19.198.105]\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1414,
+        "timestamp_sec": 31.86,
+        "latency_sec": 7.54,
+        "frame_description": "The user is hovering the mouse cursor over the code in the 'azure_generate_dataset.py' file.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 1429,
+        "timestamp_sec": 32.2,
+        "latency_sec": 6.69,
+        "frame_description": "The user is clicking on the code editor within the \"azure_generate_dataset.py\" tab.\n\nVisible user-entered text in application fields:\n- Top search/command bar: \"GUI [SSH: 5050-14.19.198.105]\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 1468,
+        "timestamp_sec": 33.07,
+        "latency_sec": 8.02,
+        "frame_description": "The user is viewing a VS Code window containing Python code and JSON files.\n\n**User-entered text:**\n\"GUI [SSH: 5050-14.1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1483,
+        "timestamp_sec": 33.41,
+        "latency_sec": 7.92,
+        "frame_description": "The user is viewing code and terminal output in Visual Studio Code. The visible user-entered text in the search bar is \"GUI [SSH: 5050-14.19",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1498,
+        "timestamp_sec": 33.75,
+        "latency_sec": 8.13,
+        "frame_description": "The user is viewing code and execution logs in Visual Studio Code.\n\nVisible user-entered text:\n- Top search/command bar: `\"GUI [SSH: 5050-14",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1513,
+        "timestamp_sec": 34.09,
+        "latency_sec": 5.51,
+        "frame_description": "The user is selecting text in the code editor. The text visible in the top search bar is \"GUI [SSH: 5050-14.19.198.105]\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 1529,
+        "timestamp_sec": 34.45,
+        "latency_sec": 8.26,
+        "frame_description": "The user is viewing the Visual Studio Code window. \n\nThe visible user-entered text in the top search bar is `\"GUI [SSH: 5050-1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1544,
+        "timestamp_sec": 34.79,
+        "latency_sec": 7.25,
+        "frame_description": "The user is clicking on line 33 in the \"azure_generate_dataset.py\" file within the code editor.\n\nVisible user-entered text:\n- Top search bar: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 1612,
+        "timestamp_sec": 36.32,
+        "latency_sec": 6.59,
+        "frame_description": "The user is selecting text in the 'azure_generate_dataset.py' file in Visual Studio Code.\n\nVisible user-entered text:\n- Top search bar: \"GUI [SSH: 5050-14.19.198.105]\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 1656,
+        "timestamp_sec": 37.31,
+        "latency_sec": 7.56,
+        "frame_description": "The user is viewing the visual studio code editor containing \"GUI [SSH: 5050-14.19.198.105]\" in the top search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1671,
+        "timestamp_sec": 37.65,
+        "latency_sec": 6.55,
+        "frame_description": "The user is editing the 'azure_generate_dataset.py' file. The search bar at the top contains the text \"GUI [SSH: 5050-14.19.198.105]\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1697,
+        "timestamp_sec": 38.23,
+        "latency_sec": 15.14,
+        "frame_description": "The user is hovering the mouse pointer over the code editor in Visual Studio Code. \n\nVisible user-entered text:\n- Top search bar: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 1712,
+        "timestamp_sec": 38.57,
+        "latency_sec": 11.88,
+        "frame_description": "",
+        "prompt_tokens": 1200,
+        "completion_tokens": 0
+      },
+      {
+        "frame_number": 1727,
+        "timestamp_sec": 38.91,
+        "latency_sec": 7.17,
+        "frame_description": "The user is viewing a ChatGPT conversation in a web browser.\n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 1742,
+        "timestamp_sec": 39.25,
+        "latency_sec": 6.42,
+        "frame_description": "The user is hovering the mouse cursor over a Python code block in the ChatGPT webpage. \n\n**Visible user-entered text:**\n* Address bar: `\"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 2962,
+        "timestamp_sec": 66.74,
+        "latency_sec": 7.09,
+        "frame_description": " sidebar in Edge/Chrome (left panel of browser): sidebar tabs (GitHub, Overleaf, Daily Papers, etc.).\n\nSo the user is typing in the prompt field in ChatGPT.\n\nLet's",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 2977,
+        "timestamp_sec": 67.07,
+        "latency_sec": 11.82,
+        "frame_description": "The user is editing code in Visual Studio Code.\n\nVisible user-entered text:\n- Top search/command bar: `rico [SSH: 175.178.24",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 2992,
+        "timestamp_sec": 67.41,
+        "latency_sec": 6.54,
+        "frame_description": "The user is viewing the code file `azure_api.py` in Visual Studio Code.\n\nVisible user-entered text:\n- Top search bar: `\"rico [SSH",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 3030,
+        "timestamp_sec": 68.27,
+        "latency_sec": 7.14,
+        "frame_description": "The user is editing the file `azure_api.py` in Visual Studio Code.\n\nVisible user-entered text:\n- Top search/command bar: `rico [SSH: 17",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 3045,
+        "timestamp_sec": 68.61,
+        "latency_sec": 7.45,
+        "frame_description": "The user is viewing the code editor in Visual Studio Code with the cursor positioned in the 'azure_api.py' file.\n\n**User-entered text:**\n* Search bar:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 3083,
+        "timestamp_sec": 69.46,
+        "latency_sec": 7.25,
+        "frame_description": "The user is editing code in the `azure_api.py` file in Visual Studio Code.\n\n**User-entered text:**\n* Top search/command bar: `\"rico",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 3098,
+        "timestamp_sec": 69.8,
+        "latency_sec": 6.27,
+        "frame_description": "The user is viewing the file 'azure_api.py' in Visual Studio Code.\n\n**User-entered text:**\n* Search bar at the top: `rico [SSH: 175.178.24.19]`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 3118,
+        "timestamp_sec": 70.25,
+        "latency_sec": 5.84,
+        "frame_description": "The user is selecting text in the code editor. \n\nVisible user-entered text includes:\n* Top search bar: `\"rico [SSH: 175.178.24.19]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 3133,
+        "timestamp_sec": 70.59,
+        "latency_sec": 8.35,
+        "frame_description": "The user is viewing a file in Visual Studio Code.\n\n**Visible user-entered text:**\n* Top Search Bar: `rico [SSH: 175.178",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 3148,
+        "timestamp_sec": 70.93,
+        "latency_sec": 7.47,
+        "frame_description": "The user is viewing the `azure_api.py` file in Visual Studio Code while connected to a remote SSH server.\n\n**Visible user-entered text:**\n* Top search/command",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 3172,
+        "timestamp_sec": 71.47,
+        "latency_sec": 7.14,
+        "frame_description": "The user is selecting text in the editor.\n\n**Visible user-entered text:**\n- Top search/command bar: `\"rico [SSH: 175.1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 3187,
+        "timestamp_sec": 71.8,
+        "latency_sec": 6.52,
+        "frame_description": "The user is viewing the code file \"azure_api.py\" in Visual Studio Code.\n\n**Visible user-entered text:**\n* **Search bar at top:** `rico [SSH",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 3372,
+        "timestamp_sec": 75.97,
+        "latency_sec": 7.02,
+        "frame_description": "The user is hovering the cursor over \"image_file\" in the \"azure_api.py\" code editor.\n\n**User-entered text:**\n* Top search bar: `\"rico [SSH: 175.178.24.19]\"`\n* Terminal inputs: `\"tmux attach-session -t gpt\"`, `\"tmux list-session\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 80
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Created a new file in vscode, then pasted another file into it.",
+      "reference_caption": "A user creates and populates a new Python file in VSCode, drafts a prompt in ChatGPT interface without sending, and then returns to VSCode to review the changes.",
+      "reference_apps": [
+        "vscode"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 166,
+          "sub_goal": "Clicked on \"Create New File\" on the left side of vscode.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 803,
+          "sub_goal": "Name the new file as azure_generate_dataset.py",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "azure_generate_dataset.py"
+        },
+        {
+          "frame": 918,
+          "sub_goal": "\"Select all the code of a file with command + a and then copy it with command + c.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 954,
+          "sub_goal": "Open the newly created file and paste all the copied code into it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1773,
+          "sub_goal": "Switch to the chatgpt interface and ask GPT some questions.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2909,
+          "sub_goal": "Write the prompt well and then do not send it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3101,
+          "sub_goal": "Switch back to vscode to view the script that was just edited.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective as described by both the goal and caption. The timeline shows actions consistent with creating a new file in VSCode, pasting content into it, and using ChatGPT for assistance without sending a message, which matches the core activities outlined in the goal and caption."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions generally align with the keyframes provided. The sequence of user interactions in VSCode, such as creating a file named 'azure_generate_dataset.py', selecting and copying code, and switching to ChatGPT, are consistent with the ground truth. However, there are discrepancies in specific details like the SSH address (e.g., '14.19.198.105' vs. '54.149.198.105') and some actions not explicitly mentioned in keyframes but inferred from context. The timeline supports answering the static QA about working on a remote server due to the presence of SSH information, and it aligns with the sequential-QA and MCQA answers provided."
+        },
+        "coverage": {
+          "score": 3.5,
+          "coverage": 0.625,
+          "covered": 5,
+          "total": 8,
+          "covered_actions": [
+            3,
+            4,
+            5,
+            7
+          ],
+          "covered_apps": [
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to interacting with files and code in Visual Studio Code, as well as a brief interaction with ChatGPT. However, it does not explicitly cover all the keyframe actions such as creating a new file or switching between applications."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI-generated timeline contains numerous repetitive entries that describe similar actions and states without significant changes, such as repeated mentions of the same search bar text and hovering over code. These redundancies are prevalent throughout the timeline."
+        }
+      },
+      "composite_score": 14.5,
+      "max_score": 20,
+      "latency_sec": 159.43
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0417,
+        "recall": 0.5366,
+        "f1": 0.0774
+      },
+      "rouge2": {
+        "precision": 0.0104,
+        "recall": 0.1358,
+        "f1": 0.0194
+      },
+      "rougeL": {
+        "precision": 0.0294,
+        "recall": 0.378,
+        "f1": 0.0545
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0358
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 516.13,
+      "total_vlm_inference_sec": 339.3,
+      "intent_latency_sec": 17.34,
+      "frames_processed": 43,
+      "frames_with_empty_description": 2,
+      "avg_frame_latency_sec": 7.89,
+      "median_frame_latency_sec": 7.2,
+      "min_frame_latency_sec": 5.12,
+      "max_frame_latency_sec": 22.21,
+      "avg_description_length_chars": 137.3,
+      "total_prompt_tokens": 54225,
+      "total_completion_tokens": 1960,
+      "avg_completion_tokens_per_sec": 5.4
+    }
+  }
+}

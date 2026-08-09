@@ -1,0 +1,351 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/47.mp4",
+  "total_frames": 1298,
+  "fps": 30.0006789444869,
+  "video_length_sec": 43.27,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1298,
+  "frames_processed": 5,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was navigating the NeuIPS 2024 conference website to review important dates and deadlines, then proceeded to access the OpenReview.net platform to explore the Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 9.92,
+        "frame_description": "The user is viewing a desktop with multiple open applications, including a web browser showing a NeuIPS 2024 conference page and a Steam client displaying paused game downloads. There is no active text input or typing occurring in any visible form fields or text areas.\n\nVisible user-entered text includes:\n- In the browser: \"NeuIPS 2024\", \"Welcome to NeuIPS 2024\", \"CSF Graduation\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"NeuIPS 2024\", \"Ne",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 157,
+        "timestamp_sec": 5.23,
+        "latency_sec": 4.85,
+        "frame_description": "The user is viewing a webpage for the NeurIPS 2024 conference, specifically the \"Important Dates\" section, which lists various deadlines and notifications related to the conference. The page includes details such as submission deadlines, workshop proposal deadlines, and notification dates, along with countdown timers for each event. There is no active input or text being typed by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 813,
+        "timestamp_sec": 27.1,
+        "latency_sec": 4.12,
+        "frame_description": "The user is viewing the OpenReview.net website, which is currently loading, as indicated by the \"LOADING\" text and loading bar in the center of the page. No user-entered text is visible in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 1077,
+        "timestamp_sec": 35.9,
+        "latency_sec": 3.62,
+        "frame_description": "The user is viewing the OpenReview.net page for the Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1298,
+        "timestamp_sec": 43.27,
+        "latency_sec": 3.67,
+        "frame_description": "The user is viewing the \"The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track\" page on OpenReview.net, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 37
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View the submission interface for the dataset and benchmark track of nips 2024.",
+      "reference_caption": "Navigating from a paused game download in Steam to initiating a download, switching to Edge browser, accessing the NeurIPS 2024 conference page, and loading the submission interface on OpenReview.",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 32,
+          "sub_goal": "Click to start downloading, restart downloading lethal company.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 176,
+          "sub_goal": "Click on edge, edge returns to the top of the screen.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 781,
+          "sub_goal": "Click on the hyperlink for dataset and benchmark, preparing to jump.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 839,
+          "sub_goal": "Jump to openreview, loading.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1079,
+          "sub_goal": "The webpage loaded the submission interface for dataset and benchmark track.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1131,
+          "sub_goal": "Place the mouse on \"add a submission\"",
+          "mouse": "hover",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent aligns well with the user's underlying objective of navigating to and interacting with the NeurIPS 2024 submission interface. The timeline shows actions consistent with accessing the conference page, switching browsers, and loading the OpenReview platform, which matches the goal of viewing the submission interface. There are no contradictions in the specific details mentioned in the reasoning or prediction questions."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but miss some key interactions. Frame 1 correctly describes the Steam client and paused downloads, aligning with Keyframe 1. However, it omits the user's action of clicking to restart the download. Frames 157 and 813 accurately describe navigation to the NeurIPS page and loading OpenReview, respectively, matching Keyframes 2-5. Frame 1077 and 1298 correctly identify viewing the OpenReview submission interface but do not mention the 'add a submission' hover action in Keyframe 6. The timeline supports answering STATIC QA about the paused status of 'Lethal Company'. For SEQUENTIAL-QA, it aligns with navigating to NeurIPS after restarting the download. MCQA is supported as the user navigates to OpenReview after clicking the hyperlink."
+        },
+        "coverage": {
+          "score": 4.11,
+          "coverage": 0.778,
+          "covered": 7,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "bing",
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to viewing and interacting with web pages, which aligns with some of the keyframe actions involving mouse clicks and webpage navigation. However, not all keyframes are explicitly described in terms of specific mouse interactions."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, such as repeated mentions of 'NeuIPS 2024' and multiple frames showing the same OpenReview.net page with no active input. These entries do not provide new information."
+        }
+      },
+      "composite_score": 15.11,
+      "max_score": 20,
+      "latency_sec": 62.0
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1128,
+        "recall": 0.5577,
+        "f1": 0.1877
+      },
+      "rouge2": {
+        "precision": 0.0352,
+        "recall": 0.1765,
+        "f1": 0.0586
+      },
+      "rougeL": {
+        "precision": 0.0739,
+        "recall": 0.3654,
+        "f1": 0.123
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0067
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 90.66,
+      "total_vlm_inference_sec": 26.18,
+      "intent_latency_sec": 2.45,
+      "frames_processed": 5,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.24,
+      "median_frame_latency_sec": 4.12,
+      "min_frame_latency_sec": 3.62,
+      "max_frame_latency_sec": 9.92,
+      "avg_description_length_chars": 330.2,
+      "total_prompt_tokens": 5496,
+      "total_completion_tokens": 508,
+      "avg_completion_tokens_per_sec": 17.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is trying to access the submission portal for the NeurIPS 2024 Datasets and Benchmarks Track on OpenReview.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.06,
+        "frame_description": "The user is clicking on the play button next to \"PAUSED\" for \"Lethal Company\" in Steam.\n\n**Visible user-entered text:**\n* \"https://neurips.cc/Conferences/2024\" (in the browser address bar)",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 157,
+        "timestamp_sec": 5.23,
+        "latency_sec": 6.07,
+        "frame_description": "The user is viewing a webpage on the web browser. \n\nThere is no visible user-entered text in any form fields or search bars (the address bar contains the URL `https://neur",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 813,
+        "timestamp_sec": 27.1,
+        "latency_sec": 5.03,
+        "frame_description": "The user is viewing a loading web page in the web browser with the address bar containing \"https://openreview.net/group?id=NeurIPS.cc/2024/Datasets_and_Benchmarks_Track\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 1077,
+        "timestamp_sec": 35.9,
+        "latency_sec": 5.74,
+        "frame_description": "The user is hovering the mouse cursor over the OpenReview webpage. There is no visible user-entered text in any form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 1298,
+        "timestamp_sec": 43.27,
+        "latency_sec": 4.54,
+        "frame_description": "The user is clicking on the 'NeurIPS 2024 Datasets and Benchmarks Track Submission' button. \n\nVisible user-entered text:\n- Address bar: `https://openreview.net/group?id=NeurIPS.cc/2024/Datasets_and_Benchmarks_Track#tab-recent-activity`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 73
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View the submission interface for the dataset and benchmark track of nips 2024.",
+      "reference_caption": "Navigating from a paused game download in Steam to initiating a download, switching to Edge browser, accessing the NeurIPS 2024 conference page, and loading the submission interface on OpenReview.",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 32,
+          "sub_goal": "Click to start downloading, restart downloading lethal company.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 176,
+          "sub_goal": "Click on edge, edge returns to the top of the screen.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 781,
+          "sub_goal": "Click on the hyperlink for dataset and benchmark, preparing to jump.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 839,
+          "sub_goal": "Jump to openreview, loading.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1079,
+          "sub_goal": "The webpage loaded the submission interface for dataset and benchmark track.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1131,
+          "sub_goal": "Place the mouse on \"add a submission\"",
+          "mouse": "hover",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both aim to access and interact with the submission portal for NeurIPS 2024 Datasets and Benchmarks Track on OpenReview. The timeline supports this by showing actions like navigating to the conference page, loading the submission interface, and hovering over the 'Add NeurIPS 2024 Datasets and Benchmarks Track Submission' button."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The user's interactions in Steam and Edge browser, including clicking to start downloading 'Lethal Company' and navigating to the NeurIPS 2024 conference page on OpenReview, are correctly described without contradictions or fabricated details. The timeline supports answering all QA questions consistently with the given answers."
+        },
+        "coverage": {
+          "score": 3.22,
+          "coverage": 0.556,
+          "covered": 5,
+          "total": 9,
+          "covered_actions": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline describes actions related to web browsing and interactions on a webpage, which align with some of the keyframe actions involving mouse clicks and hovering. However, it does not mention any specific application like 'edge' or 'steam'."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline includes several frames that describe similar actions without significant changes in state or new information. For example, the user's interaction with the web browser is described multiple times with minimal variation (e.g., viewing a webpage and hovering over it). However, there are also distinct actions such as clicking different buttons and navigating to different URLs."
+        }
+      },
+      "composite_score": 16.22,
+      "max_score": 20,
+      "latency_sec": 66.65
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1892,
+        "recall": 0.5385,
+        "f1": 0.28
+      },
+      "rouge2": {
+        "precision": 0.068,
+        "recall": 0.1961,
+        "f1": 0.101
+      },
+      "rougeL": {
+        "precision": 0.1284,
+        "recall": 0.3654,
+        "f1": 0.19
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0068
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 95.47,
+      "total_vlm_inference_sec": 27.44,
+      "intent_latency_sec": 1.35,
+      "frames_processed": 5,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.49,
+      "median_frame_latency_sec": 5.74,
+      "min_frame_latency_sec": 4.54,
+      "max_frame_latency_sec": 6.07,
+      "avg_description_length_chars": 177.6,
+      "total_prompt_tokens": 6356,
+      "total_completion_tokens": 270,
+      "avg_completion_tokens_per_sec": 8.8
+    }
+  }
+}

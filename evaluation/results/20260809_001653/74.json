@@ -1,0 +1,756 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/74.mp4",
+  "total_frames": 3888,
+  "fps": 46.708500354398346,
+  "video_length_sec": 83.24,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 3888,
+  "frames_processed": 28,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user aimed to gather travel information about Vienna, Austria, and then accessed an AI-generated itinerary to plan a trip to the city.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.51,
+        "frame_description": "The user is viewing the TripAdvisor page for Banana Beach in Ko He, Phuket, with no active input or text entry occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 73,
+        "timestamp_sec": 1.56,
+        "latency_sec": 7.1,
+        "frame_description": "The user is typing \"Banana Beach\" into the search bar on the TripAdvisor website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 124,
+        "timestamp_sec": 2.65,
+        "latency_sec": 7.1,
+        "frame_description": "The user is typing \"vie\" into the search bar on the TripAdvisor website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 174,
+        "timestamp_sec": 3.73,
+        "latency_sec": 7.6,
+        "frame_description": "The user is typing \"vie\" into the search bar on the TripAdvisor website, which has triggered a dropdown menu showing search suggestions related to \"vie.\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 343,
+        "timestamp_sec": 7.34,
+        "latency_sec": 7.12,
+        "frame_description": "The user is typing \"vienna\" into the search bar on the TripAdvisor website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 498,
+        "timestamp_sec": 10.66,
+        "latency_sec": 7.17,
+        "frame_description": "The user is typing \"vienna\" into the search bar on the TripAdvisor website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 614,
+        "timestamp_sec": 13.15,
+        "latency_sec": 7.33,
+        "frame_description": "The user is viewing a Tripadvisor webpage about Vienna, Austria, with the search bar containing the text \"vienna\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 702,
+        "timestamp_sec": 15.03,
+        "latency_sec": 7.3,
+        "frame_description": "The user is viewing a Tripadvisor page about Vienna, Austria, with the search bar containing the text \"vienna\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 723,
+        "timestamp_sec": 15.48,
+        "latency_sec": 7.54,
+        "frame_description": "The user is viewing a TripAdvisor webpage about Vienna, Austria, with the search bar containing the text \"vienna\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 747,
+        "timestamp_sec": 15.99,
+        "latency_sec": 7.37,
+        "frame_description": "The user is viewing a Tripadvisor webpage about Vienna, Austria, with the search bar containing the text \"vienna\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 763,
+        "timestamp_sec": 16.34,
+        "latency_sec": 7.31,
+        "frame_description": "The user is viewing a webpage about Vienna, Austria, on the TripAdvisor website, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 779,
+        "timestamp_sec": 16.68,
+        "latency_sec": 9.97,
+        "frame_description": "The user is scrolling down a webpage about Vienna on the TripAdvisor website, which includes sections like \"About Vienna\" and \"Travel Advice.\" The page features text descriptions of Vienna's attractions, such as its Baroque palaces, manicured gardens, and cultural significance. There are also user reviews visible, discussing places like Sch\u00f6nbrunn Palace and the Belvedere Museum. The sidebar on the left shows various tabs and folders, including \"Overleaf and Conference,\" \"Daily Papers,\" and \"Video-Dataset,\" suggesting the user might be multitasking between different applications or documents.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 115
+      },
+      {
+        "frame_number": 795,
+        "timestamp_sec": 17.02,
+        "latency_sec": 7.96,
+        "frame_description": "The user is viewing a webpage about Vienna on the Tripadvisor website, specifically the \"About Vienna\" section, which includes travel tips and recommendations. The user has not performed any active actions such as clicking or typing in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 811,
+        "timestamp_sec": 17.36,
+        "latency_sec": 7.69,
+        "frame_description": "The user is scrolling down a webpage about Vienna tourism on a browser, with the sidebar open showing various file and folder names. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 832,
+        "timestamp_sec": 17.81,
+        "latency_sec": 7.26,
+        "frame_description": "The user is scrolling down a webpage about Vienna tourism on a desktop browser, with the sidebar open showing various folders and files.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 848,
+        "timestamp_sec": 18.16,
+        "latency_sec": 9.16,
+        "frame_description": "The user is scrolling down a webpage about Vienna, Austria, on a desktop browser. The page includes sections like \"Travel Advice\" with topics such as \"Best time to visit,\" \"Getting around,\" \"Local customs,\" and \"Tips from the pros.\" There are also sponsored content sections visible. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 871,
+        "timestamp_sec": 18.65,
+        "latency_sec": 10.13,
+        "frame_description": "The user is scrolling down a webpage about Vienna, Austria, which appears to be part of a browser extension or sidebar interface. The page includes sections like \"Travel Advice\" with options such as \"Best time to visit,\" \"Getting around,\" \"Local customs,\" and \"Tips from the pros.\" There is also a sponsored advertisement for Pfizer at the bottom right corner. The left sidebar shows various tabs and folders, including \"Overleaf and Conference,\" \"Daily Papers,\" \"Hugging Face,\" and others related to academic papers and resources. The user seems to be exploring content related to travel tips and information about Vienna.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 124
+      },
+      {
+        "frame_number": 887,
+        "timestamp_sec": 18.99,
+        "latency_sec": 10.29,
+        "frame_description": "The user is viewing a webpage about Vienna, Austria, on a desktop browser. The page includes sections like \"Explore Vienna,\" \"Things to Do,\" \"Travel Advice,\" and \"Vacation Rentals.\" There are also user reviews visible, such as one from \"Brittany_11_10\" and another from \"Meg46.\" Additionally, there is a sponsored advertisement for Pfizer promoting outdoor activities in Europe. The left sidebar shows various tabs and folders, including \"Vienna, Austria 2024: All You Need to Know Before You Go - Tripadvisor.\" No active typing or input actions are observed in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 131
+      },
+      {
+        "frame_number": 903,
+        "timestamp_sec": 19.33,
+        "latency_sec": 7.18,
+        "frame_description": "The user is scrolling down the webpage to view more content about travel advice for Vienna, Austria.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 934,
+        "timestamp_sec": 20.0,
+        "latency_sec": 7.11,
+        "frame_description": "The user is scrolling down the webpage to view more content about travel advice for Vienna.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 952,
+        "timestamp_sec": 20.38,
+        "latency_sec": 7.28,
+        "frame_description": "The user is scrolling down the webpage to view more content about planning a trip to Vienna, Austria.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 968,
+        "timestamp_sec": 20.72,
+        "latency_sec": 9.16,
+        "frame_description": "The user is viewing a webpage on TripAdvisor that provides travel information for Vienna, Austria. The page includes sections such as \"Plan your trip\" with a search bar containing the text \"Vienna,\" and \"Essential Vienna\" which lists attractions like Sch\u00f6nbrunn Palace, Prater, and The Hofburg. The user appears to be browsing through the content but is not actively typing or entering any new text at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 1025,
+        "timestamp_sec": 21.94,
+        "latency_sec": 7.12,
+        "frame_description": "The user is typing \"Vienna\" into the search bar on the TripAdvisor website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 1041,
+        "timestamp_sec": 22.29,
+        "latency_sec": 7.07,
+        "frame_description": "The user is typing \"Vienn\" into the search bar on the TripAdvisor website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 1103,
+        "timestamp_sec": 23.61,
+        "latency_sec": 7.02,
+        "frame_description": "The user is typing \"Vienna\" into the search bar on the TripAdvisor website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 1119,
+        "timestamp_sec": 23.96,
+        "latency_sec": 6.99,
+        "frame_description": "The user is typing \"Vienna\" into the search bar on the TripAdvisor website.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 1308,
+        "timestamp_sec": 28.0,
+        "latency_sec": 8.46,
+        "frame_description": "The user is viewing a web page in a browser, with a sidebar containing various folders and files. The main content area of the browser is blank, possibly indicating that the page is still loading or the content has not been rendered yet. There is no visible text being actively typed by the user in any form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 3888,
+        "timestamp_sec": 83.24,
+        "latency_sec": 8.52,
+        "frame_description": "The user is viewing a webpage titled \"Vienna Itinerary\" on the Tripadvisor website, which appears to be an AI-generated travel plan. The browser tab shows the URL `https://www.tripadvisor.com/AITripBuilder?geo=190454`. There is no active text input or typing occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use trip advisor's plan designer to design a travel strategy to Vienna.",
+      "reference_caption": "Navigating Tripadvisor's GUI to plan a trip to Vienna, including date selection and travel preferences.",
+      "reference_apps": [
+        "edge",
+        "trip advisor"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 242,
+          "sub_goal": "Search for Vienna in the top search box.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 687,
+          "sub_goal": "Arrived at the Explore Vienna page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1030,
+          "sub_goal": "Slide down the page to reach the \"Plan your trip\" block, then enter Vienna and let AI help me plan the trip.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1868,
+          "sub_goal": "Now selecting the month for travel, click on the next month.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2124,
+          "sub_goal": "Selected travel dates from August 10th to 14th.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2224,
+          "sub_goal": "Click on the \"next\" button in the bottom right corner.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2297,
+          "sub_goal": "Clicked to travel with partner.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2409,
+          "sub_goal": "I clicked \"no\" when asked if I was traveling with a child.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3570,
+          "sub_goal": "In the place where I choose travel keywords, I chose Must-see Attractions, Great Food, Viennese Cafes, Art Galleries, etc.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 4,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of planning a trip to Vienna using Tripadvisor, as evidenced by actions like searching for 'Vienna' and viewing an itinerary page. The prediction about clicking 'next' after selecting travel dates aligns with typical GUI navigation but is not explicitly shown in the timeline. The reasoning question about selecting travel preferences matches the user's goal of planning a trip without children, which is consistent with the inferred intent."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence of user interactions aligns well, such as typing 'Vienna' into the search bar and navigating to the 'Explore Vienna' page. There are no fabricated or contradicted actions in the descriptions. For the STATIC QA, the timeline supports identifying the section title as 'Plan your trip'. For the SEQUENTIAL-QA, the transition from selecting 'Vienna' to planning the trip is correctly described. The MCQA about travel dates aligns with the keyframe indicating August 2024."
+        },
+        "coverage": {
+          "score": 2.82,
+          "coverage": 0.455,
+          "covered": 5,
+          "total": 11,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "covered_apps": [
+            "trip advisor"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching for and viewing information about Vienna on the TripAdvisor website, which aligns with several keyframe actions. However, not all specific mouse clicks or selections are detailed."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, such as multiple frames showing the user viewing a webpage about Vienna with no new actions. However, there are also numerous entries where new information is provided, like typing different text or scrolling to reveal new content."
+        }
+      },
+      "composite_score": 14.82,
+      "max_score": 20,
+      "latency_sec": 119.58
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0598,
+        "recall": 0.5294,
+        "f1": 0.1075
+      },
+      "rouge2": {
+        "precision": 0.02,
+        "recall": 0.1782,
+        "f1": 0.0359
+      },
+      "rougeL": {
+        "precision": 0.0388,
+        "recall": 0.3431,
+        "f1": 0.0697
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0273
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 345.18,
+      "total_vlm_inference_sec": 218.82,
+      "intent_latency_sec": 6.73,
+      "frames_processed": 28,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 7.82,
+      "median_frame_latency_sec": 7.32,
+      "min_frame_latency_sec": 6.99,
+      "max_frame_latency_sec": 10.29,
+      "avg_description_length_chars": 197.4,
+      "total_prompt_tokens": 60483,
+      "total_completion_tokens": 1280,
+      "avg_completion_tokens_per_sec": 5.3,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to research travel information and create a trip itinerary for Vienna, Austria using TripAdvisor's AI Trip Builder tool.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 5.64,
+        "frame_description": "The user is hovering the cursor over the \"Vacation Rentals\" link on the webpage. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 73,
+        "timestamp_sec": 1.56,
+        "latency_sec": 5.86,
+        "frame_description": "The user is clicking on the search bar on the TripAdvisor website.\n\n**Visible user-entered text:**\n* Address bar: `\"https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 124,
+        "timestamp_sec": 2.65,
+        "latency_sec": 7.33,
+        "frame_description": "The user is typing in the search bar on TripAdvisor, where the entered text is 'vie e'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 174,
+        "timestamp_sec": 3.73,
+        "latency_sec": 4.05,
+        "frame_description": "The user is typing in the search bar on the TripAdvisor website. The visible user-entered text is \"viee\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 343,
+        "timestamp_sec": 7.34,
+        "latency_sec": 5.16,
+        "frame_description": "The user is searching for \"vienna\" in the search bar on TripAdvisor. The visible user-entered text is \"vienna\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 498,
+        "timestamp_sec": 10.66,
+        "latency_sec": 6.5,
+        "frame_description": "The user is viewing a web page on TripAdvisor. \n\nThe visible user-entered text includes:\n* Address bar: `\"https://www.tripadvisor.com/Tourism-g1904",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 614,
+        "timestamp_sec": 13.15,
+        "latency_sec": 4.7,
+        "frame_description": "The user is clicking on the \"Travel Forums\" button. \n\nVisible user-entered text includes:\n- Address bar: \"https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html\"\n- Search bar: \"vienna\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 702,
+        "timestamp_sec": 15.03,
+        "latency_sec": 3.93,
+        "frame_description": "The user is clicking on the \"Travel Forums\" button. The visible user-entered text in the application is \"vienna\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 723,
+        "timestamp_sec": 15.48,
+        "latency_sec": 6.48,
+        "frame_description": "The user is hovering the cursor over a link on the webpage.\n\nVisible user-entered text:\n- Address bar: `https://www.tripadvisor.com/Tourism-g",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 747,
+        "timestamp_sec": 15.99,
+        "latency_sec": 6.68,
+        "frame_description": "The user is hovering the cursor over \"Vienna State Opera\" in the text under the \"About Vienna\" section on the webpage. Visible user-entered text includes \"https://www.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 763,
+        "timestamp_sec": 16.34,
+        "latency_sec": 6.17,
+        "frame_description": "The user is browsing a webpage on Tripadvisor. The visible user-entered text in the address bar is \"https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 779,
+        "timestamp_sec": 16.68,
+        "latency_sec": 6.6,
+        "frame_description": "The user is viewing a webpage on TripAdvisor about Vienna. \n\n**Visible user-entered text:**\n* Address bar: `\"https://www.tripadvisor.com/Tourism-g190",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 795,
+        "timestamp_sec": 17.02,
+        "latency_sec": 6.47,
+        "frame_description": "The user is clicking on the \"Getting around\" button.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 811,
+        "timestamp_sec": 17.36,
+        "latency_sec": 6.62,
+        "frame_description": "https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html`\n\nLet's carefully formulate the response:\nThe user is viewing",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 832,
+        "timestamp_sec": 17.81,
+        "latency_sec": 6.33,
+        "frame_description": "The user is viewing a webpage on TripAdvisor for Vienna, Austria. The text in the address bar is \"https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 848,
+        "timestamp_sec": 18.16,
+        "latency_sec": 8.48,
+        "frame_description": "The user is viewing the TripAdvisor webpage for Vienna, Austria. There is no visible user-entered text in any form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 871,
+        "timestamp_sec": 18.65,
+        "latency_sec": 6.06,
+        "frame_description": "The user is viewing a webpage on TripAdvisor with the URL \"https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 887,
+        "timestamp_sec": 18.99,
+        "latency_sec": 8.59,
+        "frame_description": "The user is viewing a TripAdvisor webpage titled \"Vienna, Austria 2024: All You Need to Know Before You Go\". \n\nThe visible text in the address bar is",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 903,
+        "timestamp_sec": 19.33,
+        "latency_sec": 6.37,
+        "frame_description": "The user is viewing a webpage on TripAdvisor. The visible text in the address bar is \"https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 934,
+        "timestamp_sec": 20.0,
+        "latency_sec": 6.08,
+        "frame_description": "The user is moving the mouse cursor across the webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 952,
+        "timestamp_sec": 20.38,
+        "latency_sec": 4.9,
+        "frame_description": "The user is viewing a web page with the URL \"https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 968,
+        "timestamp_sec": 20.72,
+        "latency_sec": 4.18,
+        "frame_description": "The user is hovering the cursor over \"Sch\u00f6nbrunn Palace\".\n\n**User-entered text:**\n* Address bar: `https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html`\n* Search field: `Vienna`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 1025,
+        "timestamp_sec": 21.94,
+        "latency_sec": 4.78,
+        "frame_description": "The user is typing 'Vienna' in the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 1041,
+        "timestamp_sec": 22.29,
+        "latency_sec": 4.18,
+        "frame_description": "The user is typing \"Vienna\" into the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 1103,
+        "timestamp_sec": 23.61,
+        "latency_sec": 7.04,
+        "frame_description": "The user is viewing the TripAdvisor webpage for Vienna vacations with the mouse cursor positioned near the search section. \n\nVisible user-entered text includes:\n- Address bar: `\"https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1119,
+        "timestamp_sec": 23.96,
+        "latency_sec": 4.26,
+        "frame_description": "The user is browsing a webpage on TripAdvisor with \"Vienna\" entered in the search field and \"https://www.tripadvisor.com/Tourism-g190454-Vienna-Vacations.html\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1308,
+        "timestamp_sec": 28.0,
+        "latency_sec": 5.4,
+        "frame_description": "The user is waiting for the Tripadvisor webpage to load.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 3888,
+        "timestamp_sec": 83.24,
+        "latency_sec": 4.82,
+        "frame_description": "The user is viewing a web page on TripAdvisor with the address bar containing \"https://www.tripadvisor.com/AiTripBuilder?geo=190454\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use trip advisor's plan designer to design a travel strategy to Vienna.",
+      "reference_caption": "Navigating Tripadvisor's GUI to plan a trip to Vienna, including date selection and travel preferences.",
+      "reference_apps": [
+        "edge",
+        "trip advisor"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 242,
+          "sub_goal": "Search for Vienna in the top search box.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 687,
+          "sub_goal": "Arrived at the Explore Vienna page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1030,
+          "sub_goal": "Slide down the page to reach the \"Plan your trip\" block, then enter Vienna and let AI help me plan the trip.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1868,
+          "sub_goal": "Now selecting the month for travel, click on the next month.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2124,
+          "sub_goal": "Selected travel dates from August 10th to 14th.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2224,
+          "sub_goal": "Click on the \"next\" button in the bottom right corner.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2297,
+          "sub_goal": "Clicked to travel with partner.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2409,
+          "sub_goal": "I clicked \"no\" when asked if I was traveling with a child.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3570,
+          "sub_goal": "In the place where I choose travel keywords, I chose Must-see Attractions, Great Food, Viennese Cafes, Art Galleries, etc.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 4,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of planning a trip to Vienna using TripAdvisor's tools, as evidenced by actions like searching for 'Vienna' and navigating to relevant pages. The timeline supports this with consistent details such as entering 'vienna' in the search bar and viewing the Vienna vacations page. For the reasoning question, the selection of travel companions (partner without children) is not explicitly detailed in the timeline but aligns with typical GUI interactions for trip planning. For the prediction question, clicking the 'next' button after selecting dates matches the logical progression in a GUI-based planner, though specific actions are not directly shown in the timeline."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The sequence of events, including typing 'Vienna' into the search bar and navigating to the 'Explore Vienna' page, aligns with the ground truth. There are no fabricated or contradicted actions reported. For the STATIC QA, the timeline supports identifying the section title as 'Plan your trip'. For the SEQUENTIAL-QA, the transition from selecting 'Vienna' to planning the trip is consistent with the keyframes. The MCQA about travel dates in August 2024 is also supported by the user's actions described in the frames."
+        },
+        "coverage": {
+          "score": 2.09,
+          "coverage": 0.273,
+          "covered": 3,
+          "total": 11,
+          "covered_actions": [
+            1,
+            3
+          ],
+          "covered_apps": [
+            "trip advisor"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching for and navigating through Vienna-related content on TripAdvisor, which aligns with some of the keyframe actions. However, not all specific interactions such as clicking buttons or entering travel dates are detailed."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as multiple entries detailing viewing a webpage with the same URL. These repetitive descriptions suggest redundancy in capturing frame-by-frame details."
+        }
+      },
+      "composite_score": 13.09,
+      "max_score": 20,
+      "latency_sec": 101.0
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0698,
+        "recall": 0.4118,
+        "f1": 0.1193
+      },
+      "rouge2": {
+        "precision": 0.0166,
+        "recall": 0.099,
+        "f1": 0.0285
+      },
+      "rougeL": {
+        "precision": 0.0515,
+        "recall": 0.3039,
+        "f1": 0.0881
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0128
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 271.63,
+      "total_vlm_inference_sec": 163.66,
+      "intent_latency_sec": 6.94,
+      "frames_processed": 28,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.84,
+      "median_frame_latency_sec": 6.07,
+      "min_frame_latency_sec": 3.93,
+      "max_frame_latency_sec": 8.59,
+      "avg_description_length_chars": 131.5,
+      "total_prompt_tokens": 35109,
+      "total_completion_tokens": 1057,
+      "avg_completion_tokens_per_sec": 6.0
+    }
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/440.mov",
+  "total_frames": 2181,
+  "fps": 46.71402563095705,
+  "video_length_sec": 46.69,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 2181,
+  "frames_processed": 17,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user navigated from a homepage listing various game titles to the \"Maze Mine\" game page, played the game briefly until it ended, and then returned to the homepage to browse the list of games and related academic resources.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 10.45,
+        "frame_description": "The user is viewing a webpage titled \"This Is My Website Now\" that displays a grid of colorful circles, each labeled with different game names such as \"Dodger,\" \"Maze Mine,\" \"Defend,\" \"Fast Tap,\" \"Bipolar Baguette,\" \"Non-Magical Nine Ball,\" \"Decision Maker,\" and \"Random Tap.\" The browser's address bar shows the URL \"https://thisismywebsitenow.com/maze-mine,\" indicating the user is currently on the \"Maze Mine\" page. There are no visible form fields or input areas where the user is actively typing or entering text.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 129
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 7.26,
+        "frame_description": "The user is hovering over the 'Strobe Light' circle on a webpage that displays various interactive elements or games.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 14.04,
+        "frame_description": "The user is viewing a webpage titled \"This Is My Website Now\" that displays eight large circles, each labeled with different names such as \"Dodger,\" \"Maze Mine,\" \"Defend,\" \"Fast Tap,\" \"Bipolar Baguette,\" \"Non-Magical Nine Ball,\" \"Decision Maker,\" and \"Random Tap.\" The left sidebar contains a list of files and folders, including PDFs, documents, and links to various websites and services like Hugging Face, Video-LLM, and Video-Dataset. The browser's tab bar shows multiple open tabs, including \"CS study,\" \"Writing,\" \"CS interest,\" \"Google,\" \"arXiv-bot,\" \"Cool Papers - Im...\", \"ICML 2024,\" \"AI Conference De...\", \"COLM 2024,\" \"Apple Music,\" \"HustMail,\" \"TGx:Home,\" \"HutaoCloud,\" \"Clash,\" \"gatern.github.io,\" \"bilibili,\" \"mac software,\" and \"Overview - OpenA...\". The URL bar displays \"https://thisismywebsitenow.com\". There are no visible form fields or search bars with user-entered text, and no text is being actively typed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 255
+      },
+      {
+        "frame_number": 49,
+        "timestamp_sec": 1.05,
+        "latency_sec": 10.43,
+        "frame_description": "The user is viewing a webpage titled \"This Is My Website Now\" that displays eight circular nodes, each labeled with different names such as \"Dodger,\" \"Maze Mine,\" \"Defend,\" \"Fast Tap,\" \"Bipolar Baguette,\" \"Non-Magical Nine Ball,\" \"Decision Maker,\" and \"Random Tap.\" The left sidebar shows a list of bookmarks or files, including entries like \"[2403.11085] m&m's: A Bench...\" and \"Video generation models as world models.\" There is no active input field or text being typed by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 129
+      },
+      {
+        "frame_number": 65,
+        "timestamp_sec": 1.39,
+        "latency_sec": 10.2,
+        "frame_description": "The user is viewing a webpage titled \"This Is My Website Now\" which displays eight circular nodes, each labeled with different names such as \"Dodger,\" \"Maze Mine,\" \"Defend,\" \"Fast Tap,\" \"Bipolar Baguette,\" \"Non-Magical Nine Ball,\" \"Decision Maker,\" and \"Random Tap.\" The left sidebar shows a list of bookmarks or tabs, including entries like \"[2403.11085] m&m's: A Bench...\" and \"Hugging Face.\" There is no active input field or text being typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 126
+      },
+      {
+        "frame_number": 145,
+        "timestamp_sec": 3.1,
+        "latency_sec": 8.93,
+        "frame_description": "The user is viewing a webpage titled \"Maze Mine\" which provides instructions for an interactive game. The text on the page reads: \"Hold to move. Swipe to change direction. Tap 'Deploy Mine' to... well, ya know\". There is also a button labeled \"Back to Homepage\". The user has not yet interacted with the game or any other elements on the page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 344,
+        "timestamp_sec": 7.36,
+        "latency_sec": 11.6,
+        "frame_description": "The user is viewing a webpage titled \"Maze Mine\" in a browser, which appears to be a game or interactive experience. The page provides instructions: \"Hold to move. Swipe to change direction. Tap 'Deploy Mine' to... well, ya know.\" There is a button labeled \"Back to Homepage.\" The user has not yet interacted with the page, as no actions like clicking or typing are evident from the screenshot.\n\nVisible user-entered text in the application includes:\n- In the browser's address bar: \"https://thisismywebsitenow.com/maze-mine/\"\n- On the webpage itself: \"Maze Mine,\" \"Hold to move. Swipe to change direction. Tap 'Deploy Mine' to... well, ya know,\" and \"Back to Homepage.\"\n\nNo other user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 176
+      },
+      {
+        "frame_number": 360,
+        "timestamp_sec": 7.71,
+        "latency_sec": 9.67,
+        "frame_description": "The user is viewing a web browser with multiple tabs open, including one titled \"Maze Mine,\" which appears to be a game or interactive application. The main content area shows a grid layout with green lines dividing sections, and there's a section at the bottom labeled \"Deploy Mine\" with a counter showing \"Enemies Killed: 0.\" The left sidebar contains a list of bookmarks or saved pages, some of which are highlighted or selected. There is no visible text being actively typed by the user in any form fields or input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 108
+      },
+      {
+        "frame_number": 1831,
+        "timestamp_sec": 39.2,
+        "latency_sec": 8.93,
+        "frame_description": "The user is viewing a webpage titled \"Maze Mine\" in a browser, which displays a game interface showing \"Collision! Game over.\" with scores of \"0 Enemies Destroyed\" and \"High score: 0\". The user has not performed any active actions on the desktop; they are simply observing the screen. No user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 2048,
+        "timestamp_sec": 43.84,
+        "latency_sec": 12.0,
+        "frame_description": "The user is viewing a web browser with multiple tabs open, including one titled \"Maze Mine\" and another showing the URL \"https://thisismywebsite.com\". The browser's tab bar displays various bookmarks and open tabs such as \"CS study\", \"Writing\", \"CS interest\", \"Google\", \"arXiv-bot\", \"Cool Papers - Im...\", \"ICML 2024\", \"AI Conference De...\", \"COLM 2024\", \"Apple Music\", \"HustMail\", \"TGx:Home\", \"HutaoCloud\", \"Clash\", \"gatern.github.io\", \"bilibili\", \"mac software\", and \"Overview - OpenA...\". The main content area of the browser is blank, suggesting the user may be navigating or waiting for content to load. There are no visible user-entered texts in form fields or search bars within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 186
+      },
+      {
+        "frame_number": 2064,
+        "timestamp_sec": 44.18,
+        "latency_sec": 9.34,
+        "frame_description": "The user is viewing a webpage titled \"This Is My Website Now\" in a browser, which displays two large circles labeled \"Dodger\" and \"Maze Mine.\" The browser has multiple tabs open, including references to CS studies, writing, and various other topics. On the left side of the screen, there is a sidebar with a list of bookmarks or notes, some of which are highlighted or selected. The user appears to be browsing or reviewing content related to these topics.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 97
+      },
+      {
+        "frame_number": 2080,
+        "timestamp_sec": 44.53,
+        "latency_sec": 9.35,
+        "frame_description": "The user is viewing a webpage titled \"This Is My Website Now\" in a browser, which displays four circles labeled \"Dodger,\" \"Maze Mine,\" \"Defend,\" and \"Fast Tap.\" The left sidebar shows a list of bookmarks or notes, including entries like \"[2403.11085] m&m's: A Bench...\" and \"Hugging Face.\" There is no active text input or typing occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 2096,
+        "timestamp_sec": 44.87,
+        "latency_sec": 9.85,
+        "frame_description": "The user is viewing a webpage titled \"This is My Website Now\" in a browser, which displays a visual representation of video generation models or datasets using colored circles labeled \"Dodger,\" \"Maze Mine,\" \"Defend,\" \"Fast Tap,\" and \"Bipolar Baguette.\" The left sidebar shows a list of bookmarks or saved items, including references to papers, datasets, and tools related to video generation and AI. No active typing or form-filling is occurring; the user appears to be browsing or analyzing the content on the page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 112
+      },
+      {
+        "frame_number": 2112,
+        "timestamp_sec": 45.21,
+        "latency_sec": 10.73,
+        "frame_description": "The user is viewing a webpage titled \"This Is My Website Now\" in a browser, which displays a grid of colorful circles with text labels such as \"Dodger,\" \"Maze Mine,\" \"Defend,\" \"Fast Tap,\" \"Bipolar Baguette,\" \"Non-Magical Nine Ball,\" and \"Decision Maker.\" The browser's tab bar shows multiple open tabs, including references to academic papers, software tools, and personal notes. On the left side of the screen, there is a sidebar with a list of files and documents, some of which appear to be PDFs or research papers. The user seems to be browsing or organizing content related to academic research or project management.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 141
+      },
+      {
+        "frame_number": 2128,
+        "timestamp_sec": 45.55,
+        "latency_sec": 9.91,
+        "frame_description": "The user is viewing a webpage displaying eight circular diagrams, each labeled with a different name such as \"Dodger,\" \"Maze Mine,\" \"Defend,\" \"Fast Tap,\" \"Bipolar Baguette,\" \"Non-Magical Nine Ball,\" \"Decision Maker,\" and \"Random Tap.\" The browser tab shows the URL \"https://thisismywebsitenow.com,\" and the sidebar contains various open tabs and files, including references to papers, datasets, and software tools. No active typing or input actions are currently visible on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 113
+      },
+      {
+        "frame_number": 2144,
+        "timestamp_sec": 45.9,
+        "latency_sec": 9.56,
+        "frame_description": "The user is viewing a webpage titled \"This is My Website Now\" in Microsoft Edge, which displays eight circular nodes with labels such as \"Dodger,\" \"Maze Mine,\" \"Defend,\" \"Fast Tap,\" \"Bipolar Baguette,\" \"Non-Magical Nine Ball,\" \"Decision Maker,\" and \"Random Tap.\" The left sidebar shows a list of files and folders, including PDFs and documents related to video generation models and datasets. No active typing or input actions are currently being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 105
+      },
+      {
+        "frame_number": 2181,
+        "timestamp_sec": 46.69,
+        "latency_sec": 9.5,
+        "frame_description": "The user is viewing a webpage titled \"This is My Website Now\" in Microsoft Edge, which displays eight circular diagrams with names like \"Dodger,\" \"Maze Mine,\" \"Defend,\" \"Fast Tap,\" \"Bipolar Baguette,\" \"Non-Magical Nine Ball,\" \"Decision Maker,\" and \"Random Tap.\" The browser's tab bar shows multiple open tabs, including references to academic papers and websites. No active typing or input actions are occurring; the user appears to be browsing or reviewing content.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 106
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Play the game \"Maze Mine\".",
+      "reference_caption": "Navigating a pink tank through a maze in 'Maze Mine' game, leading to a collision and game over screen.",
+      "reference_apps": [
+        "edge",
+        "thisismywebsitenow.com"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 114,
+          "sub_goal": "Click on \"Maze Mine\" game to start playing.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1073,
+          "sub_goal": "Drag the mouse to control the movement of the pink tank, while avoiding the green obstacles and collecting the blue supplies.",
+          "mouse": "drag",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1499,
+          "sub_goal": "Continue dragging the mouse to play the game.",
+          "mouse": "drag",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1832,
+          "sub_goal": "Hit the wall, die, game over.",
+          "mouse": "drag",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2042,
+          "sub_goal": "Clicked the \"back\" button in the toolbar to return to the homepage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both involve navigating from a homepage to play 'Maze Mine', experiencing game over, and returning to browse other games. The timeline supports this with frames showing navigation to 'Maze Mine' (Frame 1), interaction within the game leading to a game over screen (Frames 360, 1831), and returning to the homepage (Frames 2048, 2064). There are no contradictions in specific details such as game titles or actions."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence starts with the user clicking on 'Maze Mine' to start playing, which matches Frame 1's description of viewing and interacting with the game page. Subsequent frames describe the gameplay actions (dragging for movement) and the collision leading to a game over screen, consistent with Frames 2-4. Finally, the user clicks the 'back' button as described in Frame 5. The AI descriptions do not contradict any keyframes or introduce fabricated interactions. For the STATIC QA, the timeline does not explicitly mention the 'Retry' button but does describe the game over scenario, which aligns with the context needed to infer the presence of such a GUI element. The SEQUENTIAL-QA is directly supported by Frame 4's description of hitting the wall and dying. The MCQA about what triggers the 'Collision! Game over.' message is also consistent with the described actions leading to game over in Frame 4."
+        },
+        "coverage": {
+          "score": 3.29,
+          "coverage": 0.571,
+          "covered": 4,
+          "total": 7,
+          "covered_actions": [
+            1,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "thisismywebsitenow.com"
+          ],
+          "reasoning": "The AI timeline describes the user's interaction with the 'Maze Mine' game, including starting the game and experiencing a game over scenario. It also mentions returning to the homepage."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of the webpage without significant changes, particularly in descriptions of the 'This Is My Website Now' page with its circular nodes and sidebar content. However, there are also distinct entries describing interactions or different pages like 'Maze Mine,' which add new information."
+        }
+      },
+      "composite_score": 16.29,
+      "max_score": 20,
+      "latency_sec": 118.94
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0222,
+        "recall": 0.5636,
+        "f1": 0.0427
+      },
+      "rouge2": {
+        "precision": 0.0036,
+        "recall": 0.0926,
+        "f1": 0.0069
+      },
+      "rougeL": {
+        "precision": 0.0186,
+        "recall": 0.4727,
+        "f1": 0.0358
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0243
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 301.33,
+      "total_vlm_inference_sec": 171.75,
+      "intent_latency_sec": 10.59,
+      "frames_processed": 17,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 10.1,
+      "median_frame_latency_sec": 9.85,
+      "min_frame_latency_sec": 7.26,
+      "max_frame_latency_sec": 14.04,
+      "avg_description_length_chars": 502.6,
+      "total_prompt_tokens": 37701,
+      "total_completion_tokens": 2104,
+      "avg_completion_tokens_per_sec": 12.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to play the \"Maze Mine\" game on a website and then navigate back to the main page after the game ended.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 6.1,
+        "frame_description": "The user is hovering the cursor over the \"Non-Magical Nine Ball\" circle on the webpage. \n\n**Visible user-entered text:**\n* Address bar: `https://thisismywebsitenow.com`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 4.26,
+        "frame_description": "The user is hovering the cursor over the \"Strobe Light\" option on the webpage. The text visible in the address bar is \"https://thisismywebsitenow.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 6.89,
+        "frame_description": "The user is hovering the cursor over the \"Non-Magical Nine Ball\" button on the webpage.\n\n**Visible user-entered text:**\n* Address bar: `\"https://thisismywebsitenow.com\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 49,
+        "timestamp_sec": 1.05,
+        "latency_sec": 4.61,
+        "frame_description": "The user is hovering the cursor over the \"Non-Magical Nine Ball\" circle on the webpage. \n\nVisible user-entered text in the application:\n- Address bar: `https://thisismywebsitenow.com`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 65,
+        "timestamp_sec": 1.39,
+        "latency_sec": 4.9,
+        "frame_description": "The user is hovering the cursor over the 'Maze Mine' circle.\n\n**User-entered text:**\n* Address bar: \"https://thisismywebsitenow.com\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 145,
+        "timestamp_sec": 3.1,
+        "latency_sec": 5.65,
+        "frame_description": "The user is viewing the \"Maze Mine\" web page, with the address bar containing the text \"https://thisismywebsitenow.com/maze-mine/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 344,
+        "timestamp_sec": 7.36,
+        "latency_sec": 5.5,
+        "frame_description": "The user is moving the mouse cursor on the webpage.\n\n**User-entered text:**\n* Address bar: `https://thisismywebsitenow.com/maze-mine/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 360,
+        "timestamp_sec": 7.71,
+        "latency_sec": 5.85,
+        "frame_description": "The user is moving the cursor near a cyan hexagonal icon on the game canvas.\n\n**Visible user-entered text:**\n* Address bar: `\"https://thisismywebsitenow.com/maze-mine/\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1831,
+        "timestamp_sec": 39.2,
+        "latency_sec": 6.8,
+        "frame_description": "The user is viewing the game over screen on the \"Maze Mine\" web page. \n\nVisible user-entered text includes:\n* **Address Bar:** `https://thisismywebsitenow.com/maze-mine/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 2048,
+        "timestamp_sec": 43.84,
+        "latency_sec": 5.05,
+        "frame_description": "The user is viewing a web page in the browser. The visible user-entered text in the address bar is \"https://thisismywebsitenow.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 2064,
+        "timestamp_sec": 44.18,
+        "latency_sec": 4.86,
+        "frame_description": "The user is clicking on the back button in the browser. The visible user-entered text in the address bar is \"https://thisismywebsitenow.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 2080,
+        "timestamp_sec": 44.53,
+        "latency_sec": 3.79,
+        "frame_description": "The user is clicking on the back button. The address bar contains the text \"https://thisismywebsitenow.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 2096,
+        "timestamp_sec": 44.87,
+        "latency_sec": 6.09,
+        "frame_description": "The user is hovering the mouse cursor over the blank background of the webpage.\n\n**Visible user-entered text:**\n* Address bar: `\"https://thisismywebsitenow.com\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2112,
+        "timestamp_sec": 45.21,
+        "latency_sec": 7.18,
+        "frame_description": "The user is viewing a webpage. \n\n**User-entered text:**\n* Address bar: `\"https://thisismywebsitenow.com\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 2128,
+        "timestamp_sec": 45.55,
+        "latency_sec": 7.13,
+        "frame_description": "The user is viewing a web page titled \"This Is My Website Now\" in the Microsoft Edge browser with the address bar containing \"https://thisismywebsitenow.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 2144,
+        "timestamp_sec": 45.9,
+        "latency_sec": 7.28,
+        "frame_description": "The user is viewing a webpage containing eight labeled colored circles. \n\n**Visible user-entered text:**\n* URL bar: `https://thisismywebsitenow.com`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 2181,
+        "timestamp_sec": 46.69,
+        "latency_sec": 9.45,
+        "frame_description": "",
+        "prompt_tokens": 1200,
+        "completion_tokens": 0
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Play the game \"Maze Mine\".",
+      "reference_caption": "Navigating a pink tank through a maze in 'Maze Mine' game, leading to a collision and game over screen.",
+      "reference_apps": [
+        "edge",
+        "thisismywebsitenow.com"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 114,
+          "sub_goal": "Click on \"Maze Mine\" game to start playing.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1073,
+          "sub_goal": "Drag the mouse to control the movement of the pink tank, while avoiding the green obstacles and collecting the blue supplies.",
+          "mouse": "drag",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1499,
+          "sub_goal": "Continue dragging the mouse to play the game.",
+          "mouse": "drag",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1832,
+          "sub_goal": "Hit the wall, die, game over.",
+          "mouse": "drag",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2042,
+          "sub_goal": "Clicked the \"back\" button in the toolbar to return to the homepage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent that the user was trying to play 'Maze Mine' and then navigate back to the main page after the game ended matches the core objective described by the goal and caption. The timeline shows consistent actions related to playing 'Maze Mine', experiencing a collision, viewing the game over screen, and navigating back to the main page, which aligns with both the inferred intent and the user's underlying objective."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions do not contradict the keyframes or provided answers. The user's interactions align with the ground truth, such as clicking on 'Maze Mine' and controlling the tank via mouse drag, leading to a collision and game over screen. The timeline supports answering the reference questions consistently: the last action before game over was dragging the mouse (leading to a collision), and the event triggering the game over message is indeed colliding with a wall."
+        },
+        "coverage": {
+          "score": 4.43,
+          "coverage": 0.857,
+          "covered": 6,
+          "total": 7,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "thisismywebsitenow.com"
+          ],
+          "reasoning": "The AI timeline describes actions related to the 'Maze Mine' game and navigation on a webpage, which align with some of the ground-truth keyframes. The timeline includes mouse movements and clicks that correspond to starting the game, playing it, hitting an obstacle, and returning to the homepage."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as repeated hovering over the same elements and unchanged address bar text. These entries contribute to redundancy in the timeline."
+        }
+      },
+      "composite_score": 16.43,
+      "max_score": 20,
+      "latency_sec": 104.74
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0691,
+        "recall": 0.4545,
+        "f1": 0.1199
+      },
+      "rouge2": {
+        "precision": 0.0305,
+        "recall": 0.2037,
+        "f1": 0.053
+      },
+      "rougeL": {
+        "precision": 0.0608,
+        "recall": 0.4,
+        "f1": 0.1055
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0119
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 209.47,
+      "total_vlm_inference_sec": 101.39,
+      "intent_latency_sec": 3.31,
+      "frames_processed": 17,
+      "frames_with_empty_description": 1,
+      "avg_frame_latency_sec": 5.96,
+      "median_frame_latency_sec": 5.85,
+      "min_frame_latency_sec": 3.79,
+      "max_frame_latency_sec": 9.45,
+      "avg_description_length_chars": 138.8,
+      "total_prompt_tokens": 21248,
+      "total_completion_tokens": 660,
+      "avg_completion_tokens_per_sec": 6.2
+    }
+  }
+}

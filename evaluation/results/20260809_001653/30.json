@@ -1,0 +1,1109 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/30.mp4",
+  "total_frames": 1173,
+  "fps": 30.0,
+  "video_length_sec": 39.1,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1173,
+  "frames_processed": 55,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to customize macOS Finder's display and behavior settings, specifically focusing on managing file visibility and configuring how external media and folders appear on the desktop.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.45,
+        "frame_description": "The user is viewing the contents of the 'BOOTCAMP' folder in Finder, with no files currently visible inside it.",
+        "prompt_tokens": 993,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 122,
+        "timestamp_sec": 4.07,
+        "latency_sec": 5.9,
+        "frame_description": "The user is hovering over the 'Hide Others' option in the Finder menu.\n\nVisible user-entered text:\n- About Finder\n- Settings...\n- Empty Trash...\n- Services\n- Hide Others\n- Hide Others (X: 19)\n- Show All (X: 19)\n- AirDrop\n- Recents\n- Applications\n- Desktop\n- Documents\n- Downloads\n- iCloud Drive\n- BOOTCAMP\n- Red\n- Orange\n- Yellow\n- Green\n- Blue\n- Purple\n- Gray\n- All Tags...",
+        "prompt_tokens": 993,
+        "completion_tokens": 121
+      },
+      {
+        "frame_number": 132,
+        "timestamp_sec": 4.4,
+        "latency_sec": 4.64,
+        "frame_description": "The user is hovering over the 'Find' menu item in the macOS menu bar, likely preparing to select an option from the dropdown menu that appears.\n\nVisible user-entered text in the application:\n- In the Finder sidebar under \"Locations\": \"iCloud Drive\", \"BOOTCAMP\"\n- In the main window content area: \"XboxGames\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 143,
+        "timestamp_sec": 4.77,
+        "latency_sec": 4.08,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, likely preparing to select an option from the dropdown menu that is currently open.\n\nVisible user-entered text in the application:\n- BOOTCAMP (in the Finder window title)",
+        "prompt_tokens": 993,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 154,
+        "timestamp_sec": 5.13,
+        "latency_sec": 4.11,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, likely preparing to select an option from the dropdown menu that is currently open.\n\nVisible user-entered text in the application:\n- BOOTCAMP (in the Finder window title bar)",
+        "prompt_tokens": 993,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 165,
+        "timestamp_sec": 5.5,
+        "latency_sec": 4.51,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 176,
+        "timestamp_sec": 5.87,
+        "latency_sec": 4.44,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 186,
+        "timestamp_sec": 6.2,
+        "latency_sec": 4.44,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 197,
+        "timestamp_sec": 6.57,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 213,
+        "timestamp_sec": 7.1,
+        "latency_sec": 4.48,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 224,
+        "timestamp_sec": 7.47,
+        "latency_sec": 4.08,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar.\n\nVisible user-entered text:\n- About Finder\n- Settings...\n- Empty Trash...\n- Services\n- Hide Finder\n- Hide Others\n- Show All",
+        "prompt_tokens": 993,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 248,
+        "timestamp_sec": 8.27,
+        "latency_sec": 4.45,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 8.63,
+        "latency_sec": 4.45,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 287,
+        "timestamp_sec": 9.57,
+        "latency_sec": 4.47,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 298,
+        "timestamp_sec": 9.93,
+        "latency_sec": 4.7,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has triggered a dropdown menu to appear. The visible text in the dropdown menu includes: 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 313,
+        "timestamp_sec": 10.43,
+        "latency_sec": 4.49,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 355,
+        "timestamp_sec": 11.83,
+        "latency_sec": 4.46,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 366,
+        "timestamp_sec": 12.2,
+        "latency_sec": 4.44,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 425,
+        "timestamp_sec": 14.17,
+        "latency_sec": 5.03,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 436,
+        "timestamp_sec": 14.53,
+        "latency_sec": 4.6,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 447,
+        "timestamp_sec": 14.9,
+        "latency_sec": 4.57,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 467,
+        "timestamp_sec": 15.57,
+        "latency_sec": 4.56,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 477,
+        "timestamp_sec": 15.9,
+        "latency_sec": 4.52,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 487,
+        "timestamp_sec": 16.23,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 499,
+        "timestamp_sec": 16.63,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 510,
+        "timestamp_sec": 17.0,
+        "latency_sec": 4.52,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 521,
+        "timestamp_sec": 17.37,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 532,
+        "timestamp_sec": 17.73,
+        "latency_sec": 4.54,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 543,
+        "timestamp_sec": 18.1,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 554,
+        "timestamp_sec": 18.47,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 564,
+        "timestamp_sec": 18.8,
+        "latency_sec": 4.52,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 575,
+        "timestamp_sec": 19.17,
+        "latency_sec": 4.55,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 586,
+        "timestamp_sec": 19.53,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 597,
+        "timestamp_sec": 19.9,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 607,
+        "timestamp_sec": 20.23,
+        "latency_sec": 4.52,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 618,
+        "timestamp_sec": 20.6,
+        "latency_sec": 4.74,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has triggered a dropdown menu to appear. The visible text in the dropdown menu includes: 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 629,
+        "timestamp_sec": 20.97,
+        "latency_sec": 4.74,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has triggered a dropdown menu to appear. The visible text in the dropdown menu includes: 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 639,
+        "timestamp_sec": 21.3,
+        "latency_sec": 4.75,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has triggered a dropdown menu to appear. The visible text in the dropdown menu includes: 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 650,
+        "timestamp_sec": 21.67,
+        "latency_sec": 4.57,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 661,
+        "timestamp_sec": 22.03,
+        "latency_sec": 4.54,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 672,
+        "timestamp_sec": 22.4,
+        "latency_sec": 4.71,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu. The visible text in the dropdown menu includes: 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 682,
+        "timestamp_sec": 22.73,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 693,
+        "timestamp_sec": 23.1,
+        "latency_sec": 4.53,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 704,
+        "timestamp_sec": 23.47,
+        "latency_sec": 4.52,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 714,
+        "timestamp_sec": 23.8,
+        "latency_sec": 4.54,
+        "frame_description": "The user is hovering over the 'Finder' menu item in the macOS menu bar, which has opened a dropdown menu displaying options such as 'About Finder', 'Settings...', 'Empty Trash...', 'Services', 'Hide Finder', 'Hide Others', and 'Show All'. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 725,
+        "timestamp_sec": 24.17,
+        "latency_sec": 3.67,
+        "frame_description": "The user is hovering over the \"Find\" menu item in the macOS menu bar.\n\nVisible user-entered text:\n- BOOTCAMP (in the Finder window title bar)",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 826,
+        "timestamp_sec": 27.53,
+        "latency_sec": 6.31,
+        "frame_description": "The user is configuring Finder settings, specifically enabling \"External disks\" and \"CDs, DVDs, and iPods\" to appear on the desktop. The visible user-entered text in the application includes: \"BOOTCAMP\", \"Favorites\", \"AirDrop\", \"Recents\", \"Applications\", \"Desktop\", \"Documents\", \"Downloads\", \"Finder S\", \"General\", \"Tags\", \"Show these items on the desktop:\", \"Hard disks\", \"External disks\", \"CDs, DVDs, and iPods\", \"Connected servers\", \"New Finder windows show:\", \"Recents\", and \"Open folders in tabs instead of new windows\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 131
+      },
+      {
+        "frame_number": 970,
+        "timestamp_sec": 32.33,
+        "latency_sec": 8.53,
+        "frame_description": "The user is navigating through the Finder Settings in macOS, specifically within the \"General\" tab, where they are configuring desktop display options such as showing external disks and CDs, DVDs, and iPods. The visible text includes:\n\n- \"Finder Settings\"\n- \"General\"\n- \"Tags\"\n- \"Sidebar\"\n- \"Advanced\"\n- \"Show these items on the desktop:\"\n- \"Hard disks\"\n- \"External disks\"\n- \"CDs, DVDs, and iPods\"\n- \"Connected servers\"\n- \"New Finder windows show:\"\n- \"Recents\"\n- \"Open folders in tabs instead of new windows\"\n- \"BOOTCAMP\" (in the background window title)\n- \"Favourites\"\n- \"AirDrop\"\n- \"Recents\"\n- \"Applications\"\n- \"Desktop\"\n- \"Documents\"\n- \"Downloads\"\n\nNo user-entered text is actively being typed in form fields or search bars at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 210
+      },
+      {
+        "frame_number": 981,
+        "timestamp_sec": 32.7,
+        "latency_sec": 6.28,
+        "frame_description": "The user is navigating the Finder Settings window, specifically viewing the \"General\" tab which displays options for showing items on the desktop and configuring new Finder windows. The visible user-entered text in the application includes: \"BOOTCAMP\" in the Finder window title, \"Finder Settings\" as the window title, \"General\", \"Tags\", \"Sidebar\", \"Advanced\" as tab labels, \"Show these items on the desktop:\", \"Hard disks\", \"External disks\", \"CDs, DVDs, and iPods\", \"Connected servers\", \"New Finder windows show:\", \"Recents\", and \"Open folders in tabs instead of new windows\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 130
+      },
+      {
+        "frame_number": 992,
+        "timestamp_sec": 33.07,
+        "latency_sec": 8.85,
+        "frame_description": "The user is viewing the Finder Settings dialog, specifically the \"General\" tab, which displays options for showing items on the desktop and configuring new Finder windows. The visible user-entered text in the application includes:\n\n- \"BOOTCAMP\" (folder name in the Finder window)\n- \"Finder Settings\" (dialog title)\n- \"General\" (tab label)\n- \"Tags\" (tab label)\n- \"Sidebar\" (tab label)\n- \"Advanced\" (tab label)\n- \"Show these items on the desktop:\" (section header)\n- \"Hard disks\" (checkbox label)\n- \"External disks\" (checkbox label, checked)\n- \"CDs, DVDs, and iPods\" (checkbox label, checked)\n- \"Connected servers\" (checkbox label)\n- \"New Finder windows show:\" (section header)\n- \"Recents\" (dropdown selection)\n- \"Open folders in tabs instead of new windows\" (checkbox label, checked)\n\nNo text is currently being actively typed by the user.",
+        "prompt_tokens": 993,
+        "completion_tokens": 220
+      },
+      {
+        "frame_number": 1003,
+        "timestamp_sec": 33.43,
+        "latency_sec": 7.62,
+        "frame_description": "The user is navigating through the Finder Settings on macOS, specifically viewing the \"General\" tab where desktop item visibility options are configured. The visible user-entered text in the application includes:\n\n- \"BOOTCAMP\" (folder name in the main Finder window)\n- \"Finder Settings\" (dialog title)\n- \"General\", \"Tags\", \"Sidebar\", \"Advanced\" (tabs in Finder Settings)\n- \"Show these items on the desktop:\" (label)\n- \"Hard disks\", \"External disks\", \"CDs, DVDs, and iPods\", \"Connected servers\" (checkbox labels)\n- \"New Finder windows show:\" (label)\n- \"Recents\" (selected option in dropdown)\n- \"Open folders in tabs instead of new windows\" (checkbox label)\n\nNo text is currently being actively typed by the user.",
+        "prompt_tokens": 993,
+        "completion_tokens": 176
+      },
+      {
+        "frame_number": 1045,
+        "timestamp_sec": 34.83,
+        "latency_sec": 5.86,
+        "frame_description": "The user is viewing the Finder Settings dialog box, which is open within a Finder window titled \"BOOTCAMP\". The settings dialog shows options for desktop items like \"Hard disks\", \"External disks\", \"CDs, DVDs, and iPods\", and \"Connected servers\", with checkboxes next to each. The user has selected \"External disks\" and \"CDs, DVDs, and iPods\". Additionally, the setting \"Open folders in tabs instead of new windows\" is checked. The user is not actively typing or entering any text in form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 115
+      },
+      {
+        "frame_number": 1056,
+        "timestamp_sec": 35.2,
+        "latency_sec": 8.27,
+        "frame_description": "The user is navigating the Finder Settings window on macOS, specifically viewing the \"Advanced\" tab, where they are reviewing options related to desktop icons and Finder window behavior. The visible user-entered text in the application includes:\n\n- \"BOOTCAMP\" (in the Finder window title bar)\n- \"Finder Settings\" (in the settings window title)\n- \"General\", \"Tags\", \"Sidebar\", \"Advanced\" (tabs in the Finder Settings window)\n- \"Show these items on the desktop:\" (label)\n- \"Hard disks\" (label)\n- \"External disks\" (checkbox label)\n- \"CDs, DVDs, and iPods\" (checkbox label)\n- \"Connected servers\" (checkbox label)\n- \"New Finder windows show:\" (label)\n- \"Recents\" (selected option in dropdown)\n- \"Open folders in tabs instead of new windows\" (checkbox label)\n\nNo text is currently being actively typed by the user.",
+        "prompt_tokens": 993,
+        "completion_tokens": 204
+      },
+      {
+        "frame_number": 1067,
+        "timestamp_sec": 35.57,
+        "latency_sec": 7.54,
+        "frame_description": "The user is viewing the Finder Settings dialog box on their macOS desktop, with the \"General\" tab selected. The visible user-entered text in the application includes:\n\n- \"BOOTCAMP\" (in the Finder window title bar)\n- \"Finder Settings\" (in the dialog box title)\n- \"Show these items on the desktop:\" (label in the dialog)\n- \"Hard disks\" (checkbox label)\n- \"External disks\" (checkbox label, checked)\n- \"CDs, DVDs, and iPods\" (checkbox label, checked)\n- \"Connected servers\" (checkbox label)\n- \"New Finder windows show:\" (label)\n- \"Recents\" (selected option in dropdown)\n- \"Open folders in tabs instead of new windows\" (checkbox label, checked)\n\nNo text is currently being actively typed by the user.",
+        "prompt_tokens": 993,
+        "completion_tokens": 181
+      },
+      {
+        "frame_number": 1173,
+        "timestamp_sec": 39.1,
+        "latency_sec": 6.67,
+        "frame_description": "The user is viewing the Finder Settings dialog box, specifically the \"General\" tab, which displays options for showing items on the desktop and configuring new Finder windows. The visible user-entered text in the application includes: \"BOOTCAMP\" in the window title bar, \"Finder Settings\" as the dialog title, \"General\", \"Tags\", \"Sidebar\", \"Advanced\" as tab labels, \"Show these items on the desktop:\", \"Hard disks\", \"External disks\", \"CDs, DVDs, and iPods\", \"Connected servers\", \"New Finder windows show:\", \"Recents\", and \"Open folders in tabs instead of new windows\". No text is actively being typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 144
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Set up Visiting Agent to display hard drive on the desktop.",
+      "reference_caption": "Configuring macOS Finder Preferences to Display the Hard Drive Icon on the Desktop",
+      "reference_apps": [
+        "Mac"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 154,
+          "sub_goal": "Display the menu of Finder.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 842,
+          "sub_goal": "\"Access the Finder settings menu\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1009,
+          "sub_goal": "Drag the finder to set the menu name.",
+          "mouse": "drag",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1136,
+          "sub_goal": "Display the hard drive on the desktop.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of configuring Finder settings to show specific items on the desktop and adjust new Finder window behavior. The timeline consistently shows actions related to enabling 'External disks' and 'CDs, DVDs, and iPods' on the desktop, as well as setting 'Open folders in tabs instead of new windows'. There are no contradictions with these details."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The descriptions consistently match the visible user-entered text, active applications, and interactions as described in the keyframes without introducing contradictions or fabricated details."
+        },
+        "coverage": {
+          "score": 1.0,
+          "coverage": 0.0,
+          "covered": 0,
+          "total": 5,
+          "covered_actions": [],
+          "covered_apps": [],
+          "reasoning": "The AI timeline provides a detailed description of the user's actions related to configuring Finder settings, specifically focusing on enabling 'External disks' and 'CDs, DVDs, and iPods' to appear on the desktop. The keyframes describe these actions with sufficient detail, allowing for paraphrasing while maintaining the core action."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The timeline contains many repeated descriptions of similar actions and settings across multiple frames, indicating a high level of redundancy relative to the timeline's length."
+        }
+      },
+      "composite_score": 12.0,
+      "max_score": 20,
+      "latency_sec": 167.6
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0075,
+        "recall": 0.92,
+        "f1": 0.0149
+      },
+      "rouge2": {
+        "precision": 0.0016,
+        "recall": 0.2083,
+        "f1": 0.0032
+      },
+      "rougeL": {
+        "precision": 0.0065,
+        "recall": 0.8,
+        "f1": 0.0129
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0408
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 454.9,
+      "total_vlm_inference_sec": 273.53,
+      "intent_latency_sec": 13.7,
+      "frames_processed": 55,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.97,
+      "median_frame_latency_sec": 4.53,
+      "min_frame_latency_sec": 3.45,
+      "max_frame_latency_sec": 8.85,
+      "avg_description_length_chars": 357.1,
+      "total_prompt_tokens": 60107,
+      "total_completion_tokens": 4779,
+      "avg_completion_tokens_per_sec": 16.9,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was attempting to access the Finder preferences from the top menu bar in order to adjust the display settings for hard drives on the desktop.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.76,
+        "frame_description": "The user is selecting the 'BOOTCAMP' location in the Finder sidebar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 122,
+        "timestamp_sec": 4.07,
+        "latency_sec": 2.54,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 132,
+        "timestamp_sec": 4.4,
+        "latency_sec": 3.44,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 143,
+        "timestamp_sec": 4.77,
+        "latency_sec": 2.92,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 154,
+        "timestamp_sec": 5.13,
+        "latency_sec": 5.02,
+        "frame_description": "The user is clicking on \"Finder\" in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 165,
+        "timestamp_sec": 5.5,
+        "latency_sec": 3.53,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 176,
+        "timestamp_sec": 5.87,
+        "latency_sec": 2.45,
+        "frame_description": "The user is clicking on the 'Finder' menu in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 186,
+        "timestamp_sec": 6.2,
+        "latency_sec": 2.7,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 197,
+        "timestamp_sec": 6.57,
+        "latency_sec": 6.0,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 213,
+        "timestamp_sec": 7.1,
+        "latency_sec": 3.38,
+        "frame_description": "The user is clicking on the 'Finder' menu item in the top menu bar. There is no visible user-entered text in the image.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 224,
+        "timestamp_sec": 7.47,
+        "latency_sec": 3.58,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar. \n\nThere is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 248,
+        "timestamp_sec": 8.27,
+        "latency_sec": 3.23,
+        "frame_description": "The user is clicking on the 'Finder' menu in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 8.63,
+        "latency_sec": 2.73,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 287,
+        "timestamp_sec": 9.57,
+        "latency_sec": 3.6,
+        "frame_description": "The user is clicking on the 'Finder' menu in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 298,
+        "timestamp_sec": 9.93,
+        "latency_sec": 3.07,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 313,
+        "timestamp_sec": 10.43,
+        "latency_sec": 2.9,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 355,
+        "timestamp_sec": 11.83,
+        "latency_sec": 6.83,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 366,
+        "timestamp_sec": 12.2,
+        "latency_sec": 3.54,
+        "frame_description": "The user is clicking on 'Finder' in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 425,
+        "timestamp_sec": 14.17,
+        "latency_sec": 2.89,
+        "frame_description": "The user is clicking on the 'Finder' menu in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 436,
+        "timestamp_sec": 14.53,
+        "latency_sec": 3.11,
+        "frame_description": "The user is clicking on the \"Finder\" menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 447,
+        "timestamp_sec": 14.9,
+        "latency_sec": 3.03,
+        "frame_description": "The user is clicking on the 'Finder' menu option in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 467,
+        "timestamp_sec": 15.57,
+        "latency_sec": 3.73,
+        "frame_description": "The user is clicking on 'Finder' in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 477,
+        "timestamp_sec": 15.9,
+        "latency_sec": 2.61,
+        "frame_description": "The user is clicking on the 'Finder' menu item in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 487,
+        "timestamp_sec": 16.23,
+        "latency_sec": 3.25,
+        "frame_description": "The user is clicking on the 'Finder' menu option in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 499,
+        "timestamp_sec": 16.63,
+        "latency_sec": 3.49,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 510,
+        "timestamp_sec": 17.0,
+        "latency_sec": 3.57,
+        "frame_description": "The user is clicking on the 'Finder' menu in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 521,
+        "timestamp_sec": 17.37,
+        "latency_sec": 3.03,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 532,
+        "timestamp_sec": 17.73,
+        "latency_sec": 2.72,
+        "frame_description": "The user is clicking on the 'Finder' menu option in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 543,
+        "timestamp_sec": 18.1,
+        "latency_sec": 2.59,
+        "frame_description": "The user is clicking on \"Finder\" in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 554,
+        "timestamp_sec": 18.47,
+        "latency_sec": 2.8,
+        "frame_description": "The user is clicking on the 'Finder' menu option in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 564,
+        "timestamp_sec": 18.8,
+        "latency_sec": 3.08,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 575,
+        "timestamp_sec": 19.17,
+        "latency_sec": 2.88,
+        "frame_description": "The user is clicking on 'Finder' in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 586,
+        "timestamp_sec": 19.53,
+        "latency_sec": 17.98,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 597,
+        "timestamp_sec": 19.9,
+        "latency_sec": 12.7,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 607,
+        "timestamp_sec": 20.23,
+        "latency_sec": 4.76,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 618,
+        "timestamp_sec": 20.6,
+        "latency_sec": 6.46,
+        "frame_description": "The user is clicking on the 'Finder' menu option in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 629,
+        "timestamp_sec": 20.97,
+        "latency_sec": 3.72,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 639,
+        "timestamp_sec": 21.3,
+        "latency_sec": 3.66,
+        "frame_description": "The user is clicking on the \"Finder\" option in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 650,
+        "timestamp_sec": 21.67,
+        "latency_sec": 3.64,
+        "frame_description": "The user is clicking on 'Finder' in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 661,
+        "timestamp_sec": 22.03,
+        "latency_sec": 4.31,
+        "frame_description": "The user is clicking on the 'Finder' menu in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 672,
+        "timestamp_sec": 22.4,
+        "latency_sec": 3.88,
+        "frame_description": "The user is clicking on the 'Finder' menu in the menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 682,
+        "timestamp_sec": 22.73,
+        "latency_sec": 5.13,
+        "frame_description": "The user is clicking on the \"Finder\" menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 693,
+        "timestamp_sec": 23.1,
+        "latency_sec": 3.85,
+        "frame_description": "The user is clicking on 'Finder' in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 704,
+        "timestamp_sec": 23.47,
+        "latency_sec": 3.59,
+        "frame_description": "The user is clicking on the 'Finder' option in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 714,
+        "timestamp_sec": 23.8,
+        "latency_sec": 3.48,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 725,
+        "timestamp_sec": 24.17,
+        "latency_sec": 5.22,
+        "frame_description": "The user is clicking on the 'Finder' menu in the top menu bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 826,
+        "timestamp_sec": 27.53,
+        "latency_sec": 4.97,
+        "frame_description": "The user is clicking on the top-left area of the desktop.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 970,
+        "timestamp_sec": 32.33,
+        "latency_sec": 6.28,
+        "frame_description": "The user is clicking near the top right corner of the 'Finder Settings' window. \n\nThere is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 981,
+        "timestamp_sec": 32.7,
+        "latency_sec": 14.21,
+        "frame_description": "The user is clicking on the 'Advanced' tab in the Finder Settings window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 992,
+        "timestamp_sec": 33.07,
+        "latency_sec": 6.89,
+        "frame_description": "The user is clicking on the top right area of the 'Finder Settings' window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 1003,
+        "timestamp_sec": 33.43,
+        "latency_sec": 6.63,
+        "frame_description": "The user is clicking on the 'Advanced' tab in the Finder Settings window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 1045,
+        "timestamp_sec": 34.83,
+        "latency_sec": 6.58,
+        "frame_description": "The user is clicking on an icon on the toolbar in the 'Finder Settings' window. \n\nThere is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1056,
+        "timestamp_sec": 35.2,
+        "latency_sec": 3.15,
+        "frame_description": "The user is clicking on the 'Advanced' tab in the Finder Settings window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 1067,
+        "timestamp_sec": 35.57,
+        "latency_sec": 7.64,
+        "frame_description": "The user is clicking on the \"Hard disks\" checkbox in the Finder Settings window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 1173,
+        "timestamp_sec": 39.1,
+        "latency_sec": 4.57,
+        "frame_description": "The user is resting the mouse cursor on the desktop wallpaper background. There is no visible user-entered text present in any fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Set up Visiting Agent to display hard drive on the desktop.",
+      "reference_caption": "Configuring macOS Finder Preferences to Display the Hard Drive Icon on the Desktop",
+      "reference_apps": [
+        "Mac"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 154,
+          "sub_goal": "Display the menu of Finder.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 842,
+          "sub_goal": "\"Access the Finder settings menu\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1009,
+          "sub_goal": "Drag the finder to set the menu name.",
+          "mouse": "drag",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1136,
+          "sub_goal": "Display the hard drive on the desktop.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on accessing Finder preferences to adjust settings for displaying hard drives on the desktop. The timeline shows repeated actions of clicking on the 'Finder' menu, leading to the 'Finder Settings' window where the 'Hard disks' option is checked, aligning with the goal and caption."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The repeated clicks on the 'Finder' menu align with accessing the Finder settings, and clicking on the 'Hard disks' checkbox matches modifying the setting to display the hard drive icon on the desktop. There are no fabricated or contradicted actions reported."
+        },
+        "coverage": {
+          "score": 3.4,
+          "coverage": 0.6,
+          "covered": 3,
+          "total": 5,
+          "covered_actions": [
+            2,
+            4
+          ],
+          "covered_apps": [
+            "Mac"
+          ],
+          "reasoning": "The AI timeline describes multiple clicks on the 'Finder' menu in the top menu bar, which aligns with keyframe actions involving accessing and interacting with Finder settings. The timeline also includes an action related to clicking near the top right corner of the 'Finder Settings' window, which corresponds to a keyframe about displaying hard drive options."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline contains numerous consecutive frames describing repetitive actions of clicking on the 'Finder' menu in the top menu bar, indicating a high level of redundancy. These repeated entries do not provide new information and dominate the timeline."
+        }
+      },
+      "composite_score": 14.4,
+      "max_score": 20,
+      "latency_sec": 137.26
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0242,
+        "recall": 0.72,
+        "f1": 0.0469
+      },
+      "rouge2": {
+        "precision": 0.0108,
+        "recall": 0.3333,
+        "f1": 0.0209
+      },
+      "rougeL": {
+        "precision": 0.0215,
+        "recall": 0.64,
+        "f1": 0.0417
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.1279
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 398.49,
+      "total_vlm_inference_sec": 251.3,
+      "intent_latency_sec": 9.79,
+      "frames_processed": 55,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.57,
+      "median_frame_latency_sec": 3.58,
+      "min_frame_latency_sec": 2.45,
+      "max_frame_latency_sec": 17.98,
+      "avg_description_length_chars": 67.7,
+      "total_prompt_tokens": 67748,
+      "total_completion_tokens": 1002,
+      "avg_completion_tokens_per_sec": 3.7
+    }
+  }
+}

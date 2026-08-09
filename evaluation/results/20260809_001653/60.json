@@ -1,0 +1,1106 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/60.mp4",
+  "total_frames": 1119,
+  "fps": 30.000251342588324,
+  "video_length_sec": 37.3,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1119,
+  "frames_processed": 51,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching the UCSD Computer Science & Engineering graduate admissions process to understand the specific requirements, deadlines, and necessary materials for PhD admission, transfer students, and language proficiency.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.17,
+        "frame_description": "The user is viewing a webpage about the Educational Testing Service (ETS) and UCSD graduate admissions, with no active input or typing occurring. There are no visible user-entered text fields being filled or text being actively typed in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 5.3,
+        "frame_description": "The user is viewing a webpage about the UCSD Graduate Admissions program, specifically focusing on information related to degree duplication, grad data, future events, and contact details. There is no active input or typing occurring in any form fields or text areas on the page. The browser tabs are open with various educational and personal websites, but none show active user-entered text. The desktop icons are visible, but no actions are being performed on them.",
+        "prompt_tokens": 993,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 23,
+        "timestamp_sec": 0.77,
+        "latency_sec": 4.1,
+        "frame_description": "The user is viewing a webpage about UCSD graduate admissions, specifically focusing on sections related to duplication of degrees, grad data, future events, and contact information. No text is being actively typed or entered in any form fields or search bars on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 34,
+        "timestamp_sec": 1.13,
+        "latency_sec": 4.88,
+        "frame_description": "The user is viewing a webpage about UCSD graduate admissions, specifically focusing on sections like \"Duplication of Degrees,\" \"Grad Data,\" \"Future Events,\" and \"Contact Information.\" There is no active input or typing occurring in any form fields or search bars on the page. The browser tabs are open with various links related to UCSD and other resources, but no new text is being entered.",
+        "prompt_tokens": 993,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 45,
+        "timestamp_sec": 1.5,
+        "latency_sec": 4.66,
+        "frame_description": "The user is viewing a webpage about UCSD graduate admissions, specifically focusing on sections related to academic requirements and test scores. There is no active typing or input being performed in any form fields or search bars visible on the screen. The browser window is open with multiple tabs, and the user appears to be reading through the content rather than interacting with it directly.",
+        "prompt_tokens": 993,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 56,
+        "timestamp_sec": 1.87,
+        "latency_sec": 4.6,
+        "frame_description": "The user is viewing a webpage about UCSD Graduate Admissions, specifically focusing on requirements for PhD and MS programs. The page includes sections on Prerequisites, Academics and GPA, Test Scores (GRE, TOEFL/IELTS), and Duplication of Degrees. There is no active input or typing occurring in the visible application windows.",
+        "prompt_tokens": 993,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 67,
+        "timestamp_sec": 2.23,
+        "latency_sec": 4.66,
+        "frame_description": "The user is viewing a webpage titled \"About the Admissions Process\" on their desktop, which provides information about the admissions process for the CSE graduate program at UCSD. The page includes details about application requirements, deadlines, and prerequisites. There is no active text being entered or typed by the user in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 78,
+        "timestamp_sec": 2.6,
+        "latency_sec": 3.97,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Admissions webpage, specifically the \"Department Overview\" and \"About the Admissions Process\" sections. No text is being actively typed or entered in any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 89,
+        "timestamp_sec": 2.97,
+        "latency_sec": 3.98,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Admissions webpage in Google Chrome, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 104,
+        "timestamp_sec": 3.47,
+        "latency_sec": 4.12,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Admissions webpage, specifically the \"Department Overview\" section, which details admission deadlines and requirements for Fall 2024. No text is being actively typed or entered in any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 115,
+        "timestamp_sec": 3.83,
+        "latency_sec": 5.16,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Admissions webpage, which provides information about the graduate program, including details on PhD and MS degrees, application deadlines, and requirements. The page includes a section titled \"Department Overview\" with specific dates for the Fall 2024 admission cycle. There are no visible form fields or input areas where the user has entered text; thus, no user-entered text is present in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 126,
+        "timestamp_sec": 4.2,
+        "latency_sec": 4.39,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Admissions webpage, which provides information about PhD and MS programs in computer science and engineering at UC San Diego. The page includes details about application deadlines, GRE requirements, and various resources for prospective students. No active typing or input actions are observed on the desktop.",
+        "prompt_tokens": 993,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 8.63,
+        "latency_sec": 4.0,
+        "frame_description": "The user is viewing the UCSD Computer Science & Engineering graduate application checklist webpage, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 270,
+        "timestamp_sec": 9.0,
+        "latency_sec": 3.96,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Application Checklist webpage in Google Chrome, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 328,
+        "timestamp_sec": 10.93,
+        "latency_sec": 4.66,
+        "frame_description": "The user is viewing the UCSD Computer Science & Engineering graduate application checklist webpage, which outlines the requirements for the Fall 2024 application. The page includes details about the application timeline, online application process, and transcript requirements. No active typing or form filling is occurring; the user is simply reading the information presented on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 339,
+        "timestamp_sec": 11.3,
+        "latency_sec": 9.9,
+        "frame_description": "The user is viewing a webpage titled \"CSE GRADUATE APPLICATION CHECKLIST\" on their desktop, which provides information about the Fall 2024 application process for UCSD's Computer Science and Engineering graduate programs. The page includes details on required materials such as transcripts and application deadlines.\n\nVisible user-entered text in the application:\n- \"Fall 2024 Application opens on Wednesday, September 6th 2023 until December 20th, 2023.\"\n- \"CURRENT OR FORMER UCSD STUDENTS who wish to TRANSFER from their current graduate program to a different program (e.g., MS to PhD), should follow instructions below* or contact their student affairs staff advisor for questions on that process. Current UCSD CSE undergraduate majors who wish to pursue a CSE masters should consider the Bachelors/Masters program.\"\n- \"1. ONLINE APPLICATION: UCSD APPLICATION FOR GRADUATE ADMISSION\"\n- \"Applicants should review the Graduate Divisions Applying to Graduate Admissions website prior to submitting their application.\"\n- \"The Fall 2024 application is open September 6th, 2023 until December 20th,",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 370,
+        "timestamp_sec": 12.33,
+        "latency_sec": 4.02,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Application Checklist webpage in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 381,
+        "timestamp_sec": 12.7,
+        "latency_sec": 4.43,
+        "frame_description": "The user is viewing a webpage about the Fall 2024 application for the UCSD CSE graduate program, specifically focusing on the required materials for submission. The page outlines the application timeline, online application process, and transcript requirements. There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 442,
+        "timestamp_sec": 14.73,
+        "latency_sec": 9.86,
+        "frame_description": "The user is viewing a webpage about the Fall 2024 application process for UCSD graduate programs, specifically focusing on the online application and transcript requirements. There is no active input or typing occurring in any form fields or text areas on the page.\n\nVisible user-entered text in the application includes:\n\n- In the browser\u2019s address bar: `https://cse.ucsd.edu/graduate-graduate-application-checklist`\n- In the browser\u2019s tab title: `Fall 2024 Application opens on Wednesday, September 6th until December 20th, 2023.`\n- In the main content area of the webpage:\n  - \u201cFall 2024 Application opens on Wednesday, September 6th until December 20th, 2023.\u201d\n  - \u201cCURRENT OR FORMER UCSD STUDENTS who wish to TRANSFER from their current graduate program to a different program (e.g., MS to PhD), should follow instructions below* or contact their student affairs advisor for questions on that process. Current UCSD CSE undergraduate majors who wish to pursue a CSE masters should consider the Bachelors/Masters program.\u201d\n  - \u201c1. ONLINE APPLICATION: UCSD APPLICATION",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 453,
+        "timestamp_sec": 15.1,
+        "latency_sec": 3.78,
+        "frame_description": "The user is viewing a webpage about UCSD's graduate application process, specifically focusing on online application details and transcript requirements. There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 483,
+        "timestamp_sec": 16.1,
+        "latency_sec": 5.13,
+        "frame_description": "The user is scrolling down a webpage in a web browser, likely reviewing information about UCSD's graduate admission process. There is no active text input or typing occurring in any form fields or search bars visible on the screen. The visible text includes headings and bullet points related to online application requirements, transcript submission guidelines, and statement of purpose instructions for graduate admissions at UCSD. No user-entered text is currently present in the application interface shown.",
+        "prompt_tokens": 993,
+        "completion_tokens": 89
+      },
+      {
+        "frame_number": 494,
+        "timestamp_sec": 16.47,
+        "latency_sec": 4.14,
+        "frame_description": "The user is viewing a webpage about the Fall 2024 application process for the CSE department at UCSD, specifically focusing on requirements such as transcripts and statement of purpose. No text is being actively typed or entered in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 505,
+        "timestamp_sec": 16.83,
+        "latency_sec": 3.86,
+        "frame_description": "The user is scrolling down a webpage in Google Chrome, which displays information about UCSD graduate application requirements, including sections on transcripts and statement of purpose. No text is being actively typed or entered into any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 516,
+        "timestamp_sec": 17.2,
+        "latency_sec": 4.35,
+        "frame_description": "The user is viewing a webpage about graduate admissions, specifically focusing on the \"2. TRANSCRIPTS\" section. There is no active typing or input being performed in any form fields or text areas visible on the screen. The browser tabs and desktop icons are open, but no new text is being entered.",
+        "prompt_tokens": 993,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 531,
+        "timestamp_sec": 17.7,
+        "latency_sec": 3.86,
+        "frame_description": "The user is viewing a UCSD Graduate Application checklist document in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 542,
+        "timestamp_sec": 18.07,
+        "latency_sec": 7.89,
+        "frame_description": "The user is viewing a webpage about UCSD graduate application requirements in a web browser, with no active input or typing occurring.\n\nVisible user-entered text in the application (web browser):\n- URL bar: https://www.ucsd.edu/graduate/graduate-application-checklist\n- Tab titles: \u201cCS study\u201d, \u201cWriting\u201d, \u201cCS interest\u201d, \u201cCool Papers\u201d, \u201cImme...\u201d, \u201cKMI 2024\u201d, \u201cAI Conference Docs...\u201d, \u201cCSOM 2024\u201d, \u201cApple Mail\u201d, \u201cHotmail\u201d, \u201cTohoku\u201d, \u201cInboxCloud\u201d, \u201cClash\u201d, \u201cgator.msu.edu\u201d, \u201cInk...\u201d, \u201cmac software\u201d, \u201cOverview\u201d, \u201cOpenAI...\u201d, \u201cMultimedia Tutorial\u201d\n\nNo text is being actively typed; all visible text in form fields or input areas is either static content from the webpage or browser UI elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 186
+      },
+      {
+        "frame_number": 573,
+        "timestamp_sec": 19.1,
+        "latency_sec": 9.84,
+        "frame_description": "The user is viewing a webpage about UCSD graduate application requirements, specifically focusing on sections related to transcripts, statement of purpose, letters of recommendation, and GRE scores. No active typing or input is occurring in the visible application.\n\nVisible user-entered text in the application:\n- In the browser\u2019s address bar: https://www.ucsd.edu/graduate/graduate-application-checklist\n- In the browser\u2019s tab title: \"CS 156 - CS 156\"\n- In the browser\u2019s tab title: \"CS 156 - CS 156\"\n- In the browser\u2019s tab title: \"CS 156 - CS 156\"\n- In the browser\u2019s tab title: \"CS 156 - CS 156\"\n- In the browser\u2019s tab title: \"CS 156 - CS 156\"\n- In the browser\u2019s tab title: \"CS 156 - CS 156\"\n- In the browser\u2019s tab title: \"CS 156 - CS 156\"\n- In the browser\u2019s tab title: \"CS 156 - CS 156\"\n- In",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 584,
+        "timestamp_sec": 19.47,
+        "latency_sec": 9.83,
+        "frame_description": "The user is viewing a webpage about the UCSD graduate application checklist in a web browser. There is no active input or text being entered by the user at this moment.\n\nVisible user-entered text in the application (web browser):\n- In the address bar: https://www.ucsd.edu/graduate/cse-graduate-application-checklist\n- In the browser tabs:\n  - \"how to download\"\n  - \"Google Chrome X\"\n  - \"15 personalities\"\n  - \"Molloyman - Mys\"\n  - \"CS 101: Computer Science\"\n  - \"Find a Program...\"\n  - \"Computer Science\"\n  - \"Welcome (M...\"\n  - \"CS 101: Computer Science\"\n  - \"CS 101: Computer Science\"\n  - \"CS 101: Computer Science\"\n  - \"CS 101: Computer Science\"\n  - \"CS 101: Computer Science\"\n  - \"CS 101: Computer Science\"\n  - \"CS 101: Computer Science\"\n  - \"CS 101: Computer Science\"\n  - \"CS",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 623,
+        "timestamp_sec": 20.77,
+        "latency_sec": 5.34,
+        "frame_description": "The user is viewing a webpage about graduate application requirements for the University of California, San Diego (UCSD), specifically focusing on sections related to transcripts, statement of purpose, letters of recommendation, GRE scores, and English language requirements. The browser is open with multiple tabs, including one titled \"CS 155\" and another labeled \"CS 155 - Google Chrome X\". No text is being actively typed or entered into any form fields in the visible application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 96
+      },
+      {
+        "frame_number": 634,
+        "timestamp_sec": 21.13,
+        "latency_sec": 4.52,
+        "frame_description": "The user is viewing a webpage about graduate school application requirements for CS at UCSD, specifically focusing on sections related to letters of recommendation and GRE scores. There is no active input or typing occurring in the visible application.\n\nNo user-entered text is present in any form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 710,
+        "timestamp_sec": 23.67,
+        "latency_sec": 4.89,
+        "frame_description": "The user is viewing a webpage about UCSD graduate application requirements, specifically focusing on sections like \"Statement of Purpose,\" \"Three Letters of Recommendation,\" \"GRE Score Report,\" and \"English Language Requirements.\" There is no active input or typing occurring in the visible application window.\n\nNo user-entered text is currently visible in any form fields, search bars, or active input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 721,
+        "timestamp_sec": 24.03,
+        "latency_sec": 9.86,
+        "frame_description": "The user is viewing a webpage about the UCSD Graduate Application Checklist in a web browser.\n\nVisible user-entered text:\n- In the address bar: https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\n- In the browser tabs: \"How to download\", \"Google Chrome X\", \"15 personas\", \"Molloy's Apps\", \"UCSD Application\", \"Find a Program\", \"Computer Science\", \"Welcome | UMD\", \"CSE Graduate\", \"Grad program\", \"CSE Graduate\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 150\", \"CS 15",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 771,
+        "timestamp_sec": 25.7,
+        "latency_sec": 9.87,
+        "frame_description": "The user is viewing a webpage about the UCSD Graduate Application Checklist, specifically focusing on sections related to the Statement of Purpose, Letters of Recommendation, GRE Score Report, and English Language Requirements. There is no active input or typing occurring in any form fields or text areas on the screen.\n\nVisible user-entered text in the application (webpage):\n\n- In the browser\u2019s address bar: `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`\n- In the browser\u2019s tab title: `CSE Graduate Co...` (partially cut off)\n- In the browser\u2019s tab title for another tab: `Welcome (UMD)`\n- In the browser\u2019s tab title for another tab: `CS Graduate Co...` (partially cut off)\n- In the browser\u2019s tab title for another tab: `CS Graduate Co...` (partially cut off)\n- In the browser\u2019s tab title for another tab: `CS Graduate Co...` (partially cut off)\n- In the browser\u2019s tab title for another tab: `CS Graduate Co...` (partially cut off)\n- In the browser\u2019s tab title for another tab: `CS Graduate Co...` (partially cut off",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 782,
+        "timestamp_sec": 26.07,
+        "latency_sec": 3.98,
+        "frame_description": "The user is viewing a webpage about UCSD graduate application requirements, specifically focusing on sections related to letters of recommendation, GRE scores, and English language requirements. There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 820,
+        "timestamp_sec": 27.33,
+        "latency_sec": 9.88,
+        "frame_description": "The user is viewing a webpage about the UCSD graduate application checklist, specifically focusing on sections related to letters of recommendation, GRE score reports, and English language requirements for international applicants. There is no active input or typing occurring in any form fields or text areas on the screen.\n\nVisible user-entered text in the application (webpage):\n\n- In the browser\u2019s address bar: https://ucsd.edu/graduate/cse-graduate-application-checklist\n- Section heading: 4. THREE LETTERS OF RECOMMENDATION\n- Bullet point: Three (3) letters of recommendation are required.\n- Note: LORs are submitted via the online application only. For additional information about the procedures and policies for letters of recommendation, please review the UCSD Graduate Division guidelines at Procedures for Letters of Recommendation.\n- Section heading: 5. GRE SCORE REPORT\n- Bullet point: The GRE is not required for PhD and MS applications for Fall 2024. Applicants may still submit valid scores if they have already taken the test.\n- Bullet point: Applicants with valid test scores should request that ETS submit the scores directly to the UCSD institution code 4836. The department codes are not necessary. Information about the GRE is",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 831,
+        "timestamp_sec": 27.7,
+        "latency_sec": 9.84,
+        "frame_description": "The user is viewing a webpage about UCSD graduate application requirements, specifically focusing on sections related to letters of recommendation, GRE scores, and English language requirements. There is no active input or typing occurring in the browser or any other application window.\n\nVisible user-entered text in the browser tabs includes:\n- \"How to download\"\n- \"Google Chrome V\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"\n- \"M. person\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 939,
+        "timestamp_sec": 31.3,
+        "latency_sec": 9.86,
+        "frame_description": "The user is viewing a webpage in Google Chrome that outlines requirements for graduate applications, including sections on recommendation letters, GRE scores, and English language proficiency. The browser is open with multiple tabs, and the user appears to be reading through the content.\n\nVisible user-entered text in the application includes:\n\n- In the address bar: `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`\n- In the tab titles:\n  - \"Three (3) letters of recommendation are required...\"\n  - \"GRE is not required for PhD and MS applications for Fall 2024...\"\n  - \"English Language Requirements (International Applicants Only)\"\n  - \"TOEFL iBT Special Home Edition will be accepted...\"\n  - \"University of California, San Diego Graduate Admissions\"\n- In the body of the webpage:\n  - \"Three (3) letters of recommendation are required. Additional letters may be submitted, however, you must submit a minimum of three (3) letters.\"\n  - \"LORs are submitted via the online application only. For additional information about the procedures and policies for letters of recommendation, please review the UCSD Graduate Division guidelines at Procedures for Letters of Recommendation.\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 950,
+        "timestamp_sec": 31.67,
+        "latency_sec": 4.39,
+        "frame_description": "The user is viewing a webpage about UCSD graduate admissions, specifically focusing on English language requirements for international applicants. The browser is open to the URL `https://www.ucsd.edu/graduate/cse-graduate-application-checklist`. No text is being actively typed or entered in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 961,
+        "timestamp_sec": 32.03,
+        "latency_sec": 9.83,
+        "frame_description": "The user is viewing a webpage about UCSD graduate admissions requirements, specifically focusing on English language proficiency and resume/CV guidelines. No active typing or input is occurring in the visible application.\n\nVisible user-entered text in the application:\n- In the address bar: https://www.ucsd.edu/graduate/grad-graduate-application-checklist\n- In the browser tab title: \"6. ENGLISH LANGUAGE REQUIREMENTS (INTERNATIONAL APPLICANTS ONLY)\"\n- In the body text:\n  - \"4836\" (UCSD institution code)\n  - \"IELTS\"\n  - \"TOEFL\"\n  - \"IELTS\"\n  - \"550\" (minimum TOEFL score for paper-pencil version)\n  - \"213\" (minimum TOEFL score for computer-based test)\n  - \"85\" (minimum TOEFL score for internet-based test)\n  - \"Band Score 7\" (minimum IELTS score)\n  - \"University of California, San Diego Graduate Admissions\"\n  - \"9500 Gilman Drive #0003\"\n  - \"La Jolla, CA 92093-00",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 983,
+        "timestamp_sec": 32.77,
+        "latency_sec": 3.67,
+        "frame_description": "The user is viewing a webpage about UCSD graduate application requirements, specifically focusing on English language proficiency and resume/CV guidelines. No active typing or input is occurring in the visible application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 994,
+        "timestamp_sec": 33.13,
+        "latency_sec": 3.82,
+        "frame_description": "The user is viewing a webpage about the UCSD graduate application process, specifically focusing on language proficiency requirements and resume/CV guidelines. No text is being actively typed or entered in any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1028,
+        "timestamp_sec": 34.27,
+        "latency_sec": 3.7,
+        "frame_description": "The user is scrolling down a webpage in a browser window, likely reviewing information about UCSD graduate admissions requirements. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1039,
+        "timestamp_sec": 34.63,
+        "latency_sec": 9.82,
+        "frame_description": "The user is viewing a webpage about UCSD graduate admissions, specifically focusing on the application process for PhD students. The page includes sections on TOEFL/IELTS requirements, resume/CV submission, and details for currently enrolled UCSD students seeking PhD admission. There is no active typing or input being performed by the user in this screenshot.\n\nVisible user-entered text in the application (webpage):\n- \"The TOEFL IBT Special Home Edition will be accepted for admission at both the Master's and PhD levels. However, the TOEFL ITP Plus for China Solution cannot be used to substitute for a standard TOEFL IBT test.\"\n- \"The UCSD TOEFL Institution code is 4836. The university minimum TOEFL score required for admission is 550 for the paper-and-pencil version, 213 for the computer-based test, or 85 for the internet-based test (IBT).\"\n- \"The university minimum IELTS score required for admission is Band Score 7. To submit official test scores to UC San Diego Graduate Division, applicants must contact the IELTS test center where they took the test to request their official test results to be sent to the address below. UC San Diego does",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1050,
+        "timestamp_sec": 35.0,
+        "latency_sec": 3.9,
+        "frame_description": "The user is viewing a webpage about UCSD graduate admissions, specifically focusing on TOEFL/IELTS requirements and application processes for PhD students. No text is being actively typed or entered in any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1061,
+        "timestamp_sec": 35.37,
+        "latency_sec": 4.1,
+        "frame_description": "The user is viewing a webpage in Google Chrome that outlines the application process for UCSD PhD admission, including sections on resume/CV requirements, currently enrolled students, and supplemental materials. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 1072,
+        "timestamp_sec": 35.73,
+        "latency_sec": 4.03,
+        "frame_description": "The user is viewing a webpage about the UCSD Graduate Application Checklist in a web browser, with no active input or typing occurring.\n\nNo user-entered text is visible in any form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1083,
+        "timestamp_sec": 36.1,
+        "latency_sec": 5.82,
+        "frame_description": "The user is viewing a webpage about the UCSD PhD application process, specifically focusing on the steps for transferring from MS to PhD programs. The browser is open to a document titled \"CS Graduate Application Checklist,\" which outlines the application process, online submission details, notification email instructions, supplemental materials required, and contact information for PhD Admissions and MS Admissions at UCSD.\n\nThere is no active text input or typing occurring in the visible application. The user appears to be reading or reviewing the content of the webpage rather than interacting with any form fields or input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 114
+      },
+      {
+        "frame_number": 1094,
+        "timestamp_sec": 36.47,
+        "latency_sec": 9.85,
+        "frame_description": "The user is viewing a webpage about the UCSD Graduate Application process for MS to PhD Transfer students. There is no active input or text being entered by the user at this moment.\n\nVisible user-entered text in the application (webpage content):\n\n- \u201cand wish to continue or transfer to the PhD program, please follow these steps:\u201d\n- \u201cAPPLICATION PROCESS:\u201d\n- \u201cComplete the UCSD Application for Graduate Admission by the general application deadline for the year you are seeking admission. Please note that admission is only offered in the Fall quarters.\u201d\n- \u201cYour application will be reviewed alongside those of external PhD applicants for that admissions cycle.\u201d\n- \u201cONLINE APPLICATION SUBMISSION:\u201d\n- \u201cMS to PhD students must complete their application online.\u201d\n- \u201cImportant: Do not click on the 'submit' button after completing your online application\u201d\n- \u201cNOTIFICATION EMAIL:\u201d\n- \u201cAfter completing your online application, send an email to csegradinfo-phd@ucsd.edu to notify the admissions team about your application.\u201d\n- \u201cIn the subject line of the email, please include 'MS to PhD Transfer Application Submission.'\u201d\n- \u201cSUPPLEMENTAL MATERIALS:\u201d\n- \u201cEnsure you have provided all the",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1105,
+        "timestamp_sec": 36.83,
+        "latency_sec": 5.42,
+        "frame_description": "The user is viewing a webpage about the UCSD PhD application process, specifically focusing on the steps for current or former UCSU students wishing to continue or transfer to the PhD program. The page outlines the application process, online submission details, notification email instructions, supplemental materials required, and contact information for PhD Admissions.\n\nThere is no active text being entered by the user in any form fields or input areas on the screen. The user appears to be reading through the information provided on the webpage.",
+        "prompt_tokens": 993,
+        "completion_tokens": 100
+      },
+      {
+        "frame_number": 1116,
+        "timestamp_sec": 37.2,
+        "latency_sec": 3.7,
+        "frame_description": "The user is scrolling through a webpage in the browser, likely reviewing information about English language requirements for international applicants. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1119,
+        "timestamp_sec": 37.3,
+        "latency_sec": 5.64,
+        "frame_description": "The user is viewing a webpage about UCSD graduate application requirements, specifically focusing on sections like \"Statement of Purpose,\" \"Three Letters of Recommendation,\" \"GRE Score Report,\" and \"English Language Requirements.\" There is no active input or typing occurring in the visible application.\n\nVisible user-entered text in the application:\n- In the browser's address bar: \"https://www.ucsd.edu/graduate/graduate-application-checklist\"\n- No other form fields or input areas are actively being used or contain user-entered text.",
+        "prompt_tokens": 993,
+        "completion_tokens": 108
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse UCSD degree program's CSE project application.",
+      "reference_caption": "Navigating UCSD's Graduate Admissions Webpage and Viewing the Application Checklist for Fall 2024",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "UCSD homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 51,
+          "sub_goal": "Scroll the mouse, the webpage moves up.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 99,
+          "sub_goal": "Scroll the page up to the top of the webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 153,
+          "sub_goal": "Click on the \"application\" button in the left navigation bar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 288,
+          "sub_goal": "The page has loaded successfully, reaching a new page.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 430,
+          "sub_goal": "Continue scrolling down the page to view more information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 762,
+          "sub_goal": "Continue scrolling down to browse more web page information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1077,
+          "sub_goal": "Scroll to the bottom of the webpage and review all the information on the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of reviewing UCSD graduate application requirements, as evidenced by consistent details in the timeline such as URLs and sections like 'Statement of Purpose' and 'English Language Requirements.' There are no contradictions with specific named details."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The descriptions correctly identify the content being viewed, such as UCSD graduate application requirements and specific sections like 'English Language Requirements' and 'Application Process.' There are no contradictions or fabricated interactions noted in the descriptions compared to the keyframes."
+        },
+        "coverage": {
+          "score": 3.8,
+          "coverage": 0.7,
+          "covered": 7,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline provides a detailed description of the user's actions across various keyframes, capturing both the content being viewed and any specific interactions or lack thereof. The descriptions allow for paraphrasing while maintaining the essence of each action, such as viewing webpages, scrolling, and noting the absence of active input."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The timeline contains several repeated URLs and similar content descriptions across multiple frames, indicating redundancy. However, there are also unique entries that provide new information at different points in time."
+        }
+      },
+      "composite_score": 16.8,
+      "max_score": 20,
+      "latency_sec": 159.12
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.014,
+        "recall": 0.7826,
+        "f1": 0.0276
+      },
+      "rouge2": {
+        "precision": 0.0055,
+        "recall": 0.3088,
+        "f1": 0.0107
+      },
+      "rougeL": {
+        "precision": 0.0114,
+        "recall": 0.6377,
+        "f1": 0.0225
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0617
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 465.12,
+      "total_vlm_inference_sec": 293.23,
+      "intent_latency_sec": 12.68,
+      "frames_processed": 51,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.75,
+      "median_frame_latency_sec": 4.6,
+      "min_frame_latency_sec": 3.67,
+      "max_frame_latency_sec": 9.9,
+      "avg_description_length_chars": 488.7,
+      "total_prompt_tokens": 55729,
+      "total_completion_tokens": 5774,
+      "avg_completion_tokens_per_sec": 19.2,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was attempting to find and review the graduate application checklist and requirements for the Computer Science and Engineering program at UC San Diego.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.93,
+        "frame_description": "The user is viewing the webpage \"https://cse.ucsd.edu/graduate/admissions\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 4.6,
+        "frame_description": "The user is viewing a webpage in the Microsoft Edge browser with the URL \"https://cse.ucsd.edu/graduate/admissions\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 23,
+        "timestamp_sec": 0.77,
+        "latency_sec": 4.99,
+        "frame_description": "The user is viewing a webpage on Google Chrome.\n\n**User-entered text:**\n* **Address Bar:** `https://cse.ucsd.edu/graduate/admissions`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 34,
+        "timestamp_sec": 1.13,
+        "latency_sec": 5.84,
+        "frame_description": "The user is viewing a webpage in Google Chrome. The visible text in the address bar is \"https://cse.ucsd.edu/graduate/admissions\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 45,
+        "timestamp_sec": 1.5,
+        "latency_sec": 6.46,
+        "frame_description": "The user is scrolling down a webpage on Google Chrome. \n\n**Visible user-entered text:**\n* Address bar: `https://cse.ucsd.edu/graduate/admissions",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 56,
+        "timestamp_sec": 1.87,
+        "latency_sec": 5.22,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Admissions web page. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 67,
+        "timestamp_sec": 2.23,
+        "latency_sec": 5.73,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Admissions webpage with the URL \"https://cse.ucsd.edu/graduate/admissions\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 78,
+        "timestamp_sec": 2.6,
+        "latency_sec": 5.42,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Admissions webpage in Google Chrome.\n\n**Visible user-entered text:**\n* Address bar: `https://cse.ucsd.edu/graduate/admissions`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 89,
+        "timestamp_sec": 2.97,
+        "latency_sec": 5.43,
+        "frame_description": "The user is viewing a webpage on the Microsoft Edge browser with the address bar containing \"https://cse.ucsd.edu/graduate/admissions\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 104,
+        "timestamp_sec": 3.47,
+        "latency_sec": 5.03,
+        "frame_description": "The user is hovering the cursor on the left navigation menu of the webpage.\n\n**User-entered text:**\n* `https://cse.ucsd.edu/graduate/admissions`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 115,
+        "timestamp_sec": 3.83,
+        "latency_sec": 5.92,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Admissions page in the web browser.\n\n**Visible user-entered text:**\n* Address bar: `https://cse.ucsd.edu",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 126,
+        "timestamp_sec": 4.2,
+        "latency_sec": 6.25,
+        "frame_description": "The user is viewing the \"UCSD CSE GRADUATE ADMISSIONS\" webpage in a web browser. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 8.63,
+        "latency_sec": 3.87,
+        "frame_description": "The user is hovering the cursor over the 'Preparation' link on the web page.\n\n**User-entered text:**\n* Address bar: `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 270,
+        "timestamp_sec": 9.0,
+        "latency_sec": 6.58,
+        "frame_description": "The user is clicking on the \"Graduate Programs\" link on the left menu. The visible user-entered text in the address bar is \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 328,
+        "timestamp_sec": 10.93,
+        "latency_sec": 5.12,
+        "frame_description": "The user is viewing the \"CSE GRADUATE APPLICATION CHECKLIST\" webpage in the web browser.\n\n**User-entered text:**\n* **Address bar:** \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 339,
+        "timestamp_sec": 11.3,
+        "latency_sec": 5.86,
+        "frame_description": "The user is viewing the \"CSE GRADUATE APPLICATION CHECKLIST\" webpage in the web browser with the address bar containing \"https://cse.ucsd.edu/graduate/cse-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 370,
+        "timestamp_sec": 12.33,
+        "latency_sec": 5.37,
+        "frame_description": "The user is viewing the \"CSE GRADUATE APPLICATION CHECKLIST\" webpage in the web browser with the address bar containing the text \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 381,
+        "timestamp_sec": 12.7,
+        "latency_sec": 5.83,
+        "frame_description": "The user is viewing the CSE Graduate Application Checklist webpage on the UC San Diego website. There is no visible user-entered text in any application form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 442,
+        "timestamp_sec": 14.73,
+        "latency_sec": 4.64,
+        "frame_description": "The user is viewing the \"CSE Graduate Application Checklist\" webpage in the Google Chrome browser with the address bar containing \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 453,
+        "timestamp_sec": 15.1,
+        "latency_sec": 5.19,
+        "frame_description": "The user is viewing a webpage containing graduate application guidelines for UC San Diego. \n\n**User-entered text:**\n* Address bar: `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 483,
+        "timestamp_sec": 16.1,
+        "latency_sec": 5.05,
+        "frame_description": "The user is viewing the \"CSE Graduate Application Checklist\" webpage in a Google Chrome browser window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 494,
+        "timestamp_sec": 16.47,
+        "latency_sec": 5.22,
+        "frame_description": "The user is scrolling through the \"CSE Graduate Application Checklist\" webpage in the web browser. The text visible in the URL bar is \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 505,
+        "timestamp_sec": 16.83,
+        "latency_sec": 5.28,
+        "frame_description": "The user is viewing a webpage on \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".\n\n**Visible user-entered text:**\n- Address bar: `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 516,
+        "timestamp_sec": 17.2,
+        "latency_sec": 5.1,
+        "frame_description": "The user is viewing the \"CSE Graduate Application Checklist\" webpage in Google Chrome. \n\nThe visible user-entered text in the application address bar is:\n* \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 531,
+        "timestamp_sec": 17.7,
+        "latency_sec": 6.34,
+        "frame_description": "The user is viewing the CSE Graduate Application Checklist webpage in Microsoft Edge. \n\n**Visible user-entered text:**\n* Address bar: `https://cse.ucsd.edu/graduate/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 542,
+        "timestamp_sec": 18.07,
+        "latency_sec": 6.14,
+        "frame_description": "The user is viewing the \"CSE Graduate Application Checklist\" web page in the Google Chrome browser.\n\n**Visible user-entered text:**\n* **Address Bar:** `https://cse.uc",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 573,
+        "timestamp_sec": 19.1,
+        "latency_sec": 5.72,
+        "frame_description": "The user is viewing the \"CSE Graduate Application Checklist\" web page in a web browser. The visible text in the address bar is \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 584,
+        "timestamp_sec": 19.47,
+        "latency_sec": 4.93,
+        "frame_description": "The user is viewing a webpage with the URL 'https://cse.ucsd.edu/graduate/cse-graduate-application-checklist'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 623,
+        "timestamp_sec": 20.77,
+        "latency_sec": 5.06,
+        "frame_description": "The user is viewing the \"CSE Graduate Application Checklist\" web page in a web browser.\n\n**Visible user-entered text:**\n* **Address Bar:** `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 634,
+        "timestamp_sec": 21.13,
+        "latency_sec": 6.16,
+        "frame_description": "The user is selecting text on the webpage.\n\n**User-entered text:**\n* Address bar: `https://cse.ucsd.edu/graduate/cse-graduate-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 710,
+        "timestamp_sec": 23.67,
+        "latency_sec": 4.17,
+        "frame_description": "The user is clicking on the 'Procedures for Letters of Recommendation.' link.\n\n**User-entered text:**\n* Address bar: `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 721,
+        "timestamp_sec": 24.03,
+        "latency_sec": 5.66,
+        "frame_description": "The user is viewing a webpage titled \"CSE Graduate Application Checklist\" in Google Chrome. The visible user-entered text in the address bar is \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 771,
+        "timestamp_sec": 25.7,
+        "latency_sec": 5.67,
+        "frame_description": "The user is viewing a web page titled \"CSE Graduate Application Checklist\" in the web browser.\n\n**Visible user-entered text:**\n* Address bar: `\"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 782,
+        "timestamp_sec": 26.07,
+        "latency_sec": 4.83,
+        "frame_description": "The user is hovering the mouse cursor over the text \"6. ENGLISH LANGUAGE REQUIREMENTS (INTERNATIONAL APPLICANTS ONLY)\" on a webpage. \n\nVisible user-entered text in the application:\n- Address bar: `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 820,
+        "timestamp_sec": 27.33,
+        "latency_sec": 5.86,
+        "frame_description": "The user is viewing a web page titled \"CSE Graduate Application Checklist\" on the UC San Diego website. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 831,
+        "timestamp_sec": 27.7,
+        "latency_sec": 4.93,
+        "frame_description": "The user is viewing a web page titled \"CSE Graduate Application Checklist\" in the web browser, with the address bar containing \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 939,
+        "timestamp_sec": 31.3,
+        "latency_sec": 5.63,
+        "frame_description": "The user is viewing the \"CSE Graduate Application Checklist\" webpage in the Microsoft Edge web browser. \n\nVisible user-entered text in the address bar:\n- `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 950,
+        "timestamp_sec": 31.67,
+        "latency_sec": 5.42,
+        "frame_description": "The user is viewing a webpage in a web browser. \n\nVisible user-entered text in the application:\n- URL bar: `https://cse.ucsd.edu/graduate/cse-graduate-application-checklist`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 961,
+        "timestamp_sec": 32.03,
+        "latency_sec": 5.32,
+        "frame_description": "The user is viewing the UCSD CSE Graduate Application Checklist webpage on a browser, with the address bar containing \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 983,
+        "timestamp_sec": 32.77,
+        "latency_sec": 4.44,
+        "frame_description": "The user is viewing a webpage on 'https://cse.ucsd.edu/graduate/cse-graduate-application-checklist' in a web browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 994,
+        "timestamp_sec": 33.13,
+        "latency_sec": 7.13,
+        "frame_description": "The user is viewing a webpage on the CSE Graduate Application Checklist with the URL 'https://cse.ucsd.edu/graduate/cse-graduate-application-checklist'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1028,
+        "timestamp_sec": 34.27,
+        "latency_sec": 4.75,
+        "frame_description": "The user is selecting text on a webpage. Visible user-entered text in the application includes the URL in the address bar: \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1039,
+        "timestamp_sec": 34.63,
+        "latency_sec": 3.78,
+        "frame_description": "The user is selecting text on a webpage.\n\n**User-entered text:**\n* \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1050,
+        "timestamp_sec": 35.0,
+        "latency_sec": 5.86,
+        "frame_description": "The user is selecting text on the webpage. \n\nVisible user-entered text in the application includes:\n- Address bar: `\"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1061,
+        "timestamp_sec": 35.37,
+        "latency_sec": 4.37,
+        "frame_description": "The user is viewing a web page displaying the CSE Graduate Application Checklist in Microsoft Edge. The visible text in the address bar is \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1072,
+        "timestamp_sec": 35.73,
+        "latency_sec": 5.28,
+        "frame_description": "The user is viewing a webpage in the web browser with the URL 'https://cse.ucsd.edu/graduate/cse-graduate-application-checklist'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 1083,
+        "timestamp_sec": 36.1,
+        "latency_sec": 6.5,
+        "frame_description": "The user is viewing a webpage containing graduate application guidelines for UCSD. \n\nVisible user-entered text in the address bar:\n- \"https://cse.ucsd.edu/graduate",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1094,
+        "timestamp_sec": 36.47,
+        "latency_sec": 6.55,
+        "frame_description": "The user is viewing a webpage on the CSE Graduate Application Checklist. No user-entered text is visible in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 1105,
+        "timestamp_sec": 36.83,
+        "latency_sec": 5.94,
+        "frame_description": "The user is viewing the CSE Graduate Application Checklist webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 1116,
+        "timestamp_sec": 37.2,
+        "latency_sec": 5.93,
+        "frame_description": "The user is scrolling down a webpage in the Google Chrome browser. \n\n**Text present in address bar:**\n* `\"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 1119,
+        "timestamp_sec": 37.3,
+        "latency_sec": 4.57,
+        "frame_description": "The user is viewing a webpage on Google Chrome. The visible user-entered text in the address bar is \"https://cse.ucsd.edu/graduate/cse-graduate-application-checklist\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse UCSD degree program's CSE project application.",
+      "reference_caption": "Navigating UCSD's Graduate Admissions Webpage and Viewing the Application Checklist for Fall 2024",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "UCSD homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 51,
+          "sub_goal": "Scroll the mouse, the webpage moves up.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 99,
+          "sub_goal": "Scroll the page up to the top of the webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 153,
+          "sub_goal": "Click on the \"application\" button in the left navigation bar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 288,
+          "sub_goal": "The page has loaded successfully, reaching a new page.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 430,
+          "sub_goal": "Continue scrolling down the page to view more information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 762,
+          "sub_goal": "Continue scrolling down to browse more web page information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1077,
+          "sub_goal": "Scroll to the bottom of the webpage and review all the information on the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on reviewing and understanding the CSE graduate application checklist at UCSD. The timeline shows consistent actions of navigating to and viewing the 'CSE Graduate Application Checklist' webpage, which aligns with the goal of browsing the degree program's project application requirements."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The sequence of scrolling, clicking on navigation elements, and viewing specific pages aligns with the ground truth actions. There are no fabricated or contradicted actions reported. For the STATIC QA, the timeline does not provide information about academic proficiency scores, so it cannot answer this question. For the SEQUENTIAL-QA, the timeline supports the correct sequence of user actions after reviewing TOEFL/IELTS requirements. The MCQA is also supported by the timeline as there is no mention of a 'Passport Copy' being required."
+        },
+        "coverage": {
+          "score": 5.0,
+          "coverage": 1.0,
+          "covered": 10,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "UCSD homepage",
+            "bing",
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to viewing and interacting with webpages, including scrolling and clicking, which aligns with some of the keyframe actions. The timeline also mentions specific browsers used during these interactions."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI-generated timeline contains numerous repetitive entries that describe similar states of the webpage and address bar without significant changes, such as multiple mentions of viewing the same URL in different browsers. These repetitions occur frequently throughout the timeline."
+        }
+      },
+      "composite_score": 17.0,
+      "max_score": 20,
+      "latency_sec": 194.86
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0309,
+        "recall": 0.5942,
+        "f1": 0.0588
+      },
+      "rouge2": {
+        "precision": 0.0121,
+        "recall": 0.2353,
+        "f1": 0.023
+      },
+      "rougeL": {
+        "precision": 0.0249,
+        "recall": 0.4783,
+        "f1": 0.0473
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0287
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 477.15,
+      "total_vlm_inference_sec": 275.87,
+      "intent_latency_sec": 6.37,
+      "frames_processed": 51,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.41,
+      "median_frame_latency_sec": 5.37,
+      "min_frame_latency_sec": 3.78,
+      "max_frame_latency_sec": 7.13,
+      "avg_description_length_chars": 165.3,
+      "total_prompt_tokens": 64054,
+      "total_completion_tokens": 2141,
+      "avg_completion_tokens_per_sec": 7.4
+    }
+  }
+}

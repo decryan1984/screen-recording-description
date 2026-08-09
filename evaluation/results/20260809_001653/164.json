@@ -1,0 +1,1023 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/164.mp4",
+  "total_frames": 941,
+  "fps": 29.99998007440218,
+  "video_length_sec": 31.37,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 941,
+  "frames_processed": 46,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to automate the collection and processing of NVIDIA RTX A6000 graphics card data from eBay listings by developing a Python script to extract and structure product details. This effort was driven by the need to gather specific information such as prices and seller data, likely to facilitate a transaction or analysis across different currencies.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 10.13,
+        "frame_description": "The user is browsing an eBay page for NVIDIA RTX A6000 graphics cards, viewing multiple listings with prices and seller information.\n\nVisible user-entered text:\n- In the VS Code editor:\n  - `# block 5 \u8fd4\u56de\u64cd\u4f5c\u5217\u8868\u4e0a\u4e00\u4e2a`\n  - `# block 5 \u8fd4\u56de\u64cd\u4f5c\u5217\u8868\u4e0b\u4e00\u4e2a`\n  - `# Reasoning = {\"Question\": 6, \"Options\": 0, \"correct\": 0}`\n  - `def add_description_to_json(input_file, i, hum)`\n  - `with open(input_file, 'r', encoding='utf-8') as f:`\n  - `    for line_number, line in enumerate(f):`\n  - `        json_obj = json.loads(line)`\n  - `        json_obj['human_agreement'] = True`\n  - `        with open(output_file, 'w', encoding='utf-8') as out:`\n  - `            out.write(json.dumps(json_obj) + '\\n')`\n  - `break`\n  - `except Exception as e:`\n  - `    print(\"An error occurred: \" + str(e))`\n  - `add_description_to_json(input_file",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 9.87,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 graphics cards on eBay, with prices ranging from \u00a3196.55 to \u00a35,130.84, and comparing options including new and pre-owned units from various sellers.\n\nVisible user-entered text in the application:\n\n- In the VS Code editor (left window):\n  - File path: `C:\\Windows\\system32\\RamX`\n  - Code snippet:\n    ```python\n    def add_description_to_json(input_file, i, hum):\n        with open(input_file, 'r', encoding='utf-8') as f:\n            for line_number, line in enumerate(f):\n                json_obj = json.loads(line)\n                json_obj['description'] = json_obj['options']\n                with open(input_file, 'w', encoding='utf-8') as f:\n                    f.write(json.dumps(json_obj) + '\\n')\n    ```\n  - Comment: `# block 2 \u6dfb\u52a0\u63cf\u8ff0\u5230JSON\u6587\u4ef6\u4e2d`\n  - Error message: `except Exception as e:`\n  - Print statement: `print(\"An error occurred: {e}\")`\n  - Another comment: `",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 22,
+        "timestamp_sec": 0.73,
+        "latency_sec": 5.22,
+        "frame_description": "The user is browsing eBay listings for NVIDIA RTX A6000 graphics cards, viewing prices and seller information. In the VS Code editor on the left, the user has opened a Python script (`ann.py`) that includes code for processing JSON data and writing to files. The script contains comments in Chinese and English, and the user has not yet executed or modified the code. No text is actively being typed in any form fields or input boxes.",
+        "prompt_tokens": 993,
+        "completion_tokens": 91
+      },
+      {
+        "frame_number": 34,
+        "timestamp_sec": 1.13,
+        "latency_sec": 9.88,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 graphics cards on eBay, with prices ranging from \u00a3196.55 to \u00a35,058.93, and is also working on a Python script in Visual Studio Code that processes JSON data.\n\nVisible user-entered text:\n- In Visual Studio Code:\n  - `ann.py` file content includes:\n    - `dict = {\"description\": \"Description\", \"caption\": \"Caption\", \"reasoning\": \"Reasoning\", \"question\": \"Question\", \"options\": \"Options\", \"correct\": \"Correct\", \"explanation\": \"Explanation\"}`\n    - `add_description_to_json(input_file, i, human)` function definition\n    - `print(\"An error occurred: {e}\")`\n    - `add_description_to_json(input_file, i, dict)`\n  - `ann.py` file content also includes:\n    - `# block 5 \u6dfb\u52a0human judge\uff0c\u5e76\u5904\u7406\u8f93\u5165\u6587\u4ef6`\n    - `dict = {\"description\": \"Description\", \"caption\": \"Caption\", \"reasoning\": \"Reasoning\", \"question\": \"Question\", \"options\": \"Options\", \"correct\": \"Correct\", \"",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 44,
+        "timestamp_sec": 1.47,
+        "latency_sec": 9.83,
+        "frame_description": "The user is browsing an eBay page listing NVIDIA RTX A6000 graphics cards, viewing prices and seller information for various listings.\n\nVisible user-entered text:\n- In the VS Code editor:\n  - `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`\n  - `def add_description_to_json(input_file, i, hum)`\n  - `try:`\n  - `    with open(input_file, 'r', encoding='utf-8') as f:`\n  - `        for line_number, line in enumerate(f):`\n  - `            json_obj = json.loads(line)`\n  - `            json_obj['hum'] = hum`\n  - `            with open(output_file, 'w', encoding='utf-8') as out:`\n  - `                out.write(json.dumps(json_obj, indent=4) + '\\n')`\n  - `    break`\n  - `except Exception as e:`\n  - `    print('An error occurred: ' + str(e))`\n  - `add_description_to_json(input_file, i, dict, 'Sequential QA: Sequential_LQ, Prediction')`\n  - `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230json",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 54,
+        "timestamp_sec": 1.8,
+        "latency_sec": 4.24,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 graphics cards on eBay, with prices and seller information displayed for each product. The user is not actively typing or entering text in any form fields; all visible text in the application is static content from the webpage.",
+        "prompt_tokens": 993,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 64,
+        "timestamp_sec": 2.13,
+        "latency_sec": 9.82,
+        "frame_description": "The user is browsing a list of NVIDIA RTX A6000 graphics cards on eBay, viewing prices and seller information for various listings.\n\nVisible user-entered text:\n- In the VS Code editor:\n  - `# block 4 \u8f93\u5165 Human Judge \u7684\u8f93\u5165\u6587\u4ef6`\n  - `dict {\"description\": \"Description\", \"caption\": \"Caption\", \"reasoning\": \"Reasoning\", \"QA\": \"Question\": 0, \"Options\": 0, \"Correct\": 0, \"Wrong\": 0}`\n  - `def add_description_to_json(input_file, i, human):`\n  - `with open(input_file, 'r', encoding='utf-8') as f:`\n  - `    for line_num, line in enumerate(f):`\n  - `        if line.startswith('it_line_number = '):`\n  - `            it_line_number = line.strip().split('=')[1].strip()`\n  - `            with open(output_file, 'w', encoding='utf-8') as out:`\n  - `                out.write(f'{it_line_number} {line.strip()}\\n')`\n  - `                out.write(f'{it_line_number}",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 74,
+        "timestamp_sec": 2.47,
+        "latency_sec": 3.67,
+        "frame_description": "The user is browsing a list of NVIDIA RTX A6000 graphics cards on eBay, viewing details such as price, seller rating, and shipping information for each product.",
+        "prompt_tokens": 993,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 84,
+        "timestamp_sec": 2.8,
+        "latency_sec": 5.65,
+        "frame_description": "The user is browsing an eBay page listing NVIDIA RTX A6000 graphics cards, viewing product details and prices. In the VS Code editor on the left, the user has opened a Python script file named `anno.py` and is editing code that includes a function `add_description_to_json`. The code contains comments in Chinese and English, and the user has typed `print(\"an error occurred: {e}\")` in the exception handling block. No other user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 107
+      },
+      {
+        "frame_number": 94,
+        "timestamp_sec": 3.13,
+        "latency_sec": 9.84,
+        "frame_description": "The user is browsing an eBay listing page for NVIDIA RTX A6000 graphics cards, viewing multiple product options with prices and seller information.\n\nVisible user-entered text:\n- In the VS Code editor (left window):\n  - File path: `C:\\Windows\\system32\\RamX`\n  - Code block comment: `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`\n  - Code block comment: `# block 6 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`\n  - Code block comment: `# Reasoning = {\"Question\": 6, \"Options\": 0, \"Correct\": 0}`\n  - Code block comment: `# \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`\n  - Code block comment: `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`\n  - Code block comment: `# block 6 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`\n  - Code block comment: `# Reasoning = {\"Question\": 6, \"Options\": 0, \"Correct\": 0}`\n  - Code block comment: `# \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`\n  - Code block comment: `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`\n  - Code block",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 104,
+        "timestamp_sec": 3.47,
+        "latency_sec": 4.78,
+        "frame_description": "The user is browsing eBay listings for NVIDIA RTX A6000 graphics cards, viewing prices and seller information. In the VS Code editor on the left, the user has open a Python script named `annoy.py`, which includes code for reading input files and writing JSON output. The user appears to be working on a project involving GPU-related data processing or analysis.",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 114,
+        "timestamp_sec": 3.8,
+        "latency_sec": 9.83,
+        "frame_description": "The user is browsing an eBay page for RTX A6000 graphics cards, viewing listings with prices and seller information.\n\nVisible user-entered text:\n- In the VS Code editor:\n  - `def add_description_to_json(input_file, i, dict, num_lines=10):`\n  - `with open(input_file, 'r', encoding='utf-8') as f:`\n  - `for line_number, line in enumerate(f):`\n  - `    line = line.strip()`\n  - `    if line.startswith('Description:'):`\n  - `        description = line[12:]`\n  - `        json_obj['Description'] = description`\n  - `        break`\n  - `except Exception as e:`\n  - `    print(f\"An error occurred: {e}\")`\n  - `add_description_to_json(input_file, i, dict, num_lines=10)`\n  - `# block 2 \u6dfb\u52a0\u63cf\u8ff0\u5230JSON\u6587\u4ef6`\n  - `dict = {\"Description\": \"Description\", \"Caption\": \"Caption\", \"Reasoning\": {\"Question\": \"Q\", \"Options\": \"O\", \"Correct\": \"C\"}}`",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 124,
+        "timestamp_sec": 4.13,
+        "latency_sec": 5.64,
+        "frame_description": "The user is scrolling through a list of NVIDIA RTX A6000 graphics cards on an eBay page, viewing prices and seller information. In the VS Code editor on the left, the user has opened a Python script named `ann.py` and is editing code that includes a function `add_description_to_json`. The script contains comments in Chinese and English, and the user has typed some code related to file input/output and JSON handling. There are no visible form fields or search bars with user-entered text in the current view.",
+        "prompt_tokens": 993,
+        "completion_tokens": 108
+      },
+      {
+        "frame_number": 134,
+        "timestamp_sec": 4.47,
+        "latency_sec": 9.82,
+        "frame_description": "The user is browsing an eBay page for NVIDIA RTX A6000 graphics cards, viewing multiple listings with prices and seller information.\n\nVisible user-entered text:\n- In the VS Code editor:\n  - `def add_description_to_json(input_file, i, hum):`\n  - `with open(input_file, 'r', encoding='utf-8') as f:`\n  - `for line_number, line in enumerate(f):`\n  - `    line_number += i`\n  - `    json_obj['hum'] = json.loads(line)`\n  - `    with open(output_file, 'w', encoding='utf-8') as out:`\n  - `        out.write(json.dumps(json_obj, indent=4) + '\\n')`\n  - `except Exception as e:`\n  - `    print(f\"An error occurred: {e}\")`\n  - `add_description_to_json(input_file, i, dict, {'description': 'Sequential QA: ' + 'Question': 0, 'Options': 0, 'Correct': 0, 'Reasoning': 'Question: 0, Options: 0, Correct: 0, Reasoning: '})`",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 144,
+        "timestamp_sec": 4.8,
+        "latency_sec": 4.42,
+        "frame_description": "The user is viewing a list of RTX A6000 graphics cards on eBay, with prices ranging from \u00a32,777 to \u00a35,040, and is simultaneously working on a Python script in Visual Studio Code that processes JSON files and writes output to a file named \"output.json\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 154,
+        "timestamp_sec": 5.13,
+        "latency_sec": 4.07,
+        "frame_description": "The user is viewing a list of RTX A6000 graphics cards on eBay, with prices ranging from \u00a33,946.80 to \u00a35,040.00, and comparing seller ratings and shipping options.",
+        "prompt_tokens": 993,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 164,
+        "timestamp_sec": 5.47,
+        "latency_sec": 5.65,
+        "frame_description": "The user is viewing a list of RTX A6000 graphics cards for sale on eBay, with prices ranging from \u00a33,946.80 to \u00a35,040.00, while simultaneously working on a Python script in Visual Studio Code that processes JSON data. The script includes functions like `add_description_to_json` and uses `open(input_file, 'r', encoding='utf-8')` to read input files. The user has not entered any new text in the current session.",
+        "prompt_tokens": 993,
+        "completion_tokens": 107
+      },
+      {
+        "frame_number": 174,
+        "timestamp_sec": 5.8,
+        "latency_sec": 8.37,
+        "frame_description": "The user is browsing eBay listings for graphics cards, specifically looking at prices and seller information for various RTX A6000 models. The current action involves scrolling through the list of products to compare options.\n\nVisible user-entered text in the applications:\n- In Visual Studio Code: `# block 2 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`, `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`, `def add_description_to_json(input_file, i, hum...`, `print(\"An error occurred: {e}\")`, `# block 2 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`, `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`, `print(\"An error occurred: {e}\")`\n- In the browser: `\u00a35,040.00`, `\u00a35,130.84`, `\u00a34,776.65`, `\u00a34,640.25`, `\u00a33,548.34`",
+        "prompt_tokens": 993,
+        "completion_tokens": 204
+      },
+      {
+        "frame_number": 184,
+        "timestamp_sec": 6.13,
+        "latency_sec": 4.78,
+        "frame_description": "The user is viewing an eBay page listing graphics cards, with a VS Code window open on the left showing Python code. The eBay page displays several RTX A6000 graphics card listings with prices and seller information. The VS Code window contains a script for processing JSON files, with comments and code visible. The user appears to be multitasking between coding and browsing product listings.",
+        "prompt_tokens": 993,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 196,
+        "timestamp_sec": 6.53,
+        "latency_sec": 4.67,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 graphics cards on eBay, with prices and seller information displayed. The user is also working on a Python script in Visual Studio Code, which includes functions for handling input files and writing output to JSON files. The user has not entered any text in form fields or search bars in the visible applications.",
+        "prompt_tokens": 993,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 206,
+        "timestamp_sec": 6.87,
+        "latency_sec": 9.84,
+        "frame_description": "The user is browsing a list of NVIDIA RTX A6000 graphics cards on eBay, viewing prices and seller information for various listings.\n\nVisible user-entered text:\n- In the VS Code editor:\n  - `ann.py` file content includes:\n    - `def add_description_to_json(input_file, i, hum):`\n    - `with open(input_file, 'r', encoding='utf-8') as f:`\n    - `for line_number, line in enumerate(f):`\n    - `    json_obj = json.loads(line)`\n    - `    json_obj['hum'] = hum`\n    - `    with open(output_file, 'w', encoding='utf-8') as out:`\n    - `        out.write(json.dumps(json_obj, ensure_ascii=False) + '\\n')`\n    - `except Exception as e:`\n    - `    print(f\"An error occurred: {e}\")`\n    - `add_description_to_json(input_file, i, dict)`\n  - `ann.py` file content includes:\n    - `# block 2 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u6587\u4ef6`\n    - `dict = {\"description\": \"description\", \"caption\": \"",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 216,
+        "timestamp_sec": 7.2,
+        "latency_sec": 5.56,
+        "frame_description": "The user is viewing a webpage listing NVIDIA RTX A6000 graphics cards on eBay, with prices and seller information displayed. The user is also working in a text editor (likely VS Code) on the left side of the screen, where they are editing Python code related to GUI mobile apps. The code includes functions for reading and writing JSON files, and there are comments in Chinese. The user has not entered any new text in the visible form fields or search bars on the webpage or in the text editor.",
+        "prompt_tokens": 993,
+        "completion_tokens": 104
+      },
+      {
+        "frame_number": 229,
+        "timestamp_sec": 7.63,
+        "latency_sec": 5.23,
+        "frame_description": "The user is browsing an eBay listing page for graphics cards, viewing multiple product options with prices and seller information. In the VS Code editor on the left, the user has opened a Python script file named `anno.py`, which contains code related to processing JSON data and writing output to a file. The script includes comments in Chinese and English, and the user appears to be reviewing or editing the code. No text is actively being typed in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 92
+      },
+      {
+        "frame_number": 239,
+        "timestamp_sec": 7.97,
+        "latency_sec": 9.84,
+        "frame_description": "The user is browsing an eBay page for NVIDIA RTX A6000 graphics cards, viewing multiple listings with prices and seller information.\n\nVisible user-entered text:\n- In the VS Code editor:\n  - `# Block 2 \u6dfb\u52a0\u63cf\u8ff0\u5230JSON\u6587\u4ef6`\n  - `def add_description_to_json(input_file, i, hum)`\n  - `with open(input_file, 'r', encoding='utf-8') as f:`\n  - `for line_number, line in enumerate(f):`\n  - `    line_number += 1`\n  - `    json_obj['human_agreement'] = True`\n  - `    with open(output_file, 'w', encoding='utf-8') as out:`\n  - `        out.write(json.dumps(json_obj, indent=4))`\n  - `        out.write('\\n')`\n  - `break`\n  - `except Exception as e:`\n  - `    print('An error occurred:', e)`\n  - `add_description_to_json(input_file, i, dict, 'correction')`\n  - `# Block 2 \u6dfb\u52a0\u63cf\u8ff0\u5230JSON\u6587\u4ef6`\n  - `# \u6dfb\u52a0\u63cf\u8ff0\u5230",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 261,
+        "timestamp_sec": 8.7,
+        "latency_sec": 4.59,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 graphics cards for sale on eBay, with prices ranging from \u00a33,548.84 to \u00a34,640.25, while simultaneously working on a Python script in Visual Studio Code that includes functions for processing JSON data and handling file operations.",
+        "prompt_tokens": 993,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 271,
+        "timestamp_sec": 9.03,
+        "latency_sec": 4.93,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 48GB GDDR6 384-bit GPU Graphics Card listings on eBay, with prices ranging from \u00a33,548.34 to \u00a35,130.84, and is simultaneously working on a Python script in Visual Studio Code that includes functions for handling JSON input and output.",
+        "prompt_tokens": 993,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 291,
+        "timestamp_sec": 9.7,
+        "latency_sec": 9.86,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 48GB GDDR6 graphics cards on eBay, with prices ranging from \u00a33,548.34 to \u00a35,130.84, and comparing seller ratings and shipping details.\n\nVisible user-entered text in the application:\n\n- In the VS Code editor (left window):\n  - File path: `C:\\Windows\\system32\\Ramdk`\n  - Code snippet:\n    ```python\n    def add_description_to_json(input_file, i, hum):\n        with open(input_file, 'r', encoding='utf-8') as f:\n            for line_number, line in enumerate(f):\n                json_obj = json.loads(line)\n                json_obj['hum'] = hum\n                with open(input_file, 'w', encoding='utf-8') as f:\n                    f.write(json.dumps(json_obj) + '\\n')\n    ```\n  - Comment in code: `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230 json \u6587\u4ef6`\n  - Variable name: `hum`\n  - Function call: `add_description_to_json(input_file, i, hum)`\n  - Error message:",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 301,
+        "timestamp_sec": 10.03,
+        "latency_sec": 4.85,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 graphics cards on eBay, with prices ranging from \u00a33,548.34 to \u00a35,130.84, and is simultaneously working in a VS Code window where they are editing Python code related to GUI mobile apps. No active typing is occurring in the visible form fields or input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 322,
+        "timestamp_sec": 10.73,
+        "latency_sec": 9.85,
+        "frame_description": "The user is scrolling through a list of NVIDIA RTX A6000 graphics cards on eBay, viewing prices and seller information.\n\nVisible user-entered text:\n- In the VS Code editor:\n  - `# block 4 \u8f93\u5165human judge.`\n  - `dict = {\"description\": \"Description\", \"caption\": \"Caption\", \"reasoning\": \"Reasoning\", \"question\": \"Question\", \"options\": \"Options\", \"correct\": \"Correct\", \"explanation\": \"Explanation\"}`\n  - `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d`\n  - `def add_description_to_json(input_file, i, human):`\n  - `try:`\n  - `    with open(input_file, 'r', encoding='utf-8') as f:`\n  - `        for line_number, line in enumerate(f):`\n  - `            line_number = int(line.split()[0])`\n  - `            json_obj = json.loads(line)`\n  - `            json_obj['human_description'] = human`\n  - `            with open(output_file, 'a', encoding='utf-8') as out:`\n  - `                out.write(json.dumps(json_obj)",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 332,
+        "timestamp_sec": 11.07,
+        "latency_sec": 5.34,
+        "frame_description": "The user is browsing eBay listings for NVIDIA RTX A6000 graphics cards, viewing prices and seller information. In the VS Code editor on the left, the user has opened a Python script file named `annoy.pyrb` and is editing code that includes a function `add_description_to_json`. The code contains comments in Chinese and English, and the user appears to be working on a project involving JSON data manipulation. No text is actively being typed in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 97
+      },
+      {
+        "frame_number": 425,
+        "timestamp_sec": 14.17,
+        "latency_sec": 9.82,
+        "frame_description": "The user is viewing an eBay listing page for NVIDIA RTX A6000 graphics cards, with multiple product options displayed. The current action appears to be browsing or comparing different listings.\n\nVisible user-entered text in the application:\n- In the VS Code editor (left window):\n  - File path in the Explorer panel: `C:\\Users\\...\\Downloads\\GUI_mobile_anno_2\\GUI_mobile_anno_2\\gui_mobile_anno_2.py`\n  - Code content includes:\n    - `def add_description_to_json(input_file, i, hum...`\n    - `with open(input_file, 'r', encoding='utf-8') as f:`\n    - `for line_number, line in enumerate(f):`\n    - `    json_obj = json.loads(line)`\n    - `    json_obj['humans_agreement'] = True`\n    - `    with open(output_file, 'w', encoding='utf-8') as out:`\n    - `        out.write(json.dumps(json_obj) + '\\n')`\n    - `except Exception as e:`\n    - `    print(f\"An error occurred: {e}\")`\n    - `add_description_to",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 435,
+        "timestamp_sec": 14.5,
+        "latency_sec": 7.03,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 48GB GDDR6 384-bit GPU Graphics Card listings on eBay, with prices ranging from \u00a33,550.69 to \u00a33,581.45, all marked as \"New (other)\" or \"New (other)\" and sourced from \"egoods.supply (1420)\" with a 99.8% rating. The user has not entered any text in form fields or search bars; all visible text in the eBay listings is product information (title, price, seller name, rating, and location). The user is also working on a Python script in Visual Studio Code, but no text is currently being typed in the editor.",
+        "prompt_tokens": 993,
+        "completion_tokens": 158
+      },
+      {
+        "frame_number": 471,
+        "timestamp_sec": 15.7,
+        "latency_sec": 3.41,
+        "frame_description": "The user is browsing a list of NVIDIA RTX A6000 graphics cards on eBay, viewing prices and seller information for multiple listings.",
+        "prompt_tokens": 993,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 481,
+        "timestamp_sec": 16.03,
+        "latency_sec": 9.81,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 48GB GDDR6 GPU graphics cards on eBay, with prices ranging from \u00a33,548.34 to \u00a33,581.45, and is simultaneously working on a Python script in Visual Studio Code that processes JSON files.\n\nVisible user-entered text:\n- In Visual Studio Code:\n  - File path: `C:\\Users\\...\\GUI_MOBILE_AMMO 2\\annoy.py`\n  - Code snippet:\n    ```python\n    def add_description_to_json(input_file, i, hum):\n        try:\n            with open(input_file, 'r', encoding='utf-8') as f:\n                for line_number, line in enumerate(f):\n                    json_obj = json.loads(line)\n                    json_obj['hum'] = hum\n                    with open(output_file, 'a', encoding='utf-8') as out:\n                        out.write(json.dumps(json_obj) + '\\n')\n            break\n        except Exception as e:\n            print(\"An error occurred: \" + str(e))\n    add_description_to_json(input_file, i, dict, ...)\n    ```\n  -",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 502,
+        "timestamp_sec": 16.73,
+        "latency_sec": 4.41,
+        "frame_description": "The user is viewing a webpage listing NVIDIA RTX A6000 GPUs on eBay, with prices and seller information displayed. The user is also working in a Jupyter Notebook environment, where they are editing Python code to add descriptions to JSON files. The user has not entered any new text in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 512,
+        "timestamp_sec": 17.07,
+        "latency_sec": 9.84,
+        "frame_description": "The user is browsing eBay listings for NVIDIA RTX A6000 GPUs on a web browser, with multiple product cards visible showing prices and seller information. Simultaneously, the user has an open VS Code window displaying Python code related to GUI development (likely using `annoy.py`), where they are editing a file named `annoy.py`. The code includes functions for reading JSON files and writing descriptions to JSON. There is no active typing or input being performed in either application at this moment \u2014 the user appears to be reviewing both the code and the product listings.\n\nVisible user-entered text:\n\n- In VS Code:\n  - File path: `C:\\Windows\\system32\\annoy.py`\n  - Code content includes:\n    - `def add_description_to_json(input_file, i, hmm):`\n    - `with open(input_file, 'r', encoding='utf-8') as f:`\n    - `for line_number, line in enumerate(f):`\n    - `json_obj = json.loads(line)`\n    - `json_obj['hmm'] = hmm`\n    - `with open(output_file, 'w', encoding='utf-8') as f:`\n    - `f.write",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 548,
+        "timestamp_sec": 18.27,
+        "latency_sec": 9.83,
+        "frame_description": "The user is browsing a list of NVIDIA RTX A6000 GPUs on eBay, viewing prices and seller information for multiple listings.\n\nVisible user-entered text:\n- In the VS Code editor (left window):\n  - File path: `C:\\Windows\\system32\\cmd.exe`\n  - Code block comment: `# block 4 \u8f93\u5165human judge\uff0c\u5e76\u5c06\u7ed3\u679c\u5199\u5165\u6587\u4ef6`\n  - Code block comment: `# block 5 \u5c06\u7ed3\u679c\u5199\u5165\u5230\u4e0a\u4e00\u4e2a`\n  - Code block comment: `# block 6 \u5c06\u7ed3\u679c\u5199\u5165\u5230\u4e0a\u4e00\u4e2a`\n  - Code block comment: `# block 7 \u5c06\u7ed3\u679c\u5199\u5165\u5230\u4e0a\u4e00\u4e2a`\n  - Code block comment: `# block 8 \u5c06\u7ed3\u679c\u5199\u5165\u5230\u4e0a\u4e00\u4e2a`\n  - Code block comment: `# block 9 \u5c06\u7ed3\u679c\u5199\u5165\u5230\u4e0a\u4e00\u4e2a`\n  - Code block comment: `# block 10 \u5c06\u7ed3\u679c\u5199\u5165\u5230\u4e0a\u4e00\u4e2a`\n  - Code block comment: `# block 11 \u5c06\u7ed3\u679c\u5199\u5165\u5230\u4e0a\u4e00\u4e2a`\n  - Code block comment: `# block 12 \u5c06\u7ed3\u679c\u5199\u5165\u5230\u4e0a\u4e00\u4e2a`\n  - Code block comment: `# block 13 \u5c06\u7ed3\u679c\u5199\u5165",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 558,
+        "timestamp_sec": 18.6,
+        "latency_sec": 9.81,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 48GB GDDR6 384-bit GPU Graphics Cards on eBay, with prices ranging from \u00a33,563.01 to \u00a33,581.45, all marked as \"New (other)\" or \"New (other)\" and \"or Best Offer,\" with \"Postage not specified from United States.\" The user is also working on a Python script in Visual Studio Code, which includes functions like `add_description_to_json` and `add_description_to_json`, and is interacting with a file explorer window showing files like `ann.py`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo`, `ann.pyo",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 571,
+        "timestamp_sec": 19.03,
+        "latency_sec": 4.46,
+        "frame_description": "The user is browsing eBay listings for NVIDIA RTX A6000 GPUs on a web browser, while simultaneously working in a Python script within Visual Studio Code to process JSON data. The script includes code for reading input files, writing output, and handling exceptions. The user has not entered any new text in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 581,
+        "timestamp_sec": 19.37,
+        "latency_sec": 9.79,
+        "frame_description": "The user is viewing a list of NVIDIA RTX A6000 48GB GDDR6 graphics cards on eBay, with prices ranging from \u00a33,550.69 to \u00a33,648.34, and appears to be comparing listings from the seller \"egoods.supply (1420)\" with 99.8% positive feedback.\n\nVisible user-entered text in the application:\n\n- In the VS Code editor (left window):\n  - File path: `C:\\Windows\\system32\\Ramex`\n  - Code block comment: `# block 5 \u6dfb\u52a0\u63cf\u8ff0\u5230json\u4e2d\uff0c\u5e76\u8f93\u51fa\u5230\u6587\u4ef6`\n  - Code block comment: `# block 6 \u8bfb\u53d6\u8f93\u5165\u6587\u4ef6\uff0c\u5e76\u8f93\u51fa\u5230\u6587\u4ef6`\n  - Code block comment: `# block 7 \u8bfb\u53d6\u8f93\u5165\u6587\u4ef6\uff0c\u5e76\u8f93\u51fa\u5230\u6587\u4ef6`\n  - Code block comment: `# block 8 \u8bfb\u53d6\u8f93\u5165\u6587\u4ef6\uff0c\u5e76\u8f93\u51fa\u5230\u6587\u4ef6`\n  - Code block comment: `# block 9 \u8bfb\u53d6\u8f93\u5165\u6587\u4ef6\uff0c\u5e76\u8f93\u51fa\u5230\u6587\u4ef6`\n  - Code block comment: `# block 10 \u8bfb\u53d6\u8f93\u5165\u6587\u4ef6\uff0c\u5e76\u8f93\u51fa\u5230\u6587\u4ef6`\n  -",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 591,
+        "timestamp_sec": 19.7,
+        "latency_sec": 4.94,
+        "frame_description": "The user is scrolling through a list of NVIDIA RTX A6000 graphics cards on eBay, viewing prices and seller information. In the VS Code editor, they are editing a Python script that processes JSON data, specifically working on a function to add descriptions to JSON input files. The script includes comments in Chinese and English, and the user is actively typing or reviewing code related to file handling and JSON manipulation.",
+        "prompt_tokens": 993,
+        "completion_tokens": 83
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 20.03,
+        "latency_sec": 3.42,
+        "frame_description": "The user is scrolling through a list of graphics cards on eBay, viewing prices and seller information for various RTX A6000 models.",
+        "prompt_tokens": 993,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 611,
+        "timestamp_sec": 20.37,
+        "latency_sec": 9.8,
+        "frame_description": "The user is browsing eBay listings for graphics cards, specifically looking at prices and seller information for various RTX A6000 models. The current action involves scrolling through the page to view more product listings.\n\nVisible user-entered text in the applications:\n- In the VS Code editor: `# block 5 \u8fd4\u56de\u7684\u6a21\u578b\u8fd4\u56de\u5230\u4e0a\u4e00\u4e2a` and `# block 5 \u8fd4\u56de\u7684\u6a21\u578b\u8fd4\u56de\u5230\u4e0a\u4e00\u4e2a`\n- In the VS Code editor: `print(\"an error occurred: {e}\")`\n- In the VS Code editor: `add_description_to_json(input_file, i, dict, out_file)`\n- In the VS Code editor: `with open(input_file, 'r', encoding='utf-8') as f:`\n- In the VS Code editor: `for line_number, line in enumerate(f):`\n- In the VS Code editor: `json_obj = json.loads(line)`\n- In the VS Code editor: `json_obj['human_agreement'] = True`\n- In the VS Code editor: `with open(output_file, 'w', encoding='utf-8') as f:`\n- In the VS Code editor: `f.write(json.dumps(json_obj, indent=4))`",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 646,
+        "timestamp_sec": 21.53,
+        "latency_sec": 5.78,
+        "frame_description": "The user is viewing a web browser with multiple tabs open, including one displaying a Google search result for \"cuda toolkit download - Search\", while another tab shows a GitHub repository page. The user has also opened a VS Code window with Python scripts related to GUI_Mobile_Anno and other projects. The user appears to be navigating between these applications, possibly referencing information from the web browser while working on code in VS Code. No specific action is being performed at this moment; the user seems to be in a state of multitasking or reviewing content across different platforms.",
+        "prompt_tokens": 993,
+        "completion_tokens": 113
+      },
+      {
+        "frame_number": 706,
+        "timestamp_sec": 23.53,
+        "latency_sec": 5.01,
+        "frame_description": "The user is interacting with a Google search page, specifically focusing on currency conversion. They are currently selecting \"New Taiwan dollar\" from a dropdown menu that lists various currencies. The search bar contains the text \"509.99\", and the page displays information about converting this amount into different currencies, including the selected \"New Taiwan dollar\". The user appears to be exploring or verifying the conversion rates for the specified amount.",
+        "prompt_tokens": 993,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 941,
+        "timestamp_sec": 31.37,
+        "latency_sec": 3.9,
+        "frame_description": "The user is viewing a Google search result page showing the conversion of 509.99 Pound sterling to 4,661.79 Chinese Yuan, with a graph and related currency conversion links below.",
+        "prompt_tokens": 993,
+        "completion_tokens": 46
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse ebay, then click on the exchange rate loading website, and convert the currency to Chinese Yuan.",
+      "reference_caption": "Browsing eBay for NVIDIA graphics cards and converting USD to Chinese Yuan using Google's currency converter.",
+      "reference_apps": [
+        "edge",
+        "ebay",
+        "google"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 111,
+          "sub_goal": "Continue scrolling down to browse products.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 184,
+          "sub_goal": "Continue scrolling down to browse products.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 339,
+          "sub_goal": "Continue scrolling down to browse products.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 572,
+          "sub_goal": "Scroll through the products.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 651,
+          "sub_goal": "Before clicking, check the exchange rate on the loaded website and find that it has already been loaded.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 715,
+          "sub_goal": "Click on the currency unit to be converted.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 892,
+          "sub_goal": "Chose Chinese Yuan",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent involves browsing and comparing NVIDIA RTX A6000 graphics cards on eBay, while also working on a Python script in VS Code to process JSON data. The timeline shows the user actively engaging with both tasks: viewing product listings on eBay and editing code related to JSON manipulation in VS Code. There are no contradictions between the inferred intent and the timeline details; instead, they align well with the user's actions of multitasking between browsing products and coding."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The details about browsing eBay, working on Python scripts in VS Code, and interacting with Google search results are consistent across both sources. There are no contradictions or fabricated actions noted."
+        },
+        "coverage": {
+          "score": 3.8,
+          "coverage": 0.7,
+          "covered": 7,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline provides a detailed description of the user's actions across various frames, capturing both browsing and coding activities. It effectively conveys specific interactions such as viewing eBay listings, editing Python scripts in VS Code, and performing currency conversions on Google."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The timeline contains multiple frames describing similar actions and contexts, such as browsing eBay listings for NVIDIA RTX A6000 GPUs and editing Python scripts in VS Code. These repetitive descriptions suggest a moderate level of redundancy relative to the timeline's length."
+        }
+      },
+      "composite_score": 16.8,
+      "max_score": 20,
+      "latency_sec": 167.75
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0088,
+        "recall": 0.6863,
+        "f1": 0.0173
+      },
+      "rouge2": {
+        "precision": 0.002,
+        "recall": 0.16,
+        "f1": 0.004
+      },
+      "rougeL": {
+        "precision": 0.0075,
+        "recall": 0.5882,
+        "f1": 0.0148
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0623
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 505.45,
+      "total_vlm_inference_sec": 321.13,
+      "intent_latency_sec": 16.48,
+      "frames_processed": 46,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.98,
+      "median_frame_latency_sec": 5.65,
+      "min_frame_latency_sec": 3.41,
+      "max_frame_latency_sec": 10.13,
+      "avg_description_length_chars": 560.8,
+      "total_prompt_tokens": 51752,
+      "total_completion_tokens": 7313,
+      "avg_completion_tokens_per_sec": 22.1,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is searching for an NVIDIA RTX A6000 graphics card on eBay and converting its price from British pounds to New Taiwan dollars.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.65,
+        "frame_description": "The user is scrolling down the webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 8
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 5.35,
+        "frame_description": "The user is scrolling down on the webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 9
+      },
+      {
+        "frame_number": 22,
+        "timestamp_sec": 0.73,
+        "latency_sec": 6.32,
+        "frame_description": "The user is browsing search results on eBay. There is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 34,
+        "timestamp_sec": 1.13,
+        "latency_sec": 6.67,
+        "frame_description": "The user is scrolling through a web page on eBay displaying search results for graphics cards. \n\nThere is no visible user-entered text in form fields or search bars in the active application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 44,
+        "timestamp_sec": 1.47,
+        "latency_sec": 6.39,
+        "frame_description": "The user is browsing NVIDIA RTX A6000 graphics card listings on eBay.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 54,
+        "timestamp_sec": 1.8,
+        "latency_sec": 6.57,
+        "frame_description": "The user is browsing search results for graphics cards on eBay, with no user-entered text present in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 64,
+        "timestamp_sec": 2.13,
+        "latency_sec": 5.31,
+        "frame_description": "The user is browsing graphics card listings on eBay. No user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 74,
+        "timestamp_sec": 2.47,
+        "latency_sec": 6.26,
+        "frame_description": "The user is browsing search results on eBay.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 9
+      },
+      {
+        "frame_number": 84,
+        "timestamp_sec": 2.8,
+        "latency_sec": 6.35,
+        "frame_description": "The user is hovering the mouse over the text link \"NIVIDA RTX A6000 PASSIVE GPU Cooling Fan Shroud Mounting Accelerator Card\" on the web page.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 94,
+        "timestamp_sec": 3.13,
+        "latency_sec": 6.69,
+        "frame_description": "The user is viewing search results on eBay for graphics cards. \n\nVisible user-entered text in the application's address bar includes:\n- Address bar: `https://www.ebay",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 104,
+        "timestamp_sec": 3.47,
+        "latency_sec": 6.36,
+        "frame_description": "The user is browsing graphics card search results on eBay. There is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 114,
+        "timestamp_sec": 3.8,
+        "latency_sec": 6.86,
+        "frame_description": "The user is browsing search results for Nvidia A6000 graphics cards on eBay. \n\n**User-entered text:**\n* Address bar: `https://www.ebay.co",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 124,
+        "timestamp_sec": 4.13,
+        "latency_sec": 6.47,
+        "frame_description": "+h100&_osacat=0`.\nWait, is there any other input field?\nIn the web browser address bar: \"https://www.ebay.co",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 134,
+        "timestamp_sec": 4.47,
+        "latency_sec": 7.01,
+        "frame_description": "The user is scrolling through the search results on eBay.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 144,
+        "timestamp_sec": 4.8,
+        "latency_sec": 6.96,
+        "frame_description": "The user is scrolling through search results on eBay. There is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 154,
+        "timestamp_sec": 5.13,
+        "latency_sec": 6.43,
+        "frame_description": "The user is browsing eBay search results for graphics cards in Microsoft Edge. There is no visible user-entered text in any active form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 164,
+        "timestamp_sec": 5.47,
+        "latency_sec": 6.48,
+        "frame_description": "The user is scrolling through search results for graphics cards on eBay.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 174,
+        "timestamp_sec": 5.8,
+        "latency_sec": 6.97,
+        "frame_description": "The user is browsing search results for graphics cards on eBay. There is no visible user-entered text in active form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 184,
+        "timestamp_sec": 6.13,
+        "latency_sec": 7.46,
+        "frame_description": "_nkw=nvidia+a6000&_sacat=0&_odkw=nvidia+h100&_osacat=0`.\n\nLet's",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 196,
+        "timestamp_sec": 6.53,
+        "latency_sec": 6.67,
+        "frame_description": "The user is browsing eBay search results for an NVIDIA RTX A6000 graphics card.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 206,
+        "timestamp_sec": 6.87,
+        "latency_sec": 6.52,
+        "frame_description": "The user is scrolling down the search results page on eBay. There is no visible user-entered text in the fields shown.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 216,
+        "timestamp_sec": 7.2,
+        "latency_sec": 6.43,
+        "frame_description": "The user is clicking on the 'New For PNY NVIDIA RTX A6000 48GB GDDR6 Graphics Card VCNRTXA6000-PB' link",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 229,
+        "timestamp_sec": 7.63,
+        "latency_sec": 6.39,
+        "frame_description": "nkw=nvidia+a6000&_sacat=0&_odkw=nvidia+h100&_osacat=0\"\n\nLet'",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 239,
+        "timestamp_sec": 7.97,
+        "latency_sec": 6.88,
+        "frame_description": "The user is scrolling through eBay search results for \"nvidia a6000\" in the web browser. \n\nUser-entered text visible in form fields / address bars:\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 261,
+        "timestamp_sec": 8.7,
+        "latency_sec": 7.89,
+        "frame_description": "):`\netc. But the active window is the browser on the right.\n\nLet's formulate the exact sentence:\n\"The user is browsing eBay search results for graphics",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 271,
+        "timestamp_sec": 9.03,
+        "latency_sec": 6.62,
+        "frame_description": "_nkw=nvidia+a6000&_sacat=0&_odkw=nvidia+h100&_osacat=0`\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 291,
+        "timestamp_sec": 9.7,
+        "latency_sec": 6.57,
+        "frame_description": "The user is browsing search results for graphics cards on eBay in a web browser.\n\n**Visible user-entered text:**\n* Address bar: `https://www.ebay.co.uk/sch",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 301,
+        "timestamp_sec": 10.03,
+        "latency_sec": 6.54,
+        "frame_description": "The user is hovering the mouse pointer over the \"NVIDIA RTX A6000 48GB GDDR6 384-bit GPU Graphics Card NEW\" product listing on eBay.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 322,
+        "timestamp_sec": 10.73,
+        "latency_sec": 6.29,
+        "frame_description": "The user is browsing eBay search results for graphics cards in a web browser. There is no visible user-entered text in any active form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 332,
+        "timestamp_sec": 11.07,
+        "latency_sec": 6.53,
+        "frame_description": "The user is scrolling through product listings on eBay.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 425,
+        "timestamp_sec": 14.17,
+        "latency_sec": 6.04,
+        "frame_description": "The user is browsing search results for graphics cards on eBay.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 435,
+        "timestamp_sec": 14.5,
+        "latency_sec": 6.58,
+        "frame_description": "The user is scrolling through search results for graphics cards on eBay. Visible text entered in the application includes the address bar URL \"https://www.ebay.co.uk/sch/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 471,
+        "timestamp_sec": 15.7,
+        "latency_sec": 6.17,
+        "frame_description": "The user is browsing search results for graphics cards on eBay. No user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 481,
+        "timestamp_sec": 16.03,
+        "latency_sec": 7.36,
+        "frame_description": "The user is browsing search results on eBay for an NVIDIA A6000 graphics card.\n\n**User-entered text:**\n* Address bar: `https://www.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 502,
+        "timestamp_sec": 16.73,
+        "latency_sec": 6.84,
+        "frame_description": "The user is scrolling through the search results for \"nvidia a6000\" on eBay. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 512,
+        "timestamp_sec": 17.07,
+        "latency_sec": 6.83,
+        "frame_description": "The user is browsing search results for graphics cards on eBay. \n\nVisible user-entered text includes:\n- Address bar: `https://www.ebay.co.uk",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 548,
+        "timestamp_sec": 18.27,
+        "latency_sec": 6.83,
+        "frame_description": "_nkw=nvidia+a6000&_sacat=0&_odkw=nvidia+h100&_osacat=0`.\n\nLet",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 558,
+        "timestamp_sec": 18.6,
+        "latency_sec": 7.06,
+        "frame_description": "The user is scrolling through search results for \"nvidia a6000\" on the eBay website. Visible user-entered text includes \"nvidia a6000 for sale\" in the active",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 571,
+        "timestamp_sec": 19.03,
+        "latency_sec": 7.41,
+        "frame_description": "The user is scrolling through search results for graphics cards on the eBay website. There is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 581,
+        "timestamp_sec": 19.37,
+        "latency_sec": 6.85,
+        "frame_description": "...`\nWait, URL bar text is usually included if present in address bar or form fields.\n\nLet's carefully verify the instructions:\n- State the action as a sentence (",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 591,
+        "timestamp_sec": 19.7,
+        "latency_sec": 6.54,
+        "frame_description": "The user is viewing graphics card search results on eBay. \n\n**User-entered text:**\n* Address bar: `https://www.ebay.co.uk/sch/i",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 20.03,
+        "latency_sec": 6.14,
+        "frame_description": "The user is browsing search results on eBay for an NVIDIA RTX A6000 graphics card.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 611,
+        "timestamp_sec": 20.37,
+        "latency_sec": 6.09,
+        "frame_description": "The user is hovering the mouse pointer over the product listing title \"PNY VCNRTXA6000-PB RTX A6000 48GB GD",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 646,
+        "timestamp_sec": 21.53,
+        "latency_sec": 5.89,
+        "frame_description": "The user is searching for \"\u00a3509.99\" on Google in the web browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 706,
+        "timestamp_sec": 23.53,
+        "latency_sec": 6.19,
+        "frame_description": "The user is selecting \"New Taiwan dollar\" from the currency dropdown menu in Google Search. The visible user-entered text in the application fields includes \"509.99\" in the search bar and amount field, and \"20706.15\" in the converted value field.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 941,
+        "timestamp_sec": 31.37,
+        "latency_sec": 6.55,
+        "frame_description": "The user is searching for \"\u00a3509.99\" on Google in the web browser, with \"\u00a3509.99\" in the search bar, \"5",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse ebay, then click on the exchange rate loading website, and convert the currency to Chinese Yuan.",
+      "reference_caption": "Browsing eBay for NVIDIA graphics cards and converting USD to Chinese Yuan using Google's currency converter.",
+      "reference_apps": [
+        "edge",
+        "ebay",
+        "google"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 111,
+          "sub_goal": "Continue scrolling down to browse products.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 184,
+          "sub_goal": "Continue scrolling down to browse products.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 339,
+          "sub_goal": "Continue scrolling down to browse products.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 572,
+          "sub_goal": "Scroll through the products.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 651,
+          "sub_goal": "Before clicking, check the exchange rate on the loaded website and find that it has already been loaded.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 715,
+          "sub_goal": "Click on the currency unit to be converted.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 892,
+          "sub_goal": "Chose Chinese Yuan",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 2,
+          "reasoning": "The AI inferred intent mentions converting currency to New Taiwan dollars instead of Chinese Yuan as specified in the goal and caption. The timeline shows actions consistent with browsing eBay for NVIDIA graphics cards and using Google's currency converter, but it does not mention conversion to New Taiwan dollars. Instead, the user searches for a GBP amount on Google, which aligns with the goal of converting to Chinese Yuan. Therefore, there is a contradiction in the inferred intent regarding the target currency."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. The keyframes indicate that the user scrolled through eBay listings and then navigated to Google for currency conversion, which aligns with frames showing scrolling on eBay and searching on Google. However, there is a contradiction in Frame 706 where it mentions selecting 'New Taiwan dollar' instead of Chinese Yuan as per the ground truth. This specific error affects the accuracy score. The timeline allows answering the static QA consistently, but the MCQA could be answered incorrectly due to the currency conversion discrepancy."
+        },
+        "coverage": {
+          "score": 3.8,
+          "coverage": 0.7,
+          "covered": 7,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "ebay",
+            "google"
+          ],
+          "reasoning": "The AI timeline describes actions related to scrolling and browsing on eBay, which aligns with several keyframes. The timeline also mentions using Google for currency conversion."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI-generated timeline contains numerous repetitive descriptions of actions such as 'scrolling through search results' and 'browsing graphics card listings,' which do not provide new information. These repetitions occur frequently, indicating a significant proportion of redundant entries."
+        }
+      },
+      "composite_score": 10.8,
+      "max_score": 20,
+      "latency_sec": 145.05
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0268,
+        "recall": 0.4902,
+        "f1": 0.0509
+      },
+      "rouge2": {
+        "precision": 0.0107,
+        "recall": 0.2,
+        "f1": 0.0204
+      },
+      "rougeL": {
+        "precision": 0.0215,
+        "recall": 0.3922,
+        "f1": 0.0407
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.017
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 456.67,
+      "total_vlm_inference_sec": 302.26,
+      "intent_latency_sec": 9.32,
+      "frames_processed": 46,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.57,
+      "median_frame_latency_sec": 6.54,
+      "min_frame_latency_sec": 5.31,
+      "max_frame_latency_sec": 7.89,
+      "avg_description_length_chars": 115.0,
+      "total_prompt_tokens": 57329,
+      "total_completion_tokens": 1474,
+      "avg_completion_tokens_per_sec": 4.5
+    }
+  }
+}

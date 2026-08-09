@@ -1,0 +1,693 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/158.mp4",
+  "total_frames": 1294,
+  "fps": 29.99975367281084,
+  "video_length_sec": 43.13,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1294,
+  "frames_processed": 26,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was exploring the University of Washington's graduate program directory to identify specific academic programs and degree options available for application. Their overall goal was to review available programs in disciplines like Computer Science and Information Science without actively filtering or searching for new results.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.81,
+        "frame_description": "The user is viewing the Ph.D. Admissions page for the Paul G. Allen School of Computer Science & Engineering at the University of Washington, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 352,
+        "timestamp_sec": 11.73,
+        "latency_sec": 3.75,
+        "frame_description": "The user is viewing the Ph.D. Admissions page for the Paul G. Allen School of Computer Science & Engineering at the University of Washington, with no active input or text entry occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 362,
+        "timestamp_sec": 12.07,
+        "latency_sec": 3.61,
+        "frame_description": "The user is viewing the Ph.D. admissions page for the Allen School of Computer Science & Engineering at the University of Washington, with no active input or text entry occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 372,
+        "timestamp_sec": 12.4,
+        "latency_sec": 3.93,
+        "frame_description": "The user is viewing the Allen School's Ph.D. admissions page on a web browser, with no active input or text entry occurring. No user-entered text is visible in form fields, search bars, or other interactive elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 382,
+        "timestamp_sec": 12.73,
+        "latency_sec": 3.61,
+        "frame_description": "The user is viewing the Ph.D. admissions page for the Allen School of Computer Science & Engineering at the University of Washington, with no active input or text entry occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 392,
+        "timestamp_sec": 13.07,
+        "latency_sec": 3.69,
+        "frame_description": "The user is viewing the Ph.D. Admissions page for the Paul G. Allen School of Computer Science & Engineering at the University of Washington, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 668,
+        "timestamp_sec": 22.27,
+        "latency_sec": 4.28,
+        "frame_description": "The user is viewing the University of Washington Graduate School website, specifically the \"Find a Program (Autumn 2024 and beyond)\" page, which lists graduate programs and degree options. No user-entered text is visible in any form fields or input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 678,
+        "timestamp_sec": 22.6,
+        "latency_sec": 3.71,
+        "frame_description": "The user is viewing the \"Find a Program (Autumn 2024 and beyond)\" page on the University of Washington Graduate School website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 747,
+        "timestamp_sec": 24.9,
+        "latency_sec": 4.25,
+        "frame_description": "The user is viewing the University of Washington Graduate School website, specifically the \"Find a Program (Autumn 2024 and beyond)\" page, which lists graduate programs and degree options. No user-entered text is visible in form fields or search bars on the current screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 757,
+        "timestamp_sec": 25.23,
+        "latency_sec": 5.65,
+        "frame_description": "The user is browsing the University of Washington's graduate program directory, specifically viewing a list of programs under the \"Accounting\" category. The page displays various accounting-related programs such as \"Accounting (MPAcc) - Seattle,\" \"Accounting (MS in Taxation) - Seattle,\" and others, each with associated email addresses and links to program web pages. The user appears to be exploring these options but has not yet selected or clicked on any specific program. No text is being actively typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 107
+      },
+      {
+        "frame_number": 767,
+        "timestamp_sec": 25.57,
+        "latency_sec": 7.23,
+        "frame_description": "The user is viewing a webpage listing graduate programs at the University of Washington, with filters for campus, program type, and discipline. The page displays various programs such as Accounting, Aeronautics & Astronautics, Anthropology, and others, each with associated email addresses and links to program web pages. There is no active input or typing occurring in the visible interface.\n\nVisible user-entered text includes:\n- In the browser tabs: \"How to download Chrome - Chrome\", \"Google Chrome Web Browser\", \"45 personalities - Search\", \"Midjourney - Style & Keyframes\", \"C/0000000000000000000000000000000",
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      },
+      {
+        "frame_number": 793,
+        "timestamp_sec": 26.43,
+        "latency_sec": 4.45,
+        "frame_description": "The user is scrolling through a list of graduate programs on the University of Washington's website, specifically under the \"Accounting (MPAcc) - Seattle\" section. The page displays various program types and disciplines, with checkboxes for selection. No text is being actively typed by the user in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 803,
+        "timestamp_sec": 26.77,
+        "latency_sec": 5.0,
+        "frame_description": "The user is browsing a list of graduate programs on the University of Washington's website, specifically looking at options under \"Aeronautics & Astronautics\" and other disciplines. The browser is open to a page titled \"Find a Program (Bachelor 2024 - and beyond:)\" with various program listings displayed. No text is being actively typed in any form fields or search bars at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 84
+      },
+      {
+        "frame_number": 836,
+        "timestamp_sec": 27.87,
+        "latency_sec": 9.89,
+        "frame_description": "The user is browsing a list of graduate programs on the University of Washington's website, specifically looking at options under \"Computer Science & Engineering\" and related disciplines. They are scrolling through the list to review different program titles and contact information.\n\nVisible user-entered text in the application includes:\n- In the browser's address bar: \"https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/\"\n- In the browser's tab title: \"Find a Program (Autumn 2024)\"\n- In the browser's tab title: \"Find a Program (Autumn 2024)\"\n- In the browser's tab title: \"Find a Program (Autumn 2024)\"\n- In the browser's tab title: \"Find a Program (Autumn 2024)\"\n- In the browser's tab title: \"Find a Program (Autumn 2024)\"\n- In the browser's tab title: \"Find a Program (Autumn 2024)\"\n- In the browser's tab title: \"Find a Program (Autumn 2024)\"\n- In the browser's tab title:",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 852,
+        "timestamp_sec": 28.4,
+        "latency_sec": 5.72,
+        "frame_description": "The user is viewing a webpage listing graduate programs, specifically focusing on the \"Computer Science & Engineering\" section. The page includes links to various programs such as \"Evening PMP,\" \"PhD,\" and \"Visiting Grad.\" There are also sections for other disciplines like \"Data Science,\" \"Global Innovation Exchange,\" and \"Human Centered Design and Engineering.\" The user appears to be browsing through these options, possibly looking for a specific program to apply to. No text is being actively typed or entered in any form fields on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 110
+      },
+      {
+        "frame_number": 862,
+        "timestamp_sec": 28.73,
+        "latency_sec": 4.71,
+        "frame_description": "The user is viewing a webpage listing various academic programs, with checkboxes next to discipline categories such as \"Educational Specialist,\" \"Grad Non-Matric,\" and \"Computer/Info Science.\" The page appears to be part of a search or filter interface for finding programs, possibly on a university website. No text is being actively typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 888,
+        "timestamp_sec": 29.6,
+        "latency_sec": 4.75,
+        "frame_description": "The user is browsing a list of graduate programs on the GW University website, specifically filtering by \"Computer/Info Science (25)\" and viewing related program links such as \"Computer Science & Engineering - PhD,\" \"Data Science - Interdisciplinary Group (MS in Data Science),\" and others. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 898,
+        "timestamp_sec": 29.93,
+        "latency_sec": 9.86,
+        "frame_description": "The user is viewing a webpage listing various academic programs, specifically focusing on the \"Information School\" section with multiple MSIM (Master of Science in Information Management) program options. The page appears to be part of a larger directory or catalog of educational programs, likely from a university website.\n\nVisible user-entered text in the application includes:\n\n- In the browser's address bar: `https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/`\n- In the search bar at the top of the page: `Global Innovation Exchange (MS in Technology Innovation) GNM`\n- In the email field below the search bar: `msi@uw.edu`\n- In the subject field below the email field: `program web page`\n- In the body of the email: `Human Centered Design and Engineering - Professional (MS in Human Centered Design & Engineering)`\n- In the recipient field below the subject field: `askcd@uw.edu`\n- In the body of the email: `program web page`\n- In the email field below the recipient field: `Human Centered Design and Engineering - Professional (MS in Human Centered Design & Engineering) - G",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 908,
+        "timestamp_sec": 30.27,
+        "latency_sec": 9.86,
+        "frame_description": "The user is viewing a webpage listing various Master's programs in Human Centered Design and Engineering, with categories such as Health Professions, Languages/Literature, Legal Professions, Mathematics/Statistics, Natural Resources, Psychology, Physical Science, Public Admin/Social Svcs, Social Science, Visual/Performing Arts, Other, STEM, and Interdisciplinary. The page includes links to program web pages for each listed program.\n\nVisible user-entered text in the application:\n- In the browser's address bar: \"https://gradschool.uw.edu/programs/find-a-program-summer-2024-and-beyond/\"\n- In the browser's tab: \"Find a Program (Summer 2024)\"\n- In the browser's tab: \"CS 2024\"\n- In the browser's tab: \"KCM 2024\"\n- In the browser's tab: \"All Conference Des...\"\n- In the browser's tab: \"CSLM 2024\"\n- In the browser's tab: \"Apple Mail\"\n- In the browser's tab: \"HotMail\"\n- In the browser's tab: \"Toolhome\"\n- In the browser's tab: \"",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 942,
+        "timestamp_sec": 31.4,
+        "latency_sec": 8.76,
+        "frame_description": "The user is viewing a webpage listing academic programs, specifically focusing on the \"Information School\" section, which includes various Master of Information Science (MSIM) programs with different specializations such as Early-Career, Mid-Career, and Residential options. The page also lists other departments like Design & Engineering, Health Professions, Languages/Literature, Legal Professions, Mathematics/Statistics, Natural Resources, Psychology, Physical Science, Public Admin/Social Svcs, Social Science, Visual/Performing Arts, Other, STEM, and Interdisciplinary studies. Each program entry includes a contact email address and a link to the program's web page.\n\nVisible user-entered text in the application includes:\n- In the address bar: \"https://uw.edu/programs/find-a-program/2024-and-beyond/\"\n- In the search bar at the top of the page: \"find-a-program-2024-and-beyond/\"\n\nNo other text appears to be actively typed or entered by the user in the visible portion of the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 217
+      },
+      {
+        "frame_number": 952,
+        "timestamp_sec": 31.73,
+        "latency_sec": 4.08,
+        "frame_description": "The user is browsing a list of computer science and engineering programs at the University of Washington, with \"Computer/Info Science (25)\" selected under the \"Disciplines\" section. No text is being actively typed or entered in any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 962,
+        "timestamp_sec": 32.07,
+        "latency_sec": 3.85,
+        "frame_description": "The user is viewing a webpage listing graduate programs and degree options, with filters applied for \"Seattle\" and \"Computer/Info Science.\" No text is being actively typed or entered in form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 972,
+        "timestamp_sec": 32.4,
+        "latency_sec": 6.61,
+        "frame_description": "The user is viewing a webpage listing graduate programs and degree options at UW, with filters applied for Seattle campus and Computer/Info Science program type. No active typing or input is occurring; the page displays static content including program names, email addresses, and links. Visible user-entered text includes: \"Graduate Certificate Programs\" (header), \"Seattle (25)\", \"Computer/Info Science (25)\", and various program titles such as \"Business Administration - Foster School of Business - Information Systems MS\", \"Computer Science & Engineering - BS/MS\", etc., along with associated email addresses like \"msis@uw.edu\" and \"maggtm@cs.washington.edu\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 139
+      },
+      {
+        "frame_number": 1278,
+        "timestamp_sec": 42.6,
+        "latency_sec": 4.09,
+        "frame_description": "The user is viewing a webpage listing graduate programs and degree options at the University of Washington, with filters applied for \"Seattle\" and \"Computer/Info Science.\" No text is being actively typed or entered in any form fields or search bars on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1288,
+        "timestamp_sec": 42.93,
+        "latency_sec": 4.06,
+        "frame_description": "The user is viewing the University of Washington Graduate School website, specifically the \"Find a Program (Autumn 2024 and beyond)\" page. No user-entered text is visible in form fields or search bars on the current screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1294,
+        "timestamp_sec": 43.13,
+        "latency_sec": 3.87,
+        "frame_description": "The user is viewing the \"Find a Program (Autumn 2024 and beyond)\" page on the University of Washington Graduate School website, with no active input or text entry occurring at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Return to the project selection interface to view other projects.",
+      "reference_caption": "Navigating the University of Washington's graduate program webpage to filter and select a specific Ph.D. program.",
+      "reference_apps": [
+        "edge",
+        "UW homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 372,
+          "sub_goal": "Scroll down the page to browse information.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 459,
+          "sub_goal": "Scroll up the page to return to the top of the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 624,
+          "sub_goal": "Click the \"return to previous page\" button in the top toolbar to go back to the previous page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 722,
+          "sub_goal": "Click on \"Seattle\" to filter projects in Seattle.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 817,
+          "sub_goal": "Click on computer science, filter projects for CS.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 991,
+          "sub_goal": "Click on \"doctoral\" to filter the doctoral projects.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1208,
+          "sub_goal": "The mouse hovers over the webpage of Information School PhD.",
+          "mouse": "hover",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of exploring graduate programs at the University of Washington, specifically focusing on Information Science. The timeline shows consistent actions related to viewing and interacting with program listings under 'Computer/Info Science,' which supports the prediction that the user might click on a link for more details about the Information School Ph.D. in Information Science. There are no contradictions in the named details (e.g., specific programs or disciplines) between the AI's inferred intent and the timeline."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The frames correctly capture scrolling, clicking, and hovering actions without introducing any fabricated or contradictory details. The timeline supports answering the static QA, sequential-QA, and MCQA questions consistently with their provided answers."
+        },
+        "coverage": {
+          "score": 3.22,
+          "coverage": 0.556,
+          "covered": 5,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            4,
+            7
+          ],
+          "covered_apps": [
+            "UW homepage"
+          ],
+          "reasoning": "The AI timeline describes actions related to viewing and scrolling through web pages, which aligns with some of the keyframe actions. However, specific interactions like clicking or hovering are not explicitly mentioned."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe nearly identical states of viewing the same webpage without any meaningful change, indicating redundancy. However, there are also entries where new information is provided, such as changes in the specific programs being viewed or additional details about user-entered text."
+        }
+      },
+      "composite_score": 16.22,
+      "max_score": 20,
+      "latency_sec": 117.06
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0295,
+        "recall": 0.7042,
+        "f1": 0.0566
+      },
+      "rouge2": {
+        "precision": 0.0077,
+        "recall": 0.1857,
+        "f1": 0.0147
+      },
+      "rougeL": {
+        "precision": 0.0218,
+        "recall": 0.5211,
+        "f1": 0.0419
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0357
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 263.44,
+      "total_vlm_inference_sec": 137.08,
+      "intent_latency_sec": 9.23,
+      "frames_processed": 26,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.27,
+      "median_frame_latency_sec": 4.27,
+      "min_frame_latency_sec": 3.61,
+      "max_frame_latency_sec": 9.89,
+      "avg_description_length_chars": 412.8,
+      "total_prompt_tokens": 27327,
+      "total_completion_tokens": 2437,
+      "avg_completion_tokens_per_sec": 16.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was searching, filtering, and exploring graduate degree and certificate program options on the University of Washington website.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.57,
+        "frame_description": "The user is viewing the Ph.D. Admissions webpage on the Paul G. Allen School of Computer Science & Engineering website with \"https://www.cs.washington.edu/academics/phd/admissions\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 352,
+        "timestamp_sec": 11.73,
+        "latency_sec": 5.19,
+        "frame_description": "The user is viewing the Ph.D. Admissions webpage for the Paul G. Allen School of Computer Science & Engineering, with the address bar containing \"https://www.cs.washington.edu/academics/phd/admissions\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 362,
+        "timestamp_sec": 12.07,
+        "latency_sec": 6.96,
+        "frame_description": "The user is scrolling through the Ph.D. Admissions webpage on the University of Washington website.\n\nVisible user-entered text in the application:\n- Address bar: `\"https://www.cs.washington.edu/academics/phd/admissions\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 372,
+        "timestamp_sec": 12.4,
+        "latency_sec": 7.1,
+        "frame_description": "The user is hovering the mouse cursor over the \"UNIVERSITY of WASHINGTON SAMUEL E. KELLY ETHNIC CULTURAL CENTER Leadership Without Borders\" image on the webpage.\n\n**User-entered text:**\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 382,
+        "timestamp_sec": 12.73,
+        "latency_sec": 5.68,
+        "frame_description": "The user is hovering the mouse cursor over the \"Leadership Without Borders\" link on the webpage. The visible text in the address bar is \"https://www.cs.washington.edu/academics/phd/admissions\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 392,
+        "timestamp_sec": 13.07,
+        "latency_sec": 6.45,
+        "frame_description": "The user is hovering the mouse over the 'Leadership Without Borders' link on the webpage. \n\nThe visible user-entered text in the browser's address bar is \"https://www.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 668,
+        "timestamp_sec": 22.27,
+        "latency_sec": 5.19,
+        "frame_description": "The user is clicking on the 'PROSPECTIVE STUDENTS' link on the webpage.\n\n**Visible user-entered text:**\n* Address bar: `\"https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 678,
+        "timestamp_sec": 22.6,
+        "latency_sec": 6.96,
+        "frame_description": "The user is browsing the \"Find a Program (Autumn 2024 and beyond)\" webpage on the University of Washington website. \n\n**Visible user-entered text:**\n* Address bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 747,
+        "timestamp_sec": 24.9,
+        "latency_sec": 5.98,
+        "frame_description": "The user is viewing a web page on the University of Washington Graduate School website. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 757,
+        "timestamp_sec": 25.23,
+        "latency_sec": 5.68,
+        "frame_description": "The user is clicking on the \"Business (22)\" checkbox on the webpage. \n\nThere is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 767,
+        "timestamp_sec": 25.57,
+        "latency_sec": 4.75,
+        "frame_description": "The user is clicking on the \"Business (22)\" checkbox under the \"Disciplines\" section.\n\nVisible user-entered text in application fields:\n- Address bar: `https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 793,
+        "timestamp_sec": 26.43,
+        "latency_sec": 4.91,
+        "frame_description": "The user is hovering the cursor over the \"Communications (6)\" checkbox option on the webpage. \n\nVisible user-entered text in the application's address bar:\n`https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 803,
+        "timestamp_sec": 26.77,
+        "latency_sec": 4.51,
+        "frame_description": "The user is clicking on the 'Engineering (44)' checkbox.\n\n**User-entered text:** \"https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 836,
+        "timestamp_sec": 27.87,
+        "latency_sec": 5.74,
+        "frame_description": "The user is clicking on the 'Computer/Info Science (25)' checkbox. The visible user-entered text in the address bar is \"https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 852,
+        "timestamp_sec": 28.4,
+        "latency_sec": 6.03,
+        "frame_description": "The user is browsing a webpage listing graduate programs on the University of Washington website.\n\n**User-entered text:**\n* Address bar: `https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 862,
+        "timestamp_sec": 28.73,
+        "latency_sec": 6.15,
+        "frame_description": "The user is selecting the \"Computer/Info Science (25)\" checkbox under Disciplines on the University of Washington graduate program search page. \n\nThe visible user-entered text in the browser's address bar is `\"https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/\"`.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 888,
+        "timestamp_sec": 29.6,
+        "latency_sec": 5.74,
+        "frame_description": "The user is clicking on the 'Health Professions (0)' checkbox.\n\n**Visible user-entered text:**\n- Address bar: `https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 898,
+        "timestamp_sec": 29.93,
+        "latency_sec": 6.36,
+        "frame_description": "The user is browsing a webpage titled \"Find a Program (Autumn 2024 and beyond)\" on the University of Washington website using Microsoft Edge.\n\n**Visible user-entered text:**\n*",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 908,
+        "timestamp_sec": 30.27,
+        "latency_sec": 6.32,
+        "frame_description": "The user is hovering the mouse cursor over \"Other (0)\" on the web page. \n\n**User-entered text:**\n* Address bar: `https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 942,
+        "timestamp_sec": 31.4,
+        "latency_sec": 6.58,
+        "frame_description": "The user is hovering the mouse cursor near the \"STEM (22)\" option on the web page.\n\n**User-entered text:**\n* Address bar: `https://",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 952,
+        "timestamp_sec": 31.73,
+        "latency_sec": 5.41,
+        "frame_description": "The user is browsing a web page with the URL 'https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 962,
+        "timestamp_sec": 32.07,
+        "latency_sec": 6.32,
+        "frame_description": "The user is browsing graduate programs and degree options on a website. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 972,
+        "timestamp_sec": 32.4,
+        "latency_sec": 6.43,
+        "frame_description": "The user is clicking on the 'Certificate (0)' checkbox. \n\nVisible user-entered text in the application includes:\n- Address bar: `https://grad.uw",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1278,
+        "timestamp_sec": 42.6,
+        "latency_sec": 6.33,
+        "frame_description": "The user is browsing graduate degree programs on the University of Washington website.\n\n**Visible user-entered text:**\n* **Address bar:** \"https://grad.uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 1288,
+        "timestamp_sec": 42.93,
+        "latency_sec": 6.11,
+        "frame_description": "The user is viewing the \"Find a Program (Autumn 2024 and beyond)\" page on the University of Washington Graduate School website in a web browser. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1294,
+        "timestamp_sec": 43.13,
+        "latency_sec": 6.95,
+        "frame_description": ".uw.edu/programs/find-a-program/find-a-program-autumn-2024-and-beyond/`\nWait, is the URL considered user",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Return to the project selection interface to view other projects.",
+      "reference_caption": "Navigating the University of Washington's graduate program webpage to filter and select a specific Ph.D. program.",
+      "reference_apps": [
+        "edge",
+        "UW homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 372,
+          "sub_goal": "Scroll down the page to browse information.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 459,
+          "sub_goal": "Scroll up the page to return to the top of the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 624,
+          "sub_goal": "Click the \"return to previous page\" button in the top toolbar to go back to the previous page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 722,
+          "sub_goal": "Click on \"Seattle\" to filter projects in Seattle.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 817,
+          "sub_goal": "Click on computer science, filter projects for CS.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 991,
+          "sub_goal": "Click on \"doctoral\" to filter the doctoral projects.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1208,
+          "sub_goal": "The mouse hovers over the webpage of Information School PhD.",
+          "mouse": "hover",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent of 'searching, filtering, and exploring graduate degree and certificate program options on the University of Washington website' aligns well with the user's actions in the timeline. The user navigates to a page for finding programs, filters by disciplines including 'Computer/Info Science,' which matches the reasoning answer indicating an interest in Information Science. There are no contradictions between the AI's inferred intent and the specific details in the timeline."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The sequence of actions, such as scrolling and clicking on specific elements like 'Seattle' and 'Computer Science', aligns with the ground truth. There are no fabricated or contradicted actions reported. For the STATIC QA, SEQUENTIAL-QA, and MCQA questions, the timeline provides sufficient information to answer them consistently with the given answers."
+        },
+        "coverage": {
+          "score": 1.44,
+          "coverage": 0.111,
+          "covered": 1,
+          "total": 9,
+          "covered_actions": [],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing and interacting with web pages, but it does not match the specific keyframe actions such as scrolling up or down, clicking on specific filters like 'Seattle' or 'doctoral', or using a return button. The timeline mainly covers navigation through different URLs and interactions with checkboxes."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as hovering over links and displaying the same URL in the address bar. These entries do not provide new information about user interactions or webpage content."
+        }
+      },
+      "composite_score": 13.44,
+      "max_score": 20,
+      "latency_sec": 122.66
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0485,
+        "recall": 0.5352,
+        "f1": 0.0889
+      },
+      "rouge2": {
+        "precision": 0.0102,
+        "recall": 0.1143,
+        "f1": 0.0188
+      },
+      "rougeL": {
+        "precision": 0.037,
+        "recall": 0.4085,
+        "f1": 0.0678
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0162
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 282.71,
+      "total_vlm_inference_sec": 154.4,
+      "intent_latency_sec": 5.61,
+      "frames_processed": 26,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.94,
+      "median_frame_latency_sec": 6.07,
+      "min_frame_latency_sec": 4.51,
+      "max_frame_latency_sec": 7.1,
+      "avg_description_length_chars": 183.6,
+      "total_prompt_tokens": 32998,
+      "total_completion_tokens": 1365,
+      "avg_completion_tokens_per_sec": 8.5
+    }
+  }
+}

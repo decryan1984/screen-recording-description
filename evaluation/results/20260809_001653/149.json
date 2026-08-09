@@ -1,0 +1,455 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/149.mp4",
+  "total_frames": 1763,
+  "fps": 30.000499866525,
+  "video_length_sec": 58.77,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1763,
+  "frames_processed": 13,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching the course requirements, degree structure, and enrollment procedures for the Computational Science & Engineering Graduate Concentration at the University of Illinois Urbana-Champaign.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.16,
+        "frame_description": "The user is hovering over the \"Contact Information\" link on the University of Illinois website page for the Computational Science & Engineering Concentration.\n\nNo user-entered text is visible in any form fields, search bars, or input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 38,
+        "timestamp_sec": 1.27,
+        "latency_sec": 5.29,
+        "frame_description": "The user is viewing the \"Computational Science & Engineering Concentration\" page on the Illinois University catalog website, specifically under the \"Degree Requirements\" section. The page lists core courses such as CSE 401 (Numerical Analysis), CSE 402 (Parallel Programming: Sci & Engg), and others, along with computing electives and additional requirements for the graduate concentration. No active typing or input is occurring in the visible interface elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 94
+      },
+      {
+        "frame_number": 76,
+        "timestamp_sec": 2.53,
+        "latency_sec": 7.56,
+        "frame_description": "The user is viewing the \"Computational Science & Engineering Concentration\" page on the Illinois University catalog website, specifically looking at the course requirements for the graduate concentration. The page lists core courses such as CSE 401 (Numerical Analysis), CSE 402 (Parallel Progmg: Sci & Engg), CSE 403 (Applied Parallel Programming), CSE 510 (Numerical Methods for PDEs), and CSE 527 (Scientific Visualization). There is also a section for \"Computing Elective\" and \"Total Hours\" which is 16. The user has not entered any text in form fields or search bars, and there are no active typing actions visible. The desktop background shows various application icons, but the user is currently focused on the browser window displaying the university website.",
+        "prompt_tokens": 993,
+        "completion_tokens": 175
+      },
+      {
+        "frame_number": 87,
+        "timestamp_sec": 2.9,
+        "latency_sec": 6.5,
+        "frame_description": "The user is viewing the \"Computational Science & Engineering Concentration\" page on the University of Illinois website, specifically focusing on the core course requirements for the graduate concentration. The page lists four core courses (CSE 401, CSE 402, CSE 408, CSE 510, CSE 527) and mentions additional requirements such as a thesis or independent study project. There is no active input being performed by the user at this moment \u2014 no text is being typed into any form field, search bar, or other input area. The user appears to be reading or reviewing the content of the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 136
+      },
+      {
+        "frame_number": 98,
+        "timestamp_sec": 3.27,
+        "latency_sec": 6.74,
+        "frame_description": "The user is viewing the \"Computational Science & Engineering Concentration\" page on the University of Illinois website, which outlines course requirements for the graduate concentration. The page lists specific courses such as CSE 401 (Numerical Analysis), CSE 402 (Parallel Programming: Sci & Eng), CSE 403 (Applied Parallel Programming), CSE 404 (Numerical Methods for SciDes), and CSE 527 (Scientific Visualization). It also includes additional requirements for M.S. and Ph.D. thesis work and non-thesis projects. The user has not entered any text into form fields or search bars; all visible text is part of the webpage content.",
+        "prompt_tokens": 993,
+        "completion_tokens": 146
+      },
+      {
+        "frame_number": 109,
+        "timestamp_sec": 3.63,
+        "latency_sec": 6.89,
+        "frame_description": "The user is viewing a webpage on the University of Illinois website, specifically a page detailing course requirements for a concentration in computational science engineering. The page lists core course work options such as CSE 401 (Numerical Analysis), CSE 402 (Parallel Progmg: Sci & Engg), and others, along with computing electives and additional requirements for M.S. and Ph.D. thesis work. There is no active input or typing occurring; the user appears to be reviewing the information presented on the page.\n\nVisible user-entered text: None \u2014 there are no form fields, search bars, or input areas where the user has entered any text. All visible text on the page is static content from the website.",
+        "prompt_tokens": 993,
+        "completion_tokens": 150
+      },
+      {
+        "frame_number": 120,
+        "timestamp_sec": 4.0,
+        "latency_sec": 6.24,
+        "frame_description": "The user is viewing the \"Computational Science & Engineering Concentration\" page on the Illinois.edu website, specifically focusing on the degree requirements for the graduate concentration. The page lists core courses such as CSE 401 (Numerical Analysis), CSE 402 (Parallel Program: Sci & Engg), and others, along with computing electives and additional requirements for the M.S. and Ph.D. thesis. There is no active input or typing occurring in any form fields or search bars on the page. The user appears to be reviewing the information presented on the page rather than interacting with it through input fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 128
+      },
+      {
+        "frame_number": 131,
+        "timestamp_sec": 4.37,
+        "latency_sec": 5.05,
+        "frame_description": "The user is viewing the \"Computational Science & Engineering Concentration\" page on the University of Illinois at Urbana-Champaign's academic catalog website, specifically under the \"Degree Requirements\" section. The page lists core courses, electives, total hours, and additional requirements for the graduate concentration. There is no active input or typing occurring in any form fields or search bars; all visible text is static content from the webpage.",
+        "prompt_tokens": 993,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 142,
+        "timestamp_sec": 4.73,
+        "latency_sec": 5.18,
+        "frame_description": "The user is viewing the \"Computational Science & Engineering Concentration\" page on the University of Illinois Urbana-Champaign's 2024-2025 Course Catalog website. No active typing or input is occurring; the search bar contains the placeholder text \"Search this site,\" and no other form fields are being edited. The user appears to be browsing informational content about the concentration, with no visible interaction beyond passive viewing.",
+        "prompt_tokens": 993,
+        "completion_tokens": 89
+      },
+      {
+        "frame_number": 376,
+        "timestamp_sec": 12.53,
+        "latency_sec": 3.78,
+        "frame_description": "The user is viewing a blank webpage in Google Chrome, with no active text input or typing occurring. No user-entered text is visible in any form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1482,
+        "timestamp_sec": 49.4,
+        "latency_sec": 3.52,
+        "frame_description": "The user is viewing a webpage about the CSE Graduate Concentration at the University of Illinois Urbana-Champaign, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1524,
+        "timestamp_sec": 50.8,
+        "latency_sec": 4.27,
+        "frame_description": "The user is viewing the \"CSE Graduate Concentration\" page on the University of Illinois Urbana-Champaign website, specifically the section detailing the enrollment procedure and completion steps for the CSE Graduate Concentration program. No active typing or input is occurring in any form fields or text areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 1763,
+        "timestamp_sec": 58.77,
+        "latency_sec": 4.23,
+        "frame_description": "The user is viewing the \"CSE Graduate Concentration\" webpage on the University of Illinois Urbana-Champaign website, specifically the section titled \"Graduate Concentration Enrollment Procedure (2 Step Process).\" No text is being actively typed or entered in any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 57
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View the official website of UIUC Computer Science PhD program.",
+      "reference_caption": "Navigating UIUC Computer Science PhD Program's Website to Explore Degree Requirements and Admission Procedures",
+      "reference_apps": [
+        "edge",
+        "UIUC homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Click on \"degree requirement\" to search for the necessary requirements.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 130,
+          "sub_goal": "Then click on \"admission & financial aid\" to see how to apply.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 170,
+          "sub_goal": "Click on the official website of the project.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 513,
+          "sub_goal": "\"Waiting for loading\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1554,
+          "sub_goal": "The website finally loaded.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of researching course requirements, degree structure, and enrollment procedures for the Computational Science & Engineering Graduate Concentration at UIUC. The timeline shows consistent actions focused on viewing detailed sections about core courses, additional requirements, and enrollment procedures without contradictions to these details."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions do not contradict the keyframes or provided answers. The frames describe viewing specific pages related to the Computational Science & Engineering concentration, which aligns with the user's actions of clicking on 'degree requirement' and other sections as per the keyframes. There are no fabricated interactions or incorrect applications mentioned in the descriptions. For the STATIC QA, SEQUENTIAL-QA, and MCQA questions, the timeline provides sufficient context to answer them consistently with the given answers."
+        },
+        "coverage": {
+          "score": 1.57,
+          "coverage": 0.143,
+          "covered": 1,
+          "total": 7,
+          "covered_actions": [],
+          "covered_apps": [
+            "UIUC homepage"
+          ],
+          "reasoning": "The AI timeline describes the user viewing various sections related to the Computational Science & Engineering Concentration on the University of Illinois website, but it does not explicitly mention any mouse clicks or loading actions as described in the keyframes."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of viewing the 'Computational Science & Engineering Concentration' page without significant changes, indicating redundancy. However, there are also distinct updates and transitions to different pages or sections."
+        }
+      },
+      "composite_score": 14.57,
+      "max_score": 20,
+      "latency_sec": 74.54
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0232,
+        "recall": 0.5833,
+        "f1": 0.0446
+      },
+      "rouge2": {
+        "precision": 0.0055,
+        "recall": 0.1429,
+        "f1": 0.0106
+      },
+      "rougeL": {
+        "precision": 0.0199,
+        "recall": 0.5,
+        "f1": 0.0383
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0145
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 147.33,
+      "total_vlm_inference_sec": 69.41,
+      "intent_latency_sec": 3.33,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.34,
+      "median_frame_latency_sec": 5.18,
+      "min_frame_latency_sec": 3.52,
+      "max_frame_latency_sec": 7.56,
+      "avg_description_length_chars": 451.2,
+      "total_prompt_tokens": 14256,
+      "total_completion_tokens": 1278,
+      "avg_completion_tokens_per_sec": 17.9,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was researching degree requirements and contact information for the Computational Science & Engineering graduate concentration at the University of Illinois Urbana-Champaign, ultimately locating and clicking on a contact email link for the program.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.37,
+        "frame_description": "The user is clicking on the 'Contact Information' link.\n\nThe visible user-entered text in the application is:\n- Address bar: `catalog.illinois.edu/graduate/engineering/concentration/computational-science-engineering/#contactinformationtext`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 38,
+        "timestamp_sec": 1.27,
+        "latency_sec": 5.05,
+        "frame_description": "The user is clicking on the \"Degree Requirements\" link.\n\nVisible user-entered text:\nAddress bar: `catalog.illinois.edu/graduate/engineering/concentration/computational-science-engineering/#contactinformationtext`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 76,
+        "timestamp_sec": 2.53,
+        "latency_sec": 6.37,
+        "frame_description": "The user is viewing a web page titled \"Computational Science & Engineering Concentration\" on the Illinois Academic Catalog site with the address `catalog.illinois.edu/graduate/engineering/concentration/computational-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 87,
+        "timestamp_sec": 2.9,
+        "latency_sec": 6.76,
+        "frame_description": "The user is hovering the mouse cursor over \"Applied Parallel Programming\" on the web page.\n\n**Visible user-entered text:**\n* Address bar: `catalog.illinois.edu/graduate/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 98,
+        "timestamp_sec": 3.27,
+        "latency_sec": 6.17,
+        "frame_description": "The user is selecting text on the webpage. \n\n\"catalog.illinois.edu/graduate/engineering/concentration/computational-science-engineering/#degreerequirementstext\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 109,
+        "timestamp_sec": 3.63,
+        "latency_sec": 7.04,
+        "frame_description": "The user is viewing a webpage about computational science and engineering requirements. \n\nThe visible user-entered text in the application is:\n\"catalog.illinois.edu/graduate/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 120,
+        "timestamp_sec": 4.0,
+        "latency_sec": 5.14,
+        "frame_description": "The user is hovering over the 'Contact Information' link on the webpage.\n\n**User-entered text:**\n* Address bar: `catalog.illinois.edu/graduate/engineering/concentration/computational-science-engineering/#degreerequirementstext`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 131,
+        "timestamp_sec": 4.37,
+        "latency_sec": 4.29,
+        "frame_description": "The user is clicking on the 'Admissions & Financial Aid' link on the webpage. \n\nThe visible user-entered text in the application's address bar is:\n\"catalog.illinois.edu/graduate/engineering/concentration/computational-science-engineering/#degreerequirementstext\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 142,
+        "timestamp_sec": 4.73,
+        "latency_sec": 6.65,
+        "frame_description": "The user is viewing the Computational Science & Engineering Concentration page on the University of Illinois Urbana-Champaign website in Google Chrome.\n\nThere is no visible user-entered text in form fields or search bars",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 376,
+        "timestamp_sec": 12.53,
+        "latency_sec": 5.71,
+        "frame_description": "The user is viewing a webpage in Microsoft Edge with the address bar containing \"https://cse.illinois.edu/cse-educational-programs/graduate-concentration/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1482,
+        "timestamp_sec": 49.4,
+        "latency_sec": 6.44,
+        "frame_description": "The user is clicking on \"CSE Graduate Concentration\" in the left navigation menu of the webpage.\n\nVisible user-entered text in the application address bar:\n\"https://cse.ill",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1524,
+        "timestamp_sec": 50.8,
+        "latency_sec": 6.74,
+        "frame_description": "The user is viewing the \"CSE Graduate Concentration\" page on the University of Illinois Urbana-Champaign website.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 1763,
+        "timestamp_sec": 58.77,
+        "latency_sec": 6.06,
+        "frame_description": "The user is clicking on the \"bpcwang@illinois.edu\" email link on the webpage. \n\nThere is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View the official website of UIUC Computer Science PhD program.",
+      "reference_caption": "Navigating UIUC Computer Science PhD Program's Website to Explore Degree Requirements and Admission Procedures",
+      "reference_apps": [
+        "edge",
+        "UIUC homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Click on \"degree requirement\" to search for the necessary requirements.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 130,
+          "sub_goal": "Then click on \"admission & financial aid\" to see how to apply.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 170,
+          "sub_goal": "Click on the official website of the project.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 513,
+          "sub_goal": "\"Waiting for loading\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1554,
+          "sub_goal": "The website finally loaded.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective as both focus on researching degree requirements and contact information for a specific concentration within the UIUC CS PhD program. The timeline shows actions consistent with this, such as clicking on 'Contact Information' and viewing pages related to Computational Science & Engineering Concentration. There are no contradictions in the named details."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the ground truth keyframes. The first click described in Frame 1 is on 'Contact Information' rather than 'degree requirement', which contradicts Keyframe 1. Similarly, Frame 38 correctly describes clicking on 'Degree Requirements', but subsequent frames do not align with the user's navigation as per Keyframe 2 (clicking on 'admission & financial aid'). The AI descriptions also include actions and details not present in the keyframes, such as hovering over 'Applied Parallel Programming' and selecting text, which are fabricated. These inaccuracies affect the ability to answer the STATIC QA consistently since the contact email is associated with a different section than described. For SEQUENTIAL-QA, the timeline does allow for answering it correctly despite the discrepancies in frame descriptions. The MCQA cannot be answered from the AI frame descriptions as they do not provide information about course codes."
+        },
+        "coverage": {
+          "score": 2.71,
+          "coverage": 0.429,
+          "covered": 3,
+          "total": 7,
+          "covered_actions": [
+            1,
+            2
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to clicking and viewing web pages, which align with some of the ground-truth keyframes. However, not all keyframe actions are explicitly described in the timeline."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several instances of redundancy, particularly in repeated descriptions of viewing web pages and hovering over links without significant changes. However, there are also numerous entries that describe distinct actions such as clicking different links or changing the address bar content."
+        }
+      },
+      "composite_score": 11.71,
+      "max_score": 20,
+      "latency_sec": 80.63
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0614,
+        "recall": 0.5833,
+        "f1": 0.1111
+      },
+      "rouge2": {
+        "precision": 0.0235,
+        "recall": 0.2286,
+        "f1": 0.0426
+      },
+      "rougeL": {
+        "precision": 0.0526,
+        "recall": 0.5,
+        "f1": 0.0952
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0083
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 160.55,
+      "total_vlm_inference_sec": 76.79,
+      "intent_latency_sec": 3.1,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.91,
+      "median_frame_latency_sec": 6.17,
+      "min_frame_latency_sec": 4.29,
+      "max_frame_latency_sec": 7.04,
+      "avg_description_length_chars": 189.9,
+      "total_prompt_tokens": 16333,
+      "total_completion_tokens": 596,
+      "avg_completion_tokens_per_sec": 7.2
+    }
+  }
+}

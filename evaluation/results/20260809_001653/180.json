@@ -1,0 +1,545 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/180.mp4",
+  "total_frames": 1168,
+  "fps": 30.00049765380312,
+  "video_length_sec": 38.93,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1168,
+  "frames_processed": 20,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is browsing the EMNLP 2024 conference website to review submission guidelines, including paper topics and mandatory reviewing requirements, without performing any active input or typing actions.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.69,
+        "frame_description": "The user is viewing the \"Call for Main Conference Papers\" page for EMNLP 2024 on their desktop, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 103,
+        "timestamp_sec": 3.43,
+        "latency_sec": 3.54,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference call for main conference papers, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 114,
+        "timestamp_sec": 3.8,
+        "latency_sec": 3.83,
+        "frame_description": "The user is viewing a webpage about EMNLP 2024 conference paper submissions, with no active input or typing occurring. No user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 534,
+        "timestamp_sec": 17.8,
+        "latency_sec": 3.61,
+        "frame_description": "The user is viewing a webpage about EMNLP 2024 conference paper submissions, with no active input or typing occurring in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 545,
+        "timestamp_sec": 18.17,
+        "latency_sec": 4.4,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference, specifically the \"Mandatory Reviewing Workload (NEW!!)\" section, which outlines requirements for authors to commit to reviewing papers. The user has not entered any text into form fields or search bars on this page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 713,
+        "timestamp_sec": 23.77,
+        "latency_sec": 4.38,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference, specifically the \"Mandatory Reviewing Workload (NEW!!)\" section, which outlines requirements for authors to commit to reviewing papers. The user has not entered any text in form fields or search bars on this page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 724,
+        "timestamp_sec": 24.13,
+        "latency_sec": 5.58,
+        "frame_description": "The user is viewing a webpage about paper submission information for the EMNLP 2024 conference, specifically focusing on the \"Mandatory Reviewing Workload (NEW!!)\" section. There is no active input or typing occurring in any form fields or search bars on the screen. The taskbar shows several open applications, including a game launcher (\"Up Next\" and \"Scheduled\"), indicating the user may be multitasking between browsing and gaming. No user-entered text is visible in any active input fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 104
+      },
+      {
+        "frame_number": 755,
+        "timestamp_sec": 25.17,
+        "latency_sec": 3.7,
+        "frame_description": "The user is viewing a webpage about paper submission information for the EMNLP 2024 conference, with no active input or typing occurring in any form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 766,
+        "timestamp_sec": 25.53,
+        "latency_sec": 4.15,
+        "frame_description": "The user is viewing a webpage about EMNLP 2024 conference requirements, specifically the \"Mandatory Reviewing Workload (NEW!!)\" section, while having multiple browser tabs open and a Steam window partially visible on the left side of the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 779,
+        "timestamp_sec": 25.97,
+        "latency_sec": 4.38,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference, specifically the \"Mandatory Reviewing Workload (NEW!!)\" section, which outlines requirements for authors to commit to reviewing papers. The user has not entered any text in form fields or search bars on this page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 790,
+        "timestamp_sec": 26.33,
+        "latency_sec": 4.48,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference call for papers, specifically focusing on submission requirements and topics. The browser is open with multiple tabs, and the user appears to be reading through the content on the main page. No active typing or input actions are observed in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 801,
+        "timestamp_sec": 26.7,
+        "latency_sec": 4.23,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference, specifically the \"Main Conference Papers\" section, which outlines requirements for paper submissions and topics for the conference. The user has not performed any active actions such as clicking or typing in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 825,
+        "timestamp_sec": 27.5,
+        "latency_sec": 4.2,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference, specifically the \"Main Conference Papers\" section, which includes details on paper submission requirements and topics. The user has not entered any text in form fields or search bars visible on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 836,
+        "timestamp_sec": 27.87,
+        "latency_sec": 3.83,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference submission topics, with no active input or typing occurring. No user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 907,
+        "timestamp_sec": 30.23,
+        "latency_sec": 4.65,
+        "frame_description": "The user is viewing a webpage about EMNLP 2024 conference paper submissions, specifically the \"Submission Topics\" section, which lists various areas of focus for the conference. The browser window is open in the background, and the user appears to be browsing or reading the content. No active typing or input actions are visible in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 918,
+        "timestamp_sec": 30.6,
+        "latency_sec": 4.95,
+        "frame_description": "The user is viewing a webpage about EMNLP 2024 conference paper submissions, specifically the \"Submission Topics\" section, which lists various areas of focus for potential paper submissions. The browser is open to the URL `https://2024.emnlp.org/call/main_conference_papers/`. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 82
+      },
+      {
+        "frame_number": 958,
+        "timestamp_sec": 31.93,
+        "latency_sec": 4.75,
+        "frame_description": "The user is viewing the EMNLP 2024 conference submission page, specifically the \"Submission Topics\" section, which lists various areas for paper submissions such as Computational Social Science, Dialogue and Interactive Systems, and others. The page is open in a web browser with multiple tabs, and the user appears to be reviewing the information about the conference's submission guidelines.",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 969,
+        "timestamp_sec": 32.3,
+        "latency_sec": 3.51,
+        "frame_description": "The user is viewing the EMNLP 2024 conference call for papers page in a web browser, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1157,
+        "timestamp_sec": 38.57,
+        "latency_sec": 4.78,
+        "frame_description": "The user is viewing the EMNLP 2024 conference website, specifically the \"Call for Main Conference Papers\" page, which lists relevant topics for the conference. The browser tab title reads \"Call for Main Conference Papers - EMNLP 2024\". No user-entered text is visible in any form fields or search bars on the current page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 1168,
+        "timestamp_sec": 38.93,
+        "latency_sec": 5.01,
+        "frame_description": "The user is viewing a webpage about the EMNLP 2024 conference, specifically the \"Main Conference Papers\" section, which lists various topics and themes for submissions. The page includes details about different tracks such as \"Discourse and Pragmatics,\" \"Low-resource Methods for NLP,\" and others. There is no active input or typing occurring in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 84
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the official website of EMNLP and browse the webpage for the call for conference papers.",
+      "reference_caption": "Navigating the EMNLP 2024 conference website's call for papers section with detailed viewing of submission guidelines and topics.",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "emnlp 2024"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 57,
+          "sub_goal": "Entered the interface for emnlp call for conference paper.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 661,
+          "sub_goal": "Scroll down the page to review the submission guidelines for the paper.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 952,
+          "sub_goal": "View submission topics",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on browsing the EMNLP 2024 conference website to review submission guidelines and topics. The timeline consistently shows the user viewing sections related to paper submissions, including 'Mandatory Reviewing Workload' and 'Submission Topics', without any contradictions in specific details."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The frames correctly identify the sections viewed, such as 'Mandatory Reviewing Workload' and 'Submission Topics', without introducing any fabricated actions or content that contradicts the ground truth. The timeline supports answering the STATIC QA about the unique theme track, SEQUENTIAL-QA regarding the next section after 'Overview', and MCQA on new requirements for paper submission consistently with the provided answers."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 4,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2,
+            3
+          ],
+          "covered_apps": [
+            "emnlp 2024"
+          ],
+          "reasoning": "The AI timeline describes the user viewing various sections related to EMNLP 2024 conference paper submissions, including entering the interface and scrolling through submission guidelines and topics. The actions described in the keyframes are matched by specific frames detailing these activities."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states of viewing a webpage without any meaningful change, indicating redundancy. However, there are also entries with new information about different sections and details on the EMNLP 2024 conference."
+        }
+      },
+      "composite_score": 16.67,
+      "max_score": 20,
+      "latency_sec": 47.84
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0243,
+        "recall": 0.875,
+        "f1": 0.0474
+      },
+      "rouge2": {
+        "precision": 0.0116,
+        "recall": 0.4348,
+        "f1": 0.0226
+      },
+      "rougeL": {
+        "precision": 0.0232,
+        "recall": 0.8333,
+        "f1": 0.0451
+      },
+      "num_sub_goals": 3,
+      "latency_sec": 0.0097
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 137.69,
+      "total_vlm_inference_sec": 85.65,
+      "intent_latency_sec": 4.15,
+      "frames_processed": 20,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.28,
+      "median_frame_latency_sec": 4.3,
+      "min_frame_latency_sec": 3.51,
+      "max_frame_latency_sec": 5.58,
+      "avg_description_length_chars": 267.9,
+      "total_prompt_tokens": 21404,
+      "total_completion_tokens": 1207,
+      "avg_completion_tokens_per_sec": 13.6,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to find and read information regarding the call for main conference papers on the EMNLP 2024 website.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 10.84,
+        "frame_description": "The user is viewing the webpage \"https://2024.emnlp.org/calls/main_conference_papers/\" in a browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 103,
+        "timestamp_sec": 3.43,
+        "latency_sec": 9.44,
+        "frame_description": "The user is viewing the \"Call for Main Conference Papers\" web page on the EMNLP 2024 website in a web browser. There is no visible user-entered text present in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 114,
+        "timestamp_sec": 3.8,
+        "latency_sec": 7.14,
+        "frame_description": "The user is viewing the webpage \"https://2024.emnlp.org/calls/main_conference_papers/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 534,
+        "timestamp_sec": 17.8,
+        "latency_sec": 6.2,
+        "frame_description": "The user is viewing the EMNLP 2024 Call for Main Conference Papers webpage with the URL 'https://2024.emnlp.org/calls/main_conference_papers/'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 545,
+        "timestamp_sec": 18.17,
+        "latency_sec": 4.82,
+        "frame_description": "The user is browsing a webpage titled \"Call for Main Conference Papers\" on the EMNLP 2024 website.\n\n**Visible user-entered text:**\n* Address bar: `\"https://2024.emnlp.org/calls/main_conference_papers/\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 713,
+        "timestamp_sec": 23.77,
+        "latency_sec": 5.52,
+        "frame_description": "The user is browsing a webpage titled \"Call for Main Conference Papers\" on the EMNLP 2024 website. \n\nVisible user-entered text:\n- Address bar: \"https://2024.emnlp.org/calls/main_conference_papers/\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 724,
+        "timestamp_sec": 24.13,
+        "latency_sec": 6.66,
+        "frame_description": "The user is hovering the mouse cursor over text on a webpage. \n\nVisible user-entered text in the application includes the URL in the browser's address bar: \"https://2024.emnlp.org/calls",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 755,
+        "timestamp_sec": 25.17,
+        "latency_sec": 5.21,
+        "frame_description": "The user is viewing a webpage in the web browser. \n\nThe visible user-entered text includes:\n* **Address bar:** `https://2024.emnlp.org/calls/main_conference_papers/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 766,
+        "timestamp_sec": 25.53,
+        "latency_sec": 5.7,
+        "frame_description": "The user is viewing a webpage on a web browser.\n\n**User-entered text:**\n* Address bar: `https://2024.emnlp.org/calls/main_conference_papers/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 779,
+        "timestamp_sec": 25.97,
+        "latency_sec": 7.06,
+        "frame_description": "The user is viewing a webpage in the browser with the URL \"https://2024.emnlp.org/calls/main_conference_papers/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 790,
+        "timestamp_sec": 26.33,
+        "latency_sec": 7.34,
+        "frame_description": "The user is viewing the \"Call for Main Conference Papers\" webpage for EMNLP 2024 in a Microsoft Edge web browser window with the URL \"https://2024.em",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 801,
+        "timestamp_sec": 26.7,
+        "latency_sec": 5.93,
+        "frame_description": "The user is viewing a web page on the EMNLP 2024 website in a web browser.\n\n**User-entered text in the application:**\n* **Address Bar:** `https://2024.emnlp.org/calls/main_conference_papers/`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 825,
+        "timestamp_sec": 27.5,
+        "latency_sec": 6.41,
+        "frame_description": "The user is viewing a web page at \"2024.emnlp.org/calls/main_conference_papers/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 836,
+        "timestamp_sec": 27.87,
+        "latency_sec": 4.45,
+        "frame_description": "The user is viewing a webpage in a web browser. The user-entered text in the address bar is \"https://2024.emnlp.org/calls/main_conference_papers/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 907,
+        "timestamp_sec": 30.23,
+        "latency_sec": 5.69,
+        "frame_description": "The user is viewing a web page with the URL \"https://2024.emnlp.org/calls/main_conference_papers/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 918,
+        "timestamp_sec": 30.6,
+        "latency_sec": 10.2,
+        "frame_description": "The user is browsing the EMNLP 2024 webpage at \"https://2024.emnlp.org/calls/main_conference_papers/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 958,
+        "timestamp_sec": 31.93,
+        "latency_sec": 7.1,
+        "frame_description": "The user is viewing a webpage on a browser with the URL \"https://2024.emnlp.org/calls/main_conference_papers/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 969,
+        "timestamp_sec": 32.3,
+        "latency_sec": 6.84,
+        "frame_description": "The user is viewing a webpage in a web browser.\n\n**User-entered text:**\n* Address bar: `\"https://2024.emnlp.org/calls/main_conference_papers/\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1157,
+        "timestamp_sec": 38.57,
+        "latency_sec": 5.14,
+        "frame_description": "The user is browsing a web page for the EMNLP 2024 conference in the browser. \n\nThe text in the address bar is \"https://2024.emnlp.org/calls/main_conference_papers/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 1168,
+        "timestamp_sec": 38.93,
+        "latency_sec": 5.29,
+        "frame_description": "The user is hovering the mouse cursor over the webpage.\n\n**Visible user-entered text:**\n* Address bar: `\"https://2024.emnlp.org/calls/main_conference_papers/\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the official website of EMNLP and browse the webpage for the call for conference papers.",
+      "reference_caption": "Navigating the EMNLP 2024 conference website's call for papers section with detailed viewing of submission guidelines and topics.",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "emnlp 2024"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 57,
+          "sub_goal": "Entered the interface for emnlp call for conference paper.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 661,
+          "sub_goal": "Scroll down the page to review the submission guidelines for the paper.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 952,
+          "sub_goal": "View submission topics",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on browsing and understanding the call for conference papers section of the EMNLP 2024 website. The timeline consistently shows the user viewing the 'Call for Main Conference Papers' webpage, aligning with the goal and caption. For the reasoning question, the answer 'C' does not contradict any specific detail in the timeline since it pertains to content within the page rather than a visible action or element. For the prediction question, the predicted subsection 'Special Theme: Efficiency in Model Algorithms, Training, and Inference' is plausible given the context of browsing through sections on the webpage, though no explicit mention exists in the timeline."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as per the keyframes. The frames consistently show the user viewing and scrolling through the EMNLP 2024 conference website, matching the described actions in the keyframes. There are no contradictions or fabricated details regarding the application used (web browser) or the specific URL accessed. For the STATIC QA, SEQUENTIAL-QA, and MCQA questions, the timeline provides sufficient information to answer them correctly based on the ground truth provided."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 3,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline consistently describes the user viewing and interacting with the EMNLP 2024 Call for Main Conference Papers webpage, which aligns with the actions described in keyframes 1 and 2. The scrolling action is implied by the repeated viewing of different sections on the same page. The application 'edge' is mentioned as the browser used."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI-generated timeline contains numerous repetitive entries that describe similar actions and states without meaningful changes. The majority of frames simply restate the user's action of viewing a webpage with the same URL, indicating high redundancy."
+        }
+      },
+      "composite_score": 14.0,
+      "max_score": 20,
+      "latency_sec": 53.99
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0307,
+        "recall": 0.625,
+        "f1": 0.0586
+      },
+      "rouge2": {
+        "precision": 0.0082,
+        "recall": 0.1739,
+        "f1": 0.0157
+      },
+      "rougeL": {
+        "precision": 0.0287,
+        "recall": 0.5833,
+        "f1": 0.0547
+      },
+      "num_sub_goals": 3,
+      "latency_sec": 0.0115
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 189.05,
+      "total_vlm_inference_sec": 132.98,
+      "intent_latency_sec": 2.04,
+      "frames_processed": 20,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.65,
+      "median_frame_latency_sec": 6.3,
+      "min_frame_latency_sec": 4.45,
+      "max_frame_latency_sec": 10.84,
+      "avg_description_length_chars": 143.6,
+      "total_prompt_tokens": 25111,
+      "total_completion_tokens": 895,
+      "avg_completion_tokens_per_sec": 6.5
+    }
+  }
+}

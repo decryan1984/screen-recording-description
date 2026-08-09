@@ -1,0 +1,372 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/109.mp4",
+  "total_frames": 948,
+  "fps": 30.00029668014913,
+  "video_length_sec": 31.6,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 948,
+  "frames_processed": 4,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was exploring the CSRankings website to review and compare computer science institution rankings across different years and subfields.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.59,
+        "frame_description": "The user is scrolling through the CS Rankings page, specifically navigating the year selection dropdown menu to view rankings for different years. The visible text in the dropdown includes years from 2004 to 2023, with 2018 currently selected. No new text is being entered by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 347,
+        "timestamp_sec": 11.57,
+        "latency_sec": 4.37,
+        "frame_description": "The user is viewing the CSRankings website, which ranks computer science institutions by publication metrics. The page displays a list of top-ranked universities in various CS subfields such as Artificial Intelligence, Systems, and Theory. The user has not entered any text into form fields or search bars on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 501,
+        "timestamp_sec": 16.7,
+        "latency_sec": 4.16,
+        "frame_description": "The user is viewing the CSRankings website, which displays rankings of computer science institutions. The page shows a list of universities ranked by various metrics such as publications and faculty count. There are no visible user-entered text fields or active typing actions on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 948,
+        "timestamp_sec": 31.6,
+        "latency_sec": 4.43,
+        "frame_description": "The user is viewing the CSRankings website in a web browser, with no active input or typing occurring. The page displays rankings of computer science institutions and researchers across various subfields. No text fields are being edited, and no user-entered text is visible in form fields, search bars, or input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 64
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the csrankings website, search for AI-related school rankings from 2022 to 2024.",
+      "reference_caption": "Navigating AI School Rankings on CSRankings from 2022 to 2024 and Expanding University Details",
+      "reference_apps": [
+        "edge",
+        "google",
+        "csrankings"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 97,
+          "sub_goal": "Click \"off\" to close all query fields.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 126,
+          "sub_goal": "Click on ON in the Ai field to search for the ranking of USA schools in the Ai field.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 469,
+          "sub_goal": "I scrolled through the school rankings and am now looking at ranks 7 through 28.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 519,
+          "sub_goal": "Click on the year selection, choose the starting year for statistics.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 562,
+          "sub_goal": "Click on 2022, and start counting data from 2022.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 606,
+          "sub_goal": "School ranking update",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 825,
+          "sub_goal": "Click on the detailed information of UIUC school.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 847,
+          "sub_goal": "The information of UIUC is detailed.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 922,
+          "sub_goal": "Clicked on the detailed information of CMU, and the information of CMU was expanded.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on exploring and comparing computer science institution rankings, specifically in AI-related subfields. The timeline supports this by showing actions related to navigating and interacting with the CSRankings website for AI school rankings from 2022 to 2024. The reasoning about toggling off query fields aligns with focusing on AI-specific data without other influences, which matches the user's goal of examining AI-related rankings. The prediction about clicking on CMU details is consistent with the timeline showing interactions with university listings."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions do not contradict the keyframes or provided answers. They accurately describe the user's interactions and the state of the CSRankings website without introducing fabricated actions or content. The timeline allows for consistent answers to the QA questions based on the described frames."
+        },
+        "coverage": {
+          "score": 1.33,
+          "coverage": 0.083,
+          "covered": 1,
+          "total": 12,
+          "covered_actions": [],
+          "covered_apps": [
+            "csrankings"
+          ],
+          "reasoning": "The AI timeline describes the user's interaction with the CSRankings website, focusing on viewing and navigating through rankings without specific actions like clicking or selecting options. The timeline does not explicitly mention any mouse clicks or selections corresponding to the keyframes."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames that describe similar states of the CSRankings page without significant changes, indicating redundancy. The descriptions in Frames 1, 501, and 948 are particularly repetitive, focusing on viewing rankings with no new user actions or text entries."
+        }
+      },
+      "composite_score": 13.33,
+      "max_score": 20,
+      "latency_sec": 49.89
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.206,
+        "recall": 0.4457,
+        "f1": 0.2818
+      },
+      "rouge2": {
+        "precision": 0.0404,
+        "recall": 0.0879,
+        "f1": 0.0554
+      },
+      "rougeL": {
+        "precision": 0.1106,
+        "recall": 0.2391,
+        "f1": 0.1512
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0116
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 68.89,
+      "total_vlm_inference_sec": 17.55,
+      "intent_latency_sec": 1.42,
+      "frames_processed": 4,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.39,
+      "median_frame_latency_sec": 4.4,
+      "min_frame_latency_sec": 4.16,
+      "max_frame_latency_sec": 4.59,
+      "avg_description_length_chars": 306.8,
+      "total_prompt_tokens": 4358,
+      "total_completion_tokens": 272,
+      "avg_completion_tokens_per_sec": 14.1,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is using CSRankings to filter and explore computer science program rankings in the United States, specifically focusing on AI-related subfields across different year ranges while inspecting details for specific institutions like UC Berkeley and Carnegie Mellon University.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.25,
+        "frame_description": "The user is selecting \"2019\" from the start year dropdown menu on the CSRankings website. \n\nVisible user-entered text in the application includes:\n- Address bar: `csrankings.org/#/index?all&us`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 347,
+        "timestamp_sec": 11.57,
+        "latency_sec": 4.66,
+        "frame_description": "The user is clicking on the \"Univ. of California - Berkeley\" entry on the CSRankings webpage.\n\n**Visible user-entered text:**\n- Address bar: `https://csrankings.org/#/fromyear/2020/toyear/2024/index?ai&vision&mlmining&nlp&inforet&us`\n- Rank institutions in: `USA`\n- Publications from: `2020`\n- To: `2024`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 108
+      },
+      {
+        "frame_number": 501,
+        "timestamp_sec": 16.7,
+        "latency_sec": 6.62,
+        "frame_description": "The user is viewing the CSRankings website on Microsoft Edge. \n\n**Visible user-entered text:**\n* Address bar: `https://csrankings.org/#/fromyear/2",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 948,
+        "timestamp_sec": 31.6,
+        "latency_sec": 6.07,
+        "frame_description": "The user is clicking on the triangle icon next to \"Carnegie Mellon University\" to expand or collapse its entry on the CSRankings website. The text visible in the address bar is \"https://csrankings.org/#/fromyear/2022/toyear/2024/index?ai&vision&ml&mining&nlp&inforet&us\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 81
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the csrankings website, search for AI-related school rankings from 2022 to 2024.",
+      "reference_caption": "Navigating AI School Rankings on CSRankings from 2022 to 2024 and Expanding University Details",
+      "reference_apps": [
+        "edge",
+        "google",
+        "csrankings"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 97,
+          "sub_goal": "Click \"off\" to close all query fields.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 126,
+          "sub_goal": "Click on ON in the Ai field to search for the ranking of USA schools in the Ai field.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 469,
+          "sub_goal": "I scrolled through the school rankings and am now looking at ranks 7 through 28.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 519,
+          "sub_goal": "Click on the year selection, choose the starting year for statistics.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 562,
+          "sub_goal": "Click on 2022, and start counting data from 2022.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 606,
+          "sub_goal": "School ranking update",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 825,
+          "sub_goal": "Click on the detailed information of UIUC school.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 847,
+          "sub_goal": "The information of UIUC is detailed.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 922,
+          "sub_goal": "Clicked on the detailed information of CMU, and the information of CMU was expanded.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on exploring AI-related school rankings from 2022 to 2024 using CSRankings. The timeline supports this by showing actions like toggling fields and clicking on specific university details, which align with the goal of filtering and examining AI subfields in computer science programs."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. Frame 1 mentions selecting '2019' from a dropdown, which contradicts Keyframe 5 where '2022' is selected. Frame 347 describes clicking on 'Univ. of California - Berkeley', not mentioned in any keyframe. Frame 501 has an incomplete address bar URL and does not match any specific action described in the keyframes. The timeline allows for answering STATIC QA correctly, as it mentions a dropdown box for selecting years. SEQUENTIAL-QA can also be answered consistently since turning on the AI field is mentioned in Keyframe 2. MCQA can be answered correctly because Keyframe 7 specifies UIUC's detailed information was expanded first."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 6,
+          "total": 12,
+          "covered_actions": [
+            4,
+            5,
+            7,
+            9
+          ],
+          "covered_apps": [
+            "csrankings",
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to selecting years, clicking on university entries, and expanding information for universities. These correspond to some of the keyframe actions involving year selection and detailed information clicks."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline includes four distinct frames, each describing a different action or state change. There are no consecutive near-duplicates, as each frame introduces new information about user interactions and changes in the address bar."
+        }
+      },
+      "composite_score": 14.0,
+      "max_score": 20,
+      "latency_sec": 59.38
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2482,
+        "recall": 0.3804,
+        "f1": 0.3004
+      },
+      "rouge2": {
+        "precision": 0.0643,
+        "recall": 0.0989,
+        "f1": 0.0779
+      },
+      "rougeL": {
+        "precision": 0.1277,
+        "recall": 0.1957,
+        "f1": 0.1545
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0074
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 86.74,
+      "total_vlm_inference_sec": 23.6,
+      "intent_latency_sec": 3.75,
+      "frames_processed": 4,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.9,
+      "median_frame_latency_sec": 6.16,
+      "min_frame_latency_sec": 4.66,
+      "max_frame_latency_sec": 6.62,
+      "avg_description_length_chars": 228.5,
+      "total_prompt_tokens": 5190,
+      "total_completion_tokens": 330,
+      "avg_completion_tokens_per_sec": 12.0
+    }
+  }
+}

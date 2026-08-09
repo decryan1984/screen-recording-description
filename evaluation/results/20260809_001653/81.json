@@ -1,0 +1,679 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/81.mp4",
+  "total_frames": 909,
+  "fps": 30.000309409131695,
+  "video_length_sec": 30.3,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 909,
+  "frames_processed": 23,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching their ENFP personality traits and parenting characteristics to finalize their 16 Personalities profile by entering an email address to receive results.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.45,
+        "frame_description": "The user is viewing the \"Campaigners You May Know\" section on the 16 Personalities website, which displays character avatars and names such as Peeta Mellark, Jennifer Keller, Carrie Bradshaw, and Willy Wonka. No user-entered text is visible in the current view.",
+        "prompt_tokens": 993,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 4.26,
+        "frame_description": "The user is viewing the \"Campaigners You May Know\" section on the 16 Personalities website, which displays three characters: Jennifer Keller, Carrie Bradshaw, and Willy Wonka. There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 23,
+        "timestamp_sec": 0.77,
+        "latency_sec": 4.36,
+        "frame_description": "The user is viewing a webpage on the 16 Personalities website, specifically the \"Campaigners You May Know\" section, which displays information about Willy Wonka from Charlie and the Chocolate Factory. There is no active text input or typing occurring in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 55,
+        "timestamp_sec": 1.83,
+        "latency_sec": 4.28,
+        "frame_description": "The user is viewing a webpage on the 16 Personalities website, specifically the \"Campaigners You May Know\" section, featuring a character named \"Willy Wonka\" from \"Charlie and the Chocolate Factory.\" There is no active text input or typing occurring in the visible interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 2.2,
+        "latency_sec": 5.11,
+        "frame_description": "The user is viewing the \"16 Personalities\" website, specifically their profile page for the \"Campaigner\" personality type. The page displays an \"Insight of the Day,\" a promotional banner for the \"Premium Suite,\" and sections titled \"Strengths & Weaknesses\" and \"Campaigners You May Know.\" No user-entered text is visible in form fields, search bars, or active input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 88
+      },
+      {
+        "frame_number": 77,
+        "timestamp_sec": 2.57,
+        "latency_sec": 4.11,
+        "frame_description": "The user is viewing a webpage about ENFP (Campaigner) personality traits on the 16Personalities website, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 88,
+        "timestamp_sec": 2.93,
+        "latency_sec": 3.97,
+        "frame_description": "The user is viewing a webpage about ENFP personalities on the 16 Personalities website, specifically the \"Introduction\" section under \"Explore Your Type.\" There is no active input or text being entered by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 99,
+        "timestamp_sec": 3.3,
+        "latency_sec": 4.09,
+        "frame_description": "The user is viewing the \"Introduction\" page for the ENFP-A / ENFP-T personality type on the 16 Personalities website. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 110,
+        "timestamp_sec": 3.67,
+        "latency_sec": 4.01,
+        "frame_description": "The user is viewing the \"Introduction\" page for the ENFP personality type on the 16 Personalities website, reading about the traits and characteristics of the Campaigner personality.\n\nNo user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 348,
+        "timestamp_sec": 11.6,
+        "latency_sec": 3.59,
+        "frame_description": "The user is viewing the 16 Personalities website, which appears to be loading or displaying a blank page. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 477,
+        "timestamp_sec": 15.9,
+        "latency_sec": 3.62,
+        "frame_description": "The user is viewing a blank page on the 16 Personalities website, with no active input or interaction occurring. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 488,
+        "timestamp_sec": 16.27,
+        "latency_sec": 3.87,
+        "frame_description": "The user is viewing their personality type as \"Campaigner\" with the code \"ENFP-T\" on the 16 Personalities website. There is no active text input or typing occurring in the visible interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 524,
+        "timestamp_sec": 17.47,
+        "latency_sec": 4.53,
+        "frame_description": "The user is viewing their 16 Personalities test results, specifically the \"Energy\" dimension, which shows they are 59% Extraverted. The page displays a description of extraversion and includes navigation options to go back or proceed to the next section. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 535,
+        "timestamp_sec": 17.83,
+        "latency_sec": 4.42,
+        "frame_description": "The user is viewing a webpage in the browser, specifically on the 16 Personalities website, where they are seeing their Mind profile results showing 51% Intuitive and 49% Observant. There is no active text input or typing occurring in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 546,
+        "timestamp_sec": 18.2,
+        "latency_sec": 8.56,
+        "frame_description": "The user is viewing a webpage on the desktop, specifically the \"16 Personalities\" website, and appears to be navigating through a personality test or profile section. The current screen shows a detailed breakdown of the user's \"Tactics\" trait, indicating an 88% score in \"Prospecting.\" There is no active text input or typing occurring in the application at this moment.\n\nVisible user-entered text in the application includes:\n- \"Tactics\" (section title)\n- \"88% Prospecting\" (trait name and score)\n- \"12% JUDGING\" and \"88% PROSPECTING\" (trait percentages)\n- \"Prospecting individuals are very good at improvising and adapting to opportunities. They tend to be flexible nonconformists who value novelty above stability.\" (description text)\n- \"GO BACK\" (navigation button label)\n- \"Next\" (navigation button label)\n\nNo other user-entered text is visible in the application interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 210
+      },
+      {
+        "frame_number": 557,
+        "timestamp_sec": 18.57,
+        "latency_sec": 3.81,
+        "frame_description": "The user is viewing their 16 Personalities test results, specifically the \"Identity\" section showing a 58% Turbulent score. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 568,
+        "timestamp_sec": 18.93,
+        "latency_sec": 4.79,
+        "frame_description": "The user is viewing a webpage on their desktop, specifically the \"One more thing...\" step of a 16 Personalities profile creation process. They have entered \"your@email.com\" into the email field and are considering whether to receive campaigner tips and research insights. The page displays options to send results via email or proceed without it, with navigation controls for moving between steps.",
+        "prompt_tokens": 993,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 681,
+        "timestamp_sec": 22.7,
+        "latency_sec": 4.15,
+        "frame_description": "The user is viewing the \"Campaigner Personality\" page on the 16 Personalities website, specifically the ENFP-A / ENFP-T section. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 782,
+        "timestamp_sec": 26.07,
+        "latency_sec": 9.93,
+        "frame_description": "The user is viewing a webpage about the ENFP personality type, specifically focusing on the \"Parenthood\" section. There is no active input or text being entered by the user in this screenshot. The visible text includes:\n\n- \"16 Personalities\"\n- \"Campaigner Personality\"\n- \"ENFP-A / ENFP-T\"\n- \"WHAT'S THE DIFFERENCE?\"\n- \"Parenthood\"\n- \"For people with the ENFP personality type (Campaigners), one of the great joys of parenthood is sharing their sense of wonder and inspiration with their children. Few things feel more rewarding to ENFP parents than seeing their child light up with curiosity about the world around them, take steps to discover how things work, and use their knowledge to help make society better. These parents do not merely want their children to survive in the world \u2013 they want to inspire them to change it.\"\n- \"ENFP parents also work hard to ensure that their children feel accepted and worthy just as they are. Rather than pressuring their children to look or act a certain way, these personalities encourage their children's creativity and self-expression. Drawing on their own ingenuity and creativity, ENFP parents guide their children to discover and embrace their unique passions and interests",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 793,
+        "timestamp_sec": 26.43,
+        "latency_sec": 3.84,
+        "frame_description": "The user is viewing the \"Parenthood\" section of the 16 Personalities website, which discusses parenting traits for the ENFP personality type. No user-entered text is visible in the current view.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 809,
+        "timestamp_sec": 26.97,
+        "latency_sec": 4.46,
+        "frame_description": "The user is viewing the \"Parenthood\" section of the 16 Personalities website, specifically for the ENFP personality type (Campaigner). The page displays information about parenting styles and characteristics associated with the ENFP personality. There are no visible user-entered text fields or active typing actions in the current view.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 820,
+        "timestamp_sec": 27.33,
+        "latency_sec": 9.91,
+        "frame_description": "The user is viewing a webpage about ENFP personality type, specifically focusing on the \"Parenthood\" section. There is no active input or text being entered by the user at this moment.\n\nVisible user-entered text in the application:\n- In the browser tab: \"Parenthood | ENFP Personality Type\"\n- In the address bar: \"https://www.16personalities.com/enfp-parents\"\n- In the sidebar menu under \"Explore Your Type\": \"Parenthood\" (selected)\n- In the \"Your Results\" section: \"Campaigner\", \"ENFP-T\", \"Diplomat\", \"Social Engagement\"\n- In the bar charts: percentages and labels such as \"50%\", \"41%\", \"EXTRAVERTED\", \"INTROVERTED\", \"51%\", \"49%\", \"INTUITIVE\", \"OBSERVANT\", \"41%\", \"59%\", \"THINKING\", \"FEELING\", \"12%\", \"88%\", \"JUDGING\", \"PROSPECTING\", \"42%\", \"58%\", \"ASSERTIVE\", \"TURBULENT\"\n- In the \"Insight of the Day\" box: \"Campaigners are",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 909,
+        "timestamp_sec": 30.3,
+        "latency_sec": 9.87,
+        "frame_description": "The user is viewing a webpage about ENFP personality type, specifically focusing on the \"Parenthood\" section. There is no active input or typing occurring in any form fields or text areas on the page. The visible user-entered text includes:\n\n- In the browser tabs: \"How to download Chrome - S...\", \"Google Chrome Web Browser\", \"15 personalities - Search\", \"Parenthood | ENFP Personality T...\"\n- In the webpage content: \"16 Personalities\", \"ENFP-A / ENFP-T WHAT'S THE DIFFERENCE?\", \"Explore Your Type\", \"Introduction\", \"Strengths & Weaknesses\", \"Romantic Relationships\", \"Friendships\", \"Parenthood\", \"Career Paths\", \"Workplace Habits\", \"Conclusion\", \"Premium Campaigner Suite\", \"Insight of the Day\", \"Campaigners are the most likely personality type to say physically touching someone, whether it be a hug or a handshake, makes them like that person more.\", \"Parenthood\", \"For people with the ENFP personality type (Campaigners), one of the great joys of parenthood is sharing their sense of wonder and inspiration with their children. Few things feel more rewarding to ENFP parents than seeing their child light up with curiosity about the world",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse through the various functions of the 16 personalities website.",
+      "reference_caption": "Navigating the 16 Personalities Website to Access Profile Sections and Sending Test Results via Email",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 91,
+          "sub_goal": "Slide the page to return to the top of the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 183,
+          "sub_goal": "Click on the \"Friends\" option under your profile.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 288,
+          "sub_goal": "Click on your profile's overview to view my previous personality reports.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 422,
+          "sub_goal": "Jump to the new page and discover that personal basic information has not been filled out yet.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 473,
+          "sub_goal": "Click on the \"return to previous page\" button in the navigation bar to go back to the previous personality test results page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 590,
+          "sub_goal": "Clicked a series of consecutive \"next\" buttons.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 678,
+          "sub_goal": "Enter email, click next.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 690,
+          "sub_goal": "Return to the page for detailed browsing of the personality test.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 819,
+          "sub_goal": "Click on \"parenthood\" on the left side of the page to see the characteristics of my personality as a parent.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent aligns well with the user's underlying objective of exploring ENFP personality traits and parenting characteristics, as evidenced by their navigation through sections like 'Parenthood' on the 16 Personalities website. The timeline supports this inference, showing consistent interaction with relevant content without contradictions to specific details in the reasoning or prediction questions."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions generally align with the keyframes provided. The frames describe interactions such as viewing sections like 'Campaigners You May Know', navigating to 'Parenthood' under ENFP, and entering an email address, which are consistent with the user actions in the keyframes. However, there is no explicit mention of some specific actions like clicking on 'Friends' or returning to a previous page, but these omissions do not contradict the ground truth. The descriptions do not introduce fabricated interactions or incorrect specifics that would mislead the understanding of the sequence of events."
+        },
+        "coverage": {
+          "score": 2.45,
+          "coverage": 0.364,
+          "covered": 4,
+          "total": 11,
+          "covered_actions": [
+            4,
+            7,
+            9
+          ],
+          "covered_apps": [
+            "16 personalities"
+          ],
+          "reasoning": "The AI timeline describes various actions and views on the 16 Personalities website, but it does not explicitly mention all the specific mouse clicks or navigation steps outlined in the keyframes. The timeline provides a general overview of what is being viewed rather than detailing each interaction."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, particularly in sections like 'Campaigners You May Know' and 'Parenthood'. However, there are also distinct updates such as navigation through different sections of the website and specific user interactions."
+        }
+      },
+      "composite_score": 14.45,
+      "max_score": 20,
+      "latency_sec": 120.27
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.058,
+        "recall": 0.7143,
+        "f1": 0.1073
+      },
+      "rouge2": {
+        "precision": 0.0145,
+        "recall": 0.1802,
+        "f1": 0.0269
+      },
+      "rougeL": {
+        "precision": 0.0392,
+        "recall": 0.4821,
+        "f1": 0.0724
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0365
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 252.92,
+      "total_vlm_inference_sec": 117.99,
+      "intent_latency_sec": 14.6,
+      "frames_processed": 23,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.13,
+      "median_frame_latency_sec": 4.28,
+      "min_frame_latency_sec": 3.59,
+      "max_frame_latency_sec": 9.93,
+      "avg_description_length_chars": 386.3,
+      "total_prompt_tokens": 25038,
+      "total_completion_tokens": 2139,
+      "avg_completion_tokens_per_sec": 17.2,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was exploring and researching the ENFP personality profile on the 16Personalities website, with a specific focus on its parenthood characteristics.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.34,
+        "frame_description": "The user is viewing a webpage on 16 Personalities with the URL \"https://www.16personalities.com/enfp-personality\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 4.86,
+        "frame_description": "The user is clicking on the right arrow button in the \"Campaigners You May Know\" section on the webpage.\n\n**User-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-personality`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 23,
+        "timestamp_sec": 0.77,
+        "latency_sec": 6.89,
+        "frame_description": "The user is clicking on the right arrow button on the '16 Personalities' webpage.\n\nVisible user-entered text:\n- Address bar: \"https://www.16personalities",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 55,
+        "timestamp_sec": 1.83,
+        "latency_sec": 5.55,
+        "frame_description": "The user is swiping through the \"Campaigners You May Know\" carousel on the 16Personalities web page. \n\nThe visible user-entered text in the application address bar is:\n* `https://www.16personalities.com/enfp-personality`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 2.2,
+        "latency_sec": 5.27,
+        "frame_description": "The user is viewing the 16Personalities website in Microsoft Edge. The address bar contains the text \"https://www.16personalities.com/enfp-personality\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 77,
+        "timestamp_sec": 2.57,
+        "latency_sec": 6.06,
+        "frame_description": "The user is viewing the 16Personalities website. The visible text in the browser's address bar is \"https://www.16personalities.com/enfp-personality\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 88,
+        "timestamp_sec": 2.93,
+        "latency_sec": 7.23,
+        "frame_description": "The user is browsing a webpage titled \"16 Personalities\" and highlighting or positioning the mouse cursor over the text under the \"Introduction\" section.\n\nThere is no visible user",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 99,
+        "timestamp_sec": 3.3,
+        "latency_sec": 6.24,
+        "frame_description": "The user is clicking on the text \"ORIAH MOUNTAIN DREAMER\". \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 110,
+        "timestamp_sec": 3.67,
+        "latency_sec": 5.46,
+        "frame_description": "The user is viewing the 16Personalities web page for the Campaigner (ENFP) personality type. \n\n**Visible user-entered text:**\n* Address bar: `\"https://www.16personalities.com/enfp-personality\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 348,
+        "timestamp_sec": 11.6,
+        "latency_sec": 5.53,
+        "frame_description": "The user is waiting for the 16Personalities profile page to load. \n\n**User-entered text:**\n* Address bar: `\"https://www.16personalities.com/profile\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 477,
+        "timestamp_sec": 15.9,
+        "latency_sec": 4.09,
+        "frame_description": "The user is clicking on the back button in the browser. The visible user-entered text in the address bar is \"https://www.16personalities.com/enfp-personality\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 488,
+        "timestamp_sec": 16.27,
+        "latency_sec": 6.77,
+        "frame_description": "The user is viewing the \"Campaigner\" (ENFP-T) personality result modal on the 16Personalities website in the Microsoft Edge browser. \n\nThe visible text in the",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 524,
+        "timestamp_sec": 17.47,
+        "latency_sec": 5.05,
+        "frame_description": "The user is clicking on the 'Next' button. The visible user-entered text in the address bar is \"https://www.16personalities.com/enfp-personality\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 535,
+        "timestamp_sec": 17.83,
+        "latency_sec": 4.23,
+        "frame_description": "The user is clicking on the 'Next' button.\n\n**Visible user-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-personality`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 546,
+        "timestamp_sec": 18.2,
+        "latency_sec": 3.75,
+        "frame_description": "The user is clicking on the 'Next' button. \n\nVisible user-entered text:\n- Address bar: \"https://www.16personalities.com/enfp-personality\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 557,
+        "timestamp_sec": 18.57,
+        "latency_sec": 3.76,
+        "frame_description": "The user is clicking on the 'Next' button. \n\nVisible user-entered text:\n- Address bar: \"https://www.16personalities.com/enfp-personality\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 568,
+        "timestamp_sec": 18.93,
+        "latency_sec": 4.72,
+        "frame_description": "The user is clicking on the 'Next' button. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 681,
+        "timestamp_sec": 22.7,
+        "latency_sec": 5.76,
+        "frame_description": "The user is viewing the \"16 Personalities\" webpage. The text present in the address bar is 'https://www.16personalities.com/enfp-personality'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 782,
+        "timestamp_sec": 26.07,
+        "latency_sec": 6.65,
+        "frame_description": "The user is viewing a web page about ENFP parenthood on the 16 Personalities website with the URL \"https://www.16personalities.com/enfp-parents\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 793,
+        "timestamp_sec": 26.43,
+        "latency_sec": 5.9,
+        "frame_description": "The user is viewing the \"Parenthood\" page on the 16Personalities website, with the URL \"https://www.16personalities.com/enfp-parents\" entered in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 809,
+        "timestamp_sec": 26.97,
+        "latency_sec": 5.03,
+        "frame_description": "The user is viewing the 'Parenthood' section of the ENFP personality profile on the 16Personalities website. The visible user-entered text in the address bar is \"https://www.16personalities.com/enfp-parents\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 820,
+        "timestamp_sec": 27.33,
+        "latency_sec": 7.03,
+        "frame_description": "The user is browsing a webpage about ENFP parenthood on the 16Personalities website with the URL \"https://www.16personalities.com/enfp-parents\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 909,
+        "timestamp_sec": 30.3,
+        "latency_sec": 4.93,
+        "frame_description": "The user is viewing the 'Parenthood' page on the 16Personalities website.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse through the various functions of the 16 personalities website.",
+      "reference_caption": "Navigating the 16 Personalities Website to Access Profile Sections and Sending Test Results via Email",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 91,
+          "sub_goal": "Slide the page to return to the top of the page.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 183,
+          "sub_goal": "Click on the \"Friends\" option under your profile.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 288,
+          "sub_goal": "Click on your profile's overview to view my previous personality reports.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 422,
+          "sub_goal": "Jump to the new page and discover that personal basic information has not been filled out yet.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 473,
+          "sub_goal": "Click on the \"return to previous page\" button in the navigation bar to go back to the previous personality test results page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 590,
+          "sub_goal": "Clicked a series of consecutive \"next\" buttons.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 678,
+          "sub_goal": "Enter email, click next.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 690,
+          "sub_goal": "Return to the page for detailed browsing of the personality test.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 819,
+          "sub_goal": "Click on \"parenthood\" on the left side of the page to see the characteristics of my personality as a parent.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent focuses on exploring ENFP parenthood characteristics, which aligns with the user's actions of navigating to and viewing the 'Parenthood' page for ENFP personalities. The timeline supports this by showing the user visiting \"https://www.16personalities.com/enfp-parents\". However, the broader goal was to browse various functions of the website, not just parenthood characteristics. The prediction about returning to a previous page matches the timeline detail where the user clicks 'back' after entering personal information."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The sequence of clicks and navigation aligns well with the ground truth, such as clicking on 'Friends', navigating to 'Overview', and accessing the 'Parenthood' section. There are no fabricated or contradicted actions reported. For the QA questions: the timeline supports the STATIC QA answer about the 'Parenthood' section title; the SEQUENTIAL-QA is consistent with the user's navigation from 'Friends' to 'Overview'; and the MCQA correctly identifies that the user navigated back without filling out personal information."
+        },
+        "coverage": {
+          "score": 3.55,
+          "coverage": 0.636,
+          "covered": 7,
+          "total": 11,
+          "covered_actions": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            9
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, such as clicking buttons and navigating to specific pages. The application 'edge' is mentioned in the context of viewing webpages."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several repetitive entries, particularly regarding actions like clicking on buttons and viewing pages with unchanged URLs. These repetitions occur frequently without significant changes in the user's interaction or new information being presented."
+        }
+      },
+      "composite_score": 13.55,
+      "max_score": 20,
+      "latency_sec": 106.42
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1084,
+        "recall": 0.5179,
+        "f1": 0.1793
+      },
+      "rouge2": {
+        "precision": 0.0262,
+        "recall": 0.1261,
+        "f1": 0.0434
+      },
+      "rougeL": {
+        "precision": 0.0822,
+        "recall": 0.3929,
+        "f1": 0.136
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0163
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 237.03,
+      "total_vlm_inference_sec": 125.1,
+      "intent_latency_sec": 5.47,
+      "frames_processed": 23,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.44,
+      "median_frame_latency_sec": 5.46,
+      "min_frame_latency_sec": 3.75,
+      "max_frame_latency_sec": 7.23,
+      "avg_description_length_chars": 150.7,
+      "total_prompt_tokens": 28997,
+      "total_completion_tokens": 1004,
+      "avg_completion_tokens_per_sec": 7.4
+    }
+  }
+}

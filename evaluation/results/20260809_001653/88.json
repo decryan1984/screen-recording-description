@@ -1,0 +1,474 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/88.mp4",
+  "total_frames": 1304,
+  "fps": 29.999985621172534,
+  "video_length_sec": 43.47,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1304,
+  "frames_processed": 11,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is exploring their 16 Personalities test results to understand their personality traits, specifically focusing on their high scores in Intuition, Feeling, Prospecting, and Turbulent characteristics. After reviewing these details, they entered an email address to save their results and then navigated to the specific \"Campaigner Personality\" page for further information.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.06,
+        "frame_description": "The user is viewing their 16Personalities results, specifically the \"Mind\" section, which shows they are 51% Intuitive and 49% Observant. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 22,
+        "timestamp_sec": 0.73,
+        "latency_sec": 7.47,
+        "frame_description": "The user is viewing a webpage about their 16 Personalities results, specifically the \"Nature\" section which shows they are 59% Feeling. There is no active text input or typing occurring in the visible application window.\n\nVisible text in the application (excluding placeholder text):\n- \"16 Personalities\"\n- \"Your Results\"\n- \"Premium Suite\"\n- \"Specialized Tests\"\n- \"Teams\"\n- \"Resources\"\n- \"Log in\"\n- \"Nature\"\n- \"59% Feeling\"\n- \"41% THINKING\"\n- \"59% FEELING\"\n- \"Feeling individuals value emotional expression and sensitivity. They place a lot of importance on empathy, social harmony, and cooperation.\"\n- \"GO BACK\"\n- \"Next\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 171
+      },
+      {
+        "frame_number": 32,
+        "timestamp_sec": 1.07,
+        "latency_sec": 4.73,
+        "frame_description": "The user is viewing a webpage on the desktop that displays their 16 Personalities test results, specifically highlighting their \"Nature\" score as 59% Feeling. The page includes an illustration of two characters near lockers and text explaining that Feeling individuals value emotional expression and sensitivity. There is no active input field or text being typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 73,
+        "timestamp_sec": 2.43,
+        "latency_sec": 4.33,
+        "frame_description": "The user is viewing a webpage titled \"Introduction | ENFP Personality\" on the 16 Personalities website, specifically looking at the \"Tactics\" section which shows an 88% score for \"Prospecting.\" There is no active text input or typing occurring in the visible interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 83,
+        "timestamp_sec": 2.77,
+        "latency_sec": 4.02,
+        "frame_description": "The user is viewing a webpage about their 16 Personalities results, specifically the \"Tactics\" section which shows an 88% score in \"Prospecting\". There is no active text input or typing occurring in the visible interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 179,
+        "timestamp_sec": 5.97,
+        "latency_sec": 8.65,
+        "frame_description": "The user is viewing the results of a personality test on the 16Personalities website, specifically showing their \"Turbulent\" personality type at 58%. There is no active text input or typing occurring in the application.\n\nVisible user-entered text in the application:\n- \"Identity\" (section title)\n- \"58% Turbulent\" (personality type result)\n- \"42% ASSURATIVE\" (alternative personality type)\n- \"58% TURBULENT\" (highlighted personality type)\n- \"Turbulent individuals are self-conscious and sensitive to stress. They feel a sense of urgency in their emotions and tend to be success-driven, perfectionistic, and eager to improve.\" (description of the Turbulent personality type)\n- \"GO BACK\" (navigation button label)\n- \"Nex\" (button label, likely short for \"Next\")\n\nNo form fields or search bars contain user-entered text. The user is not actively typing anything.",
+        "prompt_tokens": 993,
+        "completion_tokens": 212
+      },
+      {
+        "frame_number": 189,
+        "timestamp_sec": 6.3,
+        "latency_sec": 4.09,
+        "frame_description": "The user is viewing the results of a personality test on the 16Personalities website, specifically seeing their \"Identity\" score as 58% Turbulent. There is no active text input or typing occurring in the application at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1043,
+        "timestamp_sec": 34.77,
+        "latency_sec": 4.82,
+        "frame_description": "The user is viewing a 16 Personalities results page in a web browser, with a modal dialog asking for an email address to save results. The email field contains the text \"your@email.com\". There is also a checkbox option for \"Send me Campaigner tips and research insights\", which is unchecked. The user has not yet interacted with any buttons or checkboxes.",
+        "prompt_tokens": 993,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 1053,
+        "timestamp_sec": 35.1,
+        "latency_sec": 3.55,
+        "frame_description": "The user is viewing a 16 Personalities results page and has entered \"your@email.com\" into the email field to receive a copy of their results.",
+        "prompt_tokens": 993,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 1282,
+        "timestamp_sec": 42.73,
+        "latency_sec": 3.85,
+        "frame_description": "The user is viewing the \"Campaigner Personality\" page on the 16 Personalities website, specifically the ENFP-A / ENFP-T section. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1304,
+        "timestamp_sec": 43.47,
+        "latency_sec": 3.86,
+        "frame_description": "The user is viewing the \"Campaigner Personality\" page on the 16 Personalities website, specifically the ENFP-A / ENFP-T section. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Get the personality test answers and check the results of each item.",
+      "reference_caption": "Navigating through a personality test result and emailing the report before reading a detailed personality analysis.",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 29,
+          "sub_goal": "Click next to view nature, it is a feeling type personality.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 85,
+          "sub_goal": "Click next to view the results of tactics, which is the personality of prospecting.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 192,
+          "sub_goal": "Click next to view the results of identity, which is a turbulent personality.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1043,
+          "sub_goal": "Click \"next\" to open a window for emailing the personality test results.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1092,
+          "sub_goal": "Click on the email input box.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1133,
+          "sub_goal": "Choose the first alternative email.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1171,
+          "sub_goal": "Click \"sent resulting\" to send the test results.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1242,
+          "sub_goal": "Click \"start reading\" to begin reading the detailed personality analysis.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of exploring their personality test results and emailing them. The timeline shows the user navigating through different sections of their personality test results, entering an email address to save these results, and viewing specific pages like 'Tactics' and 'Campaigner Personality.' This matches the goal of getting test answers and checking results before emailing the report. There are no contradictions in the timeline regarding the actions described in the reasoning and prediction questions."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. Frame 1 mentions 'Mind' section results, which is not part of the keyframes; however, it does not contradict them as it could be background context. Frames 22 and 32 correctly describe viewing the 'Nature' aspect, aligning with keyframe 1. Frame 73 and 83 accurately reflect viewing the 'Tactics' aspect, matching keyframe 2. Frame 179 and 189 correctly show viewing the 'Identity' results, consistent with keyframe 3. Frames 1043 and 1053 describe emailing actions that match keyframes 4-7. However, there is no mention of clicking 'start reading' in frame descriptions, which is a missing detail but not an error. The timeline supports answering STATIC QA about the 'Mind' section correctly, as it includes relevant information. SEQUENTIAL-QA can be answered accurately since frames describe viewing 'Nature' and then 'Tactics'. MCQA is also answerable with the correct action of emailing results after viewing 'Identity'."
+        },
+        "coverage": {
+          "score": 3.8,
+          "coverage": 0.7,
+          "covered": 7,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "covered_apps": [
+            "16 personalities"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, specifically those involving clicking to view different sections and entering an email. The applications mentioned are '16 personalities' as indicated by the context."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat information without meaningful change, such as multiple descriptions of viewing the same webpage sections. However, there are also distinct updates and new interactions, like entering an email address."
+        }
+      },
+      "composite_score": 15.8,
+      "max_score": 20,
+      "latency_sec": 76.32
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1025,
+        "recall": 0.7215,
+        "f1": 0.1795
+      },
+      "rouge2": {
+        "precision": 0.0216,
+        "recall": 0.1538,
+        "f1": 0.0379
+      },
+      "rougeL": {
+        "precision": 0.0755,
+        "recall": 0.5316,
+        "f1": 0.1323
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0153
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 141.24,
+      "total_vlm_inference_sec": 53.43,
+      "intent_latency_sec": 11.44,
+      "frames_processed": 11,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.86,
+      "median_frame_latency_sec": 4.09,
+      "min_frame_latency_sec": 3.55,
+      "max_frame_latency_sec": 8.65,
+      "avg_description_length_chars": 330.6,
+      "total_prompt_tokens": 11912,
+      "total_completion_tokens": 935,
+      "avg_completion_tokens_per_sec": 16.2,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is trying to navigate through and complete a personality test on the 16Personalities website.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 5.1,
+        "frame_description": "The user is clicking on the 'GO BACK' button.\n\n**User-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-personality`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 22,
+        "timestamp_sec": 0.73,
+        "latency_sec": 3.3,
+        "frame_description": "The user is clicking on the 'Next' button.\n\nVisible user-entered text:\n- Address bar: `https://www.16personalities.com/enfp-personality`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 32,
+        "timestamp_sec": 1.07,
+        "latency_sec": 5.93,
+        "frame_description": "The user is clicking on the \"Next\" button.\n\n**User-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-personality`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 73,
+        "timestamp_sec": 2.43,
+        "latency_sec": 4.35,
+        "frame_description": "The user is clicking on the 'Next' button. Visible user-entered text in the application includes the URL in the address bar: \"https://www.16personalities.com/enfp-personality\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 83,
+        "timestamp_sec": 2.77,
+        "latency_sec": 4.55,
+        "frame_description": "The user is clicking on the 'Next' button.\n\n visible user-entered text:\n- Address bar: `https://www.16personalities.com/enfp-personality`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 179,
+        "timestamp_sec": 5.97,
+        "latency_sec": 3.76,
+        "frame_description": "The user is clicking on the \"Next\" button. The visible text in the address bar is \"https://www.16personalities.com/enfp-personality\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 189,
+        "timestamp_sec": 6.3,
+        "latency_sec": 3.17,
+        "frame_description": "The user is clicking on the 'Next' button.\n\n**User-entered text:**\n* Address bar: `https://www.16personalities.com/enfp-personality`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1043,
+        "timestamp_sec": 34.77,
+        "latency_sec": 4.26,
+        "frame_description": "The user is clicking on the 'Next' button.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 1053,
+        "timestamp_sec": 35.1,
+        "latency_sec": 4.31,
+        "frame_description": "The user is clicking on the \"Next\" button.\n\nVisible user-entered text:\n- Address bar: `https://www.16personalities.com/enfp-personality`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1282,
+        "timestamp_sec": 42.73,
+        "latency_sec": 3.6,
+        "frame_description": "The user is viewing a webpage on the 16Personalities website. The address bar contains \"https://www.16personalities.com/enfp-personality\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1304,
+        "timestamp_sec": 43.47,
+        "latency_sec": 4.06,
+        "frame_description": "The user is viewing the 16Personalities website. The text present in the browser's address bar is \"https://www.16personalities.com/enfp-personality\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Get the personality test answers and check the results of each item.",
+      "reference_caption": "Navigating through a personality test result and emailing the report before reading a detailed personality analysis.",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 29,
+          "sub_goal": "Click next to view nature, it is a feeling type personality.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 85,
+          "sub_goal": "Click next to view the results of tactics, which is the personality of prospecting.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 192,
+          "sub_goal": "Click next to view the results of identity, which is a turbulent personality.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1043,
+          "sub_goal": "Click \"next\" to open a window for emailing the personality test results.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1092,
+          "sub_goal": "Click on the email input box.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1133,
+          "sub_goal": "Choose the first alternative email.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1171,
+          "sub_goal": "Click \"sent resulting\" to send the test results.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1242,
+          "sub_goal": "Click \"start reading\" to begin reading the detailed personality analysis.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on navigating through a personality test and handling results, including emailing them. The timeline shows consistent actions of clicking 'Next' to progress through the test and viewing result pages, aligning with the goal of getting test answers and checking results. There are no contradictions in specific details like URLs or actions related to sending an email."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions primarily focus on clicking 'Next' buttons without specifying which aspect (Nature, Tactics, Identity) is being viewed at each step. This omission leads to a lack of alignment with the keyframes that detail specific actions and results for each personality test section. The AI descriptions do not contradict the ground truth but fail to provide enough specificity to confirm the sequence of viewing Nature, Tactics, and Identity aspects. For STATIC QA, there is no information in the timeline about the 'Mind' section or percentages, so it cannot be answered correctly. SEQUENTIAL-QA could potentially be inferred from the order of clicks, but without explicit confirmation, it remains uncertain. MCQA can be inferred as correct since clicking 'Next' after Identity leads to emailing results, aligning with keyframe 4."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 5,
+          "total": 10,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "16 personalities"
+          ],
+          "reasoning": "The AI timeline describes multiple 'Next' button clicks, which align with the keyframe actions involving clicking to view different personality results. However, it does not mention any email-related actions or starting to read a detailed analysis."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains multiple consecutive frames where the user clicks on the 'Next' button without any meaningful change in context, indicating redundancy. The address bar URL remains unchanged across these entries, and similar actions are repeated with minimal variation."
+        }
+      },
+      "composite_score": 13.0,
+      "max_score": 20,
+      "latency_sec": 70.83
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1416,
+        "recall": 0.3924,
+        "f1": 0.2081
+      },
+      "rouge2": {
+        "precision": 0.0138,
+        "recall": 0.0385,
+        "f1": 0.0203
+      },
+      "rougeL": {
+        "precision": 0.1187,
+        "recall": 0.3291,
+        "f1": 0.1745
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0047
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 119.05,
+      "total_vlm_inference_sec": 46.39,
+      "intent_latency_sec": 1.8,
+      "frames_processed": 11,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.22,
+      "median_frame_latency_sec": 4.26,
+      "min_frame_latency_sec": 3.17,
+      "max_frame_latency_sec": 5.93,
+      "avg_description_length_chars": 131.5,
+      "total_prompt_tokens": 13771,
+      "total_completion_tokens": 429,
+      "avg_completion_tokens_per_sec": 8.8
+    }
+  }
+}

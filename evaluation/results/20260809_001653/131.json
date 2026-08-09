@@ -1,0 +1,462 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/131.mp4",
+  "total_frames": 1151,
+  "fps": 29.999983709826395,
+  "video_length_sec": 38.37,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1151,
+  "frames_processed": 9,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is exploring the CSRankings website to view and analyze computer science institution rankings based on publications and faculty counts across various subfields such as AI, systems, and theory. Throughout the observed frames, the user interacts with filtering options and reviews data lists without performing any active input or search actions.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.62,
+        "frame_description": "The user is viewing the CSRankings website, which ranks computer science institutions based on publications. The page displays a list of top-ranked universities and their faculty counts, with options to filter by area of study such as Artificial Intelligence, Machine Learning, and more. There are no visible user-entered text fields or active typing actions on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 319,
+        "timestamp_sec": 10.63,
+        "latency_sec": 4.51,
+        "frame_description": "The user is viewing the CS Rankings website, which displays computer science institution rankings. The page shows a list of top institutions ranked by publications and faculty count, with options to filter by various subfields such as artificial intelligence, machine learning, and systems. The user has not entered any text in form fields or search bars on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 329,
+        "timestamp_sec": 10.97,
+        "latency_sec": 4.54,
+        "frame_description": "The user is viewing the CSRankings website in a web browser, with no active input or typing occurring. The page displays rankings of computer science conferences and universities, along with a video about finding CS PhD programs. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 339,
+        "timestamp_sec": 11.3,
+        "latency_sec": 5.97,
+        "frame_description": "The user is viewing a webpage on the desktop that lists computer science rankings by institution, with categories such as \"Theory [off | on]\" and \"Interdisciplinary Areas [off | on]\" on the left side and a ranked list of universities on the right side. The page includes text explaining the ranking methodology and acknowledges sponsors like Stony Brook University and CScRankings. There is also a YouTube video embedded on the page titled \"Finding CS PhD programs to apply to.\" No active typing or input actions are visible; the user appears to be browsing or reviewing the content.",
+        "prompt_tokens": 993,
+        "completion_tokens": 116
+      },
+      {
+        "frame_number": 393,
+        "timestamp_sec": 13.1,
+        "latency_sec": 3.93,
+        "frame_description": "The user is viewing a webpage that lists universities ranked by CS faculty publications, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 403,
+        "timestamp_sec": 13.43,
+        "latency_sec": 4.83,
+        "frame_description": "The user is viewing the CSRankings website, which ranks computer science institutions based on publications. The page displays various categories such as AI, Systems, Theory, and Interdisciplinary Areas, with checkboxes for selecting specific subfields. The user appears to be exploring the rankings, possibly filtering or analyzing data related to computer science institutions. No active typing or input actions are observed in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 413,
+        "timestamp_sec": 13.77,
+        "latency_sec": 4.67,
+        "frame_description": "The user is viewing the CSRankings website, which ranks computer science institutions based on publications and faculty. The page displays a list of top-ranked universities with metrics such as Count, Faculty, and various subcategories like Artificial Intelligence, Systems, Theory, and Interdisciplinary Areas. There are no visible user-entered text fields or active typing actions on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 736,
+        "timestamp_sec": 24.53,
+        "latency_sec": 4.26,
+        "frame_description": "The user is viewing the CS Rankings website, which ranks computer science institutions based on publications. The page displays a list of top-ranked universities in various areas such as Artificial Intelligence, Systems, and Theory. The user has not entered any text into form fields or search bars on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 1151,
+        "timestamp_sec": 38.37,
+        "latency_sec": 3.85,
+        "frame_description": "The user is viewing the CS Rankings website in a web browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 44
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the csrankings website, search for AI-related school rankings, and browse the faculty information for the University of Washington.",
+      "reference_caption": "Navigating CSRankings to Explore University Rankings and Faculty Details in Computer Science",
+      "reference_apps": [
+        "edge",
+        "google",
+        "csrankings"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 85,
+          "sub_goal": "Click on the expand arrow for UIUC to prepare to expand the detailed information for UIUC.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 105,
+          "sub_goal": "Clicked the expand arrow again, from expanded to retracted.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 169,
+          "sub_goal": "Clicked on the arrow of CMU, opened the information of CMU.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 239,
+          "sub_goal": "Clicked on the arrow of CMU again, retracted all the detailed information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 278,
+          "sub_goal": "Clicked on UCSD's information, expanded the detailed information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 348,
+          "sub_goal": "Scrolled down the page a bit.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 365,
+          "sub_goal": "Click on robotics and add robotics to the content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 848,
+          "sub_goal": "Scroll down the page to browse schools ranked 7th to 29th.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 892,
+          "sub_goal": "Click on the small arrow of UW's school to expand the detailed information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1070,
+          "sub_goal": "Scroll down to view detailed teacher information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of exploring university rankings and faculty details on the CSRankings website. The timeline consistently shows the user browsing through various categories and details without contradicting any specific actions related to visiting the site, searching for AI-related school rankings, or viewing faculty information for the University of Washington."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. There are no contradictions or fabricated details; all actions such as clicking arrows to expand/retract information and scrolling align with the ground truth. The timeline supports answering the QA questions consistently, as it captures the sequence of user actions relevant to each question."
+        },
+        "coverage": {
+          "score": 1.31,
+          "coverage": 0.077,
+          "covered": 1,
+          "total": 13,
+          "covered_actions": [],
+          "covered_apps": [
+            "csrankings"
+          ],
+          "reasoning": "The AI timeline describes the user viewing and interacting with the CSRankings website, but it does not specifically mention any mouse clicks or scrolling actions that correspond to the detailed interactions in the keyframes."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of the CSRankings website without significant changes, indicating redundancy. However, there are also entries with new information about different aspects of the page, such as embedded videos and specific categories."
+        }
+      },
+      "composite_score": 14.31,
+      "max_score": 20,
+      "latency_sec": 62.34
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0754,
+        "recall": 0.375,
+        "f1": 0.1256
+      },
+      "rouge2": {
+        "precision": 0.0136,
+        "recall": 0.068,
+        "f1": 0.0226
+      },
+      "rougeL": {
+        "precision": 0.0619,
+        "recall": 0.3077,
+        "f1": 0.1031
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0155
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 106.73,
+      "total_vlm_inference_sec": 41.18,
+      "intent_latency_sec": 3.16,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.58,
+      "median_frame_latency_sec": 4.54,
+      "min_frame_latency_sec": 3.85,
+      "max_frame_latency_sec": 5.97,
+      "avg_description_length_chars": 361.4,
+      "total_prompt_tokens": 9757,
+      "total_completion_tokens": 681,
+      "avg_completion_tokens_per_sec": 15.1,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is using the CSRankings website to view computer science institution rankings filtered by specific subfields and explore details for Rutgers University.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.74,
+        "frame_description": "The user is viewing the computer science rankings on the CSRankings website in Microsoft Edge.\n\n**Visible user-entered text/fields:**\n* Address bar: `\"https://csrankings.org/#/fromyear/2022/toyear/2024/index",
+        "prompt_tokens": 1200,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 319,
+        "timestamp_sec": 10.63,
+        "latency_sec": 5.65,
+        "frame_description": "The user is hovering the text cursor over \"Measurement & perf. analysis\" on the web page. \n\nVisible user-entered text in the application includes:\n* Address bar: `https://csrankings.org/#/fromyear/2022/toyear/2024/index?ai&vision&mlmining&nlp&inforet&us`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 329,
+        "timestamp_sec": 10.97,
+        "latency_sec": 6.17,
+        "frame_description": "The user is browsing the CSRankings website with the address bar displaying \"https://csrankings.org/#/fromyear/2022/toyear/20",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 339,
+        "timestamp_sec": 11.3,
+        "latency_sec": 6.59,
+        "frame_description": "The user is viewing the CSRankings website in a browser window. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 393,
+        "timestamp_sec": 13.1,
+        "latency_sec": 5.3,
+        "frame_description": "The user is browsing the CSRankings website with the cursor positioned on the page. The address bar contains \"https://csrankings.org/#/fromyear/2022/toyear/2024/index?ai&vision&mlmining&nlp&inforet&robotics&us\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 403,
+        "timestamp_sec": 13.43,
+        "latency_sec": 5.04,
+        "frame_description": "The user is viewing the CS Rankings webpage on Microsoft Edge. The text in the browser's address bar is \"https://csrankings.org/#/fromyear/2022/toyear/2024/index?ai&vision&mlmining&nlp&inforet&robotics&us\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 413,
+        "timestamp_sec": 13.77,
+        "latency_sec": 6.43,
+        "frame_description": "The user is viewing the computer science rankings on the CSRankings website in a web browser.\n\n**Visible user-entered text:**\n- Address bar: `https://csrankings.org/#/fromyear/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 736,
+        "timestamp_sec": 24.53,
+        "latency_sec": 5.88,
+        "frame_description": "The user is clicking on the 'Rutgers University' link.\n\nVisible user-entered text in form fields / address bar:\n- Address bar: \"https://csrankings.org/#/fromyear/2022/toyear/2024/index?ai&vision&ml",
+        "prompt_tokens": 1200,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 1151,
+        "timestamp_sec": 38.37,
+        "latency_sec": 5.44,
+        "frame_description": "The user is viewing the CSRankings website, with the URL bar containing \"https://csrankings.org/#/fromyear/2022/toyear/2024/index?ai&vision&ml&mining&nlp&inforet&robotics&us\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 62
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Visit the csrankings website, search for AI-related school rankings, and browse the faculty information for the University of Washington.",
+      "reference_caption": "Navigating CSRankings to Explore University Rankings and Faculty Details in Computer Science",
+      "reference_apps": [
+        "edge",
+        "google",
+        "csrankings"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 85,
+          "sub_goal": "Click on the expand arrow for UIUC to prepare to expand the detailed information for UIUC.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 105,
+          "sub_goal": "Clicked the expand arrow again, from expanded to retracted.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 169,
+          "sub_goal": "Clicked on the arrow of CMU, opened the information of CMU.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 239,
+          "sub_goal": "Clicked on the arrow of CMU again, retracted all the detailed information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 278,
+          "sub_goal": "Clicked on UCSD's information, expanded the detailed information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 348,
+          "sub_goal": "Scrolled down the page a bit.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 365,
+          "sub_goal": "Click on robotics and add robotics to the content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 848,
+          "sub_goal": "Scroll down the page to browse schools ranked 7th to 29th.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 892,
+          "sub_goal": "Click on the small arrow of UW's school to expand the detailed information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1070,
+          "sub_goal": "Scroll down to view detailed teacher information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 2,
+          "reasoning": "The AI inferred intent mentions Rutgers University, which contradicts the user's goal of exploring details for the University of Washington. The timeline shows actions related to browsing and interacting with university rankings but does not mention the University of Washington specifically."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The frames show the user expanding and retracting information for universities, scrolling, and adding 'robotics' to the content filter, which aligns with the keyframe actions. There are no contradictions or fabricated details in the descriptions. For STATIC QA, the timeline supports the answer that after expanding UIUC's information, it was retracted. For SEQUENTIAL-QA, the timeline confirms UCSD's expansion followed by scrolling. The MCQA is supported as 'robotics' was added to the filter."
+        },
+        "coverage": {
+          "score": 1.62,
+          "coverage": 0.154,
+          "covered": 2,
+          "total": 13,
+          "covered_actions": [
+            7
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing and interacting with the CSRankings website, including clicking links and updating the address bar. However, it does not specifically mention expanding or retracting detailed information for specific universities as described in the keyframes."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information about viewing the CSRankings website without significant changes, such as multiple entries describing the user's interaction with the same URL. However, there are also distinct actions like hovering and clicking on specific elements, which add new information."
+        }
+      },
+      "composite_score": 11.62,
+      "max_score": 20,
+      "latency_sec": 71.58
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.109,
+        "recall": 0.2788,
+        "f1": 0.1568
+      },
+      "rouge2": {
+        "precision": 0.0226,
+        "recall": 0.0583,
+        "f1": 0.0326
+      },
+      "rougeL": {
+        "precision": 0.0865,
+        "recall": 0.2212,
+        "f1": 0.1243
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0102
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 126.47,
+      "total_vlm_inference_sec": 53.24,
+      "intent_latency_sec": 1.62,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.92,
+      "median_frame_latency_sec": 5.88,
+      "min_frame_latency_sec": 5.04,
+      "max_frame_latency_sec": 6.74,
+      "avg_description_length_chars": 187.7,
+      "total_prompt_tokens": 11466,
+      "total_completion_tokens": 542,
+      "avg_completion_tokens_per_sec": 9.7
+    }
+  }
+}

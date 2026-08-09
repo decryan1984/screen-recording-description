@@ -1,0 +1,398 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/59.mp4",
+  "total_frames": 1838,
+  "fps": 46.839959225280325,
+  "video_length_sec": 39.24,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1838,
+  "frames_processed": 10,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was browsing their Google Scholar profile and specific research papers to review their academic publications and citation metrics.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 10.65,
+        "frame_description": "The user is viewing the Google Scholar profile page for Zhiqiu Lin, which displays a list of publications with titles, authors, years, and citation counts. The left sidebar shows various folders and files, including \"Overleaf and Conference,\" \"Daily Papers,\" \"Hugging Face,\" \"Video-LLM,\" and others. The top browser bar indicates the user is on the Google Scholar website, and the URL is visible as `https://scholar.google.com/citations?hl=en&user=TFIZ20cAAAAJ&view_op=list_works&sortby=pubdate`. There are no active text inputs or typing actions observed in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 137
+      },
+      {
+        "frame_number": 225,
+        "timestamp_sec": 4.8,
+        "latency_sec": 7.94,
+        "frame_description": "The user is viewing a Google Scholar page for the article \"Revisiting the Role of Language Priors in Vision-Language Models\" by Zhiqiu Lin and others, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 790,
+        "timestamp_sec": 16.87,
+        "latency_sec": 9.1,
+        "frame_description": "The user is viewing a Google Scholar profile page for Zhiqiu Lin, which lists their publications and citation metrics. The browser address bar shows the URL: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=TFIZ2OAAAAJ&sortby=pubdate. No user-entered text is visible in form fields or search bars on the current screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 87
+      },
+      {
+        "frame_number": 928,
+        "timestamp_sec": 19.81,
+        "latency_sec": 8.38,
+        "frame_description": "The user is viewing a Google Scholar profile page for Zhiqiu Lin, which lists academic publications and citation statistics. The page displays a list of papers with titles, authors, publication years, and citation counts. There is no active input or typing occurring in the visible interface elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 944,
+        "timestamp_sec": 20.15,
+        "latency_sec": 9.73,
+        "frame_description": "The user is viewing a Google Scholar profile page for \"Zhiqiu Lin\" at Carnegie Mellon University, which lists their publications and citation metrics. The page displays a list of academic papers with titles, authors, years, and citation counts. On the left sidebar, there are various folders and files related to research projects, including \"Overleaf and Conference,\" \"Daily Papers,\" \"Hugging Face,\" \"Video-LLM,\" and others. The user appears to be browsing through their academic work and possibly organizing or reviewing their research materials.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 110
+      },
+      {
+        "frame_number": 960,
+        "timestamp_sec": 20.5,
+        "latency_sec": 8.91,
+        "frame_description": "The user is viewing a Google Scholar profile page for Zhiqiu Lin, which lists academic publications and citation statistics. The page displays a list of papers with titles, authors, years, and citation counts, along with a bar chart showing citations over time. There is no active input or typing occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 1135,
+        "timestamp_sec": 24.23,
+        "latency_sec": 9.49,
+        "frame_description": "The user is viewing a Google Scholar article titled \"Multimodality helps unimodality: Cross-modal few-shot learning with multimodal models\" by Zhiqui Lin and others, published in 2023. The page displays the abstract, citation count (45), and a small bar chart showing citations over two years (2023 and 2024). There are no visible form fields or input areas where the user is actively typing or entering text.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 100
+      },
+      {
+        "frame_number": 1482,
+        "timestamp_sec": 31.64,
+        "latency_sec": 9.31,
+        "frame_description": "The user is viewing a webpage titled \"Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning With Multimodal Models\" from the CVPR 2023 Open Access Repository. The page includes an abstract and related material links such as [pdf], [supp], [arXiv], and [bibtex]. There is no active input or typing occurring in any form fields or search bars on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 92
+      },
+      {
+        "frame_number": 1548,
+        "timestamp_sec": 33.05,
+        "latency_sec": 9.18,
+        "frame_description": "The user is viewing a webpage titled \"Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning With Multimodal Models\" on the CVPR 2023 Open Access Repository. The page includes an abstract and related material links such as [pdf], [supp], [arXiv], and [bibtex]. There are no visible form fields or input areas where the user has entered text.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 89
+      },
+      {
+        "frame_number": 1838,
+        "timestamp_sec": 39.24,
+        "latency_sec": 9.92,
+        "frame_description": "The user is viewing a research paper titled \"Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning With Multimodal Models\" on the CVPR 2023 Open Access Repository website. The paper's abstract discusses using cross-modal information for efficient learning, particularly in the context of few-shot learning with multimodal models like CLIP. The user appears to be reading the content, as indicated by the scroll position and the visible sections of the paper. There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 114
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Click into a specific paper to view.",
+      "reference_caption": "Navigating through Google Scholar to access a specific research paper on the Computer Vision Foundation repository.",
+      "reference_apps": [
+        "edge",
+        "google scholar"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 81,
+          "sub_goal": "Clicked on his article",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1047,
+          "sub_goal": "Clicked on a paper",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1383,
+          "sub_goal": "Click on the paper, jump to arxiv.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1700,
+          "sub_goal": "Jumped to the homepage of CVF",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both involve accessing and reviewing academic publications. The timeline shows the user navigating through Google Scholar to a specific paper on the Computer Vision Foundation repository, consistent with clicking the '[PDF] from thecvf.com' link. There are no contradictions in the details provided by the timeline regarding the entities involved (e.g., paper title, author)."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence of interactions described in the frames aligns with the user's actions, such as clicking on Zhiqiu Lin's article and navigating to the CVPR 2023 Open Access Repository. There are no fabricated or contradicted actions reported. For the STATIC QA, the description of viewing the citation count is consistent with Frame 1135. The SEQUENTIAL-QA is supported by Frames 944 and 1135, showing the user selecting and accessing detailed information about the paper. The MCQA is also correctly addressed in Frame 1135, where the user views detailed paper information on Google Scholar."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 5,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "google scholar"
+          ],
+          "reasoning": "The AI timeline describes actions related to viewing and navigating through Google Scholar and CVPR Open Access Repository pages, which align with some of the keyframe actions involving clicks and navigation."
+        },
+        "non_repetition": {
+          "score": 4,
+          "reasoning": "The AI timeline contains several frames that describe similar states of viewing a Google Scholar profile page for Zhiqiu Lin, with minor variations in details such as the presence of citation charts. However, there are also distinct transitions to different pages and articles, indicating new information being presented."
+        }
+      },
+      "composite_score": 18.33,
+      "max_score": 20,
+      "latency_sec": 87.3
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0203,
+        "recall": 0.619,
+        "f1": 0.0394
+      },
+      "rouge2": {
+        "precision": 0.0031,
+        "recall": 0.1,
+        "f1": 0.0061
+      },
+      "rougeL": {
+        "precision": 0.0203,
+        "recall": 0.619,
+        "f1": 0.0394
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0098
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 188.27,
+      "total_vlm_inference_sec": 92.61,
+      "intent_latency_sec": 8.33,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.26,
+      "median_frame_latency_sec": 9.25,
+      "min_frame_latency_sec": 7.94,
+      "max_frame_latency_sec": 10.65,
+      "avg_description_length_chars": 397.2,
+      "total_prompt_tokens": 22031,
+      "total_completion_tokens": 920,
+      "avg_completion_tokens_per_sec": 9.7,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to find and view research papers from Zhiqiu Lin's Google Scholar profile.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.15,
+        "frame_description": "The user is viewing the Google Scholar profile page of Zhiqiu Lin.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 225,
+        "timestamp_sec": 4.8,
+        "latency_sec": 4.79,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. There is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 790,
+        "timestamp_sec": 16.87,
+        "latency_sec": 4.64,
+        "frame_description": "The user is clicking on the 'Language models as black-box optimizers for vision-language models' link.\n\nVisible user-entered text:\n- Address bar: \"https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=TFIZ2OcAAAAJ&sortby=pubdate\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 928,
+        "timestamp_sec": 19.81,
+        "latency_sec": 6.88,
+        "frame_description": "The user is hovering the mouse cursor over the link 'Learning with an evolving class ontology'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 944,
+        "timestamp_sec": 20.15,
+        "latency_sec": 5.35,
+        "frame_description": "The user is hovering the cursor over the \"The clear benchmark: Continual learning on real-world imagery\" link.\n\nVisible user-entered text:\n- Address bar: \"https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=TFIZ2OcAAAAJ&sortby=pubdate\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 960,
+        "timestamp_sec": 20.5,
+        "latency_sec": 4.63,
+        "frame_description": "The user is hovering the mouse cursor over the link \"The clear benchmark: Continual learning on real-world imagery\".\n\n**Visible user-entered text:**\n* Address bar: `\"https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=TFIZ2OcAAAAJ&sortby=pubdate\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 1135,
+        "timestamp_sec": 24.23,
+        "latency_sec": 5.44,
+        "frame_description": "The user is hovering the cursor over text on the Google Scholar article page. \n\n**User-entered text:**\n* Address bar: `\"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TF1Z2OcAAAAJ&sortby=pubdate&citation_for_view=TF1Z2OcAAAAJ:eQOLEe2rZwMC\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 90
+      },
+      {
+        "frame_number": 1482,
+        "timestamp_sec": 31.64,
+        "latency_sec": 7.43,
+        "frame_description": "Describe the current action that the user is performing on the desktop. State the action as a sentence (e.g. 'The user is clicking on the 'send' button.'). Quote ALL visible user",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1548,
+        "timestamp_sec": 33.05,
+        "latency_sec": 6.5,
+        "frame_description": "The user is hovering the mouse cursor over the bookmarks bar at the top of the browser window. \n\n**User-entered text:**\n\"https://openaccess.thecvf.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1838,
+        "timestamp_sec": 39.24,
+        "latency_sec": 6.05,
+        "frame_description": "The user is viewing a webpage titled \"Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning With Multimodal Models\". \n\nVisible user-entered text in the address bar:\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Click into a specific paper to view.",
+      "reference_caption": "Navigating through Google Scholar to access a specific research paper on the Computer Vision Foundation repository.",
+      "reference_apps": [
+        "edge",
+        "google scholar"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 81,
+          "sub_goal": "Clicked on his article",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1047,
+          "sub_goal": "Clicked on a paper",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1383,
+          "sub_goal": "Click on the paper, jump to arxiv.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1700,
+          "sub_goal": "Jumped to the homepage of CVF",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on accessing a specific research paper from Zhiqiu Lin's Google Scholar profile. The timeline shows the user navigating to and clicking on links related to papers, culminating in visiting 'the clear benchmark: Continual learning on real-world imagery' link, which aligns with the goal of viewing a specific paper. There are no contradictions between the timeline details and the answers provided."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The user's interactions align with clicking on articles and navigating to specific pages, consistent with the ground truth. There are no fabricated actions or contradictions in the descriptions. For STATIC QA, the timeline does not provide direct information about citation counts but does not contradict the answer either. SEQUENTIAL-QA is supported by the keyframes showing navigation through Google Scholar to access a paper. MCQA is also consistent as the user viewed detailed paper information on Google Scholar before accessing the full paper."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 3,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2
+          ],
+          "covered_apps": [
+            "google scholar"
+          ],
+          "reasoning": "The AI timeline describes actions related to clicking and hovering over links on Google Scholar, which aligns with some of the keyframe actions. However, not all keyframe actions are explicitly described in the timeline."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames where the user is hovering over links without any change in action, such as Frames 790 and 928-960. These entries repeat similar actions with no meaningful change, indicating redundancy. However, there are also distinct actions like clicking a link or changing the address bar content that add new information."
+        }
+      },
+      "composite_score": 16.0,
+      "max_score": 20,
+      "latency_sec": 76.56
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0338,
+        "recall": 0.4762,
+        "f1": 0.0631
+      },
+      "rouge2": {
+        "precision": 0.0102,
+        "recall": 0.15,
+        "f1": 0.019
+      },
+      "rougeL": {
+        "precision": 0.0338,
+        "recall": 0.4762,
+        "f1": 0.0631
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0033
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 137.44,
+      "total_vlm_inference_sec": 58.86,
+      "intent_latency_sec": 1.98,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.89,
+      "median_frame_latency_sec": 5.75,
+      "min_frame_latency_sec": 4.63,
+      "max_frame_latency_sec": 7.43,
+      "avg_description_length_chars": 182.2,
+      "total_prompt_tokens": 12665,
+      "total_completion_tokens": 528,
+      "avg_completion_tokens_per_sec": 8.6
+    }
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/472.mov",
+  "total_frames": 1493,
+  "fps": 46.748285687447165,
+  "video_length_sec": 31.94,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1493,
+  "frames_processed": 7,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is attempting to generate music lyrics about academic conferences and paper submissions using ChatGPT, then reviewing the output and asking for clarification on the music style.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 8.78,
+        "frame_description": "The user is typing in the input field of the ChatGPT interface, entering the text: \"write music lyrics for me. Here is the key words: aaai, jcai, cvpr, ACL, NAACL, ICML, ICLR, ICCV, ECCV, ARR, In proceeding paper, submit\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 986,
+        "timestamp_sec": 21.09,
+        "latency_sec": 8.68,
+        "frame_description": "The user is viewing a chat conversation with ChatGPT where the AI has generated music lyrics based on provided keywords related to academic conferences and submissions. The chat interface shows the user's initial prompt and the AI's response, which includes verses, a chorus, and a bridge. There is no active typing or input from the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1130,
+        "timestamp_sec": 24.17,
+        "latency_sec": 10.86,
+        "frame_description": "The user is viewing a chat interface where ChatGPT has generated music lyrics based on provided keywords. The current action involves reading or reviewing the generated lyrics displayed in the main chat area.\n\nVisible user-entered text includes:\n- In the chat history: \"write music lyrics for me. Here is the key words: aaai, ijcai, cvpr, ACL, NAACL, ICML, ICLR, ICCV, ECCV, ARR. In proceeding paper, submitted, good luck, 2024\"\n- Placeholder text in the input field: \"Message ChatGPT...\"\n\nNo new text is being actively typed at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 136
+      },
+      {
+        "frame_number": 1160,
+        "timestamp_sec": 24.81,
+        "latency_sec": 7.89,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the model has generated a poem about academic conferences. The user has not entered any text in the input field at the bottom of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1178,
+        "timestamp_sec": 25.2,
+        "latency_sec": 7.5,
+        "frame_description": "The user is typing in the message input field of the ChatGPT interface. The visible user-entered text is \"Message ChatGPT...\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 1194,
+        "timestamp_sec": 25.54,
+        "latency_sec": 9.35,
+        "frame_description": "The user is typing in the message input field of the ChatGPT interface. The visible user-entered text includes the poem displayed in the chat history, which contains lines such as \"In the heart of 2024, we're pushing boundaries, we soar,\" and other verses and choruses related to academic conferences like ICML, ICLR, ECCV, and ARR. The current action involves the user actively composing or reviewing this content within the chat.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 1493,
+        "timestamp_sec": 31.94,
+        "latency_sec": 7.33,
+        "frame_description": "The user is typing \"what type of music\" in the input field of the ChatGPT interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 22
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Let chatgpt write songs.",
+      "reference_caption": "User employs ChatGPT to create a song with lyrics that integrate tech conference acronyms, showcasing the AI's creative capabilities.",
+      "reference_apps": [
+        "edge",
+        "openai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 50,
+          "sub_goal": "Have chatgpt generate lyrics for a song using the given keywords.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1225,
+          "sub_goal": "ChatGPT has generated lyrics according to my request.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1465,
+          "sub_goal": "Translate: \"Type of music for the song chatgpt\"",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "what type of music"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective as both involve using ChatGPT to generate creative content, specifically music lyrics related to academic conferences. The timeline shows the user actively engaging with ChatGPT to create and refine song lyrics, aligning with the goal of showcasing AI's creative capabilities. There are no contradictions in the timeline regarding the specifics of the task or the entities involved."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes. The descriptions correctly capture the user's interactions, such as typing requests for lyrics and music type into ChatGPT, and viewing generated content. There are no contradictions or fabricated actions in the descriptions compared to the ground truth keyframes. However, there is a minor discrepancy: Frame 986 mentions 'ijcai' instead of 'jcai', which could be considered an error but does not significantly impact overall accuracy."
+        },
+        "coverage": {
+          "score": 4.2,
+          "coverage": 0.8,
+          "covered": 4,
+          "total": 5,
+          "covered_actions": [
+            1,
+            2,
+            3
+          ],
+          "covered_apps": [
+            "openai"
+          ],
+          "reasoning": "The AI timeline describes the user interacting with ChatGPT to generate lyrics and then typing a query about music type, which aligns with some keyframe actions. The timeline does not mention using an application named 'edge'."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of viewing generated content without significant changes in user interaction, indicating redundancy. However, there are also distinct actions such as typing and receiving new responses."
+        }
+      },
+      "composite_score": 16.2,
+      "max_score": 20,
+      "latency_sec": 61.01
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0542,
+        "recall": 0.6667,
+        "f1": 0.1003
+      },
+      "rouge2": {
+        "precision": 0.0181,
+        "recall": 0.2308,
+        "f1": 0.0336
+      },
+      "rougeL": {
+        "precision": 0.0482,
+        "recall": 0.5926,
+        "f1": 0.0891
+      },
+      "num_sub_goals": 3,
+      "latency_sec": 0.0072
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 123.53,
+      "total_vlm_inference_sec": 60.39,
+      "intent_latency_sec": 2.09,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.63,
+      "median_frame_latency_sec": 8.68,
+      "min_frame_latency_sec": 7.33,
+      "max_frame_latency_sec": 10.86,
+      "avg_description_length_chars": 279.9,
+      "total_prompt_tokens": 15297,
+      "total_completion_tokens": 496,
+      "avg_completion_tokens_per_sec": 7.7,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was attempting to generate music lyrics using ChatGPT based on provided keywords and ask a follow-up question regarding what type of music would fit the response.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 6.96,
+        "frame_description": "The user is typing in the ChatGPT prompt text box.\n\nVisible user-entered text includes:\n* **Address bar:** `https://chat.openai.com`\n* **Prompt box:** `",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 986,
+        "timestamp_sec": 21.09,
+        "latency_sec": 6.4,
+        "frame_description": "The user is viewing a response generated by ChatGPT on the desktop. \n\nVisible user-entered text in the application:\n- Prompt text: `\"write music lyrics for me. Here is the key words: aaai, ijcai, cvpr,",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1130,
+        "timestamp_sec": 24.17,
+        "latency_sec": 6.6,
+        "frame_description": "The user is viewing ChatGPT as it generates a response to their prompt. \n\nVisible user-entered text includes:\n* Address bar: `\"https://chat.openai.com\"`\n* Chat input prompt: `\"write music lyrics for me, Here is the key words: aaai, ijcai,",
+        "prompt_tokens": 1200,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 1160,
+        "timestamp_sec": 24.81,
+        "latency_sec": 6.87,
+        "frame_description": "The user is hovering the mouse cursor over the chat input field at the bottom of the page. The visible user-entered text is \"https://chat.openai.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1178,
+        "timestamp_sec": 25.2,
+        "latency_sec": 7.71,
+        "frame_description": "The user is viewing a response being generated by ChatGPT on the website \"https://chat.openai.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 1194,
+        "timestamp_sec": 25.54,
+        "latency_sec": 7.62,
+        "frame_description": "The user is hovering the mouse cursor over the 'Message ChatGPT...' text input field. \n\nVisible user-entered text in the application address bar: \"https://chat.openai.com\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1493,
+        "timestamp_sec": 31.94,
+        "latency_sec": 3.88,
+        "frame_description": "The user is typing in the chat input box at the bottom of the ChatGPT page. The visible user-entered text is \"https://chat.openai.com/c/9e0bf1ee-6fd6-482d-80dd-d956b846b065\" in the browser address bar and \"what type of music\" in the text input box.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 86
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Let chatgpt write songs.",
+      "reference_caption": "User employs ChatGPT to create a song with lyrics that integrate tech conference acronyms, showcasing the AI's creative capabilities.",
+      "reference_apps": [
+        "edge",
+        "openai"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 50,
+          "sub_goal": "Have chatgpt generate lyrics for a song using the given keywords.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1225,
+          "sub_goal": "ChatGPT has generated lyrics according to my request.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1465,
+          "sub_goal": "Translate: \"Type of music for the song chatgpt\"",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "what type of music"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both involve using ChatGPT to generate song lyrics based on specific keywords. The timeline supports this by showing the user typing and interacting with ChatGPT to create music lyrics, which aligns with the goal of generating songs. There are no contradictions in the timeline regarding the specifics of the task."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly consistent with the keyframes. The user's interactions align with the described actions, such as typing and clicking in the ChatGPT interface. However, there is a minor discrepancy: Frame 986 mentions 'aaai, ijcai, cvpr' while the keyframe specifies 'aaai, ijcai'. This does not contradict but adds an extra keyword not mentioned in the ground truth. The timeline supports answering all QA questions correctly as it includes necessary interactions and responses."
+        },
+        "coverage": {
+          "score": 3.4,
+          "coverage": 0.6,
+          "covered": 3,
+          "total": 5,
+          "covered_actions": [
+            1,
+            2
+          ],
+          "covered_apps": [
+            "openai"
+          ],
+          "reasoning": "The AI timeline describes the user interacting with ChatGPT to generate lyrics and input text, which aligns with keyframe actions involving generating lyrics and typing. The timeline does not explicitly mention translating a phrase or clicking actions."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as hovering over the same input field and viewing responses being generated. These entries do not add new information and are considered redundant."
+        }
+      },
+      "composite_score": 14.4,
+      "max_score": 20,
+      "latency_sec": 72.06
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0744,
+        "recall": 0.5926,
+        "f1": 0.1322
+      },
+      "rouge2": {
+        "precision": 0.014,
+        "recall": 0.1154,
+        "f1": 0.025
+      },
+      "rougeL": {
+        "precision": 0.0558,
+        "recall": 0.4444,
+        "f1": 0.0992
+      },
+      "num_sub_goals": 3,
+      "latency_sec": 0.0047
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 121.31,
+      "total_vlm_inference_sec": 46.04,
+      "intent_latency_sec": 3.18,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.58,
+      "median_frame_latency_sec": 6.87,
+      "min_frame_latency_sec": 3.88,
+      "max_frame_latency_sec": 7.71,
+      "avg_description_length_chars": 179.9,
+      "total_prompt_tokens": 8872,
+      "total_completion_tokens": 369,
+      "avg_completion_tokens_per_sec": 7.3
+    }
+  }
+}

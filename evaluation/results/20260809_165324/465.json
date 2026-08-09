@@ -1,0 +1,574 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/465.mov",
+  "total_frames": 846,
+  "fps": 46.56880733944954,
+  "video_length_sec": 18.17,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 846,
+  "frames_processed": 21,
+  "vlm": {
+    "model": "qwen3.5:latest",
+    "diff_threshold": 0.01,
+    "intent": "The user is automating a workflow to extract frame counts from video files, convert them to RGB format, and save the resulting structured metadata as JSON files within a Jupyter Notebook environment.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 21.81,
+        "frame_description": "The user is viewing a chat interface with ChatGPT, where the conversation includes a Python code snippet for extracting frame counts from a video file. The user has not entered any new text in the application; all visible text is part of the existing conversation or interface elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 119,
+        "timestamp_sec": 2.56,
+        "latency_sec": 16.77,
+        "frame_description": "The user is highlighting the text 'int(cap.get(cv2.CAP_PROP_FRAME_COUNT))' in a Python code snippet displayed in the ChatGPT interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 135,
+        "timestamp_sec": 2.9,
+        "latency_sec": 22.36,
+        "frame_description": "The user is viewing a code editor with Python scripts open, specifically focusing on the file 'azure_api.py'. The terminal at the bottom shows commands related to tmux sessions and the 'rico' tool. The visible text in the terminal includes: '[v] \u5df2\u5f00\u542f\u4ee3\u7406', '(torch) (base) \u2192 rico tmux attach-session -t gpt', '[exited]', '(torch) (base) \u2192 rico tmux list-session', 'ali: 1 windows (created Mon Apr 1 15:10:54 2024)', and '(torch) (base) \u2192 rico'. The status bar indicates the cursor is at line 127, column 35, with 1006 characters selected, using UTF-8 encoding, LF line endings, Python 3.9.18 in the 'torch' conda environment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 184
+      },
+      {
+        "frame_number": 151,
+        "timestamp_sec": 3.24,
+        "latency_sec": 19.39,
+        "frame_description": "The user is typing in the terminal window, specifically entering the command `rico tmux attach-session -t gpt`. The visible text in the terminal includes: `[V] \u5df2\u5f00\u542f\u4ee3\u7406`, `(torch) (base) \u2192 rico tmux attach-session -t gpt`, `[exited]`, `(torch) (base) \u2192 rico tmux list-session`, `ali: 1 windows (created Mon Apr 1 15:10:54 2024)`, and `(torch) (base) \u2192 rico`.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 114
+      },
+      {
+        "frame_number": 193,
+        "timestamp_sec": 4.14,
+        "latency_sec": 24.23,
+        "frame_description": "The user is viewing a code editor with Python code displayed, specifically focusing on a loop that processes frames and interacts with an OpenAI API. The terminal at the bottom shows commands related to tmux sessions. The visible text includes:\n\n- In the code:\n  - `for frame in encoded_frames:`\n  - `content.append({\"type\": \"image_url\", \"image_url\": {\"url\": f\"data:image/gif;base64,{frame}\"}})`\n  - `success = False`\n  - `attempt = 0`\n  - `while not success and attempt < 3:`\n  - `try:`\n  - `response = openai.ChatCompletion.create(`\n  - `engine=\"TrustLLM-GPT4v\",`\n  - `messages=[`\n  - `{\"role\": \"user\",`\n  - `\"content\": content`\n  - `],`\n  - `max_tokens = 2048,`\n  - `temperature = 0.9,`\n  - `top_p = 0.9`\n  - `)`\n  - `success = True`\n  - `item['result'] = response.choices[0].message.content",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 209,
+        "timestamp_sec": 4.49,
+        "latency_sec": 24.24,
+        "frame_description": "The user is viewing a code editor with Python scripts and JSON files open, displaying a terminal output that shows data processing progress. The visible user-entered text includes:\n\n- In the terminal:  \n  `Processing data: 82%`  \n  `Processing data: 83%`  \n  `Processing data: 84%`  \n  `Processing data: 87%`  \n  `Processing data: 88%`  \n  `Processing data: 89%`  \n  `Processing data: 91%`  \n  `Processing data: 92%`  \n  `Processing data: 93%`  \n  `Processing data: 95%`  \n  `Processing data: 96%`  \n  `Processing data: 97%`  \n  `Processing data: 99%`  \n  `Processing data: 100%`  \n  `Processing data: 100%`  \n  `03:46:00:00, 2.98s/it]`  \n  `Done! Answers saved to dataset_all_with_answers.json`\n\n- In the code editor (display.ipynb",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 225,
+        "timestamp_sec": 4.83,
+        "latency_sec": 34.54,
+        "frame_description": "The user is viewing a Python script in Visual Studio Code that processes video frames using OpenCV and displays them with Matplotlib. The terminal shows progress messages like \"Processing data: 82%\" up to \"Processing data: 100%\", followed by \"Done! Answers saved to dataset_all_with_answers.json\". The editor displays code including `from PIL import Image`, `import matplotlib.pyplot as plt`, `video_path = '/media/sata2/cdp/GUI/GUI/Youtube/youtube-4.1-blueice/0.mp4'`, `frame_number = 473`, `cap = cv2.VideoCapture(video_path)`, `cap.set(cv2.CAP_PROP_POS_FRAMES, frame_number)`, `success, frame = cap.read()`, `cap.release()`, `frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)`, `pil_image = Image.fromarray(frame_rgb)`, `plt.imshow(pil_image)`, `plt.axis('off')`. The JSON file on the right contains entries like `{\"frame\": 105, \"sub_goal\": \"View system performance data\", \"mouse\": \"click\", \"keyboard\": \"102\", \"sub_goal\": \"Open the 'Pen",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 444,
+        "timestamp_sec": 9.53,
+        "latency_sec": 25.19,
+        "frame_description": "The user is viewing a code editor with Python scripts and JSON files, specifically focusing on the 'display.ipynb' file in the middle pane. The terminal at the bottom shows processing data percentages and a message indicating that answers have been saved to 'dataset_all_with_answers.json'. The user has not entered any text in form fields or search bars, and there is no active typing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 460,
+        "timestamp_sec": 9.88,
+        "latency_sec": 18.29,
+        "frame_description": "The user is viewing a Jupyter Notebook file named 'display.ipynb' in Visual Studio Code, which contains Python code for processing video frames using OpenCV and displaying them with Matplotlib. The terminal at the bottom shows progress messages like 'Processing data: 82%' up to 'Processing data: 100%', indicating that the script has completed processing all frames. The JSON file on the right side lists various sub_goals and mouse actions associated with specific frames of a video. The user is not actively typing or interacting with any form fields or search bars; they are simply reviewing the output of the executed code.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 127
+      },
+      {
+        "frame_number": 476,
+        "timestamp_sec": 10.22,
+        "latency_sec": 22.86,
+        "frame_description": "The user is viewing a Python script in a Jupyter notebook that processes video frames using OpenCV, with the terminal displaying progress messages such as 'Processing data: 82%' through 'Processing data: 100%', and a final message 'Done! Answers saved to dataset_all_with_answers.json'. The visible user-entered text includes:\n\n- In the Jupyter notebook cell:  \n  `# Open the video file`  \n  `cap = cv2.VideoCapture(video_path)`  \n  `print(int(cap.get(cv2.CAP_PROP_FRAME_COUNT)))`  \n  `# Set the frame position`  \n  `cap.set(cv2.CAP_PROP_POS_FRAMES, frame_number)`  \n  `# Read the specific frame`  \n  `success, frame = cap.read()`  \n  `# Close the video file`  \n  `cap.release()`  \n  `if success:`  \n  `# Convert the frame from BGR to RGB color format`  \n  `frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)`  \n  `# Convert the frame to a PIL Image`  \n  `pil_image = Image.fromarray(frame_rgb)`  \n  `# Display the image`  \n  `plt.imshow(pil_image)`",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 510,
+        "timestamp_sec": 10.95,
+        "latency_sec": 22.17,
+        "frame_description": "The user is viewing a Jupyter Notebook file named 'display.ipynb' in Visual Studio Code, which contains Python code for processing video frames using OpenCV. The terminal at the bottom shows progress messages like 'Processing data: 82%' up to '100%', indicating an ongoing data processing task. The Explorer panel on the left lists files and folders related to GUI, mobile-rico, Annotations, Videos, scripts, Software, Website, Youtube, and OUTLINE. The active file in the editor is 'display.ipynb', and the user has scrolled through the code, which includes comments and instructions for converting video frames to RGB format, displaying them with PIL, and handling errors. The JSON file 'cleaned-software-4.1-peter.json' is open in another tab, containing structured data with fields like 'frame', 'sub_goal', 'mouse', and 'keyboard'. The status bar at the bottom indicates the current branch is 'main', with 4 spaces, LF line endings, and the cursor is at cell 1 of 1. The user has not entered any new text in form fields or search bars, and no text is being actively typed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 243
+      },
+      {
+        "frame_number": 526,
+        "timestamp_sec": 11.3,
+        "latency_sec": 17.2,
+        "frame_description": "The user is viewing a Jupyter notebook in Visual Studio Code, which displays Python code for converting frames from BGR to RGB color format and displaying images using PIL. The terminal shows progress on processing data, with percentages increasing from 82% to 100%. The user is also viewing a JSON file containing a list of frames with sub_goals and mouse actions. The desktop background features a Windows 11 wallpaper with a blue abstract design. The user is not actively typing or clicking on any visible elements in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 108
+      },
+      {
+        "frame_number": 553,
+        "timestamp_sec": 11.87,
+        "latency_sec": 16.93,
+        "frame_description": "The user is viewing a Jupyter Notebook file named 'display.ipynb' in Visual Studio Code, which contains Python code for processing and displaying video frames. The terminal shows progress on data processing, reaching 100%. The user is also viewing a JSON file named 'cleaned-software-4.1-peter.json' in the editor, which contains a list of frames with sub-goals and mouse actions. The user is not actively typing or clicking on any elements in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 102
+      },
+      {
+        "frame_number": 569,
+        "timestamp_sec": 12.22,
+        "latency_sec": 16.88,
+        "frame_description": "The user is viewing a Jupyter notebook in Visual Studio Code, which displays Python code for processing video frames and converting them to RGB format using OpenCV. The terminal shows progress on data processing, reaching 100% completion. The JSON file on the right contains structured data with fields like \"frame\", \"sub_goal\", \"mouse\", and \"keyboard\", detailing actions such as clicking, hovering, dragging, and keyboard interactions. No new text is being entered or edited in the visible application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 101
+      },
+      {
+        "frame_number": 637,
+        "timestamp_sec": 13.68,
+        "latency_sec": 15.61,
+        "frame_description": "The user is viewing a Jupyter Notebook file named 'display.ipynb' in Visual Studio Code, which contains Python code for processing video frames using OpenCV and displaying them with Matplotlib. The terminal shows data processing progress, and the Explorer panel lists various files and folders related to software development and video annotation tasks.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 653,
+        "timestamp_sec": 14.02,
+        "latency_sec": 22.74,
+        "frame_description": "The user is viewing a code editor with Python scripts and JSON files, where the terminal displays progress on processing data at 100%. The visible text includes: \"GUI [SSH: 5050-14.19.198.105]\", \"0.mp4\", \"count.ipynb\", \"display.ipynb\", \"azure_generate_dataset.py\", \"cleaned-software-4.1-peter.json\", \"torch (Python 3.9.18)\", \"Processing data: 82%\", \"Processing data: 83%\", \"Processing data: 84%\", \"Processing data: 85%\", \"Processing data: 86%\", \"Processing data: 87%\", \"Processing data: 88%\", \"Processing data: 89%\", \"Processing data: 90%\", \"Processing data: 91%\", \"Processing data: 92%\", \"Processing data: 93%\", \"Processing data: 94%\", \"Processing data: 95%\", \"Processing data: 96%\", \"Processing data: 97%\", \"Processing data: 98%\", \"Processing data: 99%\", \"Processing data: 1",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 669,
+        "timestamp_sec": 14.37,
+        "latency_sec": 22.57,
+        "frame_description": "The user is viewing a Jupyter Notebook file named 'display.ipynb' in Visual Studio Code, which contains Python code for processing video frames using OpenCV. The terminal output shows data processing progress, and the user has opened a JSON file named 'cleaned-software-4.1-peter.json' in the editor, displaying structured data with keys like 'frame', 'sub_goal', 'mouse', and 'keyboard'. The visible text includes:\n\n- In the notebook:  \n  `import cv2`  \n  `from PIL import Image`  \n  `import matplotlib.pyplot as plt`  \n  `# Replace 'path/to/your/video/file.mp4' with your video file`  \n  `video_path = '/media/your/video/file.mp4'`  \n  `frame_number = 473`  \n  `# Open the video file`  \n  `cap = cv2.VideoCapture(video_path)`  \n  `print(int(cap.get(cv2.CAP_PROP_FRAME_COUNT)))`  \n  `# Set the frame position`  \n  `cap.set(cv2.CAP_PROP_POS_FRAMES, frame_number)`  \n  `# Read the specific frame`  \n  `success, frame = cap.read()`  \n  `# Close the",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 766,
+        "timestamp_sec": 16.45,
+        "latency_sec": 17.7,
+        "frame_description": "The user is viewing a Jupyter Notebook file named 'count.ipynb' in a code editor, with the terminal displaying progress messages such as 'Processing data: 82%' up to 'Processing data: 100%'. The user has also opened a JSON file named 'cleaned-software-4.1-peter.json' in the editor, which contains structured data with fields like 'frame', 'sub_goal', and 'mouse'. The user is actively reviewing or working on processing data related to software interactions, as indicated by the terminal output and the content of the JSON file.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 123
+      },
+      {
+        "frame_number": 822,
+        "timestamp_sec": 17.65,
+        "latency_sec": 22.61,
+        "frame_description": "The user is running a Python script in Jupyter Notebook that processes JSON files, as indicated by the terminal output showing \"Processing data: 100%\" and the message \"Done! Answers saved to dataset_all_with_answers.json\". The visible user-entered text includes:\n\n- In the notebook cell:  \n  `with open(paths['json_path'], 'r') as json_file:`  \n  `data = json.load(json_file)`  \n  `data['video_path'] = new_mp4_path`  \n  `with open(paths['json_path'], 'w') as json_file:`  \n  `json.dump(data, json_file, indent=4)`  \n  `json_files.append(data)`  \n  `return json_files`  \n  `# \u8c03\u7528\u51fd\u6570\uff0c\u8fd9\u91cc\u9700\u8981\u63d0\u4f9b\u5b9e\u9645\u7684\u76ee\u5f55\u8def\u5f84`  \n  `directory = \"/media/sata2/cdp/GUI/GUI/Software/Softwares-4.1-peter\"`  \n  `updated_json_files = update_json_and_rename_mp4(directory)`  \n  `print(updated_json_files)`  \n  `with open('software-4.1-peter.jsonl', 'w') as f:`  \n  `for item in updated_json_files:`  \n  `f.write(json.dumps(item, ensure",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 838,
+        "timestamp_sec": 17.99,
+        "latency_sec": 22.55,
+        "frame_description": "The user is running a Python script in Jupyter Notebook to process and rename MP4 files while updating corresponding JSON files with video paths. The terminal displays progress messages such as \"Processing data: 82%\" through \"Processing data: 100%\", and the final message reads \"Done! Answers saved to dataset_all_with_answers.json\". The visible user-entered text includes:\n\n- In the notebook cell:  \n  `base_name = file[:-5]  # \u83b7\u53d6\u4e0d\u5e26'.json'\u540e\u7f00\u7684\u6587\u4ef6\u540d`  \n  `if base_name + '.mp4' in files:`  \n  `pairs[base_name] = {`  \n  `'json_path': os.path.join(root, file),`  \n  `'mp4_path': os.path.join(root, base_name + '.mp4')`  \n  `}`  \n  `# \u5728\u5f53\u524d\u76ee\u5f55\u4e0b\uff0c\u4e3a\u6bcf\u4e2amp4\u6587\u4ef6\u751f\u6210\u552f\u4e00\u7684\u6587\u4ef6\u540d`  \n  `for base_name, paths in pairs.items():`  \n  `counter = 0`  \n  `while True:`  \n  `new_mp4_filename = f\"{counter}.mp4\"`  \n  `new_mp4_path = os.path.join(root, new_mp4_filename)`  \n  `if not os.path.exists(new_mp",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 846,
+        "timestamp_sec": 18.17,
+        "latency_sec": 16.37,
+        "frame_description": "The user is viewing a Jupyter Notebook file named 'count.ipynb' in Visual Studio Code, which processes data files and updates JSON files with video paths. The terminal shows progress messages like 'Processing data: 82%' up to '100%', and the status bar indicates the session has been running for 3 hours 26 minutes. No new text is being entered or edited at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 86
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "When encountering problems with coding, ask chatgpt for help.",
+      "reference_caption": "User consults ChatGPT for OpenCV code to extract video frames, copies the provided code snippet, pastes and executes it in a Jupyter notebook within Visual Studio Code, and successfully views the output.",
+      "reference_apps": [
+        "vscode",
+        "edge",
+        "chatgpt"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 99,
+          "sub_goal": "Selected a segment of chatgpt's response, and copy it.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "command + c"
+        },
+        {
+          "frame": 397,
+          "sub_goal": "Return to the code and paste the code for cahtgpt that was just copied.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "command + v"
+        },
+        {
+          "frame": 595,
+          "sub_goal": "Tested it and found that the code can run.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 733,
+          "sub_goal": "Prepare to click on another Jupyter to modify the code.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent of processing and updating data files in a Jupyter Notebook aligns well with the user's actions observed in the timeline, which involve running Python scripts to process JSON files and update video paths. The core objective of handling data files is captured accurately, as evidenced by consistent details such as file operations and progress messages."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The sequence of events, including viewing and editing files in Visual Studio Code, matches the timeline provided. There are no contradictions or fabricated actions noted."
+        },
+        "coverage": {
+          "score": 2.14,
+          "coverage": 0.286,
+          "covered": 2,
+          "total": 7,
+          "covered_actions": [
+            2
+          ],
+          "covered_apps": [
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to viewing and editing code in a Python environment, interacting with terminal commands, and processing data. However, it does not explicitly mention the specific keyframe actions such as copying and pasting code or clicking on Jupyter notebooks."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of the user interface without significant changes in content, such as repeated descriptions of terminal outputs and code editor views. However, there are also many entries with new information or context shifts, like different files being viewed or commands being executed."
+        }
+      },
+      "composite_score": 15.14,
+      "max_score": 20,
+      "latency_sec": 117.75
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0143,
+        "recall": 0.6744,
+        "f1": 0.0279
+      },
+      "rouge2": {
+        "precision": 0.0029,
+        "recall": 0.1429,
+        "f1": 0.0058
+      },
+      "rougeL": {
+        "precision": 0.0123,
+        "recall": 0.5814,
+        "f1": 0.0241
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.054
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:latest",
+      "standalone_pipeline_sec": 574.77,
+      "total_vlm_inference_sec": 443.01,
+      "intent_latency_sec": 13.89,
+      "frames_processed": 21,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 21.1,
+      "median_frame_latency_sec": 22.17,
+      "min_frame_latency_sec": 15.61,
+      "max_frame_latency_sec": 34.54,
+      "avg_description_length_chars": 626.3,
+      "total_prompt_tokens": 46937,
+      "total_completion_tokens": 3622,
+      "avg_completion_tokens_per_sec": 7.8,
+      "model_memory_mb": 8141,
+      "model_params": 9653104368
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was working on a video processing project in Visual Studio Code, testing Python code to calculate video frame counts before searching for GUI-related files on a remote server.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 29.59,
+        "frame_description": "The user is viewing a ChatGPT response with the mouse cursor hovering over a Python code snippet. The visible user-entered text in the address bar is \"https://chat.openai.com/c/d54e9126-ac67-4271-811b-fd2bcc409cf8\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 119,
+        "timestamp_sec": 2.56,
+        "latency_sec": 6.01,
+        "frame_description": "The user is selecting text within a code snippet on the ChatGPT webpage. \n\nVisible user-entered text in the application includes:\n- **ChatGPT prompt**: `\"how to get the length of the video, I mean, the total frames amount\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 135,
+        "timestamp_sec": 2.9,
+        "latency_sec": 5.81,
+        "frame_description": "The user is selecting a block of code in the editor window.\n\nVisible user-entered text includes:\n- Top bar search field: `\"rico [SSH: 175.178.24.19]\"`\n- Terminal commands: `\"tmux attach-session -t gpt\"`, `\"tmux list-session\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 151,
+        "timestamp_sec": 3.24,
+        "latency_sec": 6.27,
+        "frame_description": "The user is selecting a block of code in the file 'azure_api.py' in Visual Studio Code. \n\nVisible user-entered text:\n* Top search bar: `\"rico [SSH: 175.178.24.19]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 193,
+        "timestamp_sec": 4.14,
+        "latency_sec": 4.65,
+        "frame_description": "The user is selecting a block of code in the text editor.\n\n**Visible user-entered text:**\n* Search bar: `\"rico [SSH: 175.178.24.19]\"`\n* Terminal commands: `\"tmux attach-session -t gpt\"`, `\"tmux list-session\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 209,
+        "timestamp_sec": 4.49,
+        "latency_sec": 5.72,
+        "frame_description": "The user is hovering the mouse cursor over the code editor in \"display.ipynb\".\n\n**Visible user-entered text:**\n* Top bar: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 225,
+        "timestamp_sec": 4.83,
+        "latency_sec": 29.61,
+        "frame_description": "The user is editing code in a Jupyter notebook file named `display.ipynb` in Visual Studio Code.\n\n**Visible user-entered text:**\n- Top window search bar: `GUI [SSH",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 444,
+        "timestamp_sec": 9.53,
+        "latency_sec": 8.83,
+        "frame_description": "The user is clicking on the code editor in the `display.ipynb` file.\n\n**Visible user-entered text:**\n* Command Center / Search Bar: `GUI [SSH",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 460,
+        "timestamp_sec": 9.88,
+        "latency_sec": 7.71,
+        "frame_description": "The user is hovering the mouse cursor over the code editor in Visual Studio Code.\n\nVisible user-entered text includes:\n\n* **Top Search Bar:** `\"GUI [SSH: 5050",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 476,
+        "timestamp_sec": 10.22,
+        "latency_sec": 7.83,
+        "frame_description": "The user is selecting text in the terminal.\n\n**User-entered text:**\n\"GUI [SSH: 5050-14.19.198.105]\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 510,
+        "timestamp_sec": 10.95,
+        "latency_sec": 8.83,
+        "frame_description": "The user is viewing the `display.ipynb` file in Visual Studio Code.\n\nVisible user-entered text:\n- `GUI [SSH: 5050-1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 526,
+        "timestamp_sec": 11.3,
+        "latency_sec": 7.94,
+        "frame_description": "The user is viewing the 'display.ipynb' notebook in Visual Studio Code with the text \"GUI [SSH: 5050-14.19.198.10",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 553,
+        "timestamp_sec": 11.87,
+        "latency_sec": 7.41,
+        "frame_description": "The user is viewing the `display.ipynb` notebook in Visual Studio Code with \"GUI [SSH: 5050-14.19.198.105]\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 569,
+        "timestamp_sec": 12.22,
+        "latency_sec": 14.15,
+        "frame_description": "The user is viewing the Visual Studio Code workspace with the top search bar containing the text \"GUI [SSH: 5050-14.19.198.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 637,
+        "timestamp_sec": 13.68,
+        "latency_sec": 7.97,
+        "frame_description": "The user is hovering the cursor over the code in the 'display.ipynb' tab in VS Code.\n\nVisible user-entered text in search bars/input fields:\n- Top search bar:",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 653,
+        "timestamp_sec": 14.02,
+        "latency_sec": 39.5,
+        "frame_description": "The user is hovering the mouse cursor over the `cvtColor` function in Visual Studio Code. The search bar at the top displays the text \"GUI [SSH: 5050-14.19.1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 669,
+        "timestamp_sec": 14.37,
+        "latency_sec": 37.42,
+        "frame_description": "cap.release()`\n- `if success:`\n- `frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)`\n- `",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 766,
+        "timestamp_sec": 16.45,
+        "latency_sec": 55.03,
+        "frame_description": "The user is clicking on the '0.mp4' tab. The visible user-entered text in the application is \"GUI [SSH: 5050-14.19.198.105]\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 822,
+        "timestamp_sec": 17.65,
+        "latency_sec": 16.61,
+        "frame_description": "The user is hovering the cursor over 'video_path' in the editor.\n\n**Visible user-entered text:**\n* Search bar: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 838,
+        "timestamp_sec": 17.99,
+        "latency_sec": 10.43,
+        "frame_description": "The user is clicking on \"count.ipynb\" in the file explorer sidebar.\n\n**User-entered text:**\n* Top bar: `\"GUI [SSH: 5050-14.19.198.105]\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 846,
+        "timestamp_sec": 18.17,
+        "latency_sec": 12.19,
+        "frame_description": "The user is viewing the Visual Studio Code application with the search bar containing \"GUI [SSH: 5050-14.19.198.105]\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "When encountering problems with coding, ask chatgpt for help.",
+      "reference_caption": "User consults ChatGPT for OpenCV code to extract video frames, copies the provided code snippet, pastes and executes it in a Jupyter notebook within Visual Studio Code, and successfully views the output.",
+      "reference_apps": [
+        "vscode",
+        "edge",
+        "chatgpt"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 99,
+          "sub_goal": "Selected a segment of chatgpt's response, and copy it.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "command + c"
+        },
+        {
+          "frame": 397,
+          "sub_goal": "Return to the code and paste the code for cahtgpt that was just copied.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "command + v"
+        },
+        {
+          "frame": 595,
+          "sub_goal": "Tested it and found that the code can run.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 733,
+          "sub_goal": "Prepare to click on another Jupyter to modify the code.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent captures the user's actions of consulting ChatGPT for OpenCV code, pasting it into a Jupyter notebook in Visual Studio Code, and executing it successfully to view output. The timeline supports this by showing interactions with ChatGPT, selecting and copying code, and working within a Jupyter notebook environment. There are no contradictions in the specific details of these actions."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions are generally accurate but contain some discrepancies. The keyframes indicate that the user copied code from ChatGPT and pasted it into a Jupyter notebook in Visual Studio Code, which aligns with frames showing interactions with both applications. However, there are inconsistencies such as references to 'azure_api.py' and 'rico [SSH: 175.178.24.19]' which do not appear in the keyframes or ground truth caption. These discrepancies suggest some fabricated content. The timeline supports answering the static QA about the Python function provided by ChatGPT, as it involves copying code from ChatGPT to VSCode. For the sequential-QA and MCQA, the timeline is consistent with the answers given, despite minor inaccuracies in frame descriptions."
+        },
+        "coverage": {
+          "score": 3.29,
+          "coverage": 0.571,
+          "covered": 4,
+          "total": 7,
+          "covered_actions": [
+            1,
+            2,
+            4
+          ],
+          "covered_apps": [
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to selecting and interacting with code in Visual Studio Code, which aligns with some of the keyframe actions. However, specific keyboard inputs like 'command + c' and 'command + v' are not mentioned."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes in context or content, such as repeated mentions of hovering over code and viewing the same text in search bars. These entries do not provide new information across multiple frames."
+        }
+      },
+      "composite_score": 13.29,
+      "max_score": 20,
+      "latency_sec": 55.45
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.031,
+        "recall": 0.3953,
+        "f1": 0.0575
+      },
+      "rouge2": {
+        "precision": 0.011,
+        "recall": 0.1429,
+        "f1": 0.0204
+      },
+      "rougeL": {
+        "precision": 0.0255,
+        "recall": 0.3256,
+        "f1": 0.0474
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.011
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 420.94,
+      "total_vlm_inference_sec": 329.51,
+      "intent_latency_sec": 35.93,
+      "frames_processed": 21,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 15.69,
+      "median_frame_latency_sec": 8.83,
+      "min_frame_latency_sec": 4.65,
+      "max_frame_latency_sec": 55.03,
+      "avg_description_length_chars": 149.3,
+      "total_prompt_tokens": 26671,
+      "total_completion_tokens": 1096,
+      "avg_completion_tokens_per_sec": 3.1
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/101.mp4",
+  "total_frames": 1047,
+  "fps": 30.000268627047163,
+  "video_length_sec": 34.9,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1047,
+  "frames_processed": 9,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is completing a personality assessment on the 16Personalities website by selecting responses to various statements regarding their preferences and behaviors. Their overall goal is to finish the test to receive their resulting personality profile.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.46,
+        "frame_description": "The user is taking a personality test on the 16Personalities website, specifically answering questions about their preferences and behaviors. The current question being answered is: \"You prioritize facts over people's feelings when determining a course of action.\" The user has selected the first option from left to right, which likely corresponds to \"Agree.\"\n\nVisible user-entered text in the application:\n- \"You prioritize facts over people's feelings when determining a course of action.\"\n- \"Agree\" (selected)\n- \"Disagree\" (not selected)\n\nNo other text is actively entered or typed by the user in the visible parts of the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 134
+      },
+      {
+        "frame_number": 671,
+        "timestamp_sec": 22.37,
+        "latency_sec": 5.46,
+        "frame_description": "The user is taking a personality test on the 16Personalities website, specifically answering questions about their preferences and behaviors. They have already selected an option for the question \"You enjoy participating in team-based activities,\" indicated by the green checkmark next to the first circle. The current action appears to be pausing or waiting, as no new selections are being made in the visible portion of the screen. There is no text being actively typed in any form fields or search bars on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 100
+      },
+      {
+        "frame_number": 682,
+        "timestamp_sec": 22.73,
+        "latency_sec": 3.75,
+        "frame_description": "The user is selecting the second option on a Likert scale for the statement \"You enjoy experimenting with new and untested approaches.\"\n\nThere is no user-entered text visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 798,
+        "timestamp_sec": 26.6,
+        "latency_sec": 4.17,
+        "frame_description": "The user is viewing a personality test page on the 16Personalities website, where they have selected the \"Agree\" option for the statement \"You enjoy experimenting with new and untested approaches.\" There is no active text input or typing occurring in the visible interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 809,
+        "timestamp_sec": 26.97,
+        "latency_sec": 4.67,
+        "frame_description": "The user is viewing a personality test question on the 16Personalities website, specifically the statement \"You prioritize being sensitive over being completely honest.\" The second option from the left (Agree) is selected, indicated by a green checkmark inside the circle. No text has been entered into any form fields or search bars on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1004,
+        "timestamp_sec": 33.47,
+        "latency_sec": 5.03,
+        "frame_description": "The user is taking the 16 Personalities test by selecting their response to the statement \"You prioritize being sensitive over being completely honest.\" They have chosen the second option from the left, which is marked with a green check. The \"Next\" button is visible below the options, indicating they can proceed to the next question. There is no text being actively typed in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 85
+      },
+      {
+        "frame_number": 1015,
+        "timestamp_sec": 33.83,
+        "latency_sec": 4.25,
+        "frame_description": "The user is viewing a 16 Personalities test page in a web browser, having already selected an option on a Likert scale question stating \"You prioritize being sensitive over being completely honest.\" No user-entered text is currently visible in form fields or input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 1026,
+        "timestamp_sec": 34.2,
+        "latency_sec": 7.62,
+        "frame_description": "The user is viewing the 16 Personalities website on their desktop, specifically on a page where they are being asked to rate statements on a scale from Agree to Disagree. The visible text includes:\n\n- \"You actively seek out new experiences and knowledge areas to explore.\"\n- \"Agree\" and \"Disagree\" labels\n- \"You are prone to worrying that things will take a turn for the worse.\"\n- \"Agree\" and \"Disagree\" labels\n- \"You enjoy solitary hobbies or activities more than group ones.\"\n- \"Agree\" and \"Disagree\" labels\n- \"You cannot imagine yourself writing fictional stories for a living.\"\n- \"Agree\" and \"Disagree\" labels\n- \"Take the Test\" button\n\nThere is no active typing or input being performed by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 176
+      },
+      {
+        "frame_number": 1047,
+        "timestamp_sec": 34.9,
+        "latency_sec": 5.96,
+        "frame_description": "The user is taking a personality test on the 16Personalities website, specifically answering questions about their preferences and tendencies. The current question displayed is: \"You actively seek out new experiences and knowledge areas to explore.\" The user has not yet selected an answer for this question, as all the response options (Agree to Disagree) remain unselected.\n\nThere is no visible user-entered text in any form fields, search bars, or input areas on the screen. The only text present is the test questions and the navigation menu items, which are not user-entered.",
+        "prompt_tokens": 993,
+        "completion_tokens": 118
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Translate: Test the third set of questions for 16 personalities.",
+      "reference_caption": "User progresses through 16 Personalities test by answering questions and navigating to subsequent sets.",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 132,
+          "sub_goal": "After selecting the answer to the first question, scroll down the page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 310,
+          "sub_goal": "After selecting the answer to the second question, the page will scroll down.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 367,
+          "sub_goal": "After selecting the answer to the third question, scroll down the page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 567,
+          "sub_goal": "After selecting the answer to the fourth question, scroll down the page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 759,
+          "sub_goal": "After selecting the answer to the 5th question, scroll down the page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1014,
+          "sub_goal": "Scroll down the page after selecting the answer to the 6th question.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1014,
+          "sub_goal": "Click next, scroll up the page, and refresh the next set of questions.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both describe progressing through a personality test by answering questions and navigating to subsequent sets. The timeline details, such as selecting 'Agree' for specific statements and clicking 'Next', align with the prediction that after agreeing to prioritize sensitivity over honesty, the user would proceed to the next set of questions."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The descriptions correctly identify the sequence of selecting answers and scrolling actions, aligning with the ground truth. There are no fabricated or contradicted actions reported. For STATIC QA, the timeline supports the answer that the user scrolls down after each question. For SEQUENTIAL-QA, the timeline confirms the sequence of 'Agree' selections before clicking 'Next'. The MCQA is also supported by the timeline, as it describes the action taken after the sixth question."
+        },
+        "coverage": {
+          "score": 4.11,
+          "coverage": 0.778,
+          "covered": 7,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "16 personalities"
+          ],
+          "reasoning": "The AI timeline describes the user interacting with a personality test on the 16Personalities website, which aligns with several keyframe actions involving selecting answers and scrolling. However, it does not explicitly mention any mouse clicks or page scrolls."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information about the user's interaction with the personality test, such as viewing questions and selecting options without significant changes in context. However, there are also distinct updates indicating new actions or selections by the user."
+        }
+      },
+      "composite_score": 17.11,
+      "max_score": 20,
+      "latency_sec": 77.48
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0876,
+        "recall": 0.6512,
+        "f1": 0.1545
+      },
+      "rouge2": {
+        "precision": 0.0172,
+        "recall": 0.1294,
+        "f1": 0.0304
+      },
+      "rougeL": {
+        "precision": 0.0626,
+        "recall": 0.4651,
+        "f1": 0.1103
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.017
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 132.84,
+      "total_vlm_inference_sec": 47.37,
+      "intent_latency_sec": 7.94,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.26,
+      "median_frame_latency_sec": 5.03,
+      "min_frame_latency_sec": 3.75,
+      "max_frame_latency_sec": 7.62,
+      "avg_description_length_chars": 442.1,
+      "total_prompt_tokens": 9882,
+      "total_completion_tokens": 880,
+      "avg_completion_tokens_per_sec": 17.7,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is attempting to complete a personality test on the 16Personalities website by selecting answer choices for various statements and navigating through the test pages.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.18,
+        "frame_description": "The user is taking a personality test on the 16Personalities website. The visible text in the address bar is \"https://www.16personalities.com/free-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 671,
+        "timestamp_sec": 22.37,
+        "latency_sec": 4.83,
+        "frame_description": "The user is taking a personality test on the 16Personalities website, with the URL field containing \"https://www.16personalities.com/free-personality-test\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 682,
+        "timestamp_sec": 22.73,
+        "latency_sec": 4.0,
+        "frame_description": "The user is clicking on the \"Agree\" option for the statement \"You enjoy experimenting with new and untested approaches.\" in the 16Personalities test.\n\n**Visible user-entered text:**\n* Address bar: \"https://www.16personalities.com/free-personality-test\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 798,
+        "timestamp_sec": 26.6,
+        "latency_sec": 6.14,
+        "frame_description": "The user is taking a personality test on the 16Personalities website. \n\nVisible user-entered text in the address bar:\n* \"https://www.16personalities",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 809,
+        "timestamp_sec": 26.97,
+        "latency_sec": 3.7,
+        "frame_description": "The user is selecting an answer option on the 16Personalities test page. \n\nThe visible user-entered text in the application includes:\n- Address bar: \"https://www.16personalities.com/free-personality-test\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 1004,
+        "timestamp_sec": 33.47,
+        "latency_sec": 6.41,
+        "frame_description": "The user is selecting an answer choice for a question on the 16Personalities test. \n\nVisible user-entered text:\n- Address bar: \"https://www.16personalities.com/free-personality-test\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1015,
+        "timestamp_sec": 33.83,
+        "latency_sec": 3.64,
+        "frame_description": "The user is clicking on the 'Next' button.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 1026,
+        "timestamp_sec": 34.2,
+        "latency_sec": 4.79,
+        "frame_description": "The user is browsing the 16Personalities website at \"https://www.16personalities.com/free-personality-test\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1047,
+        "timestamp_sec": 34.9,
+        "latency_sec": 6.36,
+        "frame_description": "The user is viewing a personality test on the 16 Personalities website with the address bar containing \"https://www.16personalities.com/free-personality-test\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Translate: Test the third set of questions for 16 personalities.",
+      "reference_caption": "User progresses through 16 Personalities test by answering questions and navigating to subsequent sets.",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 132,
+          "sub_goal": "After selecting the answer to the first question, scroll down the page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 310,
+          "sub_goal": "After selecting the answer to the second question, the page will scroll down.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 367,
+          "sub_goal": "After selecting the answer to the third question, scroll down the page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 567,
+          "sub_goal": "After selecting the answer to the fourth question, scroll down the page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 759,
+          "sub_goal": "After selecting the answer to the 5th question, scroll down the page.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1014,
+          "sub_goal": "Scroll down the page after selecting the answer to the 6th question.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1014,
+          "sub_goal": "Click next, scroll up the page, and refresh the next set of questions.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as described by both the goal and caption. The timeline shows consistent actions of answering questions and navigating through sets, aligning with the intent to complete a personality test on the 16Personalities website. There are no contradictions in the specific details mentioned in the reasoning or prediction answers."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some inconsistencies. The keyframes indicate that the user clicks to select answers and scrolls down after each question, which aligns with the description of clicking 'Agree' in Frame 682. However, there is no explicit mention of scrolling down in the AI descriptions for frames corresponding to questions 1-6, which could be seen as a minor omission but not a contradiction. The action described in Frame 1015 matches the keyframe indicating the user clicks 'Next'. Overall, the descriptions are consistent with the ground truth and do not introduce fabricated actions."
+        },
+        "coverage": {
+          "score": 4.56,
+          "coverage": 0.889,
+          "covered": 8,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "16 personalities"
+          ],
+          "reasoning": "The AI timeline describes actions related to selecting answers and navigating through a personality test on the 16Personalities website, which aligns with several keyframe actions. The timeline does not explicitly mention scrolling down after each answer selection but includes clicking and navigation actions."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames that repeat similar information about the user taking a personality test on the 16Personalities website, particularly regarding the URL in the address bar. While there are some entries with new actions (e.g., clicking 'Agree', selecting an answer option), many frames simply restate the same state without meaningful change."
+        }
+      },
+      "composite_score": 15.56,
+      "max_score": 20,
+      "latency_sec": 68.38
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1388,
+        "recall": 0.3372,
+        "f1": 0.1966
+      },
+      "rouge2": {
+        "precision": 0.0048,
+        "recall": 0.0118,
+        "f1": 0.0068
+      },
+      "rougeL": {
+        "precision": 0.1148,
+        "recall": 0.2791,
+        "f1": 0.1627
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0074
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 116.51,
+      "total_vlm_inference_sec": 46.05,
+      "intent_latency_sec": 2.05,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.12,
+      "median_frame_latency_sec": 4.83,
+      "min_frame_latency_sec": 3.64,
+      "max_frame_latency_sec": 6.41,
+      "avg_description_length_chars": 155.3,
+      "total_prompt_tokens": 11311,
+      "total_completion_tokens": 392,
+      "avg_completion_tokens_per_sec": 7.8
+    }
+  }
+}

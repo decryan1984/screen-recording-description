@@ -1,0 +1,739 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/86.mp4",
+  "total_frames": 1877,
+  "fps": 46.70935846176817,
+  "video_length_sec": 40.18,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1877,
+  "frames_processed": 30,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching TripAdvisor to locate specific locations or features and gather information on award-winning beach destinations and top travel experiences for potential booking.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 8.45,
+        "frame_description": "The user is viewing a Notion page titled \"GUI Video IT Dataset / Multiple-windows transition\" which contains a table under the heading \"\u65c5\u884c\u4e0e\u5bfc\u822a\" (Travel and Navigation). The table lists various applications and their corresponding functions or integrations. No text is currently being actively typed by the user.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 61
+      },
+      {
+        "frame_number": 246,
+        "timestamp_sec": 5.27,
+        "latency_sec": 7.93,
+        "frame_description": "The user is editing a table in Notion, specifically modifying the cell containing \"TripAdvisor\" in the \"\u5e94\u7528A\" column. The text \"TripAdvisor\" is currently selected and being edited.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 262,
+        "timestamp_sec": 5.61,
+        "latency_sec": 7.39,
+        "frame_description": "The user is viewing a Notion page that is redirecting to the Notion app, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 278,
+        "timestamp_sec": 5.95,
+        "latency_sec": 14.0,
+        "frame_description": "The user is viewing a Notion page that is redirecting to their Notion app, with the sidebar showing various folders and documents. The current action appears to be passive observation or waiting for the redirect to complete.\n\nVisible user-entered text in the application:\n- In the browser's address bar: \"https://www.notion.so/native/oauth2callback?state=eyJjYjYwXmF1R5cGUIJ0JyYXRpdmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZmVjZm",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 347,
+        "timestamp_sec": 7.43,
+        "latency_sec": 7.16,
+        "frame_description": "The user is typing \"TripAdvisor\" into the search bar of a web browser.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 408,
+        "timestamp_sec": 8.73,
+        "latency_sec": 7.43,
+        "frame_description": "The user is typing \"tripadvisor\" into the search bar, which triggers a dropdown list of search suggestions related to TripAdvisor locations and topics.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 508,
+        "timestamp_sec": 10.88,
+        "latency_sec": 7.52,
+        "frame_description": "The user is typing \"tripadvisor\" into the search bar of a web browser, which triggers a dropdown menu with search suggestions related to TripAdvisor.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 524,
+        "timestamp_sec": 11.22,
+        "latency_sec": 8.54,
+        "frame_description": "The user is viewing a Google search results page in a web browser, with the search query \"TripAdvisor\" visible in the address bar. The browser also displays several bookmarks and tabs, including one for Notion, which is currently open but showing a redirect message. The user appears to be browsing or researching information related to TripAdvisor.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 695,
+        "timestamp_sec": 14.88,
+        "latency_sec": 7.8,
+        "frame_description": "The user is viewing a Google search result page for \"TripAdvisorbe\" in a web browser, with the Notion sidebar open on the left side of the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 711,
+        "timestamp_sec": 15.22,
+        "latency_sec": 7.82,
+        "frame_description": "The user is viewing a Google search results page for \"TripAdvisor\" in a web browser, with the sidebar showing various open tabs and folders. No active typing or input is occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 727,
+        "timestamp_sec": 15.56,
+        "latency_sec": 7.23,
+        "frame_description": "The user is typing \"TripAdvisororbe\" into the Google search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 743,
+        "timestamp_sec": 15.91,
+        "latency_sec": 7.14,
+        "frame_description": "The user is typing \"TripAdvisororbe\" into the Google search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 931,
+        "timestamp_sec": 19.93,
+        "latency_sec": 9.56,
+        "frame_description": "The user is viewing a web page on TripAdvisor.com, as indicated by the URL in the browser's address bar. The main content area of the page is blank, suggesting that the page may not have fully loaded or there might be an issue with the content display. The user appears to be in a browser window with multiple tabs open, including references to academic papers and resources related to CS study and writing. There is no visible user-entered text in any form fields or search bars within the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 102
+      },
+      {
+        "frame_number": 1397,
+        "timestamp_sec": 29.91,
+        "latency_sec": 8.66,
+        "frame_description": "The user is viewing the TripAdvisor homepage, which displays a search bar with placeholder text \"Places to go, things to do, hotels...\" and a \"Search\" button. The page also features a promotional section for building trips with AI, showing an example itinerary for Chicago. There is no active input or typing occurring in the visible interface elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 1413,
+        "timestamp_sec": 30.25,
+        "latency_sec": 7.95,
+        "frame_description": "The user is viewing the TripAdvisor homepage on a desktop browser, with no active input or interaction occurring at this moment. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1448,
+        "timestamp_sec": 31.0,
+        "latency_sec": 7.84,
+        "frame_description": "The user is viewing the TripAdvisor homepage on a desktop browser, with no active input or interaction occurring at this moment. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1495,
+        "timestamp_sec": 32.01,
+        "latency_sec": 7.8,
+        "frame_description": "The user is viewing the TripAdvisor homepage on a desktop browser, with no active input or interaction occurring at this moment. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1653,
+        "timestamp_sec": 35.39,
+        "latency_sec": 7.87,
+        "frame_description": "The user is viewing the TripAdvisor homepage on a desktop browser, with no active input or interaction occurring at this moment. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1669,
+        "timestamp_sec": 35.73,
+        "latency_sec": 8.11,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, specifically looking at the \"Build a trip in minutes\" section which promotes an AI-powered trip planning feature. They are not actively typing or entering any text into form fields or search bars at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1685,
+        "timestamp_sec": 36.07,
+        "latency_sec": 7.92,
+        "frame_description": "The user is viewing the Tripadvisor homepage on a desktop browser, with no active input or interaction occurring at this moment. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 1701,
+        "timestamp_sec": 36.42,
+        "latency_sec": 7.71,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, specifically looking at sections titled \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" which display various travel destinations and experiences.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1717,
+        "timestamp_sec": 36.76,
+        "latency_sec": 7.71,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, browsing through sections like \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" with no active input or text entry occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1733,
+        "timestamp_sec": 37.1,
+        "latency_sec": 7.78,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, browsing through sections like \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" with no active input or text entry occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1749,
+        "timestamp_sec": 37.44,
+        "latency_sec": 7.97,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, specifically looking at sections titled \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" which display various travel destinations and activities with images, titles, ratings, and prices.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 1765,
+        "timestamp_sec": 37.79,
+        "latency_sec": 7.78,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, browsing through sections like \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" with no active input or text entry occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1788,
+        "timestamp_sec": 38.28,
+        "latency_sec": 7.76,
+        "frame_description": "The user is browsing the Tripadvisor website, viewing sections titled \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" with no active text input or typing observed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1804,
+        "timestamp_sec": 38.62,
+        "latency_sec": 7.65,
+        "frame_description": "The user is browsing the Tripadvisor website, specifically viewing sections titled \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" with no active text input or typing observed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1820,
+        "timestamp_sec": 38.96,
+        "latency_sec": 7.84,
+        "frame_description": "The user is viewing the TripAdvisor website on their desktop, specifically looking at sections titled \"2024's award-winning shores\" and \"Top experiences on TripAdvisor.\" They are not actively typing or entering any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 1836,
+        "timestamp_sec": 39.31,
+        "latency_sec": 7.93,
+        "frame_description": "The user is browsing the Tripadvisor website, specifically viewing sections titled \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" which display various beach destinations and travel experiences with images, titles, ratings, and prices.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 1877,
+        "timestamp_sec": 40.18,
+        "latency_sec": 10.56,
+        "frame_description": "The user is viewing the TripAdvisor website on their desktop, specifically looking at the \"2024's award-winning shores\" section which features categories like Asia Beaches, Caribbean Beaches, Europe Beaches, and South Pacific Beaches. They are also browsing the \"Top experiences on Tripadvisor\" section below, which includes listings such as Grand Circle Island and Haleiwa 9 Hour Tour, Half-Day Thai Cooking Class at Organic Farm in Chiang Mai, All-Inclusive Ubud Tour, and Dubai Red Dunes ATV, Camels, Stargazing & 5* BBQ Al Khayma Camp. The user has not entered any text into any form fields or search bars on the page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 141
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Access the official website of trip advisor to learn about travel information.",
+      "reference_caption": "Copying text from Notion and searching for TripAdvisor on Edge browser, followed by accessing and scrolling through the TripAdvisor official website.",
+      "reference_apps": [
+        "notion",
+        "edge",
+        "trip advisor"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 239,
+          "sub_goal": "Select a field from a table in Notion and copy the text content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 375,
+          "sub_goal": "Paste the content that was just copied into the search bar of the webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 873,
+          "sub_goal": "Entered the official website of trip advisor.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1551,
+          "sub_goal": "Loaded into the official website of trip advisor.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1822,
+          "sub_goal": "Scroll down the page a little.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's underlying objective of accessing TripAdvisor to gather travel information, as evidenced by actions such as searching for and scrolling through the TripAdvisor website. The timeline supports this inference, showing the user navigating from Notion to a search engine and then to TripAdvisor without contradictions in specific details."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes and ground truth information. The sequence of user interactions, such as copying text from Notion, pasting it into Edge browser's search bar, and navigating to TripAdvisor, aligns with both the keyframes and the sequential QA answer. There are no fabricated or contradicted actions in the AI frame descriptions."
+        },
+        "coverage": {
+          "score": 4.0,
+          "coverage": 0.75,
+          "covered": 6,
+          "total": 8,
+          "covered_actions": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "notion",
+            "trip advisor"
+          ],
+          "reasoning": "The AI timeline describes actions related to selecting and copying text from Notion, entering 'TripAdvisor' into a search bar, and viewing the TripAdvisor website. These correspond to keyframes involving interactions with Notion and TripAdvisor."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, particularly when viewing static content on web pages. These repetitive descriptions occur frequently in the latter part of the timeline."
+        }
+      },
+      "composite_score": 16.0,
+      "max_score": 20,
+      "latency_sec": 104.55
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0302,
+        "recall": 0.7083,
+        "f1": 0.0579
+      },
+      "rouge2": {
+        "precision": 0.0107,
+        "recall": 0.2553,
+        "f1": 0.0205
+      },
+      "rougeL": {
+        "precision": 0.0222,
+        "recall": 0.5208,
+        "f1": 0.0426
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.0208
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 357.09,
+      "total_vlm_inference_sec": 244.81,
+      "intent_latency_sec": 7.68,
+      "frames_processed": 30,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.16,
+      "median_frame_latency_sec": 7.83,
+      "min_frame_latency_sec": 7.14,
+      "max_frame_latency_sec": 14.0,
+      "avg_description_length_chars": 238.2,
+      "total_prompt_tokens": 65145,
+      "total_completion_tokens": 1739,
+      "avg_completion_tokens_per_sec": 6.6,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to search for and view information about Caribbean beaches on the TripAdvisor website.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 6.4,
+        "frame_description": "The user is hovering the cursor over the text 'TripAdvisor' in a table within Notion.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 246,
+        "timestamp_sec": 5.27,
+        "latency_sec": 5.4,
+        "frame_description": "The user is selecting the text 'TripAdvisor'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 262,
+        "timestamp_sec": 5.61,
+        "latency_sec": 7.69,
+        "frame_description": "The user is viewing a web page redirecting to the Notion application. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 278,
+        "timestamp_sec": 5.95,
+        "latency_sec": 7.01,
+        "frame_description": "The user is viewing the Notion authentication redirect page in the browser with the URL \"https://www.notion.so/native/oauth2callback?state=eyJJYWXsyMFja1",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 347,
+        "timestamp_sec": 7.43,
+        "latency_sec": 3.92,
+        "frame_description": "The user is typing \"TripAdvisor\" into the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 408,
+        "timestamp_sec": 8.73,
+        "latency_sec": 3.66,
+        "frame_description": "The user is selecting \"tripadvisor belize\" from the address bar search suggestions while typing \"TripAdvisorbe\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 508,
+        "timestamp_sec": 10.88,
+        "latency_sec": 6.4,
+        "frame_description": "The user is searching in the browser address bar with the text \"https://www.google.com/search?q=TripAdvisorbe&oq=TripAdvisorbe&gs_lcrp",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 524,
+        "timestamp_sec": 11.22,
+        "latency_sec": 5.98,
+        "frame_description": "The user is clicking on the address bar in the browser. \n\nVisible user-entered text in the address bar: `\"https://www.google.com/search?q=TripAdvisorbe&oq=TripAdvisorbe&gs_lcrp=EgZjaHJvbWUYBggAEEUYOTIJCAEQABgKGIAEMgkIAhAAGAoYgAQyCggDEAAYgAQYmQIyCggEEAAYgAQYmQIyCggFEAAYgAQYmQIyCggGEAAYgAQYmQIyCggHEAAYgAQYmQI...\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 140
+      },
+      {
+        "frame_number": 695,
+        "timestamp_sec": 14.88,
+        "latency_sec": 7.88,
+        "frame_description": "The user is viewing a Notion redirect page in the browser. \n\nVisible user-entered text includes `\"https://www.google.com/search?q=TripAdvisorbe&oq=Trip",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 711,
+        "timestamp_sec": 15.22,
+        "latency_sec": 6.52,
+        "frame_description": "The user is viewing Google search results for \"TripAdvisorbe\". \n\nVisible user-entered text:\n- Search bar: `\"TripAdvisorbe\"`\n- Address bar: `\"https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 727,
+        "timestamp_sec": 15.56,
+        "latency_sec": 6.41,
+        "frame_description": "The user is viewing Google search results for \"TripAdvisorbe\". \n\nVisible user-entered text in form fields/search bars:\n- Google Search bar: `\"TripAdvisorbe\"`\n- Address",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 743,
+        "timestamp_sec": 15.91,
+        "latency_sec": 6.67,
+        "frame_description": "The user is viewing Google search results for \"TripAdvisorbe\". The visible user-entered text in the search bar is \"TripAdvisorbe\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 931,
+        "timestamp_sec": 19.93,
+        "latency_sec": 5.42,
+        "frame_description": "The user is navigating to \"https://www.tripadvisor.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 1397,
+        "timestamp_sec": 29.91,
+        "latency_sec": 5.99,
+        "frame_description": "The user is clicking on the \"Places to go, things to do, hotels...\" search bar. \n\nThere is no visible user-entered text in the application fields (the text inside the search bar is placeholder text).",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1413,
+        "timestamp_sec": 30.25,
+        "latency_sec": 9.77,
+        "frame_description": "The user is clicking on the search bar on the TripAdvisor web page with \"https://www.tripadvisor.com\" entered in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1448,
+        "timestamp_sec": 31.0,
+        "latency_sec": 5.03,
+        "frame_description": "The user is clicking on the search bar on the TripAdvisor webpage. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 1495,
+        "timestamp_sec": 32.01,
+        "latency_sec": 6.11,
+        "frame_description": "The user is clicking on the search bar. The visible user-entered text is \"https://www.tripadvisor.com\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 1653,
+        "timestamp_sec": 35.39,
+        "latency_sec": 5.45,
+        "frame_description": "The user is viewing the TripAdvisor homepage. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 1669,
+        "timestamp_sec": 35.73,
+        "latency_sec": 5.29,
+        "frame_description": "The user is hovering the mouse cursor over the TripAdvisor webpage. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 1685,
+        "timestamp_sec": 36.07,
+        "latency_sec": 6.3,
+        "frame_description": "The user is viewing the TripAdvisor webpage. The visible user-entered text in the application is:\n\n* Address bar: `\"https://www.tripadvisor.com\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 1701,
+        "timestamp_sec": 36.42,
+        "latency_sec": 71.87,
+        "frame_description": "The user is browsing the TripAdvisor homepage with the address bar containing \"https://www.tripadvisor.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 1717,
+        "timestamp_sec": 36.76,
+        "latency_sec": 5.94,
+        "frame_description": "The user is browsing the TripAdvisor website with the URL 'https://www.tripadvisor.com' in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 1733,
+        "timestamp_sec": 37.1,
+        "latency_sec": 6.86,
+        "frame_description": "The user is browsing the TripAdvisor website. The visible user-entered text in the address bar is \"https://www.tripadvisor.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 1749,
+        "timestamp_sec": 37.44,
+        "latency_sec": 6.04,
+        "frame_description": "The user is hovering the mouse cursor over the \"Caribbean Beaches\" card on the TripAdvisor website. \n\nThere is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 1765,
+        "timestamp_sec": 37.79,
+        "latency_sec": 5.63,
+        "frame_description": "The user is hovering the cursor over the \"Caribbean Beaches\" image on the TripAdvisor webpage.\n\n**User-entered text:**\n* Address bar: `https://www.tripadvisor.com`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1788,
+        "timestamp_sec": 38.28,
+        "latency_sec": 4.0,
+        "frame_description": "The user is hovering the cursor over the \"Caribbean Beaches\" section on the webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 1804,
+        "timestamp_sec": 38.62,
+        "latency_sec": 5.12,
+        "frame_description": "The user is hovering the cursor over the \"Caribbean Beaches\" section on the webpage. \n\n**Visible user-entered text:**\n* Address bar: `\"https://www.tripadvisor.com\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1820,
+        "timestamp_sec": 38.96,
+        "latency_sec": 4.67,
+        "frame_description": "The user is clicking on the \"Caribbean Beaches\" link.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 1836,
+        "timestamp_sec": 39.31,
+        "latency_sec": 5.95,
+        "frame_description": "The user is hovering the cursor over the 'Caribbean Beaches' option on the TripAdvisor webpage. The visible text in the address bar is 'https://www.tripadvisor.com'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1877,
+        "timestamp_sec": 40.18,
+        "latency_sec": 4.84,
+        "frame_description": "The user is hovering the cursor over the 'Caribbean Beaches' card on the TripAdvisor webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Access the official website of trip advisor to learn about travel information.",
+      "reference_caption": "Copying text from Notion and searching for TripAdvisor on Edge browser, followed by accessing and scrolling through the TripAdvisor official website.",
+      "reference_apps": [
+        "notion",
+        "edge",
+        "trip advisor"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 239,
+          "sub_goal": "Select a field from a table in Notion and copy the text content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 375,
+          "sub_goal": "Paste the content that was just copied into the search bar of the webpage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 873,
+          "sub_goal": "Entered the official website of trip advisor.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1551,
+          "sub_goal": "Loaded into the official website of trip advisor.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1822,
+          "sub_goal": "Scroll down the page a little.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective as both focus on accessing and interacting with travel information on TripAdvisor, specifically Caribbean beaches. The timeline supports this by showing actions like navigating to the TripAdvisor website, searching for 'Caribbean Beaches', and hovering over related content."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The user's interactions in Notion, Edge browser, and TripAdvisor are correctly described without contradictions to the ground truth. However, there is a minor discrepancy where the AI describes typing 'TripAdvisor' into the address bar instead of pasting it as per the keyframe description. This does not significantly alter the overall sequence or correctness but introduces a slight inaccuracy. The timeline supports answering the sequential QA consistently with the given answer, and the MCQA can be answered correctly based on the described interactions."
+        },
+        "coverage": {
+          "score": 4.5,
+          "coverage": 0.875,
+          "covered": 7,
+          "total": 8,
+          "covered_actions": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "edge",
+            "notion",
+            "trip advisor"
+          ],
+          "reasoning": "The AI timeline describes actions related to selecting and copying text from Notion, searching for 'TripAdvisor' on Google, navigating to TripAdvisor's website, and interacting with the webpage. These correspond to keyframes involving selection, pasting/searching, loading, and scrolling."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as multiple entries describing hovering over the same section and viewing pages with unchanged text. These repetitive descriptions suggest a moderate level of redundancy."
+        }
+      },
+      "composite_score": 16.5,
+      "max_score": 20,
+      "latency_sec": 104.09
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0434,
+        "recall": 0.5417,
+        "f1": 0.0804
+      },
+      "rouge2": {
+        "precision": 0.01,
+        "recall": 0.1277,
+        "f1": 0.0186
+      },
+      "rougeL": {
+        "precision": 0.0334,
+        "recall": 0.4167,
+        "f1": 0.0618
+      },
+      "num_sub_goals": 5,
+      "latency_sec": 0.012
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 354.16,
+      "total_vlm_inference_sec": 244.22,
+      "intent_latency_sec": 5.8,
+      "frames_processed": 30,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.14,
+      "median_frame_latency_sec": 5.99,
+      "min_frame_latency_sec": 3.66,
+      "max_frame_latency_sec": 71.87,
+      "avg_description_length_chars": 127.9,
+      "total_prompt_tokens": 37477,
+      "total_completion_tokens": 1002,
+      "avg_completion_tokens_per_sec": 3.9
+    }
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/34.mp4",
+  "total_frames": 1767,
+  "fps": 30.0,
+  "video_length_sec": 58.9,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1767,
+  "frames_processed": 14,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is browsing the macOS Applications folder, specifically navigating through the \"Utilities\" section to locate a specific utility application.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.82,
+        "frame_description": "The user is viewing the Applications folder in macOS Finder, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 11,
+        "timestamp_sec": 0.37,
+        "latency_sec": 3.58,
+        "frame_description": "The user is viewing the Applications folder in macOS Finder, with no active input or editing occurring. No text is being typed or entered into any form field.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 186,
+        "timestamp_sec": 6.2,
+        "latency_sec": 3.73,
+        "frame_description": "The user is viewing the Applications folder in macOS Finder, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 203,
+        "timestamp_sec": 6.77,
+        "latency_sec": 3.78,
+        "frame_description": "The user is viewing the Applications folder in macOS Finder, with no active input or editing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 585,
+        "timestamp_sec": 19.5,
+        "latency_sec": 3.65,
+        "frame_description": "The user is viewing the Applications folder in macOS Finder, with no active input or text being entered. No user-entered text is visible in the interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1098,
+        "timestamp_sec": 36.6,
+        "latency_sec": 3.75,
+        "frame_description": "The user is viewing the Applications folder in macOS Finder, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1415,
+        "timestamp_sec": 47.17,
+        "latency_sec": 3.54,
+        "frame_description": "The user is viewing the Applications folder in macOS Finder, with no active input or text being entered. No user-entered text is visible in the interface.",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1539,
+        "timestamp_sec": 51.3,
+        "latency_sec": 3.44,
+        "frame_description": "The user is scrolling through the list of applications in the macOS Finder window.\n\nNo user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 1560,
+        "timestamp_sec": 52.0,
+        "latency_sec": 3.45,
+        "frame_description": "The user is scrolling through the list of applications in the Finder window.\n\nVisible user-entered text:\n- Applications\n- Search",
+        "prompt_tokens": 993,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 1570,
+        "timestamp_sec": 52.33,
+        "latency_sec": 3.82,
+        "frame_description": "The user is viewing the Applications folder in macOS Finder, with the list of applications displayed in the center pane. No user-entered text is visible in any form fields, search bars, or input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1589,
+        "timestamp_sec": 52.97,
+        "latency_sec": 3.75,
+        "frame_description": "The user is viewing the Applications folder in macOS Finder, with no active text input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1603,
+        "timestamp_sec": 53.43,
+        "latency_sec": 7.74,
+        "frame_description": "The user is scrolling through the list of applications in the macOS Finder window.\n\nVisible user-entered text in the application:\n- Microsoft Edge\n- Minecraft\n- Mission Control\n- Music\n- News\n- Notes\n- Numbers\n- OBS\n- Pages\n- Photo Booth\n- Photos\n- PhotoScape X\n- Podcasts\n- PokerStars.net\n- Preview\n- QuickTime Player\n- Reflector 2\n- Reflector 4\n- Reminders\n- Roblox\n- Safari\n- Screenflick\n- ScreenFlow\n- Shortcuts\n- Siri\n- Spotify\n- Steam\n- SteelSeries GG\n- Stickies\n- Stocks\n- System Settings\n- Telegram\n- TextEdit\n- The Unarchiver\n- Time Machine\n- TV\n- Utilities\n- Visual Studio\n- Visual Studio Code",
+        "prompt_tokens": 993,
+        "completion_tokens": 178
+      },
+      {
+        "frame_number": 1613,
+        "timestamp_sec": 53.77,
+        "latency_sec": 4.03,
+        "frame_description": "The user is scrolling through the list of applications in the Finder window.\n\nVisible user-entered text:\n- \"Applications\" (in the title bar)\n- \"Search\" (in the search field at the top right)",
+        "prompt_tokens": 993,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 1767,
+        "timestamp_sec": 58.9,
+        "latency_sec": 9.99,
+        "frame_description": "The user is navigating through the macOS Finder application, specifically within the \"Utilities\" folder under the \"Applications\" section. They are scrolling through a list of utility applications such as Activity Monitor, AirPort Utility, Console, Terminal, and others. No specific action like clicking or typing is currently being performed; the user appears to be browsing or searching for a particular utility.\n\nVisible user-entered text in the application:\n- \"Utilities\" (folder name)\n- \"Applications\" (folder name)\n- \"Recents\" (folder name)\n- \"Desktop\" (folder name)\n- \"Documents\" (folder name)\n- \"Downloads\" (folder name)\n- \"iCloud Drive\" (folder name)\n- \"BOOTCAMP\" (folder name)\n- \"Red\" (tag name)\n- \"Orange\" (tag name)\n- \"Yellow\" (tag name)\n- \"Green\" (tag name)\n- \"Blue\" (tag name)\n- \"Purple\" (tag name)\n- \"Gray\" (tag name)\n- \"All Tags...\" (tag name)\n- \"Activity Monitor\" (application name)\n- \"AirPort Utility\" (application name)",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View computer applications in multiple perspectives.",
+      "reference_caption": "Navigating through the macOS Applications folder in various view modes and exploring the contents of a subfolder.",
+      "reference_apps": [
+        "Mac"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 240,
+          "sub_goal": "Sort the applications alphabetically.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 611,
+          "sub_goal": "View computer applications in icon view.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1144,
+          "sub_goal": "View applications in list form.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1427,
+          "sub_goal": "View computer applications in column format.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1615,
+          "sub_goal": "Roll the mouse to view different applications.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1705,
+          "sub_goal": "Click on the folder to view the subfolders.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of browsing through macOS Applications, specifically focusing on the 'Utilities' section. The timeline supports this by showing navigation within the 'Utilities' folder and listing various utility applications without any contradictions to the prediction or reasoning questions."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The frames describe interactions such as clicking to sort applications, changing view modes, and scrolling through lists, which align with the user actions in the keyframes. There are no fabricated or contradicted actions reported. For the STATIC QA, the timeline does not provide specific details about what is displayed alongside each application in list view, but it doesn't contradict the given answer. The SEQUENTIAL-QA can be answered correctly as the frames show a transition from icon view to list view. The MCQA can also be answered correctly since frame 1767 shows interaction with the 'Utilities' folder."
+        },
+        "coverage": {
+          "score": 3.86,
+          "coverage": 0.714,
+          "covered": 5,
+          "total": 7,
+          "covered_actions": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "covered_apps": [
+            "Mac"
+          ],
+          "reasoning": "The AI timeline describes the user viewing and scrolling through application lists in macOS Finder, which aligns with some keyframe actions. However, specific actions like sorting alphabetically or clicking to view subfolders are not explicitly mentioned."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar descriptions of viewing the Applications folder without any new information, indicating redundancy. However, there are also distinct entries describing actions like scrolling and navigating to different folders with visible text changes."
+        }
+      },
+      "composite_score": 16.86,
+      "max_score": 20,
+      "latency_sec": 71.91
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0417,
+        "recall": 0.6389,
+        "f1": 0.0784
+      },
+      "rouge2": {
+        "precision": 0.0091,
+        "recall": 0.1429,
+        "f1": 0.0171
+      },
+      "rougeL": {
+        "precision": 0.0363,
+        "recall": 0.5556,
+        "f1": 0.0681
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0094
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 137.48,
+      "total_vlm_inference_sec": 63.07,
+      "intent_latency_sec": 2.47,
+      "frames_processed": 14,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.5,
+      "median_frame_latency_sec": 3.75,
+      "min_frame_latency_sec": 3.44,
+      "max_frame_latency_sec": 9.99,
+      "avg_description_length_chars": 257.8,
+      "total_prompt_tokens": 14879,
+      "total_completion_tokens": 897,
+      "avg_completion_tokens_per_sec": 13.8,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is browsing and organizing files within the Applications and Utilities folders in Finder while adjusting different folder view layouts.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.85,
+        "frame_description": "The user is clicking inside the Applications folder window in Finder. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 11,
+        "timestamp_sec": 0.37,
+        "latency_sec": 4.38,
+        "frame_description": "The user is clicking on 'Calculator' in the Applications folder. There is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 186,
+        "timestamp_sec": 6.2,
+        "latency_sec": 5.85,
+        "frame_description": "The user is clicking on the column divider in the Finder window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 203,
+        "timestamp_sec": 6.77,
+        "latency_sec": 4.32,
+        "frame_description": "The user is clicking on the list view button in Finder.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 585,
+        "timestamp_sec": 19.5,
+        "latency_sec": 4.6,
+        "frame_description": "The user is clicking on the icon view button in the Finder window. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 1098,
+        "timestamp_sec": 36.6,
+        "latency_sec": 4.57,
+        "frame_description": "The user is clicking on the list view button in the Finder window toolbar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 1415,
+        "timestamp_sec": 47.17,
+        "latency_sec": 4.01,
+        "frame_description": "The user is clicking on the column view icon in the Finder window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 1539,
+        "timestamp_sec": 51.3,
+        "latency_sec": 2.99,
+        "frame_description": "The user is clicking on \"Elgato Camera Hub\" in the Finder window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 1560,
+        "timestamp_sec": 52.0,
+        "latency_sec": 4.15,
+        "frame_description": "The user is clicking on \"GarageBand\" in the Applications folder within Finder. There is no visible user-entered text in any fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 1570,
+        "timestamp_sec": 52.33,
+        "latency_sec": 4.16,
+        "frame_description": "The user is clicking on 'iMovie'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 9
+      },
+      {
+        "frame_number": 1589,
+        "timestamp_sec": 52.97,
+        "latency_sec": 3.63,
+        "frame_description": "The user is clicking on \"Pages\" in the Finder window. \n\nThere is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 1603,
+        "timestamp_sec": 53.43,
+        "latency_sec": 4.2,
+        "frame_description": "The user is clicking on \"Reflector 2\" in the Finder window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 1613,
+        "timestamp_sec": 53.77,
+        "latency_sec": 3.15,
+        "frame_description": "The user is clicking on 'Screenflick' in the Applications folder.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 1767,
+        "timestamp_sec": 58.9,
+        "latency_sec": 5.28,
+        "frame_description": "The user is clicking inside the Finder window while viewing the \"Utilities\" folder. \n\nThere is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View computer applications in multiple perspectives.",
+      "reference_caption": "Navigating through the macOS Applications folder in various view modes and exploring the contents of a subfolder.",
+      "reference_apps": [
+        "Mac"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 240,
+          "sub_goal": "Sort the applications alphabetically.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 611,
+          "sub_goal": "View computer applications in icon view.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1144,
+          "sub_goal": "View applications in list form.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1427,
+          "sub_goal": "View computer applications in column format.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1615,
+          "sub_goal": "Roll the mouse to view different applications.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1705,
+          "sub_goal": "Click on the folder to view the subfolders.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of browsing and organizing files within the Applications and Utilities folders in Finder while adjusting different folder view layouts. The timeline shows consistent actions related to navigating through various views (list, column, icon) and exploring subfolders like 'Utilities', which aligns with the goal and caption. There are no contradictions in the specific details mentioned in the reasoning and prediction questions."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence of view mode changes (icon, list, column) and interactions like clicking on applications and folders align with the ground truth. There are no fabricated or contradicted actions in the descriptions. For STATIC QA, the timeline does not provide specific details about what is displayed alongside each application in list view, but it doesn't contradict the answer either. The SEQUENTIAL-QA is consistent as the user switches to list view after icon view. For MCQA, clicking on 'Utilities' aligns with the correct subfolder choice."
+        },
+        "coverage": {
+          "score": 3.86,
+          "coverage": 0.714,
+          "covered": 5,
+          "total": 7,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline describes actions related to viewing and interacting with application icons in different formats, which aligns with several keyframe actions. The timeline also mentions specific applications."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline provides a detailed account of user interactions without significant repetition. Each entry describes distinct actions, such as clicking on different applications and buttons within the Finder window."
+        }
+      },
+      "composite_score": 18.86,
+      "max_score": 20,
+      "latency_sec": 89.07
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.11,
+        "recall": 0.6389,
+        "f1": 0.1878
+      },
+      "rouge2": {
+        "precision": 0.024,
+        "recall": 0.1429,
+        "f1": 0.0412
+      },
+      "rougeL": {
+        "precision": 0.0909,
+        "recall": 0.5278,
+        "f1": 0.1551
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0042
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 152.16,
+      "total_vlm_inference_sec": 60.14,
+      "intent_latency_sec": 2.94,
+      "frames_processed": 14,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.3,
+      "median_frame_latency_sec": 4.26,
+      "min_frame_latency_sec": 2.99,
+      "max_frame_latency_sec": 5.85,
+      "avg_description_length_chars": 84.6,
+      "total_prompt_tokens": 17251,
+      "total_completion_tokens": 284,
+      "avg_completion_tokens_per_sec": 4.4
+    }
+  }
+}

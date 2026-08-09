@@ -1,0 +1,1322 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/49.mp4",
+  "total_frames": 3382,
+  "fps": 46.73992910235473,
+  "video_length_sec": 72.36,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 3382,
+  "frames_processed": 65,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was researching and gathering information about award-winning beach destinations in Asia, specifically focusing on Kelingking Beach in Nusa Penida and Banana Beach in Phuket, likely for travel planning or content creation purposes.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 10.8,
+        "frame_description": "The user is viewing the TripAdvisor website on their desktop, specifically looking at the \"2024's award-winning shores\" section which features categories like Asia Beaches, Caribbean Beaches, Europe Beaches, and South Pacific Beaches. They are also browsing the \"Top experiences on Tripadvisor\" section below, which includes listings such as Grand Circle Island and Haleiwa 9 Hour Tour, Half-Day Thai Cooking Class at Organic Farm in Chiang Mai, All-Inclusive Ubud Tour, and Dubai Red Dunes ATV, Camels, Stargazing & 5* BBQ Al Khayma Camp. The user has not entered any text into any form fields or search bars on the page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 141
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 8.17,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, browsing through sections like \"Asia Beaches,\" \"Caribbean Beaches,\" and \"Top experiences on Tripadvisor.\" They are not actively typing or entering any text in form fields or search bars at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 8.06,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, browsing through sections like \"Top experiences on Tripadvisor\" and \"More to explore,\" with no active input or text entry occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 49,
+        "timestamp_sec": 1.05,
+        "latency_sec": 10.55,
+        "frame_description": "The user is browsing the Tripadvisor website, viewing categories such as \"Asia Beaches,\" \"Caribbean Beaches,\" \"Europe Beaches,\" and \"South Pacific Beaches.\" They are also looking at \"Top experiences on Tripadvisor,\" including options like \"Grand Circle Island and Haleiwa 9 Hour Tour,\" \"Half-Day Thai Cooking Class at Organic Farm in Chiang Mai,\" \"All-Inclusive Ubud Tour,\" and \"Dubai Red Dunes ATV, Camels, Stargazing & 5* BBQ Al Khyama Camp.\" The user appears to be exploring travel options but has not yet taken any specific action, such as clicking on a particular experience or category.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 137
+      },
+      {
+        "frame_number": 65,
+        "timestamp_sec": 1.39,
+        "latency_sec": 7.93,
+        "frame_description": "The user is viewing the TripAdvisor website on their desktop, specifically looking at sections titled \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" which display various travel destinations and activities.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 81,
+        "timestamp_sec": 1.73,
+        "latency_sec": 7.8,
+        "frame_description": "The user is viewing the TripAdvisor website on their desktop, specifically looking at sections titled \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" which display various beach destinations and travel experiences.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 97,
+        "timestamp_sec": 2.08,
+        "latency_sec": 9.07,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, specifically looking at sections titled \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" which display various beach destinations and travel experiences. The left sidebar shows a list of open tabs or documents, including references to academic papers and datasets, suggesting the user may be multitasking between research and travel planning. No active typing or input actions are currently visible.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 166,
+        "timestamp_sec": 3.55,
+        "latency_sec": 7.96,
+        "frame_description": "The user is viewing the Tripadvisor website on their desktop, browsing through sections like \"2024's award-winning shores\" and \"Top experiences on Tripadvisor,\" with no active input or text entry occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 221,
+        "timestamp_sec": 4.73,
+        "latency_sec": 8.45,
+        "frame_description": "The user is viewing a web page about TripAdvisor's Travelers' Choice Beaches in Asia, with a sidebar containing various links and resources related to academic papers, datasets, and tools. The current action appears to be browsing or reviewing the content on the webpage.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 367,
+        "timestamp_sec": 7.85,
+        "latency_sec": 7.85,
+        "frame_description": "The user is viewing the TripAdvisor website, specifically the \"Travelers' Choice Awards - Best of the Best Beaches\" page. They are not actively typing or entering any text in the application at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 443,
+        "timestamp_sec": 9.48,
+        "latency_sec": 7.96,
+        "frame_description": "The user is viewing the TripAdvisor website, specifically the \"Travelers' Choice Awards - Best of the Best Beaches\" page for Asia. The user has not entered any text in form fields or search bars on the page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 459,
+        "timestamp_sec": 9.82,
+        "latency_sec": 9.65,
+        "frame_description": "The user is viewing a webpage on TripAdvisor showcasing the \"Travelers' Choice Awards: Best of the Best Beaches\" in Asia, with a sidebar containing various file and folder names related to academic papers, video datasets, and other resources. The main content highlights the award's criteria and includes a row of location filters such as World, United States, Europe, Caribbean, Mexico, Asia (highlighted), South America, Africa, South Pacific, and Sustainable. There is no active text input or typing occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 107
+      },
+      {
+        "frame_number": 548,
+        "timestamp_sec": 11.72,
+        "latency_sec": 7.64,
+        "frame_description": "The user is viewing a webpage on TripAdvisor showcasing the \"Travelers' Choice Awards: Best of the Best Beaches\" in Asia, with no active input or text editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 564,
+        "timestamp_sec": 12.07,
+        "latency_sec": 14.44,
+        "frame_description": "The user is viewing the \"Travelers' Choice Awards: Best of the Best Beaches\" page on TripAdvisor, with no active input or typing occurring. The visible text includes:\n\n- Page title: \u201cTravelers\u2019 Choice Awards Best of the Best Beaches\u201d\n- Filter tags: \u201cWorld\u201d, \u201cUnited States\u201d, \u201cEurope\u201d, \u201cCaribbean\u201d, \u201cMexico\u201d, \u201cAsia\u201d, \u201cSouth America\u201d, \u201cAfrica\u201d, \u201cSouth Pacific\u201d, \u201cSustainable\u201d\n- Descriptive text: \u201cGolden sands, rugged coastlines, clear blue waters\u2014this year\u2019s winning beaches are traveler faves for everything from lazy beach days to underwater adventures.\u201d and \u201cThe Travelers\u2019 Choice Awards Best of the Best title celebrates the highest level of excellence in travel. It\u2019s awarded to those who receive a high volume of above-and-beyond reviews and opinions from the Tripadvisor community over a 12-month period. Out of our 8 million listings, fewer than 1% achieve this milestone.\u201d\n- Footer note: \u201cDescriptions of winners are based on traveler reviews and summarized by AI.\u201d\n- Category cards: \u201cRestaurants\u201d, \u201cBeaches\u201d, \u201cThings to Do\u201d, \u201cDestinations\u201d\n- Browser tab title: \u201cTravelers\u2019 Choice Awards: Best Beach",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 589,
+        "timestamp_sec": 12.6,
+        "latency_sec": 7.56,
+        "frame_description": "The user is viewing a webpage on the \"Travelers' Choice Awards - Best of the Best Beaches\" section of TripAdvisor, with no active input or typing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 605,
+        "timestamp_sec": 12.94,
+        "latency_sec": 7.56,
+        "frame_description": "The user is viewing the \"Travelers' Choice Awards: Best of the Best Beaches\" page on TripAdvisor, with no active input or interaction occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 621,
+        "timestamp_sec": 13.29,
+        "latency_sec": 7.46,
+        "frame_description": "The user is viewing the \"Travelers' Choice Awards: Best of the Best Beaches\" page on TripAdvisor, with no active input or interaction occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 637,
+        "timestamp_sec": 13.63,
+        "latency_sec": 9.91,
+        "frame_description": "The user is viewing the \"Best of the Best Beaches\" page on TripAdvisor, with a sidebar open showing various file and folder names. The visible text in the sidebar includes entries like \"Dongping-Chen/Video-QA\", \"Hugging Face\", \"Video-LLM\", and others, but no active typing or input is occurring. The main content area displays categories such as \"Restaurants\", \"Beaches\", \"Things to Do\", and \"Destinations\", with no user-entered text in form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 111
+      },
+      {
+        "frame_number": 653,
+        "timestamp_sec": 13.97,
+        "latency_sec": 8.22,
+        "frame_description": "The user is viewing a webpage titled \"Best of the Best Beaches\" on TripAdvisor, specifically focusing on the \"Asia\" category. The page highlights winning beaches with descriptions and images. There is no active text input or typing occurring in the visible application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 696,
+        "timestamp_sec": 14.89,
+        "latency_sec": 8.65,
+        "frame_description": "The user is viewing a webpage on TripAdvisor showcasing the \"Best of the Best Beaches\" in Asia, specifically focusing on Kelingking Beach. The page includes a section titled \"Asia\" with a description of winning beaches and an image of Kelingking Beach. The user appears to be browsing through the content, possibly evaluating or comparing different beaches.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 716,
+        "timestamp_sec": 15.32,
+        "latency_sec": 9.12,
+        "frame_description": "The user is browsing a webpage on TripAdvisor that lists the \"Best of the Best Beaches\" in Asia, specifically viewing details about Kelingking Beach in Nusa Penida, Indonesia. The browser has multiple tabs open, including references to academic papers and software tools, suggesting the user may be multitasking between research and travel planning. No active typing or input actions are currently visible on the screen.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 732,
+        "timestamp_sec": 15.66,
+        "latency_sec": 9.22,
+        "frame_description": "The user is viewing a webpage on TripAdvisor that lists the best beaches in Asia, specifically focusing on Kelingking Beach in Nusa Penida, Indonesia. The page includes details about the beach's features, such as its stunning cliff formations, powder-white sand, and blue-green sea. There is also a rating of 4.5 stars based on 1,600 reviews. The user appears to be browsing through the information provided on the page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 92
+      },
+      {
+        "frame_number": 765,
+        "timestamp_sec": 16.37,
+        "latency_sec": 8.43,
+        "frame_description": "The user is viewing a webpage on TripAdvisor that lists the \"Best Beaches in Asia\" as part of the Travelers' Choice Awards. The page highlights Kelingking Beach in Nusa Penida, Indonesia, with its rating and description. The user appears to be browsing through the content, possibly evaluating or comparing different beaches.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 66
+      },
+      {
+        "frame_number": 781,
+        "timestamp_sec": 16.71,
+        "latency_sec": 8.47,
+        "frame_description": "The user is viewing a TripAdvisor page for Kelingking Beach in Nusa Penida, Indonesia, with a focus on its rating and description. The browser is open with multiple tabs, including references to academic papers and online resources. The user appears to be browsing or researching information about the beach, possibly for travel planning or content creation.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 833,
+        "timestamp_sec": 17.82,
+        "latency_sec": 8.35,
+        "frame_description": "The user is viewing a webpage on TripAdvisor showcasing Kelingking Beach in Nusa Penida, Indonesia, with details such as its rating and description. The browser has multiple tabs open, including references to academic papers and software resources. The user appears to be browsing or researching information about the beach, possibly for travel planning purposes.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 849,
+        "timestamp_sec": 18.16,
+        "latency_sec": 7.38,
+        "frame_description": "The user is viewing a Tripadvisor page for Kelingking Beach in Nusa Penida, Indonesia, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 883,
+        "timestamp_sec": 18.89,
+        "latency_sec": 10.08,
+        "frame_description": "The user is viewing a TripAdvisor page showcasing Kelingking Beach in Nusa Penida, Indonesia, with an emphasis on its scenic beauty and high rating. The interface displays various categories such as \"World,\" \"United States,\" \"Europe,\" etc., indicating that the user may be exploring travel destinations. Additionally, the sidebar suggests the user is working on academic or technical projects related to AI and video datasets, as indicated by entries like \"Daily Papers,\" \"Hugging Face,\" and \"Video-LLM.\" There is no active input or typing occurring in the visible application windows.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 116
+      },
+      {
+        "frame_number": 899,
+        "timestamp_sec": 19.23,
+        "latency_sec": 7.41,
+        "frame_description": "The user is viewing a TripAdvisor page showcasing Kelingking Beach in Nusa Penida, Indonesia, with no active input or text editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 943,
+        "timestamp_sec": 20.18,
+        "latency_sec": 10.13,
+        "frame_description": "The user is viewing a TripAdvisor page for Kelingking Beach in Nusa Penida, Indonesia, which has received a 4.5-star rating from 1,600 reviews. The page highlights that the beach is great for physical activity, good for adrenaline seekers, adventurous travelers, and hidden gem explorers. Below the main description, there are three user reviews visible: one mentions the crystal-clear turquoise water and steep hiking, another recommends the tour for climbing down to the beach, and the third notes that the daughter usually takes photos at Nyoman. The user has not entered any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 124
+      },
+      {
+        "frame_number": 959,
+        "timestamp_sec": 20.52,
+        "latency_sec": 9.64,
+        "frame_description": "The user is viewing a Tripadvisor page for Kelingking Beach in Nusa Penida, Indonesia, which is part of a list titled \"Travelers' Choice Awards: Best Beaches in Asia\". The page displays an aerial photo of the beach, its rating (4.5 stars from 1,600 reviews), a brief description, and tags indicating it's great for physical activity, good for adrenaline seekers, adventurous, and a hidden gem. The user appears to be browsing or reviewing this location as part of a curated list.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 109
+      },
+      {
+        "frame_number": 975,
+        "timestamp_sec": 20.86,
+        "latency_sec": 9.54,
+        "frame_description": "The user is viewing a Tripadvisor page for Kelingking Beach in Nusa Penida, Indonesia, which is part of a list titled \"Travelers' Choice Awards: Best Beaches in Asia\". The page displays an aerial photo of the beach, its rating (4.5 stars from 1,600 reviews), a brief description, and tags indicating it's great for physical activity, adrenaline seekers, adventurous travelers, and hidden gems. The user appears to be browsing or reviewing this location as part of a curated list.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 107
+      },
+      {
+        "frame_number": 1058,
+        "timestamp_sec": 22.64,
+        "latency_sec": 7.28,
+        "frame_description": "The user is viewing a Tripadvisor page for Kelingking Beach in Nusa Penida, Indonesia, with no active input or typing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 1074,
+        "timestamp_sec": 22.98,
+        "latency_sec": 7.58,
+        "frame_description": "The user is viewing a TripAdvisor page about Kelingking Beach in Nusa Penida, Indonesia, with no active input or text entry occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 1090,
+        "timestamp_sec": 23.32,
+        "latency_sec": 10.3,
+        "frame_description": "The user is viewing a TripAdvisor page about Kelingking Beach in Nusa Penida, Indonesia, which is part of a list titled \"Travelers' Choice Awards: Best Beaches in Asia.\" The page displays an aerial photo of the beach, its rating (4.5 stars from 1,600 reviews), and a description highlighting its stunning cliff formations, powder-white sand, and blue-green sea. Below the description, there are tags indicating it's great for physical activity, good for adrenaline seekers, adventurous, and a hidden gem. The user appears to be browsing through this information without any active input or interaction with form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 133
+      },
+      {
+        "frame_number": 1138,
+        "timestamp_sec": 24.35,
+        "latency_sec": 8.64,
+        "frame_description": "The user is viewing a TripAdvisor page for Kelingking Beach, located in Nusa Penida, Indonesia. The page displays an aerial photo of the beach, its rating (4.5 stars from 1,600 reviews), and a description highlighting its stunning cliff formations, powder-white sand, and clear water. The user has not entered any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 1154,
+        "timestamp_sec": 24.69,
+        "latency_sec": 10.78,
+        "frame_description": "The user is viewing a Tripadvisor page for Kelingking Beach in Nusa Penida, Indonesia, with a focus on its description and ratings. The page highlights the beach's features such as its stunning cliff formations, powder-white sand, and blue-green sea. It also mentions that the beach is easy to get to, has ample parking, and maintains a secluded, relaxed vibe. The clear water is noted as perfect for snorkeling and exploring underwater life, and the sunsets are described as truly photo-worthy. The page includes a \"Great for\" section with tags like \"Physical activity,\" \"Good for adrenaline seekers,\" \"Adventurous,\" and \"Hidden gems.\" The user is not actively typing or entering any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 148
+      },
+      {
+        "frame_number": 1170,
+        "timestamp_sec": 25.03,
+        "latency_sec": 11.47,
+        "frame_description": "The user is viewing a Tripadvisor page for Kelingking Beach in Nusa Penida, Indonesia, which is highlighted as part of the \"Travelers' Choice Awards: Best Beaches in Asia\" category. The page displays an aerial photo of the beach, a 4.5-star rating from 1,600 reviews, and a description noting its stunning cliff formations, powder-white sand, and blue-green sea. It also lists categories such as \"Physical activity,\" \"Good for adrenaline seekers,\" \"Adventurous,\" and \"Hidden gems.\" Below, there are user reviews with ratings and short excerpts, including one mentioning the steep hike down and another recommending the tour for climbing down to the beach. The sidebar on the left shows a list of files or documents, possibly related to video datasets or conference materials, but no active typing or input is occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 174
+      },
+      {
+        "frame_number": 1186,
+        "timestamp_sec": 25.37,
+        "latency_sec": 7.84,
+        "frame_description": "The user is viewing a TripAdvisor page showcasing Kelingking Beach in Nusa Penida, Indonesia, with details about its rating, reviews, and features. The user has not entered any text into form fields or search bars on this page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 1202,
+        "timestamp_sec": 25.72,
+        "latency_sec": 8.18,
+        "frame_description": "The user is viewing a TripAdvisor page showcasing beach destinations in Asia, specifically focusing on Nusa Penida, Indonesia, and Banana Beach, Phuket, Thailand. The page displays ratings, reviews, and descriptions of these beaches. There is no active input or typing occurring in the application at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 1218,
+        "timestamp_sec": 26.06,
+        "latency_sec": 8.09,
+        "frame_description": "The user is scrolling down a webpage on a desktop browser, likely reviewing content related to travel destinations and user reviews. The page appears to be from TripAdvisor, showcasing beach locations with ratings and descriptions. The user has not entered any text in form fields or search bars during this action.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 1234,
+        "timestamp_sec": 26.4,
+        "latency_sec": 7.99,
+        "frame_description": "The user is scrolling down a webpage on their desktop, likely reviewing content related to travel destinations or reviews. The page appears to be from TripAdvisor, showcasing various locations and user feedback. There is no active text input or typing occurring in the visible interface elements.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1285,
+        "timestamp_sec": 27.49,
+        "latency_sec": 8.57,
+        "frame_description": "The user is viewing a TripAdvisor page showcasing \"Best Beaches in Asia,\" with the \"Asia\" category selected. The page displays various beach reviews and details, including \"Banana Beach\" in Phuket, Thailand, which has 2,316 reviews. The user appears to be browsing through the content, possibly considering which beach to visit or read more about.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 1301,
+        "timestamp_sec": 27.83,
+        "latency_sec": 7.5,
+        "frame_description": "The user is scrolling down a webpage on a desktop browser, likely reviewing content related to travel destinations such as \"Banana Beach\" and \"Haeundae Beach.\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1317,
+        "timestamp_sec": 28.18,
+        "latency_sec": 7.57,
+        "frame_description": "The user is scrolling down a webpage on the desktop, likely reviewing content related to travel destinations such as \"Banana Beach\" and \"Haeundae Beach.\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 1333,
+        "timestamp_sec": 28.52,
+        "latency_sec": 8.65,
+        "frame_description": "The user is viewing a webpage on TripAdvisor that lists \"Travelers' Choice Awards: Best Beaches in Asia,\" with the page currently displaying details about \"Banana Beach\" in Phuket, Thailand, and \"Haeundae Beach\" in Busan, South Korea. The user has not entered any text into any form fields or search bars on the page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 1621,
+        "timestamp_sec": 34.68,
+        "latency_sec": 8.47,
+        "frame_description": "The user is viewing a TripAdvisor page showcasing beach destinations, specifically focusing on \"Banana Beach\" in Phuket, Thailand, and \"Haeundae Beach\" in Busan, South Korea. The page includes user reviews, ratings, and descriptions of the beaches. There is no active text input or typing occurring in the application at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 1726,
+        "timestamp_sec": 36.93,
+        "latency_sec": 7.71,
+        "frame_description": "The user is viewing a blank document in an application, with no active text input or editing occurring. The sidebar displays various folders and files, but no specific action is being performed on them at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 2099,
+        "timestamp_sec": 44.91,
+        "latency_sec": 7.31,
+        "frame_description": "The user is viewing a TripAdvisor page for \"Banana Beach\" in Ko He, Phuket, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 2575,
+        "timestamp_sec": 55.09,
+        "latency_sec": 7.32,
+        "frame_description": "The user is viewing a TripAdvisor page for \"Banana Beach\" in Ko He, Phuket, with no active input or text entry occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 2642,
+        "timestamp_sec": 56.53,
+        "latency_sec": 8.66,
+        "frame_description": "The user is viewing a TripAdvisor page for \"Banana Beach\" in Ko He, Phuket, with details about the location, including its opening hours and reviews. The user has multiple tabs open, including one titled \"Banana Beach - All You Need to Know BEFORE You Go (2024).\" There is no active input or typing occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 2684,
+        "timestamp_sec": 57.42,
+        "latency_sec": 7.58,
+        "frame_description": "The user is hovering over the \"User access tokens\" tab in the browser's sidebar, which has triggered a tooltip displaying \"User access tokens\" and \"huggingface.co\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 2700,
+        "timestamp_sec": 57.77,
+        "latency_sec": 7.4,
+        "frame_description": "The user is viewing the TripAdvisor page for Banana Beach in Ko He, Phuket, with information about the location, including its rating, hours, and featured images.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 2716,
+        "timestamp_sec": 58.11,
+        "latency_sec": 7.46,
+        "frame_description": "The user is hovering over the \"User access tokens\" item in the sidebar, which triggers a tooltip displaying \"User access tokens\" and \"huggingface.co\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 2739,
+        "timestamp_sec": 58.6,
+        "latency_sec": 7.15,
+        "frame_description": "The user is viewing the TripAdvisor page for Banana Beach, with no active input or text entry occurring at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 2787,
+        "timestamp_sec": 59.63,
+        "latency_sec": 8.08,
+        "frame_description": "The user is viewing the TripAdvisor page for Banana Beach in Ko He, Phuket, and appears to be exploring information about the location, including its reviews, hours, and available tours and experiences. The user has not entered any text into form fields or search bars on this page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 2803,
+        "timestamp_sec": 59.97,
+        "latency_sec": 7.23,
+        "frame_description": "The user is viewing a TripAdvisor page for Banana Beach in Ko He, Phuket, with no active input or text entry occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 2819,
+        "timestamp_sec": 60.31,
+        "latency_sec": 8.32,
+        "frame_description": "The user is viewing a TripAdvisor page about Banana Beach, specifically looking at \"Top ways to experience Banana Beach\" which includes various tour options like snorkeling and jet boat rentals. The page also shows information about the area, including nearby restaurants and attractions. There is no active text input or typing occurring in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 2835,
+        "timestamp_sec": 60.65,
+        "latency_sec": 8.34,
+        "frame_description": "The user is viewing a webpage on TripAdvisor that lists various activities and attractions at Banana Beach, Phuket, Thailand. The page includes sections for \"Top ways to experience Banana Beach\" and \"The area,\" with details about nearby restaurants and attractions. There is no active input or text being typed by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 3003,
+        "timestamp_sec": 64.25,
+        "latency_sec": 8.35,
+        "frame_description": "The user is viewing a webpage on TripAdvisor that lists various tour options for Banana Beach, Phuket, Thailand. The page includes sections titled \"Top ways to experience Banana Beach\" and \"The area,\" with details about nearby attractions and restaurants. There is no active input or text being typed by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 3251,
+        "timestamp_sec": 69.56,
+        "latency_sec": 9.61,
+        "frame_description": "The user is viewing a webpage about Banana Beach, specifically looking at \"Top ways to experience Banana Beach\" with options like \"Recommended,\" \"Tours & Sightseeing,\" \"Water Sports,\" and \"Outdoor Activities.\" They are also browsing through a list of files or folders on the left side of the screen, which includes items like \"Dongping-Chen/...\" and \"Overleaf and Conference.\" The user appears to be exploring content related to Banana Beach and potentially organizing or reviewing files on their desktop.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 103
+      },
+      {
+        "frame_number": 3320,
+        "timestamp_sec": 71.03,
+        "latency_sec": 8.45,
+        "frame_description": "The user is viewing a TripAdvisor page about Banana Beach in Phuket, Thailand, with tabs open for various research-related documents and websites. The page displays top ways to experience Banana Beach, including water sports and day trips, along with nearby attractions and restaurants. There is no active typing or input being performed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 3336,
+        "timestamp_sec": 71.37,
+        "latency_sec": 8.82,
+        "frame_description": "The user is viewing a webpage about Banana Beach in Phuket, Thailand, on the TripAdvisor website. The page displays information about nearby attractions and restaurants, including details like ratings, prices, and distances. There is also a map on the right side showing the location of these places relative to Banana Beach. The user appears to be browsing through the content but not actively typing or entering any text at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 81
+      },
+      {
+        "frame_number": 3352,
+        "timestamp_sec": 71.72,
+        "latency_sec": 8.66,
+        "frame_description": "The user is viewing a webpage about Banana Beach in Phuket, Thailand, on the TripAdvisor website. The page displays information about nearby attractions and restaurants, including details like ratings, prices, and distances. There is also a map showing the location of these places relative to Banana Beach. The user appears to be browsing through the content but not actively typing or entering any text at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 3368,
+        "timestamp_sec": 72.06,
+        "latency_sec": 8.38,
+        "frame_description": "The user is viewing a TripAdvisor page for \"Banana Beach\" in Phuket, Thailand, with tabs for \"About,\" \"The area,\" and \"Reviews\" visible. The page displays information about the beach, including its location, nearby attractions, and reviews. The user is not actively typing or entering any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 3382,
+        "timestamp_sec": 72.36,
+        "latency_sec": 9.86,
+        "frame_description": "The user is viewing a TripAdvisor page for \"Banana Beach\" in Phuket, Thailand, with tabs for \"About,\" \"The area,\" and \"Reviews\" visible. The page displays information about nearby restaurants and attractions, including \"Big Boys' Burger Club - Patong,\" \"Kan's Haus Cafe & Bistro,\" \"Climax on Bangla,\" \"Banana Beach,\" \"Beloved tattoo,\" and \"Patong Inn Art.\" A map on the right shows the location of these places. The user is not actively typing or entering text in any form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 118
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for Asia Island on Trip Advisor.",
+      "reference_caption": "Navigating Trip Advisor to Explore Top Beach Destinations in Asia and Delve into Detailed Information About Kelingking and Banana Beaches",
+      "reference_apps": [
+        "edge",
+        "trip advisor"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 150,
+          "sub_goal": "Clicked on Asia beaches on Trip Advisor.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 862,
+          "sub_goal": "The first attraction loaded is Kelingking Beach.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1040,
+          "sub_goal": "Click \"read more\" to view more information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1333,
+          "sub_goal": "Continue scrolling down the page to view more beach.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1708,
+          "sub_goal": "Click on \"banana beach\" to jump to the detailed description.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2768,
+          "sub_goal": "Loaded the detailed interface of Banana Beach.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3083,
+          "sub_goal": "Scroll down the webpage to browse more information about banana bench.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The user's underlying objective appears to be researching and comparing beach destinations, specifically focusing on Kho Phangan's Khuab Beach and Banana Beach in Phuket. The AI inferred intent aligns with this as it involves viewing TripAdvisor pages for these beaches, examining reviews, nearby attractions, and activities. There are no contradictions in the timeline regarding specific details like locations or names of the beaches."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The descriptions consistently match the applications, titles, and actions reported without introducing contradictions or fabricated details."
+        },
+        "coverage": {
+          "score": 4.11,
+          "coverage": 0.778,
+          "covered": 7,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline provides a detailed description of the user's actions across various keyframes, including viewing pages on TripAdvisor and interacting with browser tabs. The descriptions allow for paraphrasing while maintaining the essence of each action."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The timeline contains numerous repetitive entries describing similar actions (e.g., viewing TripAdvisor pages for Banana Beach and Khaeundae Beach) without significant variation, indicating a high level of redundancy relative to the timeline's length."
+        }
+      },
+      "composite_score": 15.11,
+      "max_score": 20,
+      "latency_sec": 220.01
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0135,
+        "recall": 0.8103,
+        "f1": 0.0265
+      },
+      "rouge2": {
+        "precision": 0.0049,
+        "recall": 0.2982,
+        "f1": 0.0096
+      },
+      "rougeL": {
+        "precision": 0.0112,
+        "recall": 0.6724,
+        "f1": 0.022
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0492
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 793.07,
+      "total_vlm_inference_sec": 557.06,
+      "intent_latency_sec": 15.92,
+      "frames_processed": 65,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.57,
+      "median_frame_latency_sec": 8.34,
+      "min_frame_latency_sec": 7.15,
+      "max_frame_latency_sec": 14.44,
+      "avg_description_length_chars": 335.1,
+      "total_prompt_tokens": 141804,
+      "total_completion_tokens": 4728,
+      "avg_completion_tokens_per_sec": 8.1,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was researching top-rated beaches in Asia on TripAdvisor and exploring travel details, activities, and reviews for Banana Beach.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 5.88,
+        "frame_description": "The user is hovering the cursor over the 'Caribbean Beaches' card on the TripAdvisor webpage. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 17,
+        "timestamp_sec": 0.36,
+        "latency_sec": 11.43,
+        "frame_description": "The user is hovering the cursor over the \"Half-Day Thai Cooking Class at Organic Farm in Chiang Mai\" tour option on the Tripadvisor webpage. There is no visible user-entered text in any form",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 0.71,
+        "latency_sec": 7.16,
+        "frame_description": "The user is hovering the mouse cursor over the web page on the TripAdvisor website.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 49,
+        "timestamp_sec": 1.05,
+        "latency_sec": 6.97,
+        "frame_description": "The user is hovering the cursor over \"Half-Day Thai Cooking Class at Organic Farm in Chiang Mai\".\n\n**User-entered text:**\n- Address bar: \"https://www.tripadvisor.com\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 65,
+        "timestamp_sec": 1.39,
+        "latency_sec": 6.86,
+        "frame_description": "The user is hovering the mouse cursor over the \"Caribbean Beaches\" card on the TripAdvisor webpage. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 81,
+        "timestamp_sec": 1.73,
+        "latency_sec": 6.09,
+        "frame_description": "The user is hovering the mouse cursor over the \"Caribbean Beaches\" card on the TripAdvisor webpage. The visible user-entered text in the browser's address bar is \"https://www.tripadvisor.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 97,
+        "timestamp_sec": 2.08,
+        "latency_sec": 6.83,
+        "frame_description": "The user is hovering the mouse over the 'Caribbean Beaches' option on the webpage. \n\nVisible user-entered text:\n- Address bar: \"https://www.tripadvisor.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 166,
+        "timestamp_sec": 3.55,
+        "latency_sec": 4.72,
+        "frame_description": "The user is clicking on the \"Asia Beaches\" section on the webpage. \n\nThere is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 221,
+        "timestamp_sec": 4.73,
+        "latency_sec": 4.38,
+        "frame_description": "The user is hovering the cursor over the blank page area in the browser. \n\nVisible user-entered text:\n- Address bar: `\"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 367,
+        "timestamp_sec": 7.85,
+        "latency_sec": 6.24,
+        "frame_description": "The user is hovering the mouse cursor over the web page banner. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 443,
+        "timestamp_sec": 9.48,
+        "latency_sec": 6.35,
+        "frame_description": "The user is viewing the \"Travelers' Choice Awards: Best Beaches in Asia\" page on TripAdvisor in the web browser.\n\n**Visible user-entered text:**\n* **Address",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 459,
+        "timestamp_sec": 9.82,
+        "latency_sec": 5.38,
+        "frame_description": "The user is viewing a webpage on the TripAdvisor website, with the address bar containing \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 548,
+        "timestamp_sec": 11.72,
+        "latency_sec": 5.93,
+        "frame_description": "The user is browsing the TripAdvisor webpage titled \"Travelers' Choice Awards: Best Beaches in Asia\".\n\n**User-entered text:**\n* Address bar: `https://www.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 564,
+        "timestamp_sec": 12.07,
+        "latency_sec": 6.39,
+        "frame_description": "The user is viewing the \"Travelers' Choice Awards: Best Beaches in Asia\" webpage on TripAdvisor. \n\nVisible user-entered text in the address bar:\n* \"https://www.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 589,
+        "timestamp_sec": 12.6,
+        "latency_sec": 5.95,
+        "frame_description": "The user is browsing the TripAdvisor webpage for \"Travelers' Choice Awards: Best Beaches in Asia\".\n\n**Visible user-entered text:**\n* Address bar: `https://www.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 605,
+        "timestamp_sec": 12.94,
+        "latency_sec": 4.81,
+        "frame_description": "The user is clicking on the 'Beaches' card. \n\nThe visible user-entered text in the address bar is \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 621,
+        "timestamp_sec": 13.29,
+        "latency_sec": 3.33,
+        "frame_description": "The user is hovering the mouse cursor over the 'Beaches' category card on the webpage.\n\n**Visible user-entered text:**\n* Address bar: `\"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 637,
+        "timestamp_sec": 13.63,
+        "latency_sec": 5.41,
+        "frame_description": "The user is clicking on the \"Beaches\" category card under \"Explore more Travelers' Choice categories\".\n\n**Visible user-entered text:**\n* Address bar: `https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 653,
+        "timestamp_sec": 13.97,
+        "latency_sec": 4.9,
+        "frame_description": "The user is hovering the cursor over an image carousel on a web page. \n\nVisible user-entered text in the address bar:\n`https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 696,
+        "timestamp_sec": 14.89,
+        "latency_sec": 7.01,
+        "frame_description": "The user is hovering the mouse over the webpage content. \n\nText visible in form fields / address bar:\n- Address bar: `https://www.tripadvisor.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 716,
+        "timestamp_sec": 15.32,
+        "latency_sec": 6.03,
+        "frame_description": "The user is viewing a webpage titled \"Travelers' Choice Awards: Best Beaches in Asia - Tripadvisor\".\n\n**Visible user-entered text:**\n* Address bar: `https://www.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 732,
+        "timestamp_sec": 15.66,
+        "latency_sec": 10.09,
+        "frame_description": "The user is viewing a webpage on TripAdvisor. \n\nVisible user-entered text in the address bar:\n`https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 765,
+        "timestamp_sec": 16.37,
+        "latency_sec": 5.61,
+        "frame_description": "The user is viewing a webpage titled \"Travelers' Choice Awards: Best Beaches in Asia - TripAdvisor\". The text in the address bar is 'https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 781,
+        "timestamp_sec": 16.71,
+        "latency_sec": 7.49,
+        "frame_description": "The user is viewing a webpage on TripAdvisor with the address bar containing \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 833,
+        "timestamp_sec": 17.82,
+        "latency_sec": 6.21,
+        "frame_description": "The user is viewing the TripAdvisor webpage for \"Travelers' Choice Awards: Best Beaches in Asia\".\n\n**User-entered text:**\n- Address bar: `\"https://www.tripadvisor.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 849,
+        "timestamp_sec": 18.16,
+        "latency_sec": 6.42,
+        "frame_description": "The user is viewing a webpage on TripAdvisor titled \"Travelers' Choice Awards: Best Beaches in Asia\" in the browser. \n\nVisible user-entered text in the address bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 883,
+        "timestamp_sec": 18.89,
+        "latency_sec": 5.98,
+        "frame_description": "The user is viewing a webpage on TripAdvisor featuring the Travelers' Choice Awards for Best Beaches in Asia. The text visible in the address bar is \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 899,
+        "timestamp_sec": 19.23,
+        "latency_sec": 6.32,
+        "frame_description": "The user is viewing a webpage on TripAdvisor. \n\nVisible user-entered text includes:\n* Address bar: `\"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 943,
+        "timestamp_sec": 20.18,
+        "latency_sec": 7.97,
+        "frame_description": "The user is viewing the \"Travelers' Choice Awards: Best Beaches in Asia\" webpage on TripAdvisor. The visible text in the address bar is \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 959,
+        "timestamp_sec": 20.52,
+        "latency_sec": 6.21,
+        "frame_description": "The user is viewing a web page titled \"Travelers' Choice Awards: Best Beaches in Asia\" on TripAdvisor, with the address bar displaying \"https://www.tripadvisor.com/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 975,
+        "timestamp_sec": 20.86,
+        "latency_sec": 5.0,
+        "frame_description": "The user is clicking on the \"1,600 reviews\" link. The visible user-entered text in the address bar is \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1058,
+        "timestamp_sec": 22.64,
+        "latency_sec": 4.03,
+        "frame_description": "The user is clicking on the 'Read less' button on the webpage. The address bar contains the text \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 1074,
+        "timestamp_sec": 22.98,
+        "latency_sec": 6.22,
+        "frame_description": "The user is viewing a webpage on TripAdvisor, with the address bar containing \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1090,
+        "timestamp_sec": 23.32,
+        "latency_sec": 9.06,
+        "frame_description": "The user is hovering the cursor over the webpage content on the TripAdvisor website. The URL bar contains the text \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 1138,
+        "timestamp_sec": 24.35,
+        "latency_sec": 5.06,
+        "frame_description": "The user is viewing a webpage on TripAdvisor displaying the \"Travelers' Choice Awards: Best Beaches in Asia\".\n\n**Visible user-entered text:**\n* Address bar: `https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 1154,
+        "timestamp_sec": 24.69,
+        "latency_sec": 5.85,
+        "frame_description": "The user is hovering the mouse cursor over the 'Good for adrenaline seekers' tag on the webpage. The visible text in the address bar is 'https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1170,
+        "timestamp_sec": 25.03,
+        "latency_sec": 6.27,
+        "frame_description": "The user is hovering the cursor over the 'Good for adrenaline seekers' tag on the webpage.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 1186,
+        "timestamp_sec": 25.37,
+        "latency_sec": 6.32,
+        "frame_description": "The user is browsing a webpage on TripAdvisor listing top beaches in Asia.\n\n**Visible user-entered text:**\n* Address bar: `\"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1202,
+        "timestamp_sec": 25.72,
+        "latency_sec": 5.8,
+        "frame_description": "The user is scrolling through a webpage on TripAdvisor. The visible text in the address bar is \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1218,
+        "timestamp_sec": 26.06,
+        "latency_sec": 6.07,
+        "frame_description": "The user is browsing the TripAdvisor website. \n\nVisible user-entered text in form fields/address bar:\n- Address bar: `https://www.tripadvisor.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1234,
+        "timestamp_sec": 26.4,
+        "latency_sec": 5.78,
+        "frame_description": "The user is hovering the mouse cursor over an image of Banana Beach on the webpage. \n\nThere is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 1285,
+        "timestamp_sec": 27.49,
+        "latency_sec": 4.37,
+        "frame_description": "The user is hovering the cursor over the image of Banana Beach on the webpage.\n\n\"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 1301,
+        "timestamp_sec": 27.83,
+        "latency_sec": 4.57,
+        "frame_description": "The user is hovering the cursor over the image of Banana Beach. \n\nVisible user-entered text:\n- Address bar: \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 1317,
+        "timestamp_sec": 28.18,
+        "latency_sec": 10.16,
+        "frame_description": "The user is hovering over the image of Banana Beach. \n\nThe visible text in the address bar is \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1333,
+        "timestamp_sec": 28.52,
+        "latency_sec": 7.45,
+        "frame_description": "The user is clicking on the image of Banana Beach in the browser window.\n\n**Visible user-entered text:**\n- **Address bar:** \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 1621,
+        "timestamp_sec": 34.68,
+        "latency_sec": 5.77,
+        "frame_description": "The user is clicking on the 'Read less' button. The visible user-entered text in the application is \"https://www.tripadvisor.com/TravelersChoice-Beaches-cAsia-g2\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1726,
+        "timestamp_sec": 36.93,
+        "latency_sec": 3.9,
+        "frame_description": "The user is hovering the mouse cursor over the blank web page area. There is no visible user-entered text in form fields or search bars (the address bar displays \"about:blank\").",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 2099,
+        "timestamp_sec": 44.91,
+        "latency_sec": 5.18,
+        "frame_description": "The user is hovering the cursor over the main photo of Banana Beach on the TripAdvisor webpage. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 2575,
+        "timestamp_sec": 55.09,
+        "latency_sec": 6.12,
+        "frame_description": "The user is hovering the mouse over the photo of Banana Beach on the webpage.\n\n**Visible user-entered text:**\n- Address bar: `https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 2642,
+        "timestamp_sec": 56.53,
+        "latency_sec": 5.88,
+        "frame_description": "The user is clicking on the 'User access tokens' tab on the left sidebar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 2684,
+        "timestamp_sec": 57.42,
+        "latency_sec": 11.17,
+        "frame_description": "The user is hovering the cursor over a tab in the browser's left sidebar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 2700,
+        "timestamp_sec": 57.77,
+        "latency_sec": 5.57,
+        "frame_description": "The user is clicking on the 'User access tokens' browser tab on the left sidebar.\n\nThe visible user-entered text in the address bar is:\n`https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 2716,
+        "timestamp_sec": 58.11,
+        "latency_sec": 6.3,
+        "frame_description": "The user is hovering the cursor over the 'User access tokens' tab in the browser's left sidebar. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2739,
+        "timestamp_sec": 58.6,
+        "latency_sec": 6.27,
+        "frame_description": "The user is viewing the TripAdvisor webpage for Banana Beach. \n\n**Visible user-entered text:**\n* Address bar: `https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 2787,
+        "timestamp_sec": 59.63,
+        "latency_sec": 4.23,
+        "frame_description": "The user is clicking on the 'See options' button. The visible user-entered text in the application is \"https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 2803,
+        "timestamp_sec": 59.97,
+        "latency_sec": 4.56,
+        "frame_description": "The user is clicking on the 'See options' button.\n\n**User-entered text:**\n* Address bar: `https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 2819,
+        "timestamp_sec": 60.31,
+        "latency_sec": 5.48,
+        "frame_description": "The user is hovering the cursor over the \"Banana Beach Snorkeling Day Out\" item on the TripAdvisor webpage.\n\n**User-entered text:**\n* Address bar: `\"https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 82
+      },
+      {
+        "frame_number": 2835,
+        "timestamp_sec": 60.65,
+        "latency_sec": 6.0,
+        "frame_description": "The user is viewing the webpage for \"Banana Beach - All You Need to Know BEFORE You Go (2024)\" on TripAdvisor in the web browser.\n\n**Visible user-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 3003,
+        "timestamp_sec": 64.25,
+        "latency_sec": 5.31,
+        "frame_description": "The user is hovering the cursor over the \"Full-day Tours\" link under \"Banana Beach Snorkeling Day Out\".\n\nThe visible user-entered text in the address bar is \"https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 84
+      },
+      {
+        "frame_number": 3251,
+        "timestamp_sec": 69.56,
+        "latency_sec": 4.34,
+        "frame_description": "The user is hovering the cursor over the \"Water Sports\" tab on the webpage.\n\nVisible user-entered text in the address bar:\n\"https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 77
+      },
+      {
+        "frame_number": 3320,
+        "timestamp_sec": 71.03,
+        "latency_sec": 6.58,
+        "frame_description": "The user is viewing a webpage on TripAdvisor, with the URL \"https://www.tripadvisor.com/Attraction_Review-g1224343-d85",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 3336,
+        "timestamp_sec": 71.37,
+        "latency_sec": 5.89,
+        "frame_description": "The user is hovering the mouse cursor over the \"Beloved tattoo\" link on the webpage.\n\n**User-entered text:**\n- Address bar: `https://www.tripadvisor.com/Attraction_Review-g1224343-d8550982-Reviews-Banana_Beach-Ko_He_Phuket.html`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 79
+      },
+      {
+        "frame_number": 3352,
+        "timestamp_sec": 71.72,
+        "latency_sec": 6.72,
+        "frame_description": "The user is hovering the mouse cursor over the webpage. \n\n**Visible user-entered text:**\n* Address bar: `https://www.tripadvisor.com/Att",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 3368,
+        "timestamp_sec": 72.06,
+        "latency_sec": 6.12,
+        "frame_description": "The user is hovering the mouse cursor over the web page. The user-entered text in the address bar is \"https://www.tripadvisor.com/Attraction_Review-g122",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 3382,
+        "timestamp_sec": 72.36,
+        "latency_sec": 10.71,
+        "frame_description": "The user is viewing a webpage on TripAdvisor titled \"Banana Beach - All You Need to Know BEFORE You Go (2024)\". \n\n**Visible user-entered text:**\n* **Address",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for Asia Island on Trip Advisor.",
+      "reference_caption": "Navigating Trip Advisor to Explore Top Beach Destinations in Asia and Delve into Detailed Information About Kelingking and Banana Beaches",
+      "reference_apps": [
+        "edge",
+        "trip advisor"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 150,
+          "sub_goal": "Clicked on Asia beaches on Trip Advisor.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 862,
+          "sub_goal": "The first attraction loaded is Kelingking Beach.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1040,
+          "sub_goal": "Click \"read more\" to view more information.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1333,
+          "sub_goal": "Continue scrolling down the page to view more beach.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1708,
+          "sub_goal": "Click on \"banana beach\" to jump to the detailed description.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2768,
+          "sub_goal": "Loaded the detailed interface of Banana Beach.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3083,
+          "sub_goal": "Scroll down the webpage to browse more information about banana bench.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of exploring and gathering information about Banana Beach, as evidenced by actions such as clicking on the image of Banana Beach, viewing detailed reviews, and examining specific activities like snorkeling day outs. The timeline supports this with consistent navigation to relevant sections (e.g., 'Banana Beach Snorkeling Day Out', 'Water Sports') that align with the user's interest in learning about the beach before visiting. There are no contradictions in the named details of these actions."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The timeline supports the QA answers consistently, without contradictions or fabricated details."
+        },
+        "coverage": {
+          "score": 2.78,
+          "coverage": 0.444,
+          "covered": 4,
+          "total": 9,
+          "covered_actions": [
+            1,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "trip advisor"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing and interacting with the TripAdvisor website, which aligns with several keyframe actions. However, not all specific interactions like clicks are detailed in the timeline."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as hovering over the same elements and repeated mentions of the address bar content. These entries contribute to redundancy in the timeline."
+        }
+      },
+      "composite_score": 14.78,
+      "max_score": 20,
+      "latency_sec": 194.06
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0192,
+        "recall": 0.5862,
+        "f1": 0.0371
+      },
+      "rouge2": {
+        "precision": 0.0045,
+        "recall": 0.1404,
+        "f1": 0.0087
+      },
+      "rougeL": {
+        "precision": 0.0158,
+        "recall": 0.4828,
+        "f1": 0.0306
+      },
+      "num_sub_goals": 7,
+      "latency_sec": 0.0332
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 607.73,
+      "total_vlm_inference_sec": 404.46,
+      "intent_latency_sec": 9.14,
+      "frames_processed": 65,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.22,
+      "median_frame_latency_sec": 6.03,
+      "min_frame_latency_sec": 3.33,
+      "max_frame_latency_sec": 11.43,
+      "avg_description_length_chars": 170,
+      "total_prompt_tokens": 82014,
+      "total_completion_tokens": 3078,
+      "avg_completion_tokens_per_sec": 7.3
+    }
+  }
+}

@@ -1,0 +1,1069 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/56.mp4",
+  "total_frames": 3634,
+  "fps": 46.661230988501615,
+  "video_length_sec": 77.88,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 3634,
+  "frames_processed": 47,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was planning a five-day trip to Vienna for friends by researching conference logistics, selecting travel dates, and customizing a multi-day itinerary with specific attractions and accommodations.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 9.58,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for a 5-day trip to Vienna, with the current day being Saturday, August 10. The itinerary includes visits to The Hofburg and Schachtelwirt. On the right side of the screen, there is a map showing various locations in Vienna, and a pop-up on the far right asks the user to input their location for personalized recommendations. The user has entered \"Singapore, Singapore\" into the location field in this pop-up.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 98
+      },
+      {
+        "frame_number": 23,
+        "timestamp_sec": 0.49,
+        "latency_sec": 8.16,
+        "frame_description": "The user is viewing the Microsoft Start page in a web browser, with no active input or typing occurring. The search bar contains the placeholder text \"\u641c\u7d22\u7f51\u9875\" (Search the web), and no user-entered text is visible in any form fields or active input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 159,
+        "timestamp_sec": 3.41,
+        "latency_sec": 7.09,
+        "frame_description": "The user is typing \"kea.com\" in the address bar of a web browser.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 185,
+        "timestamp_sec": 3.96,
+        "latency_sec": 6.98,
+        "frame_description": "The user is typing \"ICM\" into the search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 201,
+        "timestamp_sec": 4.31,
+        "latency_sec": 7.35,
+        "frame_description": "The user is typing \"ICM\" into the search bar of a web browser.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 218,
+        "timestamp_sec": 4.67,
+        "latency_sec": 7.49,
+        "frame_description": "The user is typing \"ICM\" into the search bar of a web browser, which triggers a dropdown menu with search suggestions related to \"ICM\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 326,
+        "timestamp_sec": 6.99,
+        "latency_sec": 7.16,
+        "frame_description": "The user is typing \"icml\" into the search bar of the Microsoft Start interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 350,
+        "timestamp_sec": 7.5,
+        "latency_sec": 7.34,
+        "frame_description": "The user is typing \"ICML 2024\" into the search bar of the Google search page.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 366,
+        "timestamp_sec": 7.84,
+        "latency_sec": 7.19,
+        "frame_description": "The user is searching for information about the ICML 2024 conference on Google.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 539,
+        "timestamp_sec": 11.55,
+        "latency_sec": 9.11,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates page, which lists conference events such as Expo, Virtual Pass, Tutorials, Conference Sessions, and Workshops, along with their respective dates. The page also includes a section for \"Dates and Deadlines\" with information about registration open until August 27th at 8:00 PM UTC. There is no active input or typing occurring in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 88
+      },
+      {
+        "frame_number": 594,
+        "timestamp_sec": 12.73,
+        "latency_sec": 11.53,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates page on their desktop, which includes details about the conference schedule and deadlines. The page displays information such as the Expo date (Sun Jul 21st), Virtual Pass availability (Mon Jul 22nd through Sat the 27th), Tutorials (Mon Jul 22nd), Conference Sessions (Tue Jul 23rd through Thu the 25th), and Workshops (Fri Jul 26th through Sat the 27th). Below this, there is a section titled \"Dates and Deadlines\" with various deadlines for registration, paper submissions, reviews, and other related activities. The user appears to be reviewing these dates and deadlines but is not actively interacting with any form fields or buttons at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 164
+      },
+      {
+        "frame_number": 636,
+        "timestamp_sec": 13.63,
+        "latency_sec": 13.46,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates page, which includes information about expo, virtual pass, tutorials, conference sessions, workshops, and various deadlines for attendees and paper submissions. The page lists specific dates and times for events such as registration opening, career site openings, early pricing, registration cancellation deadline, career site posting deadline, career site closing, paper submission deadlines, review release to authors, author rebuttal period ends, author reviewer discussion ends, reviewer-AC discussion starts, reviewer-AC discussion ends, SAC agreement period start, SAC agreement period end, paper decision notification, and camera-ready version deadline. The user's browser has multiple tabs open, including CS study, Writing, CS interest, Google, arXiv-bot, Cool Papers, ICML 2024, AI Conference, COLM 2024, Apple Music, HustMail, TGX:Home, HutooCloud, Clash, gatern.github.io, bilibili, mac software, and Overview - OpenAI. The user is not actively typing or entering any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 224
+      },
+      {
+        "frame_number": 652,
+        "timestamp_sec": 13.97,
+        "latency_sec": 7.45,
+        "frame_description": "The user is viewing a webpage displaying ICML 2024 meeting dates and deadlines, with no active input or interaction occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 668,
+        "timestamp_sec": 14.32,
+        "latency_sec": 9.18,
+        "frame_description": "The user is viewing a webpage displaying dates and deadlines for an event, likely a conference or workshop, with various categories such as Expo, Virtual Pass, Tutorials, Conference Sessions, Workshops, Attendees, Paper Submissions, Socials, and Sponsors/Expo. The page includes specific dates and times for different events and deadlines, along with time zone information. There is no active input or text being typed by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 91
+      },
+      {
+        "frame_number": 684,
+        "timestamp_sec": 14.66,
+        "latency_sec": 9.02,
+        "frame_description": "The user is viewing a webpage titled \"Dates and Deadlines\" for the ICML 2024 conference, which lists various deadlines and dates related to registration, paper submissions, and other events. The page includes sections for attendees, paper submissions, socials, and sponsors/expo, with specific dates and times provided for each event. There is no active input or text being typed by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 700,
+        "timestamp_sec": 15.0,
+        "latency_sec": 8.53,
+        "frame_description": "The user is viewing a webpage listing various dates and deadlines for the ICML 2024 conference, including registration, paper submission, review, and socials events. The page is displayed in a browser with multiple tabs open, and the user appears to be scrolling through the content. No active typing or input actions are observed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 719,
+        "timestamp_sec": 15.41,
+        "latency_sec": 7.56,
+        "frame_description": "The user is viewing a webpage listing various deadlines and dates related to the ICML 2024 conference, with no active input or editing actions being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 735,
+        "timestamp_sec": 15.75,
+        "latency_sec": 8.18,
+        "frame_description": "The user is viewing a webpage titled \"Dates and Deadlines\" for the ICML 2024 conference, which lists various deadlines such as registration, paper submissions, and social media application deadlines. The user is not actively typing or entering any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 56
+      },
+      {
+        "frame_number": 751,
+        "timestamp_sec": 16.09,
+        "latency_sec": 9.17,
+        "frame_description": "The user is viewing a webpage titled \"Dates and Deadlines\" on a browser, likely related to the ICML 2024 conference, with various deadlines listed under categories such as Attendees, Paper Submissions, Socials, Sponsors/Expo, and Workshops. The user appears to be scrolling through the page, possibly reviewing the timeline of events. There is no active input or typing occurring in the visible interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 88
+      },
+      {
+        "frame_number": 767,
+        "timestamp_sec": 16.44,
+        "latency_sec": 9.34,
+        "frame_description": "The user is viewing a webpage titled \"Dates and Deadlines\" for the ICML 2024 conference, which lists various deadlines and dates related to registration, paper submissions, reviews, and other events. The page is displayed in a web browser with multiple tabs open, including references to \"ICML 2024,\" \"COLM 2024,\" and other related topics. The user appears to be reviewing the timeline of events for the conference.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 97
+      },
+      {
+        "frame_number": 1106,
+        "timestamp_sec": 23.7,
+        "latency_sec": 9.45,
+        "frame_description": "The user is viewing a webpage titled \"Dates and Deadlines\" for ICML 2024, which lists various deadlines and dates related to registration, paper submissions, socials, sponsors, and workshops. The page is displayed in a browser with multiple tabs open, including references to \"ICML 2024,\" \"COLM 2024,\" and other related topics. The user appears to be reviewing the timeline of events for the conference.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 96
+      },
+      {
+        "frame_number": 1122,
+        "timestamp_sec": 24.05,
+        "latency_sec": 13.94,
+        "frame_description": "The user is viewing a webpage listing various deadlines and dates related to the ICML 2024 conference, including registration, paper submissions, socials, sponsors, and workshops. The page is displayed within a browser window that has multiple tabs open, such as \"CS study,\" \"Writing,\" \"CS interest,\" \"Google,\" \"arXiv-bot,\" \"Cool Papers - Im...\", \"ICML 2024,\" \"AI Conference De...\", \"COLM 2024,\" \"Apple Music,\" \"HustMail,\" \"TGx:Home,\" \"HutaoCloud,\" \"Clash,\" \"gatern.github.io,\" \"bilibili,\" \"mac software,\" and \"Overview - OpenA...\". The left sidebar of the browser shows several bookmarks or folders, including \"Dongping-Chen/CDP-mLM,\" \"github.com/JieyuZ2/unified...\", \"JieyuZ2/dynabench,\" \"Dongping-Chen/GUI-video...\", \"Overleaf and Conference,\" \"HonestyLLM - Online LaTeX E,\" \"NAACL 2024 - Online LaTeX E,\" \"NAACL 2024 (Arxiv) (Copy),\" \"COLM -",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1185,
+        "timestamp_sec": 25.4,
+        "latency_sec": 8.27,
+        "frame_description": "The user is viewing a webpage listing various deadlines and dates related to the ICML 2024 conference, including registration, paper submissions, and workshop applications. The page is displayed within a browser window, and the user appears to be scrolling through the content to review the timeline of events.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 1201,
+        "timestamp_sec": 25.74,
+        "latency_sec": 7.64,
+        "frame_description": "The user is viewing a webpage displaying the dates and deadlines for the ICML 2024 conference, with no active input or editing actions being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 1217,
+        "timestamp_sec": 26.08,
+        "latency_sec": 7.46,
+        "frame_description": "The user is viewing a webpage displaying the ICML 2024 Meeting Dates and Dates and Deadlines, with no active input or editing actions being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 1233,
+        "timestamp_sec": 26.42,
+        "latency_sec": 7.31,
+        "frame_description": "The user is viewing a webpage displaying ICML 2024 meeting dates and deadlines, with no active input or interaction occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 1383,
+        "timestamp_sec": 29.64,
+        "latency_sec": 7.29,
+        "frame_description": "The user is viewing a webpage displaying ICML 2024 meeting dates and deadlines, with no active input or interaction occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 1399,
+        "timestamp_sec": 29.98,
+        "latency_sec": 8.54,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates page on their desktop, which displays various dates and deadlines for the conference. The page includes sections for Expo, Virtual Pass, Tutorials, Conference Sessions, Workshops, Attendees, Paper Submissions, and Socials. There is no active input or typing occurring in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 1415,
+        "timestamp_sec": 30.32,
+        "latency_sec": 8.67,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates page, which includes information about expo, virtual pass, tutorials, conference sessions, workshops, and various deadlines for registration, paper submissions, and other activities. The page also lists dates and deadlines for attendees and paper submissions. There is no active input or typing being performed by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 1869,
+        "timestamp_sec": 40.05,
+        "latency_sec": 10.09,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates page, which includes information about expo, virtual pass, tutorials, conference sessions, workshops, and various deadlines for attendees and paper submissions. The page lists specific dates and times for events such as registration opening, early pricing, registration cancellation deadline, career site deadlines, paper submission deadlines, review release dates, author rebuttal period ends, author reviewer discussion ends, reviewer-AC discussion starts and ends, SAC agreement period start and end, paper decision notification, and camera-ready version deadline. The user is not actively typing or entering any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 125
+      },
+      {
+        "frame_number": 1885,
+        "timestamp_sec": 40.4,
+        "latency_sec": 10.97,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates page, which includes information about the conference schedule and deadlines. The page displays details such as the expo date, virtual pass dates, tutorial dates, conference session dates, workshop dates, registration open date, career site open date, early pricing deadline, registration cancellation deadline, career site posting deadline, career site close date, paper submissions open date, full paper submission deadline, review release to authors date, author rebuttal period ends date, author reviewer discussion ends date, reviewer-AC discussion starts date, reviewer-AC discussion ends date, SAC agreement period start date, SAC agreement period ends date, paper decision notification date, and camera-ready version deadline. The user's current action is simply viewing this information.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 155
+      },
+      {
+        "frame_number": 1909,
+        "timestamp_sec": 40.91,
+        "latency_sec": 8.53,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates page, which includes information about the conference schedule and deadlines. The page displays details such as the Expo, Virtual Pass, Tutorials, Conference Sessions, and Workshops dates, along with a list of attendees and paper submission deadlines. There is no active input or typing occurring in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 1925,
+        "timestamp_sec": 41.25,
+        "latency_sec": 8.27,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates page on their desktop, which includes details about the expo, virtual pass, tutorials, conference sessions, workshops, and various deadlines for registration, paper submissions, and other activities. The page also shows a list of attendees and their respective deadlines.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 2384,
+        "timestamp_sec": 51.09,
+        "latency_sec": 13.8,
+        "frame_description": "The user is scrolling through a list of tabs or bookmarks in a web browser, likely looking for a specific item to click on. The visible text includes various tab names such as \"CS study,\" \"Writing,\" \"CS interest,\" \"Google,\" \"arXiv-bot,\" \"Cool Papers - Im...\", \"ICML 2024,\" \"AI Conference De...\", \"COLM 2024,\" \"Apple Music,\" \"HustMail,\" \"TGx:Home,\" \"HutaoCloud,\" \"Clash,\" \"gatern.github.io,\" \"bilibili,\" \"mac software,\" \"Overview - OpenA...\", \"Overleaf and Conference,\" \"HonestyLLM - Online LaTeX E,\" \"NAACL 2024 - Online LaTeX E,\" \"NAACL 2024 (Arrxiv) (Copy),\" \"COLM - Online LaTeX Editor,\" \"Is MLLM a good annotator?\", \"Clean CV Template - Online L,\" \"Daily Papers,\" \"Hugging Face,\" \"Video-LLM,\" \"Video-Dataset,\" \"Dongping Chen's Website - Hom,\" \"Video generation models as wor,\" \"arxiv.org/pdf/2403.17830.pdf,\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 2400,
+        "timestamp_sec": 51.43,
+        "latency_sec": 8.22,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for a 5-day trip to Vienna, with the current day being Saturday, August 10. The itinerary includes details about visiting The Hofburg and Schachtelwirt. There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 60
+      },
+      {
+        "frame_number": 2497,
+        "timestamp_sec": 53.51,
+        "latency_sec": 9.59,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for \"Vienna for 5 days for a group of friends\" on August 10-14, with hotel picks and activity suggestions displayed. A pop-up titled \"Your Hotel Picks\" is visible, offering recommendations organized in their saves. The user appears to be browsing through the itinerary, specifically focusing on Saturday, August 10, which includes activities like visiting The Hofburg and Schachtelwirt. There is no active text input or typing occurring in the application at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 108
+      },
+      {
+        "frame_number": 2513,
+        "timestamp_sec": 53.86,
+        "latency_sec": 11.55,
+        "frame_description": "The user is viewing an itinerary editing interface on a desktop browser, with a modal window open titled \"Edit itinerary.\" The modal displays a list of locations scheduled for Saturday, Aug 10, including The Hofburg, Schachtelwirt, Upper Belvedere Palace, St. Stephen's Cathedral, Restaurant Wiener Wirtschaft, and The Vienna Philharmonic. Below that, Sunday, Aug 11 is listed with The Vienna Philharmonic. The background page shows a trip titled \"Vienna for 5 friends\" with hotel picks and a map view of Vienna. On the left sidebar, there are various saved items and folders such as \"Daily Papers,\" \"Hugging Face,\" \"Video-LLM,\" and \"Tripadvisor.\" A notification on the right side indicates the user lives in Singapore, Singapore. No text is being actively typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 177
+      },
+      {
+        "frame_number": 2752,
+        "timestamp_sec": 58.98,
+        "latency_sec": 8.94,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for a trip to Vienna, with the sidebar open showing various saved items and folders. The main content displays hotel recommendations and activities for Saturday, August 10th, while a map on the right highlights locations in Vienna. A pop-up on the right side of the screen prompts the user to input their location for personalized suggestions, currently displaying \"Singapore, Singapore\" in the text field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 2825,
+        "timestamp_sec": 60.54,
+        "latency_sec": 10.23,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for \"Vienna for 5 days for a group of friends\" scheduled from Aug 10 to Aug 14. They are on the \"Itinerary\" tab, which lists activities for Saturday, Aug 10, including \"The Hofburg\" and \"Schachtelwirt.\" A sidebar on the left shows various saved items like papers, datasets, and conference notes. A map on the right displays locations in Vienna. A popup on the right asks the user to input their location for personalized recommendations, currently showing \"Singapore, Singapore.\" The user has not yet entered any text into the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 131
+      },
+      {
+        "frame_number": 2841,
+        "timestamp_sec": 60.89,
+        "latency_sec": 9.8,
+        "frame_description": "The user is interacting with a date picker modal on the TripAdvisor website, specifically selecting dates for a trip. The current action involves choosing August 14, 2024, as part of the trip planning process. Visible text in the application includes \"Add dates or trip length,\" \"Dates (MM/DD),\" \"Trip length,\" \"August 2024,\" and various date numbers within the calendar grid. Additionally, the sidebar lists items like \"Vienna for 5 friends,\" \"Your Hotel Picks,\" and \"Saturday, Aug 10.\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 115
+      },
+      {
+        "frame_number": 3176,
+        "timestamp_sec": 68.07,
+        "latency_sec": 9.82,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for a 5-day trip to Vienna, with the current day being Saturday, August 10. The itinerary includes activities such as visiting The Hofburg and Schachtelwirt. There is a sidebar on the left showing various saved items and folders, and a map on the right displaying locations in Vienna. A pop-up on the right side of the screen prompts the user to input their location for personalized recommendations. The user has not yet entered any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 103
+      },
+      {
+        "frame_number": 3192,
+        "timestamp_sec": 68.41,
+        "latency_sec": 7.51,
+        "frame_description": "The user is editing trip details in a web application, specifically typing \"Vienna for 5 days for a group of friends\" into the \"Trip Name\" field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 3567,
+        "timestamp_sec": 76.44,
+        "latency_sec": 10.22,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for a 7-day trip to Vienna, with the map on the right showing various locations marked. The left sidebar displays a list of saved items and folders, including \"Overleaf and Conference,\" \"Daily Papers,\" \"Hugging Face,\" \"Video-LLM,\" and \"Video-Dataset.\" The main content area shows details for \"Sunday, Jul 21,\" listing \"The Hofburg\" and \"Schachtelwirt\" as part of the itinerary. A pop-up titled \"Your Hotel Picks\" is visible, suggesting hotel recommendations. The user appears to be browsing and organizing their travel plans.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 130
+      },
+      {
+        "frame_number": 3588,
+        "timestamp_sec": 76.89,
+        "latency_sec": 10.46,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for a 7-day trip to Vienna, with the current day being Sunday, July 21. The itinerary includes entries for \"The Hofburg\" and \"Schachtelwirt,\" both of which have been saved. On the right side of the screen, there is a map showing the location of \"Schachtelwirt\" in Vienna, along with other points of interest. Additionally, there is a pop-up on the right side of the screen that says \"I live in...\" with a search bar containing the text \"Singapore, Singapore.\" The user appears to be exploring the itinerary and possibly considering adding more details or locations to their trip plan.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 139
+      },
+      {
+        "frame_number": 3604,
+        "timestamp_sec": 77.24,
+        "latency_sec": 8.75,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for a 7-day trip to Vienna, with details about hotels and activities listed for Sunday, July 21. The map on the right shows the location of \"The Hofburg\" in Vienna, and there is a pop-up asking the user to input their location for personalized recommendations. The user has not yet entered any text into the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 3624,
+        "timestamp_sec": 77.67,
+        "latency_sec": 8.08,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for \"Vienna for 7 days for a group of friends\" and appears to be exploring the details of attractions and activities scheduled for Sunday, Jul 21. The user has not entered any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 3634,
+        "timestamp_sec": 77.88,
+        "latency_sec": 8.04,
+        "frame_description": "The user is viewing a TripAdvisor itinerary for Sunday, Jul 21, which includes locations like The Hofburg and Schachtelwirt, with a map on the right showing their location in Vienna. They are not actively typing or entering any text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 54
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use trip advisor's plan designer to design a travel strategy to Vienna, then browse the travel plans and share with friends.",
+      "reference_caption": "Editing and Sharing a Vienna Travel Plan on Trip Advisor",
+      "reference_apps": [
+        "edge",
+        "trip advisor"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 89,
+          "sub_goal": "Open a new webpage",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 385,
+          "sub_goal": "Searched for ICML 2024.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 403,
+          "sub_goal": "Click on the official website of ICML 2024.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2337,
+          "sub_goal": "Load into the official website of ICML.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2351,
+          "sub_goal": "Click on the trip advisor in the webpage bar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2496,
+          "sub_goal": "Click on \"edit\" on Trip Advisor and modify the travel plan.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2823,
+          "sub_goal": "Click on the travel date to modify the start and end dates of the trip.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3089,
+          "sub_goal": "Translate to: \"Modify to July 21st to July 27th\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3463,
+          "sub_goal": "Change the name of the trip from 5 days to 7 days.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "7"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The user's underlying objective appears to be organizing and planning a trip itinerary using TripAdvisor, as evidenced by their interactions with the itinerary editing interface, date picker modal, and location input for personalized recommendations. The AI inferred intent matches this core objective of trip planning and organization. There are no contradictions in the timeline regarding specific details like dates or locations mentioned."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the user's interactions as described in the keyframes. The descriptions correctly identify the applications being used, the specific actions taken (such as typing and selecting dates), and the content visible on the screen without introducing any fabricated or contradictory details."
+        },
+        "coverage": {
+          "score": 4.27,
+          "coverage": 0.818,
+          "covered": 9,
+          "total": 11,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline provides a detailed description of the user's actions across various keyframes, capturing specific interactions such as viewing itineraries, editing trip details, and selecting dates. These descriptions align with the actions depicted in the keyframes."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The timeline contains multiple entries describing similar actions such as viewing itinerary details and interacting with a date picker, indicating redundancy. However, there are also distinct changes in context (e.g., switching from TripAdvisor to ICML conference pages), which reduces the overall redundancy."
+        }
+      },
+      "composite_score": 17.27,
+      "max_score": 20,
+      "latency_sec": 158.01
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.023,
+        "recall": 0.8101,
+        "f1": 0.0447
+      },
+      "rouge2": {
+        "precision": 0.0072,
+        "recall": 0.2564,
+        "f1": 0.014
+      },
+      "rougeL": {
+        "precision": 0.0169,
+        "recall": 0.5949,
+        "f1": 0.0328
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0714
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 593.24,
+      "total_vlm_inference_sec": 422.31,
+      "intent_latency_sec": 12.82,
+      "frames_processed": 47,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.99,
+      "median_frame_latency_sec": 8.54,
+      "min_frame_latency_sec": 6.98,
+      "max_frame_latency_sec": 13.94,
+      "avg_description_length_chars": 375.1,
+      "total_prompt_tokens": 102909,
+      "total_completion_tokens": 4113,
+      "avg_completion_tokens_per_sec": 9.3,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was checking important dates and submission deadlines for the ICML 2024 conference while planning and editing a 5-day trip itinerary to Vienna on TripAdvisor.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 5.63,
+        "frame_description": "The user is viewing a trip itinerary for Vienna on TripAdvisor. The visible user-entered text includes \"https://www.tripadvisor.com/Trips/131907369#/Tab/Itinerary/showTooltip\" in the browser address bar and \"Singapore, Singapore\" in the location input field.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 23,
+        "timestamp_sec": 0.49,
+        "latency_sec": 5.74,
+        "frame_description": "The user is moving the mouse cursor over the blank area on the left side of the web page.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 159,
+        "timestamp_sec": 3.41,
+        "latency_sec": 4.41,
+        "frame_description": "The user is typing \"ikea.com\" into the browser address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 185,
+        "timestamp_sec": 3.96,
+        "latency_sec": 2.8,
+        "frame_description": "The user is typing \"ICM \" into the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 201,
+        "timestamp_sec": 4.31,
+        "latency_sec": 3.86,
+        "frame_description": "The user is typing \"ICM \" into the browser's address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 218,
+        "timestamp_sec": 4.67,
+        "latency_sec": 4.11,
+        "frame_description": "The user is typing \"ICM \" in the browser search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 326,
+        "timestamp_sec": 6.99,
+        "latency_sec": 7.47,
+        "frame_description": "The user is performing a search in the browser address bar with the text \"https://www.google.com/search?q=ICML+2024&oq=ICML+2",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 350,
+        "timestamp_sec": 7.5,
+        "latency_sec": 5.1,
+        "frame_description": "The user is searching for \"ICML 2024\" in the Google search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 366,
+        "timestamp_sec": 7.84,
+        "latency_sec": 6.91,
+        "frame_description": "The user is clicking on the \"Calls\" link on the Google search results page.\n\n**User-entered text:**\n- Search bar: `\"ICML 202",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 539,
+        "timestamp_sec": 11.55,
+        "latency_sec": 6.14,
+        "frame_description": "The user is hovering the mouse cursor over the ICML 2024 Meeting Dates web page. No user-entered text is visible in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 594,
+        "timestamp_sec": 12.73,
+        "latency_sec": 6.6,
+        "frame_description": "The user is viewing the ICML 2024 meeting dates webpage. There is no visible user-entered text in any application form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 636,
+        "timestamp_sec": 13.63,
+        "latency_sec": 4.13,
+        "frame_description": "The user is hovering the mouse cursor over the 'Full Paper Submission Deadline' link on the web page.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 652,
+        "timestamp_sec": 13.97,
+        "latency_sec": 5.65,
+        "frame_description": "The user is viewing the \"ICML 2024 Meeting Dates\" webpage in a web browser.\n\n**Visible user-entered text:**\n* Address bar: `\"https://icml.cc/Conferences/2024/Dates\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 668,
+        "timestamp_sec": 14.32,
+        "latency_sec": 4.63,
+        "frame_description": "The user is viewing the ICML 2024 website page with the URL \"https://icml.cc/Conferences/2024/Dates\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 684,
+        "timestamp_sec": 14.66,
+        "latency_sec": 4.59,
+        "frame_description": "The user is viewing a web page displaying the ICML 2024 dates and deadlines.\n\n**User-entered text:**\n* Address bar: `https://icml.cc/Conferences/2024/Dates`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 700,
+        "timestamp_sec": 15.0,
+        "latency_sec": 4.97,
+        "frame_description": "The user is hovering the mouse cursor over the web page. The text in the address bar is \"https://icml.cc/Conferences/2024/Dates\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 719,
+        "timestamp_sec": 15.41,
+        "latency_sec": 6.87,
+        "frame_description": "The user is viewing a web page displaying ICML 2024 dates with the mouse cursor positioned over the page content. The text in the address bar is \"https://icml.cc/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 735,
+        "timestamp_sec": 15.75,
+        "latency_sec": 6.21,
+        "frame_description": "The user is viewing the \"Dates and Deadlines\" page on the ICML 2024 website. \n\nVisible user-entered text in the application includes:\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 751,
+        "timestamp_sec": 16.09,
+        "latency_sec": 3.89,
+        "frame_description": "The user is hovering the mouse cursor over the webpage with the address bar containing \"https://icml.cc/Conferences/2024/Dates\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 767,
+        "timestamp_sec": 16.44,
+        "latency_sec": 6.26,
+        "frame_description": "...\"\n- \"Example installation on Ubuntu 2...\"\n- \"shuaishuaicdp/video-source at m...\"\n- \"User access tokens\"\n- \"Suno\"\n",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1106,
+        "timestamp_sec": 23.7,
+        "latency_sec": 6.4,
+        "frame_description": "The user is viewing the ICML 2024 Dates and Deadlines webpage.\n\n**Visible user-entered text:**\n* Address bar: `https://icml.cc/Conferences/2024/Dates`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 1122,
+        "timestamp_sec": 24.05,
+        "latency_sec": 5.2,
+        "frame_description": "The user is viewing the ICML 2024 dates webpage in the browser, with the address bar displaying \"https://icml.cc/Conferences/2024/Dates\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 1185,
+        "timestamp_sec": 25.4,
+        "latency_sec": 6.51,
+        "frame_description": "The user is viewing a webpage containing important dates for ICML 2024.\n\n**User-entered text:**\n- Address bar: `\"https://icml.cc/Conferences/2024/Dates\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 1201,
+        "timestamp_sec": 25.74,
+        "latency_sec": 5.2,
+        "frame_description": "The user is viewing a web page displaying dates and deadlines for ICML 2024.\n\n**User-entered text:**\n* Address bar: `https://icml.cc/Conferences/2024/Dates`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 1217,
+        "timestamp_sec": 26.08,
+        "latency_sec": 4.92,
+        "frame_description": "The user is viewing the ICML 2024 conference dates web page with the URL \"https://icml.cc/Conferences/2024/Dates\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1233,
+        "timestamp_sec": 26.42,
+        "latency_sec": 5.59,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates webpage.\n\n**User-entered text:**\n* Address bar: `https://icml.cc/Conferences/2024/Dates`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1383,
+        "timestamp_sec": 29.64,
+        "latency_sec": 5.92,
+        "frame_description": "The user is viewing a webpage with the address bar containing the text 'https://icml.cc/Conferences/2024/Dates'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 1399,
+        "timestamp_sec": 29.98,
+        "latency_sec": 4.58,
+        "frame_description": "The user is viewing the ICML 2024 meeting dates and deadlines webpage with the URL \"https://icml.cc/Conferences/2024/Dates\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1415,
+        "timestamp_sec": 30.32,
+        "latency_sec": 6.7,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates webpage with the URL \"https://icml.cc/Conferences/2024/Dates\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1869,
+        "timestamp_sec": 40.05,
+        "latency_sec": 6.64,
+        "frame_description": "The user is viewing the ICML 2024 meeting dates webpage in the web browser. The visible user-entered text in the address bar is \"https://icml.cc/Conferences/2024/Dates\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 1885,
+        "timestamp_sec": 40.4,
+        "latency_sec": 5.74,
+        "frame_description": "The user is viewing the ICML 2024 Meeting Dates webpage in a web browser. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1909,
+        "timestamp_sec": 40.91,
+        "latency_sec": 6.72,
+        "frame_description": "The user is hovering the mouse cursor over the ICML 2024 meeting dates table on the web page. \n\nThere is no user-entered text in any form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 1925,
+        "timestamp_sec": 41.25,
+        "latency_sec": 5.17,
+        "frame_description": "The user is viewing the ICML 2024 webpage.\n\n**User-entered text:**\n* Address bar: \"https://icml.cc/Conferences/2024/Dates\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 2384,
+        "timestamp_sec": 51.09,
+        "latency_sec": 6.62,
+        "frame_description": "The user is hovering the mouse cursor over the web page. \n\nThere is no visible user-entered text in any form fields or text inputs.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 2400,
+        "timestamp_sec": 51.43,
+        "latency_sec": 5.82,
+        "frame_description": "The user is hovering the cursor over the image of 'The Hofburg' on the itinerary list.\n\nVisible user-entered text:\n- Browser address bar: `https://www.tripadvisor.com/Trips/131907369#/Tab/Itinerary/showTooltip`\n- Location field: `Singapore, Singapore`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 2497,
+        "timestamp_sec": 53.51,
+        "latency_sec": 7.54,
+        "frame_description": "The user is viewing a trip itinerary for \"Vienna for 5 days for a group of friends\" on TripAdvisor.\n\n**User-entered text in the application:**\n* Address bar: `https",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 2513,
+        "timestamp_sec": 53.86,
+        "latency_sec": 4.87,
+        "frame_description": "The user is clicking on \"Upper Belvedere Palace\" in the \"Edit itinerary\" pop-up window.\n\n**User-entered text:**\n* \"Singapore, Singapore\" (in the location field on the right side of the screen)",
+        "prompt_tokens": 1200,
+        "completion_tokens": 48
+      },
+      {
+        "frame_number": 2752,
+        "timestamp_sec": 58.98,
+        "latency_sec": 6.37,
+        "frame_description": "The user is viewing a travel itinerary on TripAdvisor. \n\nVisible user-entered text includes:\n* **Address bar:** \"https://www.tripadvisor.com/Trips/131907369#/Tab/Itinerary/showTooltip\"\n* **Location field:** \"Singapore, Singapore\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 2825,
+        "timestamp_sec": 60.54,
+        "latency_sec": 7.02,
+        "frame_description": "The user is hovering over or clicking on the dates \"Aug 10 -> Aug 14\" on the TripAdvisor itinerary page.\n\nUser-entered text:\n- Address bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 2841,
+        "timestamp_sec": 60.89,
+        "latency_sec": 6.89,
+        "frame_description": "The user is viewing the date selection calendar modal on the TripAdvisor website. \n\nVisible user-entered text in the application includes:\n- \"https://www.tripadvisor.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 3176,
+        "timestamp_sec": 68.07,
+        "latency_sec": 7.12,
+        "frame_description": "The user is viewing a TripAdvisor itinerary page titled \"Vienna for 5 days for a group of friends\". \n\nVisible user-entered text in form fields:\n- Location field: \"Singapore, Singapore",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 3192,
+        "timestamp_sec": 68.41,
+        "latency_sec": 6.52,
+        "frame_description": "The user is editing trip details in a pop-up modal on TripAdvisor.\n\n**Visible user-entered text:**\n* **URL Bar:** `https://www.tripadvisor.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 3567,
+        "timestamp_sec": 76.44,
+        "latency_sec": 10.26,
+        "frame_description": "The user is viewing a trip itinerary on TripAdvisor.\n\n**Visible user-entered text:**\n* **Address bar:** `https://www.tripadvisor.com/Trips/131907369#/",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 3588,
+        "timestamp_sec": 76.89,
+        "latency_sec": 5.76,
+        "frame_description": "The user is hovering over the heart icon next to \"Schachtelwirt\".\n\n**Visible user-entered text:**\n* Address bar: `https://www.tripadvisor.com/Trips/131907369#/Tab/Itinerary/showTooltip`\n* Location field: `Singapore, Singapore`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 3604,
+        "timestamp_sec": 77.24,
+        "latency_sec": 5.15,
+        "frame_description": "The user is hovering the cursor over \"The Hofburg\" listing on the webpage. \n\nVisible user-entered text includes:\n* Address bar: `https://www.tripadvisor.com/Trips/131907369#/Tab/Itinerary/showTooltip`\n* Location field: `Singapore, Singapore`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 3624,
+        "timestamp_sec": 77.67,
+        "latency_sec": 6.45,
+        "frame_description": "The user is hovering the cursor over \"The Hofburg\" listing on the TripAdvisor webpage.\n\nVisible user-entered text:\n- Address bar: `https://www.tripadvisor.com/Trips/131907369#/Tab/Itinerary/showTooltip`\n- Location field: `Singapore, Singapore`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 3634,
+        "timestamp_sec": 77.88,
+        "latency_sec": 5.36,
+        "frame_description": "The user is hovering the cursor over the \"Schachtelwirt\" entry on the Tripadvisor webpage.\n\n**Visible user-entered text:**\n* Address bar: `\"https://www.tripadvisor.com/Trips/131907369#/Tab/Itinerary/showTooltip\"`\n* Location input field: `\"Singapore, Singapore\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 77
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use trip advisor's plan designer to design a travel strategy to Vienna, then browse the travel plans and share with friends.",
+      "reference_caption": "Editing and Sharing a Vienna Travel Plan on Trip Advisor",
+      "reference_apps": [
+        "edge",
+        "trip advisor"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 89,
+          "sub_goal": "Open a new webpage",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 385,
+          "sub_goal": "Searched for ICML 2024.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 403,
+          "sub_goal": "Click on the official website of ICML 2024.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2337,
+          "sub_goal": "Load into the official website of ICML.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2351,
+          "sub_goal": "Click on the trip advisor in the webpage bar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2496,
+          "sub_goal": "Click on \"edit\" on Trip Advisor and modify the travel plan.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 2823,
+          "sub_goal": "Click on the travel date to modify the start and end dates of the trip.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3089,
+          "sub_goal": "Translate to: \"Modify to July 21st to July 27th\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 3463,
+          "sub_goal": "Change the name of the trip from 5 days to 7 days.",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "7"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent captures the user's underlying objective of planning and editing a travel itinerary for Vienna on TripAdvisor, which aligns with the goal of designing a travel strategy to Vienna. The timeline shows consistent actions related to modifying trip dates and viewing itinerary details, supporting the prediction about GUI changes reflecting new dates. There are no contradictions in specific entities like addresses or titles between the AI's inferred intent and the timeline."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the ground truth keyframes. For instance, there are discrepancies in the sequence of actions and specific details such as typing 'ikea.com' instead of searching for ICML 2024, which contradicts the keyframe that specifies clicking on the official website of ICML 2024. Additionally, some frames describe interactions with applications or URLs not mentioned in the ground truth, like hovering over images unrelated to the editing process on Trip Advisor. These inaccuracies and fabricated details lead to a lower accuracy score."
+        },
+        "coverage": {
+          "score": 4.27,
+          "coverage": 0.818,
+          "covered": 9,
+          "total": 11,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "edge",
+            "trip advisor"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching for ICML 2024 and viewing its webpage, as well as interacting with a TripAdvisor itinerary. These correspond to several keyframe actions involving mouse clicks and web navigation."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI-generated timeline contains numerous consecutive frames that describe similar actions without meaningful changes, such as repeatedly viewing the same webpage or hovering over elements. These entries do not add new information and are considered redundant."
+        }
+      },
+      "composite_score": 12.27,
+      "max_score": 20,
+      "latency_sec": 195.45
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0461,
+        "recall": 0.6456,
+        "f1": 0.086
+      },
+      "rouge2": {
+        "precision": 0.0145,
+        "recall": 0.2051,
+        "f1": 0.027
+      },
+      "rougeL": {
+        "precision": 0.0352,
+        "recall": 0.4937,
+        "f1": 0.0658
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0268
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 476.64,
+      "total_vlm_inference_sec": 273.01,
+      "intent_latency_sec": 8.15,
+      "frames_processed": 47,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.81,
+      "median_frame_latency_sec": 5.76,
+      "min_frame_latency_sec": 2.8,
+      "max_frame_latency_sec": 10.26,
+      "avg_description_length_chars": 145.6,
+      "total_prompt_tokens": 59143,
+      "total_completion_tokens": 2060,
+      "avg_completion_tokens_per_sec": 7.1
+    }
+  }
+}

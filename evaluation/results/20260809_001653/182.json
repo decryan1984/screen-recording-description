@@ -1,0 +1,341 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/182.mp4",
+  "total_frames": 973,
+  "fps": 29.999672408510442,
+  "video_length_sec": 32.43,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 973,
+  "frames_processed": 5,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is managing their software and game downloads by scheduling \"3DMark\" for a specific time, stopping an active \"Lethal Company\" download, and queuing \"A Guard Walks Into A Tavern,\" while simultaneously researching \"nips 2024\" on Bing.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.7,
+        "frame_description": "The user is managing downloads in the \"Shuaishuai_CDP\" folder, specifically stopping a download of \"Lethal Company\" and scheduling a download of \"3DMark\" for Wednesday at 3:02 AM. The text \"nips 2024\" is visible in the search bar of the Microsoft Bing browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 73,
+        "timestamp_sec": 2.43,
+        "latency_sec": 4.72,
+        "frame_description": "The user is viewing a list of scheduled tasks in a task management application, with \"3DMark\" listed under \"Scheduled\" and \"A Guard\" under \"Up Next.\" The user is also browsing a webpage about NeurIPS 2024 on Microsoft Bing. No text is being actively typed or entered in any form fields or search bars at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 75
+      },
+      {
+        "frame_number": 120,
+        "timestamp_sec": 4.0,
+        "latency_sec": 4.56,
+        "frame_description": "The user is viewing the \"Clash for Windows v0.20.39\" settings window, which is open over the Steam client. The \"Starting Download\" status is visible in the Steam client, indicating that a game or application is being downloaded. The user has not entered any text in the visible application windows.",
+        "prompt_tokens": 993,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 166,
+        "timestamp_sec": 5.53,
+        "latency_sec": 4.47,
+        "frame_description": "The user is viewing the Steam client interface, specifically the \"Starting Download\" screen for the game \"Lethal Company,\" with additional scheduled downloads like \"A Guard Walks Into A Tavern\" and \"3DMark.\" The user has not entered any text in form fields or search bars within the visible applications.",
+        "prompt_tokens": 993,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 973,
+        "timestamp_sec": 32.43,
+        "latency_sec": 9.48,
+        "frame_description": "The user is viewing the Steam client interface, specifically the \"Up Next\" and \"Scheduled\" sections for game downloads. The current action appears to be observing or reviewing the download queue, as there is no visible input or interaction (like clicking or typing) occurring at this moment.\n\nVisible user-entered text in the application:\n- In the search bar at the top of the Steam window: \"nips 2024\"\n- In the \"Up Next\" section: \"a guard walks into a tavern\"\n- In the \"Scheduled\" section: \"3DMark\"\n- In the download progress bar: \"DOWNLOADING 2%\"\n- In the download details: \"7.6 MB / 999.5 MB\", \"25.8 MB / 867.1 MB\"\n- In the \"Up Next\" section: \"Auto-updates enabled\"\n- In the \"Scheduled\" section: \"WEDNESDAY 3:02 AM\"\n- In the bottom status bar: \"Downloading 1 of 2\", \"2%\"\n- In the bottom right corner: \"Friends 8 Chat\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 242
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Fix the issue of failed steam downloads.",
+      "reference_caption": "Resolving Steam download failure by toggling off system proxy in Clash software on Windows.",
+      "reference_apps": [
+        "edge",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 2,
+          "sub_goal": "The download of Steam encountered a problem, connection time out.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 73,
+          "sub_goal": "Click on the clash software in the desktop program bar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 124,
+          "sub_goal": "Clicked on the general in Clash.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 151,
+          "sub_goal": "Click on \"system proxy\" and turn off \"system proxy\".",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 223,
+          "sub_goal": "Restarted Steam download and found that the download has started.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 894,
+          "sub_goal": "\"Wait for Steam to download\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent captures managing software and game downloads by scheduling and stopping specific tasks, which aligns with the user's actions in the timeline. However, it does not directly address resolving the Steam download failure due to a 'CONNECTION TIME OUT' error, as described in the goal and caption. The timeline shows interactions with Clash for Windows settings and Steam client but lacks explicit mention of toggling off system proxy or addressing connection issues."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions do not contradict the keyframes or provided answers. The frames describe interactions with Clash for Windows and Steam, consistent with the user's actions in the keyframes. However, some details like specific text entries are omitted but not contradicted. The timeline allows answering the QA questions consistently with the given answers."
+        },
+        "coverage": {
+          "score": 2.5,
+          "coverage": 0.375,
+          "covered": 3,
+          "total": 8,
+          "covered_actions": [
+            3
+          ],
+          "covered_apps": [
+            "edge",
+            "steam"
+          ],
+          "reasoning": "The AI timeline does not describe the actions related to Steam's download issue, restarting it, or managing system proxy settings. It primarily focuses on interactions with Clash for Windows and scheduled downloads in Steam."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of the user interface without significant changes in information, such as repeated descriptions of the Steam client's download status and scheduled tasks. However, each frame does introduce some new details or context, like different sections being highlighted or specific statuses mentioned."
+        }
+      },
+      "composite_score": 13.5,
+      "max_score": 20,
+      "latency_sec": 59.8
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0799,
+        "recall": 0.54,
+        "f1": 0.1392
+      },
+      "rouge2": {
+        "precision": 0.0148,
+        "recall": 0.102,
+        "f1": 0.0259
+      },
+      "rougeL": {
+        "precision": 0.0621,
+        "recall": 0.42,
+        "f1": 0.1082
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0082
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 90.46,
+      "total_vlm_inference_sec": 27.93,
+      "intent_latency_sec": 2.69,
+      "frames_processed": 5,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.59,
+      "median_frame_latency_sec": 4.7,
+      "min_frame_latency_sec": 4.47,
+      "max_frame_latency_sec": 9.48,
+      "avg_description_length_chars": 399.6,
+      "total_prompt_tokens": 5516,
+      "total_completion_tokens": 580,
+      "avg_completion_tokens_per_sec": 18.6,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to manage downloads and update settings in Steam while configuring network proxy settings in Clash.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.6,
+        "frame_description": "The user is hovering the cursor over the download button next to \"3DMark\" in the Steam downloads section.\n\n**User-entered text:**\n* \"nips 2024\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 73,
+        "timestamp_sec": 2.43,
+        "latency_sec": 7.48,
+        "frame_description": "The user is viewing the proxy node options in the Clash Verge application window with \"nips 2024\" visible in the search bar of the background browser window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 120,
+        "timestamp_sec": 4.0,
+        "latency_sec": 4.05,
+        "frame_description": "The user is clicking on the 'General' tab in the Clash for Windows application. \n\nVisible user-entered text:\n- Search bar: \"nips 2024\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 166,
+        "timestamp_sec": 5.53,
+        "latency_sec": 5.45,
+        "frame_description": "The user is viewing the downloads page in the Steam application.\n\n**User-entered text:**\n* \"nips 2024\" (in the Bing search bar in Google Chrome)",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 973,
+        "timestamp_sec": 32.43,
+        "latency_sec": 6.72,
+        "frame_description": "The user is clicking on the \"Auto-updates enabled\" toggle switch in the Steam client. The visible user-entered text in the browser search bar is \"nips 2024\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Fix the issue of failed steam downloads.",
+      "reference_caption": "Resolving Steam download failure by toggling off system proxy in Clash software on Windows.",
+      "reference_apps": [
+        "edge",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 2,
+          "sub_goal": "The download of Steam encountered a problem, connection time out.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 73,
+          "sub_goal": "Click on the clash software in the desktop program bar.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 124,
+          "sub_goal": "Clicked on the general in Clash.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 151,
+          "sub_goal": "Click on \"system proxy\" and turn off \"system proxy\".",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 223,
+          "sub_goal": "Restarted Steam download and found that the download has started.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 894,
+          "sub_goal": "\"Wait for Steam to download\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of resolving Steam download issues by managing network settings, specifically toggling off system proxy in Clash software. The timeline shows actions consistent with this goal: interacting with Clash to adjust proxy settings and managing downloads in Steam. There are no contradictions in the specific details named in the reasoning or prediction answers."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly consistent with the keyframes. The user's interaction with Clash software, specifically clicking on 'General' and toggling off 'system proxy', aligns with the keyframe actions. However, there is a discrepancy in Frame 973 where it mentions clicking an 'Auto-updates enabled' toggle switch in Steam, which is not part of the ground truth keyframes or answers. This could lead to confusion regarding the sequence of actions taken to resolve the issue. Despite this, the timeline still allows for answering the QA questions correctly as the critical steps are captured."
+        },
+        "coverage": {
+          "score": 1.5,
+          "coverage": 0.125,
+          "covered": 1,
+          "total": 8,
+          "covered_actions": [],
+          "covered_apps": [
+            "steam"
+          ],
+          "reasoning": "The AI timeline does not describe any of the ground-truth keyframes. It mentions actions related to hovering, viewing proxy options, clicking on a tab in Clash, and interacting with Steam's downloads page and auto-updates toggle, none of which match the specified keyframe actions."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline includes several frames that introduce new actions or changes in context (e.g., moving from hovering over a button to clicking on different tabs and toggles), with minimal repetition of the same state. The repeated mention of 'nips 2024' does not constitute redundancy as it reflects ongoing user interaction across different applications."
+        }
+      },
+      "composite_score": 15.5,
+      "max_score": 20,
+      "latency_sec": 64.79
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2016,
+        "recall": 0.5,
+        "f1": 0.2874
+      },
+      "rouge2": {
+        "precision": 0.0813,
+        "recall": 0.2041,
+        "f1": 0.1163
+      },
+      "rougeL": {
+        "precision": 0.1452,
+        "recall": 0.36,
+        "f1": 0.2069
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0046
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 98.0,
+      "total_vlm_inference_sec": 30.3,
+      "intent_latency_sec": 2.89,
+      "frames_processed": 5,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.06,
+      "median_frame_latency_sec": 6.6,
+      "min_frame_latency_sec": 4.05,
+      "max_frame_latency_sec": 7.48,
+      "avg_description_length_chars": 147,
+      "total_prompt_tokens": 6308,
+      "total_completion_tokens": 215,
+      "avg_completion_tokens_per_sec": 6.4
+    }
+  }
+}

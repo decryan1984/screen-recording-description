@@ -1,0 +1,267 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/78.mp4",
+  "total_frames": 1652,
+  "fps": 29.99998865012536,
+  "video_length_sec": 55.07,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1652,
+  "frames_processed": 2,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is attempting to download and install the game \"Lethal Company\" while simultaneously managing scheduled tasks and troubleshooting within the game's application.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 5.86,
+        "frame_description": "The user is viewing the \"Lethal Company\" game page on the Steam store, with a download in progress for the game. The download is at 4% and has 18:08 remaining. The user is also browsing a webpage about NIPS 2024 in the background.\n\nVisible user-entered text:\n- In the Steam store: \"Lethal Company\" (game title)\n- In the webpage: \"nips 2024\" (search query in the Bing search bar)",
+        "prompt_tokens": 993,
+        "completion_tokens": 112
+      },
+      {
+        "frame_number": 1652,
+        "timestamp_sec": 55.07,
+        "latency_sec": 5.03,
+        "frame_description": "The user is managing game downloads and scheduled tasks in the Lethal Company application, with a focus on downloading \"a guard walks into a tavern\" and scheduling \"3DMark\" for Wednesday at 3:02 AM. The user has also opened a terminal window, possibly to execute commands or troubleshoot issues related to the download process. The user is not actively typing any text in the visible applications.",
+        "prompt_tokens": 993,
+        "completion_tokens": 84
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "\"Wait for Steam to download\"",
+      "reference_caption": "Monitoring the download progress of an application on Steam",
+      "reference_apps": [
+        "edge",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 132,
+          "sub_goal": "\"Waiting for Steam download, keep monitoring.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 533,
+          "sub_goal": "\"Waiting for Steam download, keep monitoring.\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1161,
+          "sub_goal": "Continue to idle and wait for the steam download, keep monitoring.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1547,
+          "sub_goal": "Continue to idle and wait for the steam download, keep monitoring.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent involves managing game downloads and scheduled tasks within the Lethal Company application, which aligns with monitoring download progress on Steam. However, there is no direct mention of 'Steam' in the timeline details, indicating a shift from the specific platform mentioned in the goal to another context (Lethal Company app). The core objective of downloading a game is consistent, but the specifics differ."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the ground truth keyframes. The first description mentions specific game titles and a download percentage, which are not present in the keyframes. Additionally, it references browsing a webpage about NIPS 2024, which is not mentioned in the keyframes or answers. These details contradict the provided ground truth, indicating fabricated content. For STATIC QA, SEQUENTIAL-QA, and MCQA, the timeline does not provide specific information to answer these questions consistently with the given answers, as it lacks detailed observations about the Steam downloading tab's consistent elements, changes during download progress, or GUI indicators of active downloads."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 5,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "steam"
+          ],
+          "reasoning": "The AI timeline describes the user managing game downloads on Steam, which aligns with the keyframe actions related to waiting for a Steam download. The specific mention of 'Lethal Company' and its download status corresponds to monitoring a Steam download."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline provides only two distinct frames over a span of 55.07 seconds, indicating that most entries are redundant as they do not introduce new information beyond the initial frame."
+        }
+      },
+      "composite_score": 9.33,
+      "max_score": 20,
+      "latency_sec": 42.61
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1045,
+        "recall": 0.4118,
+        "f1": 0.1667
+      },
+      "rouge2": {
+        "precision": 0.0226,
+        "recall": 0.0909,
+        "f1": 0.0361
+      },
+      "rougeL": {
+        "precision": 0.0896,
+        "recall": 0.3529,
+        "f1": 0.1429
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0075
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 54.93,
+      "total_vlm_inference_sec": 10.89,
+      "intent_latency_sec": 1.39,
+      "frames_processed": 2,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.45,
+      "median_frame_latency_sec": 5.45,
+      "min_frame_latency_sec": 5.03,
+      "max_frame_latency_sec": 5.86,
+      "avg_description_length_chars": 387.5,
+      "total_prompt_tokens": 2294,
+      "total_completion_tokens": 226,
+      "avg_completion_tokens_per_sec": 18.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to toggle the automatic update settings in the Steam download manager while searching for \"nips 2024\" in a web browser.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.86,
+        "frame_description": "The user is clicking on the \"Auto-updates enabled\" toggle switch in the Steam application downloads manager. The visible user-entered text in the browser search bar is \"nips 2024\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1652,
+        "timestamp_sec": 55.07,
+        "latency_sec": 7.25,
+        "frame_description": "The user is clicking on the \"Auto-updates enabled\" option in the Steam download manager.\n\n**User-entered text:**\n* Bing search bar: `\"nips 2024\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "\"Wait for Steam to download\"",
+      "reference_caption": "Monitoring the download progress of an application on Steam",
+      "reference_apps": [
+        "edge",
+        "steam"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 132,
+          "sub_goal": "\"Waiting for Steam download, keep monitoring.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 533,
+          "sub_goal": "\"Waiting for Steam download, keep monitoring.\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1161,
+          "sub_goal": "Continue to idle and wait for the steam download, keep monitoring.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1547,
+          "sub_goal": "Continue to idle and wait for the steam download, keep monitoring.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 1,
+          "reasoning": "The AI inferred intent involves toggling automatic update settings and searching for 'nips 2024', which does not directly relate to monitoring the download progress of an application on Steam. The core objective described by the goal and caption is about waiting for a download to complete, whereas the AI's timeline focuses on user actions unrelated to this task."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contradict the keyframes by mentioning user interactions (clicking on 'Auto-updates enabled') that are not present in the ground truth. The keyframes only describe monitoring and waiting, with no interaction specified. This contradiction affects the accuracy of the timeline for answering STATIC QA and SEQUENTIAL-QA questions correctly, as it introduces fabricated actions."
+        },
+        "coverage": {
+          "score": 1.67,
+          "coverage": 0.167,
+          "covered": 1,
+          "total": 6,
+          "covered_actions": [],
+          "covered_apps": [
+            "steam"
+          ],
+          "reasoning": "The AI timeline describes actions related to clicking on the 'Auto-updates enabled' toggle in Steam, which does not match any of the keyframe descriptions about waiting for a download and monitoring. The keyframes focus on idle waiting, while the timeline focuses on user interaction with settings."
+        },
+        "non_repetition": {
+          "score": 1,
+          "reasoning": "The AI timeline contains only two frames, and both describe similar actions related to clicking on an option in the Steam download manager. The second frame repeats the action described in the first with slight wording variation but no new information."
+        }
+      },
+      "composite_score": 4.67,
+      "max_score": 20,
+      "latency_sec": 43.67
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1132,
+        "recall": 0.1765,
+        "f1": 0.1379
+      },
+      "rouge2": {
+        "precision": 0.0577,
+        "recall": 0.0909,
+        "f1": 0.0706
+      },
+      "rougeL": {
+        "precision": 0.1132,
+        "recall": 0.1765,
+        "f1": 0.1379
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0041
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 60.66,
+      "total_vlm_inference_sec": 14.11,
+      "intent_latency_sec": 2.86,
+      "frames_processed": 2,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 7.05,
+      "median_frame_latency_sec": 7.05,
+      "min_frame_latency_sec": 6.86,
+      "max_frame_latency_sec": 7.25,
+      "avg_description_length_chars": 162.5,
+      "total_prompt_tokens": 2573,
+      "total_completion_tokens": 115,
+      "avg_completion_tokens_per_sec": 5.9
+    }
+  }
+}

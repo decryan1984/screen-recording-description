@@ -1,0 +1,414 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/77.mp4",
+  "total_frames": 1179,
+  "fps": 30.0002385515152,
+  "video_length_sec": 39.3,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1179,
+  "frames_processed": 7,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to log into their Riot Games account, likely to access or manage their game accounts, as evidenced by the sequence of navigating from Steam to the Riot login page and finally entering their email address on the Google sign-in form.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.83,
+        "frame_description": "The user is viewing the Steam library interface, with the Overwatch 2 game page open and the download progress bar at 0%. The user has not entered any text in form fields or search bars.",
+        "prompt_tokens": 993,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 229,
+        "timestamp_sec": 7.63,
+        "latency_sec": 3.42,
+        "frame_description": "The user is viewing the Riot Games login page, with the username field containing the text \"ucsd phd programs\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 473,
+        "timestamp_sec": 15.77,
+        "latency_sec": 3.84,
+        "frame_description": "The user is attempting to open a link in a new tab, but the browser is prompting them to select an app to open the 'https' link. The user has not entered any text in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 554,
+        "timestamp_sec": 18.47,
+        "latency_sec": 3.26,
+        "frame_description": "The user is viewing the Riot Games login screen, with no text entered in the username or password fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 565,
+        "timestamp_sec": 18.83,
+        "latency_sec": 4.54,
+        "frame_description": "The user is viewing the Steam Store Library page, with no active text input or typing observed. The interface displays a list of games under the \"Home\" section, including titles like \"Thronefall,\" \"Titanfall 2,\" \"To the Moon,\" and others, but no text fields are currently being edited or filled out.",
+        "prompt_tokens": 993,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 941,
+        "timestamp_sec": 31.37,
+        "latency_sec": 3.35,
+        "frame_description": "The user is viewing the \"Sign in\" page for Riot Accounts on Google, with no text entered in the form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 1179,
+        "timestamp_sec": 39.3,
+        "latency_sec": 3.6,
+        "frame_description": "The user is entering their email address into the \"Sign in with Google\" form on the desktop. The email being entered is \"shuaihuaidcp@gmail.com\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use Google to open Riot Games.",
+      "reference_caption": "Navigating the Steam library, accessing the Riot Games login, and initiating a Google account sign-in through Microsoft Edge.",
+      "reference_apps": [
+        "edge",
+        "riots",
+        "google account"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 178,
+          "sub_goal": "Scroll the game column all the way down to browse.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 234,
+          "sub_goal": "Click on the Riot Games application in the bottom application bar on the desktop, and the login interface will pop up.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 312,
+          "sub_goal": "Click on the option to log in with a Google account.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 499,
+          "sub_goal": "The system allows us to choose which browser to use to open this link.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 549,
+          "sub_goal": "I chose edge to open this link, and I chose always.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 957,
+          "sub_goal": "\"Riot Games opened the link to log in with a Google account.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1008,
+          "sub_goal": "I chose the first email in the recommended input field as the input.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1051,
+          "sub_goal": "Click \"next\" to proceed to the next login stage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of logging into their Riot Games account using a Google sign-in, as evidenced by navigating from Steam to the Riot login page and entering an email address on the Google sign-in form. The timeline supports this with details like accessing the Riot Games login screen (Frame 229) and entering 'shuaihuaidcp@gmail.com' in the Google sign-in form (Frame 1179), which matches the prediction about entering a password next."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 1 correctly describes viewing the Steam library, matching Keyframe 1. Frame 229 mentions a username field containing 'ucsd phd programs', which is not mentioned in the keyframes and seems fabricated. Frame 473's description of opening a link matches Keyframe 4, though it lacks specificity about choosing Edge. Frame 554 does not contradict any keyframes but adds unnecessary detail. Frame 565 inaccurately describes viewing the Steam Store Library instead of interacting with Riot Games login as per Keyframe 2 and 3. Frame 941 aligns with Keyframe 6, and Frame 1179 matches Keyframe 7 regarding email input. The timeline allows for answering STATIC QA correctly but lacks specific details about 'Overwatch' and 'PAYDAY 2'. SEQUENTIAL-QA can be answered correctly as the user chose Edge and set it to 'Always', aligning with Keyframes 4 and 5. MCQA is also answerable correctly, as Microsoft Edge was chosen."
+        },
+        "coverage": {
+          "score": 3.18,
+          "coverage": 0.545,
+          "covered": 6,
+          "total": 11,
+          "covered_actions": [
+            1,
+            2,
+            4,
+            6
+          ],
+          "covered_apps": [
+            "edge",
+            "google account"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing, logging in with a Google account, and selecting an application to open a link. These correspond to some of the keyframe actions but not all."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, such as multiple views of login screens and library interfaces. However, there are also distinct actions like entering text in a form field."
+        }
+      },
+      "composite_score": 14.18,
+      "max_score": 20,
+      "latency_sec": 64.44
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2524,
+        "recall": 0.5149,
+        "f1": 0.3388
+      },
+      "rouge2": {
+        "precision": 0.0634,
+        "recall": 0.13,
+        "f1": 0.0852
+      },
+      "rougeL": {
+        "precision": 0.1456,
+        "recall": 0.297,
+        "f1": 0.1954
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0082
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 92.68,
+      "total_vlm_inference_sec": 25.84,
+      "intent_latency_sec": 2.36,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 3.69,
+      "median_frame_latency_sec": 3.6,
+      "min_frame_latency_sec": 3.26,
+      "max_frame_latency_sec": 4.54,
+      "avg_description_length_chars": 162.3,
+      "total_prompt_tokens": 7396,
+      "total_completion_tokens": 309,
+      "avg_completion_tokens_per_sec": 10.1,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is trying to log into their Riot Games account by signing in through Google.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 6.31,
+        "frame_description": "The user is clicking on \"OBS Studio - Running\" in the Steam library, with the user-entered text \"ucsd phd programs\" visible in the browser search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 229,
+        "timestamp_sec": 7.63,
+        "latency_sec": 6.47,
+        "frame_description": "The user is selecting the \"USERNAME\" input field in the Riot Games login window.\n\n**User-entered text:**\n* Microsoft Edge search bar: `\"ucsd phd programs\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 473,
+        "timestamp_sec": 15.77,
+        "latency_sec": 5.18,
+        "frame_description": "The user is clicking on the Google icon button in the Riot Games sign-in window.\n\n**Visible user-entered text:**\n* Search bar (Microsoft Bing): `\"ucsd phd programs\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 554,
+        "timestamp_sec": 18.47,
+        "latency_sec": 5.88,
+        "frame_description": "The user is clicking on the Riot Games application window. The visible user-entered text is \"ucsd phd programs\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 565,
+        "timestamp_sec": 18.83,
+        "latency_sec": 6.45,
+        "frame_description": "The user is hovering the mouse cursor over the blank web page in the browser window while it loads.\n\nThere is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 941,
+        "timestamp_sec": 31.37,
+        "latency_sec": 8.42,
+        "frame_description": "The user is viewing the Google sign-in page to sign in to Riot Accounts. \n\nThere is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 1179,
+        "timestamp_sec": 39.3,
+        "latency_sec": 6.28,
+        "frame_description": "The user is typing in the \"Email or phone\" text field with the text \"shuaishuaicdp@gmail.com\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Use Google to open Riot Games.",
+      "reference_caption": "Navigating the Steam library, accessing the Riot Games login, and initiating a Google account sign-in through Microsoft Edge.",
+      "reference_apps": [
+        "edge",
+        "riots",
+        "google account"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 178,
+          "sub_goal": "Scroll the game column all the way down to browse.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 234,
+          "sub_goal": "Click on the Riot Games application in the bottom application bar on the desktop, and the login interface will pop up.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 312,
+          "sub_goal": "Click on the option to log in with a Google account.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 499,
+          "sub_goal": "The system allows us to choose which browser to use to open this link.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 549,
+          "sub_goal": "I chose edge to open this link, and I chose always.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 957,
+          "sub_goal": "\"Riot Games opened the link to log in with a Google account.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1008,
+          "sub_goal": "I chose the first email in the recommended input field as the input.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1051,
+          "sub_goal": "Click \"next\" to proceed to the next login stage.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on logging into Riot Games via Google. The timeline supports this by showing actions like accessing the Riot Games login and initiating a Google account sign-in, which aligns with the prediction of entering a password after selecting an email address. There are no contradictions in the named details."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, Frame 1 mentions clicking on 'OBS Studio - Running' in the Steam library, which contradicts Keyframe 1 about scrolling through a game column. Similarly, Frame 229 and subsequent frames describe interactions with Riot Games login that do not align with the specified actions in the keyframes (e.g., selecting a browser). These discrepancies indicate fabricated or incorrect details. The timeline does allow for answering the STATIC QA correctly as it involves observing the Steam library interface, which is consistent with Keyframe 1. For SEQUENTIAL-QA and MCQA, the timeline would produce an incorrect answer due to inaccuracies in describing the choice of browser (Microsoft Edge) in the AI frame descriptions."
+        },
+        "coverage": {
+          "score": 3.91,
+          "coverage": 0.727,
+          "covered": 8,
+          "total": 11,
+          "covered_actions": [
+            2,
+            3,
+            6,
+            7,
+            8
+          ],
+          "covered_apps": [
+            "edge",
+            "google account",
+            "riots"
+          ],
+          "reasoning": "The AI timeline describes actions related to logging into Riot Games using a Google account, which aligns with several keyframes. However, not all keyframe actions are explicitly described."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames that describe similar actions without meaningful changes in state. For example, frames 1 and 473 both mention the user-entered text 'ucsd phd programs' with slight variations in context but no new information. Similarly, frames 941 and 1179 describe viewing pages or typing without significant progression between them."
+        }
+      },
+      "composite_score": 12.91,
+      "max_score": 20,
+      "latency_sec": 71.93
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2671,
+        "recall": 0.4257,
+        "f1": 0.3282
+      },
+      "rouge2": {
+        "precision": 0.0688,
+        "recall": 0.11,
+        "f1": 0.0846
+      },
+      "rougeL": {
+        "precision": 0.1615,
+        "recall": 0.2574,
+        "f1": 0.1985
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.006
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 119.2,
+      "total_vlm_inference_sec": 44.99,
+      "intent_latency_sec": 2.25,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.43,
+      "median_frame_latency_sec": 6.31,
+      "min_frame_latency_sec": 5.18,
+      "max_frame_latency_sec": 8.42,
+      "avg_description_length_chars": 132.6,
+      "total_prompt_tokens": 8755,
+      "total_completion_tokens": 239,
+      "avg_completion_tokens_per_sec": 4.9
+    }
+  }
+}

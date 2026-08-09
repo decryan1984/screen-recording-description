@@ -1,0 +1,453 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/37.mp4",
+  "total_frames": 1289,
+  "fps": 30.0,
+  "video_length_sec": 42.97,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1289,
+  "frames_processed": 12,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is configuring Safari's General settings to set a specific Apple URL as the homepage and define how new windows and tabs open.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.2,
+        "frame_description": "The user is typing \"ansonalex\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 448,
+        "timestamp_sec": 14.93,
+        "latency_sec": 7.62,
+        "frame_description": "The user is viewing the Safari browser's General settings window, which is open over a Google search results page for \"ansonalex\". The search bar in the browser contains the text \"ansonalex\". In the Safari settings, the user has entered \"A new window\" in the \"Safari opens with:\" field, \"Start Page\" in the \"New windows open with:\" field, \"Start Page\" in the \"new tabs open with:\" field, \"Set to Current Page\" in the \"Homepage:\" field, \"After one year\" in the \"Remove history items:\" field, \"Favorites\" in the \"Favorites shows:\" field, \"After one day\" in the \"File download location:\" field, and \"After one day\" in the \"Remove download list items:\" field. The checkbox for \"Open 'safe' files after downloading\" is checked.",
+        "prompt_tokens": 993,
+        "completion_tokens": 175
+      },
+      {
+        "frame_number": 548,
+        "timestamp_sec": 18.27,
+        "latency_sec": 3.46,
+        "frame_description": "The user is typing \"https://www.apple.com/startpage\" into the \"New tabs open with:\" field in the Safari settings window.",
+        "prompt_tokens": 993,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 558,
+        "timestamp_sec": 18.6,
+        "latency_sec": 7.19,
+        "frame_description": "The user is viewing the Safari General settings page on a Mac, with the cursor hovering near the \"New windows open with:\" option. The visible user-entered text in the application includes:\n\n- \"Safari opens with: A new window\"\n- \"New windows open with: Start Page\"\n- \"New tabs open with: Start Page\"\n- \"Homepage: https://www.apple.com/startpage/\"\n- \"Remove history items: After one year\"\n- \"Favorites shows: Favorites\"\n- \"File download location: Downloads\"\n- \"Remove download list items: After one day\"\n- \"Open 'safe' files after downloading\" (checked)\n- \"*Safe* files include movies, pictures, sounds, text documents, and archives.\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 159
+      },
+      {
+        "frame_number": 569,
+        "timestamp_sec": 18.97,
+        "latency_sec": 3.27,
+        "frame_description": "The user is highlighting the text \"https://www.apple.com/startpage/\" in the \"Homepage\" field.",
+        "prompt_tokens": 993,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 707,
+        "timestamp_sec": 23.57,
+        "latency_sec": 6.89,
+        "frame_description": "The user is selecting an option from a dropdown menu in the Safari General settings, specifically choosing \"A new window\" for how Safari opens.\n\nVisible user-entered text in the application:\n- \"A new window\" (selected in dropdown)\n- \"A new private window\"\n- \"All windows from last session\"\n- \"All non-private windows from last session\"\n- \"https://www.apple.com/startpage/\" (in Homepage field)\n- \"After one year\" (in Remove history items dropdown)\n- \"Favorites\" (in Favorites shows dropdown)\n- \"Downloads\" (in File download location dropdown)\n- \"After one day\" (in Remove download list items dropdown)",
+        "prompt_tokens": 993,
+        "completion_tokens": 147
+      },
+      {
+        "frame_number": 917,
+        "timestamp_sec": 30.57,
+        "latency_sec": 3.94,
+        "frame_description": "The user is hovering over the \"All windows from last session\" option in a dropdown menu within the Safari General settings page.\n\nVisible user-entered text:\n- Homepage: https://www.apple.com/startpage/",
+        "prompt_tokens": 993,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 976,
+        "timestamp_sec": 32.53,
+        "latency_sec": 3.6,
+        "frame_description": "The user is editing the \"Homepage\" field in the Safari General settings, currently typing or viewing the URL \"https://www.apple.com/startpage/\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1052,
+        "timestamp_sec": 35.07,
+        "latency_sec": 7.83,
+        "frame_description": "The user is selecting an option from a dropdown menu in the Safari settings, specifically choosing \"Start Page\" for new windows.\n\nVisible user-entered text in the application:\n- \"General\"\n- \"Safari opens with:\"\n- \"A new window\"\n- \"New windows open with\"\n- \"Start Page\"\n- \"Homepage\"\n- \"Empty Page\"\n- \"Same Page\"\n- \"Tabs for Favorites\"\n- \"Choose tabs folder...\"\n- \"Remove history items\"\n- \"Favorites shows:\"\n- \"Favorites\"\n- \"File download location:\"\n- \"Downloads\"\n- \"Remove download list items:\"\n- \"After one day\"\n- \"Open 'safe' files after downloading\"\n- \"'Safe' files include movies, pictures, sounds, text documents, and archives.\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 176
+      },
+      {
+        "frame_number": 1222,
+        "timestamp_sec": 40.73,
+        "latency_sec": 6.13,
+        "frame_description": "The user is selecting \"Homepage\" from the dropdown menu under the \"New tabs open with\" setting in Safari's General preferences.\n\nVisible user-entered text:\n- \"A new window\"\n- \"Start Page\"\n- \"Homepage\"\n- \"Empty Page\"\n- \"Same Page\"\n- \"Tabs for Favorites\"\n- \"Choose tabs folder...\"\n- \"Favorites\"\n- \"Downloads\"\n- \"After one day\"\n- \"Open 'safe' files after downloading\"\n- \"'Safe' files include movies, pictures, sounds, text documents, and archives.\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 125
+      },
+      {
+        "frame_number": 1232,
+        "timestamp_sec": 41.07,
+        "latency_sec": 3.63,
+        "frame_description": "The user is editing the \"Homepage\" field in Safari's General settings, currently typing or viewing the URL \"https://www.apple.com/startpage/\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 1289,
+        "timestamp_sec": 42.97,
+        "latency_sec": 3.44,
+        "frame_description": "The user is typing in the \"Homepage\" field of the Safari General settings, entering the text \"https://www.apple.com/startpage\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 29
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Change Safari settings",
+      "reference_caption": "Changing Safari browser settings to open new windows with the Homepage on macOS",
+      "reference_apps": [
+        "Mac"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 171,
+          "sub_goal": "Display the Safari right-click menu.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 462,
+          "sub_goal": "Open Safari settings",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 721,
+          "sub_goal": "Open Safari with the drop-down menu.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 950,
+          "sub_goal": "Close the dropdown menu.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1073,
+          "sub_goal": "Open new windows with dropdown menu.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1210,
+          "sub_goal": "Change \"new windows opens with\" to \"homepage\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on configuring Safari settings to set a specific homepage and define how new windows open. The timeline shows actions consistent with changing the 'New windows open with:' setting to 'Homepage', matching the reasoning answer (C) that new windows will open with the Homepage. Additionally, the prediction about closing the settings window or testing the change aligns with typical user behavior after making such adjustments."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies and fabricated details that contradict the ground truth keyframes. For instance, there is no mention of actions like displaying the Safari right-click menu or opening settings through a mouse click as described in the keyframes. Instead, the frames describe typing into Google search bars and editing fields unrelated to the task of changing 'New windows open with' setting. The timeline does not support answering the STATIC QA correctly because it doesn't show the default option being viewed before changes are made. Similarly, for SEQUENTIAL-QA, the described actions do not match those needed to change the Safari settings as per keyframes. For MCQA, while the correct answer is identified, the supporting evidence from the timeline is absent."
+        },
+        "coverage": {
+          "score": 1.57,
+          "coverage": 0.143,
+          "covered": 1,
+          "total": 7,
+          "covered_actions": [],
+          "covered_apps": [
+            "Mac"
+          ],
+          "reasoning": "The AI timeline describes actions related to modifying Safari settings, particularly focusing on the 'New windows open with' and 'Homepage' fields. It does not mention any mouse clicks or dropdown menu interactions as specified in the keyframes."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states of the Safari settings without significant changes in user actions, such as repeated descriptions of the 'Homepage' field and dropdown selections. However, there are also distinct actions like typing URLs or selecting different options, which add new information."
+        }
+      },
+      "composite_score": 10.57,
+      "max_score": 20,
+      "latency_sec": 69.61
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.044,
+        "recall": 0.7879,
+        "f1": 0.0833
+      },
+      "rouge2": {
+        "precision": 0.0169,
+        "recall": 0.3125,
+        "f1": 0.0322
+      },
+      "rougeL": {
+        "precision": 0.0389,
+        "recall": 0.697,
+        "f1": 0.0737
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0078
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 132.57,
+      "total_vlm_inference_sec": 60.2,
+      "intent_latency_sec": 2.73,
+      "frames_processed": 12,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.02,
+      "median_frame_latency_sec": 3.79,
+      "min_frame_latency_sec": 3.2,
+      "max_frame_latency_sec": 7.83,
+      "avg_description_length_chars": 326.3,
+      "total_prompt_tokens": 13025,
+      "total_completion_tokens": 1015,
+      "avg_completion_tokens_per_sec": 16.4,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is customizing their Safari browser preferences by configuring the behavior of new windows, new tabs, and setting their homepage URL.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.62,
+        "frame_description": "The user is viewing Google search results for 'ansonalex'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 448,
+        "timestamp_sec": 14.93,
+        "latency_sec": 4.8,
+        "frame_description": "The user is clicking on the back arrow button in the browser toolbar. \n\nVisible user-entered text:\n- Google search bar: \"ansonalex\"\n- Address bar: \"ansonalex\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 548,
+        "timestamp_sec": 18.27,
+        "latency_sec": 4.53,
+        "frame_description": "The user is clicking on the 'New windows open with:' option in the preferences window. Visible user-entered text includes \"ansonalex\" in the search bar and \"https://www.apple.com/startpage/\" in the Homepage field.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 558,
+        "timestamp_sec": 18.6,
+        "latency_sec": 4.77,
+        "frame_description": "The user is clicking on \"New windows open with:\" in the Safari General preferences window, with the user-entered text \"https://www.apple.com/startpage/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 569,
+        "timestamp_sec": 18.97,
+        "latency_sec": 4.69,
+        "frame_description": "The user is clicking on \"New windows open with:\". \n\n**User-entered text:**\n* Homepage: \"https://www.apple.com/startpage/\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 707,
+        "timestamp_sec": 23.57,
+        "latency_sec": 3.16,
+        "frame_description": "The user is selecting \"A new window\" from the \"Safari opens with\" dropdown menu.\n\nVisible user-entered text:\n- Homepage: \"https://www.apple.com/startpage/\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 917,
+        "timestamp_sec": 30.57,
+        "latency_sec": 4.51,
+        "frame_description": "The user is selecting \"All windows from last session\" from the dropdown menu. The visible user-entered text in the Homepage field is \"https://www.apple.com/startpage/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 976,
+        "timestamp_sec": 32.53,
+        "latency_sec": 6.83,
+        "frame_description": "The user is clicking on the empty space on the right side of the General preferences window. The visible user-entered text in the application is \"https://www.apple.com/startpage/\" in the Homepage text field.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1052,
+        "timestamp_sec": 35.07,
+        "latency_sec": 5.56,
+        "frame_description": "The user is selecting the \"Start Page\" option from the \"New windows open with\" drop-down menu in the Safari preferences window.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 1222,
+        "timestamp_sec": 40.73,
+        "latency_sec": 7.11,
+        "frame_description": "The user is clicking on the 'Homepage' option in a dropdown menu. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 1232,
+        "timestamp_sec": 41.07,
+        "latency_sec": 4.45,
+        "frame_description": "The user is clicking on the \"New tabs open with:\" dropdown menu. The visible text in the application's editable field is \"https://www.apple.com/startpage/\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1289,
+        "timestamp_sec": 42.97,
+        "latency_sec": 3.8,
+        "frame_description": "The user is selecting text in the \"Homepage:\" text field containing \"https://www.apple.com/startpage\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Change Safari settings",
+      "reference_caption": "Changing Safari browser settings to open new windows with the Homepage on macOS",
+      "reference_apps": [
+        "Mac"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 171,
+          "sub_goal": "Display the Safari right-click menu.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 462,
+          "sub_goal": "Open Safari settings",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 721,
+          "sub_goal": "Open Safari with the drop-down menu.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 950,
+          "sub_goal": "Close the dropdown menu.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1073,
+          "sub_goal": "Open new windows with dropdown menu.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1210,
+          "sub_goal": "Change \"new windows opens with\" to \"homepage\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of customizing Safari settings to open new windows with the Homepage. The timeline shows consistent actions related to changing the 'New windows open with:' setting to 'Homepage', matching the goal and caption. There are no contradictions in the specific details named in the reasoning or prediction answers."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. The sequence of interactions described in the frames does not match the ground truth keyframes, such as clicking on 'New windows open with:' and changing it to 'homepage'. Additionally, there are fabricated actions like selecting 'A new window' and 'All windows from last session', which contradict the correct action of setting 'new windows opens with' to 'homepage'. These inaccuracies would lead to incorrect answers for the sequential QA. The MCQA could still be answered correctly as it focuses on identifying the altered setting, but the timeline's inconsistencies affect overall accuracy."
+        },
+        "coverage": {
+          "score": 3.86,
+          "coverage": 0.714,
+          "covered": 5,
+          "total": 7,
+          "covered_actions": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "Mac"
+          ],
+          "reasoning": "The AI timeline describes actions related to modifying Safari settings, specifically focusing on the 'New windows open with' option and selecting different options from dropdown menus. The timeline does not explicitly mention opening the Safari right-click menu or accessing Safari settings directly."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as repeated clicks on 'New windows open with:' and selections from dropdown menus. These entries do not provide new information but rather repeat the same action or state."
+        }
+      },
+      "composite_score": 12.86,
+      "max_score": 20,
+      "latency_sec": 81.39
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0943,
+        "recall": 0.8485,
+        "f1": 0.1697
+      },
+      "rouge2": {
+        "precision": 0.0439,
+        "recall": 0.4062,
+        "f1": 0.0793
+      },
+      "rougeL": {
+        "precision": 0.0673,
+        "recall": 0.6061,
+        "f1": 0.1212
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0065
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 143.24,
+      "total_vlm_inference_sec": 58.83,
+      "intent_latency_sec": 2.99,
+      "frames_processed": 12,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.9,
+      "median_frame_latency_sec": 4.66,
+      "min_frame_latency_sec": 3.16,
+      "max_frame_latency_sec": 7.11,
+      "avg_description_length_chars": 149.7,
+      "total_prompt_tokens": 15020,
+      "total_completion_tokens": 466,
+      "avg_completion_tokens_per_sec": 7.5
+    }
+  }
+}

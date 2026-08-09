@@ -1,0 +1,625 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/135.mp4",
+  "total_frames": 1165,
+  "fps": 30.00049893533637,
+  "video_length_sec": 38.83,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1165,
+  "frames_processed": 19,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was searching for information on how to apply for a PhD program and specifically looked up the University of Washington's PhD program details.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.41,
+        "frame_description": "The user is typing \"how and when to apply a phd program\" into the search bar of the Microsoft Edge browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 137,
+        "timestamp_sec": 4.57,
+        "latency_sec": 3.3,
+        "frame_description": "The user is typing \"dongping-chen.github.io\" into the address bar of the Google Chrome browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 148,
+        "timestamp_sec": 4.93,
+        "latency_sec": 3.14,
+        "frame_description": "The user is typing \"dai\" into the search bar of the Microsoft Edge browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 159,
+        "timestamp_sec": 5.3,
+        "latency_sec": 3.87,
+        "frame_description": "The user is typing \"daily\" into the search bar of the Microsoft Edge browser, which triggers a dropdown list of search suggestions including \"Daily Mail,\" \"Daily Express,\" \"Daily Mirror,\" and \"Daily Star.\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 246,
+        "timestamp_sec": 8.2,
+        "latency_sec": 3.14,
+        "frame_description": "The user is typing \"daily\" into the search bar of the Microsoft Edge browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 257,
+        "timestamp_sec": 8.57,
+        "latency_sec": 3.73,
+        "frame_description": "The user is viewing the Microsoft Start page in Google Chrome, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 275,
+        "timestamp_sec": 9.17,
+        "latency_sec": 3.15,
+        "frame_description": "The user is typing \"unity\" into the search bar of the Microsoft Edge browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 286,
+        "timestamp_sec": 9.53,
+        "latency_sec": 3.15,
+        "frame_description": "The user is typing \"uni\" into the search bar of the Google Chrome Web Browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 297,
+        "timestamp_sec": 9.9,
+        "latency_sec": 3.16,
+        "frame_description": "The user is typing \"univer\" into the search bar of the Microsoft Edge browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 312,
+        "timestamp_sec": 10.4,
+        "latency_sec": 3.16,
+        "frame_description": "The user is typing \"universer\" into the search bar of the Microsoft Start page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 325,
+        "timestamp_sec": 10.83,
+        "latency_sec": 3.4,
+        "frame_description": "The user is typing \"university\" in the search bar of the Microsoft Edge browser, which triggers a dropdown list of university suggestions.",
+        "prompt_tokens": 993,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 546,
+        "timestamp_sec": 18.2,
+        "latency_sec": 3.22,
+        "frame_description": "The user is typing \"university of washington\" into the search bar in the Google Chrome browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 557,
+        "timestamp_sec": 18.57,
+        "latency_sec": 4.05,
+        "frame_description": "The user is viewing the Microsoft Start page in a web browser, with no active input or typing occurring. The search bar displays the placeholder text \"Search the web,\" and no user-entered text is visible in any form fields or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 581,
+        "timestamp_sec": 19.37,
+        "latency_sec": 3.17,
+        "frame_description": "The user is typing \"university of washington\" into the search bar of a web browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 768,
+        "timestamp_sec": 25.6,
+        "latency_sec": 3.29,
+        "frame_description": "The user is typing \"university of washington phd program\" into the search bar on the Bing search engine.",
+        "prompt_tokens": 993,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 810,
+        "timestamp_sec": 27.0,
+        "latency_sec": 3.16,
+        "frame_description": "The user is searching for \"university of washington phd program\" on Microsoft Bing.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 1115,
+        "timestamp_sec": 37.17,
+        "latency_sec": 3.17,
+        "frame_description": "The user is typing \"university of washington phd program\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 1126,
+        "timestamp_sec": 37.53,
+        "latency_sec": 3.18,
+        "frame_description": "The user is typing \"university of washington phd program\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 1165,
+        "timestamp_sec": 38.83,
+        "latency_sec": 3.18,
+        "frame_description": "The user is typing \"university of washington phd program\" into the Google search bar.",
+        "prompt_tokens": 993,
+        "completion_tokens": 20
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for the PhD program at the University of Washington.",
+      "reference_caption": "Navigating through web browsers to search for the PhD program at the University of Washington on a Windows system.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "bing"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 349,
+          "sub_goal": "Enter university lotus root powder",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 545,
+          "sub_goal": "Find University of Washington, then click.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 661,
+          "sub_goal": "Jump to the Google search page for University of Washington.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 785,
+          "sub_goal": "Continue searching, add the words \"phd program\" in the search box.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 901,
+          "sub_goal": "Bing search failed.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1028,
+          "sub_goal": "Click on Google in the bookmarks bar of the webpage to open Google search.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1066,
+          "sub_goal": "Enter the Google search website.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1110,
+          "sub_goal": "Paste the copied text in front to conduct a Google search.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 1139,
+          "sub_goal": "Search successful, Google displays search results.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of searching for information on the PhD program at the University of Washington. The timeline shows consistent actions towards this goal, such as typing 'university of washington phd program' into search bars across different browsers and search engines. There are no contradictions in the specific details named in the reasoning or prediction answers."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. The initial incorrect keyword 'university lotus root powder' is not mentioned in the AI frames, and there are discrepancies in the search engines used (e.g., Bing is mentioned but not as a failure point). Additionally, the sequence of actions does not align with the keyframes, such as missing the transition from Bing to Google. These inaccuracies would lead to incorrect answers for the sequential QA question about what action was taken after Bing failed."
+        },
+        "coverage": {
+          "score": 4.0,
+          "coverage": 0.75,
+          "covered": 9,
+          "total": 12,
+          "covered_actions": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "covered_apps": [
+            "bing",
+            "google"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching for 'university of washington phd program' using Google and Bing, which aligns with some keyframe actions. However, specific actions like clicking on university lotus root powder or navigating through bookmarks are not described."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several instances of repeated actions without meaningful change, such as typing 'university' and its variations multiple times across different frames. However, there are also numerous unique entries that describe distinct actions or changes in the user's activity."
+        }
+      },
+      "composite_score": 14.0,
+      "max_score": 20,
+      "latency_sec": 36.72
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1285,
+        "recall": 0.6479,
+        "f1": 0.2145
+      },
+      "rouge2": {
+        "precision": 0.0476,
+        "recall": 0.2429,
+        "f1": 0.0796
+      },
+      "rougeL": {
+        "precision": 0.0866,
+        "recall": 0.4366,
+        "f1": 0.1445
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0104
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 102.01,
+      "total_vlm_inference_sec": 63.03,
+      "intent_latency_sec": 2.21,
+      "frames_processed": 19,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 3.32,
+      "median_frame_latency_sec": 3.18,
+      "min_frame_latency_sec": 3.14,
+      "max_frame_latency_sec": 4.05,
+      "avg_description_length_chars": 108.5,
+      "total_prompt_tokens": 19689,
+      "total_completion_tokens": 496,
+      "avg_completion_tokens_per_sec": 7.4,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was searching online to find information about PhD programs at the University of Washington.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 10.98,
+        "frame_description": "The user is clicking on the search bar in Microsoft Edge.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 137,
+        "timestamp_sec": 4.57,
+        "latency_sec": 3.89,
+        "frame_description": "The user is typing 'dongping-chen.github.io' into the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 148,
+        "timestamp_sec": 4.93,
+        "latency_sec": 4.71,
+        "frame_description": "The user is typing 'dail' into the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 159,
+        "timestamp_sec": 5.3,
+        "latency_sec": 4.47,
+        "frame_description": "The user is typing \"daily \" into the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 246,
+        "timestamp_sec": 8.2,
+        "latency_sec": 7.11,
+        "frame_description": "The user is typing \"d\" into the address bar in the browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 257,
+        "timestamp_sec": 8.57,
+        "latency_sec": 8.63,
+        "frame_description": "The user is viewing a new tab on the Microsoft Edge web browser with no text actively entered in any field.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 275,
+        "timestamp_sec": 9.17,
+        "latency_sec": 5.34,
+        "frame_description": "The user is typing \"uiverse.io\" into the browser address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 286,
+        "timestamp_sec": 9.53,
+        "latency_sec": 3.44,
+        "frame_description": "The user is typing \"uni\" into the browser address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 297,
+        "timestamp_sec": 9.9,
+        "latency_sec": 3.17,
+        "frame_description": "The user is typing \"univer\" in the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 312,
+        "timestamp_sec": 10.4,
+        "latency_sec": 3.33,
+        "frame_description": "The user is typing 'universir' into the address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 325,
+        "timestamp_sec": 10.83,
+        "latency_sec": 5.45,
+        "frame_description": "The user is typing 'university' into the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 546,
+        "timestamp_sec": 18.2,
+        "latency_sec": 10.86,
+        "frame_description": "The user is hovering the mouse cursor over \"University of Washington\" in the search suggestion dropdown menu.\n\nVisible user-entered text in the application's address bar includes:\n`https://",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 557,
+        "timestamp_sec": 18.57,
+        "latency_sec": 16.35,
+        "frame_description": "The user is viewing a \"New tab\" page in the Microsoft Edge browser with no active input or interaction taking place.\n\n**Visible user-entered text:**\n* Address bar",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 581,
+        "timestamp_sec": 19.37,
+        "latency_sec": 7.07,
+        "frame_description": "The user is hovering the cursor over the \"Cool Papers\" bookmark on the bookmarks bar, with the text \"university of washington\" entered in the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 32
+      },
+      {
+        "frame_number": 768,
+        "timestamp_sec": 25.6,
+        "latency_sec": 6.37,
+        "frame_description": "The user is typing \"university of washington phd programs\" into the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 810,
+        "timestamp_sec": 27.0,
+        "latency_sec": 5.78,
+        "frame_description": "The user is searching on Microsoft Bing for \"university of washington phd program\". \n\n**Visible user-entered text:**\n* Search bar: `\"university of washington phd program\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 1115,
+        "timestamp_sec": 37.17,
+        "latency_sec": 4.49,
+        "frame_description": "The user is typing \"university of washington phd program\" into the Google search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 1126,
+        "timestamp_sec": 37.53,
+        "latency_sec": 7.48,
+        "frame_description": "The user is viewing Google search results for \"university of washington phd program\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 1165,
+        "timestamp_sec": 38.83,
+        "latency_sec": 5.86,
+        "frame_description": "The user is viewing Google search results for \"university of washington phd program\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Search for the PhD program at the University of Washington.",
+      "reference_caption": "Navigating through web browsers to search for the PhD program at the University of Washington on a Windows system.",
+      "reference_apps": [
+        "edge",
+        "google",
+        "bing"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 349,
+          "sub_goal": "Enter university lotus root powder",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 545,
+          "sub_goal": "Find University of Washington, then click.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 661,
+          "sub_goal": "Jump to the Google search page for University of Washington.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 785,
+          "sub_goal": "Continue searching, add the words \"phd program\" in the search box.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 901,
+          "sub_goal": "Bing search failed.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1028,
+          "sub_goal": "Click on Google in the bookmarks bar of the webpage to open Google search.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1066,
+          "sub_goal": "Enter the Google search website.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1110,
+          "sub_goal": "Paste the copied text in front to conduct a Google search.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + v"
+        },
+        {
+          "frame": 1139,
+          "sub_goal": "Search successful, Google displays search results.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of searching for information about PhD programs at the University of Washington. The timeline shows consistent actions related to this goal, such as typing 'university of washington phd program' into search bars on both Bing and Google, which aligns with the core objective described in the caption."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly aligned with the keyframes. The initial incorrect search term 'university lotus root powder' is not explicitly mentioned in the frames, but the correction to 'University of Washington' and subsequent actions align with the keyframes. The Bing search failure and switch to Google are accurately described. However, there are some discrepancies: the AI descriptions do not mention the specific action of clicking on the bookmarks bar for Google, which is a detail from the keyframes. Despite this, the overall sequence supports the correct answers to the QA questions."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 10,
+          "total": 12,
+          "covered_actions": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "covered_apps": [
+            "bing",
+            "edge",
+            "google"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching for 'University of Washington PhD programs' using Google and Bing, which aligns with some keyframe actions. However, not all keyframes are explicitly described."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several instances where actions are repeated without meaningful change, such as multiple frames describing typing in the address bar and viewing search results. However, there are also distinct actions like switching between different websites or entering new queries."
+        }
+      },
+      "composite_score": 16.33,
+      "max_score": 20,
+      "latency_sec": 45.84
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1566,
+        "recall": 0.6197,
+        "f1": 0.25
+      },
+      "rouge2": {
+        "precision": 0.0643,
+        "recall": 0.2571,
+        "f1": 0.1029
+      },
+      "rougeL": {
+        "precision": 0.1103,
+        "recall": 0.4366,
+        "f1": 0.1761
+      },
+      "num_sub_goals": 9,
+      "latency_sec": 0.0094
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 175.54,
+      "total_vlm_inference_sec": 124.78,
+      "intent_latency_sec": 4.88,
+      "frames_processed": 19,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.57,
+      "median_frame_latency_sec": 5.78,
+      "min_frame_latency_sec": 3.17,
+      "max_frame_latency_sec": 16.35,
+      "avg_description_length_chars": 87.3,
+      "total_prompt_tokens": 23393,
+      "total_completion_tokens": 379,
+      "avg_completion_tokens_per_sec": 2.9
+    }
+  }
+}

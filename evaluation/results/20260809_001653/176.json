@@ -1,0 +1,350 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/176.mp4",
+  "total_frames": 909,
+  "fps": 30.000309409131695,
+  "video_length_sec": 30.3,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 909,
+  "frames_processed": 7,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user is attempting to download the CUDA Toolkit and verify its installation on a system equipped with a GeForce RTX 2080, while simultaneously developing a Python script in Visual Studio Code for a mobile ammo GUI project.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.78,
+        "frame_description": "The user is viewing the NVIDIA-SMI utility window, which displays GPU information and process details, while simultaneously browsing the Microsoft Bing search results for \"cude toolkit download\" in the background.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 46,
+        "timestamp_sec": 1.53,
+        "latency_sec": 3.09,
+        "frame_description": "The user is searching for \"cuda toolkit download\" on Bing.",
+        "prompt_tokens": 993,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 91,
+        "timestamp_sec": 3.03,
+        "latency_sec": 3.94,
+        "frame_description": "The user is viewing a web page about the CUDA Toolkit download on Bing, with a command prompt window open in the foreground showing system information and process details. No text is being actively typed by the user at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 209,
+        "timestamp_sec": 6.97,
+        "latency_sec": 3.03,
+        "frame_description": "The user is searching for \"cuda toolkit download\" on Bing.",
+        "prompt_tokens": 993,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 435,
+        "timestamp_sec": 14.5,
+        "latency_sec": 9.84,
+        "frame_description": "The user is viewing the NVIDIA System Monitor application, which displays GPU and system information. The visible text includes:\n\n- Application title: \"Microsoft Windows [Version 10.0.22631.3296]\"\n- Copyright notice: \"(c) Microsoft Corporation. All rights reserved.\"\n- Path: \"C:\\Users\\7920202\\nvidia-smi\"\n- Date and time: \"Sat Apr 06 18:45:00 2024\"\n- Hardware details:\n  - \"NVIDIA-SMI 466.71\"\n  - \"Driver Version: 466.71\"\n  - \"CUDA Version:\"\n  - \"GPU Name: GeForce RTX 2080...\"\n  - \"Temp: 39C\"\n  - \"Pwr: 46W / 250W\"\n  - \"Bus-Id: 00000080:88:00.0\"\n  - \"Memory-Usage: 1088MiB / 22528MiB\"\n  - \"GPU-",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 512,
+        "timestamp_sec": 17.07,
+        "latency_sec": 4.65,
+        "frame_description": "The user is viewing a VS Code window with an open Python file named `ammo.py` in the `GUI_mobile_Ammo_2` project directory, while a Microsoft Edge browser window is open in the background displaying the CUDA Deep Neural Network documentation page. No user-entered text is currently visible in form fields or being actively typed in the applications shown.",
+        "prompt_tokens": 993,
+        "completion_tokens": 72
+      },
+      {
+        "frame_number": 909,
+        "timestamp_sec": 30.3,
+        "latency_sec": 4.45,
+        "frame_description": "The user is editing a Python script in Visual Studio Code, specifically working on a file named `anno.py` within a project called `GUI_MOBILE_AMMO 2`. The script contains code that reads lines from a file and writes them to another file. The user has not yet entered any new text in the editor.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse the unloaded web page and VS code.",
+      "reference_caption": "Navigating between a web browser and a code editor to view a CUDA toolkit download page and edit a Python script in Visual Studio Code.",
+      "reference_apps": [
+        "edge",
+        "vscode"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 216,
+          "sub_goal": "Click on the webpage window to bring the webpage back to the top of the screen.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 447,
+          "sub_goal": "Click on the last one in the webpage bar, it is still loading.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 523,
+          "sub_goal": "Click on the vscode window, the vscode window returns to the top of the screen.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 594,
+          "sub_goal": "Browse through the vscode files.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's actions and objectives as described in the timeline. The user is indeed browsing for the CUDA Toolkit download page and editing a Python script in Visual Studio Code, which matches the core objective of navigating between these tasks. There are no contradictions in the timeline regarding the entities involved (e.g., file names or application windows)."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the ground truth keyframes. For instance, Frame 1 describes viewing the NVIDIA-SMI utility window and Bing search results, which contradicts Keyframe 1's description of clicking on a webpage window. Similarly, Frame 512 mentions an `ammo.py` file in VS Code, while Keyframe 4 specifies browsing through files without naming any specific file. These discrepancies indicate fabricated or incorrect details. The timeline does not allow for consistent answers to the sequential and multiple-choice questions due to these inaccuracies."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 3,
+          "total": 6,
+          "covered_actions": [
+            4
+          ],
+          "covered_apps": [
+            "edge",
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing and editing within VS Code, which aligns with some keyframe actions. However, specific mouse clicks on webpages or the VSCode window are not detailed."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar actions without meaningful changes, such as multiple instances of searching for 'cuda toolkit download' on Bing and viewing the NVIDIA-SMI utility window. However, there are also distinct entries describing different activities like editing a Python script in VS Code."
+        }
+      },
+      "composite_score": 12.0,
+      "max_score": 20,
+      "latency_sec": 62.47
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0751,
+        "recall": 0.449,
+        "f1": 0.1287
+      },
+      "rouge2": {
+        "precision": 0.0034,
+        "recall": 0.0208,
+        "f1": 0.0059
+      },
+      "rougeL": {
+        "precision": 0.0648,
+        "recall": 0.3878,
+        "f1": 0.1111
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0077
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 97.66,
+      "total_vlm_inference_sec": 32.78,
+      "intent_latency_sec": 2.36,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.68,
+      "median_frame_latency_sec": 3.94,
+      "min_frame_latency_sec": 3.03,
+      "max_frame_latency_sec": 9.84,
+      "avg_description_length_chars": 257.7,
+      "total_prompt_tokens": 7566,
+      "total_completion_tokens": 550,
+      "avg_completion_tokens_per_sec": 15.4,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is checking their GPU status and searching for the NVIDIA CUDA Toolkit and cuDNN library to set up their development environment, while also working on a Python script in Visual Studio Code.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 7.84,
+        "frame_description": "The user is viewing the desktop, which displays a Command Prompt window showing system information alongside a browser displaying search results for \"cuda toolkit download\".\n\n**User-entered text:**\n* Browser search",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 46,
+        "timestamp_sec": 1.53,
+        "latency_sec": 7.0,
+        "frame_description": "The user is browsing search results for \"cuda toolkit download\" on Bing. \n\nVisible user-entered text:\n- Search bar: `\"cuda toolkit download\"`\n- Command Prompt: `\"nvidia-smi\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 91,
+        "timestamp_sec": 3.03,
+        "latency_sec": 6.01,
+        "frame_description": "The user is running the `nvidia-smi` command in the Command Prompt window while searching for \"cuda toolkit download\" in the browser. \n\nVisible user-entered text:\n-",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 209,
+        "timestamp_sec": 6.97,
+        "latency_sec": 6.39,
+        "frame_description": "The user is browsing search results for \"cuda toolkit download\" in the web browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 435,
+        "timestamp_sec": 14.5,
+        "latency_sec": 4.92,
+        "frame_description": "The user is clicking on the 'CUDA Deep Neural Network (cud...' tab in the browser. \n\nVisible user-entered text includes:\n- Browser address bar: \"https://developer.nvidia.com/cudnn\"\n- Command Prompt: \"nvidia-smi\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      },
+      {
+        "frame_number": 512,
+        "timestamp_sec": 17.07,
+        "latency_sec": 7.35,
+        "frame_description": "The user is clicking inside the Explorer panel in Visual Studio Code.\n\nVisible user-entered text in form fields and address bars:\n- Browser address bar: `https://developer.nvidia.com",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 909,
+        "timestamp_sec": 30.3,
+        "latency_sec": 6.52,
+        "frame_description": "The user is hovering the mouse cursor over the code editor area in Visual Studio Code.\n\nVisible user-entered text in the applications includes:\n* **Browser Address Bar:** `https://developer.nvidia.com/cudnn`\n* **VS Code Top Search Field:** `GUI_mobile_Anno 2`\n* **VS Code Code Cell:** \n```python\nif lines:\n    lines = lines[:-1]\n# \u5c06\u5269\u4f59\u5185\u5bb9\u5199\u56de\u6587\u4ef6\nwith open(output_file, 'w') as file:\n    file.writelines(lines)\n```",
+        "prompt_tokens": 1200,
+        "completion_tokens": 121
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse the unloaded web page and VS code.",
+      "reference_caption": "Navigating between a web browser and a code editor to view a CUDA toolkit download page and edit a Python script in Visual Studio Code.",
+      "reference_apps": [
+        "edge",
+        "vscode"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 216,
+          "sub_goal": "Click on the webpage window to bring the webpage back to the top of the screen.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 447,
+          "sub_goal": "Click on the last one in the webpage bar, it is still loading.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 523,
+          "sub_goal": "Click on the vscode window, the vscode window returns to the top of the screen.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 594,
+          "sub_goal": "Browse through the vscode files.",
+          "mouse": "scroll",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent aligns well with the user's actions and objectives as described in the timeline. The user is indeed checking their GPU status using `nvidia-smi` and searching for the NVIDIA CUDA Toolkit, while also editing a Python script in Visual Studio Code. These activities match the core objective of setting up a development environment involving CUDA and cuDNN libraries. There are no contradictions with specific details named in the reasoning or prediction answers."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 1 mentions a Command Prompt window, which is not part of the ground truth keyframes. Frame 46 and 209 correctly describe browsing for 'cuda toolkit download', consistent with keyframe 2. Frame 435 accurately reflects clicking on a browser tab, matching keyframe 2. However, frame 512 inaccurately describes interaction within Visual Studio Code's Explorer panel instead of simply bringing the window to the top as in keyframe 3. Frame 909 correctly notes hovering over the code editor area, aligning with keyframe 4. The timeline allows for consistent answers to the static QA and sequential-QA but not fully to MCQA due to inaccuracies in describing actions within Visual Studio Code."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 5,
+          "total": 6,
+          "covered_actions": [
+            2,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "edge",
+            "vscode"
+          ],
+          "reasoning": "The AI timeline describes actions related to browsing and interacting within a browser and Visual Studio Code, which align with some of the keyframe actions. However, not all keyframe actions are explicitly described."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat information without meaningful change. Frames 46 and 209 both describe browsing search results for 'cuda toolkit download' with no new action, and Frame 512 repeats the browser address bar content from Frame 435. However, there are also entries introducing new actions or changes, such as running a command in the Command Prompt (Frame 91) and interacting with Visual Studio Code (Frames 435, 512, 909)."
+        }
+      },
+      "composite_score": 15.33,
+      "max_score": 20,
+      "latency_sec": 72.05
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.106,
+        "recall": 0.4694,
+        "f1": 0.1729
+      },
+      "rouge2": {
+        "precision": 0.0139,
+        "recall": 0.0625,
+        "f1": 0.0227
+      },
+      "rougeL": {
+        "precision": 0.0922,
+        "recall": 0.4082,
+        "f1": 0.1504
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.007
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 121.9,
+      "total_vlm_inference_sec": 46.03,
+      "intent_latency_sec": 3.79,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.58,
+      "median_frame_latency_sec": 6.52,
+      "min_frame_latency_sec": 4.92,
+      "max_frame_latency_sec": 7.84,
+      "avg_description_length_chars": 205.1,
+      "total_prompt_tokens": 8887,
+      "total_completion_tokens": 394,
+      "avg_completion_tokens_per_sec": 7.8
+    }
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/154.mp4",
+  "total_frames": 940,
+  "fps": 30.00061836380936,
+  "video_length_sec": 31.33,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 940,
+  "frames_processed": 14,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was searching for information about PhD programs at UC San Diego, specifically looking for details on the Division of Graduate Education and Postdoctoral Affairs.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.62,
+        "frame_description": "The user is viewing the CSRankings website, which displays rankings of computer science institutions by publication count in various areas. The page lists top institutions such as Carnegie Mellon University and University of Illinois at Urbana-Champaign, with faculty counts and publication metrics. The user has not entered any text into form fields or search bars on the page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 3.75,
+        "frame_description": "The user is viewing the Microsoft Start page in Google Chrome, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 41,
+        "timestamp_sec": 1.37,
+        "latency_sec": 3.13,
+        "frame_description": "The user is typing \"uiuc\" into the search bar of a web browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 52,
+        "timestamp_sec": 1.73,
+        "latency_sec": 3.19,
+        "frame_description": "The user is typing \"UC\" into the search bar of the Microsoft Edge browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 63,
+        "timestamp_sec": 2.1,
+        "latency_sec": 3.19,
+        "frame_description": "The user is typing \"UCSA\" into the search bar of the Microsoft Start page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 74,
+        "timestamp_sec": 2.47,
+        "latency_sec": 5.05,
+        "frame_description": "The user is typing \"UCSA\" into the search bar of a web browser, which triggers a dropdown list of search suggestions including \"uc san diego,\" \"uc santa cruz,\" \"uc santa barbara,\" \"ucs autocad,\" \"UCAS,\" \"uc san francisco,\" \"ucs algorithm,\" and \"uc san diego ranking.\" The action involves entering text into the search field to initiate a search query.",
+        "prompt_tokens": 993,
+        "completion_tokens": 86
+      },
+      {
+        "frame_number": 308,
+        "timestamp_sec": 10.27,
+        "latency_sec": 3.23,
+        "frame_description": "The user is typing \"ucsd phd pro\" into the search bar on the Microsoft Start page.",
+        "prompt_tokens": 993,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 319,
+        "timestamp_sec": 10.63,
+        "latency_sec": 4.01,
+        "frame_description": "The user is viewing the Microsoft Start page in Google Chrome, with no active input or typing occurring. The search bar displays the placeholder text \"Search the web,\" and no user-entered text is visible in any form fields or active input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 375,
+        "timestamp_sec": 12.5,
+        "latency_sec": 3.24,
+        "frame_description": "The user is typing \"ucsd phd programs\" into the search bar of a web browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 21
+      },
+      {
+        "frame_number": 487,
+        "timestamp_sec": 16.23,
+        "latency_sec": 3.27,
+        "frame_description": "The user is typing \"ucsd phd programs\" into the search bar of the Microsoft Bing web browser.",
+        "prompt_tokens": 993,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 498,
+        "timestamp_sec": 16.6,
+        "latency_sec": 4.68,
+        "frame_description": "The user is viewing a blank browser window with no active content or input fields. There is no visible user-entered text in any form fields, search bars, or other input areas. The browser is open to a new tab (\"about:blank\"), and the desktop background is visible with various application icons. No text is being actively typed or entered at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 74
+      },
+      {
+        "frame_number": 574,
+        "timestamp_sec": 19.13,
+        "latency_sec": 4.02,
+        "frame_description": "The user is viewing a blank webpage in a browser with multiple tabs open, including one titled \"CS study\" and another showing a long URL from Bing.com. No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 856,
+        "timestamp_sec": 28.53,
+        "latency_sec": 3.73,
+        "frame_description": "The user is viewing a webpage for the Division of Graduate Education and Postdoctoral Affairs, specifically on the \"Find Your Degree Program\" section, with no active text input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 940,
+        "timestamp_sec": 31.33,
+        "latency_sec": 3.86,
+        "frame_description": "The user is viewing the UC San Diego Graduate Division website, specifically the \"Find Your Degree Program\" page under Admissions. No user-entered text is visible in form fields or search bars on the current screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 44
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View the official website of the UCSD degree program.",
+      "reference_caption": "Navigating Microsoft Edge to search and access the UCSD Degree Programs website.",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "UCSD homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 29,
+          "sub_goal": "Open a new tab.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 255,
+          "sub_goal": "Entered UCSD phd pro, prepare to inquire about phd program application.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 306,
+          "sub_goal": "Click on the first recommended search result, which is the UCSD PhD programs.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 407,
+          "sub_goal": "\"Failed to search in Bing, selected all the text in the search box, and copied it.\"",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + c"
+        },
+        {
+          "frame": 476,
+          "sub_goal": "Refreshed, loaded.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 490,
+          "sub_goal": "Click on the official website of UCSD Degree programs.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 829,
+          "sub_goal": "\"Waiting for loading\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 935,
+          "sub_goal": "The UCSD degree program website has loaded successfully.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective as both focus on accessing information about PhD programs at UCSD. The timeline shows the user navigating to and viewing the UCSD Graduate Division website, specifically targeting degree program details, which aligns with the goal of viewing the official UCSD degree program website."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, Frame 1 mentions CSRankings and Google Chrome, which contradicts the ground truth of using Microsoft Edge. Frames 12 and 319 incorrectly mention Google Chrome instead of Microsoft Edge. Frame 41 shows typing 'uiuc', which is not part of the keyframes. The correct sequence starts with entering 'UCSD phd pro' in Microsoft Edge as per Frame 308, aligning with the ground truth. These discrepancies indicate fabricated or contradicted actions."
+        },
+        "coverage": {
+          "score": 3.55,
+          "coverage": 0.636,
+          "covered": 7,
+          "total": 11,
+          "covered_actions": [
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "covered_apps": [
+            "bing",
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching for UCSD PhD programs, which aligns with some keyframe actions but not all. The timeline includes typing search queries and viewing web pages, matching several keyframes."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, such as multiple instances of viewing pages without active input. However, there are also distinct actions like typing different search queries and navigating to new webpages."
+        }
+      },
+      "composite_score": 13.55,
+      "max_score": 20,
+      "latency_sec": 70.33
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0989,
+        "recall": 0.6818,
+        "f1": 0.1727
+      },
+      "rouge2": {
+        "precision": 0.0286,
+        "recall": 0.2,
+        "f1": 0.0501
+      },
+      "rougeL": {
+        "precision": 0.0593,
+        "recall": 0.4091,
+        "f1": 0.1036
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0129
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 125.73,
+      "total_vlm_inference_sec": 52.97,
+      "intent_latency_sec": 2.38,
+      "frames_processed": 14,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 3.78,
+      "median_frame_latency_sec": 3.74,
+      "min_frame_latency_sec": 3.13,
+      "max_frame_latency_sec": 5.05,
+      "avg_description_length_chars": 187.1,
+      "total_prompt_tokens": 14751,
+      "total_completion_tokens": 603,
+      "avg_completion_tokens_per_sec": 10.8,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to search for and view information about PhD programs offered by UC San Diego.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 5.32,
+        "frame_description": "The user is clicking on the 'New Tab' ('+') button in the web browser.\n\nVisible user-entered text in form fields/address bar:\n- Address bar: `https://csrankings.org/#/fromyear/2022/toyear/2024/index?ai&vision&mlmining&nlp&inforet&robotics&us`\n- Rank institutions in field: `USA`\n- Publications from field: `2022`\n- To field: `2024`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 114
+      },
+      {
+        "frame_number": 12,
+        "timestamp_sec": 0.4,
+        "latency_sec": 6.9,
+        "frame_description": "The user is clicking on the close tab button of the 'New tab' tab in the web browser.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 41,
+        "timestamp_sec": 1.37,
+        "latency_sec": 6.43,
+        "frame_description": "The user is clicking on the '+' button to open a new tab in the web browser.\n\n**User-entered text:**\n* Address bar: `\"uiverse.io\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 52,
+        "timestamp_sec": 1.73,
+        "latency_sec": 3.05,
+        "frame_description": "The user is typing \"uc\" into the address bar of the browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 63,
+        "timestamp_sec": 2.1,
+        "latency_sec": 2.74,
+        "frame_description": "The user is typing 'UCSA' into the browser's address bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 74,
+        "timestamp_sec": 2.47,
+        "latency_sec": 4.0,
+        "frame_description": "The user is typing \"UCSA\" into the address bar of the web browser.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 308,
+        "timestamp_sec": 10.27,
+        "latency_sec": 6.34,
+        "frame_description": "The user is typing in the browser address bar with the text \"https://cn.bing.com/search?pglt=163&q=ucsd+phd=programs",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 319,
+        "timestamp_sec": 10.63,
+        "latency_sec": 5.9,
+        "frame_description": "The user is clicking on the 'Imme...' bookmark on the browser's favorites bar. The address bar contains the text 'https://cn.bing.com/search?",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 375,
+        "timestamp_sec": 12.5,
+        "latency_sec": 5.04,
+        "frame_description": "The user is searching \"ucsd phd programs\" in the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 487,
+        "timestamp_sec": 16.23,
+        "latency_sec": 5.05,
+        "frame_description": "The user is clicking on the \"Degree Programs - University of California, San Diego\" link. \n\n**User-entered text:**\n* Search bar: `\"ucsd phd programs\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 498,
+        "timestamp_sec": 16.6,
+        "latency_sec": 6.0,
+        "frame_description": "The user is hovering the cursor over a blank webpage in Microsoft Edge. The address bar contains the text \"about:blank\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 574,
+        "timestamp_sec": 19.13,
+        "latency_sec": 6.41,
+        "frame_description": "The user is viewing a loading blank webpage in the web browser with the URL \"https://www.bing.com/ck/a?!&&p=1341a4a9",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 856,
+        "timestamp_sec": 28.53,
+        "latency_sec": 7.14,
+        "frame_description": "The user is viewing the \"Degree Programs\" page on the Division of Graduate Education and Postdoctoral Affairs website in a web browser. There is no visible user-entered text in any form fields or search",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 940,
+        "timestamp_sec": 31.33,
+        "latency_sec": 6.76,
+        "frame_description": "The user is browsing the \"Degree Programs\" page on the UC San Diego Division of Graduate Education and Postdoctoral Affairs website. \n\nThere is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "View the official website of the UCSD degree program.",
+      "reference_caption": "Navigating Microsoft Edge to search and access the UCSD Degree Programs website.",
+      "reference_apps": [
+        "edge",
+        "bing",
+        "UCSD homepage"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 29,
+          "sub_goal": "Open a new tab.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 255,
+          "sub_goal": "Entered UCSD phd pro, prepare to inquire about phd program application.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 306,
+          "sub_goal": "Click on the first recommended search result, which is the UCSD PhD programs.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 407,
+          "sub_goal": "\"Failed to search in Bing, selected all the text in the search box, and copied it.\"",
+          "mouse": "click",
+          "keyboard": "input",
+          "keyboardOperation": "ctrl + c"
+        },
+        {
+          "frame": 476,
+          "sub_goal": "Refreshed, loaded.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 490,
+          "sub_goal": "Click on the official website of UCSD Degree programs.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 829,
+          "sub_goal": "\"Waiting for loading\"",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 935,
+          "sub_goal": "The UCSD degree program website has loaded successfully.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both aim to access information about PhD programs at UCSD. The timeline shows the user navigating to and viewing the 'Degree Programs' page on the UC San Diego website, which aligns with the goal of accessing the official UCSD degree program site."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. The user's action of entering 'UCSD phd pro' is described as 'ucsd phd programs', which slightly deviates from the ground truth. Additionally, there are discrepancies in the sequence and specifics of actions (e.g., clicking on a bookmark instead of directly interacting with search results). However, these do not significantly contradict the keyframes or fabricate interactions. The timeline allows for consistent answers to the QA questions based on the provided descriptions."
+        },
+        "coverage": {
+          "score": 3.55,
+          "coverage": 0.636,
+          "covered": 7,
+          "total": 11,
+          "covered_actions": [
+            1,
+            3,
+            5,
+            6,
+            8
+          ],
+          "covered_apps": [
+            "bing",
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes actions related to opening new tabs, entering search queries for UCSD PhD programs, and navigating to the UCSD Degree Programs page. These correspond to several keyframes but not all."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several instances of redundancy, such as repeated actions like clicking on buttons without new information and typing the same text multiple times. However, there are also distinct actions that contribute to a meaningful progression in the user's activity."
+        }
+      },
+      "composite_score": 15.55,
+      "max_score": 20,
+      "latency_sec": 78.41
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.128,
+        "recall": 0.6515,
+        "f1": 0.2139
+      },
+      "rouge2": {
+        "precision": 0.0507,
+        "recall": 0.2615,
+        "f1": 0.085
+      },
+      "rougeL": {
+        "precision": 0.0893,
+        "recall": 0.4545,
+        "f1": 0.1493
+      },
+      "num_sub_goals": 8,
+      "latency_sec": 0.0087
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 157.33,
+      "total_vlm_inference_sec": 77.08,
+      "intent_latency_sec": 1.82,
+      "frames_processed": 14,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.51,
+      "median_frame_latency_sec": 5.95,
+      "min_frame_latency_sec": 2.74,
+      "max_frame_latency_sec": 7.14,
+      "avg_description_length_chars": 136.5,
+      "total_prompt_tokens": 17500,
+      "total_completion_tokens": 529,
+      "avg_completion_tokens_per_sec": 6.6
+    }
+  }
+}

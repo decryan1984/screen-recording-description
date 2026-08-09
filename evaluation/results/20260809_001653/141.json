@@ -1,0 +1,839 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/141.mp4",
+  "total_frames": 1432,
+  "fps": 46.69768250793513,
+  "video_length_sec": 30.67,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1432,
+  "frames_processed": 32,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was attempting to organize personal finances by creating an Excel expense tracker and learning how to edit video files using LosslessCut.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.31,
+        "frame_description": "The user is viewing the Microsoft Word templates page, with no active text input or editing occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 30,
+        "timestamp_sec": 0.64,
+        "latency_sec": 7.42,
+        "frame_description": "The user is hovering over the 'Screenshot' folder on the desktop.\n\nNo user-entered text is visible in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 56,
+        "timestamp_sec": 1.2,
+        "latency_sec": 7.7,
+        "frame_description": "The user is viewing a blank document in Microsoft Word on their desktop. There is no active text being typed or any user-entered text visible in form fields or search bars within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 107,
+        "timestamp_sec": 2.29,
+        "latency_sec": 8.73,
+        "frame_description": "The user is viewing a Microsoft Word document titled \"Document2\" on their desktop, which contains text about creating an Excel table example for monthly expenses. The document includes sections for metadata and sample data with headers like \"Date,\" \"Category,\" \"Description,\" and \"Amount ($).\" No active typing or input actions are currently being performed in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 71
+      },
+      {
+        "frame_number": 123,
+        "timestamp_sec": 2.63,
+        "latency_sec": 9.38,
+        "frame_description": "The user is viewing a Microsoft Word document titled \"Document2\" that contains instructions for formatting a table, adjusting column widths, formatting numbers, and saving the file as \"Monthly_Expenses_2024.xlsx\". The cursor is positioned near the text in step 8, which reads: \"**Format Numbers**: Format the 'Amount ($)' column as currency signs and decimal points.\" No text is currently being typed or edited in any form fields or input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 157,
+        "timestamp_sec": 3.36,
+        "latency_sec": 7.55,
+        "frame_description": "The user is typing \"Monthly_Expenses_2024.xlsx\" in the filename field of the save dialog.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 173,
+        "timestamp_sec": 3.7,
+        "latency_sec": 7.77,
+        "frame_description": "The user is typing in a Microsoft Word document, specifically entering the text \"Monthly_Expenses_2024.xlsx\" as part of step 9 instructions.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 289,
+        "timestamp_sec": 6.19,
+        "latency_sec": 8.18,
+        "frame_description": "The user is viewing a Microsoft Word document titled \"Document2\" that contains instructions for formatting a table and saving a workbook as \"Monthly_Expenses_2024.xlsx\". No text is currently being typed or entered into any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 305,
+        "timestamp_sec": 6.53,
+        "latency_sec": 13.11,
+        "frame_description": "The user is viewing a Microsoft Word document titled \"Document2\" that contains instructions for formatting a table and saving a workbook. The visible text in the document includes:\n\n- \"6. **Style the Table**: With the table selected, use the \"Table Design\" tab to choose a style that suits preference.\"\n- \"7. **Adjust Column Widths**: Make sure each column is wide enough to display information clearly without cutting off text.\"\n- \"8. **Format Numbers**: Format the \"Amount ($)\" column as currency to automatically add dollar signs and decimal points.\"\n- \"9. **Save the File**: Save your workbook with an appropriate name, like \"Monthly_Expenses_2024.xlsx\".\"\n- \"By following these steps, you will have created a functional and well-formatted Excel track monthly expenses.\"\n\nAdditionally, the document footer shows: \"Page 2 of 2\", \"359 words\", \"English (China)\", and \"161%\".\n\nNo user-entered text is currently being typed or visible in form fields within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 225
+      },
+      {
+        "frame_number": 321,
+        "timestamp_sec": 6.87,
+        "latency_sec": 8.53,
+        "frame_description": "The user is viewing a Word document titled \"Document2\" on their desktop, which contains instructions for formatting an Excel table. The document includes steps such as styling the table, adjusting column widths, formatting numbers, and saving the file. The user has not yet entered any text into the document or any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 64
+      },
+      {
+        "frame_number": 337,
+        "timestamp_sec": 7.22,
+        "latency_sec": 9.3,
+        "frame_description": "The user is viewing a Microsoft Word document titled \"Document2\" on their desktop, which contains instructions for formatting an Excel table. The document includes numbered steps such as \"6. **Style the Table**:\", \"7. **Adjust Column Widths**:\", \"8. **Format Numbers**:\", and \"9. **Save the File**:\". The user has not entered any text in the application; all visible text is part of the document content or interface labels.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 95
+      },
+      {
+        "frame_number": 360,
+        "timestamp_sec": 7.71,
+        "latency_sec": 7.19,
+        "frame_description": "The user is typing \"Amount\" in the Word document.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 376,
+        "timestamp_sec": 8.05,
+        "latency_sec": 8.27,
+        "frame_description": "The user is viewing a document in Microsoft Word that describes how to create an Excel table for tracking monthly expenses. The document includes sections on metadata, headers and sample data, and steps to create the table in Excel. No text is currently being actively typed by the user.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 392,
+        "timestamp_sec": 8.39,
+        "latency_sec": 7.37,
+        "frame_description": "The user is typing \"Subscription\" in the \"Description\" column of an Excel table example within a Word document.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 472,
+        "timestamp_sec": 10.11,
+        "latency_sec": 7.32,
+        "frame_description": "The user is saving a document named \"Certainly\" in Word format.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 847,
+        "timestamp_sec": 18.14,
+        "latency_sec": 7.26,
+        "frame_description": "The user is typing \"example\" in the \"Save As:\" field of the save dialog.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 863,
+        "timestamp_sec": 18.48,
+        "latency_sec": 8.42,
+        "frame_description": "The user is viewing a Microsoft Word document titled \"Document2\" that contains instructions for creating an Excel table to track monthly expenses. The document includes sections on metadata, headers, sample data, and steps to create the table in Excel. No text is currently being actively typed by the user.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 879,
+        "timestamp_sec": 18.82,
+        "latency_sec": 8.02,
+        "frame_description": "The user is viewing a Word document titled \"Document2\" that contains instructions for creating an Excel table to track monthly expenses, including metadata and sample data. No text is currently being actively typed or entered into any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 950,
+        "timestamp_sec": 20.34,
+        "latency_sec": 14.08,
+        "frame_description": "The user is scrolling through a Word document that contains instructions for creating an Excel table to track monthly expenses. The visible text includes:\n\n- \"Certainly! Let's create a simple example of an Excel table that tracks monthly expenses. Below is a description of how the table would look, along with explanations for each part. While I can't create an actual Excel file here, I'll describe how you can set it up:\"\n- \"### Excel Table Example: Monthly Expenses\"\n- \"#### Metadata:\"\n- \"- **Title**: \\\"Monthly Expenses Table\\\"\"\n- \"- **Creation Date**: \\\"April 2, 2024\\\"\"\n- \"- **Source**: \\\"Personal Finance Tracking\\\"\"\n- \"- **Author**: \\\"Your Name\\\"\"\n- \"#### Headers and Sample Data:\"\n- \"| Date | Category | Description | Amount ($) |\"\n- \"1. **Open Excel** and start a new sheet.\"\n- \"2. **Input Metadata**:\"\n- \"- A1: Merge across to D1 and write \\\"Monthly Expenses Table\\\".\"\n- \"- A2: Merge across to D2 and write \\\"Creation Date: April 2, 2024\\\".\"\n- \"- A3: Merge across to D",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1024,
+        "timestamp_sec": 21.93,
+        "latency_sec": 14.03,
+        "frame_description": "The user is hovering over the Finder icon in the dock.\n\nVisible user-entered text in the application:\n- In the document window: \"Certainly! Let's create a simple example of an Excel table that tracks monthly expenses. Below is a description of how the table would look, along with explanations for each part. While I can't create an actual Excel file here, I'll describe how you can set it up:\", \"### Excel Table Example: Monthly Expenses\", \"### Metadata:\", \"- **Title**: \\\"Monthly Expenses Table\\\"\", \"- **Creation Date**: \\\"April 2, 2024\\\"\", \"- **Source**: \\\"Personal Finance Tracking\\\"\", \"- **Author**: \\\"Your Name\\\"\", \"### Headers and Sample Data:\", \"### Steps to Create This Table in Excel:\", \"1. **Open Excel** and start a new sheet.\", \"2. **Input Metadata**:\", \"- A1: Merge across to D1 and write \\\"Monthly Expenses Table\\\".\", \"- A2: Merge across to D2 and write \\\"Creation Date: April 2, 2024\\\".\", \"- A3: Merge across to D3 and write \\\"Source: Personal Finance Tracking\\\".\", \"- A4: Merge across to D4 and write \\\"Author: Your",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1040,
+        "timestamp_sec": 22.27,
+        "latency_sec": 14.0,
+        "frame_description": "The user is highlighting the file 'example.csv' in the Finder window.\n\nVisible user-entered text in the application:\n- In the Finder sidebar: \"Downloads\", \"AirDrop\", \"Applications\", \"cdp\", \"Without_cloud\", \"Pictures\", \"Jupyter Notebook\", \"OneDrive\", \"Dongping's MacBook Pro\", \"iCloud Drive\", \"Desktop\", \"Documents\"\n- In the Finder main window: \"Today\", \"Yesterday\", \"Previous 7 Days\", \"GUI_mobile_Anno\", \"GUI 2nd meeting.pptx\", \"2024\u5e743\u6708+\u5468\u6f58+\u56e2\u961f\u4ecb\u7ecd+\u672c\u79d1\u751f\u4ecb\u7ecd.pdf\", \"mlm-anno.pptx\", \"sqrncpypfbpyqwqwfjhztrpgpmvfz.zip\", \"hsqbmtzgsqrbwpvpmnnwwxjhdwf.zip\", \"Macintosh HD > Users > cdp > Downloads > example.csv\"\n- In the LosslessCut window: \"\u62d6\u653e\u6587\u4ef6\u5230\u6b64\u5904\", \"\u8bf7\u53c2\u9605 \u5e2e\u52a9\u83dc\u5355\u5bfb\u6c42\u5e2e\u52a9\", \"\u6216 \u8bbe\u7f6e\u5207\u5272\u70b9\", \"\u663e\u793a\u9ad8\u7ea7\u89c6\u56fe\", \"\u5207\u6362\u9ad8\u7ea7\u89c6\u56fe\", \"00:00:00.000 (0)\", \"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1056,
+        "timestamp_sec": 22.61,
+        "latency_sec": 7.0,
+        "frame_description": "The user is selecting the file named \"example.csv\" in the Finder window.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 1134,
+        "timestamp_sec": 24.28,
+        "latency_sec": 13.9,
+        "frame_description": "The user is right-clicking on a file named \"example\" in the Downloads folder to open the context menu.\n\nVisible user-entered text in the application:\n- In the Finder window: \"Downloads\", \"Today\", \"example\", \"example.csv\", \"example.xlsx\", \"recording\", \"Kosmos-family.pptx\", \"Kosmos-experiment1.xlsx\", \"Yesterday\", \"GUI_mobile_Anno\", \"Previous 7 Days\", \"GUI 2nd meeting.pptx\", \"2024\u5e743\u6708+\u5468\u6f58+\u56e2\u961f\u4ecb\u7ecd.pptx\", \"mlm-anno.pptx\", \"hsqbmztzgsqrsbwvqfhztr\", \"sqrncpypfzbypvqwvfjhztr\", \"hsqbmztzgsqrsbwvqfhztr\", \"Macintosh HD > Users > ...\"\n- In the context menu: \"Open\", \"Open With\", \"Move to Trash\", \"Get Info\", \"Rename\", \"Compress 'example'\", \"Duplicate\", \"Make Alias\", \"Quick Look\", \"Copy\", \"Share...\", \"Tags...\", \"Quick Actions\", \"Copy Files To ...\", \"Move Files To ...\", \"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1283,
+        "timestamp_sec": 27.47,
+        "latency_sec": 10.14,
+        "frame_description": "The user is dragging files from the Finder window into the LosslessCut application.\n\nVisible user-entered text in the applications:\n- In the Finder window: \"Downloads\", \"Today\", \"Yesterday\", \"Previous 7 Days\", \"Macintosh HD > Users > cdp > Downloads > example\"\n- In the LosslessCut window: \"LosslessCut\", \"\u62d6\u653e\u6587\u4ef6\u5230\u6b64\u5904\", \"\u8bf7\u53c2\u9605 \u5e2e\u52a9\u83dc\u5355\u5bfb\u6c42\u5e2e\u52a9\", \"\u6216 \u8bbe\u7f6e\u5207\u5272\u70b9\", \"\u663e\u793a\u9ad8\u7ea7\u89c6\u56fe\", \"\u5207\u6362\u9ad8\u7ea7\u89c6\u56fe\", \"00:00:00.000 (0)\", \"\u5bfc\u51fa\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 127
+      },
+      {
+        "frame_number": 1305,
+        "timestamp_sec": 27.95,
+        "latency_sec": 12.68,
+        "frame_description": "The user is dragging a file from the Finder window into the LosslessCut application.\n\nVisible user-entered text in the application:\n- In the Finder window: \"Downloads\", \"Today\", \"Yesterday\", \"Previous 7 Days\", \"GUI 2nd meeting.pptx\", \"2024\u5e743\u6708+\u5468\u6f58+\u56e2\u961f\u4ecb\u7ecd+\u672c\u79d1\u751f\u4ecb\u7ecd.pdf\", \"milin-anno.pptx\", \"sqrtncpyfzbypywqfjhztrpgpmvfz.zip\", \"hsqbmtzggsrsbwvpmnrrwxxjhdflw1.zip\", \"Macintosh HD > Users > cdp > Downloads > example\"\n- In the LosslessCut window: \"LosslessCut\", \"\u5de5\u4f5c\u76ee\u5f55\u8bbe\u7f6e\", \"\u62d6\u653e\u6587\u4ef6\u5230\u6b64\u5904\", \"\u8bf7\u53c2\u9605 \u5e2e\u52a9\u83dc\u5355\u5bfb\u6c42\u5e2e\u52a9\", \"\u6216 I \u8bbe\u7f6e\u5207\u5272\u70b9\", \"\u663e\u793a\u9ad8\u7ea7\u89c6\u56fe\", \"00:00:00.000 (0)\", \"\u5207\u6362\u9ad8\u7ea7\u89c6\u56fe\", \"\u5bfc\u51fa\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 214
+      },
+      {
+        "frame_number": 1321,
+        "timestamp_sec": 28.29,
+        "latency_sec": 7.71,
+        "frame_description": "The user is hovering over the 'Screen Recor...3.40' file on the desktop.\n\nThere is no visible user-entered text in any application or form field in the current screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1337,
+        "timestamp_sec": 28.63,
+        "latency_sec": 7.74,
+        "frame_description": "The user is viewing the desktop with multiple widgets and files visible, but no active application window is open. There is no user-entered text visible in any form fields, search bars, or active applications.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 1353,
+        "timestamp_sec": 28.97,
+        "latency_sec": 8.37,
+        "frame_description": "The user is viewing a document in the Preview application, which contains text about creating a sample table for a financial report. The document includes a table with columns for \"Date,\" \"Category,\" \"Description,\" and \"Amount ($)\". There is no active typing or input being performed by the user in this screenshot.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 1369,
+        "timestamp_sec": 29.32,
+        "latency_sec": 8.15,
+        "frame_description": "The user is viewing a document in Preview that outlines how to create an Excel table for tracking monthly expenses, including metadata, headers, sample data, and formatting steps. No text is currently being entered or edited by the user.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 46
+      },
+      {
+        "frame_number": 1385,
+        "timestamp_sec": 29.66,
+        "latency_sec": 8.25,
+        "frame_description": "The user is viewing a document in the Preview application on their desktop, which contains instructions for creating an Excel table to track monthly expenses. The document includes sections on metadata, headers, sample data, and steps to create the table in Excel. There is no active text input or typing occurring in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 1430,
+        "timestamp_sec": 30.62,
+        "latency_sec": 8.25,
+        "frame_description": "The user is viewing a document in the Preview application that contains instructions for creating an Excel table to track monthly expenses. The document includes sections on metadata, headers, sample data, and steps to create the table in Excel. There is no active text input or editing happening in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 59
+      },
+      {
+        "frame_number": 1432,
+        "timestamp_sec": 30.67,
+        "latency_sec": 8.15,
+        "frame_description": "The user is viewing a document in the Preview application that contains instructions for creating an Excel table to track monthly expenses. The document includes sections on metadata, headers, sample data, and steps to create the table in Excel. There is no active text input or typing occurring in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Save a Word document as a PDF, then open it using Mac's Preview.",
+      "reference_caption": "Creating and Opening a PDF Document in macOS Using Word and Preview",
+      "reference_apps": [
+        "word",
+        "finder"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 27,
+          "sub_goal": "Opened a new Word document.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 137,
+          "sub_goal": "Pasted the output of GPT into this newly created Word document.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 328,
+          "sub_goal": "Drag the slider for font size control in Word to make the text smaller.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "\"Use command + s to save and save the data to the main folder in the download folder.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": "command + s"
+        },
+        {
+          "frame": 601,
+          "sub_goal": "Choose the save format as PDF.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 757,
+          "sub_goal": "Change the name to \"example\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 798,
+          "sub_goal": "Press enter to save.",
+          "mouse": "click",
+          "keyboard": "enter",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1113,
+          "sub_goal": "Open Finder, find the just exported PDF, and prepare to open it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1253,
+          "sub_goal": "Open with Mac's Preview",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1386,
+          "sub_goal": "Open the PDF.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 1,
+          "reasoning": "The AI inferred intent about organizing personal finances and learning video editing does not match the user's actions in the timeline, which focus on saving a Word document as a PDF and opening it with Preview. The specific entities related to file names ('example' and 'Monthly_Expenses_2024.xlsx') and applications (Word, Finder, LosslessCut, Preview) do not align with the inferred intent of personal finance organization or video editing. Therefore, there is a contradiction in the core objective."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes provided. The frames correctly identify interactions in Microsoft Word and Finder, consistent with the user's actions described in the keyframes. However, there are some discrepancies: Frame 123 mentions step 8 text about formatting numbers, which is not part of the keyframe sequence for saving as a PDF. Additionally, Frames 376 and 392 describe typing 'Subscription' and 'Amount', which do not appear in the keyframes. These inaccuracies suggest some fabricated content."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 6,
+          "total": 12,
+          "covered_actions": [
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to creating and saving a document in Microsoft Word, which aligns with some keyframe actions. However, it does not cover all the specified keyframes or mention Finder."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information about viewing documents in Microsoft Word and Preview without significant changes, indicating redundancy. However, there are also numerous entries with distinct actions such as typing, hovering, or selecting files."
+        }
+      },
+      "composite_score": 10.0,
+      "max_score": 20,
+      "latency_sec": 148.46
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0389,
+        "recall": 0.7805,
+        "f1": 0.0741
+      },
+      "rouge2": {
+        "precision": 0.0091,
+        "recall": 0.1852,
+        "f1": 0.0174
+      },
+      "rougeL": {
+        "precision": 0.0255,
+        "recall": 0.5122,
+        "f1": 0.0486
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0376
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 448.06,
+      "total_vlm_inference_sec": 291.28,
+      "intent_latency_sec": 8.25,
+      "frames_processed": 32,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.1,
+      "median_frame_latency_sec": 8.21,
+      "min_frame_latency_sec": 7.0,
+      "max_frame_latency_sec": 14.08,
+      "avg_description_length_chars": 342.2,
+      "total_prompt_tokens": 69920,
+      "total_completion_tokens": 2845,
+      "avg_completion_tokens_per_sec": 9.4,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to create and save a document containing an Excel table example, and then view the saved file using the Preview application.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 5.52,
+        "frame_description": "The user is selecting the 'Blank Document' template in Microsoft Word.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 30,
+        "timestamp_sec": 0.64,
+        "latency_sec": 5.92,
+        "frame_description": "The user is pointing the mouse cursor at the desktop background.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 56,
+        "timestamp_sec": 1.2,
+        "latency_sec": 5.16,
+        "frame_description": "The user is positioning the mouse cursor over the blank document in Microsoft Word. There is no visible user-entered text in the application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 107,
+        "timestamp_sec": 2.29,
+        "latency_sec": 6.75,
+        "frame_description": "The user is viewing a document in Microsoft Word. \n\nThe visible text in the application document reads:\n\n\"Certainly! Let's create a simple example of an Excel table that trac\na description of how the table would look, along with explanati\ncreate an actual Excel file here, I'll describe how you can set it up\n\n### Excel Table Example: Monthly Expenses\n\n#### Metadata:\n- **Title**: \"Monthly Expenses Table\"\n- **Creation Date**: \"April 2, 2024\"\n- **Source**: \"Personal Finance Tracking\"\n- **Author**: \"Your Name\"\n\n#### Headers and Sample Data",
+        "prompt_tokens": 1200,
+        "completion_tokens": 134
+      },
+      {
+        "frame_number": 123,
+        "timestamp_sec": 2.63,
+        "latency_sec": 7.49,
+        "frame_description": "The user is editing a Microsoft Word document containing the following text:\n\n\"6. **Style the Table**:\n- With the table selected, use the \"Table Design\" tab",
+        "prompt_tokens": 1200,
+        "completion_tokens": 36
+      },
+      {
+        "frame_number": 157,
+        "timestamp_sec": 3.36,
+        "latency_sec": 7.39,
+        "frame_description": "The user is editing a document in Microsoft Word titled \"Document2\", which contains the following visible text:\n\n\"6. **Style the Table**:\n- With the table selected, use the",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 173,
+        "timestamp_sec": 3.7,
+        "latency_sec": 8.59,
+        "frame_description": "The user is editing a document in Microsoft Word.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 289,
+        "timestamp_sec": 6.19,
+        "latency_sec": 5.57,
+        "frame_description": "The user is adjusting the zoom level using the zoom slider at the bottom right of Microsoft Word. \n\nThere is no visible user-entered text in form fields or search bars to quote.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 305,
+        "timestamp_sec": 6.53,
+        "latency_sec": 6.05,
+        "frame_description": "The user is clicking on the zoom slider in Microsoft Word.\n\nThe visible user-entered text in the document is:\n\"6. **Style the Table**:\n- With the table selected",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 321,
+        "timestamp_sec": 6.87,
+        "latency_sec": 8.0,
+        "frame_description": "The user is adjusting the zoom level using the zoom slider at the bottom right of the Microsoft Word window.\n\n**Visible user-entered text:**\n\n\"6. **Style the Table",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 337,
+        "timestamp_sec": 7.22,
+        "latency_sec": 5.58,
+        "frame_description": "The user is adjusting the zoom level using the zoom slider in Microsoft Word.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 360,
+        "timestamp_sec": 7.71,
+        "latency_sec": 6.65,
+        "frame_description": "The user is hovering the mouse cursor over a document in Microsoft Word. No user-entered text is visible in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 376,
+        "timestamp_sec": 8.05,
+        "latency_sec": 8.01,
+        "frame_description": "The user is editing a document in Microsoft Word. \n\nAll visible user-entered text in the document:\n\"Certainly! Let's create a simple example of an Excel table that",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 392,
+        "timestamp_sec": 8.39,
+        "latency_sec": 5.94,
+        "frame_description": "The user is viewing a document in Microsoft Word containing the following text:\n\n\"Certainly! Let's create a simple example of an Excel table that tracks monthly expenses. Below is a description of how the",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 472,
+        "timestamp_sec": 10.11,
+        "latency_sec": 5.46,
+        "frame_description": "The user is saving a document titled \"Certainly\" in Microsoft Word.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 847,
+        "timestamp_sec": 18.14,
+        "latency_sec": 7.24,
+        "frame_description": "The user is clicking on the 'New Folder' button in the file save dialog.\n\n**User-entered text:**\n* **Save As:** \"example\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 863,
+        "timestamp_sec": 18.48,
+        "latency_sec": 7.48,
+        "frame_description": "The user is editing a document in Microsoft Word containing the following text:\n\n\"Certainly! Let's create a simple example of an Excel table that tracks monthly expenses. Below is a description of how the",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 879,
+        "timestamp_sec": 18.82,
+        "latency_sec": 7.17,
+        "frame_description": "The user is viewing a document in Microsoft Word.\n\nThe visible user-entered text in the application includes:\n\n```\nCertainly! Let's create a simple example of an Excel table that tracks",
+        "prompt_tokens": 1200,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 950,
+        "timestamp_sec": 20.34,
+        "latency_sec": 8.57,
+        "frame_description": "The user is hovering the cursor over the red 'Aa' application icon in the application switcher. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 1024,
+        "timestamp_sec": 21.93,
+        "latency_sec": 7.3,
+        "frame_description": "The user is selecting an application using the Command-Tab application switcher menu on the desktop. \n\nThere is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 1040,
+        "timestamp_sec": 22.27,
+        "latency_sec": 6.25,
+        "frame_description": "The user is clicking on the 'example.csv' file in the Downloads folder. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 1056,
+        "timestamp_sec": 22.61,
+        "latency_sec": 5.59,
+        "frame_description": "The user is selecting the 'example.csv' file in the Downloads folder.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 1134,
+        "timestamp_sec": 24.28,
+        "latency_sec": 4.46,
+        "frame_description": "The user is right-clicking on the file 'example' in the Finder window to open its context menu.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 1283,
+        "timestamp_sec": 27.47,
+        "latency_sec": 7.35,
+        "frame_description": "The user is viewing the LosslessCut application window on the desktop. There is no visible user-entered text in any form fields or text inputs.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 1305,
+        "timestamp_sec": 27.95,
+        "latency_sec": 7.44,
+        "frame_description": "The user is hovering the mouse cursor over the LosslessCut application window on the desktop. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 1321,
+        "timestamp_sec": 28.29,
+        "latency_sec": 5.96,
+        "frame_description": "The user is moving the cursor on the desktop background.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 1337,
+        "timestamp_sec": 28.63,
+        "latency_sec": 5.94,
+        "frame_description": "The user is currently viewing the desktop screen with no active windows open. There is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 1353,
+        "timestamp_sec": 28.97,
+        "latency_sec": 8.61,
+        "frame_description": "The user is viewing a document in the Preview application.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 1369,
+        "timestamp_sec": 29.32,
+        "latency_sec": 5.59,
+        "frame_description": "The user is viewing a document titled 'example' in Preview.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 1385,
+        "timestamp_sec": 29.66,
+        "latency_sec": 5.29,
+        "frame_description": "The user is hovering the mouse cursor over the text inside the Preview application window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 1430,
+        "timestamp_sec": 30.62,
+        "latency_sec": 7.45,
+        "frame_description": "The user is viewing a document in the Preview application. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 1432,
+        "timestamp_sec": 30.67,
+        "latency_sec": 5.2,
+        "frame_description": "The user is dragging the Preview window.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 8
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Save a Word document as a PDF, then open it using Mac's Preview.",
+      "reference_caption": "Creating and Opening a PDF Document in macOS Using Word and Preview",
+      "reference_apps": [
+        "word",
+        "finder"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 27,
+          "sub_goal": "Opened a new Word document.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 137,
+          "sub_goal": "Pasted the output of GPT into this newly created Word document.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 328,
+          "sub_goal": "Drag the slider for font size control in Word to make the text smaller.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "\"Use command + s to save and save the data to the main folder in the download folder.\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": "command + s"
+        },
+        {
+          "frame": 601,
+          "sub_goal": "Choose the save format as PDF.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 757,
+          "sub_goal": "Change the name to \"example\"",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 798,
+          "sub_goal": "Press enter to save.",
+          "mouse": "click",
+          "keyboard": "enter",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1113,
+          "sub_goal": "Open Finder, find the just exported PDF, and prepare to open it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1253,
+          "sub_goal": "Open with Mac's Preview",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1386,
+          "sub_goal": "Open the PDF.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective as described by the goal and caption. The core task of saving a Word document as a PDF and opening it with Preview is consistent with the timeline, which shows actions like saving the document in Microsoft Word and subsequently viewing it in Preview. There are no contradictions in specific details such as file names or application usage."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. The keyframes mention pasting text into a Word document and adjusting the font size, which aligns with frames showing editing in Word. However, there is no explicit mention of pasting or font adjustment in the AI descriptions. Additionally, the sequence of saving as PDF and renaming to 'example' is consistent with the keyframes. The use of Preview to open the PDF is correctly described. Despite these minor omissions, there are no fabricated actions or contradictions."
+        },
+        "coverage": {
+          "score": 3.33,
+          "coverage": 0.583,
+          "covered": 7,
+          "total": 12,
+          "covered_actions": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "covered_apps": [
+            "finder",
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to creating and editing a document in Microsoft Word, adjusting zoom levels, saving the document with a specific name, and interacting with Finder. However, it does not explicitly mention opening a new Word document or pasting content into it."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as multiple entries about adjusting the zoom level and editing text in Microsoft Word. These repetitive descriptions suggest a moderate share of redundancy."
+        }
+      },
+      "composite_score": 15.33,
+      "max_score": 20,
+      "latency_sec": 122.98
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0651,
+        "recall": 0.5854,
+        "f1": 0.1172
+      },
+      "rouge2": {
+        "precision": 0.0095,
+        "recall": 0.0864,
+        "f1": 0.0171
+      },
+      "rougeL": {
+        "precision": 0.0448,
+        "recall": 0.4024,
+        "f1": 0.0806
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0279
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 341.35,
+      "total_vlm_inference_sec": 210.97,
+      "intent_latency_sec": 7.35,
+      "frames_processed": 32,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.59,
+      "median_frame_latency_sec": 6.45,
+      "min_frame_latency_sec": 4.46,
+      "max_frame_latency_sec": 8.61,
+      "avg_description_length_chars": 135.1,
+      "total_prompt_tokens": 39895,
+      "total_completion_tokens": 1027,
+      "avg_completion_tokens_per_sec": 4.5
+    }
+  }
+}

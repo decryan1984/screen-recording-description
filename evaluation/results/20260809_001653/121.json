@@ -1,0 +1,526 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/121.mp4",
+  "total_frames": 1086,
+  "fps": 30.000258980136223,
+  "video_length_sec": 36.2,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 1086,
+  "frames_processed": 18,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "intent": "The user was reading through the 16 Personalities website to explore the characteristics of the ENFP personality type, specifically examining details about parenthood and romantic relationships.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.2,
+        "frame_description": "The user is viewing the \"Campaigner Personality\" page on the 16 Personalities website, specifically the ENFP-A / ENFP-T section. No user-entered text is visible in form fields, search bars, or other input areas on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 102,
+        "timestamp_sec": 3.4,
+        "latency_sec": 9.92,
+        "frame_description": "The user is viewing a webpage about the ENFP personality type, specifically focusing on the \"Parenthood\" section. There is no active input or text being entered by the user in this screenshot. The visible text includes:\n\n- \"16 Personalities\"\n- \"Campaigner Personality\"\n- \"ENFP-A / ENFP-T\"\n- \"WHAT'S THE DIFFERENCE?\"\n- \"Parenthood\"\n- \"For people with the ENFP personality type (Campaigners), one of the great joys of parenthood is sharing their sense of wonder and inspiration with their children. Few things feel more rewarding to ENFP parents than seeing their child light up with curiosity about the world around them, take steps to discover how things work, and use their knowledge to help make society better. These parents do not merely want their children to survive in the world \u2013 they want to inspire them to change it.\"\n- \"ENFP parents also work hard to ensure that their children feel accepted and worthy just as they are. Rather than pressuring their children to look or act a certain way, these personalities encourage their children's creativity and self-expression. Drawing on their own ingenuity and creativity, ENFP parents guide their children to discover and embrace their unique passions and interests",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 113,
+        "timestamp_sec": 3.77,
+        "latency_sec": 3.86,
+        "frame_description": "The user is viewing the \"Parenthood\" section of the 16 Personalities website, which discusses parenting traits for the ENFP personality type. No user-entered text is visible in the current view.",
+        "prompt_tokens": 993,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 129,
+        "timestamp_sec": 4.3,
+        "latency_sec": 4.45,
+        "frame_description": "The user is viewing the \"Parenthood\" section of the 16 Personalities website, specifically for the ENFP personality type (Campaigner). The page displays information about parenting styles and characteristics associated with the ENFP personality. There are no visible user-entered text fields or active typing actions in the current view.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 140,
+        "timestamp_sec": 4.67,
+        "latency_sec": 10.0,
+        "frame_description": "The user is viewing a webpage about ENFP personality type, specifically focusing on the \"Parenthood\" section. There is no active input or text being entered by the user at this moment.\n\nVisible user-entered text in the application:\n- In the browser tab: \"Parenthood | ENFP Personality Type\"\n- In the address bar: \"https://www.16personalities.com/enfp-parents\"\n- In the sidebar menu under \"Explore Your Type\": \"Parenthood\" (selected)\n- In the \"Your Results\" section: \"Campaigner\", \"ENFP-T\", \"Diplomat\", \"Social Engagement\"\n- In the bar charts: percentages and labels such as \"50%\", \"41%\", \"EXTRAVERTED\", \"INTROVERTED\", \"51%\", \"49%\", \"INTUITIVE\", \"OBSERVANT\", \"41%\", \"59%\", \"THINKING\", \"FEELING\", \"12%\", \"88%\", \"JUDGING\", \"PROSPECTING\", \"42%\", \"58%\", \"ASSERTIVE\", \"TURBULENT\"\n- In the \"Insight of the Day\" box: \"Campaigners are",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 294,
+        "timestamp_sec": 9.8,
+        "latency_sec": 4.13,
+        "frame_description": "The user is viewing the \"Parenthood\" page for the ENFP personality type on the 16 Personalities website, reading about how ENFP parents engage with their children and encourage their creativity. No text is being actively typed or entered in any form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 54
+      },
+      {
+        "frame_number": 305,
+        "timestamp_sec": 10.17,
+        "latency_sec": 3.85,
+        "frame_description": "The user is viewing the \"Parenthood\" section of their 16 Personalities profile, which describes characteristics of ENFP parents. No text is being actively typed or entered in any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 371,
+        "timestamp_sec": 12.37,
+        "latency_sec": 4.16,
+        "frame_description": "The user is viewing the \"Parenthood\" page for the ENFP personality type on the 16Personalities website, reading about how ENFP parents encourage their children's curiosity and creativity. No active typing or input is occurring in any form fields or text areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 382,
+        "timestamp_sec": 12.73,
+        "latency_sec": 3.59,
+        "frame_description": "The user is viewing a webpage about ENFP personality type parenting on the 16 Personalities website. No user-entered text is visible in the current screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 500,
+        "timestamp_sec": 16.67,
+        "latency_sec": 3.59,
+        "frame_description": "The user is viewing the 16 Personalities website, which appears to be loading or displaying a blank page. No user-entered text is visible in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 511,
+        "timestamp_sec": 17.03,
+        "latency_sec": 3.6,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" page for the ENFP personality type on the 16 Personalities website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 740,
+        "timestamp_sec": 24.67,
+        "latency_sec": 3.63,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" page for the ENFP personality type on the 16Personalities website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 751,
+        "timestamp_sec": 25.03,
+        "latency_sec": 3.74,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" section for the ENFP-A / ENFP-T personality type on the 16 Personalities website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 40
+      },
+      {
+        "frame_number": 865,
+        "timestamp_sec": 28.83,
+        "latency_sec": 4.11,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" page for the ENFP personality type on the 16Personalities website, reading about how ENFPs approach romantic relationships. No text is being actively typed or entered in any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 876,
+        "timestamp_sec": 29.2,
+        "latency_sec": 3.63,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" page for the ENFP personality type on the 16 Personalities website, with no active input or typing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 946,
+        "timestamp_sec": 31.53,
+        "latency_sec": 3.64,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" page for the ENFP personality type on the 16Personalities website, with no active input or editing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 957,
+        "timestamp_sec": 31.9,
+        "latency_sec": 9.96,
+        "frame_description": "The user is viewing a webpage about ENFP personality types, specifically focusing on romantic relationships. There is no active input or text being entered by the user at this moment.\n\nVisible user-entered text in the application includes:\n\n- In the browser tabs: \u201cRomantic Relationships | ENFP -\u201d\n- In the sidebar menu: \u201cExplore Your Type\u201d, \u201cIntroduction\u201d, \u201cStrengths & Weaknesses\u201d, \u201cRomantic Relationships\u201d, \u201cFriendships\u201d, \u201cParenthood\u201d, \u201cCareer Paths\u201d, \u201cWorkplace Habits\u201d, \u201cConclusion\u201d, \u201cPremium Campaigner Suite\u201d\n- In the main content area:\n  - \u201cIt\u2019s hard to overstate just how much people with the ENFP personality type (Campaigners) care about love. ENFPs are passionate, warm, and openhearted individuals full of hopes, dreams, and ideas, longing for a life of rich experiences. And they bring every ounce of this vibrant energy to their romantic relationships.\u201d\n  - \u201cFor ENFP personalities, romantic relationships are beautiful and exhilarating \u2013 an opportunity for two souls to not only explore the world together but also connect on the deepest of levels.\u201d\n  - \u201cMany ENFPs harbor a deep longing to share their life with another person. As a",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1086,
+        "timestamp_sec": 36.2,
+        "latency_sec": 5.04,
+        "frame_description": "The user is viewing a webpage about ENFP personality types, specifically focusing on romantic relationships. There is no active input or text being entered by the user at this moment. The page displays information about ENFPs in relationships, including sections like \"Fanning the Flames\" and \"Insight of the Day.\" The user appears to be reading through the content rather than interacting with any form fields or input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 83
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse the website \"16 personalities\" for romantic relationship information.",
+      "reference_caption": "Navigating the '16 Personalities' Website to Explore ENFP Romantic Relationships",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 81,
+          "sub_goal": "Clicked on parenthood",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 480,
+          "sub_goal": "Clicked on romantic relationship",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 552,
+          "sub_goal": "Jumped to the page of romantic relationships",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1017,
+          "sub_goal": "Scroll down the page to browse the content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on exploring ENFP personality traits related to romantic relationships. The timeline shows consistent navigation through sections like 'Romantic Relationships' for the Campaigner (ENFP) personality, aligning with the goal and caption of browsing for romantic relationship information."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The user's interactions align with clicking on parenthood, then romantic relationships, and scrolling through content as described in the keyframes. There are no fabricated or contradicted actions reported. The timeline supports answering the static QA about exploring ENFP romantic relationships, the sequential-QA regarding the transition from parenthood to romantic relationships, and the MCQA identifying the 'Romantic Relationships' section."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 5,
+          "total": 6,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "covered_apps": [
+            "16 personalities"
+          ],
+          "reasoning": "The AI timeline describes the user's actions related to viewing specific sections on the 16 Personalities website, which aligns with some of the keyframe actions. The timeline mentions clicking and viewing pages about 'Parenthood' and 'Romantic Relationships,' matching keyframes 1-4."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, particularly when viewing static content on web pages. However, there are also distinct transitions between different sections of the website (e.g., from 'Parenthood' to 'Romantic Relationships'), which provide new information."
+        }
+      },
+      "composite_score": 17.33,
+      "max_score": 20,
+      "latency_sec": 79.84
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.016,
+        "recall": 0.7273,
+        "f1": 0.0314
+      },
+      "rouge2": {
+        "precision": 0.006,
+        "recall": 0.2857,
+        "f1": 0.0118
+      },
+      "rougeL": {
+        "precision": 0.015,
+        "recall": 0.6818,
+        "f1": 0.0294
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.015
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 172.39,
+      "total_vlm_inference_sec": 89.1,
+      "intent_latency_sec": 3.41,
+      "frames_processed": 18,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.95,
+      "median_frame_latency_sec": 3.99,
+      "min_frame_latency_sec": 3.59,
+      "max_frame_latency_sec": 10.0,
+      "avg_description_length_chars": 359.3,
+      "total_prompt_tokens": 19281,
+      "total_completion_tokens": 1502,
+      "avg_completion_tokens_per_sec": 16.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was researching information about the ENFP personality type on the 16Personalities website, focusing specifically on parenthood and romantic relationships.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.64,
+        "frame_description": "The user is browsing the 16Personalities website with the URL 'https://www.16personalities.com/enfp-personality'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 102,
+        "timestamp_sec": 3.4,
+        "latency_sec": 4.45,
+        "frame_description": "The user is viewing the \"Parenthood\" page for the ENFP personality type on the 16Personalities website with the URL \"https://www.16personalities.com/enfp-parents\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 45
+      },
+      {
+        "frame_number": 113,
+        "timestamp_sec": 3.77,
+        "latency_sec": 4.84,
+        "frame_description": "The user is viewing the \"Parenthood\" section for the ENFP personality type on the 16Personalities website in Google Chrome.\n\nVisible user-entered text:\n- Address bar: `https://www.16personalities.com/enfp-parents`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 129,
+        "timestamp_sec": 4.3,
+        "latency_sec": 4.14,
+        "frame_description": "The user is viewing a webpage about ENFP parenthood on the 16Personalities website.\n\nVisible user-entered text:\n- Address bar: `https://www.16personalities.com/enfp-parents`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 140,
+        "timestamp_sec": 4.67,
+        "latency_sec": 3.94,
+        "frame_description": "The user is viewing the Parenthood section of the ENFP personality profile on the 16Personalities website.\n\nVisible user-entered text:\nAddress bar: \"https://www.16personalities.com/enfp-parents\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 294,
+        "timestamp_sec": 9.8,
+        "latency_sec": 5.4,
+        "frame_description": "The user is viewing the \"Parenthood\" page for the ENFP personality type on the 16Personalities website.\n\nVisible user-entered text in the application:\n- Address bar: `\"https://www.16personalities.com/enfp-parents\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 305,
+        "timestamp_sec": 10.17,
+        "latency_sec": 4.61,
+        "frame_description": "The user is viewing the \"Parenthood\" page on the 16Personalities website, with the URL bar containing \"https://www.16personalities.com/enfp-parents\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 371,
+        "timestamp_sec": 12.37,
+        "latency_sec": 4.66,
+        "frame_description": "The user is viewing the \"Parenthood\" page on the 16Personalities website. The address bar contains the text \"https://www.16personalities.com/enfp-parents\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 382,
+        "timestamp_sec": 12.73,
+        "latency_sec": 5.19,
+        "frame_description": "The user is viewing an article about \"Parenthood\" on the 16Personalities website. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 500,
+        "timestamp_sec": 16.67,
+        "latency_sec": 5.56,
+        "frame_description": "The user is viewing a webpage in Microsoft Edge with the URL \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 511,
+        "timestamp_sec": 17.03,
+        "latency_sec": 4.71,
+        "frame_description": "The user is viewing the \"16 Personalities\" website in a web browser.\n\n**Visible user-entered text:**\n* Address bar: `\"https://www.16personalities.com/enfp-relationships-dating\"`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 49
+      },
+      {
+        "frame_number": 740,
+        "timestamp_sec": 24.67,
+        "latency_sec": 4.15,
+        "frame_description": "The user is viewing an article about romantic relationships for the Campaigner personality type on the 16Personalities website with the address bar containing \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 751,
+        "timestamp_sec": 25.03,
+        "latency_sec": 6.06,
+        "frame_description": "The user is viewing the \"Romantic Relationships\" section for the ENFP personality type on the 16Personalities website in a web browser.\n\n**Visible user-entered text in form fields / address bar:**\n- Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 67
+      },
+      {
+        "frame_number": 865,
+        "timestamp_sec": 28.83,
+        "latency_sec": 4.52,
+        "frame_description": "The user is viewing a web page on the 16Personalities website.\n\n**User-entered text in the application:**\n- Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 50
+      },
+      {
+        "frame_number": 876,
+        "timestamp_sec": 29.2,
+        "latency_sec": 6.26,
+        "frame_description": "The user is reading an article on the 16Personalities website.\n\n**Visible user-entered text:**\n- Address bar: `https://www.16personalities.com/enfp-relationships-dating`",
+        "prompt_tokens": 1200,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 946,
+        "timestamp_sec": 31.53,
+        "latency_sec": 6.18,
+        "frame_description": "The user is viewing an article titled 'Romantic Relationships' on the 16 Personalities website, with the address bar containing \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 957,
+        "timestamp_sec": 31.9,
+        "latency_sec": 5.55,
+        "frame_description": "The user is viewing a webpage on 16 Personalities. The text in the address bar is \"https://www.16personalities.com/enfp-relationships-dating\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 1086,
+        "timestamp_sec": 36.2,
+        "latency_sec": 4.49,
+        "frame_description": "The user is browsing a webpage about ENFP romantic relationships on the 16Personalities website with the URL 'https://www.16personalities.com/enfp-relationships-dating'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Browse the website \"16 personalities\" for romantic relationship information.",
+      "reference_caption": "Navigating the '16 Personalities' Website to Explore ENFP Romantic Relationships",
+      "reference_apps": [
+        "edge",
+        "16 personalities"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 81,
+          "sub_goal": "Clicked on parenthood",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 480,
+          "sub_goal": "Clicked on romantic relationship",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 552,
+          "sub_goal": "Jumped to the page of romantic relationships",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1017,
+          "sub_goal": "Scroll down the page to browse the content.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as both focus on exploring ENFP romantic relationships. The timeline shows consistent navigation through pages related to ENFP personality traits, specifically targeting 'Romantic Relationships' and 'Parenthood', aligning with the goal of browsing for romantic relationship information. There are no contradictions in the specific details mentioned in the reasoning and prediction answers."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The user's navigation from 'Parenthood' to 'Romantic Relationships' is correctly captured, with URLs and actions matching the ground truth. There are no fabricated or contradicted interactions in the timeline. The timeline supports answering all QA questions consistently with the given answers."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 3,
+          "total": 6,
+          "covered_actions": [
+            1,
+            3
+          ],
+          "covered_apps": [
+            "edge"
+          ],
+          "reasoning": "The AI timeline describes the user's actions related to viewing pages on the 16Personalities website, specifically focusing on 'Parenthood' and 'Romantic Relationships' for the ENFP personality type. The keyframes are matched based on these described actions."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe nearly identical actions and states, particularly when viewing pages related to ENFP parenthood and relationships. These entries often repeat the same URL and description without significant change, indicating redundancy."
+        }
+      },
+      "composite_score": 15.0,
+      "max_score": 20,
+      "latency_sec": 98.06
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0303,
+        "recall": 0.6364,
+        "f1": 0.0579
+      },
+      "rouge2": {
+        "precision": 0.0065,
+        "recall": 0.1429,
+        "f1": 0.0124
+      },
+      "rougeL": {
+        "precision": 0.026,
+        "recall": 0.5455,
+        "f1": 0.0496
+      },
+      "num_sub_goals": 4,
+      "latency_sec": 0.0086
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 188.85,
+      "total_vlm_inference_sec": 89.35,
+      "intent_latency_sec": 1.42,
+      "frames_processed": 18,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 4.96,
+      "median_frame_latency_sec": 4.69,
+      "min_frame_latency_sec": 3.94,
+      "max_frame_latency_sec": 6.26,
+      "avg_description_length_chars": 175.8,
+      "total_prompt_tokens": 22651,
+      "total_completion_tokens": 857,
+      "avg_completion_tokens_per_sec": 9.3
+    }
+  }
+}
