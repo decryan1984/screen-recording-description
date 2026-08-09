@@ -358,12 +358,12 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, e
     _save(result, output_json_path)
     print(f"\nProcessed {processed_count}/{frame_count} frames. Output saved to {output_json_path}")
 
-    # Infer the user's overall intent from all per-frame descriptions
+    # Collate the per-frame descriptions into the final analysis (user intent by default)
     intent_latency = 0.0
     eval_latency = 0.0
     intent_metrics_list = []
     if timeline:
-        print("\nInferring user intent...")
+        print("\nAnalysing the timeline...")
         start = time.perf_counter()
         intent, intent_metrics_list = generate_user_intent(
             timeline, model_name=model_name, analysis_prompt=analysis_prompt
@@ -371,7 +371,7 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, e
         intent_latency = _intent_seconds(intent_metrics_list, time.perf_counter() - start)
         result["vlm"]["intent"] = intent
         _save(result, output_json_path)
-        print(f"\n--- Inferred Intent ({intent_latency:.1f}s) ---")
+        print(f"\n--- Analysis result ({intent_latency:.1f}s) ---")
         print(intent)
 
         eval_start = time.perf_counter()

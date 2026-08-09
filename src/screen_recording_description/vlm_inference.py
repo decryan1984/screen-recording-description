@@ -275,7 +275,7 @@ def generate_user_intent(
         chunk_summaries.append(text)
         all_metrics.append(metrics)
 
-    print(f"  Merging {len(chunk_summaries)} chunk summaries into a final intent synopsis.")
+    print(f"  Merging {len(chunk_summaries)} chunk summaries into a final synopsis.")
     combined = "\n".join(
         f"[Part {i+1}] {s}" for i, s in enumerate(chunk_summaries)
     )

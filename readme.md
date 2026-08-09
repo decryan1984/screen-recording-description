@@ -40,9 +40,10 @@ Builds a per-frame timeline of desktop screen recordings and infers the user's o
 1. **Install Ollama** — https://ollama.com/download
 2. **Pull the models:**
 ```bash
-ollama pull qwen3.5:4b   # local VLM
-ollama pull gemma3:4b    # second local VLM (for comparison)
-ollama pull phi4:14b     # LLM judge used for evaluation
+ollama pull qwen3.5:4b       # local VLM (default)
+ollama pull qwen3.5:latest   # larger Qwen variant (tested for comparison)
+ollama pull gemma3:4b        # second local VLM (for comparison)
+ollama pull phi4:14b         # LLM judge used for evaluation
 ```
 3. **Install the package:**
 ```bash
@@ -90,7 +91,7 @@ Start Ollama on the host, bound to all interfaces so the container can reach it:
 
 ```bash
 OLLAMA_HOST=0.0.0.0 ollama serve
-ollama pull qwen3.5:4b && ollama pull gemma3:4b && ollama pull phi4:14b
+ollama pull qwen3.5:4b && ollama pull qwen3.5:latest && ollama pull gemma3:4b && ollama pull phi4:14b
 ```
 
 Build the image, then run a batch over the dataset via the `pipeline` service:
@@ -150,13 +151,15 @@ The **Evaluation Results** page explores and compares batch results (reads from 
 - **Inference Time** — measured time to process the video (frame VLM + intent). For Gemini this is remote API latency, not local compute.
 - **Compute (TERAFLOPS)** — analytical model work for comparing models independent of hardware. Local models only, parameters come from Ollama (`/api/show`).
 - **Memory (MB)** — resident model size while loaded, from Ollama (`/api/ps`), local models only.
-- **Gemini Cost (USD)** — measured for the Gemini run and projected onto local variants (frames x Gemini's per-frame token rates, priced from `GEMINI_*_USD_PER_1M` in `config.py`). Full-resolution variants are omitted, as their image tokens differ from the baseline. Gemini needs a 4x higher output-token cap than the local VLMs (its "thinking" tokens count toward the limit), but its actual per-frame token usage is comparable or lower.
+- **Gemini Cost (USD)** — measured for the Gemini run and projected onto local variants (frames x Gemini's per-frame token rates, priced from `GEMINI_*_USD_PER_1M` in `config.py`). Full-resolution variants are omitted, as their image tokens differ from the baseline. Gemini needs a 4x higher output-token cap than the local VLMs ("thinking" tokens count toward the limit), but its actual per-frame token usage is comparable or lower.
 
 ---
 
 ## Service mode
 
 Run a local FastAPI service that accepts a directory of videos, processes each through the pipeline in a background worker, and exposes run status + live metrics over HTTP. Per-run output is written to `./output/runs`. The queue, status, and metrics live in memory only (nothing persists between restarts). Cloud (Gemini) inference is off in service mode — submissions are always processed locally.
+
+Each request can optionally pass in a custom **`analysis_prompt`** that determines the final analysis done on the frame timeline — for example a compliance or best-practice check. This defaults to the "what was the user trying to do?" intent inference.
 
 ### Run in Docker
 
@@ -179,7 +182,7 @@ docker compose down
 
 ### Use the API
 
-Submit videos by referencing a directory (no upload). Omit `filenames` to take every eligible video in the directory. Plain HTTP on loopback — no TLS or auth:
+Submit videos by referencing a directory (no upload). Omit `filenames` to take every eligible video in the directory. Pass `analysis_prompt` to override the default intent inference with a domain-specific question. Plain HTTP on loopback — no TLS or auth:
 
 ```bash
 # Health check
@@ -196,6 +199,12 @@ curl -s -X POST http://127.0.0.1:8000/runs \
 curl -s -X POST http://127.0.0.1:8000/runs \
   -H 'Content-Type: application/json' \
   -d '{"directory": "'"$HOME"'/videos"}'
+
+# Submit with a custom analysis prompt (redirects the final output away from intent)
+curl -s -X POST http://127.0.0.1:8000/runs \
+  -H 'Content-Type: application/json' \
+  -d '{"directory": "'"$HOME"'/videos", "filenames": ["a.mp4"],
+       "analysis_prompt": "Did the user expose any confidential information on screen? Answer yes/no and state the evidence."}'
 
 # Poll a single run's status: queued | running | succeeded | failed
 curl -s http://127.0.0.1:8000/runs/abc123def456
@@ -258,6 +267,7 @@ timeline, inferred intent, performance) are nested under a model block:
   "vlm": {
     "model": "qwen3.5:4b",
     "diff_threshold": 0.01,
+    "analysis_prompt": "In one or two sentences, state what the user was trying to accomplish...",
     "intent": "The user is composing an email...",
     "timeline": [
       {
