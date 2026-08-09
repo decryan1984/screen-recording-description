@@ -63,7 +63,7 @@ def describe_frame(frame_bgr, frame_idx, timestamp_sec, inference_func, prompt,
         frame_bgr, prompt, max_frame_width=max_frame_width, max_tokens=max_tokens
     )
     # Prefer Ollama's server-side compute time (model-load excluded) so a cold
-    # start or a mid-run model reload doesn't inflate the frame latency; fall
+    # start or a mid-run model reload doesn't inflate the frame latency - fall
     # back to wall-clock if the response didn't report timings.
     latency = metrics.get("inference_sec") or (time.perf_counter() - start)
 
@@ -226,13 +226,19 @@ def _run_evaluation(video_path, intent, timeline, model_block, result, output_js
         print(f"{prefix}Updated {output_json_path} with ROUGE.")
 
 
-def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, evaluate=True):
+def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, evaluate=True, analysis_prompt=None):
     """Process a video file end-to-end: describe selected frames and generate a summary.
 
     evaluate=True (evaluation mode) scores the summary against reference
     annotations; evaluate=False (service mode) skips scoring entirely.
+
+    analysis_prompt overrides the default user intent analysis run over the timeline.
+    Passing a custom prompt (e.g. did the user comply with company policy?) will
+    produce a response specific to the users requirements instead.
+    None keeps the default intent prompt.
     """
     model_name = model_name or DEFAULT_VLM
+    analysis_prompt = analysis_prompt or USER_INTENT_PROMPT
     diff_threshold = DEFAULT_FRAME_DIFF_THRESHOLD
     video_name = os.path.splitext(os.path.basename(video_path))[0]
     if run_dir is None:
@@ -344,6 +350,7 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, e
         "vlm": {
             "model": model_name,
             "diff_threshold": diff_threshold,
+            "analysis_prompt": analysis_prompt,
             "intent": "",
             "timeline": timeline,
         },
@@ -358,7 +365,9 @@ def run_pipeline(video_path, model_name=None, skip_online=False, run_dir=None, e
     if timeline:
         print("\nInferring user intent...")
         start = time.perf_counter()
-        intent, intent_metrics_list = generate_user_intent(timeline, model_name=model_name)
+        intent, intent_metrics_list = generate_user_intent(
+            timeline, model_name=model_name, analysis_prompt=analysis_prompt
+        )
         intent_latency = _intent_seconds(intent_metrics_list, time.perf_counter() - start)
         result["vlm"]["intent"] = intent
         _save(result, output_json_path)
@@ -725,7 +734,7 @@ def perform_gemini_baseline(video_path, run_dir=None):
 
     Frame selection mirrors ``run_pipeline``'s online feed (baseline
     ``DEFAULT_FRAME_DIFF_THRESHOLD`` + ``MAX_FPS`` gate). Runs synchronously so
-    it can be called after the local-VLM sweeps have written their blocks.
+    it can be called after the local-VLM runs have written their blocks.
     """
     video_name = os.path.splitext(os.path.basename(video_path))[0]
     if run_dir is None:

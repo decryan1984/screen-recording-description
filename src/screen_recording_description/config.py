@@ -51,7 +51,6 @@ FRAME_DESCRIPTION_PROMPT = (
 # ONLINE VLM
 # ---------------------
 
-# Set via the GEMINI_API_KEY environment variable; never hardcode the key here.
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = "gemini-3.6-flash"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"

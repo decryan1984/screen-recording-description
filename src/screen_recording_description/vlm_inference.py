@@ -213,16 +213,34 @@ def _get_prompt_response(text_prompt, model_name=DEFAULT_VLM, max_tokens=INTENT_
     return data["response"], _get_metrics(data)
 
 
+def format_analysis_prompt(template, entries_text):
+    """Insert the timeline entries into an analysis prompt template.
+
+    If ``template`` contains the ``{entries}`` placeholder it is substituted in
+    place; otherwise the entries are appended after the instruction so a caller
+    can supply a bare instruction (e.g. a compliance question). ``str.replace``
+    is used rather than ``str.format`` so a caller-supplied prompt containing
+    other braces does not raise.
+    """
+    if "{entries}" in template:
+        return template.replace("{entries}", entries_text)
+    return f"{template}\n\n{entries_text}"
+
+
 def generate_user_intent(
     timeline,
     model_name=DEFAULT_VLM,
     max_entries_per_chunk=INTENT_CHUNK_SIZE,
     max_desc_chars=INTENT_MAX_DESC_CHARS,
+    analysis_prompt=USER_INTENT_PROMPT,
 ):
     """Infer the user's overall intent from the per-frame descriptions.
 
     For large timelines, summarises entries in chunks then merges those partial
-    summaries into a single intent. Returns ``(intent_text, metrics_list)``.
+    summaries into a single result. ``analysis_prompt`` defaults to the generic
+    "what was the user trying to do?" template but a caller can pass any analysis
+    instruction (e.g. compliance or best-practice checks) to run over the same
+    timeline. Returns ``(intent_text, metrics_list)``.
     """
     if not timeline:
         return "", []
@@ -236,7 +254,7 @@ def generate_user_intent(
 
     # If small enough, infer in one pass
     if len(entries) <= max_entries_per_chunk:
-        prompt = USER_INTENT_PROMPT.format(entries="\n".join(entries))
+        prompt = format_analysis_prompt(analysis_prompt, "\n".join(entries))
         text, metrics = _get_prompt_response(prompt, model_name)
         all_metrics.append(metrics)
         return text.strip(), all_metrics
@@ -252,16 +270,16 @@ def generate_user_intent(
             f"  Summarising chunk {len(chunk_summaries)+1} "
             f"({t_start}s – {t_end}s, {len(chunk)} entries)..."
         )
-        prompt = USER_INTENT_PROMPT.format(entries="\n".join(chunk))
+        prompt = format_analysis_prompt(analysis_prompt, "\n".join(chunk))
         text, metrics = _get_prompt_response(prompt, model_name)
         chunk_summaries.append(text)
         all_metrics.append(metrics)
 
-    print(f"  Merging {len(chunk_summaries)} chunk summaries into a final intent...")
+    print(f"  Merging {len(chunk_summaries)} chunk summaries into a final intent synopsis.")
     combined = "\n".join(
         f"[Part {i+1}] {s}" for i, s in enumerate(chunk_summaries)
     )
-    final_prompt = USER_INTENT_PROMPT.format(entries=combined)
+    final_prompt = format_analysis_prompt(analysis_prompt, combined)
     text, metrics = _get_prompt_response(final_prompt, model_name)
     all_metrics.append(metrics)
     return text.strip(), all_metrics

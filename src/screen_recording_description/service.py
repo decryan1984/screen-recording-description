@@ -81,7 +81,7 @@ def _ollama_reachable():
 
 
 # Run queue and background worker
-def _enqueue(video_path):
+def _enqueue(video_path, analysis_prompt=None):
     # Timestamped guid.
     run_id = f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"
     run = {
@@ -89,6 +89,7 @@ def _enqueue(video_path):
         "video_path": video_path,
         "status": "queued",
         "submitted_at": _now_iso(),
+        "analysis_prompt": analysis_prompt,
     }
     with _runs_lock:
         _runs[run_id] = run
@@ -152,7 +153,8 @@ def _process(run_id):
 
     start = time.perf_counter()
     try:
-        run_pipeline(video_path, skip_online=True, run_dir=run_dir, evaluate=False)
+        run_pipeline(video_path, skip_online=True, run_dir=run_dir, evaluate=False,
+                     analysis_prompt=run.get("analysis_prompt"))
     except Exception as exc:
         _update(run_id, status="failed", reason="pipeline_error",
                 error=f"{type(exc).__name__}: {exc}", finished_at=_now_iso())
@@ -219,6 +221,17 @@ class RunRequest(BaseModel):
         default=None,
         description="Specific filenames within the directory - omit to take every eligible video",
     )
+    analysis_prompt: str | None = Field(
+        default=None,
+        max_length=8000,
+        description=(
+            "Custom analysis prompt run over the frame timeline instead of the "
+            "default user-intent inference (e.g. a compliance or best-practice "
+            "check). Use the '{entries}' placeholder to control where the "
+            "timeline is inserted; if omitted it is appended. Leave unset to keep "
+            "the default intent output."
+        ),
+    )
 
 
 @app.post("/runs")
@@ -255,7 +268,7 @@ def create_runs(req: RunRequest):
             if report_skips:
                 rejected.append({"filename": name, "reason": reason})
             continue
-        accepted.append({"filename": name, "run_id": _enqueue(path)})
+        accepted.append({"filename": name, "run_id": _enqueue(path, req.analysis_prompt)})
 
     if not accepted and not rejected:
         raise HTTPException(status_code=400, detail="No eligible videos found")
