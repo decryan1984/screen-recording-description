@@ -71,7 +71,7 @@ def within_period(stamp, cutoff):
 
 
 def load_disk_runs():
-    """Map run_id -> {'status': {...}, 'videos': {name: data}} from output/runs/,
+    """Maps run_id -> {'status': {...}, 'videos': {name: data}} from output/runs/,
     newest first. A run is included once it has a status.json or a video result."""
     runs = {}
     if not os.path.isdir(SERVICE_RUNS_DIR):
@@ -111,7 +111,7 @@ def get_model_block(data):
 
 
 def parse_run_start(run_id, status):
-    """Best-effort UTC start time for a run: the status timestamp, else the
+    """Best-effort UTC start time for a run: the status timestamp, or else the
     timestamp embedded in the run id (YYYYMMDD_HHMMSS...)."""
     stamp = status.get("started_at") or status.get("submitted_at")
     if stamp:

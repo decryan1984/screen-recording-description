@@ -30,7 +30,7 @@ def main():
         "--model",
         nargs="+",
         default=None,
-        help="One or more Ollama models to run (e.g. qwen3.5:4b qwen3.5:8b; "
+        help="One or more Ollama models to run (e.g. qwen3.5:4b qwen3.5:latest"
              "default: config DEFAULT_VLM)",
     )
     parser.add_argument(
@@ -63,7 +63,7 @@ def main():
     else:
         video_paths = [get_video_path(v) for v in args.videos]
 
-    # Resolve the model list: the given model(s), or config DEFAULT_VLM.
+    # Resolve the model list: the given models, or config DEFAULT_VLM.
     models = args.model if args.model else [DEFAULT_VLM]
 
     # Resolve thresholds once (shared by every video in the run)
@@ -83,7 +83,7 @@ def main():
         print(f"{'-'*60}")
 
         if thresholds is not None:
-            # Sweep every selected VLM through the full parameter set.
+            # Run every selected VLM through the full parameter set.
             for m in models:
                 perform_multi_threshold_inferences(video_path, thresholds, model_name=m,
                                                     run_dir=run_dir)

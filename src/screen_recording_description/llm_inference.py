@@ -39,7 +39,7 @@ def _get_prompt_response(text_prompt, model_name, max_tokens=EVAL_MAX_TOKENS):
 def _get_text(value):
     """Coerce an annotation field to a string.
 
-    GUI-World stores some description fields as a list of strings; join those into a
+    GUI-World stores some description fields as a list of strings - join those into a
     single space-separated string so downstream text scorers receive a plain ``str``.
     """
     if isinstance(value, list):
