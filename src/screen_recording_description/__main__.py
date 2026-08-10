@@ -30,7 +30,7 @@ def main():
         "--model",
         nargs="+",
         default=None,
-        help="One or more Ollama models to run (e.g. qwen3.5:4b qwen3.5:latest"
+        help="One or more Ollama models to run (e.g. qwen3.5:4b qwen3.5:latest, "
              "default: config DEFAULT_VLM)",
     )
     parser.add_argument(
@@ -47,7 +47,7 @@ def main():
     parser.add_argument(
         "--run-online-inference",
         action="store_true",
-        help="Also run Gemini online inference (off by default; "
+        help="Also run Gemini online inference (off by default, "
              "requires the GEMINI_API_KEY environment variable)",
     )
     args = parser.parse_args()
