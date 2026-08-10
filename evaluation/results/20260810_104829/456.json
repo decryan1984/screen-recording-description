@@ -1,0 +1,3184 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/456.mov",
+  "total_frames": 588,
+  "fps": 46.84077058909438,
+  "resolution": "4096x2304",
+  "gemma3:4b_tokens_512": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 2048,
+    "max_tokens": 512,
+    "enable_grayscale": false,
+    "reduced_resolution": "2048x1152",
+    "frames_processed": 9,
+    "intent": "The user was likely searching for a specific item or information within a program, starting with a search query and potentially manipulating shapes or text elements along the way.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.06,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 2.04,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 1.98,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 2.02,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 1.99,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 1.99,
+        "frame_description": "The user is clicking on the \"Shape\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 2.0,
+        "frame_description": "The user is clicking on the \"Word\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 2.0,
+        "frame_description": "The user is clicking on the \"search\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 1.96,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent suggests that the user was searching for specific information and manipulating elements, which aligns partially with the goal of closing Excel and opening Word. However, the timeline shows actions related to file management (clicking 'File' menu) and application switching (clicking 'Word' icon), but not explicitly a search or manipulation of shapes as inferred by AI. The core objective of transitioning from Excel to Word is captured, but the specifics about searching or manipulating elements are not supported by the timeline."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, frames describe interactions such as typing 'To' into a field and clicking on a 'File' menu, which are not mentioned in the keyframes. Additionally, there is no mention of using Spotlight or interacting with Word in the described frames, contradicting the keyframe actions involving these applications. These discrepancies indicate fabricated content that does not align with the ground truth."
+        },
+        "coverage": {
+          "score": 2.78,
+          "coverage": 0.444,
+          "covered": 4,
+          "total": 9,
+          "covered_actions": [
+            2,
+            4,
+            6
+          ],
+          "covered_apps": [
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to clicking and typing, but does not match the specific sequence or context of the ground-truth keyframes. The timeline includes interactions with a search bar and icons that could relate to opening applications."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe the same action without meaningful change, such as multiple entries for typing 'To' and clicking on the 'File' menu. These repetitions indicate redundancy."
+        }
+      },
+      "composite_score": 8.78,
+      "max_score": 20,
+      "latency_sec": 35.61
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1892,
+        "recall": 0.2333,
+        "f1": 0.209
+      },
+      "rouge2": {
+        "precision": 0.0411,
+        "recall": 0.0508,
+        "f1": 0.0455
+      },
+      "rougeL": {
+        "precision": 0.1486,
+        "recall": 0.1833,
+        "f1": 0.1642
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0036
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 54.49,
+      "total_vlm_inference_sec": 18.04,
+      "intent_latency_sec": 0.8,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.0,
+      "median_frame_latency_sec": 2.0,
+      "min_frame_latency_sec": 1.96,
+      "max_frame_latency_sec": 2.06,
+      "avg_description_length_chars": 41.3,
+      "total_prompt_tokens": 3639,
+      "total_completion_tokens": 144,
+      "avg_completion_tokens_per_sec": 6.2,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemma3:4b_tokens_128": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 2048,
+    "max_tokens": 128,
+    "enable_grayscale": false,
+    "reduced_resolution": "2048x1152",
+    "frames_processed": 9,
+    "intent": "The user was likely searching for a specific item or information within a program, starting with a search query and potentially manipulating shapes or text elements along the way.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.1,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 2.09,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 2.03,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 2.01,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 2.0,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 2.04,
+        "frame_description": "The user is clicking on the \"Shape\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 2.02,
+        "frame_description": "The user is clicking on the \"Word\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 2.0,
+        "frame_description": "The user is clicking on the \"search\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 1.97,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent suggests that the user was searching for specific information and manipulating elements, which aligns partially with the goal of closing Excel and opening Word. However, the timeline shows actions related to file management (clicking 'File' menu) and application switching (clicking 'Word' icon), but not explicitly a search or manipulation of shapes as inferred by AI. The core objective of transitioning from Excel to Word is captured, but the specifics about searching or manipulating elements are not supported by the timeline."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, frames describe interactions such as typing 'To' into a field and clicking on a 'File' menu, which are not mentioned in the keyframes. Additionally, there is no mention of using Spotlight or interacting with Word in the described frames, contradicting the keyframe actions involving these applications. These discrepancies indicate fabricated content that does not align with the ground truth."
+        },
+        "coverage": {
+          "score": 2.78,
+          "coverage": 0.444,
+          "covered": 4,
+          "total": 9,
+          "covered_actions": [
+            2,
+            4,
+            6
+          ],
+          "covered_apps": [
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to clicking and typing, but does not match the specific sequence or context of the ground-truth keyframes. The timeline includes interactions with a search bar and icons that could relate to opening applications."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe the same action without meaningful change, such as multiple entries for typing 'To' and clicking on the 'File' menu. These repetitions indicate redundancy."
+        }
+      },
+      "composite_score": 8.78,
+      "max_score": 20,
+      "latency_sec": 37.0
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1892,
+        "recall": 0.2333,
+        "f1": 0.209
+      },
+      "rouge2": {
+        "precision": 0.0411,
+        "recall": 0.0508,
+        "f1": 0.0455
+      },
+      "rougeL": {
+        "precision": 0.1486,
+        "recall": 0.1833,
+        "f1": 0.1642
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0013
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 56.23,
+      "total_vlm_inference_sec": 18.26,
+      "intent_latency_sec": 0.79,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.03,
+      "median_frame_latency_sec": 2.02,
+      "min_frame_latency_sec": 1.97,
+      "max_frame_latency_sec": 2.1,
+      "avg_description_length_chars": 41.3,
+      "total_prompt_tokens": 3639,
+      "total_completion_tokens": 144,
+      "avg_completion_tokens_per_sec": 6.1,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemma3:4b_fullres": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 0,
+    "max_tokens": 256,
+    "enable_grayscale": false,
+    "reduced_resolution": null,
+    "frames_processed": 9,
+    "intent": "The user was likely searching for something within a document or application, as evidenced by the typing into the search bar and clicking on the \"Notes\" and \"Word\" icons.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.22,
+        "frame_description": "The user is typing \"to\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 2.19,
+        "frame_description": "The user is typing \"to\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 2.15,
+        "frame_description": "The user is clicking on the \"Notes\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 2.16,
+        "frame_description": "The user is clicking on the \"Notes\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 2.16,
+        "frame_description": "The user is clicking on the \"Notes\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 2.39,
+        "frame_description": "The user is clicking on the \"File\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 2.22,
+        "frame_description": "The user is clicking on the \"Word\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 2.2,
+        "frame_description": "The user is typing \"search\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 2.14,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent captures the user's actions of searching within a document and interacting with application icons, which aligns with the goal of closing Excel and opening Word. However, it does not directly address the specific action of invoking Spotlight to open Word or acknowledging the change in default editing language as described in the caption. The timeline shows interactions with 'Notes' and 'Word' icons but lacks explicit mention of using Spotlight or changing the language setting."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, frames describe interactions such as typing 'to' and clicking on a 'Notes' icon, which are not mentioned in the keyframes. Additionally, there is no mention of using Spotlight or interacting with Excel as described in the keyframes. These discrepancies indicate fabricated actions that contradict the ground truth."
+        },
+        "coverage": {
+          "score": 1.44,
+          "coverage": 0.111,
+          "covered": 1,
+          "total": 9,
+          "covered_actions": [],
+          "covered_apps": [
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to clicking icons and typing into a search bar, which do not match the specific keyframe actions involving Excel error reporting or using Spotlight for Word. The timeline does mention interactions with an application that could be inferred as 'Word' based on the icon click."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe the same action without meaningful change, such as multiple entries for typing 'to' and clicking on the 'Notes' icon. These repetitions indicate redundancy."
+        }
+      },
+      "composite_score": 7.44,
+      "max_score": 20,
+      "latency_sec": 27.54
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1867,
+        "recall": 0.2333,
+        "f1": 0.2074
+      },
+      "rouge2": {
+        "precision": 0.0405,
+        "recall": 0.0508,
+        "f1": 0.0451
+      },
+      "rougeL": {
+        "precision": 0.1467,
+        "recall": 0.1833,
+        "f1": 0.163
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0032
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 48.25,
+      "total_vlm_inference_sec": 19.83,
+      "intent_latency_sec": 0.85,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.2,
+      "median_frame_latency_sec": 2.19,
+      "min_frame_latency_sec": 2.14,
+      "max_frame_latency_sec": 2.39,
+      "avg_description_length_chars": 42.2,
+      "total_prompt_tokens": 3640,
+      "total_completion_tokens": 149,
+      "avg_completion_tokens_per_sec": 5.7,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 588,
+  "gemma3:4b_diff0.001": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.001,
+    "frames_processed": 15,
+    "intent": "The user was attempting to conduct a search, likely for a specific term related to \"Rain,\" repeatedly using a search bar and interacting with menus.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 3.52,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 57,
+        "timestamp_sec": 1.22,
+        "latency_sec": 2.21,
+        "frame_description": "The user is clicking on the \"Send\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 73,
+        "timestamp_sec": 1.56,
+        "latency_sec": 2.37,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 89,
+        "timestamp_sec": 1.9,
+        "latency_sec": 2.04,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 236,
+        "timestamp_sec": 5.04,
+        "latency_sec": 2.82,
+        "frame_description": "The user is clicking on the \"search\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 2.08,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 305,
+        "timestamp_sec": 6.51,
+        "latency_sec": 2.25,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 2.06,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 2.19,
+        "frame_description": "The user is clicking on the \"Shape\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 2.1,
+        "frame_description": "The user is clicking on the \"Word\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 439,
+        "timestamp_sec": 9.37,
+        "latency_sec": 2.23,
+        "frame_description": "The user is clicking on the \"Word\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 524,
+        "timestamp_sec": 11.19,
+        "latency_sec": 2.27,
+        "frame_description": "The user is typing \"Rain\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 2.15,
+        "frame_description": "The user is clicking on the \"search\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 566,
+        "timestamp_sec": 12.08,
+        "latency_sec": 2.19,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 2.23,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 1,
+          "reasoning": "The AI inferred intent focuses on conducting searches related to 'Rain' and interacting with menus, which does not align with the user's goal of closing Excel and opening Word. The timeline shows actions like typing into a search bar and clicking icons, but there is no mention of closing Excel or opening Word directly. Therefore, the core objective described by the goal and caption is missed."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies and fabricated details that contradict the keyframes. For example, frames describe interactions such as typing 'To' into a field, clicking on a 'Send' button, and interacting with a 'Shape' button, none of which are mentioned in the keyframes. Additionally, there is no mention of using Spotlight or opening Word, which are critical actions described in the keyframes. These discrepancies indicate that the AI frame descriptions do not accurately reflect the user's actions as per the ground truth."
+        },
+        "coverage": {
+          "score": 3.22,
+          "coverage": 0.556,
+          "covered": 5,
+          "total": 9,
+          "covered_actions": [
+            2,
+            3,
+            4,
+            6
+          ],
+          "covered_apps": [
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching and interacting with icons, which aligns with some keyframe actions involving clicking and typing. However, specific keyframe details like error reporting or language change prompts are not mentioned."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe repetitive actions without meaningful change, such as multiple clicks on the 'File' menu and repeated typing into a search bar. These entries do not add new information and are considered redundant."
+        }
+      },
+      "composite_score": 7.22,
+      "max_score": 20,
+      "latency_sec": 41.64
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1301,
+        "recall": 0.2667,
+        "f1": 0.1749
+      },
+      "rouge2": {
+        "precision": 0.0246,
+        "recall": 0.0508,
+        "f1": 0.0331
+      },
+      "rougeL": {
+        "precision": 0.1138,
+        "recall": 0.2333,
+        "f1": 0.153
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0154
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 77.54,
+      "total_vlm_inference_sec": 34.71,
+      "intent_latency_sec": 1.08,
+      "frames_processed": 15,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.31,
+      "median_frame_latency_sec": 2.21,
+      "min_frame_latency_sec": 2.04,
+      "max_frame_latency_sec": 3.52,
+      "avg_description_length_chars": 41.3,
+      "total_prompt_tokens": 6008,
+      "total_completion_tokens": 213,
+      "avg_completion_tokens_per_sec": 5.3,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "qwen3.5:4b_tokens_512": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 2048,
+    "max_tokens": 512,
+    "enable_grayscale": false,
+    "reduced_resolution": "2048x1152",
+    "frames_processed": 9,
+    "intent": "The user was attempting to save changes to a presentation file named \"Book2\" before switching to Microsoft Word to adjust the default editing language settings.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 22.07,
+        "frame_description": "The user is hovering over the 'Save...' button in a dialog box asking if they want to save changes to 'Book2'.\n\nVisible user-entered text in the application:\n- \"Want to save your changes to 'Book2'?\"\n- \"Your changes will be lost if you don't save them.\"\n- \"Save...\"\n- \"Don't Save\"\n- \"Cancel\"\n- \"Sheet1\"\n- \"Ready\"\n- \"Accessibility: Good to go\"\n- \"Slide 4 of 4\"\n- \"English (United States)\"\n- \"Accessibility: Investigate\"\n- \"Notes\"\n- \"Comments\"\n- \"121%\"\n- \"100%\"\n- \"Model\"\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCOg test\"\n- \"Kosmos-2\"\n- \"52.32\"\n- \"57.42\"\n- \"45.48\"\n- \"50.73\"\n- \"42.24\"\n- \"60.57\"\n- \"61.65\"\n- \"G12\"\n- \"Shape Fill\"\n- \"Shape Outline\"\n- \"Add-ins\"\n- \"Crack 3 items\"\n- \"Applications 18 items\"\n- \"Documents 18 items\"\n- \"Images 42 items\"\n- \"PDF Documents 5 items\"\n- \"Movies 20 items\"\n- \"Presentation 2 items\"\n- \"Other 3 items\"\n- \"Screenshots 167 items\"\n- \"vsCode 11 items\"\n- \"Tencent Files 4 items\"\n- \"Hubei\"\n- \"20\u00b0\"\n- \"Rain\"\n- \"H:23\u00b0 L:19\u00b0\"\n- \"6m\"\n- \"2m\"\n- \"1m\"\n- \"40s\"\n- \"60m\"\n- \"30m\"\n- \"12\"\n- \"OK/s 80%\"\n- \"Tue Apr 2 00:18\"\n- \"Excel\"\n- \"File\"\n- \"Edit\"\n- \"View\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 512
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 21.77,
+        "frame_description": "The user is hovering over the \"Don't Save\" button in a save dialog box within Microsoft Excel.\n\nVisible user-entered text in the application:\n- \"Book2\" (in the title bar and save dialog)\n- \"Model\" (cell A1)\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs Ref",
+        "prompt_tokens": 2093,
+        "completion_tokens": 512
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 9.12,
+        "frame_description": "The user is viewing a slide titled \"Model performance on Refcoco\" in a presentation software, with a table displaying model metrics for \"Kosmos-2\" across various RefCOCO evaluation tasks. No text is being actively typed or entered in form fields at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 7.92,
+        "frame_description": "The user is typing \"wo\" in a search bar within the presentation software.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 9.12,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in a presentation software application. The slide contains a table with model performance metrics, and the user appears to be reviewing or preparing to edit the content. No active typing or input actions are currently being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 11.04,
+        "frame_description": "The user is clicking the \"OK\" button in the dialog box.\n\nVisible user-entered text in the application:\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=216920\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 122
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 12.15,
+        "frame_description": "The user is viewing a dialog box from Microsoft Word on their desktop, which informs them that the default editing language has been changed. The dialog box contains the following text:\n\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=721590\"\n\nThere is no user-entered text visible in the dialog box or elsewhere on the desktop. The user appears to be reviewing this information before proceeding.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 162
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 8.74,
+        "frame_description": "The user is viewing the Microsoft Word start screen, which displays a \"Blank Document\" template and sections for \"Recent\" and \"Pinned\" documents. No user-entered text is visible in the application interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 8.25,
+        "frame_description": "The user is viewing the Microsoft Word Templates window, with the 'Blank Document' template selected. No user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 31
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent captures the user's actions of closing an unsaved Excel document and opening Word to adjust language settings, aligning well with the goal and caption. The timeline shows the user clicking 'Don't Save' in Excel and then interacting with Word for language changes, matching the described sequence without contradictions."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some inaccuracies. Frame 1 correctly describes the user hovering over 'Save...' in Excel, aligning with keyframe 1. However, it incorrectly lists a wide range of visible text that is not relevant to the action described. Frame 66 accurately reflects the user's decision to click 'Don't Save', consistent with keyframe 2. Frames 82 and 330 inaccurately describe actions related to presentation software, which are not part of the ground truth keyframes or caption. Frame 407 correctly describes clicking 'OK' in Word, aligning with keyframe 6. The timeline allows for answering the STATIC QA consistently, as it includes the pop-up message details. For SEQUENTIAL-QA, the timeline supports the correct sequence of actions after deciding not to save changes in Excel. The MCQA can be answered correctly based on the described action in Frame 66."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 6,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "excel",
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to Excel and Word, matching some keyframe actions. Keyframe 1 is partially described by Frame 1 (hover over 'Save...'), but the click action isn't confirmed until Frame 407 ('OK' button in Word). Keyframe 2 matches Frame 66 (hover over 'Don't Save'). Keyframes 3 and 4 are not covered as there's no mention of using Spotlight or typing 'word'. Keyframe 5 is described by Frames 407 and 423 (Word language change prompt), and Keyframe 6 is confirmed by Frame 407 ('OK' button click)."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline shows a moderate level of redundancy. While there are some repeated descriptions (e.g., frames 82 and 330 both describe viewing the same slide without new actions), most entries provide distinct information about user interactions or changes in application state."
+        }
+      },
+      "composite_score": 15.67,
+      "max_score": 20,
+      "latency_sec": 61.78
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0422,
+        "recall": 0.5333,
+        "f1": 0.0782
+      },
+      "rouge2": {
+        "precision": 0.0145,
+        "recall": 0.1864,
+        "f1": 0.027
+      },
+      "rougeL": {
+        "precision": 0.029,
+        "recall": 0.3667,
+        "f1": 0.0538
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0142
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 174.55,
+      "total_vlm_inference_sec": 110.18,
+      "intent_latency_sec": 2.55,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 12.24,
+      "median_frame_latency_sec": 9.12,
+      "min_frame_latency_sec": 7.92,
+      "max_frame_latency_sec": 22.07,
+      "avg_description_length_chars": 525.4,
+      "total_prompt_tokens": 19810,
+      "total_completion_tokens": 1546,
+      "avg_completion_tokens_per_sec": 13.8,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_tokens_128": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 2048,
+    "max_tokens": 128,
+    "enable_grayscale": false,
+    "reduced_resolution": "2048x1152",
+    "frames_processed": 9,
+    "intent": "The user was attempting to save changes to a file named \"Book2\" in Excel before switching to a presentation to review model performance metrics, and subsequently encountered a system dialog regarding a change in the default editing language for Microsoft Word.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 11.24,
+        "frame_description": "The user is hovering over the 'Save...' button in a dialog box asking if they want to save changes to 'Book2'.\n\nVisible user-entered text in the application:\n- \"Want to save your changes to 'Book2'?\"\n- \"Your changes will be lost if you don't save them.\"\n- \"Save...\"\n- \"Don't Save\"\n- \"Cancel\"\n- \"Sheet1\"\n- \"Ready\"\n- \"Accessibility: Good to go\"\n- \"Slide 4 of 4\"\n- \"English (United States)\"\n- \"Accessibility: Investigate\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 128
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 11.21,
+        "frame_description": "The user is hovering over the \"Don't Save\" button in a save dialog box within Microsoft Excel.\n\nVisible user-entered text in the application:\n- \"Book2\" (in the title bar and save dialog)\n- \"Model\" (cell A1)\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefC",
+        "prompt_tokens": 2093,
+        "completion_tokens": 128
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 9.58,
+        "frame_description": "The user is viewing a slide titled \"Model performance on Refcoco\" in a presentation software, with a table displaying model metrics for \"Kosmos-2\" across various RefCOCO evaluation tasks. No text is being actively typed or entered in form fields at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 7.9,
+        "frame_description": "The user is typing \"wo\" in a search bar within the presentation software.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 9.55,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in a presentation software application. The slide contains a table with model performance metrics, and the user appears to be reviewing or preparing to edit the content. No active typing or input actions are currently being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 10.45,
+        "frame_description": "The user is clicking the \"OK\" button in the dialog box.\n\nVisible user-entered text in the application:\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=216920\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 122
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 10.47,
+        "frame_description": "The user is viewing a dialog box from Microsoft Word on their desktop, which informs them that the default editing language has been changed. The dialog box contains the following text:\n\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=7215",
+        "prompt_tokens": 2093,
+        "completion_tokens": 128
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 8.34,
+        "frame_description": "The user is viewing the Microsoft Word start screen, which displays a \"Blank Document\" template and sections for \"Recent\" and \"Pinned\" documents. No user-entered text is visible in the application interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 7.89,
+        "frame_description": "The user is viewing the Microsoft Word Templates window, with the 'Blank Document' template selected. No user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 31
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent captures the user's actions of closing an unsaved Excel document and opening Word, aligning well with the goal. The timeline shows the user clicking 'Don't Save' in Excel and then interacting with Word to acknowledge a language change, matching the caption details. There are no contradictions in the specific entities or actions described."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. Frame 1 correctly describes the user hovering over 'Save...', aligning with keyframe 1. However, Frame 66 inaccurately states the user is hovering over 'Don't Save' instead of clicking it as per keyframe 2. Frame 259 and 330 incorrectly describe actions in a presentation software rather than invoking Spotlight to open Word, contradicting keyframes 3-5. Frame 407 correctly describes clicking 'OK', consistent with keyframe 6. The timeline allows for answering the STATIC QA consistently but not the SEQUENTIAL-QA due to inaccuracies in describing the transition from Excel to Word. The MCQA can be answered correctly based on keyframe 2."
+        },
+        "coverage": {
+          "score": 4.11,
+          "coverage": 0.778,
+          "covered": 7,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "PPT",
+            "excel",
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to saving changes in Excel, using a search function in presentation software (PPT), and interacting with Microsoft Word's language settings. These correspond to keyframes involving Excel save prompts, spotlight search for Word, and confirming a language change prompt in Word."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames that repeat information without meaningful change. Frames 66 and 82 introduce new actions, but frames 330 and 423 are near-duplicates of previous descriptions with no significant updates."
+        }
+      },
+      "composite_score": 14.11,
+      "max_score": 20,
+      "latency_sec": 41.44
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0674,
+        "recall": 0.5333,
+        "f1": 0.1196
+      },
+      "rouge2": {
+        "precision": 0.0211,
+        "recall": 0.1695,
+        "f1": 0.0375
+      },
+      "rougeL": {
+        "precision": 0.0442,
+        "recall": 0.35,
+        "f1": 0.0785
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0106
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 130.94,
+      "total_vlm_inference_sec": 86.63,
+      "intent_latency_sec": 2.83,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.63,
+      "median_frame_latency_sec": 9.58,
+      "min_frame_latency_sec": 7.89,
+      "max_frame_latency_sec": 11.24,
+      "avg_description_length_chars": 328.8,
+      "total_prompt_tokens": 19720,
+      "total_completion_tokens": 761,
+      "avg_completion_tokens_per_sec": 8.2,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_fullres": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 0,
+    "max_tokens": 256,
+    "enable_grayscale": false,
+    "reduced_resolution": null,
+    "frames_processed": 9,
+    "intent": "The user was reviewing and editing a presentation comparing various model performance metrics on RefCOCO datasets, then switched to Microsoft Word to create a new document using a blank template after a language setting change.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 9.65,
+        "frame_description": "The user is hovering over the 'Save...' button in a dialog box asking if they want to save changes to 'Book2'.\n\nVisible user-entered text in the application:\n- \"Want to save your changes to 'Book2'?\"\n- \"Your changes will be lost if you don't save them.\"\n- \"Save...\"\n- \"Don't Save\"\n- \"Cancel\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 83
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 14.72,
+        "frame_description": "The user is hovering over the \"Don't Save\" button in a save dialog box within Microsoft Excel.\n\nVisible user-entered text in the application:\n- \"Book2\" (in the title bar and save dialog)\n- \"Model\", \"RefCOCO val\", \"RefCOCO tes\", \"RefCOCO+ vs\", \"RefCOCO+ te\", \"RefCOCOg vs\", \"RefCOCOg test\" (in row 1)\n- \"Kosmos-2\", \"52.32\", \"57.42\", \"45.48\", \"50.73\", \"42.24\", \"60.57\", \"61.65\" (in row 2)\n- \"Sheet1\" (in the sheet tab)\n- \"Ready\" (in the status bar)\n- \"Accessibility: Good to go\" (in the status bar)\n- \"Slide 4 of 4\" (in the dock)\n- \"English (United States)\" (in the dock)\n- \"Accessibility: Investigate\" (in the dock)\n- \"Notes\" (in the dock)\n- \"Comments\" (",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 8.04,
+        "frame_description": "The user is viewing a slide titled \"Model performance on Refcoco\" in a presentation software, with a table displaying model metrics. No active typing or form field input is occurring.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 7.92,
+        "frame_description": "The user is typing \"wo\" in a text input field within a presentation slide, with a Chinese character suggestion bar appearing above the input field.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 14.43,
+        "frame_description": "The user is hovering over the 'Model performance on Refcoco' slide thumbnail in the presentation's slide panel.\n\nVisible user-entered text in the application:\n- Slide title: \"Model performance on Refcoco\"\n- Table headers: \"Model\", \"RefCOCO val\", \"RefCOCO testA\", \"RefCOCO testB\", \"RefCOCO+ val\", \"RefCOCO+ testA\", \"RefCOCO+ testB\", \"RefCOCOg val\", \"RefCOCOg test\"\n- Table data: \"Kosmos-2\", \"52.32\", \"57.42\", \"47.26\", \"45.48\", \"50.73\", \"42.24\", \"60.57\", \"61.65\"\n- Slide panel labels: \"1\", \"2\", \"3\", \"4\"\n- Slide panel title: \"Model performance on Refcoco\"\n- Slide 4 thumbnail title: \"Model performance on Refcoco\"\n- Slide 4 thumbnail table data: \"Kosmos-2\", \"52.32\", \"57.42",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 8.85,
+        "frame_description": "The user is viewing a PowerPoint presentation titled \"Kosmos-family\" with a dialog box open indicating that the default editing language has been changed. The presentation includes a slide with a table showing data related to \"RefCOCO\" and \"RefCOCOg\". There is no active text being typed or entered in any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 11.73,
+        "frame_description": "The user is viewing a dialog box on their desktop that indicates the default editing language has been changed in Microsoft Word. The dialog box contains the following text:\n\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=715990\"\n\nThere is no active text being typed or entered by the user in any form fields or search bars. The user appears to be reviewing the information presented in the dialog box.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 164
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 7.7,
+        "frame_description": "The user is viewing the Microsoft Word template selection screen, with the 'Blank Document' template visible and ready to be selected.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 7.95,
+        "frame_description": "The user is viewing the Microsoft Word Templates window, with the 'Blank Document' template highlighted and ready to be created.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 25
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent captures the user's actions of closing Excel and opening Word, aligning with the goal. The timeline shows the user interacting with an unsaved Excel document, choosing 'Don't Save', and then proceeding to open Word after a language change notification. There are no contradictions in the timeline regarding these actions or details."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions accurately reflect the keyframes provided. The sequence of user interactions matches the ground truth, including closing Excel without saving, using Spotlight to open Word, and acknowledging the language change prompt in Word. There are no fabricated or contradicted actions. However, some frames describe background context (e.g., PowerPoint presentation) that is not directly relevant to the keyframes but does not contradict them."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 6,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "excel",
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to Excel and Word, matching some keyframe actions. Keyframe 1 is partially described by Frame 1 with the 'Save...' button interaction in Excel. Keyframe 2 matches Frame 66 where the user hovers over 'Don't Save'. Frames 407 and 423 describe a language change prompt in PowerPoint and Word respectively, aligning with Keyframes 5 and 6."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, such as repeated descriptions of hovering over buttons and viewing slides. However, there are also distinct actions like typing and changing settings, indicating some level of new information."
+        }
+      },
+      "composite_score": 16.67,
+      "max_score": 20,
+      "latency_sec": 43.84
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0557,
+        "recall": 0.5,
+        "f1": 0.1002
+      },
+      "rouge2": {
+        "precision": 0.013,
+        "recall": 0.1186,
+        "f1": 0.0235
+      },
+      "rougeL": {
+        "precision": 0.039,
+        "recall": 0.35,
+        "f1": 0.0701
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0121
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 137.77,
+      "total_vlm_inference_sec": 90.99,
+      "intent_latency_sec": 2.9,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 10.11,
+      "median_frame_latency_sec": 8.85,
+      "min_frame_latency_sec": 7.7,
+      "max_frame_latency_sec": 14.72,
+      "avg_description_length_chars": 367.3,
+      "total_prompt_tokens": 19814,
+      "total_completion_tokens": 986,
+      "avg_completion_tokens_per_sec": 10.4,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_diff0.001": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.001,
+    "frames_processed": 15,
+    "intent": "The user was attempting to save changes to a spreadsheet named \"Book2\" before switching to PowerPoint to review model performance metrics, and subsequently initiated a new document in Microsoft Word to compose an email.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 14.42,
+        "frame_description": "The user is hovering over the 'Save...' button in a dialog box asking if they want to save changes to 'Book2'.\n\nVisible user-entered text in the application:\n- \"Want to save your changes to 'Book2'?\"\n- \"Your changes will be lost if you don't save them.\"\n- \"Save...\"\n- \"Don't Save\"\n- \"Cancel\"\n- \"Sheet1\"\n- \"Ready\"\n- \"Accessibility: Good to go\"\n- \"Slide 4 of 4\"\n- \"English (United States)\"\n- \"Accessibility: Investigate\"\n- \"Notes\"\n- \"Comments\"\n- \"121%\"\n- \"100%\"\n- \"Model\"\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCOg test\"\n- \"Kosmos-2\"\n- \"52.32\"\n- \"57.42\"\n- \"45.48\"\n- \"50.73\"\n- \"42.24\"\n- \"60.57\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 57,
+        "timestamp_sec": 1.22,
+        "latency_sec": 14.01,
+        "frame_description": "The user is hovering over the \"Don't Save\" button in a save dialog box for a spreadsheet application.\n\nVisible user-entered text in the application:\n- \"Book2\" (in the save dialog)\n- \"Model\" (cell A1)\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCOg test\" (cell A2)\n- \"Kosmos-2\" (cell A3)\n- \"52.32\" (cell B2)\n- \"57.42\" (cell C2)\n- \"45.48\" (cell D2)\n- \"50.73\" (cell E2)\n- \"42.24\" (cell F2)\n- \"60.57\" (cell G2)\n- \"61.65\" (cell H2)\n- \"Sheet1\" (tab name)\n- \"Ready\" (status bar)\n- \"Accessibility: Good to go\" (status bar)\n- \"Slide 4 of 4\" (presentation slide indicator)\n-",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 73,
+        "timestamp_sec": 1.56,
+        "latency_sec": 8.56,
+        "frame_description": "The user is hovering over the \"Don't Save\" button in a save dialog box within a spreadsheet application. The visible text in the application includes: \"Want to save your changes to 'Book2'?\", \"Your changes will be lost if you don't save them.\", \"Save...\", \"Don't Save\", and \"Cancel\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 68
+      },
+      {
+        "frame_number": 89,
+        "timestamp_sec": 1.9,
+        "latency_sec": 7.59,
+        "frame_description": "The user is viewing a PowerPoint presentation titled \"Model performance on Refcoco\" with a table displaying model metrics. No active typing or input is occurring in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 236,
+        "timestamp_sec": 5.04,
+        "latency_sec": 7.51,
+        "frame_description": "The user is hovering over the Spotlight Search bar in the macOS interface, which displays the text \"Spotlight Search\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 7.14,
+        "frame_description": "The user is typing \"wo\" in a search bar within the presentation software.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 305,
+        "timestamp_sec": 6.51,
+        "latency_sec": 7.16,
+        "frame_description": "The user is typing \"word\" in the search bar within the presentation software.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in a presentation software application. The slide contains a table with model performance metrics, and the user appears to be reviewing or preparing to edit the content. No active typing or input actions are currently being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 10.21,
+        "frame_description": "The user is clicking the \"OK\" button in the dialog box.\n\nVisible user-entered text in the application:\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=216920\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 122
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 11.31,
+        "frame_description": "The user is viewing a dialog box from Microsoft Word on their desktop, which informs them that the default editing language has been changed. The dialog box contains the following text:\n\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=721590\"\n\nThere is no user-entered text visible in the dialog box or elsewhere on the desktop. The user appears to be reviewing this information before proceeding.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 162
+      },
+      {
+        "frame_number": 439,
+        "timestamp_sec": 9.37,
+        "latency_sec": 10.25,
+        "frame_description": "The user is viewing a dialog box from Microsoft Word on their desktop, which informs them that the default editing language has been changed to the Primary Language selected in System Preferences. The dialog mentions that the default document template (Normal.dotm) has been updated to support the new language settings and that a backup copy of the old template has been made. There is a hyperlink provided for more details about the default settings for new documents. The user has not yet interacted with the dialog box, as the 'OK' button is still visible and unclicked. No user-entered text is present in the application or on the desktop.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 126
+      },
+      {
+        "frame_number": 524,
+        "timestamp_sec": 11.19,
+        "latency_sec": 8.21,
+        "frame_description": "The user is hovering over the 'Send' button in the email composition window.\n\nVisible user-entered text:\n- To: [No text entered]\n- Subject: [No text entered]\n- Body: [No text entered]",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing the Microsoft Word start screen, which displays a \"Blank Document\" template and sections for \"Recent\" and \"Pinned\" documents. No user-entered text is visible in the application interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 566,
+        "timestamp_sec": 12.08,
+        "latency_sec": 7.9,
+        "frame_description": "The user is viewing the Microsoft Word \"New\" document window, specifically the \"Templates\" section, with a \"Blank Document\" option highlighted. The user is not actively typing or entering text into any form fields at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 7.48,
+        "frame_description": "The user is viewing the Microsoft Word Templates window, with the 'Blank Document' template selected. No user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 31
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 2,
+          "reasoning": "The AI inferred intent captures the user's actions of closing an unsaved Excel document and opening Word, aligning well with the goal. However, it inaccurately adds details about reviewing PowerPoint slides and composing an email in Word, which are not supported by the timeline. The specific detail that contradicts is the mention of PowerPoint review and email composition, as these activities are not evidenced in the provided frames."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes. The sequence of user interactions, such as clicking 'Don't Save', using Spotlight to open Word, and acknowledging the language change, is correctly captured. There are no fabricated or contradicted actions in the descriptions. However, there is a minor discrepancy in Frame 423 where the URL provided differs slightly from the ground truth answer, but this does not significantly impact the overall correctness."
+        },
+        "coverage": {
+          "score": 4.56,
+          "coverage": 0.889,
+          "covered": 8,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "PPT",
+            "excel",
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions that match several keyframes, including closing Excel with a prompt to save changes and clicking 'Don't Save', using Spotlight Search with the shortcut 'command + space', typing 'word' in a search bar, and clicking 'OK' in a Word pop-up window. The applications mentioned are Excel, PowerPoint (PPT), and Word."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information without meaningful changes, such as multiple descriptions of hovering over the 'Don't Save' button and viewing the same Microsoft Word dialog box. However, there are also distinct actions like typing in a search bar and clicking buttons."
+        }
+      },
+      "composite_score": 13.56,
+      "max_score": 20,
+      "latency_sec": 67.69
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0406,
+        "recall": 0.55,
+        "f1": 0.0757
+      },
+      "rouge2": {
+        "precision": 0.0136,
+        "recall": 0.1864,
+        "f1": 0.0253
+      },
+      "rougeL": {
+        "precision": 0.0308,
+        "recall": 0.4167,
+        "f1": 0.0573
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0275
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 209.62,
+      "total_vlm_inference_sec": 138.33,
+      "intent_latency_sec": 3.55,
+      "frames_processed": 15,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.22,
+      "median_frame_latency_sec": 8.29,
+      "min_frame_latency_sec": 7.14,
+      "max_frame_latency_sec": 14.42,
+      "avg_description_length_chars": 333.5,
+      "total_prompt_tokens": 32776,
+      "total_completion_tokens": 1354,
+      "avg_completion_tokens_per_sec": 9.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_diff0.005": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.005,
+    "frames_processed": 11,
+    "intent": "The user was attempting to save changes to a document named \"Book2\" before proceeding to review model performance metrics in a presentation, and subsequently switched applications to configure default editing language settings in Microsoft Word.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 14.42,
+        "frame_description": "The user is hovering over the 'Save...' button in a dialog box asking if they want to save changes to 'Book2'.\n\nVisible user-entered text in the application:\n- \"Want to save your changes to 'Book2'?\"\n- \"Your changes will be lost if you don't save them.\"\n- \"Save...\"\n- \"Don't Save\"\n- \"Cancel\"\n- \"Sheet1\"\n- \"Ready\"\n- \"Accessibility: Good to go\"\n- \"Slide 4 of 4\"\n- \"English (United States)\"\n- \"Accessibility: Investigate\"\n- \"Notes\"\n- \"Comments\"\n- \"121%\"\n- \"100%\"\n- \"Model\"\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCOg test\"\n- \"Kosmos-2\"\n- \"52.32\"\n- \"57.42\"\n- \"45.48\"\n- \"50.73\"\n- \"42.24\"\n- \"60.57\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 14.03,
+        "frame_description": "The user is hovering over the \"Don't Save\" button in a save dialog box within Microsoft Excel.\n\nVisible user-entered text in the application:\n- \"Book2\" (in the title bar and save dialog)\n- \"Model\" (cell A1)\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 8.36,
+        "frame_description": "The user is viewing a slide titled \"Model performance on Refcoco\" in a presentation software, with a table displaying model metrics for \"Kosmos-2\" across various RefCOCO evaluation tasks. No text is being actively typed or entered in form fields at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 236,
+        "timestamp_sec": 5.04,
+        "latency_sec": 7.51,
+        "frame_description": "The user is hovering over the Spotlight Search bar in the macOS interface, which displays the text \"Spotlight Search\".",
+        "prompt_tokens": 2093,
+        "completion_tokens": 24
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in a presentation software application. The slide contains a table with model performance metrics, and the user appears to be reviewing or preparing to edit the content. No active typing or input actions are currently being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 10.21,
+        "frame_description": "The user is clicking the \"OK\" button in the dialog box.\n\nVisible user-entered text in the application:\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=216920\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 122
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 11.31,
+        "frame_description": "The user is viewing a dialog box from Microsoft Word on their desktop, which informs them that the default editing language has been changed. The dialog box contains the following text:\n\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=721590\"\n\nThere is no user-entered text visible in the dialog box or elsewhere on the desktop. The user appears to be reviewing this information before proceeding.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 162
+      },
+      {
+        "frame_number": 524,
+        "timestamp_sec": 11.19,
+        "latency_sec": 8.21,
+        "frame_description": "The user is hovering over the 'Send' button in the email composition window.\n\nVisible user-entered text:\n- To: [No text entered]\n- Subject: [No text entered]\n- Body: [No text entered]",
+        "prompt_tokens": 2093,
+        "completion_tokens": 51
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing the Microsoft Word start screen, which displays a \"Blank Document\" template and sections for \"Recent\" and \"Pinned\" documents. No user-entered text is visible in the application interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 566,
+        "timestamp_sec": 12.08,
+        "latency_sec": 7.9,
+        "frame_description": "The user is viewing the Microsoft Word \"New\" document window, specifically the \"Templates\" section, with a \"Blank Document\" option highlighted. The user is not actively typing or entering text into any form fields at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 47
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 7.48,
+        "frame_description": "The user is viewing the Microsoft Word Templates window, with the 'Blank Document' template selected. No user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 31
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent captures the user's actions of closing an unsaved Excel document and opening Word to change default editing language settings, aligning with the goal and caption. The timeline supports this by showing the user hovering over 'Don't Save' in Excel and interacting with Word's language setting dialog. There are no contradictions in specific details like application names or actions."
+        },
+        "accuracy": {
+          "score": 5,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes. The sequence of user interactions, such as clicking 'Don't Save', using Spotlight to open Word, and acknowledging the language change, is correctly captured. There are no fabricated or contradicted actions in the descriptions. However, some frames describe background context without active interaction, which is permissible according to the guidelines."
+        },
+        "coverage": {
+          "score": 3.22,
+          "coverage": 0.556,
+          "covered": 5,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            6
+          ],
+          "covered_apps": [
+            "excel",
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions that match some of the ground-truth keyframes, specifically those involving interactions with Excel and Word. The timeline does not mention PowerPoint or any action related to using a keyboard shortcut for Spotlight."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat similar information without meaningful changes, such as Frames 82 and 330 both describing the user viewing a slide with model performance metrics. However, there are also distinct actions or state changes in other frames, like moving from hovering over buttons to clicking them or changing applications."
+        }
+      },
+      "composite_score": 16.22,
+      "max_score": 20,
+      "latency_sec": 50.95
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0518,
+        "recall": 0.5667,
+        "f1": 0.095
+      },
+      "rouge2": {
+        "precision": 0.0168,
+        "recall": 0.1864,
+        "f1": 0.0308
+      },
+      "rougeL": {
+        "precision": 0.0351,
+        "recall": 0.3833,
+        "f1": 0.0642
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0119
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 160.15,
+      "total_vlm_inference_sec": 106.01,
+      "intent_latency_sec": 3.16,
+      "frames_processed": 11,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.64,
+      "median_frame_latency_sec": 8.29,
+      "min_frame_latency_sec": 7.48,
+      "max_frame_latency_sec": 14.42,
+      "avg_description_length_chars": 372.2,
+      "total_prompt_tokens": 24131,
+      "total_completion_tokens": 1150,
+      "avg_completion_tokens_per_sec": 10.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_diff0.01": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "frames_processed": 9,
+    "intent": "The user was attempting to save changes to a presentation file named \"Book2\" before switching to Microsoft Word to adjust the default editing language settings.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 14.42,
+        "frame_description": "The user is hovering over the 'Save...' button in a dialog box asking if they want to save changes to 'Book2'.\n\nVisible user-entered text in the application:\n- \"Want to save your changes to 'Book2'?\"\n- \"Your changes will be lost if you don't save them.\"\n- \"Save...\"\n- \"Don't Save\"\n- \"Cancel\"\n- \"Sheet1\"\n- \"Ready\"\n- \"Accessibility: Good to go\"\n- \"Slide 4 of 4\"\n- \"English (United States)\"\n- \"Accessibility: Investigate\"\n- \"Notes\"\n- \"Comments\"\n- \"121%\"\n- \"100%\"\n- \"Model\"\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCOg test\"\n- \"Kosmos-2\"\n- \"52.32\"\n- \"57.42\"\n- \"45.48\"\n- \"50.73\"\n- \"42.24\"\n- \"60.57\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 14.03,
+        "frame_description": "The user is hovering over the \"Don't Save\" button in a save dialog box within Microsoft Excel.\n\nVisible user-entered text in the application:\n- \"Book2\" (in the title bar and save dialog)\n- \"Model\" (cell A1)\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 8.36,
+        "frame_description": "The user is viewing a slide titled \"Model performance on Refcoco\" in a presentation software, with a table displaying model metrics for \"Kosmos-2\" across various RefCOCO evaluation tasks. No text is being actively typed or entered in form fields at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 7.14,
+        "frame_description": "The user is typing \"wo\" in a search bar within the presentation software.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in a presentation software application. The slide contains a table with model performance metrics, and the user appears to be reviewing or preparing to edit the content. No active typing or input actions are currently being performed.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 58
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 10.21,
+        "frame_description": "The user is clicking the \"OK\" button in the dialog box.\n\nVisible user-entered text in the application:\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=216920\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 122
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 11.31,
+        "frame_description": "The user is viewing a dialog box from Microsoft Word on their desktop, which informs them that the default editing language has been changed. The dialog box contains the following text:\n\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=721590\"\n\nThere is no user-entered text visible in the dialog box or elsewhere on the desktop. The user appears to be reviewing this information before proceeding.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 162
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing the Microsoft Word start screen, which displays a \"Blank Document\" template and sections for \"Recent\" and \"Pinned\" documents. No user-entered text is visible in the application interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 7.48,
+        "frame_description": "The user is viewing the Microsoft Word Templates window, with the 'Blank Document' template selected. No user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 31
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent captures the user's actions of closing an unsaved Excel document and opening Word to change default editing language settings, which aligns with the goal and caption. The timeline shows the user clicking 'Don't Save' in Excel and then interacting with Word to acknowledge a change in default editing language, matching the described actions without contradiction."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes. The descriptions correctly identify user interactions such as hovering over buttons, typing in search bars, and clicking 'OK' on a pop-up message. There are no fabricated or contradicted actions reported. However, there is an inconsistency regarding the application used for searching: Frame 259 mentions typing \"wo\" in a presentation software's search bar, which does not align with the keyframe indicating Spotlight was used to open Word. This discrepancy could lead to confusion about the sequence of events."
+        },
+        "coverage": {
+          "score": 3.22,
+          "coverage": 0.556,
+          "covered": 5,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            6
+          ],
+          "covered_apps": [
+            "excel",
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions that match some of the ground-truth keyframes, specifically those involving interactions with Excel and Word. The timeline does not mention PowerPoint or any action related to using a keyboard shortcut for Spotlight."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that repeat information without meaningful change, such as Frames 82 and 330 both describing the user viewing a slide with model performance metrics. However, there are also distinct actions like typing in Frame 259 and clicking an 'OK' button in Frame 407, indicating some new information is provided."
+        }
+      },
+      "composite_score": 15.22,
+      "max_score": 20,
+      "latency_sec": 50.11
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0547,
+        "recall": 0.5333,
+        "f1": 0.0992
+      },
+      "rouge2": {
+        "precision": 0.0188,
+        "recall": 0.1864,
+        "f1": 0.0342
+      },
+      "rougeL": {
+        "precision": 0.0376,
+        "recall": 0.3667,
+        "f1": 0.0682
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0122
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 142.45,
+      "total_vlm_inference_sec": 89.53,
+      "intent_latency_sec": 2.76,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.95,
+      "median_frame_latency_sec": 8.36,
+      "min_frame_latency_sec": 7.14,
+      "max_frame_latency_sec": 14.42,
+      "avg_description_length_chars": 404.1,
+      "total_prompt_tokens": 19810,
+      "total_completion_tokens": 1034,
+      "avg_completion_tokens_per_sec": 11.2,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_diff0.05": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.05,
+    "frames_processed": 7,
+    "intent": "The user was attempting to save changes to a document named \"Book2\" before proceeding to review model performance metrics in a presentation and then switching to Microsoft Word to adjust or verify the default editing language settings.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 14.42,
+        "frame_description": "The user is hovering over the 'Save...' button in a dialog box asking if they want to save changes to 'Book2'.\n\nVisible user-entered text in the application:\n- \"Want to save your changes to 'Book2'?\"\n- \"Your changes will be lost if you don't save them.\"\n- \"Save...\"\n- \"Don't Save\"\n- \"Cancel\"\n- \"Sheet1\"\n- \"Ready\"\n- \"Accessibility: Good to go\"\n- \"Slide 4 of 4\"\n- \"English (United States)\"\n- \"Accessibility: Investigate\"\n- \"Notes\"\n- \"Comments\"\n- \"121%\"\n- \"100%\"\n- \"Model\"\n- \"RefCOCO val RefCOCO tes RefCOCO vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCOg test\"\n- \"Kosmos-2\"\n- \"52.32\"\n- \"57.42\"\n- \"45.48\"\n- \"50.73\"\n- \"42.24\"\n- \"60.57\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 69,
+        "timestamp_sec": 1.47,
+        "latency_sec": 13.89,
+        "frame_description": "The user is hovering over the \"Don't Save\" button in a save dialog box within Microsoft Excel.\n\nVisible user-entered text in the application:\n- \"Book2\" (document name)\n- \"Model\" (cell A1)\n- \"RefCOCO val RefCOCO tes RefCOCO tes RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs RefCOCO+ vs",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 85,
+        "timestamp_sec": 1.81,
+        "latency_sec": 7.72,
+        "frame_description": "The user is viewing a slide titled \"Model performance on Refcoco\" in a presentation software, with a table displaying model metrics for Kosmos-2 across various RefCOCO datasets.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 39
+      },
+      {
+        "frame_number": 408,
+        "timestamp_sec": 8.71,
+        "latency_sec": 10.95,
+        "frame_description": "The user is viewing a Microsoft Word document titled \"Model performance\" with a dialog box open indicating that the default editing language has been changed. The visible text in the dialog box includes: \"Default Editing Language Changed\", \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\", \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=2121920\", and the button text \"OK\". There is no active typing or input being performed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 153
+      },
+      {
+        "frame_number": 424,
+        "timestamp_sec": 9.05,
+        "latency_sec": 11.44,
+        "frame_description": "The user is viewing a dialog box from Microsoft Word on their desktop, which informs them that the default editing language has been changed. The dialog box contains the following text:\n\n- \"Default Editing Language Changed\"\n- \"Word has updated the default editing language to the Primary Language you chose in System Preferences. We replaced your default document template (Normal.dotm) to support the new language settings, and we made a backup copy of your old template for you.\"\n- \"For more details about the default settings for new documents (Normal.dotm), please see: http://go.microsoft.com/fwlink/?linkid=715990\"\n\nThere is no active text being typed or entered by the user in this screenshot. The user appears to be reviewing the information presented in the dialog box.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 163
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 8.29,
+        "frame_description": "The user is viewing the Microsoft Word start screen, which displays a \"Blank Document\" template and sections for \"Recent\" and \"Pinned\" documents. No user-entered text is visible in the application interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 44
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 7.48,
+        "frame_description": "The user is viewing the Microsoft Word Templates window, with the 'Blank Document' template selected. No user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 31
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent captures the user's actions of closing an unsaved Excel document and opening Word to adjust language settings, which aligns with the goal and caption. The timeline shows the user clicking 'Don't Save' in Excel and then interacting with Word regarding language changes, matching the described actions without contradiction."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate and align well with the keyframes. The descriptions correctly identify user interactions such as hovering over buttons, typing commands, and clicking 'OK' in Word's pop-up message. There are no fabricated or contradicted actions reported. However, there is a minor discrepancy in Frame 424 where the URL provided in the description does not match the ground truth answer (http://go.microsoft.com/fwlink/?linkid=715990 instead of http://go.microsoft.com/fwlink/?linkid=2121920). This could lead to an incorrect answer if this specific detail were crucial for answering a question. The timeline allows for consistent answers with the given QA, as it covers all necessary interactions and details."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 6,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "excel",
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions that match some of the ground-truth keyframes, specifically those involving Excel and Word. The timeline captures the user's interaction with Excel's save dialog and Word's language change prompt."
+        },
+        "non_repetition": {
+          "score": 4,
+          "reasoning": "The AI timeline contains some redundancy, particularly between frames 408 and 424 where similar information about a Microsoft Word dialog box is repeated without significant change. However, the majority of entries describe distinct actions or states across different applications and contexts."
+        }
+      },
+      "composite_score": 16.67,
+      "max_score": 20,
+      "latency_sec": 50.5
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.059,
+        "recall": 0.5333,
+        "f1": 0.1063
+      },
+      "rouge2": {
+        "precision": 0.0129,
+        "recall": 0.1186,
+        "f1": 0.0233
+      },
+      "rougeL": {
+        "precision": 0.0369,
+        "recall": 0.3333,
+        "f1": 0.0664
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0125
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 127.43,
+      "total_vlm_inference_sec": 74.19,
+      "intent_latency_sec": 2.71,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 10.6,
+      "median_frame_latency_sec": 10.95,
+      "min_frame_latency_sec": 7.48,
+      "max_frame_latency_sec": 14.42,
+      "avg_description_length_chars": 481.1,
+      "total_prompt_tokens": 15491,
+      "total_completion_tokens": 984,
+      "avg_completion_tokens_per_sec": 12.7,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemma3:4b_diff0.005": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.005,
+    "frames_processed": 11,
+    "intent": "The user was likely searching for something related to \"Rain,\" potentially within a document or application, as evidenced by the repeated typing and clicking on the search icon.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 3.52,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 2.17,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 2.09,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 236,
+        "timestamp_sec": 5.04,
+        "latency_sec": 2.82,
+        "frame_description": "The user is clicking on the \"search\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 2.06,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 2.19,
+        "frame_description": "The user is clicking on the \"Shape\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 2.1,
+        "frame_description": "The user is clicking on the \"Word\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 524,
+        "timestamp_sec": 11.19,
+        "latency_sec": 2.27,
+        "frame_description": "The user is typing \"Rain\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 2.15,
+        "frame_description": "The user is clicking on the \"search\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 566,
+        "timestamp_sec": 12.08,
+        "latency_sec": 2.19,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 2.23,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 1,
+          "reasoning": "The AI inferred intent suggests that the user was searching for something related to 'Rain,' which does not align with the core objective of closing Excel and opening Word. The timeline shows actions like clicking on menus, icons, and typing 'Rain' into a search bar, but these do not directly relate to the goal of transitioning from Excel to Word. There is no contradiction in the timeline regarding the reasoning or prediction questions, as they focus on different aspects (saving changes and application behavior). However, the inferred intent does not match the core objective described by the goal and caption."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, there are no mentions of interactions related to Excel or Word in the keyframes, such as typing 'To' into a field (Frame 1 and Frame 66) or clicking on a 'Shape' button (Frame 407). These actions contradict the ground truth which involves closing an unsaved Excel file, using Spotlight to open Word, and acknowledging a language change. The timeline does not provide enough information to answer the STATIC QA about the pop-up message details accurately, as it lacks any mention of such a prompt. For SEQUENTIAL-QA, while the action of clicking 'Don't Save' is consistent with the keyframes, the timeline does not explicitly describe this sequence. The MCQA can be answered correctly based on the keyframe information that the user clicked 'Don't Save', but the AI frame descriptions do not support this directly."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 6,
+          "total": 9,
+          "covered_actions": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "covered_apps": [
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to searching and clicking on icons, which align with some keyframe actions but not all. The timeline does not mention any specific keyboard inputs or error prompts."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that repeat the same action without meaningful change, such as typing 'To' and clicking on the 'File' menu multiple times. However, there are also distinct actions interspersed throughout the timeline."
+        }
+      },
+      "composite_score": 8.67,
+      "max_score": 20,
+      "latency_sec": 43.38
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1648,
+        "recall": 0.25,
+        "f1": 0.1987
+      },
+      "rouge2": {
+        "precision": 0.0333,
+        "recall": 0.0508,
+        "f1": 0.0403
+      },
+      "rougeL": {
+        "precision": 0.1319,
+        "recall": 0.2,
+        "f1": 0.1589
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0038
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 70.27,
+      "total_vlm_inference_sec": 25.79,
+      "intent_latency_sec": 1.05,
+      "frames_processed": 11,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.34,
+      "median_frame_latency_sec": 2.19,
+      "min_frame_latency_sec": 2.06,
+      "max_frame_latency_sec": 3.52,
+      "avg_description_length_chars": 41.5,
+      "total_prompt_tokens": 4430,
+      "total_completion_tokens": 168,
+      "avg_completion_tokens_per_sec": 5.2,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemma3:4b_diff0.01": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.01,
+    "frames_processed": 9,
+    "intent": "The user was likely searching for a specific item or information within a program, starting with a search query and potentially manipulating shapes or text elements along the way.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 3.52,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 2.17,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 2.09,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 2.08,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 2.06,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 2.19,
+        "frame_description": "The user is clicking on the \"Shape\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 2.1,
+        "frame_description": "The user is clicking on the \"Word\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 2.15,
+        "frame_description": "The user is clicking on the \"search\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 2.23,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent suggests that the user was searching for specific information and manipulating elements, which aligns partially with the goal of closing Excel and opening Word. However, the timeline shows actions related to file management (clicking 'File' menu) and application switching (clicking 'Word' icon), but not explicitly a search or manipulation of shapes as inferred by AI. The core objective of transitioning from Excel to Word is captured, but the specifics about searching or manipulating elements are not supported by the timeline."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, frames describe interactions such as typing 'To' into a field and clicking on a 'File' menu, which are not mentioned in the keyframes. Additionally, there is no mention of using Spotlight or interacting with Word in the described frames, contradicting the keyframe actions involving these applications. These discrepancies indicate fabricated content that does not align with the ground truth."
+        },
+        "coverage": {
+          "score": 2.78,
+          "coverage": 0.444,
+          "covered": 4,
+          "total": 9,
+          "covered_actions": [
+            2,
+            4,
+            6
+          ],
+          "covered_apps": [
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to clicking and typing, but does not match the specific sequence or context of the ground-truth keyframes. The timeline includes interactions with a search bar and icons that could relate to opening applications."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe the same action without meaningful change, such as multiple entries for typing 'To' and clicking on the 'File' menu. These repetitions indicate redundancy."
+        }
+      },
+      "composite_score": 8.78,
+      "max_score": 20,
+      "latency_sec": 36.24
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1892,
+        "recall": 0.2333,
+        "f1": 0.209
+      },
+      "rouge2": {
+        "precision": 0.0411,
+        "recall": 0.0508,
+        "f1": 0.0455
+      },
+      "rougeL": {
+        "precision": 0.1486,
+        "recall": 0.1833,
+        "f1": 0.1642
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0032
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 57.63,
+      "total_vlm_inference_sec": 20.59,
+      "intent_latency_sec": 0.74,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.29,
+      "median_frame_latency_sec": 2.15,
+      "min_frame_latency_sec": 2.06,
+      "max_frame_latency_sec": 3.52,
+      "avg_description_length_chars": 41.3,
+      "total_prompt_tokens": 3639,
+      "total_completion_tokens": 144,
+      "avg_completion_tokens_per_sec": 5.4,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemma3:4b_diff0.05": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.05,
+    "frames_processed": 7,
+    "intent": "The user was likely attempting to send a file, possibly searching for it afterward.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 3.52,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 69,
+        "timestamp_sec": 1.47,
+        "latency_sec": 2.19,
+        "frame_description": "The user is typing \"To\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 85,
+        "timestamp_sec": 1.81,
+        "latency_sec": 2.09,
+        "frame_description": "The user is clicking on the \"File\" menu.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 408,
+        "timestamp_sec": 8.71,
+        "latency_sec": 2.06,
+        "frame_description": "The user is clicking on the \"Send\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 424,
+        "timestamp_sec": 9.05,
+        "latency_sec": 2.17,
+        "frame_description": "The user is clicking on the \"Word\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 2.15,
+        "frame_description": "The user is clicking on the \"search\" icon.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 2.23,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 1,
+          "reasoning": "The AI inferred intent suggests that the user was attempting to send a file and possibly searching for it afterward. However, this does not align with the core objective described by the goal (Close Excel, open Word) and caption (Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word). The timeline shows actions related to sending a document and searching, which contradicts the specific intent of closing Excel and opening Word without mention of sending or searching. Therefore, the inferred intent does not match the user's underlying objective."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, Frame 1 and Frame 69 mention typing 'To' into a field, which is not part of the described actions in the keyframes. Similarly, Frame 85 mentions clicking on the 'File' menu, and Frame 408 mentions clicking on the 'Send' button, neither of which are mentioned in the keyframes. These descriptions contradict the ground truth provided by the keyframes. The timeline does allow for answering the STATIC QA consistently with the given answer as it includes opening Word and acknowledging a language change pop-up. For SEQUENTIAL-QA, the timeline supports the sequence of actions described (deciding not to save in Excel, then using Spotlight to open Word). However, MCQA is directly contradicted by the AI frame descriptions since they do not mention clicking 'Don't Save' as specified in the keyframes."
+        },
+        "coverage": {
+          "score": 2.33,
+          "coverage": 0.333,
+          "covered": 3,
+          "total": 9,
+          "covered_actions": [
+            2,
+            4
+          ],
+          "covered_apps": [
+            "word"
+          ],
+          "reasoning": "The AI timeline describes actions related to clicking and typing, but does not match the specific keyframe actions involving Excel error reporting or changing language settings in Word. The timeline includes interactions with a search bar and icons that could relate to accessing applications."
+        },
+        "non_repetition": {
+          "score": 4,
+          "reasoning": "The AI timeline contains a notable redundancy in Frame 69, which repeats the action described in Frame 1 without any meaningful change. The rest of the entries describe distinct actions at different times."
+        }
+      },
+      "composite_score": 9.33,
+      "max_score": 20,
+      "latency_sec": 39.22
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2414,
+        "recall": 0.2333,
+        "f1": 0.2373
+      },
+      "rouge2": {
+        "precision": 0.0526,
+        "recall": 0.0508,
+        "f1": 0.0517
+      },
+      "rougeL": {
+        "precision": 0.1897,
+        "recall": 0.1833,
+        "f1": 0.1864
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0022
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 56.16,
+      "total_vlm_inference_sec": 16.41,
+      "intent_latency_sec": 0.5,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.34,
+      "median_frame_latency_sec": 2.17,
+      "min_frame_latency_sec": 2.06,
+      "max_frame_latency_sec": 3.52,
+      "avg_description_length_chars": 41.6,
+      "total_prompt_tokens": 2849,
+      "total_completion_tokens": 105,
+      "avg_completion_tokens_per_sec": 5.4,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user was trying to create a new blank document in Microsoft Word after closing an Excel spreadsheet and navigating away from a PowerPoint presentation.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 6.13,
+        "frame_description": "The user is clicking on the \"Save...\" button in a confirmation dialog within Microsoft Excel. The visible user-entered text in the spreadsheet includes \"Model\", \"RefCOCO val\", \"RefCOCO test\", \"RefCOCO+ val\", \"RefCOCO+ test\", \"RefCOCOg val\", \"RefCOCOg test\", \"Kosmos-2\", \"52.32\", \"57.42\", \"45.48\", \"50.73\", \"42.24\", \"60.57\", and \"61.65\".",
+        "prompt_tokens": 1200,
+        "completion_tokens": 127
+      },
+      {
+        "frame_number": 66,
+        "timestamp_sec": 1.41,
+        "latency_sec": 4.77,
+        "frame_description": "The user is clicking on the 'Don't Save' button.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 82,
+        "timestamp_sec": 1.75,
+        "latency_sec": 6.06,
+        "frame_description": "The user is viewing a presentation titled 'Kosmos-family'.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 259,
+        "timestamp_sec": 5.53,
+        "latency_sec": 7.61,
+        "frame_description": "The user is typing 'wo' into the search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 330,
+        "timestamp_sec": 7.05,
+        "latency_sec": 7.48,
+        "frame_description": "The user is editing a slide presentation titled \"Kosmos-family\" in Microsoft PowerPoint. \n\nThe visible user-entered text in the application includes:\n\n- Slide Title: `\"Model performance on Ref",
+        "prompt_tokens": 1200,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 407,
+        "timestamp_sec": 8.69,
+        "latency_sec": 6.86,
+        "frame_description": "The user is viewing a pop-up dialog box titled \"Default Editing Language Changed\" in Microsoft PowerPoint.\n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 423,
+        "timestamp_sec": 9.03,
+        "latency_sec": 5.72,
+        "frame_description": "The user is viewing a popup dialog box on the desktop titled 'Default Editing Language Changed'.\n\nThere is no visible user-entered text.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 550,
+        "timestamp_sec": 11.74,
+        "latency_sec": 6.12,
+        "frame_description": "The user is hovering the mouse cursor over the Microsoft Word window. There is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 588,
+        "timestamp_sec": 12.55,
+        "latency_sec": 4.61,
+        "frame_description": "The user is clicking on the 'Blank Document' template in Microsoft Word.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 15
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Close Excel, open Word.",
+      "reference_caption": "Closing an unsaved Excel spreadsheet, invoking Spotlight to open Word, and acknowledging the change in default editing language.",
+      "reference_apps": [
+        "PPT",
+        "excel",
+        "word"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 22,
+          "sub_goal": "Closed an excel, prompted to report an error, I clicked to save it.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 59,
+          "sub_goal": "After thinking about it, I decided to click \"do not save\" at the back.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 236,
+          "sub_goal": "Shortcut key to access spotlight",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 319,
+          "sub_goal": "Inputted word, want to open word application.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "word"
+        },
+        {
+          "frame": 433,
+          "sub_goal": "The word pops up a prompt, default editing language changed.",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 491,
+          "sub_goal": "I clicked on the OK button in the pop-up window.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as described by the goal and caption. The timeline shows actions consistent with closing Excel, invoking Spotlight to open Word, and acknowledging a change in default editing language, which aligns with the core objective of transitioning from Excel to creating a new document in Word."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes. Frame 1 correctly describes clicking 'Save...', and Frame 66 accurately captures clicking 'Don't Save'. The transition to using Spotlight is not explicitly described but inferred from typing 'wo' in Frame 259, which aligns with the keyframe of typing 'word'. Frame 407 mentions a pop-up dialog box titled 'Default Editing Language Changed', consistent with the keyframes. However, there are inaccuracies: Frame 82 and Frame 330 mention PowerPoint, which is not part of the ground truth actions. These frames introduce fabricated interactions that contradict the sequence described in the keyframes."
+        },
+        "coverage": {
+          "score": 3.22,
+          "coverage": 0.556,
+          "covered": 5,
+          "total": 9,
+          "covered_actions": [
+            1,
+            2,
+            6
+          ],
+          "covered_apps": [
+            "PPT",
+            "excel"
+          ],
+          "reasoning": "The AI timeline describes actions that match some of the keyframes, specifically those involving mouse clicks and application interactions. The timeline does not cover all keyframe actions but includes relevant ones."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several frames that describe similar actions without meaningful changes in context or detail. For example, Frames 407 and 423 both describe viewing the same 'Default Editing Language Changed' dialog box with no additional information provided between them. Similarly, Frame 550 describes hovering over a Microsoft Word window, which is not followed by any new action until Frame 588."
+        }
+      },
+      "composite_score": 13.22,
+      "max_score": 20,
+      "latency_sec": 37.63
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1188,
+        "recall": 0.4,
+        "f1": 0.1832
+      },
+      "rouge2": {
+        "precision": 0.0398,
+        "recall": 0.1356,
+        "f1": 0.0615
+      },
+      "rougeL": {
+        "precision": 0.0891,
+        "recall": 0.3,
+        "f1": 0.1374
+      },
+      "num_sub_goals": 6,
+      "latency_sec": 0.0085
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 95.76,
+      "total_vlm_inference_sec": 55.36,
+      "intent_latency_sec": 2.74,
+      "frames_processed": 9,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.15,
+      "median_frame_latency_sec": 6.12,
+      "min_frame_latency_sec": 4.61,
+      "max_frame_latency_sec": 7.61,
+      "avg_description_length_chars": 134.2,
+      "total_prompt_tokens": 11264,
+      "total_completion_tokens": 342,
+      "avg_completion_tokens_per_sec": 5.7
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "run_id": "20260810_150208_881390d0",
+  "video_path": "/Users/decryan/Documents/PD/CT5230/screen-recording-description/evaluation/data/GUI-World/multi/10.mp4",
+  "status": "succeeded",
+  "submitted_at": "2026-08-10T14:02:08.636758+00:00",
+  "analysis_prompt": null,
+  "started_at": "2026-08-10T14:02:08.636971+00:00",
+  "run_dir": "20260810_150208_881390d0",
+  "finished_at": "2026-08-10T14:03:09.975254+00:00",
+  "processing_sec": 61.34,
+  "video_length_sec": 17.78,
+  "frames_processed": 10
+}

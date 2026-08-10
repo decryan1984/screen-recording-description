@@ -1,0 +1,116 @@
+{
+  "video": "/Users/decryan/Documents/PD/CT5230/screen-recording-description/evaluation/data/GUI-World/multi/10.mp4",
+  "total_frames": 533,
+  "fps": 29.97002997002997,
+  "video_length_sec": 17.78,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 533,
+  "frames_processed": 10,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "analysis_prompt": "Below is a chronological sequence of observations from a screen recording (per-frame descriptions, or partial summaries of them):\n\n{entries}\n\nIn one or two sentences, state what the user was trying to accomplish overall. Infer the goal only from the observed actions \u2014 do not invent details or quote text that is not shown above. Respond with the intent only, no preamble or labels.",
+    "intent": "The user is attempting to install Microsoft Office by navigating to the installation page and hovering over the \"Install\" button in the browser's prompt.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 3.41,
+        "frame_description": "The user is viewing the Microsoft Office Home page, with no active text input or editing occurring.",
+        "prompt_tokens": 993,
+        "completion_tokens": 20
+      },
+      {
+        "frame_number": 152,
+        "timestamp_sec": 5.07,
+        "latency_sec": 9.78,
+        "frame_description": "The user is viewing the Microsoft Office Home page, which displays a list of recent documents and files. The visible user-entered text includes:\n\n- \"Good afternoon\"\n- \"Search\" (in the search bar)\n- \"YouTube\"\n- \"Kevin Stratvert's OneDrive (Personal)\"\n- \"Kevin Cookie Company Financials\"\n- \"Kevin Stratvert's OneDrive (Personal) > Videos > Tutorials\"\n- \"Dec 28, 2020\"\n- \"Networth Tracker New\"\n- \"Kevin Stratvert's OneDrive (Personal) > ...fice Live Documents\"\n- \"Dec 27, 2020\"\n- \"Accounts\"\n- \"Kevin Stratvert's OneDrive (Personal) > ...fice Live Documents\"\n- \"Dec 23, 2020\"\n- \"Pay 1040_receipt_31.8.2020\"\n- \"Kevin Stratvert's OneDrive (Personal) > Taxes\"\n- \"Dec 23, 2020\"\n- \"Workbook 2020\"\n- \"Kevin Stratvert's OneDrive (Personal) > Taxes",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 5.41,
+        "latency_sec": 6.37,
+        "frame_description": "The user is viewing a web page that appears to be part of a Microsoft Office-related interface, possibly a document or file management screen. The page includes options to \"Install Office\" and \"Buy Office,\" along with a list of files or documents such as \"Company Financials,\" \"Live Documents,\" and \"Taxes.\" There is also a search bar at the top with the placeholder text \"Search,\" but no active input is visible. Additionally, there is an option to \"Upload and open...\" suggesting the user can add new files. No specific action (like clicking or typing) is currently being performed by the user based on the static nature of the screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 134
+      },
+      {
+        "frame_number": 172,
+        "timestamp_sec": 5.74,
+        "latency_sec": 4.82,
+        "frame_description": "The user is viewing a webpage with options to install or buy Office software, and there is no active text input or typing occurring. The visible user-entered text includes: \"Install Office\", \"Buy Office\", \"Upload and open...\", \"3h ago\", \"Dec 28, 2020\", and \"Dec 27, 2020\".",
+        "prompt_tokens": 993,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 186,
+        "timestamp_sec": 6.21,
+        "latency_sec": 3.33,
+        "frame_description": "The user is hovering over the \"Install Office\" button on a webpage.\n\nVisible user-entered text: None.",
+        "prompt_tokens": 993,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 262,
+        "timestamp_sec": 8.74,
+        "latency_sec": 6.01,
+        "frame_description": "The user is hovering over the \"Install app?\" prompt in the browser, which appears to be related to installing Microsoft Office. The visible text in the application includes:\n\n- \"Install app?\"\n- \"Install\"\n- \"Cancel\"\n- \"Install Office\"\n- \"Buy Office\"\n- \"Upload and open...\"\n- \"3h ago\"\n- \"Dec 28, 2020\"\n- \"Dec 27, 2020\"\n\nThe user has not yet clicked any buttons or entered any text into form fields.",
+        "prompt_tokens": 993,
+        "completion_tokens": 121
+      },
+      {
+        "frame_number": 272,
+        "timestamp_sec": 9.08,
+        "latency_sec": 3.35,
+        "frame_description": "The user is hovering over the \"Install\" button in the \"Install app?\" dialog box for Office on www.office.com.",
+        "prompt_tokens": 993,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 498,
+        "timestamp_sec": 16.62,
+        "latency_sec": 4.87,
+        "frame_description": "The user is hovering over the \"Buy Office\" button on a webpage that appears to be related to Microsoft Office installation or purchase. There is no active text input or typing occurring in the visible interface. The page includes options to \"Install Office\" and \"Buy Office,\" along with an \"Upload and open...\" link, but no user-entered text is present in form fields or input areas.",
+        "prompt_tokens": 993,
+        "completion_tokens": 80
+      },
+      {
+        "frame_number": 508,
+        "timestamp_sec": 16.95,
+        "latency_sec": 5.61,
+        "frame_description": "The user is viewing the Microsoft Office Home page, which displays a list of recent files and documents. The interface shows options such as \"Recent,\" \"Pinned,\" and \"Shared with me,\" along with various file types like YouTube videos, financial documents, trackers, accounts, receipts, workbooks, notebooks, order forms, OneNote tips, and a Lambda document. There are also buttons for installing or buying Office software. No active typing or input actions are visible; the user appears to be browsing through their saved files.",
+        "prompt_tokens": 993,
+        "completion_tokens": 106
+      },
+      {
+        "frame_number": 533,
+        "timestamp_sec": 17.78,
+        "latency_sec": 5.59,
+        "frame_description": "The user is viewing the Microsoft Office Home page, which displays a list of recent files and folders. The interface shows options such as \"Recent,\" \"Pinned,\" and \"Shared with me,\" along with various document types like YouTube videos, financial documents, trackers, accounts, receipts, workbooks, notebooks, order forms, OneNote tips, and a Lambda file. There are also buttons for installing or buying Office software. No active typing or input actions are visible; the user appears to be browsing through their saved files.",
+        "prompt_tokens": 993,
+        "completion_tokens": 106
+      }
+    ],
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 55.79,
+      "total_vlm_inference_sec": 53.14,
+      "intent_latency_sec": 2.65,
+      "frames_processed": 10,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.31,
+      "median_frame_latency_sec": 5.23,
+      "min_frame_latency_sec": 3.33,
+      "max_frame_latency_sec": 9.78,
+      "avg_description_length_chars": 378.9,
+      "total_prompt_tokens": 10970,
+      "total_completion_tokens": 981,
+      "avg_completion_tokens_per_sec": 17.9,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  }
+}

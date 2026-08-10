@@ -1,0 +1,3526 @@
+{
+  "video": "/app/evaluation/data/GUI-World/multi/457.mov",
+  "total_frames": 1766,
+  "fps": 46.5793048271739,
+  "resolution": "4096x2304",
+  "gemma3:4b_tokens_512": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 2048,
+    "max_tokens": 512,
+    "enable_grayscale": false,
+    "reduced_resolution": "2048x1152",
+    "frames_processed": 7,
+    "intent": "The user was attempting to send an email, likely to someone named Ruhul Godul, including the recipient's email address and a greeting.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.06,
+        "frame_description": "The user is typing \"Cosmo2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 2.07,
+        "frame_description": "The user is typing \"Cosmo's 2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 2.06,
+        "frame_description": "The user is typing \"Ruhul Godul\" into a text field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 1.97,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 2.07,
+        "frame_description": "The user is typing \"To: [email protected]\" into a form field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 2.26,
+        "frame_description": "The user is typing \"76201234@gop.com\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 2.13,
+        "frame_description": "The user is typing \"Greetings from Dong\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective of sending an email. The timeline shows actions consistent with composing and addressing an email, including entering a recipient's address ('maskhui1003@gmail.com') and setting the subject as 'Greeting from Dongping.' These details align with the prediction answer, confirming the core objective without contradiction."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, Frame 1 mentions typing 'Cosmo2' instead of 'outlo', and subsequent frames describe incorrect text inputs like 'Ruhul Godul' and email addresses that do not match any in the keyframes. These discrepancies indicate fabricated or contradicted actions. The timeline does allow for answering the STATIC QA consistently with the given answer, as it includes interactions with the 'Focused' tab after viewing emails. However, the SEQUENTIAL-QA cannot be answered correctly due to missing specific frame descriptions of navigating back to the email overview and clicking on 'Focused'. The MCQA can be answered correctly based on the keyframe information about the email subject."
+        },
+        "coverage": {
+          "score": 1.67,
+          "coverage": 0.167,
+          "covered": 2,
+          "total": 12,
+          "covered_actions": [
+            9,
+            10
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline describes actions related to typing and entering information, but it does not match the specific keyframe actions such as opening Spotlight search or clicking on UI elements. The timeline only covers actions involving typing."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar actions without significant changes in detail (e.g., 'typing into the search bar' and 'the user is typing'), indicating redundancy. However, there are also distinct entries with specific information provided."
+        }
+      },
+      "composite_score": 10.67,
+      "max_score": 20,
+      "latency_sec": 29.05
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2535,
+        "recall": 0.2278,
+        "f1": 0.24
+      },
+      "rouge2": {
+        "precision": 0.0143,
+        "recall": 0.0128,
+        "f1": 0.0135
+      },
+      "rougeL": {
+        "precision": 0.2254,
+        "recall": 0.2025,
+        "f1": 0.2133
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0041
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 44.47,
+      "total_vlm_inference_sec": 14.62,
+      "intent_latency_sec": 0.77,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.09,
+      "median_frame_latency_sec": 2.07,
+      "min_frame_latency_sec": 1.97,
+      "max_frame_latency_sec": 2.26,
+      "avg_description_length_chars": 52.7,
+      "total_prompt_tokens": 2884,
+      "total_completion_tokens": 151,
+      "avg_completion_tokens_per_sec": 8.3,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemma3:4b_tokens_128": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 2048,
+    "max_tokens": 128,
+    "enable_grayscale": false,
+    "reduced_resolution": "2048x1152",
+    "frames_processed": 7,
+    "intent": "The user was attempting to send an email, likely to someone named Ruhul Godul, including the recipient's email address and a greeting.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.07,
+        "frame_description": "The user is typing \"Cosmo2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 2.07,
+        "frame_description": "The user is typing \"Cosmo's 2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 2.06,
+        "frame_description": "The user is typing \"Ruhul Godul\" into a text field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 1.97,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 2.07,
+        "frame_description": "The user is typing \"To: [email protected]\" into a form field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 2.24,
+        "frame_description": "The user is typing \"76201234@gop.com\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 2.12,
+        "frame_description": "The user is typing \"Greetings from Dong\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective of sending an email. The timeline shows actions consistent with composing and addressing an email, including entering a recipient's address ('maskhui1003@gmail.com') and setting the subject as 'Greeting from Dongping.' These details align with the prediction answer, confirming the core objective without contradiction."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, Frame 1 mentions typing 'Cosmo2' instead of 'outlo', and subsequent frames describe incorrect text inputs like 'Ruhul Godul' and email addresses that do not match any in the keyframes. These discrepancies indicate fabricated or contradicted actions. The timeline does allow for answering the STATIC QA consistently with the given answer, as it includes interactions with the 'Focused' tab after viewing emails. However, the SEQUENTIAL-QA cannot be answered correctly due to missing specific frame descriptions of navigating back to the email overview and clicking on 'Focused'. The MCQA can be answered correctly based on the keyframe information about the email subject."
+        },
+        "coverage": {
+          "score": 1.67,
+          "coverage": 0.167,
+          "covered": 2,
+          "total": 12,
+          "covered_actions": [
+            9,
+            10
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline describes actions related to typing and entering information, but it does not match the specific keyframe actions such as opening Spotlight search or clicking on UI elements. The timeline only covers actions involving typing."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar actions without significant changes in detail (e.g., 'typing into the search bar' and 'the user is typing'), indicating redundancy. However, there are also distinct entries with specific information provided."
+        }
+      },
+      "composite_score": 10.67,
+      "max_score": 20,
+      "latency_sec": 29.01
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2535,
+        "recall": 0.2278,
+        "f1": 0.24
+      },
+      "rouge2": {
+        "precision": 0.0143,
+        "recall": 0.0128,
+        "f1": 0.0135
+      },
+      "rougeL": {
+        "precision": 0.2254,
+        "recall": 0.2025,
+        "f1": 0.2133
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0038
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 44.41,
+      "total_vlm_inference_sec": 14.6,
+      "intent_latency_sec": 0.77,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.09,
+      "median_frame_latency_sec": 2.07,
+      "min_frame_latency_sec": 1.97,
+      "max_frame_latency_sec": 2.24,
+      "avg_description_length_chars": 52.7,
+      "total_prompt_tokens": 2884,
+      "total_completion_tokens": 151,
+      "avg_completion_tokens_per_sec": 8.3,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemma3:4b_fullres": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 0,
+    "max_tokens": 256,
+    "enable_grayscale": false,
+    "reduced_resolution": null,
+    "frames_processed": 7,
+    "intent": "The user was attempting to send an email, likely to multiple recipients, including addresses like \"720227284@gmail.com\" and \"7620720@gmail.com,\" possibly with a personalized greeting.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.23,
+        "frame_description": "The user is typing \"Cosmo2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 2.17,
+        "frame_description": "The user is typing \"kosmos2\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 2.16,
+        "frame_description": "The user is clicking on the \"Send\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 2.37,
+        "frame_description": "The user is typing into a search bar that reads \u201c720227284@gmail.com\u201d.",
+        "prompt_tokens": 369,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 2.21,
+        "frame_description": "The user is typing \"Apple ID\" into a form field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 14
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 2.39,
+        "frame_description": "The user is typing \"7620720@gmail.com\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 2.32,
+        "frame_description": "The user is typing \"Greetings from Dongjing\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 18
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent matches the user's underlying objective of sending an email. The timeline shows actions consistent with composing and preparing to send an email, such as typing recipient addresses and a subject line. However, there is a contradiction in the timeline where 'Greetings from Dongjing' was typed into the 'To' field instead of the subject or body, which differs from the prediction answer's detail about setting the subject as 'Greeting from Dongping.'"
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, Frame 1 mentions typing 'Cosmo2' instead of 'outlo', and Frame 162 shows 'kosmos2' being typed, which contradicts the correct input 'outlo'. Additionally, Frames 178, 279, 451, 601, and 1766 describe actions related to sending emails or entering email addresses that are not part of the keyframes. These descriptions contradict the user's actual interactions with opening Outlook, viewing emails, and composing a new message as outlined in the keyframes."
+        },
+        "coverage": {
+          "score": 1.0,
+          "coverage": 0.0,
+          "covered": 0,
+          "total": 12,
+          "covered_actions": [],
+          "covered_apps": [],
+          "reasoning": "The AI timeline does not describe any actions that match the ground-truth keyframes. The timeline involves typing different search terms and email addresses, clicking a 'Send' button, and entering text into form fields, none of which correspond to the specified keyframe actions."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline contains several distinct actions and changes in on-screen states, such as typing different text into various fields and clicking a button. There are no consecutive frames with identical descriptions, indicating minimal redundancy."
+        }
+      },
+      "composite_score": 10.0,
+      "max_score": 20,
+      "latency_sec": 28.81
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2958,
+        "recall": 0.2658,
+        "f1": 0.28
+      },
+      "rouge2": {
+        "precision": 0.0571,
+        "recall": 0.0513,
+        "f1": 0.0541
+      },
+      "rougeL": {
+        "precision": 0.2535,
+        "recall": 0.2278,
+        "f1": 0.24
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0034
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 45.8,
+      "total_vlm_inference_sec": 15.85,
+      "intent_latency_sec": 1.11,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.26,
+      "median_frame_latency_sec": 2.23,
+      "min_frame_latency_sec": 2.16,
+      "max_frame_latency_sec": 2.39,
+      "avg_description_length_chars": 54.1,
+      "total_prompt_tokens": 2888,
+      "total_completion_tokens": 178,
+      "avg_completion_tokens_per_sec": 7.9,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1766,
+  "gemma3:4b_diff0.001": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.001,
+    "frames_processed": 22,
+    "intent": "The user was attempting to contact someone named Dong, likely through an email related to their Apple account.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.56,
+        "frame_description": "The user is typing \"Cosmo2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 161,
+        "timestamp_sec": 3.46,
+        "latency_sec": 2.1,
+        "frame_description": "The user is typing \"Cosmo2\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 177,
+        "timestamp_sec": 3.8,
+        "latency_sec": 2.12,
+        "frame_description": "The user is typing \"Rahul Godu post...\" into a text field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 193,
+        "timestamp_sec": 4.14,
+        "latency_sec": 2.02,
+        "frame_description": "The user is clicking on the \"Send\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 254,
+        "timestamp_sec": 5.45,
+        "latency_sec": 2.02,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 2.16,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 318,
+        "timestamp_sec": 6.83,
+        "latency_sec": 2.1,
+        "frame_description": "The user is typing \"Apple\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 416,
+        "timestamp_sec": 8.93,
+        "latency_sec": 2.11,
+        "frame_description": "The user is typing \"your receipt\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 432,
+        "timestamp_sec": 9.27,
+        "latency_sec": 2.51,
+        "frame_description": "The user is typing \"Apple ID 2022072840\" into a form field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 2.2,
+        "frame_description": "The user is typing \"To: [email protected]\" into a form field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 467,
+        "timestamp_sec": 10.03,
+        "latency_sec": 2.26,
+        "frame_description": "The user is typing \"apple.com\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 520,
+        "timestamp_sec": 11.16,
+        "latency_sec": 2.22,
+        "frame_description": "The user is typing \"apple\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 536,
+        "timestamp_sec": 11.51,
+        "latency_sec": 2.07,
+        "frame_description": "The user is typing \"apple\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 560,
+        "timestamp_sec": 12.02,
+        "latency_sec": 2.13,
+        "frame_description": "The user is typing \"apple.com\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 576,
+        "timestamp_sec": 12.37,
+        "latency_sec": 2.12,
+        "frame_description": "The user is typing \"To: 20207284\"",
+        "prompt_tokens": 369,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 592,
+        "timestamp_sec": 12.71,
+        "latency_sec": 2.25,
+        "frame_description": "The user is typing \"To: yourreceipt123@gmail.com\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 608,
+        "timestamp_sec": 13.05,
+        "latency_sec": 2.24,
+        "frame_description": "The user is typing \"762012784.com\" into a form field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 23
+      },
+      {
+        "frame_number": 624,
+        "timestamp_sec": 13.4,
+        "latency_sec": 2.25,
+        "frame_description": "The user is typing into a search bar that reads \"72027284@gop.com\".",
+        "prompt_tokens": 369,
+        "completion_tokens": 26
+      },
+      {
+        "frame_number": 656,
+        "timestamp_sec": 14.08,
+        "latency_sec": 2.25,
+        "frame_description": "The user is selecting \"762027284@gmail.com\" from the address bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 25
+      },
+      {
+        "frame_number": 672,
+        "timestamp_sec": 14.43,
+        "latency_sec": 2.26,
+        "frame_description": "The user is typing \"72027284@gop.com\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 693,
+        "timestamp_sec": 14.88,
+        "latency_sec": 2.53,
+        "frame_description": "The user is typing \u201c720227.846@gop.com\u201d into the \u201cTo\u201d field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 2.4,
+        "frame_description": "The user is typing \"Greetings from Dong\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 3,
+          "reasoning": "The AI inferred intent mentions contacting someone named Dong through an email related to their Apple account. However, the timeline shows the user typing 'Greetings from Dongping' into the 'To' field, which does not match any specific detail about contacting someone named Dong or relating it to an Apple account. The core objective of composing and sending an email is captured, but the specifics differ."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies and fabricated interactions that contradict the keyframes. For example, there are multiple instances of typing unrelated text such as 'Cosmo2', 'Rahul Godu post...', and various email addresses not mentioned in the keyframes. The active application is also incorrectly described at times (e.g., searching for 'apple' instead of using Outlook). These discrepancies indicate a significant deviation from the ground truth."
+        },
+        "coverage": {
+          "score": 1.33,
+          "coverage": 0.083,
+          "covered": 1,
+          "total": 12,
+          "covered_actions": [
+            10
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline does not describe any actions related to opening Spotlight search, entering 'outlo', clicking on inbox or other emails, or interacting with Outlook in the manner described by the keyframes. The only relevant action is typing a greeting similar to keyframe 10."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar actions without meaningful changes, such as multiple entries of typing into a search bar. However, there are also numerous distinct actions and state changes throughout the timeline."
+        }
+      },
+      "composite_score": 8.33,
+      "max_score": 20,
+      "latency_sec": 36.3
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1101,
+        "recall": 0.3038,
+        "f1": 0.1616
+      },
+      "rouge2": {
+        "precision": 0.0184,
+        "recall": 0.0513,
+        "f1": 0.0271
+      },
+      "rougeL": {
+        "precision": 0.1055,
+        "recall": 0.2911,
+        "f1": 0.1549
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0094
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 87.47,
+      "total_vlm_inference_sec": 48.88,
+      "intent_latency_sec": 2.25,
+      "frames_processed": 22,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.22,
+      "median_frame_latency_sec": 2.21,
+      "min_frame_latency_sec": 2.02,
+      "max_frame_latency_sec": 2.56,
+      "avg_description_length_chars": 52.2,
+      "total_prompt_tokens": 9142,
+      "total_completion_tokens": 473,
+      "avg_completion_tokens_per_sec": 8.1,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "qwen3.5:4b_tokens_512": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 2048,
+    "max_tokens": 512,
+    "enable_grayscale": false,
+    "reduced_resolution": "2048x1152",
+    "frames_processed": 7,
+    "intent": "The user was reviewing various Apple-related emails regarding subscriptions and purchases before composing a new message to \"Q\" with the subject \"Greetings from Dongping\" and the body \"Hi, Q\".",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.15,
+        "frame_description": "The user is typing \"Spotlight Search\" in the Spotlight Search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 7.59,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in a presentation software application, with a table displaying model performance metrics for various tests.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 7.76,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no conversation currently selected in the main pane. There is no active input or typing occurring in any form fields or search bars within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 21.31,
+        "frame_description": "The user is hovering over the 'Focused' tab in the email application.\n\nVisible user-entered text:\n- \"New Message\" (button label)\n- \"Focused\" (tab label)\n- \"Other\" (tab label)\n- \"Inbox\" (folder name)\n- \"1\" (item count)\n- \"Drafts\" (folder name)\n- \"Archive\" (folder name)\n- \"Sent\" (folder name)\n- \"Deleted Items\" (folder name)\n- \"Junk Email\" (folder name)\n- \"Outbox\" (folder name)\n- \"Snoozed\" (folder name)\n- \"shuaishuaicdp@o...\" (email address)\n- \"Inbox\" (subfolder name)\n- \"Drafts\" (subfolder name)\n- \"Archive\" (subfolder name)\n- \"Sent\" (subfolder name)\n- \"Deleted Items\" (subfolder name)\n- \"Junk Email\" (subfolder name)\n- \"Conversation Hist...\" (subfolder name)\n- \"cdp_0612@163.c...\" (email address)\n- \"shuaishuaicdp@g...\" (email address)\n- \"DongpingChen06...\" (email address)\n- \"792027284@qq.c...\" (email address)\n- \"Saved Searches\" (folder name)\n- \"On My Computer\" (folder name)\n- \"X (formerly Twitter)\" (sender name)\n- \"Khimya posted...\" (preview text)\n- \"Yesterday\" (date)\n- \"792027284@qq.com\" (sender email)\n- \"Current IP Add...\" (preview text)\n- \"Current IP: 14.19.198.105\" (preview text)\n- \"Medium Daily Digest\" (sender name)\n- \"User Action Se...\" (preview text)\n- \"Stories for Shuaishuaicdp...\" (preview text)\n- \"Yesterday\" (date)\n- \"Semantic Scholar\" (sender name)\n- \"3 New Papers f...\" (preview text)\n- \"Your Weekly Digest, Marc...\" (preview text)\n- \"Google Scholar Citati...\" (sender name)\n- \"Follow research...\" (preview text)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 512
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 8.34,
+        "frame_description": "The user is viewing an email titled \"Subscription Confirmation\" from Apple, which details a subscription offer for Alibaba Cloud. The email includes information about the subscription provider, date accepted, trial period, and subscription price. There is no active typing or input visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 10.49,
+        "frame_description": "The user is viewing an email in the Apple Mail application, specifically a receipt from Apple regarding an App Store purchase. The email is open and displayed on the right side of the window, showing details such as the invoice date (01 Apr 2024), order ID (MSHL8V3BW), document number (192782942928), and a total amount of \u00a514. The email is addressed to 792027284 and sent from no_reply@apple.com. The user has not made any active input or modifications to the email content; they are simply reading the message.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 136
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 8.41,
+        "frame_description": "The user is typing \"Hi, Q\" in the email composition window.\n\nVisible user-entered text:\n- \"maskhui1003@gmail.com\" (To field)\n- \"Greetings from Dongping\" (Subject field)\n- \"Hi, Q\" (Email body)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of composing an email titled 'Greetings from Dongping' to 'maskhui1003@gmail.com', as evidenced by the timeline details in Frame 1766. The prediction question about entering a recipient's address and setting the subject aligns with these actions, matching the timeline without contradiction."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. Frame 162 describes a presentation slide unrelated to the task, which contradicts the ground truth of using Outlook on macOS. Frame 178 mentions no active input or typing in Outlook, contradicting keyframe actions like opening Spotlight and entering 'outlo'. Frame 279 shows hovering over the 'Focused' tab, but this does not align with the specific click action described in keyframe 7. The timeline allows for answering the STATIC QA correctly as it describes viewing emails in different tabs, but the SEQUENTIAL-QA is partially supported since frame 451 mentions opening an email from Apple before clicking on 'Focused'. The MCQA can be answered correctly based on frame 451's description of the email subject."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 10,
+          "total": 12,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, including opening Spotlight Search, viewing and interacting with Outlook, clicking on emails, and composing a new message. The timeline also mentions specific interactions within the Outlook application."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline provides distinct updates at each frame, reflecting meaningful changes in user actions and on-screen states without repetition. Each entry introduces new information about the user's interaction with different applications and content."
+        }
+      },
+      "composite_score": 16.33,
+      "max_score": 20,
+      "latency_sec": 43.3
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1241,
+        "recall": 0.6582,
+        "f1": 0.2088
+      },
+      "rouge2": {
+        "precision": 0.0311,
+        "recall": 0.1667,
+        "f1": 0.0524
+      },
+      "rougeL": {
+        "precision": 0.0716,
+        "recall": 0.3797,
+        "f1": 0.1205
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0115
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 116.68,
+      "total_vlm_inference_sec": 71.05,
+      "intent_latency_sec": 2.3,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 10.15,
+      "median_frame_latency_sec": 8.34,
+      "min_frame_latency_sec": 7.15,
+      "max_frame_latency_sec": 21.31,
+      "avg_description_length_chars": 418,
+      "total_prompt_tokens": 15355,
+      "total_completion_tokens": 895,
+      "avg_completion_tokens_per_sec": 12.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_tokens_128": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 2048,
+    "max_tokens": 128,
+    "enable_grayscale": false,
+    "reduced_resolution": "2048x1152",
+    "frames_processed": 7,
+    "intent": "The user was reviewing various Apple-related emails regarding subscriptions and purchases, then opened a new message to send a greeting to a contact named Q.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.14,
+        "frame_description": "The user is typing \"Spotlight Search\" in the Spotlight Search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 7.66,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in a presentation software application, with a table displaying model performance metrics for various tests.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 7.72,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no conversation currently selected in the main pane. There is no active input or typing occurring in any form fields or search bars within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 10.25,
+        "frame_description": "The user is hovering over the 'Focused' tab in the email application.\n\nVisible user-entered text:\n- \"New Message\" (button label)\n- \"Focused\" (tab label)\n- \"Other\" (tab label)\n- \"Inbox\" (folder name)\n- \"1\" (item count)\n- \"Drafts\" (folder name)\n- \"Archive\" (folder name)\n- \"Sent\" (folder name)\n- \"Deleted Items\" (folder name)\n- \"Junk Email\" (folder name)\n- \"Outbox\" (folder name)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 128
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 8.27,
+        "frame_description": "The user is viewing an email titled \"Subscription Confirmation\" from Apple, which details a subscription offer for Alibaba Cloud. The email includes information about the subscription provider, date accepted, trial period, and subscription price. There is no active typing or input visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 10.3,
+        "frame_description": "The user is viewing an email in the Apple Mail application, specifically a receipt from Apple regarding an App Store purchase. The email is open and displayed on the right side of the window, showing details such as the invoice date (01 Apr 2024), order ID (MSHL8V3BW), document number (192782942928), and a total amount of \u00a514. The email is addressed to 792027284 and sent from no_reply@apple.com. The user has not made any active input or modifications to the email content;",
+        "prompt_tokens": 2093,
+        "completion_tokens": 128
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 8.42,
+        "frame_description": "The user is typing \"Hi, Q\" in the email composition window.\n\nVisible user-entered text:\n- \"maskhui1003@gmail.com\" (To field)\n- \"Greetings from Dongping\" (Subject field)\n- \"Hi, Q\" (Email body)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective of composing and sending an email, as evidenced by actions like entering a recipient's address ('maskhui1003@gmail.com'), setting the subject ('Greetings from Dongping'), and beginning to type in the body ('Hi, Q'). These details align with the goal and caption of opening Outlook and writing an email. There are no contradictions in the timeline regarding these specific entities."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. Frame 162 describes a presentation slide unrelated to the task, and Frame 178 mentions no active input in Outlook, contradicting keyframe actions like typing 'outlo' and clicking on tabs. Frame 601 incorrectly states that the user is viewing an email in Apple Mail instead of Microsoft Outlook. These inaccuracies suggest fabricated or contradicted content."
+        },
+        "coverage": {
+          "score": 4.67,
+          "coverage": 0.917,
+          "covered": 11,
+          "total": 12,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, including opening Spotlight search, viewing Outlook, clicking on email tabs, reading an Apple email, and composing a new message. The applications mentioned are Outlook and Apple Mail."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline provides distinct updates at each frame without repeating information from previous frames. Each entry describes a new action or state, such as typing in different fields or viewing different emails, indicating minimal redundancy."
+        }
+      },
+      "composite_score": 15.67,
+      "max_score": 20,
+      "latency_sec": 34.16
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1725,
+        "recall": 0.6203,
+        "f1": 0.27
+      },
+      "rouge2": {
+        "precision": 0.0424,
+        "recall": 0.1538,
+        "f1": 0.0665
+      },
+      "rougeL": {
+        "precision": 0.1021,
+        "recall": 0.3671,
+        "f1": 0.1598
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0097
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 95.93,
+      "total_vlm_inference_sec": 59.76,
+      "intent_latency_sec": 1.98,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.54,
+      "median_frame_latency_sec": 8.27,
+      "min_frame_latency_sec": 7.14,
+      "max_frame_latency_sec": 10.3,
+      "avg_description_length_chars": 261.1,
+      "total_prompt_tokens": 15299,
+      "total_completion_tokens": 493,
+      "avg_completion_tokens_per_sec": 7.8,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_fullres": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "max_frame_width": 0,
+    "max_tokens": 256,
+    "enable_grayscale": false,
+    "reduced_resolution": null,
+    "frames_processed": 7,
+    "intent": "The user was reviewing various digital documents and emails related to cloud subscriptions and purchases before composing a new message to a contact named Q, likely to discuss or confirm the Aliyun Cloud Drive subscription details.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.27,
+        "frame_description": "The user is typing \"Spotlight Search\" in the search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 8.96,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in Microsoft PowerPoint, which includes a table comparing model performance metrics across different tests. The desktop background shows various widgets and icons, including weather information for Hubei, a clock, and several application shortcuts. There is no active text input or typing occurring in the visible application windows.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 73
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 8.81,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no conversation currently selected in the main pane. The interface shows a list of conversations from \"X (formerly Twitter)\" under categories like \"Yesterday,\" \"This Week,\" and \"Last Week.\" There is no active input field being filled or text being typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 70
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 7.63,
+        "frame_description": "The user is hovering over the 'Focused' tab in the Outlook application.\n\nNo user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 28
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 8.39,
+        "frame_description": "The user is viewing an email titled \"Subscription Confirmation\" from Apple, which details a subscription offer for Aliyun Cloud Drive. The email includes information about the trial period, pricing, and renewal terms. No active typing or input actions are visible in the interface.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 53
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 10.54,
+        "frame_description": "The user is viewing an email in Apple Mail, specifically a receipt from Apple regarding an App Store purchase. The email is open and displayed on the right side of the window, showing details such as the invoice date, order ID, and a breakdown of the purchase including a \u00a514 charge for \"\u963f\u91cc\u4e91\u76d8\" (Aliyun Drive). The left panel shows the email list with various folders like Inbox, Drafts, Sent, and other accounts. The top bar includes options for composing new messages, deleting, archiving, and other actions. There is no active typing or input being performed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 127
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 9.56,
+        "frame_description": "The user is typing \"Hi, Q\" in the email composition window.\n\nVisible user-entered text:\n- \"Hi, Q\" (in the email body)\n- \"maskkhui1003@gmail.com\" (in the To field)\n- \"Greetings from Dongping\" (in the Subject field)\n- \"Dongping Chen (shuaishuaicdp@outlook.com)\" (in the From field)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 94
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent aligns well with the user's actions in the timeline. The user was composing an email to a contact named Q, likely discussing Aliyun Cloud Drive subscription details, which matches the goal of writing an email after opening Outlook. There are no contradictions in the specific details such as recipient address or subject."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 162 incorrectly describes a PowerPoint slide, which contradicts the keyframe of opening Outlook via Spotlight search. Frames 178 and 279 correctly describe interactions within Outlook, matching the user's actions in the keyframes. Frame 451 accurately reflects the 'Subscription Confirmation' email from Apple. Frame 601 mistakenly mentions Apple Mail instead of Outlook, contradicting the keyframe sequence. The timeline allows for consistent answers to the STATIC QA and SEQUENTIAL-QA based on the correct frames, but the MCQA is supported by frame 451. Overall, there are several inaccuracies due to incorrect application descriptions."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 8,
+          "total": 12,
+          "covered_actions": [
+            1,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, including opening Spotlight search, viewing Outlook, clicking on emails, and composing a new message. However, some specific actions like entering 'outlo' or clicking on 'inbox' are not explicitly mentioned."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline provides a sequence of distinct actions and states across different applications without repeating information unnecessarily. Each frame describes a unique change in the user's interaction with their computer, such as typing, viewing emails, or navigating through Outlook."
+        }
+      },
+      "composite_score": 15.67,
+      "max_score": 20,
+      "latency_sec": 45.76
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1497,
+        "recall": 0.6329,
+        "f1": 0.2421
+      },
+      "rouge2": {
+        "precision": 0.03,
+        "recall": 0.1282,
+        "f1": 0.0487
+      },
+      "rougeL": {
+        "precision": 0.0838,
+        "recall": 0.3544,
+        "f1": 0.1356
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0092
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 109.17,
+      "total_vlm_inference_sec": 61.16,
+      "intent_latency_sec": 2.23,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 8.74,
+      "median_frame_latency_sec": 8.81,
+      "min_frame_latency_sec": 7.27,
+      "max_frame_latency_sec": 10.54,
+      "avg_description_length_chars": 298.4,
+      "total_prompt_tokens": 15274,
+      "total_completion_tokens": 500,
+      "avg_completion_tokens_per_sec": 7.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_diff0.001": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.001,
+    "frames_processed": 22,
+    "intent": "The user was reviewing purchase confirmations and then composing a new email to a recipient named Q.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.46,
+        "frame_description": "The user is typing \"Spotlight Search\" in the Spotlight Search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 161,
+        "timestamp_sec": 3.46,
+        "latency_sec": 8.89,
+        "frame_description": "The user is viewing a PowerPoint presentation slide titled \"Model performance on Refcoco\" with a table of model results. No text is being actively typed or entered in any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 177,
+        "timestamp_sec": 3.8,
+        "latency_sec": 8.95,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no conversation currently selected in the main pane. The interface shows a list of conversations from \"X (formerly Twitter)\" under the \"Inbox\" folder for the account \"shuaishuaicdp@o...\". There is no active input field being filled or text being typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 193,
+        "timestamp_sec": 4.14,
+        "latency_sec": 7.82,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no conversation currently selected in the main pane. There is no active input or typing occurring in any form fields or search bars within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 254,
+        "timestamp_sec": 5.45,
+        "latency_sec": 7.76,
+        "frame_description": "The user is hovering over the 'inbox' folder in the Outlook application.\n\nThere is no visible user-entered text in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 13.94,
+        "frame_description": "The user is hovering over the 'Focused' tab in the email application.\n\nVisible user-entered text:\n- \"New Message\" (button label)\n- \"Focused\" (tab label)\n- \"Other\" (tab label)\n- \"Inbox\" (folder name)\n- \"1\" (item count)\n- \"Drafts\" (folder name)\n- \"Archive\" (folder name)\n- \"Sent\" (folder name)\n- \"Deleted Items\" (folder name)\n- \"Junk Email\" (folder name)\n- \"Outbox\" (folder name)\n- \"Snoozed\" (folder name)\n- \"shuaishuaicdp@o...\" (email address)\n- \"Inbox\" (subfolder name)\n- \"Drafts\" (subfolder name)\n- \"Archive\" (subfolder name)\n- \"Sent\" (subfolder name)\n- \"Deleted Items\" (subfolder name)\n- \"Junk Email\" (subfolder name)\n- \"Conversation Hist...\" (subfolder name)\n- \"cdp_0612@163.c...\" (email address)\n- \"sh",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 318,
+        "timestamp_sec": 6.83,
+        "latency_sec": 8.78,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no active typing or input fields engaged. The interface displays a list of email conversations under \"Focused\" and \"Other\" tabs, with no selected conversation open in the main reading pane. No user-entered text is visible in form fields, search bars, or active input areas.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 69
+      },
+      {
+        "frame_number": 416,
+        "timestamp_sec": 8.93,
+        "latency_sec": 8.51,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no active email conversation selected. The interface shows a list of emails under \"Inbox\" and other folders like \"Drafts,\" \"Archive,\" and \"Sent.\" There is no visible text being typed or entered in any form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 63
+      },
+      {
+        "frame_number": 432,
+        "timestamp_sec": 9.27,
+        "latency_sec": 14.49,
+        "frame_description": "The user is viewing an email from Apple titled \"Subscription Confirmation\" in the Outlook application.\n\nVisible user-entered text:\n- In the email preview: \"Apple <no_reply@email.apple.com>\" and \"To: 792027284\"\n- In the email body (partially visible): \"Your receipt fr... Yesterday Invoice APPLE ID 7920272...\"\n- In the email list: \"Apple\", \"Subscription Confirmation...\", \"Hult International Bu...\", \"Discover new l... Yesterday Online version \u6765\u7231\u7684 Don...\", \"WakaTime\", \"[goal] Code 1 h... Yesterday Hooray! You achieved codi...\", \"Steam\", \"\u60a8 Steam \u613f\u671b... \u60a8\u5df2\u52a0\u5165\u613f\u671b\u5355\u7684 2 \u6b3e...\", \"edX Team\", \"Tick tock! Tax... 2024/3/1 Plan for the future by takin...\", \"WakaTime\", \"[goal] Code 1... 2024/3/1 Hooray! You achieved codi...\", \"Discord\", \"Midjourney Bo... 2024/3/30 \u60a8\u6709 1 \u6761\u65b0\u6d88\u606f @Midjour...\", \"OpenAI",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 8.13,
+        "frame_description": "The user is viewing an email titled \"Subscription Confirmation\" from Apple, which details a subscription offer for Alibaba Cloud. The email includes information about the subscription provider, date accepted, trial period, and subscription price. There is no active typing or input visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 467,
+        "timestamp_sec": 10.03,
+        "latency_sec": 8.41,
+        "frame_description": "The user is viewing an email titled \"Subscription Confirmation\" from Apple, which details a subscription offer for Alibaba Cloud. The email includes details such as the subscription provider, date accepted, trial period, and subscription price. The user appears to be reviewing the content of the email, possibly considering the subscription offer.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      },
+      {
+        "frame_number": 520,
+        "timestamp_sec": 11.16,
+        "latency_sec": 10.4,
+        "frame_description": "The user is viewing an email about a subscription confirmation from Apple.\n\nVisible user-entered text:\n- To: 792027284\n- App: \u963f\u91cc\u4e91\u76d8\n- Subscription Content Provider: \u963f\u91cc\u4e91\u76d88TB\u8d85\u7ea7\u4f1a\u5458\u8fde\u7eed\u5305\u5e74 Hangzhou DuanquNetwork Media Technology Co., Ltd.\n- Date Accepted: 31 March 2024\n- Trial: \u00a5148.00 for 1 year, starting 31 March 2024\n- Subscription Price: \u00a5168.00/year, starting 31 March 2025",
+        "prompt_tokens": 2093,
+        "completion_tokens": 134
+      },
+      {
+        "frame_number": 536,
+        "timestamp_sec": 11.51,
+        "latency_sec": 11.12,
+        "frame_description": "The user is viewing a subscription confirmation email from Apple regarding an Aliyun Drive subscription.\n\nVisible user-entered text in the application:\n- To: 792027284\n- Subject: Subscription Confirmation\n- Date Accepted: 31 March 2024\n- Trial: \u00a5148.00 for 1 year, starting 31 March 2024\n- Subscription Price: \u00a5168.00/year, starting 31 March 2025\n- Review your subscription (hyperlink text)\n- Apple Support (hyperlink text)\n- Apple ID Summary (hyperlink text)\n- Terms of Sale (hyperlink text)\n- Privacy Policy (hyperlink text)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 160
+      },
+      {
+        "frame_number": 560,
+        "timestamp_sec": 12.02,
+        "latency_sec": 13.91,
+        "frame_description": "The user is viewing an email from Apple regarding a subscription confirmation for Apple Cloud Storage.\n\nVisible user-entered text:\n- To: 792027284\n- Apple <no_reply@email.apple.com>\n- Apple\n- Your receipt fr...\n- Yesterday\n- Invoice APPLE ID 7920272...\n- Apple\n- Subscription...\n- Yesterday\n- Subscription Confirmation...\n- Hult International Bu...\n- Yesterday\n- Online version \u91c7\u7231\u7684Don...\n- WakaTime\n- [goal] Code 1 h...\n- Yesterday\n- Hooray! You achieved codi...\n- Steam\n- \u60a8 Steam \u613f\u671b...\n- Yesterday\n- \u60a8\u5df2\u52a0\u5165\u613f\u671b\u5355\u7684 2 \u6b3e\u6e38...\n- edX Team\n- Tick tock! Tax...\n- 2024/3/31\n- Plan for the future by takin...\n- WakaTime\n- [goal] Code 1...\n- 2024/3/31\n- Hooray! You achieved codi...\n- Discord\n- Midjourney Bo...\n- 2024/3",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 576,
+        "timestamp_sec": 12.37,
+        "latency_sec": 9.57,
+        "frame_description": "The user is viewing an email in the Apple Mail application, specifically the email titled \"Your receipt from Apple.\"\n\nVisible user-entered text in the application:\n- In the email preview: \"Apple <no_reply@email.apple.com>\" and \"To: 792027284\"\n- In the email body (partially visible): \"Your receipt fr...\" and \"Invoice APPLE ID 7920272...\"\n- In the email subject line: \"Your receipt from Apple.\"",
+        "prompt_tokens": 2093,
+        "completion_tokens": 108
+      },
+      {
+        "frame_number": 592,
+        "timestamp_sec": 12.71,
+        "latency_sec": 11.44,
+        "frame_description": "The user is viewing an email in the Apple Mail application, specifically an invoice from Apple. The email is open and displayed on the right side of the window, showing details such as the sender (Apple <no_reply@email.apple.com>), recipient (792027284), invoice ID, order ID, document number, and a breakdown of charges including \u00a514 for App Store services. The left panel shows the email list with various accounts and folders like Inbox, Drafts, Archive, Sent, Junk Email, and Snoozed. The top menu bar includes options like New Message, Delete, Archive, Move, Flag, Mark Unread, and Sync. There are no visible user-entered texts in form fields or search bars in the current view.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 158
+      },
+      {
+        "frame_number": 608,
+        "timestamp_sec": 13.05,
+        "latency_sec": 10.3,
+        "frame_description": "The user is viewing an email in the Apple Mail application, specifically a receipt from Apple regarding an App Store purchase. The email is open and displayed on the right side of the window, showing details such as the invoice date (01 Apr 2024), order ID (MSHL8V3BW), document number (192782942928), and a total amount of \u00a514. The email is from Apple <no_reply@email.apple.com> to 792027284. The user has not made any active input or interaction with the email content at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 132
+      },
+      {
+        "frame_number": 624,
+        "timestamp_sec": 13.4,
+        "latency_sec": 7.33,
+        "frame_description": "The user is hovering over the 'New Message' button in the Outlook application.\n\nNo user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 656,
+        "timestamp_sec": 14.08,
+        "latency_sec": 7.49,
+        "frame_description": "The user is hovering over the 'New Message' button in the Outlook application. No text has been entered by the user in any form fields or search bars.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 33
+      },
+      {
+        "frame_number": 672,
+        "timestamp_sec": 14.43,
+        "latency_sec": 7.78,
+        "frame_description": "The user is hovering over the 'New Message' button in the Outlook application.\n\nVisible user-entered text:\n- From: Dongping Chen (shuaishuaicdp@outlook.com)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 43
+      },
+      {
+        "frame_number": 693,
+        "timestamp_sec": 14.88,
+        "latency_sec": 8.8,
+        "frame_description": "The user is composing a new email message in the Outlook application. The 'From' field is filled with \"Dongping Chen (shuaishuaicdp@outlook.com)\", and the cursor is active in the 'To' field, indicating the user is about to enter recipient information. No text has been entered in the 'To' or 'Subject' fields yet.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 78
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 8.37,
+        "frame_description": "The user is typing \"Hi, Q\" in the email composition window.\n\nVisible user-entered text:\n- \"maskhui1003@gmail.com\" (To field)\n- \"Greetings from Dongping\" (Subject field)\n- \"Hi, Q\" (Email body)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective of composing an email in Outlook, as evidenced by actions like entering a recipient address and setting a subject. The timeline shows 'maskhui1003@gmail.com' in the To field and 'Greetings from Dongping' as the Subject, which MATCHES the prediction details. There are no contradictions with these specifics."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 1 mentions 'Spotlight Search' instead of just 'command + space', which is a minor discrepancy. Frames 161 and 177 incorrectly describe viewing PowerPoint slides and no active interaction, contradicting the keyframe actions related to Outlook. Frame 254 correctly identifies hovering over 'inbox', but later frames (279, 318) inaccurately describe interactions with tabs like 'Focused' without corresponding keyframes. The description of typing in frame 1766 matches the keyframe for composing a message. For STATIC QA, the timeline supports the answer about the importance of emails in the 'Focused' tab. SEQUENTIAL-QA is consistent as it describes navigating to 'Focused' after viewing an email. MCQA correctly identifies the subject as 'Subscription Confirmation'. Overall, there are several inaccuracies and some fabricated content."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 10,
+          "total": 12,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, including opening Spotlight search, entering 'outlo', viewing and interacting with Outlook emails, and composing a new message. The timeline also mentions specific interactions like clicking on folders and hovering over buttons."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, particularly in the Outlook application views. However, there are also numerous entries with new information such as typing actions and email content details."
+        }
+      },
+      "composite_score": 14.33,
+      "max_score": 20,
+      "latency_sec": 80.64
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0527,
+        "recall": 0.7975,
+        "f1": 0.0988
+      },
+      "rouge2": {
+        "precision": 0.0126,
+        "recall": 0.1923,
+        "f1": 0.0236
+      },
+      "rougeL": {
+        "precision": 0.036,
+        "recall": 0.5443,
+        "f1": 0.0675
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0283
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 297.15,
+      "total_vlm_inference_sec": 209.65,
+      "intent_latency_sec": 6.81,
+      "frames_processed": 22,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.53,
+      "median_frame_latency_sec": 8.79,
+      "min_frame_latency_sec": 7.33,
+      "max_frame_latency_sec": 14.49,
+      "avg_description_length_chars": 356.2,
+      "total_prompt_tokens": 48503,
+      "total_completion_tokens": 2243,
+      "avg_completion_tokens_per_sec": 10.3,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_diff0.005": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.005,
+    "frames_processed": 13,
+    "intent": "The user was reviewing various Apple subscription confirmations and receipts to verify past purchases and billing details before composing a new email to \"Q\" to greet them.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.46,
+        "frame_description": "The user is typing \"Spotlight Search\" in the Spotlight Search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 161,
+        "timestamp_sec": 3.46,
+        "latency_sec": 8.89,
+        "frame_description": "The user is viewing a PowerPoint presentation slide titled \"Model performance on Refcoco\" with a table of model results. No text is being actively typed or entered in any form fields.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 38
+      },
+      {
+        "frame_number": 177,
+        "timestamp_sec": 3.8,
+        "latency_sec": 8.95,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no conversation currently selected in the main pane. The interface shows a list of conversations from \"X (formerly Twitter)\" under the \"Inbox\" folder for the account \"shuaishuaicdp@o...\". There is no active input field being filled or text being typed by the user at this moment.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 76
+      },
+      {
+        "frame_number": 193,
+        "timestamp_sec": 4.14,
+        "latency_sec": 7.82,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no conversation currently selected in the main pane. There is no active input or typing occurring in any form fields or search bars within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 13.94,
+        "frame_description": "The user is hovering over the 'Focused' tab in the email application.\n\nVisible user-entered text:\n- \"New Message\" (button label)\n- \"Focused\" (tab label)\n- \"Other\" (tab label)\n- \"Inbox\" (folder name)\n- \"1\" (item count)\n- \"Drafts\" (folder name)\n- \"Archive\" (folder name)\n- \"Sent\" (folder name)\n- \"Deleted Items\" (folder name)\n- \"Junk Email\" (folder name)\n- \"Outbox\" (folder name)\n- \"Snoozed\" (folder name)\n- \"shuaishuaicdp@o...\" (email address)\n- \"Inbox\" (subfolder name)\n- \"Drafts\" (subfolder name)\n- \"Archive\" (subfolder name)\n- \"Sent\" (subfolder name)\n- \"Deleted Items\" (subfolder name)\n- \"Junk Email\" (subfolder name)\n- \"Conversation Hist...\" (subfolder name)\n- \"cdp_0612@163.c...\" (email address)\n- \"sh",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 384,
+        "timestamp_sec": 8.24,
+        "latency_sec": 9.61,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no active typing or input actions occurring. The interface displays a list of email conversations under \"Focused\" and \"Other\" tabs, including messages from Apple, Hult International, WakaTime, Steam, edX Team, Discord, and OpenAI. No text fields are being edited, and no new messages are being composed. The right panel shows \"No Conversation Selected,\" indicating the user has not opened any specific email thread.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 99
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 8.13,
+        "frame_description": "The user is viewing an email titled \"Subscription Confirmation\" from Apple, which details a subscription offer for Alibaba Cloud. The email includes information about the subscription provider, date accepted, trial period, and subscription price. There is no active typing or input visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 521,
+        "timestamp_sec": 11.19,
+        "latency_sec": 10.62,
+        "frame_description": "The user is viewing a subscription confirmation email from Apple regarding an offer for Aliyun Drive (\u963f\u91cc\u4e91\u76d8).\n\nVisible user-entered text in the application:\n- To: 792027284\n- Subscription: \u963f\u91cc\u4e91\u76d88TB\u8d85\u7ea7\u4f1a\u5458\u8fde\u7eed\u5305\u5e74\n- Content Provider: Hangzhou DuanguNetwork Media Technology Co., Ltd.\n- Date Accepted: 31 March 2024\n- Trial: \u00a5148.00 for 1 year, starting 31 March 2024\n- Subscription Price: \u00a5168.00/year, starting 31 March 2026",
+        "prompt_tokens": 2093,
+        "completion_tokens": 140
+      },
+      {
+        "frame_number": 537,
+        "timestamp_sec": 11.53,
+        "latency_sec": 13.83,
+        "frame_description": "The user is viewing an email about a subscription confirmation from Apple.\n\nVisible user-entered text:\n- To: 792027284\n- Apple <no_reply@email.apple.com>\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n- Apple\n-",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 573,
+        "timestamp_sec": 12.3,
+        "latency_sec": 9.91,
+        "frame_description": "The user is viewing an email in the Apple Mail application, specifically the email titled \"Your receipt from Apple.\" The email is from Apple <no_reply@email.apple.com> and is addressed to 792027284. The email content is not fully visible, but the subject line and sender information are clear. The user appears to be reading the email, as there is no indication of any active editing or interaction with the email content. The desktop background shows various widgets and icons, but the user's focus is on the email being displayed in the Mail application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 118
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 10.45,
+        "frame_description": "The user is viewing an email in the Apple Mail application, specifically a receipt from Apple regarding an App Store purchase. The email is open and displayed on the right side of the window, showing details such as the invoice date (01 Apr 2024), order ID (MSHL8V3BW), document number (192782942928), and a total amount of \u00a514. The email is addressed to 792027284 and sent from no_reply@apple.com. The user has not made any active input or modifications to the email content; they are simply reading the message.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 136
+      },
+      {
+        "frame_number": 635,
+        "timestamp_sec": 13.63,
+        "latency_sec": 7.35,
+        "frame_description": "The user is hovering over the 'New Message' button in the Outlook application.\n\nNo user-entered text is visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 29
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 8.37,
+        "frame_description": "The user is typing \"Hi, Q\" in the email composition window.\n\nVisible user-entered text:\n- \"maskhui1003@gmail.com\" (To field)\n- \"Greetings from Dongping\" (Subject field)\n- \"Hi, Q\" (Email body)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 4,
+          "reasoning": "The AI inferred intent mentions reviewing Apple subscription confirmations and receipts before composing an email to 'Q' for a greeting. The timeline shows the user opening Outlook, viewing emails, and starting to compose an email with the subject 'Greetings from Dongping' addressed to 'maskhui1003@gmail.com'. This matches the goal of writing an email but not the inferred intent's focus on reviewing Apple subscriptions. There is no contradiction in the timeline regarding the recipient or subject."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 161 mentions a PowerPoint presentation, which is not part of the ground truth and contradicts the focus on Outlook. Frames 177 and 193 describe no active interaction in Outlook, while keyframe actions occur around these times. Frame 384 correctly describes viewing emails under 'Focused' and 'Other', aligning with keyframes 7 and 6. Frame 451 accurately reflects reading a subscription confirmation email from Apple, consistent with keyframe 6. The timeline supports the STATIC QA answer about the importance of emails in the 'Focused' tab, as it shows user interaction with this tab after viewing other emails. For SEQUENTIAL-QA, the timeline correctly indicates that after viewing the Apple email, the user clicked on 'Focused'. The MCQA is supported by frame 451 and 521, which show the subject 'Subscription Confirmation'. Overall, there are some inaccuracies but no major contradictions."
+        },
+        "coverage": {
+          "score": 4.33,
+          "coverage": 0.833,
+          "covered": 10,
+          "total": 12,
+          "covered_actions": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, including opening Spotlight search, viewing and interacting with Outlook, clicking on email tabs, reading an Apple email, and composing a new message. The timeline also mentions applications like Outlook and Apple Mail."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains several consecutive frames that describe similar states without meaningful changes, particularly in Frames 177, 193, and 384. These entries repeat the same information about viewing Outlook with no active input or selection, indicating redundancy."
+        }
+      },
+      "composite_score": 14.33,
+      "max_score": 20,
+      "latency_sec": 56.95
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.0845,
+        "recall": 0.7848,
+        "f1": 0.1525
+      },
+      "rouge2": {
+        "precision": 0.0205,
+        "recall": 0.1923,
+        "f1": 0.037
+      },
+      "rougeL": {
+        "precision": 0.0531,
+        "recall": 0.4937,
+        "f1": 0.0959
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0186
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 185.76,
+      "total_vlm_inference_sec": 125.33,
+      "intent_latency_sec": 3.45,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.64,
+      "median_frame_latency_sec": 8.95,
+      "min_frame_latency_sec": 7.35,
+      "max_frame_latency_sec": 13.94,
+      "avg_description_length_chars": 371.8,
+      "total_prompt_tokens": 28630,
+      "total_completion_tokens": 1354,
+      "avg_completion_tokens_per_sec": 10.5,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_diff0.01": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "frames_processed": 7,
+    "intent": "The user was reviewing various Apple-related emails regarding subscriptions and purchases before composing a new message to \"Q\" with the subject \"Greetings from Dongping\" and the body \"Hi, Q\".",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.46,
+        "frame_description": "The user is typing \"Spotlight Search\" in the Spotlight Search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 7.65,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in a presentation software application, with a table displaying model performance metrics for various tests.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 7.88,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no conversation currently selected in the main pane. There is no active input or typing occurring in any form fields or search bars within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 13.94,
+        "frame_description": "The user is hovering over the 'Focused' tab in the email application.\n\nVisible user-entered text:\n- \"New Message\" (button label)\n- \"Focused\" (tab label)\n- \"Other\" (tab label)\n- \"Inbox\" (folder name)\n- \"1\" (item count)\n- \"Drafts\" (folder name)\n- \"Archive\" (folder name)\n- \"Sent\" (folder name)\n- \"Deleted Items\" (folder name)\n- \"Junk Email\" (folder name)\n- \"Outbox\" (folder name)\n- \"Snoozed\" (folder name)\n- \"shuaishuaicdp@o...\" (email address)\n- \"Inbox\" (subfolder name)\n- \"Drafts\" (subfolder name)\n- \"Archive\" (subfolder name)\n- \"Sent\" (subfolder name)\n- \"Deleted Items\" (subfolder name)\n- \"Junk Email\" (subfolder name)\n- \"Conversation Hist...\" (subfolder name)\n- \"cdp_0612@163.c...\" (email address)\n- \"sh",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 8.13,
+        "frame_description": "The user is viewing an email titled \"Subscription Confirmation\" from Apple, which details a subscription offer for Alibaba Cloud. The email includes information about the subscription provider, date accepted, trial period, and subscription price. There is no active typing or input visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 10.45,
+        "frame_description": "The user is viewing an email in the Apple Mail application, specifically a receipt from Apple regarding an App Store purchase. The email is open and displayed on the right side of the window, showing details such as the invoice date (01 Apr 2024), order ID (MSHL8V3BW), document number (192782942928), and a total amount of \u00a514. The email is addressed to 792027284 and sent from no_reply@apple.com. The user has not made any active input or modifications to the email content; they are simply reading the message.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 136
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 8.37,
+        "frame_description": "The user is typing \"Hi, Q\" in the email composition window.\n\nVisible user-entered text:\n- \"maskhui1003@gmail.com\" (To field)\n- \"Greetings from Dongping\" (Subject field)\n- \"Hi, Q\" (Email body)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of composing an email titled 'Greetings from Dongping' to 'maskhui1003@gmail.com', as evidenced by the timeline details at frame 1766. The prediction about composing and sending the email aligns with this, while the reasoning question does not contradict any specific detail in the timeline."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. Frame 162 describes a presentation slide, which contradicts the ground truth of using Outlook on macOS. Frame 178 mentions no active input or typing in Outlook, while keyframe 9 indicates typing an email address. Frame 601 incorrectly states that the user is viewing an Apple Mail application instead of Microsoft Outlook. These inaccuracies suggest fabricated content and contradictions with the provided keyframes."
+        },
+        "coverage": {
+          "score": 4.67,
+          "coverage": 0.917,
+          "covered": 11,
+          "total": 12,
+          "covered_actions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes several actions that match the ground-truth keyframes, including opening Spotlight search, viewing Outlook, clicking on email tabs and messages, and composing a new message. The timeline also mentions specific visible text related to these actions."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline provides distinct updates at each frame, describing changes in user actions and on-screen content without repetition. Each entry introduces new information about the user's interaction with different applications and visible text."
+        }
+      },
+      "composite_score": 15.67,
+      "max_score": 20,
+      "latency_sec": 36.75
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1555,
+        "recall": 0.6456,
+        "f1": 0.2506
+      },
+      "rouge2": {
+        "precision": 0.0398,
+        "recall": 0.1667,
+        "f1": 0.0642
+      },
+      "rougeL": {
+        "precision": 0.0915,
+        "recall": 0.3797,
+        "f1": 0.1474
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0109
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 103.02,
+      "total_vlm_inference_sec": 63.88,
+      "intent_latency_sec": 2.35,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 9.13,
+      "median_frame_latency_sec": 8.13,
+      "min_frame_latency_sec": 7.46,
+      "max_frame_latency_sec": 13.94,
+      "avg_description_length_chars": 313.3,
+      "total_prompt_tokens": 15355,
+      "total_completion_tokens": 639,
+      "avg_completion_tokens_per_sec": 9.4,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "qwen3.5:4b_diff0.05": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.05,
+    "frames_processed": 3,
+    "intent": "The user searched for \"Spotlight Search\" to locate the Outlook application, opened their email inbox, and began composing a new message to \"maskhui1003@gmail.com\" with the subject \"Greetings from Dongping\" and the body text \"Hi, Q\".",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.46,
+        "frame_description": "The user is typing \"Spotlight Search\" in the Spotlight Search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 168,
+        "timestamp_sec": 3.61,
+        "latency_sec": 14.59,
+        "frame_description": "The user is viewing their email inbox in the Outlook application, with no conversation currently selected for reading.\n\nVisible user-entered text in the application:\n- \"New Message\" (in the green button at the top)\n- \"Home\" (in the left sidebar under Favorites)\n- \"All Accounts\" (in the left sidebar)\n- \"Inbox\" (highlighted under shuaishuaicdp@o...)\n- \"Drafts\", \"Archive\", \"Sent\", \"Deleted Items\", \"Junk Email\", \"Outbox\", \"Snoozed\" (all listed under All Accounts)\n- \"Inbox\", \"Drafts\", \"Archive\", \"Sent\", \"Deleted Items\", \"Junk Email\", \"Conversation Hist...\" (under shuaishuaicdp@o...)\n- \"cdp_0612@163.c...\", \"shuaishuaicdp@g...\", \"DongpingChen06...\", \"792027284@qq.c...\" (email addresses listed under All Accounts)\n- \"Saved Searches\", \"On My Computer\" (in the left sidebar)\n- \"Click to add notes\" (at the bottom of the main window)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 8.37,
+        "frame_description": "The user is typing \"Hi, Q\" in the email composition window.\n\nVisible user-entered text:\n- \"maskhui1003@gmail.com\" (To field)\n- \"Greetings from Dongping\" (Subject field)\n- \"Hi, Q\" (Email body)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective of opening Outlook and composing an email, as evidenced by actions like using Spotlight Search to locate Outlook, viewing emails, and typing in a new message with recipient 'maskhui1003@gmail.com' and subject 'Greetings from Dongping'. The timeline details match the prediction about composing the body of the email. There are no contradictions in the named details."
+        },
+        "accuracy": {
+          "score": 4,
+          "reasoning": "The AI frame descriptions are mostly accurate but contain some discrepancies. Frame 1 mentions 'Spotlight Search' instead of the correct keyframe action 'command + space'. Frame 168 does not mention any specific email interaction, while the keyframes indicate that an email from Apple was opened. The description in Frame 1766 matches the keyframe for composing a new message with the recipient and subject correctly noted. For QA accuracy: STATIC QA can be answered as the timeline shows user actions consistent with viewing important emails in 'Focused'. SEQUENTIAL-QA is answerable, showing the user's next action after reading an email was to click on 'Focused'. MCQA is directly supported by keyframe 6, confirming the subject of the Apple email."
+        },
+        "coverage": {
+          "score": 3.0,
+          "coverage": 0.5,
+          "covered": 6,
+          "total": 12,
+          "covered_actions": [
+            3,
+            4,
+            8,
+            9,
+            10
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes actions related to using the Outlook application, including searching for emails and composing a new message. It does not mention opening Spotlight search or entering 'outlo'."
+        },
+        "non_repetition": {
+          "score": 5,
+          "reasoning": "The AI timeline provides detailed descriptions at specific frames (1 and 1766) but lacks intermediate updates, making it difficult to assess redundancy. The entries at these frames introduce new information without repetition."
+        }
+      },
+      "composite_score": 17.0,
+      "max_score": 20,
+      "latency_sec": 44.95
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2645,
+        "recall": 0.519,
+        "f1": 0.3504
+      },
+      "rouge2": {
+        "precision": 0.0844,
+        "recall": 0.1667,
+        "f1": 0.1121
+      },
+      "rougeL": {
+        "precision": 0.1419,
+        "recall": 0.2785,
+        "f1": 0.188
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0051
+    },
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 77.63,
+      "total_vlm_inference_sec": 30.42,
+      "intent_latency_sec": 2.23,
+      "frames_processed": 3,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 10.14,
+      "median_frame_latency_sec": 8.37,
+      "min_frame_latency_sec": 7.46,
+      "max_frame_latency_sec": 14.59,
+      "avg_description_length_chars": 362.7,
+      "total_prompt_tokens": 6626,
+      "total_completion_tokens": 390,
+      "avg_completion_tokens_per_sec": 11.0,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  },
+  "gemma3:4b_diff0.005": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.005,
+    "frames_processed": 13,
+    "intent": "The user was attempting to send an email, likely to multiple recipients, including Rahul Godu and someone at apple.com, potentially with a phone number as well.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.56,
+        "frame_description": "The user is typing \"Cosmo2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 161,
+        "timestamp_sec": 3.46,
+        "latency_sec": 2.1,
+        "frame_description": "The user is typing \"Cosmo2\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 177,
+        "timestamp_sec": 3.8,
+        "latency_sec": 2.12,
+        "frame_description": "The user is typing \"Rahul Godu post...\" into a text field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 193,
+        "timestamp_sec": 4.14,
+        "latency_sec": 2.02,
+        "frame_description": "The user is clicking on the \"Send\" button.",
+        "prompt_tokens": 369,
+        "completion_tokens": 12
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 2.16,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 384,
+        "timestamp_sec": 8.24,
+        "latency_sec": 2.06,
+        "frame_description": "The user is typing \"Apple\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 2.2,
+        "frame_description": "The user is typing \"To: [email protected]\" into a form field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 521,
+        "timestamp_sec": 11.19,
+        "latency_sec": 2.1,
+        "frame_description": "The user is typing \"apple.com\" into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 537,
+        "timestamp_sec": 11.53,
+        "latency_sec": 2.09,
+        "frame_description": "The user is typing \"apple\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 13
+      },
+      {
+        "frame_number": 573,
+        "timestamp_sec": 12.3,
+        "latency_sec": 2.16,
+        "frame_description": "The user is typing \"To: 720272084\"",
+        "prompt_tokens": 369,
+        "completion_tokens": 19
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 2.27,
+        "frame_description": "The user is typing \"76201234@gop.com\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 635,
+        "timestamp_sec": 13.63,
+        "latency_sec": 2.03,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 2.4,
+        "frame_description": "The user is typing \"Greetings from Dong\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 2,
+          "reasoning": "The AI inferred intent captures the user's actions of composing and sending an email, which aligns with the goal of writing an email. However, there is a contradiction in the timeline regarding the recipient 'maskhui1003@gmail.com', as it does not appear in the timeline details provided. The core objective of sending an email is captured, but the specific detail about recipients contradicts."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, Frame 1 and Frame 161 mention typing 'Cosmo2', which contradicts the ground truth of typing 'command + space' and then 'outlo'. Similarly, other frames describe actions like typing 'Rahul Godu post...' or entering email addresses that do not match any keyframe details. These discrepancies indicate fabricated interactions. The timeline does not support answering the STATIC QA consistently with the given answer because it lacks information about the user's interaction with the 'Focused' and 'Other' tabs. For SEQUENTIAL-QA, the timeline also fails to provide a consistent answer as it omits the action of clicking on an email from Apple before navigating to 'Focused'. The MCQA can be answered correctly based on Frame 384 mentioning typing 'Apple', but this is not directly linked to the subject of the email."
+        },
+        "coverage": {
+          "score": 1.0,
+          "coverage": 0.0,
+          "covered": 0,
+          "total": 12,
+          "covered_actions": [],
+          "covered_apps": [],
+          "reasoning": "The AI timeline does not describe any actions that match the ground-truth keyframes. The timeline focuses on typing various unrelated text into search bars and form fields, without mentioning specific interactions like opening software or clicking buttons as described in the keyframes."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several consecutive frames that describe nearly identical actions without meaningful change, such as multiple entries for typing 'Cosmo2' and variations of typing into the search bar. However, there are also distinct actions described at different times."
+        }
+      },
+      "composite_score": 7.0,
+      "max_score": 20,
+      "latency_sec": 33.48
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.1833,
+        "recall": 0.2785,
+        "f1": 0.2211
+      },
+      "rouge2": {
+        "precision": 0.0168,
+        "recall": 0.0256,
+        "f1": 0.0203
+      },
+      "rougeL": {
+        "precision": 0.1583,
+        "recall": 0.2405,
+        "f1": 0.191
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0022
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 62.78,
+      "total_vlm_inference_sec": 28.27,
+      "intent_latency_sec": 1.0,
+      "frames_processed": 13,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.17,
+      "median_frame_latency_sec": 2.12,
+      "min_frame_latency_sec": 2.02,
+      "max_frame_latency_sec": 2.56,
+      "avg_description_length_chars": 48.2,
+      "total_prompt_tokens": 5262,
+      "total_completion_tokens": 233,
+      "avg_completion_tokens_per_sec": 7.0,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemma3:4b_diff0.01": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.01,
+    "frames_processed": 7,
+    "intent": "The user was attempting to send an email, likely to someone named Ruhul Godul, including the recipient's email address and a greeting.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.56,
+        "frame_description": "The user is typing \"Cosmo2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 2.08,
+        "frame_description": "The user is typing \"Cosmo's 2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 2.1,
+        "frame_description": "The user is typing \"Ruhul Godul\" into a text field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 2.16,
+        "frame_description": "The user is typing into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 2.2,
+        "frame_description": "The user is typing \"To: [email protected]\" into a form field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 2.27,
+        "frame_description": "The user is typing \"76201234@gop.com\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 2.4,
+        "frame_description": "The user is typing \"Greetings from Dong\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent matches the user's underlying objective of sending an email. The timeline shows actions consistent with composing and addressing an email, including entering a recipient's address ('maskhui1003@gmail.com') and setting the subject as 'Greeting from Dongping.' These details align with the prediction answer, confirming the core objective without contradiction."
+        },
+        "accuracy": {
+          "score": 1,
+          "reasoning": "The AI frame descriptions contain several inaccuracies when compared to the keyframes. For instance, Frame 1 mentions typing 'Cosmo2' instead of 'outlo', and subsequent frames describe incorrect text inputs like 'Ruhul Godul' and email addresses that do not match any in the keyframes. These discrepancies indicate fabricated or contradicted actions. The timeline does allow for answering the STATIC QA consistently with the given answer, as it includes interactions with the 'Focused' tab after viewing emails. However, the SEQUENTIAL-QA cannot be answered correctly due to missing specific frame descriptions of navigating back to the email overview and clicking on 'Focused'. The MCQA can be answered correctly based on the keyframe information about the email subject."
+        },
+        "coverage": {
+          "score": 1.67,
+          "coverage": 0.167,
+          "covered": 2,
+          "total": 12,
+          "covered_actions": [
+            9,
+            10
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline describes actions related to typing and entering information, but it does not match the specific keyframe actions such as opening Spotlight search or clicking on UI elements. The timeline only covers actions involving typing."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar actions without significant changes in detail (e.g., 'typing into the search bar' and 'the user is typing'), indicating redundancy. However, there are also distinct entries with specific information provided."
+        }
+      },
+      "composite_score": 10.67,
+      "max_score": 20,
+      "latency_sec": 28.98
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2535,
+        "recall": 0.2278,
+        "f1": 0.24
+      },
+      "rouge2": {
+        "precision": 0.0143,
+        "recall": 0.0128,
+        "f1": 0.0135
+      },
+      "rougeL": {
+        "precision": 0.2254,
+        "recall": 0.2025,
+        "f1": 0.2133
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0046
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 45.5,
+      "total_vlm_inference_sec": 15.77,
+      "intent_latency_sec": 0.72,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.25,
+      "median_frame_latency_sec": 2.2,
+      "min_frame_latency_sec": 2.08,
+      "max_frame_latency_sec": 2.56,
+      "avg_description_length_chars": 52.7,
+      "total_prompt_tokens": 2884,
+      "total_completion_tokens": 151,
+      "avg_completion_tokens_per_sec": 7.7,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemma3:4b_diff0.05": {
+    "model": "gemma3:4b",
+    "diff_threshold": 0.05,
+    "frames_processed": 3,
+    "intent": "The user was likely sending an email, as evidenced by the input into both a search bar and a \"To\" field.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 2.56,
+        "frame_description": "The user is typing \"Cosmo2\" into the search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 15
+      },
+      {
+        "frame_number": 168,
+        "timestamp_sec": 3.61,
+        "latency_sec": 1.99,
+        "frame_description": "The user is typing into a search bar.",
+        "prompt_tokens": 369,
+        "completion_tokens": 10
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 2.4,
+        "frame_description": "The user is typing \"Greetings from Dong\" into the \"To\" field.",
+        "prompt_tokens": 369,
+        "completion_tokens": 17
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI inferred intent of sending an email aligns well with the user's actions in the timeline, such as typing into a search bar and entering 'Greetings from Dong' into the 'To' field. These actions match the goal of composing and sending an email. There are no contradictions in the timeline regarding the recipient or subject details mentioned in the prediction answer."
+        },
+        "accuracy": {
+          "score": 2,
+          "reasoning": "The AI frame descriptions contain inaccuracies when compared to the keyframes. Frame 1 mentions typing 'Cosmo2', which contradicts the ground truth of typing 'command + space'. Frame 168 is vague and does not specify what was typed, while Frame 1766 incorrectly states that the user types 'Greetings from Dong' instead of the correct 'Greeting from Dongping.' These inaccuracies contradict the keyframes. The timeline allows for answering the STATIC QA consistently with the given answer as it includes actions related to navigating between tabs in Outlook. For SEQUENTIAL-QA, the timeline supports the sequence where after viewing an email, the user clicks on 'Focused'. The MCQA can be answered correctly based on the information provided about the subject of the Apple email."
+        },
+        "coverage": {
+          "score": 2.0,
+          "coverage": 0.25,
+          "covered": 3,
+          "total": 12,
+          "covered_actions": [
+            1,
+            9,
+            10
+          ],
+          "covered_apps": [],
+          "reasoning": "The AI timeline describes actions related to typing in a search bar and entering text into an email field, which aligns with some keyframe actions but not all. The specific applications mentioned are not directly referenced."
+        },
+        "non_repetition": {
+          "score": 2,
+          "reasoning": "The AI timeline contains a significant redundancy in its entries. The first and second frames describe similar actions without meaningful change, while the third frame introduces new information."
+        }
+      },
+      "composite_score": 11.0,
+      "max_score": 20,
+      "latency_sec": 34.59
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.4286,
+        "recall": 0.1519,
+        "f1": 0.2243
+      },
+      "rouge2": {
+        "precision": 0.037,
+        "recall": 0.0128,
+        "f1": 0.019
+      },
+      "rougeL": {
+        "precision": 0.2857,
+        "recall": 0.1013,
+        "f1": 0.1495
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0027
+    },
+    "performance": {
+      "vlm_model": "gemma3:4b",
+      "standalone_pipeline_sec": 42.12,
+      "total_vlm_inference_sec": 6.95,
+      "intent_latency_sec": 0.55,
+      "frames_processed": 3,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 2.32,
+      "median_frame_latency_sec": 2.4,
+      "min_frame_latency_sec": 1.99,
+      "max_frame_latency_sec": 2.56,
+      "avg_description_length_chars": 48.7,
+      "total_prompt_tokens": 1273,
+      "total_completion_tokens": 68,
+      "avg_completion_tokens_per_sec": 6.0,
+      "model_memory_mb": 3993,
+      "model_params": 4299915632
+    }
+  },
+  "gemini": {
+    "model": "gemini-3.6-flash",
+    "max_tokens": 1024,
+    "intent": "The user is composing and sending an email to a recipient using Microsoft Outlook after referencing information in a presentation.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.15,
+        "frame_description": "The user is opening Spotlight Search. There is no visible user-entered text in form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 22
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 6.76,
+        "frame_description": "The user is viewing a slide titled \"Model performance on Refcoco\" in Microsoft PowerPoint.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 18
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 6.35,
+        "frame_description": "The user is moving the mouse cursor over the reading pane in Microsoft Outlook. There is no visible user-entered text in any form field or search bar.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 31
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 6.32,
+        "frame_description": "The user is hovering the mouse cursor near the \"Focused\" tab in Microsoft Outlook. \n\nThere is no visible user-entered text in any form fields or search bars.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 35
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 7.75,
+        "frame_description": "The user is viewing an email in Microsoft Outlook.\n\nThere is no visible user-entered text in any search bars or form fields.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 27
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 7.33,
+        "frame_description": "The user is clicking on the 'Focused' tab.",
+        "prompt_tokens": 1200,
+        "completion_tokens": 11
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 4.87,
+        "frame_description": "The user is composing an email in Microsoft Outlook.\n\nThe user-entered text includes:\n* **To:** \"maskhui1003@gmail.com\"\n* **Subject:** \"Greetings from Dongping\"\n* **Email body:** \"Hi, Q\"",
+        "prompt_tokens": 1200,
+        "completion_tokens": 57
+      }
+    ],
+    "evaluation": {
+      "eval_model": "phi4:14b",
+      "reference_goal": "Open Outlook, then write an email.",
+      "reference_caption": "Navigating through macOS to open Microsoft Outlook, review emails, and compose a new message.",
+      "reference_apps": [
+        "PPT",
+        "outlook"
+      ],
+      "reference_keyframes": [
+        {
+          "frame": 36,
+          "sub_goal": "Opened the spotlight search on Mac.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "command + space"
+        },
+        {
+          "frame": 150,
+          "sub_goal": "Entered \"outlo\", open the Outlook mail software.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "outlo"
+        },
+        {
+          "frame": 219,
+          "sub_goal": "Open Outlook",
+          "mouse": "none",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 251,
+          "sub_goal": "Click on \"inbox\" under \"all accounts\" to view all email messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 323,
+          "sub_goal": "Click on \"others\" to view other messages.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 392,
+          "sub_goal": "Clicked on an email sent by Apple, with the subject \"subscription\"...",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 584,
+          "sub_goal": "After reading the email, click on \"focus\" to view important emails.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 631,
+          "sub_goal": "Click \"new message\" to start writing a letter.",
+          "mouse": "click",
+          "keyboard": "none",
+          "keyboardOperation": ""
+        },
+        {
+          "frame": 1181,
+          "sub_goal": "The recipient entered is maskhui1003@gmail.com.",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "maskhui1003@gmail.com"
+        },
+        {
+          "frame": 1683,
+          "sub_goal": "The title of the letter is \"Greeting from Dongping.\"",
+          "mouse": "none",
+          "keyboard": "input",
+          "keyboardOperation": "Greeting from Dongping"
+        }
+      ],
+      "scores": {
+        "intent": {
+          "score": 5,
+          "reasoning": "The AI's inferred intent matches the user's underlying objective as described by both the goal and caption. The timeline shows that the user is composing an email in Outlook, which aligns with the goal of writing an email after opening Outlook. There are no contradictions in the details such as recipient or subject."
+        },
+        "accuracy": {
+          "score": 3,
+          "reasoning": "The AI frame descriptions mostly align with the keyframes but contain some inaccuracies. Frame 162 mentions Microsoft PowerPoint, which is not part of the ground truth and contradicts the focus on Outlook. Frames 178 and 279 correctly describe interactions within Outlook but lack specific details from the keyframes, such as clicking 'inbox' or 'others'. Frame 451 does not specify the email subject, missing the detail about the Apple subscription confirmation. The timeline allows for answering the STATIC QA consistently with the given answer, as it includes interaction with the 'Focused' tab after viewing emails. For SEQUENTIAL-QA, the timeline supports the correct sequence of actions. MCQA can be answered correctly based on Frame 451's context."
+        },
+        "coverage": {
+          "score": 3.67,
+          "coverage": 0.667,
+          "covered": 8,
+          "total": 12,
+          "covered_actions": [
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "covered_apps": [
+            "outlook"
+          ],
+          "reasoning": "The AI timeline describes actions related to using Microsoft Outlook, which aligns with several keyframes involving email operations. The timeline does not mention Spotlight Search or the specific keyboard inputs."
+        },
+        "non_repetition": {
+          "score": 3,
+          "reasoning": "The AI timeline contains several frames that describe similar states without meaningful changes, such as repeated mentions of no visible user-entered text in form fields or search bars. However, there are distinct actions like moving to a new slide, hovering over different tabs, and composing an email with specific details."
+        }
+      },
+      "composite_score": 14.67,
+      "max_score": 20,
+      "latency_sec": 31.59
+    },
+    "rouge": {
+      "rouge1": {
+        "precision": 0.2466,
+        "recall": 0.4557,
+        "f1": 0.32
+      },
+      "rouge2": {
+        "precision": 0.0483,
+        "recall": 0.0897,
+        "f1": 0.0628
+      },
+      "rougeL": {
+        "precision": 0.1507,
+        "recall": 0.2785,
+        "f1": 0.1956
+      },
+      "num_sub_goals": 10,
+      "latency_sec": 0.0079
+    },
+    "performance": {
+      "vlm_model": "gemini-3.6-flash",
+      "standalone_pipeline_sec": 79.83,
+      "total_vlm_inference_sec": 46.53,
+      "intent_latency_sec": 1.69,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 6.65,
+      "median_frame_latency_sec": 6.76,
+      "min_frame_latency_sec": 4.87,
+      "max_frame_latency_sec": 7.75,
+      "avg_description_length_chars": 122.1,
+      "total_prompt_tokens": 8731,
+      "total_completion_tokens": 222,
+      "avg_completion_tokens_per_sec": 4.3
+    }
+  }
+}

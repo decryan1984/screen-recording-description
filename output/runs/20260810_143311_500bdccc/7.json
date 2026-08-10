@@ -1,0 +1,76 @@
+{
+  "video": "/Users/decryan/Documents/PD/CT5230/screen-recording-description/evaluation/data/GUI-World/multi/7.mp4",
+  "total_frames": 383,
+  "fps": 29.97002997002997,
+  "video_length_sec": 12.78,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 383,
+  "frames_processed": 5,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "analysis_prompt": "Below is a chronological sequence of observations from a screen recording (per-frame descriptions, or partial summaries of them):\n\n{entries}\n\nIn one or two sentences, state what the user was trying to accomplish overall. Infer the goal only from the observed actions \u2014 do not invent details or quote text that is not shown above. Respond with the intent only, no preamble or labels.",
+    "intent": "The user was browsing the YouTube channel of Kevin Stratvert and the Kevin Cookie Company website to view promotional content and technology-related videos.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 4.26,
+        "frame_description": "The user is hovering over the 'Kevin Stratvert - YouTube' tab in the browser, which is currently active and displaying the YouTube homepage for the channel \"Kevin Stratvert.\" No text is being actively typed or entered into any form fields at this moment.",
+        "prompt_tokens": 993,
+        "completion_tokens": 52
+      },
+      {
+        "frame_number": 157,
+        "timestamp_sec": 5.24,
+        "latency_sec": 4.93,
+        "frame_description": "The user is viewing the Kevin Cookie Company website on their desktop browser, with no active input or typing occurring. There are no visible user-entered text fields or active text being typed in the application. The page displays promotional content, including a call to action with the promo code 'Hungry' for a $1 discount, but no user has interacted with any form fields or entered any text.",
+        "prompt_tokens": 993,
+        "completion_tokens": 81
+      },
+      {
+        "frame_number": 204,
+        "timestamp_sec": 6.81,
+        "latency_sec": 3.81,
+        "frame_description": "The user is viewing the Kevin Cookie Company website on their desktop browser, with no active input or typing occurring. There are no visible user-entered text fields or active text being typed in the application.",
+        "prompt_tokens": 993,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 382,
+        "timestamp_sec": 12.75,
+        "latency_sec": 4.47,
+        "frame_description": "The user is viewing the YouTube channel page for Kevin Stratvert, which features a banner with his name and the tagline \"MASTER TECHNOLOGY,\" along with a website link. The page displays various video thumbnails related to technology tips and tutorials. There is no active input or text being entered by the user in this screenshot.",
+        "prompt_tokens": 993,
+        "completion_tokens": 65
+      },
+      {
+        "frame_number": 383,
+        "timestamp_sec": 12.78,
+        "latency_sec": 7.53,
+        "frame_description": "The user is viewing the YouTube channel page for Kevin Stratvert, which features a banner with his name and the tagline \"MASTER TECHNOLOGY,\" along with a website link. The page displays his profile picture, subscriber count (470K), and navigation tabs such as Home, Videos, Playlists, Community, Channels, and About. Below these tabs, there is a section labeled \"Uploads\" with a \"PLAY ALL\" button, followed by a grid of video thumbnails showcasing topics like Fortnite V-Bucks, Gmail Mail Merge, Lambda Custom Functions, Zoom Tips & Tricks, and others. The browser tabs at the top indicate that the user has other open pages, including Facebook, Twitter, LinkedIn, and a website called \"Kevin Cookie Company.\" No text is being actively typed or entered in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 172
+      }
+    ],
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 26.62,
+      "total_vlm_inference_sec": 25.0,
+      "intent_latency_sec": 1.62,
+      "frames_processed": 5,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.0,
+      "median_frame_latency_sec": 4.47,
+      "min_frame_latency_sec": 3.81,
+      "max_frame_latency_sec": 7.53,
+      "avg_description_length_chars": 399,
+      "total_prompt_tokens": 5469,
+      "total_completion_tokens": 438,
+      "avg_completion_tokens_per_sec": 16.4,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  }
+}

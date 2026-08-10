@@ -1,0 +1,124 @@
+{
+  "video": "/Users/decryan/Documents/PD/CT5230/screen-recording-description/evaluation/data/GUI-World/multi/8.mp4",
+  "total_frames": 518,
+  "fps": 29.97002997002997,
+  "video_length_sec": 17.28,
+  "resolution": "1280x720",
+  "reduced_resolution": null,
+  "frames_decoded": 518,
+  "frames_processed": 11,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "analysis_prompt": "Below is a chronological sequence of observations from a screen recording (per-frame descriptions, or partial summaries of them):\n\n{entries}\n\nIn one or two sentences, state what the user was trying to accomplish overall. Infer the goal only from the observed actions \u2014 do not invent details or quote text that is not shown above. Respond with the intent only, no preamble or labels.",
+    "intent": "The user navigated through social media and a promotional website before opening a new incognito window in Google Chrome to search for \"Ctr\" and interact with YouTube Kids. Their primary goal appears to be browsing the internet privately while managing cookie settings to prevent third-party tracking.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.03,
+        "latency_sec": 9.88,
+        "frame_description": "The user is viewing the Notifications page on Twitter, with no active input or typing occurring. The visible user-entered text includes:\n\n- Search bar: \"Search Twitter\"\n- Tweet button label: \"Tweet\"\n- Notification content (not user-entered, but displayed):\n  - \"Nick Atkinson-Coates liked a Tweet you were mentioned in\"\n  - \"Thought this might be useful for all those teaching via #MSTeams \ud83d\ude80 All the Top New Features in Microsoft Teams youtu.be/kT7r7fYdMCRY via @YouTube If you need any Teams help, @kevstrat is awesome.\"\n  - \"MR M @MRMOZPE \u00b7 42m Thought this might be useful for all those teaching via #MSTeams \ud83d\ude80 All the Top New Features in Microsoft Teams youtu.be/kT7r7fYdMCRY via @YouTube If you need any Teams help, @kevstrat is awesome.\"\n  - \"Microsoft Bing Dev followed you\"\n  - \"BACF Inc liked a reply to your Tweet DM?\"\n  - \"What's happening\"\n  - \"Premier League \u00b7 1 hour ago Southampton vs Liverpool Trend",
+        "prompt_tokens": 993,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 19,
+        "timestamp_sec": 0.63,
+        "latency_sec": 8.12,
+        "frame_description": "The user is viewing their Facebook homepage, with no active input or typing occurring. The visible user-entered text includes:\n\n- Search bar: \u201cSearch Facebook\u201d\n- Story thumbnails (titles/labels): \u201cCreate a Story\u201d, \u201cVivek Garg\u201d, \u201cB.J. Brown\u201d, \u201cMd. Jalal Uddin Sakib\u201d, \u201cLeslie Amos\u201d, \u201cKatie Meier\u201d\n- Status prompt: \u201cWhat\u2019s on your mind, Kevin?\u201d\n- Sponsored section: \u201cLieff Cabraser Heimann & Bernstein, LLP\u201d, \u201cThe Smartest Home Gym.\u201d\n- Page section: \u201cKevin Stratvert\u201d\n- Friend request: \u201cLuke Tissera\u201d\n- Bottom overlay instruction: \u201cCtrl + Shift + Tab to jump to previous\u201d\n\nNo form fields are being filled, no text is being typed, and no interactive element is currently selected or hovered \u2014 the interface is in a passive viewing state.",
+        "prompt_tokens": 993,
+        "completion_tokens": 193
+      },
+      {
+        "frame_number": 33,
+        "timestamp_sec": 1.1,
+        "latency_sec": 6.52,
+        "frame_description": "The user is viewing the Kevin Cookie Company website, which features a promotional banner for holiday cookie orders and a video titled \"Kevin Cookie Company - Official Commer...\" The page includes text describing the company's cookie-making process, mentioning ingredients like butter from grass-fed cows, unbleached flour, organic sugar from India, eggs from chickens that listen to classical music, and water from Cascade Mountain springs. A navigation menu at the top offers links to Home and Recipes, while a red banner at the top encourages ordering cookies with a promo code \"Hungry\" for a $1 discount. The user has not entered any text in form fields or search bars, and no active typing is observed.",
+        "prompt_tokens": 993,
+        "completion_tokens": 137
+      },
+      {
+        "frame_number": 76,
+        "timestamp_sec": 2.54,
+        "latency_sec": 3.87,
+        "frame_description": "The user is viewing the Kevin Cookie Company website on a desktop browser, with no active input or typing occurring. No user-entered text is visible in form fields, search bars, or other interactive elements.",
+        "prompt_tokens": 993,
+        "completion_tokens": 42
+      },
+      {
+        "frame_number": 198,
+        "timestamp_sec": 6.61,
+        "latency_sec": 9.36,
+        "frame_description": "The user is viewing the Kevin Cookie Company website on a desktop browser, with no active input or typing occurring. The visible user-entered text includes:\n\n- In the browser tabs: \"Kevin Stratvert - YouTube\", \"Kevin Cookie Company\", \"(1) Facebook / Twitter\", \"(7) Feed / LinkedIn\", \"Cameras, Lenses, Audio, Vi...\"\n- In the browser address bar: \"kevincookiecompany.com\"\n- In the website banner: \"Order your cookies today for the holidays! Use promo code 'Hungry' for a $1 discount.\"\n- In the website header: \"Kevin Cookie Company\", \"Home\", \"Recipes \u25bc\", \"KCC\"\n- In the main content area: \"KEVIN COOKIE COMPANY\", \"Deliciousness in every bite!\", \"Kevin Cookie Company - Official Commer...\", \"Hyderabad Flagship\"\n- In the map snippet: \"Hyderabad\", \"View larger map\", \"Andhra Bank\", \"Gokul Chat\", \"Koti Public\", \"Koti Womens College\", \"Telangana Medical Coun...\"\n\nNo text is currently being typed or entered by the user.",
+        "prompt_tokens": 993,
+        "completion_tokens": 236
+      },
+      {
+        "frame_number": 208,
+        "timestamp_sec": 6.94,
+        "latency_sec": 3.09,
+        "frame_description": "The user is typing \"Ctr\" in the search bar on the Google homepage.",
+        "prompt_tokens": 993,
+        "completion_tokens": 17
+      },
+      {
+        "frame_number": 339,
+        "timestamp_sec": 11.31,
+        "latency_sec": 3.68,
+        "frame_description": "The user is hovering over the \"YouTube Kids\" shortcut icon on the Google homepage.\n\nNo user-entered text is visible in any form fields or search bars on the screen.",
+        "prompt_tokens": 993,
+        "completion_tokens": 37
+      },
+      {
+        "frame_number": 349,
+        "timestamp_sec": 11.64,
+        "latency_sec": 8.0,
+        "frame_description": "The user is interacting with the \"Block third-party cookies\" toggle switch in the Incognito mode settings of Google Chrome, specifically toggling it on or off.\n\nVisible user-entered text:\n- \"You've gone incognito\"\n- \"Now you can browse privately, and other people who use this device won't see your activity. However, downloads and bookmarks will be saved. Learn more\"\n- \"Chrome won't save the following information:\"\n- \"Your browsing history\"\n- \"Cookies and site data\"\n- \"Information entered in forms\"\n- \"Your activity might still be visible to:\"\n- \"Websites you visit\"\n- \"Your employer or school\"\n- \"Your internet service provider\"\n- \"Block third-party cookies\"\n- \"When on, sites can't use cookies that track you across the web. Features on some sites may break.\"",
+        "prompt_tokens": 993,
+        "completion_tokens": 185
+      },
+      {
+        "frame_number": 359,
+        "timestamp_sec": 11.98,
+        "latency_sec": 3.5,
+        "frame_description": "The user is toggling the \"Block third-party cookies\" switch in the Incognito mode settings.\n\nVisible user-entered text: None.",
+        "prompt_tokens": 993,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 499,
+        "timestamp_sec": 16.65,
+        "latency_sec": 3.49,
+        "frame_description": "The user is toggling the \"Block third-party cookies\" switch in the Incognito mode settings.\n\nVisible user-entered text: None.",
+        "prompt_tokens": 993,
+        "completion_tokens": 30
+      },
+      {
+        "frame_number": 518,
+        "timestamp_sec": 17.28,
+        "latency_sec": 3.49,
+        "frame_description": "The user is toggling the \"Block third-party cookies\" setting in the Incognito mode page.\n\nVisible user-entered text: None.",
+        "prompt_tokens": 993,
+        "completion_tokens": 30
+      }
+    ],
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 66.59,
+      "total_vlm_inference_sec": 63.0,
+      "intent_latency_sec": 3.59,
+      "frames_processed": 11,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 5.73,
+      "median_frame_latency_sec": 3.87,
+      "min_frame_latency_sec": 3.09,
+      "max_frame_latency_sec": 9.88,
+      "avg_description_length_chars": 440.5,
+      "total_prompt_tokens": 11951,
+      "total_completion_tokens": 1247,
+      "avg_completion_tokens_per_sec": 18.9,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  }
+}

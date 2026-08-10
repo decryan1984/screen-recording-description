@@ -51,7 +51,7 @@ FRAME_DESCRIPTION_PROMPT = (
 # ONLINE VLM
 # ---------------------
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyD5NSYtvCgE7cJwPwNG04mZYU5uGBtUMZ0")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = "gemini-3.6-flash"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 GEMINI_MAX_TOKENS = 1024 # If the context is lower than this the results degrade considerably
