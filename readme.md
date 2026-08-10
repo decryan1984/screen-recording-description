@@ -157,7 +157,7 @@ The **Evaluation Results** page explores and compares batch results (reads from 
 
 ## Service mode
 
-Run a local FastAPI service that accepts a directory of videos, processes each through the pipeline in a background worker, and exposes run status + live metrics over HTTP. Per-run output is written to `./output/runs`. The queue, status, and metrics live in memory only (nothing persists between restarts). Cloud (Gemini) inference is off in service mode — submissions are always processed locally.
+Run a local FastAPI service that accepts a directory of videos, processes each through the pipeline in a background worker, and exposes run status + live metrics over HTTP. Per-run output is written to `./output/runs`. The run status, history and metrics are stored on disk and persist between restarts. Cloud (Gemini) inference is off in service mode — submissions are always processed locally.
 
 Each request can optionally pass in a custom **`analysis_prompt`** that determines the final analysis done on the frame timeline — for example a compliance or best-practice check. This defaults to the "what was the user trying to do?" intent inference.
 

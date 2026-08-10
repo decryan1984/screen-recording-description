@@ -50,11 +50,10 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
     environment:
-      OLLAMA_BASE_URL: "http://host.docker.internal:11434"
-      # GEMINI_API_KEY intentionally not set here: leaving it undefined lets the
-      # in-image config default apply. To override at runtime, uncomment the next
-      # line and `export GEMINI_API_KEY=...` on the host before running.
-      # GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      # Set on the host (`export GEMINI_API_KEY=...` or a .env file) to use
+      # --run-online-inference. If not set the config.py default applies.
+      - GEMINI_API_KEY
     volumes:
       - ./evaluation/data:/app/evaluation/data:ro
       - ./evaluation/results:/app/evaluation/results

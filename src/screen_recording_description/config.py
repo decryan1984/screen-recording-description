@@ -31,7 +31,6 @@ DEFAULT_DIFF_THRESHOLD_VALUES = [0.001, 0.005, 0.01, 0.05]
 MULTI_VARIABLE_CONFIGS = [
     {"name": "fullres", "max_frame_width": 0},
     {"name": "tokens_128", "max_tokens": 128},
-    # tokens_256 omitted: identical to the baseline threshold run (MAX_TOKENS = 256)
     {"name": "tokens_512", "max_tokens": 512},
 ]
 # Maximum frames per second to process.

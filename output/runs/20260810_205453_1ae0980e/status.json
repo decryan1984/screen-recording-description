@@ -1,0 +1,13 @@
+{
+  "run_id": "20260810_205453_1ae0980e",
+  "video_path": "/Users/decryan/Documents/PD/CT5230/screen-recording-description/evaluation/data/GUI-World/multi/4.mp4",
+  "status": "succeeded",
+  "submitted_at": "2026-08-10T19:54:53.144107+00:00",
+  "analysis_prompt": "You are a security auditor. Based only on the observations below, state whether any confidential or sensitive information was visible on screen. Answer with YES or NO followed by one sentence of evidence.",
+  "started_at": "2026-08-10T19:54:53.144440+00:00",
+  "run_dir": "20260810_205453_1ae0980e",
+  "finished_at": "2026-08-10T19:55:06.814008+00:00",
+  "processing_sec": 13.67,
+  "video_length_sec": 2.92,
+  "frames_processed": 2
+}
