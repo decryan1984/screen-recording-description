@@ -1,0 +1,92 @@
+{
+  "video": "/Users/decryan/Documents/PD/CT5230/screen-recording-description/evaluation/data/GUI-World/multi/457.mov",
+  "total_frames": 1766,
+  "fps": 46.5793048271739,
+  "video_length_sec": 37.91,
+  "resolution": "4096x2304",
+  "reduced_resolution": "2048x1152",
+  "frames_decoded": 1766,
+  "frames_processed": 7,
+  "vlm": {
+    "model": "qwen3.5:4b",
+    "diff_threshold": 0.01,
+    "analysis_prompt": "Review the timeline of screen-recording frame descriptions below and determine whether the user shared any confidential or sensitive information with another person or outside party. Look for credentials, API keys, personal data, customer or financial records, internal documents and private messages, and note the channel used (email, chat, screen share, file transfer). For each disclosure give the timestamp, what was shared and who received it. If nothing confidential was shared, say so explicitly.\n\n{entries}",
+    "intent": "Based on the review of the provided timeline and visible text, **no confidential or sensitive information was shared with another person or an outside party.**\n\nWhile the user did send an email, the content and recipients do not constitute a disclosure of sensitive data such as credentials, API keys, personal data, customer records, or internal documents. The analysis is as follows:\n\n*   **Timestamp:** [Frame 1766] [37.91s]\n*   **What was shared:** An email titled \"Greetings from Dongping\" containing the body text \"Hi, Q\".\n*   **Who received it:** The email was addressed to `maskhui1003@gmail.com`.\n*   **Context:** The email appears to be a standard, low-stakes communication (a greeting). It does not contain any visible credentials, financial records, private messages, or internal documents. The recipient's email address is a standard public format and does not indicate a sensitive internal system or private individual in this context.\n\nAll other activities in the timeline involved viewing public or semi-public information (model performance metrics, Apple subscription receipts, and Apple purchase invoices) or navigating standard email folders, none of which involve sharing data with an external party.",
+    "timeline": [
+      {
+        "frame_number": 1,
+        "timestamp_sec": 0.02,
+        "latency_sec": 7.96,
+        "frame_description": "The user is typing \"Spotlight Search\" in the Spotlight Search bar.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 16
+      },
+      {
+        "frame_number": 162,
+        "timestamp_sec": 3.48,
+        "latency_sec": 8.93,
+        "frame_description": "The user is viewing a presentation slide titled \"Model performance on Refcoco\" in a presentation software application, with a table displaying model performance metrics for various tests.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 34
+      },
+      {
+        "frame_number": 178,
+        "timestamp_sec": 3.82,
+        "latency_sec": 9.22,
+        "frame_description": "The user is viewing the Outlook application on their desktop, with no conversation currently selected in the main pane. There is no active input or typing occurring in any form fields or search bars within the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 41
+      },
+      {
+        "frame_number": 279,
+        "timestamp_sec": 5.99,
+        "latency_sec": 15.43,
+        "frame_description": "The user is hovering over the 'Focused' tab in the email application.\n\nVisible user-entered text:\n- \"New Message\" (button label)\n- \"Focused\" (tab label)\n- \"Other\" (tab label)\n- \"Inbox\" (folder name)\n- \"1\" (item count)\n- \"Drafts\" (folder name)\n- \"Archive\" (folder name)\n- \"Sent\" (folder name)\n- \"Deleted Items\" (folder name)\n- \"Junk Email\" (folder name)\n- \"Outbox\" (folder name)\n- \"Snoozed\" (folder name)\n- \"shuaishuaicdp@o...\" (email address)\n- \"Inbox\" (subfolder name)\n- \"Drafts\" (subfolder name)\n- \"Archive\" (subfolder name)\n- \"Sent\" (subfolder name)\n- \"Deleted Items\" (subfolder name)\n- \"Junk Email\" (subfolder name)\n- \"Conversation Hist...\" (subfolder name)\n- \"cdp_0612@163.c...\" (email address)\n- \"sh",
+        "prompt_tokens": 2093,
+        "completion_tokens": 256
+      },
+      {
+        "frame_number": 451,
+        "timestamp_sec": 9.68,
+        "latency_sec": 9.82,
+        "frame_description": "The user is viewing an email titled \"Subscription Confirmation\" from Apple, which details a subscription offer for Alibaba Cloud. The email includes information about the subscription provider, date accepted, trial period, and subscription price. There is no active typing or input visible in the application.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 55
+      },
+      {
+        "frame_number": 601,
+        "timestamp_sec": 12.9,
+        "latency_sec": 11.98,
+        "frame_description": "The user is viewing an email in the Apple Mail application, specifically a receipt from Apple regarding an App Store purchase. The email is open and displayed on the right side of the window, showing details such as the invoice date (01 Apr 2024), order ID (MSHL8V3BW), document number (192782942928), and a total amount of \u00a514. The email is addressed to 792027284 and sent from no_reply@apple.com. The user has not made any active input or modifications to the email content; they are simply reading the message.",
+        "prompt_tokens": 2093,
+        "completion_tokens": 136
+      },
+      {
+        "frame_number": 1766,
+        "timestamp_sec": 37.91,
+        "latency_sec": 9.74,
+        "frame_description": "The user is typing \"Hi, Q\" in the email composition window.\n\nVisible user-entered text:\n- \"maskhui1003@gmail.com\" (To field)\n- \"Greetings from Dongping\" (Subject field)\n- \"Hi, Q\" (Email body)",
+        "prompt_tokens": 2093,
+        "completion_tokens": 62
+      }
+    ],
+    "performance": {
+      "vlm_model": "qwen3.5:4b",
+      "standalone_pipeline_sec": 81.47,
+      "total_vlm_inference_sec": 73.08,
+      "intent_latency_sec": 8.39,
+      "frames_processed": 7,
+      "frames_with_empty_description": 0,
+      "avg_frame_latency_sec": 10.44,
+      "median_frame_latency_sec": 9.74,
+      "min_frame_latency_sec": 7.96,
+      "max_frame_latency_sec": 15.43,
+      "avg_description_length_chars": 313.3,
+      "total_prompt_tokens": 15373,
+      "total_completion_tokens": 854,
+      "avg_completion_tokens_per_sec": 8.2,
+      "model_memory_mb": 5512,
+      "model_params": 4659865088
+    }
+  }
+}

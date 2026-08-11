@@ -324,7 +324,7 @@ def render_video(name, data):
 
     intent = block.get("intent")
     if intent:
-        st.markdown("#### Intent")
+        st.markdown("#### Analysis")
         st.write(intent)
 
     timeline = block.get("timeline", [])
@@ -346,7 +346,7 @@ def render_video(name, data):
         # vlm_model and frames_processed are already shown above, so omit them here.
         perf_items = [
             ("Total VLM inference (sec)", performance.get("total_vlm_inference_sec")),
-            ("Intent latency (sec)", performance.get("intent_latency_sec")
+            ("Analysis latency (sec)", performance.get("intent_latency_sec")
              or performance.get("summary_latency_sec")),
             ("Standalone pipeline (sec)", performance.get("standalone_pipeline_sec")),
             ("Avg frame latency (sec)", performance.get("avg_frame_latency_sec")),
